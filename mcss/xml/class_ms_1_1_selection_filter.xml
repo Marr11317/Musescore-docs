@@ -1,0 +1,185 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.17">
+  <compounddef id="class_ms_1_1_selection_filter" kind="class" language="C++" prot="public">
+    <compoundname>Ms::SelectionFilter</compoundname>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_ms_1_1_selection_filter_1afe7312c837c589f4aaec0d0cf7e7b23f" prot="private" static="no" mutable="no">
+        <type><ref refid="class_ms_1_1_score" kindref="compound">Score</ref> *</type>
+        <definition>Score* Ms::SelectionFilter::_score</definition>
+        <argsstring></argsstring>
+        <name>_score</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/select.h" line="116" column="13" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/select.h" bodystart="116" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_ms_1_1_selection_filter_1a07707b406a954fdb77dd4fb3ca48107a" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int Ms::SelectionFilter::_filtered</definition>
+        <argsstring></argsstring>
+        <name>_filtered</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/select.h" line="117" column="11" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/select.h" bodystart="117" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_ms_1_1_selection_filter_1a5302abade5ffad14b82eb9d28ab1be1a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>Ms::SelectionFilter::SelectionFilter</definition>
+        <argsstring>()</argsstring>
+        <name>SelectionFilter</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/select.h" line="120" column="7" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/select.h" bodystart="120" bodyend="120"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ms_1_1_selection_filter_1aaeb850640d801c10c7db7b309b5fb662" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>Ms::SelectionFilter::SelectionFilter</definition>
+        <argsstring>(SelectionFilterType f)</argsstring>
+        <name>SelectionFilter</name>
+        <param>
+          <type>SelectionFilterType</type>
+          <declname>f</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/select.h" line="121" column="7" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/select.h" bodystart="121" bodyend="121"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ms_1_1_selection_filter_1a885d2134f90c817da40be50b0413b423" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>Ms::SelectionFilter::SelectionFilter</definition>
+        <argsstring>(Score *score)</argsstring>
+        <name>SelectionFilter</name>
+        <param>
+          <type><ref refid="class_ms_1_1_score" kindref="compound">Score</ref> *</type>
+          <declname>score</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/select.h" line="122" column="7" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/select.h" bodystart="122" bodyend="122"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ms_1_1_selection_filter_1adb917d05def6e0aea7316488f1c2f281" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>int &amp;</type>
+        <definition>int&amp; Ms::SelectionFilter::filtered</definition>
+        <argsstring>()</argsstring>
+        <name>filtered</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/select.h" line="123" column="11" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/select.h" bodystart="123" bodyend="123"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ms_1_1_selection_filter_1aee6524a9a07f64226f30112972755b44" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Ms::SelectionFilter::setFiltered</definition>
+        <argsstring>(SelectionFilterType type, bool set)</argsstring>
+        <name>setFiltered</name>
+        <param>
+          <type>SelectionFilterType</type>
+          <declname>type</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>set</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/select.h" line="124" column="12" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/select.cpp" bodystart="1385" bodyend="1391"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ms_1_1_selection_filter_1aa144080dfade96fb184d1122892cdbdd" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool Ms::SelectionFilter::isFiltered</definition>
+        <argsstring>(SelectionFilterType type) const</argsstring>
+        <name>isFiltered</name>
+        <param>
+          <type>SelectionFilterType</type>
+          <declname>type</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/select.h" line="125" column="12" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/select.h" bodystart="125" bodyend="125"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ms_1_1_selection_filter_1a2df3f78bf495c4a87f235d6ac75f4e43" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool Ms::SelectionFilter::canSelect</definition>
+        <argsstring>(const Element *) const</argsstring>
+        <name>canSelect</name>
+        <param>
+          <type>const <ref refid="class_ms_1_1_element" kindref="compound">Element</ref> *</type>
+          <defname>e</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/select.h" line="126" column="12" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/select.cpp" bodystart="382" bodyend="419"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ms_1_1_selection_filter_1a4862ccc03e23281c6041408f37168eb0" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool Ms::SelectionFilter::canSelectVoice</definition>
+        <argsstring>(int track) const</argsstring>
+        <name>canSelectVoice</name>
+        <param>
+          <type>int</type>
+          <declname>track</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/select.h" line="127" column="12" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/select.cpp" bodystart="425" bodyend="439"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/select.h" line="115" column="22" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/select.h" bodystart="115" bodyend="128"/>
+    <listofallmembers>
+      <member refid="class_ms_1_1_selection_filter_1a07707b406a954fdb77dd4fb3ca48107a" prot="private" virt="non-virtual"><scope>Ms::SelectionFilter</scope><name>_filtered</name></member>
+      <member refid="class_ms_1_1_selection_filter_1afe7312c837c589f4aaec0d0cf7e7b23f" prot="private" virt="non-virtual"><scope>Ms::SelectionFilter</scope><name>_score</name></member>
+      <member refid="class_ms_1_1_selection_filter_1a2df3f78bf495c4a87f235d6ac75f4e43" prot="public" virt="non-virtual"><scope>Ms::SelectionFilter</scope><name>canSelect</name></member>
+      <member refid="class_ms_1_1_selection_filter_1a4862ccc03e23281c6041408f37168eb0" prot="public" virt="non-virtual"><scope>Ms::SelectionFilter</scope><name>canSelectVoice</name></member>
+      <member refid="class_ms_1_1_selection_filter_1adb917d05def6e0aea7316488f1c2f281" prot="public" virt="non-virtual"><scope>Ms::SelectionFilter</scope><name>filtered</name></member>
+      <member refid="class_ms_1_1_selection_filter_1aa144080dfade96fb184d1122892cdbdd" prot="public" virt="non-virtual"><scope>Ms::SelectionFilter</scope><name>isFiltered</name></member>
+      <member refid="class_ms_1_1_selection_filter_1a5302abade5ffad14b82eb9d28ab1be1a" prot="public" virt="non-virtual"><scope>Ms::SelectionFilter</scope><name>SelectionFilter</name></member>
+      <member refid="class_ms_1_1_selection_filter_1aaeb850640d801c10c7db7b309b5fb662" prot="public" virt="non-virtual"><scope>Ms::SelectionFilter</scope><name>SelectionFilter</name></member>
+      <member refid="class_ms_1_1_selection_filter_1a885d2134f90c817da40be50b0413b423" prot="public" virt="non-virtual"><scope>Ms::SelectionFilter</scope><name>SelectionFilter</name></member>
+      <member refid="class_ms_1_1_selection_filter_1aee6524a9a07f64226f30112972755b44" prot="public" virt="non-virtual"><scope>Ms::SelectionFilter</scope><name>setFiltered</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

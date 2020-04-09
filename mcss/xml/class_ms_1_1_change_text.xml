@@ -1,0 +1,234 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.17">
+  <compounddef id="class_ms_1_1_change_text" kind="class" language="C++" prot="public" abstract="yes">
+    <compoundname>Ms::ChangeText</compoundname>
+    <basecompoundref refid="class_ms_1_1_text_edit_undo_command" prot="public" virt="non-virtual">Ms::TextEditUndoCommand</basecompoundref>
+    <derivedcompoundref refid="class_ms_1_1_insert_text" prot="public" virt="non-virtual">Ms::InsertText</derivedcompoundref>
+    <derivedcompoundref refid="class_ms_1_1_remove_text" prot="public" virt="non-virtual">Ms::RemoveText</derivedcompoundref>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_ms_1_1_change_text_1afc766de1ff5f3981fbcd1ee5a2cb6e15" prot="private" static="no" mutable="no">
+        <type>QString</type>
+        <definition>QString Ms::ChangeText::s</definition>
+        <argsstring></argsstring>
+        <name>s</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/textedit.h" line="60" column="15" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/textedit.h" bodystart="60" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="protected-func">
+      <memberdef kind="function" id="class_ms_1_1_change_text_1ad10bf33fd65c11b6c6ae477070cad74f" prot="protected" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Ms::ChangeText::insertText</definition>
+        <argsstring>(EditData *)</argsstring>
+        <name>insertText</name>
+        <param>
+          <type><ref refid="class_ms_1_1_edit_data" kindref="compound">EditData</ref> *</type>
+          <defname>ed</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/textedit.h" line="63" column="12" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/textedit.cpp" bodystart="458" bodyend="466"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ms_1_1_change_text_1ad84e989ad131a4e377b75a908c2f6e30" prot="protected" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Ms::ChangeText::removeText</definition>
+        <argsstring>(EditData *)</argsstring>
+        <name>removeText</name>
+        <param>
+          <type><ref refid="class_ms_1_1_edit_data" kindref="compound">EditData</ref> *</type>
+          <defname>ed</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/textedit.h" line="64" column="12" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/textedit.cpp" bodystart="472" bodyend="484"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_ms_1_1_change_text_1aafe532fb706b559fa8091a7f91bea26a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>Ms::ChangeText::ChangeText</definition>
+        <argsstring>(const TextCursor *tc, const QString &amp;t)</argsstring>
+        <name>ChangeText</name>
+        <param>
+          <type>const <ref refid="class_ms_1_1_text_cursor" kindref="compound">TextCursor</ref> *</type>
+          <declname>tc</declname>
+        </param>
+        <param>
+          <type>const QString &amp;</type>
+          <declname>t</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/textedit.h" line="67" column="7" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/textedit.h" bodystart="67" bodyend="67"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ms_1_1_change_text_1a7110420dd389650591f741db904c7255" prot="public" static="no" const="no" explicit="no" inline="no" virt="pure-virtual">
+        <type>void</type>
+        <definition>virtual void Ms::ChangeText::undo</definition>
+        <argsstring>(EditData *) override=0</argsstring>
+        <name>undo</name>
+        <reimplements refid="class_ms_1_1_undo_command_1a42a2038f903e77e6bb5881209b764186">undo</reimplements>
+        <reimplementedby refid="class_ms_1_1_insert_text_1aa3a0556202ca1992d63937111580cc8c">undo</reimplementedby>
+        <reimplementedby refid="class_ms_1_1_remove_text_1a331671e5f575e280993b9a4011b266c6">undo</reimplementedby>
+        <param>
+          <type><ref refid="class_ms_1_1_edit_data" kindref="compound">EditData</ref> *</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/textedit.h" line="68" column="20"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ms_1_1_change_text_1ab888d6b0c35f784c450d75e280b5f2e8" prot="public" static="no" const="no" explicit="no" inline="no" virt="pure-virtual">
+        <type>void</type>
+        <definition>virtual void Ms::ChangeText::redo</definition>
+        <argsstring>(EditData *) override=0</argsstring>
+        <name>redo</name>
+        <reimplements refid="class_ms_1_1_undo_command_1a7fccbb0cf027a5e3b43176a5e0213f75">redo</reimplements>
+        <reimplementedby refid="class_ms_1_1_insert_text_1a1368c1d69c4e47e12f6a783efd0b9bbd">redo</reimplementedby>
+        <reimplementedby refid="class_ms_1_1_remove_text_1a96bb22c0aff180de8f97d9cd5cb75bbf">redo</reimplementedby>
+        <param>
+          <type><ref refid="class_ms_1_1_edit_data" kindref="compound">EditData</ref> *</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/textedit.h" line="69" column="20"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ms_1_1_change_text_1a23328d292b300661749537136af22f1f" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>const <ref refid="class_ms_1_1_text_cursor" kindref="compound">TextCursor</ref> &amp;</type>
+        <definition>const TextCursor&amp; Ms::ChangeText::cursor</definition>
+        <argsstring>() const</argsstring>
+        <name>cursor</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/textedit.h" line="70" column="24" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/textedit.h" bodystart="70" bodyend="70"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ms_1_1_change_text_1a9bd89c436d1b95ec7b7fcfb7beb15ef7" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>const QString &amp;</type>
+        <definition>const QString&amp; Ms::ChangeText::string</definition>
+        <argsstring>() const</argsstring>
+        <name>string</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/textedit.h" line="71" column="21" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/textedit.h" bodystart="71" bodyend="71"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>Ms::ChangeText</label>
+        <link refid="class_ms_1_1_change_text"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>Ms::TextEditUndoCommand</label>
+        <link refid="class_ms_1_1_text_edit_undo_command"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>Ms::UndoCommand</label>
+        <link refid="class_ms_1_1_undo_command"/>
+      </node>
+      <node id="4">
+        <label>Ms::InsertText</label>
+        <link refid="class_ms_1_1_insert_text"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="5">
+        <label>Ms::RemoveText</label>
+        <link refid="class_ms_1_1_remove_text"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="4">
+        <label>Ms::TextCursor</label>
+        <link refid="class_ms_1_1_text_cursor"/>
+      </node>
+      <node id="1">
+        <label>Ms::ChangeText</label>
+        <link refid="class_ms_1_1_change_text"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>Ms::TextEditUndoCommand</label>
+        <link refid="class_ms_1_1_text_edit_undo_command"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="usage">
+          <edgelabel>c</edgelabel>
+        </childnode>
+      </node>
+      <node id="3">
+        <label>Ms::UndoCommand</label>
+        <link refid="class_ms_1_1_undo_command"/>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/textedit.h" line="59" column="44" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/textedit.h" bodystart="59" bodyend="72"/>
+    <listofallmembers>
+      <member refid="class_ms_1_1_undo_command_1a0f5b568325d235501e5cc197b7a4d4c8" prot="public" virt="non-virtual"><scope>Ms::ChangeText</scope><name>appendChild</name></member>
+      <member refid="class_ms_1_1_undo_command_1adbc9ce586560a1ca06f83bb38d04c4f0" prot="protected" virt="non-virtual"><scope>Ms::ChangeText</scope><name>appendChildren</name></member>
+      <member refid="class_ms_1_1_text_edit_undo_command_1a3e51c9f165bd8d9cf380de738af87494" prot="protected" virt="non-virtual"><scope>Ms::ChangeText</scope><name>c</name></member>
+      <member refid="class_ms_1_1_change_text_1aafe532fb706b559fa8091a7f91bea26a" prot="public" virt="non-virtual"><scope>Ms::ChangeText</scope><name>ChangeText</name></member>
+      <member refid="class_ms_1_1_undo_command_1a701d710e19f4d356f2b12d093729d295" prot="public" virt="non-virtual"><scope>Ms::ChangeText</scope><name>childCount</name></member>
+      <member refid="class_ms_1_1_undo_command_1a0bbdf4bc79885d76228b155599fb46ce" prot="public" virt="virtual"><scope>Ms::ChangeText</scope><name>cleanup</name></member>
+      <member refid="class_ms_1_1_undo_command_1a4cdbb50e02a38b3c0b259e8bb6b58bca" prot="public" virt="non-virtual"><scope>Ms::ChangeText</scope><name>commands</name></member>
+      <member refid="class_ms_1_1_change_text_1a23328d292b300661749537136af22f1f" prot="public" virt="non-virtual"><scope>Ms::ChangeText</scope><name>cursor</name></member>
+      <member refid="class_ms_1_1_undo_command_1a7c3fae86b0c593d95eb2acf44348b425" prot="public" virt="non-virtual"><scope>Ms::ChangeText</scope><name>Filter</name></member>
+      <member refid="class_ms_1_1_undo_command_1a850e4c72c907bce1aed4b7d318ddf626" prot="public" virt="non-virtual"><scope>Ms::ChangeText</scope><name>filterChildren</name></member>
+      <member refid="class_ms_1_1_undo_command_1a861162fe6c105a00dfec5a5b70a690a5" prot="protected" virt="virtual"><scope>Ms::ChangeText</scope><name>flip</name></member>
+      <member refid="class_ms_1_1_undo_command_1a09b5c550fffd0dfe1e38490c7f0de8e4" prot="public" virt="non-virtual"><scope>Ms::ChangeText</scope><name>hasFilteredChildren</name></member>
+      <member refid="class_ms_1_1_undo_command_1a7131c9beb9c694ef3f0d8235f4e2892a" prot="public" virt="non-virtual"><scope>Ms::ChangeText</scope><name>hasUnfilteredChildren</name></member>
+      <member refid="class_ms_1_1_change_text_1ad10bf33fd65c11b6c6ae477070cad74f" prot="protected" virt="non-virtual"><scope>Ms::ChangeText</scope><name>insertText</name></member>
+      <member refid="class_ms_1_1_text_edit_undo_command_1a5f4dbe97f215f792d960059490fed621" prot="public" virt="virtual"><scope>Ms::ChangeText</scope><name>isFiltered</name></member>
+      <member refid="class_ms_1_1_undo_command_1acdd15da86ef5878bc98ef2be084cc4be" prot="public" virt="virtual"><scope>Ms::ChangeText</scope><name>name</name></member>
+      <member refid="class_ms_1_1_change_text_1ab888d6b0c35f784c450d75e280b5f2e8" prot="public" virt="pure-virtual"><scope>Ms::ChangeText</scope><name>redo</name></member>
+      <member refid="class_ms_1_1_undo_command_1ad645cbed278b04cea2164006b52c4d8f" prot="public" virt="non-virtual"><scope>Ms::ChangeText</scope><name>removeChild</name></member>
+      <member refid="class_ms_1_1_change_text_1ad84e989ad131a4e377b75a908c2f6e30" prot="protected" virt="non-virtual"><scope>Ms::ChangeText</scope><name>removeText</name></member>
+      <member refid="class_ms_1_1_change_text_1afc766de1ff5f3981fbcd1ee5a2cb6e15" prot="private" virt="non-virtual"><scope>Ms::ChangeText</scope><name>s</name></member>
+      <member refid="class_ms_1_1_change_text_1a9bd89c436d1b95ec7b7fcfb7beb15ef7" prot="public" virt="non-virtual"><scope>Ms::ChangeText</scope><name>string</name></member>
+      <member refid="class_ms_1_1_text_edit_undo_command_1a264c38aef180ebf4439ef271ed095b6c" prot="public" virt="non-virtual"><scope>Ms::ChangeText</scope><name>TextEditUndoCommand</name></member>
+      <member refid="class_ms_1_1_change_text_1a7110420dd389650591f741db904c7255" prot="public" virt="pure-virtual"><scope>Ms::ChangeText</scope><name>undo</name></member>
+      <member refid="class_ms_1_1_undo_command_1abc893037b5a33408c25552b8579debe4" prot="public" virt="non-virtual"><scope>Ms::ChangeText</scope><name>unwind</name></member>
+      <member refid="class_ms_1_1_undo_command_1ad4aec6e8dbb0e92bd2b8be2ebd79b9df" prot="public" virt="virtual"><scope>Ms::ChangeText</scope><name>~UndoCommand</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

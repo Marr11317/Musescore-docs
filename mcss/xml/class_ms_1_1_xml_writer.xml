@@ -1,0 +1,1280 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.17">
+  <compounddef id="class_ms_1_1_xml_writer" kind="class" language="C++" prot="public">
+    <compoundname>Ms::XmlWriter</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">QTextStream</basecompoundref>
+      <sectiondef kind="private-static-attrib">
+      <memberdef kind="variable" id="class_ms_1_1_xml_writer_1a11b9721750e063c73fce4b310429ad84" prot="private" static="yes" mutable="no">
+        <type>const int</type>
+        <definition>const int Ms::XmlWriter::BS</definition>
+        <argsstring></argsstring>
+        <name>BS</name>
+        <initializer>= 2048</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/xml.h" line="221" column="24" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/xml.h" bodystart="221" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_ms_1_1_xml_writer_1ac6d81d73c7da89d464a5eec55234e038" prot="private" static="no" mutable="no">
+        <type><ref refid="class_ms_1_1_score" kindref="compound">Score</ref> *</type>
+        <definition>Score* Ms::XmlWriter::_score</definition>
+        <argsstring></argsstring>
+        <name>_score</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/xml.h" line="223" column="13" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/xml.h" bodystart="223" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_ms_1_1_xml_writer_1a9aacf27e5d53fb0a2d0d8251894049c4" prot="private" static="no" mutable="no">
+        <type>QList&lt; QString &gt;</type>
+        <definition>QList&lt;QString&gt; Ms::XmlWriter::stack</definition>
+        <argsstring></argsstring>
+        <name>stack</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/xml.h" line="224" column="13" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/xml.h" bodystart="224" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_ms_1_1_xml_writer_1a2d11cf01c172fb57b0ecf607cfb0ade3" prot="private" static="no" mutable="no">
+        <type><ref refid="class_ms_1_1_selection_filter" kindref="compound">SelectionFilter</ref></type>
+        <definition>SelectionFilter Ms::XmlWriter::_filter</definition>
+        <argsstring></argsstring>
+        <name>_filter</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/xml.h" line="225" column="23" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/xml.h" bodystart="225" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_ms_1_1_xml_writer_1a42da964a40ce79c83effaff054a5507a" prot="private" static="no" mutable="no">
+        <type><ref refid="class_ms_1_1_fraction" kindref="compound">Fraction</ref></type>
+        <definition>Fraction Ms::XmlWriter::_curTick</definition>
+        <argsstring></argsstring>
+        <name>_curTick</name>
+        <initializer>{ 0, 1 }</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/xml.h" line="227" column="16" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/xml.h" bodystart="227" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_ms_1_1_xml_writer_1ae269657b80d119ddedbd06c697a13670" prot="private" static="no" mutable="no">
+        <type><ref refid="class_ms_1_1_fraction" kindref="compound">Fraction</ref></type>
+        <definition>Fraction Ms::XmlWriter::_tickDiff</definition>
+        <argsstring></argsstring>
+        <name>_tickDiff</name>
+        <initializer>{ 0, 1 }</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/xml.h" line="228" column="16" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/xml.h" bodystart="228" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_ms_1_1_xml_writer_1a09f7dcc8864ec3589556e3f018726bac" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int Ms::XmlWriter::_curTrack</definition>
+        <argsstring></argsstring>
+        <name>_curTrack</name>
+        <initializer>{ -1 }</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/xml.h" line="229" column="11" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/xml.h" bodystart="229" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_ms_1_1_xml_writer_1aa0c30096c722e471616877f5cac72825" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int Ms::XmlWriter::_trackDiff</definition>
+        <argsstring></argsstring>
+        <name>_trackDiff</name>
+        <initializer>{ 0 }</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/xml.h" line="230" column="11" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/xml.h" bodystart="230" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_ms_1_1_xml_writer_1a00b96472d8215543ab680b50ea936f32" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool Ms::XmlWriter::_clipboardmode</definition>
+        <argsstring></argsstring>
+        <name>_clipboardmode</name>
+        <initializer>{ false }</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/xml.h" line="232" column="12" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/xml.h" bodystart="232" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_ms_1_1_xml_writer_1a5ef224aafac1b5a8e29ab40990b5e449" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool Ms::XmlWriter::_excerptmode</definition>
+        <argsstring></argsstring>
+        <name>_excerptmode</name>
+        <initializer>{ false }</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/xml.h" line="233" column="12" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/xml.h" bodystart="233" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_ms_1_1_xml_writer_1ae3f1bda227dab5d02cf99377bdd05a39" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool Ms::XmlWriter::_writeOmr</definition>
+        <argsstring></argsstring>
+        <name>_writeOmr</name>
+        <initializer>{ true }</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/xml.h" line="234" column="12" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/xml.h" bodystart="234" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_ms_1_1_xml_writer_1a1aed5e1d27a5857e696cc2c2882bd19e" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool Ms::XmlWriter::_writeTrack</definition>
+        <argsstring></argsstring>
+        <name>_writeTrack</name>
+        <initializer>{ false }</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/xml.h" line="235" column="12" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/xml.h" bodystart="235" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_ms_1_1_xml_writer_1a6f2c1718f3adfb9da8e3f1b0c3ddba46" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool Ms::XmlWriter::_writePosition</definition>
+        <argsstring></argsstring>
+        <name>_writePosition</name>
+        <initializer>{ false }</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/xml.h" line="236" column="12" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/xml.h" bodystart="236" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_ms_1_1_xml_writer_1a55359e3be98083f05e0c77298e083fc3" prot="private" static="no" mutable="no">
+        <type><ref refid="class_ms_1_1_links_indexer" kindref="compound">LinksIndexer</ref></type>
+        <definition>LinksIndexer Ms::XmlWriter::_linksIndexer</definition>
+        <argsstring></argsstring>
+        <name>_linksIndexer</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/xml.h" line="238" column="20" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/xml.h" bodystart="238" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_ms_1_1_xml_writer_1a6aa0b44223de57cc5941f7ce47918ee4" prot="private" static="no" mutable="no">
+        <type>QMap&lt; int, int &gt;</type>
+        <definition>QMap&lt;int, int&gt; Ms::XmlWriter::_lidLocalIndices</definition>
+        <argsstring></argsstring>
+        <name>_lidLocalIndices</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/xml.h" line="239" column="12" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/xml.h" bodystart="239" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_ms_1_1_xml_writer_1a820e5a78d7d35882e84236d5ef6f4485" prot="private" static="no" mutable="no">
+        <type>std::vector&lt; std::pair&lt; const <ref refid="class_ms_1_1_score_element" kindref="compound">ScoreElement</ref> *, QString &gt; &gt;</type>
+        <definition>std::vector&lt;std::pair&lt;const ScoreElement*, QString&gt; &gt; Ms::XmlWriter::_elements</definition>
+        <argsstring></argsstring>
+        <name>_elements</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/xml.h" line="241" column="19" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/xml.h" bodystart="241" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_ms_1_1_xml_writer_1a4bc0f111c9746236615bfa50a0fdd456" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool Ms::XmlWriter::_recordElements</definition>
+        <argsstring></argsstring>
+        <name>_recordElements</name>
+        <initializer>= false</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/xml.h" line="242" column="12" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/xml.h" bodystart="242" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_ms_1_1_xml_writer_1afb4a5aed26eef6fc47f4d6a233c839f1" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Ms::XmlWriter::putLevel</definition>
+        <argsstring>()</argsstring>
+        <name>putLevel</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/xml.h" line="244" column="12" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/xmlwriter.cpp" bodystart="52" bodyend="57"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_ms_1_1_xml_writer_1a8ab9f9fe32f6f74df70a181fcf5c3de7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>Ms::XmlWriter::XmlWriter</definition>
+        <argsstring>(Score *)</argsstring>
+        <name>XmlWriter</name>
+        <param>
+          <type><ref refid="class_ms_1_1_score" kindref="compound">Score</ref> *</type>
+          <defname>s</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/xml.h" line="247" column="7" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/xmlwriter.cpp" bodystart="23" bodyend="27"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ms_1_1_xml_writer_1a1e3d486598616ec8947a3064729ee852" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>Ms::XmlWriter::XmlWriter</definition>
+        <argsstring>(Score *s, QIODevice *dev)</argsstring>
+        <name>XmlWriter</name>
+        <param>
+          <type><ref refid="class_ms_1_1_score" kindref="compound">Score</ref> *</type>
+          <declname>s</declname>
+        </param>
+        <param>
+          <type>QIODevice *</type>
+          <declname>dev</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/xml.h" line="248" column="7" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/xmlwriter.cpp" bodystart="29" bodyend="34"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ms_1_1_xml_writer_1a51f1f4f5dadf806ded326d232bf13694" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="class_ms_1_1_fraction" kindref="compound">Fraction</ref></type>
+        <definition>Fraction Ms::XmlWriter::curTick</definition>
+        <argsstring>() const</argsstring>
+        <name>curTick</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/xml.h" line="250" column="16" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/xml.h" bodystart="250" bodyend="250"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ms_1_1_xml_writer_1af5ef5ed881b0bb64fe952cd9ef16de01" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Ms::XmlWriter::setCurTick</definition>
+        <argsstring>(const Fraction &amp;v)</argsstring>
+        <name>setCurTick</name>
+        <param>
+          <type>const <ref refid="class_ms_1_1_fraction" kindref="compound">Fraction</ref> &amp;</type>
+          <declname>v</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/xml.h" line="251" column="12" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/xml.h" bodystart="251" bodyend="251"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ms_1_1_xml_writer_1a97b194727366babd3d3f76bcfb47652e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Ms::XmlWriter::incCurTick</definition>
+        <argsstring>(const Fraction &amp;v)</argsstring>
+        <name>incCurTick</name>
+        <param>
+          <type>const <ref refid="class_ms_1_1_fraction" kindref="compound">Fraction</ref> &amp;</type>
+          <declname>v</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/xml.h" line="252" column="12" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/xml.h" bodystart="252" bodyend="252"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ms_1_1_xml_writer_1a38b428167b868eef3fb465902c2e3c88" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>int</type>
+        <definition>int Ms::XmlWriter::curTrack</definition>
+        <argsstring>() const</argsstring>
+        <name>curTrack</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/xml.h" line="254" column="11" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/xml.h" bodystart="254" bodyend="254"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ms_1_1_xml_writer_1af3da6b5c8a7d49d1ad69286a3c7e2587" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Ms::XmlWriter::setCurTrack</definition>
+        <argsstring>(int v)</argsstring>
+        <name>setCurTrack</name>
+        <param>
+          <type>int</type>
+          <declname>v</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/xml.h" line="255" column="12" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/xml.h" bodystart="255" bodyend="255"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ms_1_1_xml_writer_1abbb9b5ed2e04021f7728b5efd45ee9ae" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="class_ms_1_1_fraction" kindref="compound">Fraction</ref></type>
+        <definition>Fraction Ms::XmlWriter::tickDiff</definition>
+        <argsstring>() const</argsstring>
+        <name>tickDiff</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/xml.h" line="257" column="16" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/xml.h" bodystart="257" bodyend="257"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ms_1_1_xml_writer_1af76c2426682653af8947f9ee7fed48f5" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Ms::XmlWriter::setTickDiff</definition>
+        <argsstring>(const Fraction &amp;v)</argsstring>
+        <name>setTickDiff</name>
+        <param>
+          <type>const <ref refid="class_ms_1_1_fraction" kindref="compound">Fraction</ref> &amp;</type>
+          <declname>v</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/xml.h" line="258" column="12" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/xml.h" bodystart="258" bodyend="258"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ms_1_1_xml_writer_1a690e864b4b4c07c485c381d52826ba98" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>int</type>
+        <definition>int Ms::XmlWriter::trackDiff</definition>
+        <argsstring>() const</argsstring>
+        <name>trackDiff</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/xml.h" line="260" column="11" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/xml.h" bodystart="260" bodyend="260"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ms_1_1_xml_writer_1a90563ecf124328805d3acb9be6578c6c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Ms::XmlWriter::setTrackDiff</definition>
+        <argsstring>(int v)</argsstring>
+        <name>setTrackDiff</name>
+        <param>
+          <type>int</type>
+          <declname>v</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/xml.h" line="261" column="12" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/xml.h" bodystart="261" bodyend="261"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ms_1_1_xml_writer_1af591a2ff0de93d49622b61a63b62e710" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool Ms::XmlWriter::clipboardmode</definition>
+        <argsstring>() const</argsstring>
+        <name>clipboardmode</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/xml.h" line="263" column="12" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/xml.h" bodystart="263" bodyend="263"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ms_1_1_xml_writer_1a575dbaa781e0ce5ba2ce3bbce9ccb0e4" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool Ms::XmlWriter::excerptmode</definition>
+        <argsstring>() const</argsstring>
+        <name>excerptmode</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/xml.h" line="264" column="12" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/xml.h" bodystart="264" bodyend="264"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ms_1_1_xml_writer_1a26fbd883f9023255a33477f390116a05" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool Ms::XmlWriter::writeOmr</definition>
+        <argsstring>() const</argsstring>
+        <name>writeOmr</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/xml.h" line="265" column="12" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/xml.h" bodystart="265" bodyend="265"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ms_1_1_xml_writer_1ab2c38534406f40069b372b7a51f3d370" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool Ms::XmlWriter::writeTrack</definition>
+        <argsstring>() const</argsstring>
+        <name>writeTrack</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/xml.h" line="266" column="12" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/xml.h" bodystart="266" bodyend="266"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ms_1_1_xml_writer_1a2f0d3d6eede39ccc9a00815c88da3874" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool Ms::XmlWriter::writePosition</definition>
+        <argsstring>() const</argsstring>
+        <name>writePosition</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/xml.h" line="267" column="12" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/xml.h" bodystart="267" bodyend="267"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ms_1_1_xml_writer_1a46572512ff0edc5f408a85d74a00ca5d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Ms::XmlWriter::setClipboardmode</definition>
+        <argsstring>(bool v)</argsstring>
+        <name>setClipboardmode</name>
+        <param>
+          <type>bool</type>
+          <declname>v</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/xml.h" line="269" column="12" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/xml.h" bodystart="269" bodyend="269"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ms_1_1_xml_writer_1a3301d318b5bbf8d6a442390649ecb018" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Ms::XmlWriter::setExcerptmode</definition>
+        <argsstring>(bool v)</argsstring>
+        <name>setExcerptmode</name>
+        <param>
+          <type>bool</type>
+          <declname>v</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/xml.h" line="270" column="12" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/xml.h" bodystart="270" bodyend="270"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ms_1_1_xml_writer_1ab6d5b072b7cc0312c93f4ccd33ca3d3b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Ms::XmlWriter::setWriteOmr</definition>
+        <argsstring>(bool v)</argsstring>
+        <name>setWriteOmr</name>
+        <param>
+          <type>bool</type>
+          <declname>v</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/xml.h" line="271" column="12" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/xml.h" bodystart="271" bodyend="271"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ms_1_1_xml_writer_1a6da8437a87b014eba5d73d69dd9a7436" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Ms::XmlWriter::setWriteTrack</definition>
+        <argsstring>(bool v)</argsstring>
+        <name>setWriteTrack</name>
+        <param>
+          <type>bool</type>
+          <declname>v</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/xml.h" line="272" column="12" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/xml.h" bodystart="272" bodyend="272"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ms_1_1_xml_writer_1ae64a49e800b4ae6d5dad3b374b2c406e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Ms::XmlWriter::setWritePosition</definition>
+        <argsstring>(bool v)</argsstring>
+        <name>setWritePosition</name>
+        <param>
+          <type>bool</type>
+          <declname>v</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/xml.h" line="273" column="12" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/xml.h" bodystart="273" bodyend="273"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ms_1_1_xml_writer_1a9cdf6dac1f70cff10a6610902349b99c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int Ms::XmlWriter::assignLocalIndex</definition>
+        <argsstring>(const Location &amp;mainElementLocation)</argsstring>
+        <name>assignLocalIndex</name>
+        <param>
+          <type>const <ref refid="class_ms_1_1_location" kindref="compound">Location</ref> &amp;</type>
+          <declname>mainElementLocation</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/xml.h" line="275" column="11" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/xmlwriter.cpp" bodystart="403" bodyend="406"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ms_1_1_xml_writer_1a1af623cd857a6e13c287a6c7dc3fdc71" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Ms::XmlWriter::setLidLocalIndex</definition>
+        <argsstring>(int lid, int localIndex)</argsstring>
+        <name>setLidLocalIndex</name>
+        <param>
+          <type>int</type>
+          <declname>lid</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>localIndex</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/xml.h" line="276" column="12" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/xml.h" bodystart="276" bodyend="276"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ms_1_1_xml_writer_1a1b1d93ae5a34b284fc1993f6dcb5180f" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>int</type>
+        <definition>int Ms::XmlWriter::lidLocalIndex</definition>
+        <argsstring>(int lid) const</argsstring>
+        <name>lidLocalIndex</name>
+        <param>
+          <type>int</type>
+          <declname>lid</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/xml.h" line="277" column="11" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/xml.h" bodystart="277" bodyend="277"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ms_1_1_xml_writer_1adc0ec11848d55035605d83dcd2f37925" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>const std::vector&lt; std::pair&lt; const <ref refid="class_ms_1_1_score_element" kindref="compound">ScoreElement</ref> *, QString &gt; &gt; &amp;</type>
+        <definition>const std::vector&lt;std::pair&lt;const ScoreElement*, QString&gt; &gt;&amp; Ms::XmlWriter::elements</definition>
+        <argsstring>() const</argsstring>
+        <name>elements</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/xml.h" line="279" column="25" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/xml.h" bodystart="279" bodyend="279"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ms_1_1_xml_writer_1aab748bb41246e1efa65ee0b38f4e2ca9" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Ms::XmlWriter::setRecordElements</definition>
+        <argsstring>(bool record)</argsstring>
+        <name>setRecordElements</name>
+        <param>
+          <type>bool</type>
+          <declname>record</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/xml.h" line="280" column="12" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/xml.h" bodystart="280" bodyend="280"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ms_1_1_xml_writer_1a5f27e26585a76d80fd010f680ca23133" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Ms::XmlWriter::sTag</definition>
+        <argsstring>(const char *name, Spatium sp)</argsstring>
+        <name>sTag</name>
+        <param>
+          <type>const char *</type>
+          <declname>name</declname>
+        </param>
+        <param>
+          <type><ref refid="class_ms_1_1_spatium" kindref="compound">Spatium</ref></type>
+          <declname>sp</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/xml.h" line="282" column="12" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/xml.h" bodystart="282" bodyend="282"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ms_1_1_xml_writer_1a33a55f0ea4e4322479b3397ad1ca2950" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Ms::XmlWriter::pTag</definition>
+        <argsstring>(const char *name, PlaceText)</argsstring>
+        <name>pTag</name>
+        <param>
+          <type>const char *</type>
+          <declname>name</declname>
+        </param>
+        <param>
+          <type>PlaceText</type>
+          <defname>place</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/xml.h" line="283" column="12" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/xmlwriter.cpp" bodystart="40" bodyend="46"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ms_1_1_xml_writer_1ad0597fda726cc6082ee11cde89b4a5e1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Ms::XmlWriter::header</definition>
+        <argsstring>()</argsstring>
+        <name>header</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/xml.h" line="285" column="12" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/xmlwriter.cpp" bodystart="63" bodyend="66"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ms_1_1_xml_writer_1aecae667c4cf8e51afc3b48ca900a0dda" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Ms::XmlWriter::stag</definition>
+        <argsstring>(const QString &amp;)</argsstring>
+        <name>stag</name>
+        <param>
+          <type>const QString &amp;</type>
+          <defname>s</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/xml.h" line="287" column="12" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/xmlwriter.cpp" bodystart="73" bodyend="78"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ms_1_1_xml_writer_1aeba790bb78c60c3adff051d889be54d7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Ms::XmlWriter::etag</definition>
+        <argsstring>()</argsstring>
+        <name>etag</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/xml.h" line="288" column="12" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/xmlwriter.cpp" bodystart="113" bodyend="117"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ms_1_1_xml_writer_1a3f64beeda350c1fc91ab7b5158a3c79c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Ms::XmlWriter::stag</definition>
+        <argsstring>(const ScoreElement *se, const QString &amp;attributes=QString())</argsstring>
+        <name>stag</name>
+        <param>
+          <type>const <ref refid="class_ms_1_1_score_element" kindref="compound">ScoreElement</ref> *</type>
+          <declname>se</declname>
+        </param>
+        <param>
+          <type>const QString &amp;</type>
+          <declname>attributes</declname>
+          <defval>QString()</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/xml.h" line="290" column="12" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/xmlwriter.cpp" bodystart="85" bodyend="88"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ms_1_1_xml_writer_1a46ce3c95fdeae33933fbb8a913916c62" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Ms::XmlWriter::stag</definition>
+        <argsstring>(const QString &amp;name, const ScoreElement *se, const QString &amp;attributes=QString())</argsstring>
+        <name>stag</name>
+        <param>
+          <type>const QString &amp;</type>
+          <declname>name</declname>
+        </param>
+        <param>
+          <type>const <ref refid="class_ms_1_1_score_element" kindref="compound">ScoreElement</ref> *</type>
+          <declname>se</declname>
+        </param>
+        <param>
+          <type>const QString &amp;</type>
+          <declname>attributes</declname>
+          <defval>QString()</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/xml.h" line="291" column="12" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/xmlwriter.cpp" bodystart="95" bodyend="106"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ms_1_1_xml_writer_1a2923a3b1c2615aaecda26b9b4193b1c4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Ms::XmlWriter::tagE</definition>
+        <argsstring>(const QString &amp;)</argsstring>
+        <name>tagE</name>
+        <param>
+          <type>const QString &amp;</type>
+          <defname>s</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/xml.h" line="293" column="12" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/xmlwriter.cpp" bodystart="141" bodyend="145"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ms_1_1_xml_writer_1a8242350affd3b3cdb1b31998f47f1b28" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Ms::XmlWriter::tagE</definition>
+        <argsstring>(const char *format,...)</argsstring>
+        <name>tagE</name>
+        <param>
+          <type>const char *</type>
+          <declname>format</declname>
+        </param>
+        <param>
+          <type>...</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/xml.h" line="294" column="12" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/xmlwriter.cpp" bodystart="124" bodyend="135"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ms_1_1_xml_writer_1a4fe3cb52ef2529057807d981fb4022f5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Ms::XmlWriter::ntag</definition>
+        <argsstring>(const char *name)</argsstring>
+        <name>ntag</name>
+        <param>
+          <type>const char *</type>
+          <declname>name</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/xml.h" line="295" column="12" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/xmlwriter.cpp" bodystart="152" bodyend="156"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ms_1_1_xml_writer_1a07e3e9db6db894451ed2448da1112390" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Ms::XmlWriter::netag</definition>
+        <argsstring>(const char *name)</argsstring>
+        <name>netag</name>
+        <param>
+          <type>const char *</type>
+          <declname>name</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/xml.h" line="296" column="12" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/xmlwriter.cpp" bodystart="163" bodyend="166"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ms_1_1_xml_writer_1afb51750cf3661499da4a824113a780e1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Ms::XmlWriter::tag</definition>
+        <argsstring>(Pid id, void *data, void *defaultVal)</argsstring>
+        <name>tag</name>
+        <param>
+          <type>Pid</type>
+          <declname>id</declname>
+        </param>
+        <param>
+          <type>void *</type>
+          <declname>data</declname>
+        </param>
+        <param>
+          <type>void *</type>
+          <declname>defaultVal</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/xml.h" line="298" column="12"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ms_1_1_xml_writer_1aa8f552a8dd94c92937f91a3839d0b50c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Ms::XmlWriter::tag</definition>
+        <argsstring>(Pid id, QVariant data, QVariant defaultData=QVariant())</argsstring>
+        <name>tag</name>
+        <param>
+          <type>Pid</type>
+          <declname>id</declname>
+        </param>
+        <param>
+          <type>QVariant</type>
+          <declname>data</declname>
+        </param>
+        <param>
+          <type>QVariant</type>
+          <declname>defaultData</declname>
+          <defval>QVariant()</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/xml.h" line="299" column="12" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/xmlwriter.cpp" bodystart="172" bodyend="185"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ms_1_1_xml_writer_1aa5a5a1ada64d03d715356d027be92944" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Ms::XmlWriter::tag</definition>
+        <argsstring>(const char *name, QVariant data, QVariant defaultData=QVariant())</argsstring>
+        <name>tag</name>
+        <param>
+          <type>const char *</type>
+          <declname>name</declname>
+        </param>
+        <param>
+          <type>QVariant</type>
+          <declname>data</declname>
+        </param>
+        <param>
+          <type>QVariant</type>
+          <declname>defaultData</declname>
+          <defval>QVariant()</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/xml.h" line="300" column="12" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/xmlwriter.cpp" bodystart="192" bodyend="196"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ms_1_1_xml_writer_1ac94d2c71d41d92f9914ae82fcdc8b71d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Ms::XmlWriter::tag</definition>
+        <argsstring>(const QString &amp;, QVariant data)</argsstring>
+        <name>tag</name>
+        <param>
+          <type>const QString &amp;</type>
+          <defname>name</defname>
+        </param>
+        <param>
+          <type>QVariant</type>
+          <declname>data</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/xml.h" line="301" column="12" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/xmlwriter.cpp" bodystart="198" bodyend="298"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ms_1_1_xml_writer_1ab47fc9ec182e58e0aa22c997e55697a9" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Ms::XmlWriter::tag</definition>
+        <argsstring>(const char *name, const char *s)</argsstring>
+        <name>tag</name>
+        <param>
+          <type>const char *</type>
+          <declname>name</declname>
+        </param>
+        <param>
+          <type>const char *</type>
+          <declname>s</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/xml.h" line="302" column="12" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/xml.h" bodystart="302" bodyend="302"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ms_1_1_xml_writer_1a3adbaf69eba62ae7303213db518d65f3" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Ms::XmlWriter::tag</definition>
+        <argsstring>(const char *name, const QString &amp;s)</argsstring>
+        <name>tag</name>
+        <param>
+          <type>const char *</type>
+          <declname>name</declname>
+        </param>
+        <param>
+          <type>const QString &amp;</type>
+          <declname>s</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/xml.h" line="303" column="12" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/xml.h" bodystart="303" bodyend="303"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ms_1_1_xml_writer_1ad4179df66234310dfda9d6492416670c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Ms::XmlWriter::tag</definition>
+        <argsstring>(const char *name, const QWidget *)</argsstring>
+        <name>tag</name>
+        <param>
+          <type>const char *</type>
+          <declname>name</declname>
+        </param>
+        <param>
+          <type>const QWidget *</type>
+          <defname>g</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/xml.h" line="304" column="12" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/xmlwriter.cpp" bodystart="300" bodyend="303"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ms_1_1_xml_writer_1af8e2cc459cff342c99c91d1e739488f8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Ms::XmlWriter::comment</definition>
+        <argsstring>(const QString &amp;)</argsstring>
+        <name>comment</name>
+        <param>
+          <type>const QString &amp;</type>
+          <defname>text</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/xml.h" line="306" column="12" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/xmlwriter.cpp" bodystart="309" bodyend="313"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ms_1_1_xml_writer_1aeaea77151cca6a87604287fa0e2cfad5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Ms::XmlWriter::writeXml</definition>
+        <argsstring>(const QString &amp;, QString s)</argsstring>
+        <name>writeXml</name>
+        <param>
+          <type>const QString &amp;</type>
+          <defname>name</defname>
+        </param>
+        <param>
+          <type>QString</type>
+          <declname>s</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/xml.h" line="308" column="12" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/xmlwriter.cpp" bodystart="385" bodyend="397"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ms_1_1_xml_writer_1a211abd6c3805f78a8646ec5e8009cd58" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Ms::XmlWriter::dump</definition>
+        <argsstring>(int len, const unsigned char *p)</argsstring>
+        <name>dump</name>
+        <param>
+          <type>int</type>
+          <declname>len</declname>
+        </param>
+        <param>
+          <type>const unsigned char *</type>
+          <declname>p</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/xml.h" line="309" column="12" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/xmlwriter.cpp" bodystart="357" bodyend="378"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ms_1_1_xml_writer_1a61fb6dad12df39ab903d6d4f9ce54b67" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Ms::XmlWriter::setFilter</definition>
+        <argsstring>(SelectionFilter f)</argsstring>
+        <name>setFilter</name>
+        <param>
+          <type><ref refid="class_ms_1_1_selection_filter" kindref="compound">SelectionFilter</ref></type>
+          <declname>f</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/xml.h" line="311" column="12" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/xml.h" bodystart="311" bodyend="311"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ms_1_1_xml_writer_1a0d2df26fadc9b2a1d47ab04b91da206d" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool Ms::XmlWriter::canWrite</definition>
+        <argsstring>(const Element *) const</argsstring>
+        <name>canWrite</name>
+        <param>
+          <type>const <ref refid="class_ms_1_1_element" kindref="compound">Element</ref> *</type>
+          <defname>e</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/xml.h" line="312" column="12" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/xmlwriter.cpp" bodystart="412" bodyend="417"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ms_1_1_xml_writer_1a37b72d278c61ab3b9da1f7ce7c6e305a" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool Ms::XmlWriter::canWriteVoice</definition>
+        <argsstring>(int track) const</argsstring>
+        <name>canWriteVoice</name>
+        <param>
+          <type>int</type>
+          <declname>track</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/xml.h" line="313" column="12" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/xmlwriter.cpp" bodystart="423" bodyend="428"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="class_ms_1_1_xml_writer_1ad6d4d187635a8554620e1a82b42bfeab" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>QString</type>
+        <definition>QString Ms::XmlWriter::xmlString</definition>
+        <argsstring>(const QString &amp;)</argsstring>
+        <name>xmlString</name>
+        <param>
+          <type>const QString &amp;</type>
+          <defname>s</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/xml.h" line="315" column="22" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/xmlwriter.cpp" bodystart="342" bodyend="351"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ms_1_1_xml_writer_1a0bf7df782309691cfc31dfbed91ba105" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>QString</type>
+        <definition>QString Ms::XmlWriter::xmlString</definition>
+        <argsstring>(ushort c)</argsstring>
+        <name>xmlString</name>
+        <param>
+          <type>ushort</type>
+          <declname>c</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/xml.h" line="316" column="22" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/xmlwriter.cpp" bodystart="319" bodyend="336"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>Ms::XmlWriter</label>
+        <link refid="class_ms_1_1_xml_writer"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>QTextStream</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>Ms::XmlWriter</label>
+        <link refid="class_ms_1_1_xml_writer"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>QTextStream</label>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/xml.h" line="220" column="35" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/xml.h" bodystart="220" bodyend="317"/>
+    <listofallmembers>
+      <member refid="class_ms_1_1_xml_writer_1a00b96472d8215543ab680b50ea936f32" prot="private" virt="non-virtual"><scope>Ms::XmlWriter</scope><name>_clipboardmode</name></member>
+      <member refid="class_ms_1_1_xml_writer_1a42da964a40ce79c83effaff054a5507a" prot="private" virt="non-virtual"><scope>Ms::XmlWriter</scope><name>_curTick</name></member>
+      <member refid="class_ms_1_1_xml_writer_1a09f7dcc8864ec3589556e3f018726bac" prot="private" virt="non-virtual"><scope>Ms::XmlWriter</scope><name>_curTrack</name></member>
+      <member refid="class_ms_1_1_xml_writer_1a820e5a78d7d35882e84236d5ef6f4485" prot="private" virt="non-virtual"><scope>Ms::XmlWriter</scope><name>_elements</name></member>
+      <member refid="class_ms_1_1_xml_writer_1a5ef224aafac1b5a8e29ab40990b5e449" prot="private" virt="non-virtual"><scope>Ms::XmlWriter</scope><name>_excerptmode</name></member>
+      <member refid="class_ms_1_1_xml_writer_1a2d11cf01c172fb57b0ecf607cfb0ade3" prot="private" virt="non-virtual"><scope>Ms::XmlWriter</scope><name>_filter</name></member>
+      <member refid="class_ms_1_1_xml_writer_1a6aa0b44223de57cc5941f7ce47918ee4" prot="private" virt="non-virtual"><scope>Ms::XmlWriter</scope><name>_lidLocalIndices</name></member>
+      <member refid="class_ms_1_1_xml_writer_1a55359e3be98083f05e0c77298e083fc3" prot="private" virt="non-virtual"><scope>Ms::XmlWriter</scope><name>_linksIndexer</name></member>
+      <member refid="class_ms_1_1_xml_writer_1a4bc0f111c9746236615bfa50a0fdd456" prot="private" virt="non-virtual"><scope>Ms::XmlWriter</scope><name>_recordElements</name></member>
+      <member refid="class_ms_1_1_xml_writer_1ac6d81d73c7da89d464a5eec55234e038" prot="private" virt="non-virtual"><scope>Ms::XmlWriter</scope><name>_score</name></member>
+      <member refid="class_ms_1_1_xml_writer_1ae269657b80d119ddedbd06c697a13670" prot="private" virt="non-virtual"><scope>Ms::XmlWriter</scope><name>_tickDiff</name></member>
+      <member refid="class_ms_1_1_xml_writer_1aa0c30096c722e471616877f5cac72825" prot="private" virt="non-virtual"><scope>Ms::XmlWriter</scope><name>_trackDiff</name></member>
+      <member refid="class_ms_1_1_xml_writer_1ae3f1bda227dab5d02cf99377bdd05a39" prot="private" virt="non-virtual"><scope>Ms::XmlWriter</scope><name>_writeOmr</name></member>
+      <member refid="class_ms_1_1_xml_writer_1a6f2c1718f3adfb9da8e3f1b0c3ddba46" prot="private" virt="non-virtual"><scope>Ms::XmlWriter</scope><name>_writePosition</name></member>
+      <member refid="class_ms_1_1_xml_writer_1a1aed5e1d27a5857e696cc2c2882bd19e" prot="private" virt="non-virtual"><scope>Ms::XmlWriter</scope><name>_writeTrack</name></member>
+      <member refid="class_ms_1_1_xml_writer_1a9cdf6dac1f70cff10a6610902349b99c" prot="public" virt="non-virtual"><scope>Ms::XmlWriter</scope><name>assignLocalIndex</name></member>
+      <member refid="class_ms_1_1_xml_writer_1a11b9721750e063c73fce4b310429ad84" prot="private" virt="non-virtual"><scope>Ms::XmlWriter</scope><name>BS</name></member>
+      <member refid="class_ms_1_1_xml_writer_1a0d2df26fadc9b2a1d47ab04b91da206d" prot="public" virt="non-virtual"><scope>Ms::XmlWriter</scope><name>canWrite</name></member>
+      <member refid="class_ms_1_1_xml_writer_1a37b72d278c61ab3b9da1f7ce7c6e305a" prot="public" virt="non-virtual"><scope>Ms::XmlWriter</scope><name>canWriteVoice</name></member>
+      <member refid="class_ms_1_1_xml_writer_1af591a2ff0de93d49622b61a63b62e710" prot="public" virt="non-virtual"><scope>Ms::XmlWriter</scope><name>clipboardmode</name></member>
+      <member refid="class_ms_1_1_xml_writer_1af8e2cc459cff342c99c91d1e739488f8" prot="public" virt="non-virtual"><scope>Ms::XmlWriter</scope><name>comment</name></member>
+      <member refid="class_ms_1_1_xml_writer_1a51f1f4f5dadf806ded326d232bf13694" prot="public" virt="non-virtual"><scope>Ms::XmlWriter</scope><name>curTick</name></member>
+      <member refid="class_ms_1_1_xml_writer_1a38b428167b868eef3fb465902c2e3c88" prot="public" virt="non-virtual"><scope>Ms::XmlWriter</scope><name>curTrack</name></member>
+      <member refid="class_ms_1_1_xml_writer_1a211abd6c3805f78a8646ec5e8009cd58" prot="public" virt="non-virtual"><scope>Ms::XmlWriter</scope><name>dump</name></member>
+      <member refid="class_ms_1_1_xml_writer_1adc0ec11848d55035605d83dcd2f37925" prot="public" virt="non-virtual"><scope>Ms::XmlWriter</scope><name>elements</name></member>
+      <member refid="class_ms_1_1_xml_writer_1aeba790bb78c60c3adff051d889be54d7" prot="public" virt="non-virtual"><scope>Ms::XmlWriter</scope><name>etag</name></member>
+      <member refid="class_ms_1_1_xml_writer_1a575dbaa781e0ce5ba2ce3bbce9ccb0e4" prot="public" virt="non-virtual"><scope>Ms::XmlWriter</scope><name>excerptmode</name></member>
+      <member refid="class_ms_1_1_xml_writer_1ad0597fda726cc6082ee11cde89b4a5e1" prot="public" virt="non-virtual"><scope>Ms::XmlWriter</scope><name>header</name></member>
+      <member refid="class_ms_1_1_xml_writer_1a97b194727366babd3d3f76bcfb47652e" prot="public" virt="non-virtual"><scope>Ms::XmlWriter</scope><name>incCurTick</name></member>
+      <member refid="class_ms_1_1_xml_writer_1a1b1d93ae5a34b284fc1993f6dcb5180f" prot="public" virt="non-virtual"><scope>Ms::XmlWriter</scope><name>lidLocalIndex</name></member>
+      <member refid="class_ms_1_1_xml_writer_1a07e3e9db6db894451ed2448da1112390" prot="public" virt="non-virtual"><scope>Ms::XmlWriter</scope><name>netag</name></member>
+      <member refid="class_ms_1_1_xml_writer_1a4fe3cb52ef2529057807d981fb4022f5" prot="public" virt="non-virtual"><scope>Ms::XmlWriter</scope><name>ntag</name></member>
+      <member refid="class_ms_1_1_xml_writer_1a33a55f0ea4e4322479b3397ad1ca2950" prot="public" virt="non-virtual"><scope>Ms::XmlWriter</scope><name>pTag</name></member>
+      <member refid="class_ms_1_1_xml_writer_1afb4a5aed26eef6fc47f4d6a233c839f1" prot="private" virt="non-virtual"><scope>Ms::XmlWriter</scope><name>putLevel</name></member>
+      <member refid="class_ms_1_1_xml_writer_1a46572512ff0edc5f408a85d74a00ca5d" prot="public" virt="non-virtual"><scope>Ms::XmlWriter</scope><name>setClipboardmode</name></member>
+      <member refid="class_ms_1_1_xml_writer_1af5ef5ed881b0bb64fe952cd9ef16de01" prot="public" virt="non-virtual"><scope>Ms::XmlWriter</scope><name>setCurTick</name></member>
+      <member refid="class_ms_1_1_xml_writer_1af3da6b5c8a7d49d1ad69286a3c7e2587" prot="public" virt="non-virtual"><scope>Ms::XmlWriter</scope><name>setCurTrack</name></member>
+      <member refid="class_ms_1_1_xml_writer_1a3301d318b5bbf8d6a442390649ecb018" prot="public" virt="non-virtual"><scope>Ms::XmlWriter</scope><name>setExcerptmode</name></member>
+      <member refid="class_ms_1_1_xml_writer_1a61fb6dad12df39ab903d6d4f9ce54b67" prot="public" virt="non-virtual"><scope>Ms::XmlWriter</scope><name>setFilter</name></member>
+      <member refid="class_ms_1_1_xml_writer_1a1af623cd857a6e13c287a6c7dc3fdc71" prot="public" virt="non-virtual"><scope>Ms::XmlWriter</scope><name>setLidLocalIndex</name></member>
+      <member refid="class_ms_1_1_xml_writer_1aab748bb41246e1efa65ee0b38f4e2ca9" prot="public" virt="non-virtual"><scope>Ms::XmlWriter</scope><name>setRecordElements</name></member>
+      <member refid="class_ms_1_1_xml_writer_1af76c2426682653af8947f9ee7fed48f5" prot="public" virt="non-virtual"><scope>Ms::XmlWriter</scope><name>setTickDiff</name></member>
+      <member refid="class_ms_1_1_xml_writer_1a90563ecf124328805d3acb9be6578c6c" prot="public" virt="non-virtual"><scope>Ms::XmlWriter</scope><name>setTrackDiff</name></member>
+      <member refid="class_ms_1_1_xml_writer_1ab6d5b072b7cc0312c93f4ccd33ca3d3b" prot="public" virt="non-virtual"><scope>Ms::XmlWriter</scope><name>setWriteOmr</name></member>
+      <member refid="class_ms_1_1_xml_writer_1ae64a49e800b4ae6d5dad3b374b2c406e" prot="public" virt="non-virtual"><scope>Ms::XmlWriter</scope><name>setWritePosition</name></member>
+      <member refid="class_ms_1_1_xml_writer_1a6da8437a87b014eba5d73d69dd9a7436" prot="public" virt="non-virtual"><scope>Ms::XmlWriter</scope><name>setWriteTrack</name></member>
+      <member refid="class_ms_1_1_xml_writer_1a9aacf27e5d53fb0a2d0d8251894049c4" prot="private" virt="non-virtual"><scope>Ms::XmlWriter</scope><name>stack</name></member>
+      <member refid="class_ms_1_1_xml_writer_1a5f27e26585a76d80fd010f680ca23133" prot="public" virt="non-virtual"><scope>Ms::XmlWriter</scope><name>sTag</name></member>
+      <member refid="class_ms_1_1_xml_writer_1aecae667c4cf8e51afc3b48ca900a0dda" prot="public" virt="non-virtual"><scope>Ms::XmlWriter</scope><name>stag</name></member>
+      <member refid="class_ms_1_1_xml_writer_1a3f64beeda350c1fc91ab7b5158a3c79c" prot="public" virt="non-virtual"><scope>Ms::XmlWriter</scope><name>stag</name></member>
+      <member refid="class_ms_1_1_xml_writer_1a46ce3c95fdeae33933fbb8a913916c62" prot="public" virt="non-virtual"><scope>Ms::XmlWriter</scope><name>stag</name></member>
+      <member refid="class_ms_1_1_xml_writer_1afb51750cf3661499da4a824113a780e1" prot="public" virt="non-virtual"><scope>Ms::XmlWriter</scope><name>tag</name></member>
+      <member refid="class_ms_1_1_xml_writer_1aa8f552a8dd94c92937f91a3839d0b50c" prot="public" virt="non-virtual"><scope>Ms::XmlWriter</scope><name>tag</name></member>
+      <member refid="class_ms_1_1_xml_writer_1aa5a5a1ada64d03d715356d027be92944" prot="public" virt="non-virtual"><scope>Ms::XmlWriter</scope><name>tag</name></member>
+      <member refid="class_ms_1_1_xml_writer_1ac94d2c71d41d92f9914ae82fcdc8b71d" prot="public" virt="non-virtual"><scope>Ms::XmlWriter</scope><name>tag</name></member>
+      <member refid="class_ms_1_1_xml_writer_1ab47fc9ec182e58e0aa22c997e55697a9" prot="public" virt="non-virtual"><scope>Ms::XmlWriter</scope><name>tag</name></member>
+      <member refid="class_ms_1_1_xml_writer_1a3adbaf69eba62ae7303213db518d65f3" prot="public" virt="non-virtual"><scope>Ms::XmlWriter</scope><name>tag</name></member>
+      <member refid="class_ms_1_1_xml_writer_1ad4179df66234310dfda9d6492416670c" prot="public" virt="non-virtual"><scope>Ms::XmlWriter</scope><name>tag</name></member>
+      <member refid="class_ms_1_1_xml_writer_1a2923a3b1c2615aaecda26b9b4193b1c4" prot="public" virt="non-virtual"><scope>Ms::XmlWriter</scope><name>tagE</name></member>
+      <member refid="class_ms_1_1_xml_writer_1a8242350affd3b3cdb1b31998f47f1b28" prot="public" virt="non-virtual"><scope>Ms::XmlWriter</scope><name>tagE</name></member>
+      <member refid="class_ms_1_1_xml_writer_1abbb9b5ed2e04021f7728b5efd45ee9ae" prot="public" virt="non-virtual"><scope>Ms::XmlWriter</scope><name>tickDiff</name></member>
+      <member refid="class_ms_1_1_xml_writer_1a690e864b4b4c07c485c381d52826ba98" prot="public" virt="non-virtual"><scope>Ms::XmlWriter</scope><name>trackDiff</name></member>
+      <member refid="class_ms_1_1_xml_writer_1a26fbd883f9023255a33477f390116a05" prot="public" virt="non-virtual"><scope>Ms::XmlWriter</scope><name>writeOmr</name></member>
+      <member refid="class_ms_1_1_xml_writer_1a2f0d3d6eede39ccc9a00815c88da3874" prot="public" virt="non-virtual"><scope>Ms::XmlWriter</scope><name>writePosition</name></member>
+      <member refid="class_ms_1_1_xml_writer_1ab2c38534406f40069b372b7a51f3d370" prot="public" virt="non-virtual"><scope>Ms::XmlWriter</scope><name>writeTrack</name></member>
+      <member refid="class_ms_1_1_xml_writer_1aeaea77151cca6a87604287fa0e2cfad5" prot="public" virt="non-virtual"><scope>Ms::XmlWriter</scope><name>writeXml</name></member>
+      <member refid="class_ms_1_1_xml_writer_1ad6d4d187635a8554620e1a82b42bfeab" prot="public" virt="non-virtual"><scope>Ms::XmlWriter</scope><name>xmlString</name></member>
+      <member refid="class_ms_1_1_xml_writer_1a0bf7df782309691cfc31dfbed91ba105" prot="public" virt="non-virtual"><scope>Ms::XmlWriter</scope><name>xmlString</name></member>
+      <member refid="class_ms_1_1_xml_writer_1a8ab9f9fe32f6f74df70a181fcf5c3de7" prot="public" virt="non-virtual"><scope>Ms::XmlWriter</scope><name>XmlWriter</name></member>
+      <member refid="class_ms_1_1_xml_writer_1a1e3d486598616ec8947a3064729ee852" prot="public" virt="non-virtual"><scope>Ms::XmlWriter</scope><name>XmlWriter</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,376 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.17">
+  <compounddef id="class_ms_1_1_score_diff" kind="class" language="C++" prot="public">
+    <compoundname>Ms::ScoreDiff</compoundname>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_ms_1_1_score_diff_1aaef20737f8c4543b414a60ed38522388" prot="private" static="no" mutable="no">
+        <type>std::vector&lt; <ref refid="struct_ms_1_1_text_diff" kindref="compound">TextDiff</ref> &gt;</type>
+        <definition>std::vector&lt;TextDiff&gt; Ms::ScoreDiff::_textDiffs</definition>
+        <argsstring></argsstring>
+        <name>_textDiffs</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/scorediff.h" line="136" column="19" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/scorediff.h" bodystart="136" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_ms_1_1_score_diff_1a2adabfd83974005b9cbc6bc2c6258007" prot="private" static="no" mutable="no">
+        <type>std::vector&lt; const <ref refid="struct_ms_1_1_text_diff" kindref="compound">TextDiff</ref> * &gt;</type>
+        <definition>std::vector&lt;const TextDiff*&gt; Ms::ScoreDiff::_mergedTextDiffs</definition>
+        <argsstring></argsstring>
+        <name>_mergedTextDiffs</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/scorediff.h" line="137" column="19" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/scorediff.h" bodystart="137" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_ms_1_1_score_diff_1a85d3aa1e5b4c129f7e8f2c7c79410685" prot="private" static="no" mutable="no">
+        <type>std::vector&lt; <ref refid="struct_ms_1_1_base_diff" kindref="compound">BaseDiff</ref> * &gt;</type>
+        <definition>std::vector&lt;BaseDiff*&gt; Ms::ScoreDiff::_diffs</definition>
+        <argsstring></argsstring>
+        <name>_diffs</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/scorediff.h" line="138" column="19" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/scorediff.h" bodystart="138" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_ms_1_1_score_diff_1aecc408e7f167acecc98bf73f9b942597" prot="private" static="no" mutable="no">
+        <type><ref refid="class_ms_1_1_score" kindref="compound">Score</ref> *</type>
+        <definition>Score* Ms::ScoreDiff::_s1</definition>
+        <argsstring></argsstring>
+        <name>_s1</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/scorediff.h" line="139" column="13" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/scorediff.h" bodystart="139" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_ms_1_1_score_diff_1ad7c589eda6147f12676567b1afbdab2f" prot="private" static="no" mutable="no">
+        <type><ref refid="class_ms_1_1_score" kindref="compound">Score</ref> *</type>
+        <definition>Score* Ms::ScoreDiff::_s2</definition>
+        <argsstring></argsstring>
+        <name>_s2</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/scorediff.h" line="140" column="13" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/scorediff.h" bodystart="140" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_ms_1_1_score_diff_1afc851709dbd83a6744f77062d287e4cd" prot="private" static="no" mutable="no">
+        <type><ref refid="class_ms_1_1_score_content_state" kindref="compound">ScoreContentState</ref></type>
+        <definition>ScoreContentState Ms::ScoreDiff::_scoreState1</definition>
+        <argsstring></argsstring>
+        <name>_scoreState1</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/scorediff.h" line="141" column="25" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/scorediff.h" bodystart="141" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_ms_1_1_score_diff_1a3a06261ee18e06eba594665cd179c0a2" prot="private" static="no" mutable="no">
+        <type><ref refid="class_ms_1_1_score_content_state" kindref="compound">ScoreContentState</ref></type>
+        <definition>ScoreContentState Ms::ScoreDiff::_scoreState2</definition>
+        <argsstring></argsstring>
+        <name>_scoreState2</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/scorediff.h" line="142" column="25" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/scorediff.h" bodystart="142" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_ms_1_1_score_diff_1a3fb659a9f6fec1d045bb93d7022b1a6b" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool Ms::ScoreDiff::_textDiffOnly</definition>
+        <argsstring></argsstring>
+        <name>_textDiffOnly</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/scorediff.h" line="144" column="12" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/scorediff.h" bodystart="144" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_ms_1_1_score_diff_1a55fb3d682c915829362ea4166e2ccf18" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Ms::ScoreDiff::processMarkupDiffs</definition>
+        <argsstring>()</argsstring>
+        <name>processMarkupDiffs</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/scorediff.h" line="146" column="12" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/scorediff.cpp" bodystart="887" bodyend="959"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ms_1_1_score_diff_1a1dcd3cb22c805c4b4d143f411e5e28aa" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Ms::ScoreDiff::mergeInsertDeleteDiffs</definition>
+        <argsstring>()</argsstring>
+        <name>mergeInsertDeleteDiffs</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/scorediff.h" line="147" column="12" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/scorediff.cpp" bodystart="967" bodyend="1035"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ms_1_1_score_diff_1ab8ea6fd1a87cfa450235f4942aa222e2" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Ms::ScoreDiff::mergeElementDiffs</definition>
+        <argsstring>()</argsstring>
+        <name>mergeElementDiffs</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/scorediff.h" line="148" column="12" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/scorediff.cpp" bodystart="1042" bodyend="1087"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ms_1_1_score_diff_1a482527b988f23fe6b959092f58eb6355" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Ms::ScoreDiff::editPropertyDiffs</definition>
+        <argsstring>()</argsstring>
+        <name>editPropertyDiffs</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/scorediff.h" line="149" column="12" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/scorediff.cpp" bodystart="1095" bodyend="1131"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_ms_1_1_score_diff_1a4988cd6475147b51c62caf15bcaf23b2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>Ms::ScoreDiff::ScoreDiff</definition>
+        <argsstring>(Score *s1, Score *s2, bool textDiffOnly=false)</argsstring>
+        <name>ScoreDiff</name>
+        <param>
+          <type><ref refid="class_ms_1_1_score" kindref="compound">Score</ref> *</type>
+          <declname>s1</declname>
+        </param>
+        <param>
+          <type><ref refid="class_ms_1_1_score" kindref="compound">Score</ref> *</type>
+          <declname>s2</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>textDiffOnly</declname>
+          <defval>false</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/scorediff.h" line="152" column="7" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/scorediff.cpp" bodystart="738" bodyend="742"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ms_1_1_score_diff_1a354f9fe66521a56654b5107e380f0525" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>Ms::ScoreDiff::ScoreDiff</definition>
+        <argsstring>(const ScoreDiff &amp;)=delete</argsstring>
+        <name>ScoreDiff</name>
+        <param>
+          <type>const <ref refid="class_ms_1_1_score_diff" kindref="compound">ScoreDiff</ref> &amp;</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/scorediff.h" line="153" column="7"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ms_1_1_score_diff_1a075521b1cae835c733837e3235b6833a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>Ms::ScoreDiff::~ScoreDiff</definition>
+        <argsstring>()</argsstring>
+        <name>~ScoreDiff</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/scorediff.h" line="154" column="7" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/scorediff.cpp" bodystart="829" bodyend="833"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ms_1_1_score_diff_1a3cb32dcb4ab339a38b50c35a2ca288dd" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Ms::ScoreDiff::update</definition>
+        <argsstring>()</argsstring>
+        <name>update</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/scorediff.h" line="156" column="12" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/scorediff.cpp" bodystart="792" bodyend="823"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ms_1_1_score_diff_1afa4487529405c8e4e01fd04de1e035f6" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool Ms::ScoreDiff::updated</definition>
+        <argsstring>() const</argsstring>
+        <name>updated</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/scorediff.h" line="157" column="12" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/scorediff.h" bodystart="157" bodyend="157"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ms_1_1_score_diff_1a46600534367b39af9d95b8a089a6423b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>std::vector&lt; <ref refid="struct_ms_1_1_base_diff" kindref="compound">BaseDiff</ref> * &gt; &amp;</type>
+        <definition>std::vector&lt;BaseDiff*&gt;&amp; Ms::ScoreDiff::diffs</definition>
+        <argsstring>()</argsstring>
+        <name>diffs</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/scorediff.h" line="159" column="19" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/scorediff.h" bodystart="159" bodyend="159"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ms_1_1_score_diff_1afd602b2d8aa2940af9f4642b9c6b2e66" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>const std::vector&lt; <ref refid="struct_ms_1_1_text_diff" kindref="compound">TextDiff</ref> &gt; &amp;</type>
+        <definition>const std::vector&lt;TextDiff&gt;&amp; Ms::ScoreDiff::textDiffs</definition>
+        <argsstring>() const</argsstring>
+        <name>textDiffs</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/scorediff.h" line="160" column="25" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/scorediff.h" bodystart="160" bodyend="160"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ms_1_1_score_diff_1a2f1c65dd5ebc11037a96e00534843ddc" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>const <ref refid="class_ms_1_1_score" kindref="compound">Score</ref> *</type>
+        <definition>const Score* Ms::ScoreDiff::score1</definition>
+        <argsstring>() const</argsstring>
+        <name>score1</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/scorediff.h" line="162" column="19" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/scorediff.h" bodystart="162" bodyend="162"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ms_1_1_score_diff_1a4e9563ec705578bbe0b851d8daccf86b" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>const <ref refid="class_ms_1_1_score" kindref="compound">Score</ref> *</type>
+        <definition>const Score* Ms::ScoreDiff::score2</definition>
+        <argsstring>() const</argsstring>
+        <name>score2</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/scorediff.h" line="163" column="19" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/scorediff.h" bodystart="163" bodyend="163"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ms_1_1_score_diff_1a4962d606b18a74c4a16f530292cfcff1" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool Ms::ScoreDiff::equal</definition>
+        <argsstring>() const</argsstring>
+        <name>equal</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/scorediff.h" line="165" column="12" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/scorediff.cpp" bodystart="1137" bodyend="1144"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ms_1_1_score_diff_1a83e3e4fc0e3094bb0697687ec4e6f3b8" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>QString</type>
+        <definition>QString Ms::ScoreDiff::rawDiff</definition>
+        <argsstring>(bool skipEqual=true) const</argsstring>
+        <name>rawDiff</name>
+        <param>
+          <type>bool</type>
+          <declname>skipEqual</declname>
+          <defval>true</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/scorediff.h" line="167" column="15" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/scorediff.cpp" bodystart="1150" bodyend="1158"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ms_1_1_score_diff_1ab8e193c76b8d9070d572842c8a139ff1" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>QString</type>
+        <definition>QString Ms::ScoreDiff::userDiff</definition>
+        <argsstring>() const</argsstring>
+        <name>userDiff</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/scorediff.h" line="168" column="15" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/scorediff.cpp" bodystart="1164" bodyend="1170"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/scorediff.h" line="135" column="16" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/scorediff.h" bodystart="135" bodyend="169"/>
+    <listofallmembers>
+      <member refid="class_ms_1_1_score_diff_1a85d3aa1e5b4c129f7e8f2c7c79410685" prot="private" virt="non-virtual"><scope>Ms::ScoreDiff</scope><name>_diffs</name></member>
+      <member refid="class_ms_1_1_score_diff_1a2adabfd83974005b9cbc6bc2c6258007" prot="private" virt="non-virtual"><scope>Ms::ScoreDiff</scope><name>_mergedTextDiffs</name></member>
+      <member refid="class_ms_1_1_score_diff_1aecc408e7f167acecc98bf73f9b942597" prot="private" virt="non-virtual"><scope>Ms::ScoreDiff</scope><name>_s1</name></member>
+      <member refid="class_ms_1_1_score_diff_1ad7c589eda6147f12676567b1afbdab2f" prot="private" virt="non-virtual"><scope>Ms::ScoreDiff</scope><name>_s2</name></member>
+      <member refid="class_ms_1_1_score_diff_1afc851709dbd83a6744f77062d287e4cd" prot="private" virt="non-virtual"><scope>Ms::ScoreDiff</scope><name>_scoreState1</name></member>
+      <member refid="class_ms_1_1_score_diff_1a3a06261ee18e06eba594665cd179c0a2" prot="private" virt="non-virtual"><scope>Ms::ScoreDiff</scope><name>_scoreState2</name></member>
+      <member refid="class_ms_1_1_score_diff_1a3fb659a9f6fec1d045bb93d7022b1a6b" prot="private" virt="non-virtual"><scope>Ms::ScoreDiff</scope><name>_textDiffOnly</name></member>
+      <member refid="class_ms_1_1_score_diff_1aaef20737f8c4543b414a60ed38522388" prot="private" virt="non-virtual"><scope>Ms::ScoreDiff</scope><name>_textDiffs</name></member>
+      <member refid="class_ms_1_1_score_diff_1a46600534367b39af9d95b8a089a6423b" prot="public" virt="non-virtual"><scope>Ms::ScoreDiff</scope><name>diffs</name></member>
+      <member refid="class_ms_1_1_score_diff_1a482527b988f23fe6b959092f58eb6355" prot="private" virt="non-virtual"><scope>Ms::ScoreDiff</scope><name>editPropertyDiffs</name></member>
+      <member refid="class_ms_1_1_score_diff_1a4962d606b18a74c4a16f530292cfcff1" prot="public" virt="non-virtual"><scope>Ms::ScoreDiff</scope><name>equal</name></member>
+      <member refid="class_ms_1_1_score_diff_1ab8ea6fd1a87cfa450235f4942aa222e2" prot="private" virt="non-virtual"><scope>Ms::ScoreDiff</scope><name>mergeElementDiffs</name></member>
+      <member refid="class_ms_1_1_score_diff_1a1dcd3cb22c805c4b4d143f411e5e28aa" prot="private" virt="non-virtual"><scope>Ms::ScoreDiff</scope><name>mergeInsertDeleteDiffs</name></member>
+      <member refid="class_ms_1_1_score_diff_1a55fb3d682c915829362ea4166e2ccf18" prot="private" virt="non-virtual"><scope>Ms::ScoreDiff</scope><name>processMarkupDiffs</name></member>
+      <member refid="class_ms_1_1_score_diff_1a83e3e4fc0e3094bb0697687ec4e6f3b8" prot="public" virt="non-virtual"><scope>Ms::ScoreDiff</scope><name>rawDiff</name></member>
+      <member refid="class_ms_1_1_score_diff_1a2f1c65dd5ebc11037a96e00534843ddc" prot="public" virt="non-virtual"><scope>Ms::ScoreDiff</scope><name>score1</name></member>
+      <member refid="class_ms_1_1_score_diff_1a4e9563ec705578bbe0b851d8daccf86b" prot="public" virt="non-virtual"><scope>Ms::ScoreDiff</scope><name>score2</name></member>
+      <member refid="class_ms_1_1_score_diff_1a4988cd6475147b51c62caf15bcaf23b2" prot="public" virt="non-virtual"><scope>Ms::ScoreDiff</scope><name>ScoreDiff</name></member>
+      <member refid="class_ms_1_1_score_diff_1a354f9fe66521a56654b5107e380f0525" prot="public" virt="non-virtual"><scope>Ms::ScoreDiff</scope><name>ScoreDiff</name></member>
+      <member refid="class_ms_1_1_score_diff_1afd602b2d8aa2940af9f4642b9c6b2e66" prot="public" virt="non-virtual"><scope>Ms::ScoreDiff</scope><name>textDiffs</name></member>
+      <member refid="class_ms_1_1_score_diff_1a3cb32dcb4ab339a38b50c35a2ca288dd" prot="public" virt="non-virtual"><scope>Ms::ScoreDiff</scope><name>update</name></member>
+      <member refid="class_ms_1_1_score_diff_1afa4487529405c8e4e01fd04de1e035f6" prot="public" virt="non-virtual"><scope>Ms::ScoreDiff</scope><name>updated</name></member>
+      <member refid="class_ms_1_1_score_diff_1ab8e193c76b8d9070d572842c8a139ff1" prot="public" virt="non-virtual"><scope>Ms::ScoreDiff</scope><name>userDiff</name></member>
+      <member refid="class_ms_1_1_score_diff_1a075521b1cae835c733837e3235b6833a" prot="public" virt="non-virtual"><scope>Ms::ScoreDiff</scope><name>~ScoreDiff</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

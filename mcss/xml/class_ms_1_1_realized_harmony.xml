@@ -1,0 +1,551 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.17">
+  <compounddef id="class_ms_1_1_realized_harmony" kind="class" language="C++" prot="public">
+    <compoundname>Ms::RealizedHarmony</compoundname>
+    <includes refid="realizedharmony_8h" local="yes">realizedharmony.h</includes>
+      <sectiondef kind="public-type">
+      <memberdef kind="typedef" id="class_ms_1_1_realized_harmony_1ac46f2ff324946d303291416db76f27d8" prot="public" static="no">
+        <type>QMap&lt; int, int &gt;</type>
+        <definition>using Ms::RealizedHarmony::PitchMap =  QMap&lt;int, int&gt;</definition>
+        <argsstring></argsstring>
+        <name>PitchMap</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/realizedharmony.h" line="62" column="7" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/realizedharmony.h" bodystart="62" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="class_ms_1_1_realized_harmony_1a02cda1fbd0c5ac753d8fac01fa98a7cf" prot="public" static="no">
+        <type>QMapIterator&lt; int, int &gt;</type>
+        <definition>using Ms::RealizedHarmony::PitchMapIterator =  QMapIterator&lt;int, int&gt;</definition>
+        <argsstring></argsstring>
+        <name>PitchMapIterator</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/realizedharmony.h" line="63" column="7" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/realizedharmony.h" bodystart="63" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_ms_1_1_realized_harmony_1a856fc97447f20ddea68cf77b3c3a58f3" prot="private" static="no" mutable="no">
+        <type><ref refid="class_ms_1_1_harmony" kindref="compound">Harmony</ref> *</type>
+        <definition>Harmony* Ms::RealizedHarmony::_harmony</definition>
+        <argsstring></argsstring>
+        <name>_harmony</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/realizedharmony.h" line="66" column="15" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/realizedharmony.h" bodystart="66" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_ms_1_1_realized_harmony_1a9a87abc93dccdabdaaede9a136094d52" prot="private" static="no" mutable="no">
+        <type>PitchMap</type>
+        <definition>PitchMap Ms::RealizedHarmony::_notes</definition>
+        <argsstring></argsstring>
+        <name>_notes</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/realizedharmony.h" line="68" column="16" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/realizedharmony.h" bodystart="68" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_ms_1_1_realized_harmony_1abfad9aa6d305ba3a70f89f81b3baf10b" prot="private" static="no" mutable="no">
+        <type>Voicing</type>
+        <definition>Voicing Ms::RealizedHarmony::_voicing</definition>
+        <argsstring></argsstring>
+        <name>_voicing</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/realizedharmony.h" line="70" column="15" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/realizedharmony.h" bodystart="70" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_ms_1_1_realized_harmony_1a42038f21480f2c5339c164512e8440f7" prot="private" static="no" mutable="no">
+        <type>HDuration</type>
+        <definition>HDuration Ms::RealizedHarmony::_duration</definition>
+        <argsstring></argsstring>
+        <name>_duration</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/realizedharmony.h" line="71" column="17" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/realizedharmony.h" bodystart="71" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_ms_1_1_realized_harmony_1a6733153a495d54f7b923a0b0ae4a78ea" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool Ms::RealizedHarmony::_dirty</definition>
+        <argsstring></argsstring>
+        <name>_dirty</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/realizedharmony.h" line="74" column="12" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/realizedharmony.h" bodystart="74" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_ms_1_1_realized_harmony_1a0250c2e4afffca3577e6673cb11430b7" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool Ms::RealizedHarmony::_literal</definition>
+        <argsstring></argsstring>
+        <name>_literal</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/realizedharmony.h" line="76" column="12" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/realizedharmony.h" bodystart="76" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_ms_1_1_realized_harmony_1af77328a494fc43f454f68345fb2bb5fa" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>Ms::RealizedHarmony::RealizedHarmony</definition>
+        <argsstring>()</argsstring>
+        <name>RealizedHarmony</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/realizedharmony.h" line="79" column="7" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/realizedharmony.h" bodystart="79" bodyend="79"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ms_1_1_realized_harmony_1a065185ed91e05bfe4169cfab98cb7ac5" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>Ms::RealizedHarmony::RealizedHarmony</definition>
+        <argsstring>(Harmony *h)</argsstring>
+        <name>RealizedHarmony</name>
+        <param>
+          <type><ref refid="class_ms_1_1_harmony" kindref="compound">Harmony</ref> *</type>
+          <declname>h</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/realizedharmony.h" line="80" column="7" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/realizedharmony.h" bodystart="80" bodyend="80"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ms_1_1_realized_harmony_1a430f7a6117ca805e08542f07580ac673" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Ms::RealizedHarmony::setVoicing</definition>
+        <argsstring>(Voicing)</argsstring>
+        <name>setVoicing</name>
+        <param>
+          <type>Voicing</type>
+          <defname>v</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>sets the voicing and dirty flag if the passed voicing is different than current </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/realizedharmony.h" line="82" column="12" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/realizedharmony.cpp" bodystart="35" bodyend="41"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ms_1_1_realized_harmony_1ab6da4fec6915ff437520d4e9dfc95294" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Ms::RealizedHarmony::setDuration</definition>
+        <argsstring>(HDuration)</argsstring>
+        <name>setDuration</name>
+        <param>
+          <type>HDuration</type>
+          <defname>d</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>sets the duration and dirty flag if the passed HDuration is different than current </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/realizedharmony.h" line="83" column="12" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/realizedharmony.cpp" bodystart="48" bodyend="54"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ms_1_1_realized_harmony_1a36ee24c7d9380d541c41fd8d04232735" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Ms::RealizedHarmony::setLiteral</definition>
+        <argsstring>(bool)</argsstring>
+        <name>setLiteral</name>
+        <param>
+          <type>bool</type>
+          <defname>literal</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>sets literal/jazz and dirty flag if the passed bool is different than current </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/realizedharmony.h" line="84" column="12" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/realizedharmony.cpp" bodystart="61" bodyend="67"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ms_1_1_realized_harmony_1a666d83218023e9d42ebc98fe48e16c18" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Ms::RealizedHarmony::setDirty</definition>
+        <argsstring>(bool dirty)</argsstring>
+        <name>setDirty</name>
+        <param>
+          <type>bool</type>
+          <declname>dirty</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/realizedharmony.h" line="85" column="12" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/realizedharmony.h" bodystart="85" bodyend="85"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ms_1_1_realized_harmony_1a707174c2b59f36d222e82331735033d4" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Ms::RealizedHarmony::setHarmony</definition>
+        <argsstring>(Harmony *h)</argsstring>
+        <name>setHarmony</name>
+        <param>
+          <type><ref refid="class_ms_1_1_harmony" kindref="compound">Harmony</ref> *</type>
+          <declname>h</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/realizedharmony.h" line="86" column="12" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/realizedharmony.h" bodystart="86" bodyend="86"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ms_1_1_realized_harmony_1aefb598e6e56717946d8d3f2f258e44b2" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>Voicing</type>
+        <definition>Voicing Ms::RealizedHarmony::voicing</definition>
+        <argsstring>() const</argsstring>
+        <name>voicing</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/realizedharmony.h" line="88" column="15" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/realizedharmony.h" bodystart="88" bodyend="88"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ms_1_1_realized_harmony_1ad54cd05b56d4c632abc87a3b8e30001f" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>HDuration</type>
+        <definition>HDuration Ms::RealizedHarmony::duration</definition>
+        <argsstring>() const</argsstring>
+        <name>duration</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/realizedharmony.h" line="89" column="17" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/realizedharmony.h" bodystart="89" bodyend="89"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ms_1_1_realized_harmony_1a44bbab8a9a81a8b1c04ae493d5133194" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool Ms::RealizedHarmony::literal</definition>
+        <argsstring>() const</argsstring>
+        <name>literal</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/realizedharmony.h" line="90" column="12" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/realizedharmony.h" bodystart="90" bodyend="90"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ms_1_1_realized_harmony_1a22f8e1dbcdc466c8b35d44c323f56dea" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="class_ms_1_1_harmony" kindref="compound">Harmony</ref> *</type>
+        <definition>Harmony* Ms::RealizedHarmony::harmony</definition>
+        <argsstring>()</argsstring>
+        <name>harmony</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/realizedharmony.h" line="91" column="15" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/realizedharmony.h" bodystart="91" bodyend="91"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ms_1_1_realized_harmony_1ac2e84d4e5adf757e7e69841ef8130c3c" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool Ms::RealizedHarmony::valid</definition>
+        <argsstring>() const</argsstring>
+        <name>valid</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/realizedharmony.h" line="93" column="12" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/realizedharmony.h" bodystart="93" bodyend="93"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ms_1_1_realized_harmony_1a21061eca3c401487ca6625d56e19634b" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>const QList&lt; int &gt;</type>
+        <definition>const QList&lt;int&gt; Ms::RealizedHarmony::pitches</definition>
+        <argsstring>() const</argsstring>
+        <name>pitches</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/realizedharmony.h" line="95" column="19" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/realizedharmony.h" bodystart="95" bodyend="95"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ms_1_1_realized_harmony_1ad9f141478b435226b4eaea13de8e9fbd" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>const QList&lt; int &gt;</type>
+        <definition>const QList&lt;int&gt; Ms::RealizedHarmony::tpcs</definition>
+        <argsstring>() const</argsstring>
+        <name>tpcs</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/realizedharmony.h" line="96" column="19" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/realizedharmony.h" bodystart="96" bodyend="96"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ms_1_1_realized_harmony_1a69eb1c67853d2667f294341ccb79f395" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>const PitchMap &amp;</type>
+        <definition>const RealizedHarmony::PitchMap &amp; Ms::RealizedHarmony::notes</definition>
+        <argsstring>() const</argsstring>
+        <name>notes</name>
+        <briefdescription>
+<para>returns the list of notes </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/realizedharmony.h" line="98" column="22" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/realizedharmony.cpp" bodystart="73" bodyend="80"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ms_1_1_realized_harmony_1a5f2c698d7cf2d2312720cd32fe5c6307" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>const PitchMap</type>
+        <definition>const RealizedHarmony::PitchMap Ms::RealizedHarmony::generateNotes</definition>
+        <argsstring>(int rootTpc, int bassTpc, bool literal, Voicing voicing, int transposeOffset) const</argsstring>
+        <name>generateNotes</name>
+        <param>
+          <type>int</type>
+          <declname>rootTpc</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>bassTpc</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>literal</declname>
+        </param>
+        <param>
+          <type>Voicing</type>
+          <declname>voicing</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>transposeOffset</declname>
+        </param>
+        <briefdescription>
+<para>generates a note list based on the passed parameters </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/realizedharmony.h" line="99" column="22" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/realizedharmony.cpp" bodystart="86" bodyend="192"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ms_1_1_realized_harmony_1a4b2bb0b888eba089337b7244ed927f4a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Ms::RealizedHarmony::update</definition>
+        <argsstring>(int rootTpc, int bassTpc, int transposeOffset=0)</argsstring>
+        <name>update</name>
+        <param>
+          <type>int</type>
+          <declname>rootTpc</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>bassTpc</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>transposeOffset</declname>
+          <defval>0</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>updates the current note map, this is where all of the rhythm and voicing choices matter since the voicing algorithms depend on this.</para>
+<para>transposeOffset <ndash/> is the necessary adjustment that is added to the root and bass to get the correct sounding pitch</para>
+<para>TODO -: Don&apos;t worry about realized harmony for RNA harmony? </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/realizedharmony.h" line="102" column="12" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/realizedharmony.cpp" bodystart="207" bodyend="220"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ms_1_1_realized_harmony_1a888d2acbd3e93d9a74db0ef42908dfe8" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="class_ms_1_1_fraction" kindref="compound">Fraction</ref></type>
+        <definition>Fraction Ms::RealizedHarmony::getActualDuration</definition>
+        <argsstring>(HDuration durationType=HDuration::INVALID) const</argsstring>
+        <name>getActualDuration</name>
+        <param>
+          <type>HDuration</type>
+          <declname>durationType</declname>
+          <defval>HDuration::INVALID</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>gets the fraction duration for how long the harmony should be realized based on the HDuration set.</para>
+<para>This is opposed to RealizedHarmony::duration() which returns the HDuration, which is the duration setting.</para>
+<para>Specifying a parameter finds a duration based on the passed duration type while not specifying a parameter uses the setting set by the user for the specific harmony object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/realizedharmony.h" line="104" column="16" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/realizedharmony.cpp" bodystart="237" bodyend="258"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_ms_1_1_realized_harmony_1a3b3452eb986ceb6f6e375a2120caa966" prot="private" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>PitchMap</type>
+        <definition>RealizedHarmony::PitchMap Ms::RealizedHarmony::getIntervals</definition>
+        <argsstring>(int rootTpc, bool literal=true) const</argsstring>
+        <name>getIntervals</name>
+        <param>
+          <type>int</type>
+          <declname>rootTpc</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>literal</declname>
+          <defval>true</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>gets a weighted map from intervals to TPCs based on a passed root tpc (this allows for us to keep pitches, but transpose notes on the score)</para>
+<para>Weighting <ref refid="class_ms_1_1_system" kindref="compound">System</ref>:<itemizedlist>
+<listitem><para>Rank 0: 3rd, altered 5th, suspensions (characteristic notes)</para>
+</listitem><listitem><para>Rank 1: 7th</para>
+</listitem><listitem><para>Rank 2: 9ths</para>
+</listitem><listitem><para>Rank 3: 13ths where applicable and (in minor chords) 11ths</para>
+</listitem><listitem><para>Rank 3: Other alterations and additions</para>
+</listitem><listitem><para>Rank 4: 5th and (in major/dominant chords) 11th </para>
+</listitem></itemizedlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/realizedharmony.h" line="107" column="16" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/realizedharmony.cpp" bodystart="274" bodyend="492"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ms_1_1_realized_harmony_1af0990da662c2add15cae858502e7fbe0" prot="private" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>PitchMap</type>
+        <definition>RealizedHarmony::PitchMap Ms::RealizedHarmony::normalizeNoteMap</definition>
+        <argsstring>(const PitchMap &amp;intervals, int rootTpc, int rootPitch, int max=128, bool enforceMaxAsGoal=false) const</argsstring>
+        <name>normalizeNoteMap</name>
+        <param>
+          <type>const PitchMap &amp;</type>
+          <declname>intervals</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>rootTpc</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>rootPitch</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>max</declname>
+          <defval>128</defval>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>enforceMaxAsGoal</declname>
+          <defval>false</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>normalize the pitch map from intervals to create pitches between 0 and 12 and resolve any weighting system.</para>
+<para>enforceMaxEquals - enforce the max as a goal so that the max is how many notes is inserted </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/realizedharmony.h" line="108" column="16" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/realizedharmony.cpp" bodystart="501" bodyend="531"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ms_1_1_realized_harmony_1acc9b38130fdcd812d55439222b43e10d" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Ms::RealizedHarmony::cascadeDirty</definition>
+        <argsstring>(bool dirty)</argsstring>
+        <name>cascadeDirty</name>
+        <param>
+          <type>bool</type>
+          <declname>dirty</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>cascades the dirty flag backwards so that everything is properly set this is required since voicing algorithms may look ahead</para>
+<para>NOTE: FOR NOW ALGORITHMS DO NOT LOOK BACKWARDS AND SO THERE IS NO REQUIREMENT TO CASCADE FORWARD, IN THE FUTURE IT MAY BECOME IMPORTANT TO CASCADE FORWARD AS WELL </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/realizedharmony.h" line="109" column="12" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/realizedharmony.cpp" bodystart="542" bodyend="550"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>holds information and functions to assist in the realization of chord symbols. This is what is used to allow for chord symbol playback </para>
+    </detaileddescription>
+    <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/realizedharmony.h" line="59" column="22" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/realizedharmony.h" bodystart="59" bodyend="110"/>
+    <listofallmembers>
+      <member refid="class_ms_1_1_realized_harmony_1a6733153a495d54f7b923a0b0ae4a78ea" prot="private" virt="non-virtual"><scope>Ms::RealizedHarmony</scope><name>_dirty</name></member>
+      <member refid="class_ms_1_1_realized_harmony_1a42038f21480f2c5339c164512e8440f7" prot="private" virt="non-virtual"><scope>Ms::RealizedHarmony</scope><name>_duration</name></member>
+      <member refid="class_ms_1_1_realized_harmony_1a856fc97447f20ddea68cf77b3c3a58f3" prot="private" virt="non-virtual"><scope>Ms::RealizedHarmony</scope><name>_harmony</name></member>
+      <member refid="class_ms_1_1_realized_harmony_1a0250c2e4afffca3577e6673cb11430b7" prot="private" virt="non-virtual"><scope>Ms::RealizedHarmony</scope><name>_literal</name></member>
+      <member refid="class_ms_1_1_realized_harmony_1a9a87abc93dccdabdaaede9a136094d52" prot="private" virt="non-virtual"><scope>Ms::RealizedHarmony</scope><name>_notes</name></member>
+      <member refid="class_ms_1_1_realized_harmony_1abfad9aa6d305ba3a70f89f81b3baf10b" prot="private" virt="non-virtual"><scope>Ms::RealizedHarmony</scope><name>_voicing</name></member>
+      <member refid="class_ms_1_1_realized_harmony_1acc9b38130fdcd812d55439222b43e10d" prot="private" virt="non-virtual"><scope>Ms::RealizedHarmony</scope><name>cascadeDirty</name></member>
+      <member refid="class_ms_1_1_realized_harmony_1ad54cd05b56d4c632abc87a3b8e30001f" prot="public" virt="non-virtual"><scope>Ms::RealizedHarmony</scope><name>duration</name></member>
+      <member refid="class_ms_1_1_realized_harmony_1a5f2c698d7cf2d2312720cd32fe5c6307" prot="public" virt="non-virtual"><scope>Ms::RealizedHarmony</scope><name>generateNotes</name></member>
+      <member refid="class_ms_1_1_realized_harmony_1a888d2acbd3e93d9a74db0ef42908dfe8" prot="public" virt="non-virtual"><scope>Ms::RealizedHarmony</scope><name>getActualDuration</name></member>
+      <member refid="class_ms_1_1_realized_harmony_1a3b3452eb986ceb6f6e375a2120caa966" prot="private" virt="non-virtual"><scope>Ms::RealizedHarmony</scope><name>getIntervals</name></member>
+      <member refid="class_ms_1_1_realized_harmony_1a22f8e1dbcdc466c8b35d44c323f56dea" prot="public" virt="non-virtual"><scope>Ms::RealizedHarmony</scope><name>harmony</name></member>
+      <member refid="class_ms_1_1_realized_harmony_1a44bbab8a9a81a8b1c04ae493d5133194" prot="public" virt="non-virtual"><scope>Ms::RealizedHarmony</scope><name>literal</name></member>
+      <member refid="class_ms_1_1_realized_harmony_1af0990da662c2add15cae858502e7fbe0" prot="private" virt="non-virtual"><scope>Ms::RealizedHarmony</scope><name>normalizeNoteMap</name></member>
+      <member refid="class_ms_1_1_realized_harmony_1a69eb1c67853d2667f294341ccb79f395" prot="public" virt="non-virtual"><scope>Ms::RealizedHarmony</scope><name>notes</name></member>
+      <member refid="class_ms_1_1_realized_harmony_1a21061eca3c401487ca6625d56e19634b" prot="public" virt="non-virtual"><scope>Ms::RealizedHarmony</scope><name>pitches</name></member>
+      <member refid="class_ms_1_1_realized_harmony_1ac46f2ff324946d303291416db76f27d8" prot="public" virt="non-virtual"><scope>Ms::RealizedHarmony</scope><name>PitchMap</name></member>
+      <member refid="class_ms_1_1_realized_harmony_1a02cda1fbd0c5ac753d8fac01fa98a7cf" prot="public" virt="non-virtual"><scope>Ms::RealizedHarmony</scope><name>PitchMapIterator</name></member>
+      <member refid="class_ms_1_1_realized_harmony_1af77328a494fc43f454f68345fb2bb5fa" prot="public" virt="non-virtual"><scope>Ms::RealizedHarmony</scope><name>RealizedHarmony</name></member>
+      <member refid="class_ms_1_1_realized_harmony_1a065185ed91e05bfe4169cfab98cb7ac5" prot="public" virt="non-virtual"><scope>Ms::RealizedHarmony</scope><name>RealizedHarmony</name></member>
+      <member refid="class_ms_1_1_realized_harmony_1a666d83218023e9d42ebc98fe48e16c18" prot="public" virt="non-virtual"><scope>Ms::RealizedHarmony</scope><name>setDirty</name></member>
+      <member refid="class_ms_1_1_realized_harmony_1ab6da4fec6915ff437520d4e9dfc95294" prot="public" virt="non-virtual"><scope>Ms::RealizedHarmony</scope><name>setDuration</name></member>
+      <member refid="class_ms_1_1_realized_harmony_1a707174c2b59f36d222e82331735033d4" prot="public" virt="non-virtual"><scope>Ms::RealizedHarmony</scope><name>setHarmony</name></member>
+      <member refid="class_ms_1_1_realized_harmony_1a36ee24c7d9380d541c41fd8d04232735" prot="public" virt="non-virtual"><scope>Ms::RealizedHarmony</scope><name>setLiteral</name></member>
+      <member refid="class_ms_1_1_realized_harmony_1a430f7a6117ca805e08542f07580ac673" prot="public" virt="non-virtual"><scope>Ms::RealizedHarmony</scope><name>setVoicing</name></member>
+      <member refid="class_ms_1_1_realized_harmony_1ad9f141478b435226b4eaea13de8e9fbd" prot="public" virt="non-virtual"><scope>Ms::RealizedHarmony</scope><name>tpcs</name></member>
+      <member refid="class_ms_1_1_realized_harmony_1a4b2bb0b888eba089337b7244ed927f4a" prot="public" virt="non-virtual"><scope>Ms::RealizedHarmony</scope><name>update</name></member>
+      <member refid="class_ms_1_1_realized_harmony_1ac2e84d4e5adf757e7e69841ef8130c3c" prot="public" virt="non-virtual"><scope>Ms::RealizedHarmony</scope><name>valid</name></member>
+      <member refid="class_ms_1_1_realized_harmony_1aefb598e6e56717946d8d3f2f258e44b2" prot="public" virt="non-virtual"><scope>Ms::RealizedHarmony</scope><name>voicing</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

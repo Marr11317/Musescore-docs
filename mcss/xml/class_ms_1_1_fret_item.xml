@@ -1,0 +1,151 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.17">
+  <compounddef id="class_ms_1_1_fret_item" kind="class" language="C++" prot="public">
+    <compoundname>Ms::FretItem</compoundname>
+    <innerclass refid="struct_ms_1_1_fret_item_1_1_barre" prot="public">Ms::FretItem::Barre</innerclass>
+    <innerclass refid="struct_ms_1_1_fret_item_1_1_dot" prot="public">Ms::FretItem::Dot</innerclass>
+    <innerclass refid="struct_ms_1_1_fret_item_1_1_dot_type_name_item" prot="public">Ms::FretItem::DotTypeNameItem</innerclass>
+    <innerclass refid="struct_ms_1_1_fret_item_1_1_marker" prot="public">Ms::FretItem::Marker</innerclass>
+    <innerclass refid="struct_ms_1_1_fret_item_1_1_marker_type_name_item" prot="public">Ms::FretItem::MarkerTypeNameItem</innerclass>
+      <sectiondef kind="public-static-attrib">
+      <memberdef kind="variable" id="class_ms_1_1_fret_item_1af0fac5f8e6e73b3ff14818a9fb5ae6e7" prot="public" static="yes" mutable="no">
+        <type>const std::vector&lt; <ref refid="struct_ms_1_1_fret_item_1_1_marker_type_name_item" kindref="compound">FretItem::MarkerTypeNameItem</ref> &gt;</type>
+        <definition>const std::vector&lt; FretItem::MarkerTypeNameItem &gt; Ms::FretItem::markerTypeNameMap</definition>
+        <argsstring></argsstring>
+        <name>markerTypeNameMap</name>
+        <initializer>= {
+      { FretMarkerType::CIRCLE,     &quot;circle&quot;    },
+      { FretMarkerType::CROSS,      &quot;cross&quot;     },
+      { FretMarkerType::NONE,       &quot;none&quot;      }
+      }</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/fret.h" line="80" column="32" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/fret.h" bodystart="80" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_ms_1_1_fret_item_1a78f867eb97ac5b33395c8c70ac2e9970" prot="public" static="yes" mutable="no">
+        <type>const std::vector&lt; <ref refid="struct_ms_1_1_fret_item_1_1_dot_type_name_item" kindref="compound">FretItem::DotTypeNameItem</ref> &gt;</type>
+        <definition>const std::vector&lt; FretItem::DotTypeNameItem &gt; Ms::FretItem::dotTypeNameMap</definition>
+        <argsstring></argsstring>
+        <name>dotTypeNameMap</name>
+        <initializer>= {
+      { FretDotType::NORMAL,        &quot;normal&quot;    },
+      { FretDotType::CROSS,         &quot;cross&quot;     },
+      { FretDotType::SQUARE,        &quot;square&quot;    },
+      { FretDotType::TRIANGLE,      &quot;triangle&quot;  },
+      }</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/fret.h" line="81" column="32" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/fret.h" bodystart="81" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="class_ms_1_1_fret_item_1a79c557e31abb2e63199e5e781ee9cad1" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>QChar</type>
+        <definition>QChar Ms::FretItem::markerToChar</definition>
+        <argsstring>(FretMarkerType t)</argsstring>
+        <name>markerToChar</name>
+        <param>
+          <type>FretMarkerType</type>
+          <declname>t</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/fret.h" line="83" column="20" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/fret.cpp" bodystart="1365" bodyend="1376"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ms_1_1_fret_item_1aea313ef234da38cf920999fd858dfbff" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>QString</type>
+        <definition>QString Ms::FretItem::markerTypeToName</definition>
+        <argsstring>(FretMarkerType t)</argsstring>
+        <name>markerTypeToName</name>
+        <param>
+          <type>FretMarkerType</type>
+          <declname>t</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/fret.h" line="84" column="22" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/fret.cpp" bodystart="1388" bodyend="1396"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ms_1_1_fret_item_1ae3f91251bef1178ce816d2e70e30ba1e" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>FretMarkerType</type>
+        <definition>FretMarkerType Ms::FretItem::nameToMarkerType</definition>
+        <argsstring>(QString n)</argsstring>
+        <name>nameToMarkerType</name>
+        <param>
+          <type>QString</type>
+          <declname>n</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/fret.h" line="85" column="29" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/fret.cpp" bodystart="1402" bodyend="1410"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ms_1_1_fret_item_1ab30631f2a31d4edd3a792495c495352a" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>QString</type>
+        <definition>QString Ms::FretItem::dotTypeToName</definition>
+        <argsstring>(FretDotType t)</argsstring>
+        <name>dotTypeToName</name>
+        <param>
+          <type>FretDotType</type>
+          <declname>t</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/fret.h" line="86" column="22" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/fret.cpp" bodystart="1423" bodyend="1431"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ms_1_1_fret_item_1a5493eccdd5296de790548e45a603c9ae" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>FretDotType</type>
+        <definition>FretDotType Ms::FretItem::nameToDotType</definition>
+        <argsstring>(QString n)</argsstring>
+        <name>nameToDotType</name>
+        <param>
+          <type>QString</type>
+          <declname>n</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/fret.h" line="87" column="26" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/fret.cpp" bodystart="1437" bodyend="1445"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/fret.h" line="41" column="15" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/fret.h" bodystart="41" bodyend="88"/>
+    <listofallmembers>
+      <member refid="class_ms_1_1_fret_item_1a78f867eb97ac5b33395c8c70ac2e9970" prot="public" virt="non-virtual"><scope>Ms::FretItem</scope><name>dotTypeNameMap</name></member>
+      <member refid="class_ms_1_1_fret_item_1ab30631f2a31d4edd3a792495c495352a" prot="public" virt="non-virtual"><scope>Ms::FretItem</scope><name>dotTypeToName</name></member>
+      <member refid="class_ms_1_1_fret_item_1a79c557e31abb2e63199e5e781ee9cad1" prot="public" virt="non-virtual"><scope>Ms::FretItem</scope><name>markerToChar</name></member>
+      <member refid="class_ms_1_1_fret_item_1af0fac5f8e6e73b3ff14818a9fb5ae6e7" prot="public" virt="non-virtual"><scope>Ms::FretItem</scope><name>markerTypeNameMap</name></member>
+      <member refid="class_ms_1_1_fret_item_1aea313ef234da38cf920999fd858dfbff" prot="public" virt="non-virtual"><scope>Ms::FretItem</scope><name>markerTypeToName</name></member>
+      <member refid="class_ms_1_1_fret_item_1a5493eccdd5296de790548e45a603c9ae" prot="public" virt="non-virtual"><scope>Ms::FretItem</scope><name>nameToDotType</name></member>
+      <member refid="class_ms_1_1_fret_item_1ae3f91251bef1178ce816d2e70e30ba1e" prot="public" virt="non-virtual"><scope>Ms::FretItem</scope><name>nameToMarkerType</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

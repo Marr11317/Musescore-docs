@@ -1,0 +1,43 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.17">
+  <compounddef id="struct_ms_1_1_styled_property" kind="struct" language="C++" prot="public">
+    <compoundname>Ms::StyledProperty</compoundname>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="struct_ms_1_1_styled_property_1a5c8b153344bd200d31005af21d9aacf6" prot="public" static="no" mutable="no">
+        <type>Sid</type>
+        <definition>Sid Ms::StyledProperty::sid</definition>
+        <argsstring></argsstring>
+        <name>sid</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/style.h" line="1339" column="11" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/style.h" bodystart="1339" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_ms_1_1_styled_property_1af0eededaeba99403f3e578406217feaa" prot="public" static="no" mutable="no">
+        <type>Pid</type>
+        <definition>Pid Ms::StyledProperty::pid</definition>
+        <argsstring></argsstring>
+        <name>pid</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/style.h" line="1340" column="11" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/style.h" bodystart="1340" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/style.h" line="1338" column="21" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/style.h" bodystart="1338" bodyend="1341"/>
+    <listofallmembers>
+      <member refid="struct_ms_1_1_styled_property_1af0eededaeba99403f3e578406217feaa" prot="public" virt="non-virtual"><scope>Ms::StyledProperty</scope><name>pid</name></member>
+      <member refid="struct_ms_1_1_styled_property_1a5c8b153344bd200d31005af21d9aacf6" prot="public" virt="non-virtual"><scope>Ms::StyledProperty</scope><name>sid</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

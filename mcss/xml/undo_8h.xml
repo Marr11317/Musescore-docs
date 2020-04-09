@@ -1,0 +1,792 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.17">
+  <compounddef id="undo_8h" kind="file" language="C++">
+    <compoundname>undo.h</compoundname>
+    <includes refid="spatium_8h" local="yes">spatium.h</includes>
+    <includes refid="mscore_8h" local="yes">mscore.h</includes>
+    <includes refid="sig_8h" local="yes">sig.h</includes>
+    <includes refid="tempo_8h" local="yes">tempo.h</includes>
+    <includes refid="input_8h" local="yes">input.h</includes>
+    <includes refid="style_8h" local="yes">style.h</includes>
+    <includes refid="key_8h" local="yes">key.h</includes>
+    <includes refid="select_8h" local="yes">select.h</includes>
+    <includes refid="instrument_8h" local="yes">instrument.h</includes>
+    <includes local="yes">synthesizer/midipatch.h</includes>
+    <includes refid="pitchvalue_8h" local="yes">pitchvalue.h</includes>
+    <includes refid="timesig_8h" local="yes">timesig.h</includes>
+    <includes refid="noteevent_8h" local="yes">noteevent.h</includes>
+    <includes refid="synthesizerstate_8h" local="yes">synthesizerstate.h</includes>
+    <includes refid="dynamic_8h" local="yes">dynamic.h</includes>
+    <includes refid="staff_8h" local="yes">staff.h</includes>
+    <includes refid="stafftype_8h" local="yes">stafftype.h</includes>
+    <includes refid="cleflist_8h" local="yes">cleflist.h</includes>
+    <includes refid="note_8h" local="yes">note.h</includes>
+    <includes refid="chord_8h" local="yes">chord.h</includes>
+    <includes refid="drumset_8h" local="yes">drumset.h</includes>
+    <includes refid="rest_8h" local="yes">rest.h</includes>
+    <includes refid="fret_8h" local="yes">fret.h</includes>
+    <includedby refid="accidental_8cpp" local="yes">C:/Users/main/Documents/GitHub/MuseScore/libmscore/accidental.cpp</includedby>
+    <includedby refid="articulation_8cpp" local="yes">C:/Users/main/Documents/GitHub/MuseScore/libmscore/articulation.cpp</includedby>
+    <includedby refid="barline_8cpp" local="yes">C:/Users/main/Documents/GitHub/MuseScore/libmscore/barline.cpp</includedby>
+    <includedby refid="beam_8cpp" local="yes">C:/Users/main/Documents/GitHub/MuseScore/libmscore/beam.cpp</includedby>
+    <includedby refid="bend_8cpp" local="yes">C:/Users/main/Documents/GitHub/MuseScore/libmscore/bend.cpp</includedby>
+    <includedby refid="box_8cpp" local="yes">C:/Users/main/Documents/GitHub/MuseScore/libmscore/box.cpp</includedby>
+    <includedby refid="chord_8cpp" local="yes">C:/Users/main/Documents/GitHub/MuseScore/libmscore/chord.cpp</includedby>
+    <includedby refid="chordrest_8cpp" local="yes">C:/Users/main/Documents/GitHub/MuseScore/libmscore/chordrest.cpp</includedby>
+    <includedby refid="cmd_8cpp" local="yes">C:/Users/main/Documents/GitHub/MuseScore/libmscore/cmd.cpp</includedby>
+    <includedby refid="duration_8cpp" local="yes">C:/Users/main/Documents/GitHub/MuseScore/libmscore/duration.cpp</includedby>
+    <includedby refid="dynamic_8cpp" local="yes">C:/Users/main/Documents/GitHub/MuseScore/libmscore/dynamic.cpp</includedby>
+    <includedby refid="edit_8cpp" local="yes">C:/Users/main/Documents/GitHub/MuseScore/libmscore/edit.cpp</includedby>
+    <includedby refid="element_8cpp" local="yes">C:/Users/main/Documents/GitHub/MuseScore/libmscore/element.cpp</includedby>
+    <includedby refid="excerpt_8cpp" local="yes">C:/Users/main/Documents/GitHub/MuseScore/libmscore/excerpt.cpp</includedby>
+    <includedby refid="fermata_8cpp" local="yes">C:/Users/main/Documents/GitHub/MuseScore/libmscore/fermata.cpp</includedby>
+    <includedby refid="fingering_8cpp" local="yes">C:/Users/main/Documents/GitHub/MuseScore/libmscore/fingering.cpp</includedby>
+    <includedby refid="fret_8cpp" local="yes">C:/Users/main/Documents/GitHub/MuseScore/libmscore/fret.cpp</includedby>
+    <includedby refid="hairpin_8cpp" local="yes">C:/Users/main/Documents/GitHub/MuseScore/libmscore/hairpin.cpp</includedby>
+    <includedby refid="image_8cpp" local="yes">C:/Users/main/Documents/GitHub/MuseScore/libmscore/image.cpp</includedby>
+    <includedby refid="iname_8cpp" local="yes">C:/Users/main/Documents/GitHub/MuseScore/libmscore/iname.cpp</includedby>
+    <includedby refid="instrchange_8cpp" local="yes">C:/Users/main/Documents/GitHub/MuseScore/libmscore/instrchange.cpp</includedby>
+    <includedby refid="join_measure_8cpp" local="yes">C:/Users/main/Documents/GitHub/MuseScore/libmscore/joinMeasure.cpp</includedby>
+    <includedby refid="keysig_8cpp" local="yes">C:/Users/main/Documents/GitHub/MuseScore/libmscore/keysig.cpp</includedby>
+    <includedby refid="layout_8cpp" local="yes">C:/Users/main/Documents/GitHub/MuseScore/libmscore/layout.cpp</includedby>
+    <includedby refid="lyrics_8cpp" local="yes">C:/Users/main/Documents/GitHub/MuseScore/libmscore/lyrics.cpp</includedby>
+    <includedby refid="textedit_8h" local="yes">C:/Users/main/Documents/GitHub/MuseScore/libmscore/textedit.h</includedby>
+    <includedby refid="lyricsline_8cpp" local="yes">C:/Users/main/Documents/GitHub/MuseScore/libmscore/lyricsline.cpp</includedby>
+    <includedby refid="measure_8cpp" local="yes">C:/Users/main/Documents/GitHub/MuseScore/libmscore/measure.cpp</includedby>
+    <includedby refid="note_8cpp" local="yes">C:/Users/main/Documents/GitHub/MuseScore/libmscore/note.cpp</includedby>
+    <includedby refid="noteentry_8cpp" local="yes">C:/Users/main/Documents/GitHub/MuseScore/libmscore/noteentry.cpp</includedby>
+    <includedby refid="read206_8cpp" local="yes">C:/Users/main/Documents/GitHub/MuseScore/libmscore/read206.cpp</includedby>
+    <includedby refid="rendermidi_8cpp" local="yes">C:/Users/main/Documents/GitHub/MuseScore/libmscore/rendermidi.cpp</includedby>
+    <includedby refid="rest_8cpp" local="yes">C:/Users/main/Documents/GitHub/MuseScore/libmscore/rest.cpp</includedby>
+    <includedby refid="score_8cpp" local="yes">C:/Users/main/Documents/GitHub/MuseScore/libmscore/score.cpp</includedby>
+    <includedby refid="score_element_8cpp" local="yes">C:/Users/main/Documents/GitHub/MuseScore/libmscore/scoreElement.cpp</includedby>
+    <includedby refid="scorefile_8cpp" local="yes">C:/Users/main/Documents/GitHub/MuseScore/libmscore/scorefile.cpp</includedby>
+    <includedby refid="segment_8cpp" local="yes">C:/Users/main/Documents/GitHub/MuseScore/libmscore/segment.cpp</includedby>
+    <includedby refid="slur_8cpp" local="yes">C:/Users/main/Documents/GitHub/MuseScore/libmscore/slur.cpp</includedby>
+    <includedby refid="slurtie_8cpp" local="yes">C:/Users/main/Documents/GitHub/MuseScore/libmscore/slurtie.cpp</includedby>
+    <includedby refid="spanner_8cpp" local="yes">C:/Users/main/Documents/GitHub/MuseScore/libmscore/spanner.cpp</includedby>
+    <includedby refid="split_measure_8cpp" local="yes">C:/Users/main/Documents/GitHub/MuseScore/libmscore/splitMeasure.cpp</includedby>
+    <includedby refid="staff_8cpp" local="yes">C:/Users/main/Documents/GitHub/MuseScore/libmscore/staff.cpp</includedby>
+    <includedby refid="stringdata_8cpp" local="yes">C:/Users/main/Documents/GitHub/MuseScore/libmscore/stringdata.cpp</includedby>
+    <includedby refid="style_8cpp" local="yes">C:/Users/main/Documents/GitHub/MuseScore/libmscore/style.cpp</includedby>
+    <includedby refid="tempotext_8cpp" local="yes">C:/Users/main/Documents/GitHub/MuseScore/libmscore/tempotext.cpp</includedby>
+    <includedby refid="textbase_8cpp" local="yes">C:/Users/main/Documents/GitHub/MuseScore/libmscore/textbase.cpp</includedby>
+    <includedby refid="tie_8cpp" local="yes">C:/Users/main/Documents/GitHub/MuseScore/libmscore/tie.cpp</includedby>
+    <includedby refid="transpose_8cpp" local="yes">C:/Users/main/Documents/GitHub/MuseScore/libmscore/transpose.cpp</includedby>
+    <includedby refid="tremolobar_8cpp" local="yes">C:/Users/main/Documents/GitHub/MuseScore/libmscore/tremolobar.cpp</includedby>
+    <includedby refid="tuplet_8cpp" local="yes">C:/Users/main/Documents/GitHub/MuseScore/libmscore/tuplet.cpp</includedby>
+    <includedby refid="undo_8cpp" local="yes">C:/Users/main/Documents/GitHub/MuseScore/libmscore/undo.cpp</includedby>
+    <includedby refid="unrollrepeats_8cpp" local="yes">C:/Users/main/Documents/GitHub/MuseScore/libmscore/unrollrepeats.cpp</includedby>
+    <incdepgraph>
+      <node id="60">
+        <label>sym.h</label>
+        <link refid="sym_8h_source"/>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="61" relation="include">
+        </childnode>
+      </node>
+      <node id="22">
+        <label>beam.h</label>
+        <link refid="beam_8h_source"/>
+        <childnode refid="14" relation="include">
+        </childnode>
+        <childnode refid="12" relation="include">
+        </childnode>
+        <childnode refid="23" relation="include">
+        </childnode>
+      </node>
+      <node id="44">
+        <label>list</label>
+      </node>
+      <node id="67">
+        <label>QMap</label>
+      </node>
+      <node id="5">
+        <label>style.h</label>
+        <link refid="style_8h_source"/>
+        <childnode refid="6" relation="include">
+        </childnode>
+        <childnode refid="7" relation="include">
+        </childnode>
+      </node>
+      <node id="53">
+        <label>stafftypelist.h</label>
+        <link refid="stafftypelist_8h_source"/>
+        <childnode refid="32" relation="include">
+        </childnode>
+      </node>
+      <node id="64">
+        <label>fret.h</label>
+        <link refid="fret_8h_source"/>
+        <childnode refid="14" relation="include">
+        </childnode>
+        <childnode refid="65" relation="include">
+        </childnode>
+      </node>
+      <node id="50">
+        <label>pitch.h</label>
+        <link refid="pitch_8h_source"/>
+      </node>
+      <node id="55">
+        <label>functional</label>
+      </node>
+      <node id="59">
+        <label>tremolo.h</label>
+        <link refid="tremolo_8h_source"/>
+        <childnode refid="12" relation="include">
+        </childnode>
+        <childnode refid="17" relation="include">
+        </childnode>
+      </node>
+      <node id="26">
+        <label>stringdata.h</label>
+        <link refid="stringdata_8h_source"/>
+        <childnode refid="27" relation="include">
+        </childnode>
+      </node>
+      <node id="12">
+        <label>durationtype.h</label>
+        <link refid="durationtype_8h_source"/>
+        <childnode refid="9" relation="include">
+        </childnode>
+        <childnode refid="13" relation="include">
+        </childnode>
+      </node>
+      <node id="25">
+        <label>instrument.h</label>
+        <link refid="instrument_8h_source"/>
+        <childnode refid="26" relation="include">
+        </childnode>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="34" relation="include">
+        </childnode>
+        <childnode refid="35" relation="include">
+        </childnode>
+        <childnode refid="33" relation="include">
+        </childnode>
+        <childnode refid="36" relation="include">
+        </childnode>
+        <childnode refid="37" relation="include">
+        </childnode>
+        <childnode refid="38" relation="include">
+        </childnode>
+      </node>
+      <node id="68">
+        <label>QList</label>
+      </node>
+      <node id="66">
+        <label>realizedharmony.h</label>
+        <link refid="realizedharmony_8h_source"/>
+        <childnode refid="67" relation="include">
+        </childnode>
+        <childnode refid="68" relation="include">
+        </childnode>
+      </node>
+      <node id="9">
+        <label>fraction.h</label>
+        <link refid="fraction_8h_source"/>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="3" relation="include">
+        </childnode>
+      </node>
+      <node id="27">
+        <label>xml.h</label>
+        <link refid="xml_8h_source"/>
+        <childnode refid="28" relation="include">
+        </childnode>
+        <childnode refid="29" relation="include">
+        </childnode>
+        <childnode refid="32" relation="include">
+        </childnode>
+        <childnode refid="33" relation="include">
+        </childnode>
+        <childnode refid="14" relation="include">
+        </childnode>
+        <childnode refid="24" relation="include">
+        </childnode>
+      </node>
+      <node id="51">
+        <label>cleflist.h</label>
+        <link refid="cleflist_8h_source"/>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="36" relation="include">
+        </childnode>
+      </node>
+      <node id="6">
+        <label>chordlist.h</label>
+        <link refid="chordlist_8h_source"/>
+      </node>
+      <node id="45">
+        <label>dynamic.h</label>
+        <link refid="dynamic_8h_source"/>
+        <childnode refid="46" relation="include">
+        </childnode>
+        <childnode refid="3" relation="include">
+        </childnode>
+      </node>
+      <node id="40">
+        <label>pitchvalue.h</label>
+        <link refid="pitchvalue_8h_source"/>
+      </node>
+      <node id="24">
+        <label>select.h</label>
+        <link refid="select_8h_source"/>
+        <childnode refid="20" relation="include">
+        </childnode>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="12" relation="include">
+        </childnode>
+      </node>
+      <node id="46">
+        <label>text.h</label>
+        <link refid="text_8h_source"/>
+        <childnode refid="47" relation="include">
+        </childnode>
+      </node>
+      <node id="65">
+        <label>harmony.h</label>
+        <link refid="harmony_8h_source"/>
+        <childnode refid="46" relation="include">
+        </childnode>
+        <childnode refid="20" relation="include">
+        </childnode>
+        <childnode refid="66" relation="include">
+        </childnode>
+      </node>
+      <node id="63">
+        <label>notedot.h</label>
+        <link refid="notedot_8h_source"/>
+        <childnode refid="14" relation="include">
+        </childnode>
+      </node>
+      <node id="37">
+        <label>QtGlobal</label>
+      </node>
+      <node id="14">
+        <label>element.h</label>
+        <link refid="element_8h_source"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="9" relation="include">
+        </childnode>
+        <childnode refid="15" relation="include">
+        </childnode>
+        <childnode refid="16" relation="include">
+        </childnode>
+      </node>
+      <node id="16">
+        <label>shape.h</label>
+        <link refid="shape_8h_source"/>
+      </node>
+      <node id="13">
+        <label>note.h</label>
+        <link refid="note_8h"/>
+        <childnode refid="14" relation="include">
+        </childnode>
+        <childnode refid="17" relation="include">
+        </childnode>
+        <childnode refid="19" relation="include">
+        </childnode>
+        <childnode refid="20" relation="include">
+        </childnode>
+        <childnode refid="16" relation="include">
+        </childnode>
+        <childnode refid="21" relation="include">
+        </childnode>
+      </node>
+      <node id="49">
+        <label>changeMap.h</label>
+        <link refid="change_map_8h"/>
+        <childnode refid="28" relation="include">
+        </childnode>
+        <childnode refid="9" relation="include">
+        </childnode>
+      </node>
+      <node id="17">
+        <label>symbol.h</label>
+        <link refid="symbol_8h_source"/>
+        <childnode refid="18" relation="include">
+        </childnode>
+      </node>
+      <node id="48">
+        <label>staff.h</label>
+        <link refid="staff_8h"/>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="49" relation="include">
+        </childnode>
+        <childnode refid="50" relation="include">
+        </childnode>
+        <childnode refid="51" relation="include">
+        </childnode>
+        <childnode refid="52" relation="include">
+        </childnode>
+        <childnode refid="53" relation="include">
+        </childnode>
+        <childnode refid="42" relation="include">
+        </childnode>
+        <childnode refid="15" relation="include">
+        </childnode>
+      </node>
+      <node id="11">
+        <label>input.h</label>
+        <link refid="input_8h_source"/>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="12" relation="include">
+        </childnode>
+        <childnode refid="22" relation="include">
+        </childnode>
+      </node>
+      <node id="8">
+        <label>sig.h</label>
+        <link refid="sig_8h_source"/>
+        <childnode refid="9" relation="include">
+        </childnode>
+      </node>
+      <node id="36">
+        <label>clef.h</label>
+        <link refid="clef_8h"/>
+        <childnode refid="14" relation="include">
+        </childnode>
+        <childnode refid="3" relation="include">
+        </childnode>
+      </node>
+      <node id="54">
+        <label>chord.h</label>
+        <link refid="chord_8h"/>
+        <childnode refid="55" relation="include">
+        </childnode>
+        <childnode refid="56" relation="include">
+        </childnode>
+      </node>
+      <node id="62">
+        <label>rest.h</label>
+        <link refid="rest_8h_source"/>
+        <childnode refid="56" relation="include">
+        </childnode>
+        <childnode refid="63" relation="include">
+        </childnode>
+      </node>
+      <node id="57">
+        <label>duration.h</label>
+        <link refid="duration_8h_source"/>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="14" relation="include">
+        </childnode>
+        <childnode refid="12" relation="include">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>spatium.h</label>
+        <link refid="spatium_8h_source"/>
+      </node>
+      <node id="35">
+        <label>synthesizer/event.h</label>
+      </node>
+      <node id="47">
+        <label>textbase.h</label>
+        <link refid="textbase_8h_source"/>
+        <childnode refid="14" relation="include">
+        </childnode>
+        <childnode refid="23" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
+        </childnode>
+      </node>
+      <node id="56">
+        <label>chordrest.h</label>
+        <link refid="chordrest_8h_source"/>
+        <childnode refid="55" relation="include">
+        </childnode>
+        <childnode refid="17" relation="include">
+        </childnode>
+        <childnode refid="57" relation="include">
+        </childnode>
+        <childnode refid="22" relation="include">
+        </childnode>
+        <childnode refid="16" relation="include">
+        </childnode>
+      </node>
+      <node id="29">
+        <label>connector.h</label>
+        <link refid="connector_8h_source"/>
+        <childnode refid="30" relation="include">
+        </childnode>
+        <childnode refid="7" relation="include">
+        </childnode>
+      </node>
+      <node id="39">
+        <label>synthesizer/midipatch.h</label>
+      </node>
+      <node id="58">
+        <label>drumset.h</label>
+        <link refid="drumset_8h_source"/>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="59" relation="include">
+        </childnode>
+        <childnode refid="13" relation="include">
+        </childnode>
+        <childnode refid="60" relation="include">
+        </childnode>
+      </node>
+      <node id="38">
+        <label>QString</label>
+      </node>
+      <node id="7">
+        <label>types.h</label>
+        <link refid="types_8h_source"/>
+        <childnode refid="4" relation="include">
+        </childnode>
+      </node>
+      <node id="61">
+        <label>ft2build.h</label>
+      </node>
+      <node id="19">
+        <label>noteevent.h</label>
+        <link refid="noteevent_8h_source"/>
+      </node>
+      <node id="52">
+        <label>keylist.h</label>
+        <link refid="keylist_8h_source"/>
+        <childnode refid="21" relation="include">
+        </childnode>
+      </node>
+      <node id="18">
+        <label>bsymbol.h</label>
+        <link refid="bsymbol_8h_source"/>
+        <childnode refid="14" relation="include">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>mscore.h</label>
+        <link refid="mscore_8h_source"/>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
+        </childnode>
+      </node>
+      <node id="43">
+        <label>synthesizerstate.h</label>
+        <link refid="synthesizerstate_8h_source"/>
+        <childnode refid="44" relation="include">
+        </childnode>
+      </node>
+      <node id="42">
+        <label>groups.h</label>
+        <link refid="groups_8h_source"/>
+        <childnode refid="9" relation="include">
+        </childnode>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="12" relation="include">
+        </childnode>
+        <childnode refid="22" relation="include">
+        </childnode>
+      </node>
+      <node id="15">
+        <label>scoreElement.h</label>
+        <link refid="score_element_8h_source"/>
+        <childnode refid="7" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
+        </childnode>
+      </node>
+      <node id="20">
+        <label>pitchspelling.h</label>
+        <link refid="pitchspelling_8h_source"/>
+        <childnode refid="3" relation="include">
+        </childnode>
+      </node>
+      <node id="31">
+        <label>climits</label>
+      </node>
+      <node id="21">
+        <label>key.h</label>
+        <link refid="key_8h_source"/>
+      </node>
+      <node id="23">
+        <label>property.h</label>
+        <link refid="property_8h_source"/>
+      </node>
+      <node id="34">
+        <label>notifier.hpp</label>
+        <link refid="notifier_8hpp_source"/>
+      </node>
+      <node id="1">
+        <label>C:/Users/main/Documents/GitHub/MuseScore/libmscore/undo.h</label>
+        <link refid="undo_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="8" relation="include">
+        </childnode>
+        <childnode refid="10" relation="include">
+        </childnode>
+        <childnode refid="11" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
+        </childnode>
+        <childnode refid="21" relation="include">
+        </childnode>
+        <childnode refid="24" relation="include">
+        </childnode>
+        <childnode refid="25" relation="include">
+        </childnode>
+        <childnode refid="39" relation="include">
+        </childnode>
+        <childnode refid="40" relation="include">
+        </childnode>
+        <childnode refid="41" relation="include">
+        </childnode>
+        <childnode refid="19" relation="include">
+        </childnode>
+        <childnode refid="43" relation="include">
+        </childnode>
+        <childnode refid="45" relation="include">
+        </childnode>
+        <childnode refid="48" relation="include">
+        </childnode>
+        <childnode refid="32" relation="include">
+        </childnode>
+        <childnode refid="51" relation="include">
+        </childnode>
+        <childnode refid="13" relation="include">
+        </childnode>
+        <childnode refid="54" relation="include">
+        </childnode>
+        <childnode refid="58" relation="include">
+        </childnode>
+        <childnode refid="62" relation="include">
+        </childnode>
+        <childnode refid="64" relation="include">
+        </childnode>
+      </node>
+      <node id="10">
+        <label>tempo.h</label>
+        <link refid="tempo_8h_source"/>
+      </node>
+      <node id="30">
+        <label>location.h</label>
+        <link refid="location_8h_source"/>
+        <childnode refid="9" relation="include">
+        </childnode>
+        <childnode refid="31" relation="include">
+        </childnode>
+      </node>
+      <node id="32">
+        <label>stafftype.h</label>
+        <link refid="stafftype_8h_source"/>
+        <childnode refid="14" relation="include">
+        </childnode>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="12" relation="include">
+        </childnode>
+      </node>
+      <node id="4">
+        <label>config.h</label>
+      </node>
+      <node id="33">
+        <label>interval.h</label>
+        <link refid="interval_8h_source"/>
+      </node>
+      <node id="41">
+        <label>timesig.h</label>
+        <link refid="timesig_8h_source"/>
+        <childnode refid="14" relation="include">
+        </childnode>
+        <childnode refid="8" relation="include">
+        </childnode>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="42" relation="include">
+        </childnode>
+      </node>
+      <node id="28">
+        <label>QMultiMap</label>
+      </node>
+    </incdepgraph>
+    <invincdepgraph>
+      <node id="6">
+        <label>C:/Users/main/Documents/GitHub/MuseScore/libmscore/measure.cpp</label>
+        <link refid="measure_8cpp"/>
+      </node>
+      <node id="7">
+        <label>C:/Users/main/Documents/GitHub/MuseScore/libmscore/note.cpp</label>
+        <link refid="note_8cpp"/>
+      </node>
+      <node id="5">
+        <label>C:/Users/main/Documents/GitHub/MuseScore/libmscore/undo.cpp</label>
+        <link refid="undo_8cpp"/>
+      </node>
+      <node id="8">
+        <label>C:/Users/main/Documents/GitHub/MuseScore/libmscore/rendermidi.cpp</label>
+        <link refid="rendermidi_8cpp"/>
+      </node>
+      <node id="4">
+        <label>C:/Users/main/Documents/GitHub/MuseScore/libmscore/textedit.h</label>
+        <link refid="textedit_8h_source"/>
+        <childnode refid="5" relation="include">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>C:/Users/main/Documents/GitHub/MuseScore/libmscore/element.cpp</label>
+        <link refid="element_8cpp"/>
+      </node>
+      <node id="2">
+        <label>C:/Users/main/Documents/GitHub/MuseScore/libmscore/cmd.cpp</label>
+        <link refid="cmd_8cpp"/>
+      </node>
+      <node id="1">
+        <label>C:/Users/main/Documents/GitHub/MuseScore/libmscore/undo.h</label>
+        <link refid="undo_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="6" relation="include">
+        </childnode>
+        <childnode refid="7" relation="include">
+        </childnode>
+        <childnode refid="8" relation="include">
+        </childnode>
+        <childnode refid="9" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
+        </childnode>
+      </node>
+      <node id="9">
+        <label>C:/Users/main/Documents/GitHub/MuseScore/libmscore/score.cpp</label>
+        <link refid="score_8cpp"/>
+      </node>
+    </invincdepgraph>
+    <innerclass refid="class_ms_1_1_undo_command" prot="public">Ms::UndoCommand</innerclass>
+    <innerclass refid="class_ms_1_1_undo_macro" prot="public">Ms::UndoMacro</innerclass>
+    <innerclass refid="struct_ms_1_1_undo_macro_1_1_selection_info" prot="private">Ms::UndoMacro::SelectionInfo</innerclass>
+    <innerclass refid="class_ms_1_1_undo_stack" prot="public">Ms::UndoStack</innerclass>
+    <innerclass refid="class_ms_1_1_insert_part" prot="public">Ms::InsertPart</innerclass>
+    <innerclass refid="class_ms_1_1_remove_part" prot="public">Ms::RemovePart</innerclass>
+    <innerclass refid="class_ms_1_1_insert_staff" prot="public">Ms::InsertStaff</innerclass>
+    <innerclass refid="class_ms_1_1_remove_staff" prot="public">Ms::RemoveStaff</innerclass>
+    <innerclass refid="class_ms_1_1_insert_m_staff" prot="public">Ms::InsertMStaff</innerclass>
+    <innerclass refid="class_ms_1_1_remove_m_staff" prot="public">Ms::RemoveMStaff</innerclass>
+    <innerclass refid="class_ms_1_1_insert_staves" prot="public">Ms::InsertStaves</innerclass>
+    <innerclass refid="class_ms_1_1_remove_staves" prot="public">Ms::RemoveStaves</innerclass>
+    <innerclass refid="class_ms_1_1_sort_staves" prot="public">Ms::SortStaves</innerclass>
+    <innerclass refid="class_ms_1_1_change_pitch" prot="public">Ms::ChangePitch</innerclass>
+    <innerclass refid="class_ms_1_1_change_fretting" prot="public">Ms::ChangeFretting</innerclass>
+    <innerclass refid="class_ms_1_1_change_key_sig" prot="public">Ms::ChangeKeySig</innerclass>
+    <innerclass refid="class_ms_1_1_change_measure_len" prot="public">Ms::ChangeMeasureLen</innerclass>
+    <innerclass refid="class_ms_1_1_change_element" prot="public">Ms::ChangeElement</innerclass>
+    <innerclass refid="class_ms_1_1_transpose_harmony" prot="public">Ms::TransposeHarmony</innerclass>
+    <innerclass refid="class_ms_1_1_exchange_voice" prot="public">Ms::ExchangeVoice</innerclass>
+    <innerclass refid="class_ms_1_1_clone_voice" prot="public">Ms::CloneVoice</innerclass>
+    <innerclass refid="class_ms_1_1_change_instrument_short" prot="public">Ms::ChangeInstrumentShort</innerclass>
+    <innerclass refid="class_ms_1_1_change_instrument_long" prot="public">Ms::ChangeInstrumentLong</innerclass>
+    <innerclass refid="class_ms_1_1_change_bracket_type" prot="public">Ms::ChangeBracketType</innerclass>
+    <innerclass refid="class_ms_1_1_add_element" prot="public">Ms::AddElement</innerclass>
+    <innerclass refid="class_ms_1_1_remove_element" prot="public">Ms::RemoveElement</innerclass>
+    <innerclass refid="class_ms_1_1_edit_text" prot="public">Ms::EditText</innerclass>
+    <innerclass refid="class_ms_1_1_change_patch" prot="public">Ms::ChangePatch</innerclass>
+    <innerclass refid="class_ms_1_1_set_user_bank_controller" prot="public">Ms::SetUserBankController</innerclass>
+    <innerclass refid="class_ms_1_1_change_staff" prot="public">Ms::ChangeStaff</innerclass>
+    <innerclass refid="class_ms_1_1_change_staff_type" prot="public">Ms::ChangeStaffType</innerclass>
+    <innerclass refid="class_ms_1_1_change_part" prot="public">Ms::ChangePart</innerclass>
+    <innerclass refid="class_ms_1_1_change_style" prot="public">Ms::ChangeStyle</innerclass>
+    <innerclass refid="class_ms_1_1_change_style_val" prot="public">Ms::ChangeStyleVal</innerclass>
+    <innerclass refid="class_ms_1_1_change_page_number_offset" prot="public">Ms::ChangePageNumberOffset</innerclass>
+    <innerclass refid="class_ms_1_1_change_chord_staff_move" prot="public">Ms::ChangeChordStaffMove</innerclass>
+    <innerclass refid="class_ms_1_1_change_velocity" prot="public">Ms::ChangeVelocity</innerclass>
+    <innerclass refid="class_ms_1_1_change_m_staff_properties" prot="public">Ms::ChangeMStaffProperties</innerclass>
+    <innerclass refid="class_ms_1_1_insert_remove_measures" prot="public">Ms::InsertRemoveMeasures</innerclass>
+    <innerclass refid="class_ms_1_1_remove_measures" prot="public">Ms::RemoveMeasures</innerclass>
+    <innerclass refid="class_ms_1_1_insert_measures" prot="public">Ms::InsertMeasures</innerclass>
+    <innerclass refid="class_ms_1_1_add_excerpt" prot="public">Ms::AddExcerpt</innerclass>
+    <innerclass refid="class_ms_1_1_remove_excerpt" prot="public">Ms::RemoveExcerpt</innerclass>
+    <innerclass refid="class_ms_1_1_swap_excerpt" prot="public">Ms::SwapExcerpt</innerclass>
+    <innerclass refid="class_ms_1_1_change_excerpt_title" prot="public">Ms::ChangeExcerptTitle</innerclass>
+    <innerclass refid="class_ms_1_1_change_bend" prot="public">Ms::ChangeBend</innerclass>
+    <innerclass refid="class_ms_1_1_change_tremolo_bar" prot="public">Ms::ChangeTremoloBar</innerclass>
+    <innerclass refid="class_ms_1_1_change_note_events" prot="public">Ms::ChangeNoteEvents</innerclass>
+    <innerclass refid="class_ms_1_1_change_note_event_list" prot="public">Ms::ChangeNoteEventList</innerclass>
+    <innerclass refid="class_ms_1_1_change_chord_play_event_type" prot="public">Ms::ChangeChordPlayEventType</innerclass>
+    <innerclass refid="class_ms_1_1_change_instrument" prot="public">Ms::ChangeInstrument</innerclass>
+    <innerclass refid="class_ms_1_1_swap_c_r" prot="public">Ms::SwapCR</innerclass>
+    <innerclass refid="class_ms_1_1_change_clef_type" prot="public">Ms::ChangeClefType</innerclass>
+    <innerclass refid="class_ms_1_1_change_property" prot="public">Ms::ChangeProperty</innerclass>
+    <innerclass refid="class_ms_1_1_change_bracket_property" prot="public">Ms::ChangeBracketProperty</innerclass>
+    <innerclass refid="class_ms_1_1_change_meta_text" prot="public">Ms::ChangeMetaText</innerclass>
+    <innerclass refid="class_ms_1_1_change_synthesizer_state" prot="public">Ms::ChangeSynthesizerState</innerclass>
+    <innerclass refid="class_ms_1_1_remove_bracket" prot="public">Ms::RemoveBracket</innerclass>
+    <innerclass refid="class_ms_1_1_add_bracket" prot="public">Ms::AddBracket</innerclass>
+    <innerclass refid="class_ms_1_1_change_spanner_elements" prot="public">Ms::ChangeSpannerElements</innerclass>
+    <innerclass refid="class_ms_1_1_change_parent" prot="public">Ms::ChangeParent</innerclass>
+    <innerclass refid="class_ms_1_1_change_m_m_rest" prot="public">Ms::ChangeMMRest</innerclass>
+    <innerclass refid="class_ms_1_1_insert_time" prot="public">Ms::InsertTime</innerclass>
+    <innerclass refid="class_ms_1_1_insert_time_unmanaged_spanner" prot="public">Ms::InsertTimeUnmanagedSpanner</innerclass>
+    <innerclass refid="class_ms_1_1_change_note_event" prot="public">Ms::ChangeNoteEvent</innerclass>
+    <innerclass refid="class_ms_1_1_link_unlink" prot="public">Ms::LinkUnlink</innerclass>
+    <innerclass refid="class_ms_1_1_unlink" prot="public">Ms::Unlink</innerclass>
+    <innerclass refid="class_ms_1_1_link" prot="public">Ms::Link</innerclass>
+    <innerclass refid="class_ms_1_1_change_start_end_spanner" prot="public">Ms::ChangeStartEndSpanner</innerclass>
+    <innerclass refid="class_ms_1_1_change_meta_tags" prot="public">Ms::ChangeMetaTags</innerclass>
+    <innerclass refid="class_ms_1_1_change_drumset" prot="public">Ms::ChangeDrumset</innerclass>
+    <innerclass refid="class_ms_1_1_fret_dot" prot="public">Ms::FretDot</innerclass>
+    <innerclass refid="class_ms_1_1_fret_marker" prot="public">Ms::FretMarker</innerclass>
+    <innerclass refid="class_ms_1_1_fret_barre" prot="public">Ms::FretBarre</innerclass>
+    <innerclass refid="class_ms_1_1_fret_clear" prot="public">Ms::FretClear</innerclass>
+    <innerclass refid="class_ms_1_1_move_tremolo" prot="public">Ms::MoveTremolo</innerclass>
+    <innernamespace refid="namespace_ms">Ms</innernamespace>
+      <sectiondef kind="define">
+      <memberdef kind="define" id="undo_8h_1a825ab14f0ff0838cc5aa4b793aea265d" prot="public" static="no">
+        <name>UNDO_NAME</name>
+        <param><defname>a</defname></param>
+        <initializer>virtual const char* name() const override { return a; }</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/undo.h" line="88" column="9" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/undo.h" bodystart="88" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="func">
+      <memberdef kind="function" id="undo_8h_1aa68ac3801abcf85c59b970bdf47f1079" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>Q_DECLARE_LOGGING_CATEGORY</definition>
+        <argsstring>(undoRedo)</argsstring>
+        <name>Q_DECLARE_LOGGING_CATEGORY</name>
+        <param>
+          <type>undoRedo</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/undo.h" line="45" column="1" declfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/undo.h" declline="45" declcolumn="1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>Definition of undo-releated classes and structs. </para>
+    </detaileddescription>
+    <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/undo.h"/>
+  </compounddef>
+</doxygen>

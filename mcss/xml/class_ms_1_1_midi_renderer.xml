@@ -1,0 +1,436 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.17">
+  <compounddef id="class_ms_1_1_midi_renderer" kind="class" language="C++" prot="public">
+    <compoundname>Ms::MidiRenderer</compoundname>
+    <includes refid="rendermidi_8h" local="yes">rendermidi.h</includes>
+    <innerclass refid="class_ms_1_1_midi_renderer_1_1_chunk" prot="public">Ms::MidiRenderer::Chunk</innerclass>
+    <innerclass refid="struct_ms_1_1_midi_renderer_1_1_context" prot="public">Ms::MidiRenderer::Context</innerclass>
+    <innerclass refid="struct_ms_1_1_midi_renderer_1_1_staff_context" prot="private">Ms::MidiRenderer::StaffContext</innerclass>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_ms_1_1_midi_renderer_1a4c2e9cf50bf476f42a6df0f958d4649b" prot="private" static="no" mutable="no">
+        <type><ref refid="class_ms_1_1_score" kindref="compound">Score</ref> *</type>
+        <definition>Score* Ms::MidiRenderer::score</definition>
+        <argsstring></argsstring>
+        <name>score</name>
+        <initializer>{nullptr}</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/rendermidi.h" line="64" column="13" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/rendermidi.h" bodystart="64" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_ms_1_1_midi_renderer_1a4a258a20bdfe5ac1b283bd2ed9a99e23" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool Ms::MidiRenderer::needUpdate</definition>
+        <argsstring></argsstring>
+        <name>needUpdate</name>
+        <initializer>= true</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/rendermidi.h" line="65" column="12" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/rendermidi.h" bodystart="65" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_ms_1_1_midi_renderer_1aec5d68c9f9b926b0723930a64bcfd44a" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int Ms::MidiRenderer::minChunkSize</definition>
+        <argsstring></argsstring>
+        <name>minChunkSize</name>
+        <initializer>= 0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/rendermidi.h" line="66" column="11" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/rendermidi.h" bodystart="66" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_ms_1_1_midi_renderer_1acd4385a5b1986b7b1dd316bc6396a723" prot="private" static="no" mutable="no">
+        <type>std::vector&lt; <ref refid="class_ms_1_1_midi_renderer_1_1_chunk" kindref="compound">Chunk</ref> &gt;</type>
+        <definition>std::vector&lt;Chunk&gt; Ms::MidiRenderer::chunks</definition>
+        <argsstring></argsstring>
+        <name>chunks</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/rendermidi.h" line="93" column="19" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/rendermidi.h" bodystart="93" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_ms_1_1_midi_renderer_1ae6b6b45a865b94a6343fece2f1f48f0f" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Ms::MidiRenderer::updateChunksPartition</definition>
+        <argsstring>()</argsstring>
+        <name>updateChunksPartition</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/rendermidi.h" line="103" column="12" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/rendermidi.cpp" bodystart="2307" bodyend="2352"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ms_1_1_midi_renderer_1a2a11b815d9a4f384b56c2e2041177543" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Ms::MidiRenderer::updateState</definition>
+        <argsstring>()</argsstring>
+        <name>updateState</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/rendermidi.h" line="105" column="12" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/rendermidi.cpp" bodystart="2256" bodyend="2268"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ms_1_1_midi_renderer_1a8906c8dfbf864482c83c63967667d418" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Ms::MidiRenderer::renderStaffChunk</definition>
+        <argsstring>(const Chunk &amp;, EventMap *events, const StaffContext &amp;sctx)</argsstring>
+        <name>renderStaffChunk</name>
+        <param>
+          <type>const <ref refid="class_ms_1_1_midi_renderer_1_1_chunk" kindref="compound">Chunk</ref> &amp;</type>
+          <defname>chunk</defname>
+        </param>
+        <param>
+          <type>EventMap *</type>
+          <declname>events</declname>
+        </param>
+        <param>
+          <type>const StaffContext &amp;</type>
+          <declname>sctx</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/rendermidi.h" line="107" column="12" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/rendermidi.cpp" bodystart="907" bodyend="925"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ms_1_1_midi_renderer_1aa1d9f5705753feda9a84eeff15cbf201" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Ms::MidiRenderer::renderSpanners</definition>
+        <argsstring>(const Chunk &amp;, EventMap *events)</argsstring>
+        <name>renderSpanners</name>
+        <param>
+          <type>const <ref refid="class_ms_1_1_midi_renderer_1_1_chunk" kindref="compound">Chunk</ref> &amp;</type>
+          <defname>chunk</defname>
+        </param>
+        <param>
+          <type>EventMap *</type>
+          <declname>events</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/rendermidi.h" line="108" column="12" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/rendermidi.cpp" bodystart="931" bodyend="1043"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ms_1_1_midi_renderer_1a4e115d98f6b95ba546b06b5c294fa6cf" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Ms::MidiRenderer::renderMetronome</definition>
+        <argsstring>(const Chunk &amp;, EventMap *events)</argsstring>
+        <name>renderMetronome</name>
+        <param>
+          <type>const <ref refid="class_ms_1_1_midi_renderer_1_1_chunk" kindref="compound">Chunk</ref> &amp;</type>
+          <defname>chunk</defname>
+        </param>
+        <param>
+          <type>EventMap *</type>
+          <declname>events</declname>
+        </param>
+        <briefdescription>
+<para>add metronome tick events </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/rendermidi.h" line="109" column="12" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/rendermidi.cpp" bodystart="2101" bodyend="2109"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ms_1_1_midi_renderer_1a93b214bd9890008d3068188eba8fc030" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Ms::MidiRenderer::renderMetronome</definition>
+        <argsstring>(EventMap *events, Measure *m, const Fraction &amp;tickOffset)</argsstring>
+        <name>renderMetronome</name>
+        <param>
+          <type>EventMap *</type>
+          <declname>events</declname>
+        </param>
+        <param>
+          <type><ref refid="class_ms_1_1_measure" kindref="compound">Measure</ref> *</type>
+          <declname>m</declname>
+        </param>
+        <param>
+          <type>const <ref refid="class_ms_1_1_fraction" kindref="compound">Fraction</ref> &amp;</type>
+          <declname>tickOffset</declname>
+        </param>
+        <briefdescription>
+<para>add metronome tick events </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/rendermidi.h" line="110" column="12" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/rendermidi.cpp" bodystart="2116" bodyend="2137"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ms_1_1_midi_renderer_1adf9703ec10fa423e741d1f1f66de3831" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Ms::MidiRenderer::collectMeasureEvents</definition>
+        <argsstring>(EventMap *events, Measure *m, const MidiRenderer::StaffContext &amp;sctx, int tickOffset)</argsstring>
+        <name>collectMeasureEvents</name>
+        <param>
+          <type>EventMap *</type>
+          <declname>events</declname>
+        </param>
+        <param>
+          <type><ref refid="class_ms_1_1_measure" kindref="compound">Measure</ref> *</type>
+          <declname>m</declname>
+        </param>
+        <param>
+          <type>const MidiRenderer::StaffContext &amp;</type>
+          <declname>sctx</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>tickOffset</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/rendermidi.h" line="112" column="12" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/rendermidi.cpp" bodystart="740" bodyend="756"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ms_1_1_midi_renderer_1a263c030db32695bcc5685b7d9a17fb5b" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Ms::MidiRenderer::collectMeasureEventsSimple</definition>
+        <argsstring>(EventMap *events, Measure *m, const StaffContext &amp;sctx, int tickOffset)</argsstring>
+        <name>collectMeasureEventsSimple</name>
+        <param>
+          <type>EventMap *</type>
+          <declname>events</declname>
+        </param>
+        <param>
+          <type><ref refid="class_ms_1_1_measure" kindref="compound">Measure</ref> *</type>
+          <declname>m</declname>
+        </param>
+        <param>
+          <type>const StaffContext &amp;</type>
+          <declname>sctx</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>tickOffset</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/rendermidi.h" line="113" column="12" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/rendermidi.cpp" bodystart="576" bodyend="639"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ms_1_1_midi_renderer_1a76097496f0c1103aea1f2a1f3bdd16e8" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Ms::MidiRenderer::collectMeasureEventsDefault</definition>
+        <argsstring>(EventMap *events, Measure *m, const StaffContext &amp;sctx, int tickOffset)</argsstring>
+        <name>collectMeasureEventsDefault</name>
+        <param>
+          <type>EventMap *</type>
+          <declname>events</declname>
+        </param>
+        <param>
+          <type><ref refid="class_ms_1_1_measure" kindref="compound">Measure</ref> *</type>
+          <declname>m</declname>
+        </param>
+        <param>
+          <type>const StaffContext &amp;</type>
+          <declname>sctx</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>tickOffset</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/rendermidi.h" line="114" column="12" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/rendermidi.cpp" bodystart="651" bodyend="733"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-static-func">
+      <memberdef kind="function" id="class_ms_1_1_midi_renderer_1a8b7751ee2b1d637bf380f3527239d13d" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool Ms::MidiRenderer::canBreakChunk</definition>
+        <argsstring>(const Measure *last)</argsstring>
+        <name>canBreakChunk</name>
+        <param>
+          <type>const <ref refid="class_ms_1_1_measure" kindref="compound">Measure</ref> *</type>
+          <declname>last</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Helper function for updateChunksPartition Determines whether it is allowed to break MIDI rendering chunk at given measure. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/rendermidi.h" line="104" column="19" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/rendermidi.cpp" bodystart="2277" bodyend="2301"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_ms_1_1_midi_renderer_1a77715faab2fc8036533a6aa1a587df86" prot="public" static="no" const="no" explicit="yes" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>Ms::MidiRenderer::MidiRenderer</definition>
+        <argsstring>(Score *s)</argsstring>
+        <name>MidiRenderer</name>
+        <param>
+          <type><ref refid="class_ms_1_1_score" kindref="compound">Score</ref> *</type>
+          <declname>s</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/rendermidi.h" line="117" column="16" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/rendermidi.h" bodystart="117" bodyend="117"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ms_1_1_midi_renderer_1abbaf97410b21306a0a53292f98faf362" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Ms::MidiRenderer::renderScore</definition>
+        <argsstring>(EventMap *events, const Context &amp;ctx)</argsstring>
+        <name>renderScore</name>
+        <param>
+          <type>EventMap *</type>
+          <declname>events</declname>
+        </param>
+        <param>
+          <type>const <ref refid="struct_ms_1_1_midi_renderer_1_1_context" kindref="compound">Context</ref> &amp;</type>
+          <declname>ctx</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/rendermidi.h" line="127" column="12" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/rendermidi.cpp" bodystart="2158" bodyend="2164"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ms_1_1_midi_renderer_1aa0978bf7ad085c07a700782fe0931cae" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Ms::MidiRenderer::renderChunk</definition>
+        <argsstring>(const Chunk &amp;, EventMap *events, const Context &amp;ctx)</argsstring>
+        <name>renderChunk</name>
+        <param>
+          <type>const <ref refid="class_ms_1_1_midi_renderer_1_1_chunk" kindref="compound">Chunk</ref> &amp;</type>
+          <defname>chunk</defname>
+        </param>
+        <param>
+          <type>EventMap *</type>
+          <declname>events</declname>
+        </param>
+        <param>
+          <type>const <ref refid="struct_ms_1_1_midi_renderer_1_1_context" kindref="compound">Context</ref> &amp;</type>
+          <declname>ctx</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/rendermidi.h" line="128" column="12" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/rendermidi.cpp" bodystart="2166" bodyend="2250"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ms_1_1_midi_renderer_1a5f092764c3f6ba5c2095a76a3b704b86" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Ms::MidiRenderer::setScoreChanged</definition>
+        <argsstring>()</argsstring>
+        <name>setScoreChanged</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/rendermidi.h" line="130" column="12" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/rendermidi.h" bodystart="130" bodyend="130"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ms_1_1_midi_renderer_1af1a7f34a03d2290f46b42785a4b1763c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Ms::MidiRenderer::setMinChunkSize</definition>
+        <argsstring>(int sizeMeasures)</argsstring>
+        <name>setMinChunkSize</name>
+        <param>
+          <type>int</type>
+          <declname>sizeMeasures</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/rendermidi.h" line="131" column="12" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/rendermidi.h" bodystart="131" bodyend="131"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ms_1_1_midi_renderer_1af3302f15d29a3fb3eb1be690519d44f1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="class_ms_1_1_midi_renderer_1_1_chunk" kindref="compound">Chunk</ref></type>
+        <definition>MidiRenderer::Chunk Ms::MidiRenderer::getChunkAt</definition>
+        <argsstring>(int utick)</argsstring>
+        <name>getChunkAt</name>
+        <param>
+          <type>int</type>
+          <declname>utick</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/rendermidi.h" line="133" column="13" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/rendermidi.cpp" bodystart="2358" bodyend="2370"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>MIDI renderer for a score. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/rendermidi.h" line="63" column="19" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/rendermidi.h" bodystart="63" bodyend="134"/>
+    <listofallmembers>
+      <member refid="class_ms_1_1_midi_renderer_1a8b7751ee2b1d637bf380f3527239d13d" prot="private" virt="non-virtual"><scope>Ms::MidiRenderer</scope><name>canBreakChunk</name></member>
+      <member refid="class_ms_1_1_midi_renderer_1acd4385a5b1986b7b1dd316bc6396a723" prot="private" virt="non-virtual"><scope>Ms::MidiRenderer</scope><name>chunks</name></member>
+      <member refid="class_ms_1_1_midi_renderer_1adf9703ec10fa423e741d1f1f66de3831" prot="private" virt="non-virtual"><scope>Ms::MidiRenderer</scope><name>collectMeasureEvents</name></member>
+      <member refid="class_ms_1_1_midi_renderer_1a76097496f0c1103aea1f2a1f3bdd16e8" prot="private" virt="non-virtual"><scope>Ms::MidiRenderer</scope><name>collectMeasureEventsDefault</name></member>
+      <member refid="class_ms_1_1_midi_renderer_1a263c030db32695bcc5685b7d9a17fb5b" prot="private" virt="non-virtual"><scope>Ms::MidiRenderer</scope><name>collectMeasureEventsSimple</name></member>
+      <member refid="class_ms_1_1_midi_renderer_1af3302f15d29a3fb3eb1be690519d44f1" prot="public" virt="non-virtual"><scope>Ms::MidiRenderer</scope><name>getChunkAt</name></member>
+      <member refid="class_ms_1_1_midi_renderer_1a77715faab2fc8036533a6aa1a587df86" prot="public" virt="non-virtual"><scope>Ms::MidiRenderer</scope><name>MidiRenderer</name></member>
+      <member refid="class_ms_1_1_midi_renderer_1aec5d68c9f9b926b0723930a64bcfd44a" prot="private" virt="non-virtual"><scope>Ms::MidiRenderer</scope><name>minChunkSize</name></member>
+      <member refid="class_ms_1_1_midi_renderer_1a4a258a20bdfe5ac1b283bd2ed9a99e23" prot="private" virt="non-virtual"><scope>Ms::MidiRenderer</scope><name>needUpdate</name></member>
+      <member refid="class_ms_1_1_midi_renderer_1aa0978bf7ad085c07a700782fe0931cae" prot="public" virt="non-virtual"><scope>Ms::MidiRenderer</scope><name>renderChunk</name></member>
+      <member refid="class_ms_1_1_midi_renderer_1a4e115d98f6b95ba546b06b5c294fa6cf" prot="private" virt="non-virtual"><scope>Ms::MidiRenderer</scope><name>renderMetronome</name></member>
+      <member refid="class_ms_1_1_midi_renderer_1a93b214bd9890008d3068188eba8fc030" prot="private" virt="non-virtual"><scope>Ms::MidiRenderer</scope><name>renderMetronome</name></member>
+      <member refid="class_ms_1_1_midi_renderer_1abbaf97410b21306a0a53292f98faf362" prot="public" virt="non-virtual"><scope>Ms::MidiRenderer</scope><name>renderScore</name></member>
+      <member refid="class_ms_1_1_midi_renderer_1aa1d9f5705753feda9a84eeff15cbf201" prot="private" virt="non-virtual"><scope>Ms::MidiRenderer</scope><name>renderSpanners</name></member>
+      <member refid="class_ms_1_1_midi_renderer_1a8906c8dfbf864482c83c63967667d418" prot="private" virt="non-virtual"><scope>Ms::MidiRenderer</scope><name>renderStaffChunk</name></member>
+      <member refid="class_ms_1_1_midi_renderer_1a4c2e9cf50bf476f42a6df0f958d4649b" prot="private" virt="non-virtual"><scope>Ms::MidiRenderer</scope><name>score</name></member>
+      <member refid="class_ms_1_1_midi_renderer_1af1a7f34a03d2290f46b42785a4b1763c" prot="public" virt="non-virtual"><scope>Ms::MidiRenderer</scope><name>setMinChunkSize</name></member>
+      <member refid="class_ms_1_1_midi_renderer_1a5f092764c3f6ba5c2095a76a3b704b86" prot="public" virt="non-virtual"><scope>Ms::MidiRenderer</scope><name>setScoreChanged</name></member>
+      <member refid="class_ms_1_1_midi_renderer_1ae6b6b45a865b94a6343fece2f1f48f0f" prot="private" virt="non-virtual"><scope>Ms::MidiRenderer</scope><name>updateChunksPartition</name></member>
+      <member refid="class_ms_1_1_midi_renderer_1a2a11b815d9a4f384b56c2e2041177543" prot="private" virt="non-virtual"><scope>Ms::MidiRenderer</scope><name>updateState</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

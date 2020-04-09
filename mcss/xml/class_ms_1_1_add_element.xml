@@ -1,0 +1,213 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.17">
+  <compounddef id="class_ms_1_1_add_element" kind="class" language="C++" prot="public">
+    <compoundname>Ms::AddElement</compoundname>
+    <basecompoundref refid="class_ms_1_1_undo_command" prot="public" virt="non-virtual">Ms::UndoCommand</basecompoundref>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_ms_1_1_add_element_1a99c2d0fa14ca1d50f1108ce491da9a59" prot="private" static="no" mutable="no">
+        <type><ref refid="class_ms_1_1_element" kindref="compound">Element</ref> *</type>
+        <definition>Element* Ms::AddElement::element</definition>
+        <argsstring></argsstring>
+        <name>element</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/undo.h" line="532" column="15" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/undo.h" bodystart="532" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_ms_1_1_add_element_1a3975f0ceccf211857ae63a05ed87a5ca" prot="private" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Ms::AddElement::endUndoRedo</definition>
+        <argsstring>(bool) const</argsstring>
+        <name>endUndoRedo</name>
+        <param>
+          <type>bool</type>
+          <defname>isUndo</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/undo.h" line="534" column="12" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/undo.cpp" bodystart="721" bodyend="737"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ms_1_1_add_element_1ab566b98941c1a39f956b6eecc51f5bf8" prot="private" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void Ms::AddElement::undo</definition>
+        <argsstring>(EditData *) override</argsstring>
+        <name>undo</name>
+        <reimplements refid="class_ms_1_1_undo_command_1a42a2038f903e77e6bb5881209b764186">undo</reimplements>
+        <param>
+          <type><ref refid="class_ms_1_1_edit_data" kindref="compound">EditData</ref> *</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/undo.h" line="535" column="12" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/undo.cpp" bodystart="743" bodyend="748"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ms_1_1_add_element_1ac20dd8ed95599b2634a4624ffa5dd385" prot="private" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void Ms::AddElement::redo</definition>
+        <argsstring>(EditData *) override</argsstring>
+        <name>redo</name>
+        <reimplements refid="class_ms_1_1_undo_command_1a7fccbb0cf027a5e3b43176a5e0213f75">redo</reimplements>
+        <param>
+          <type><ref refid="class_ms_1_1_edit_data" kindref="compound">EditData</ref> *</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/undo.h" line="536" column="12" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/undo.cpp" bodystart="754" bodyend="759"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_ms_1_1_add_element_1a590df0e3c8282928f7bacc902b90aeff" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>Ms::AddElement::AddElement</definition>
+        <argsstring>(Element *)</argsstring>
+        <name>AddElement</name>
+        <param>
+          <type><ref refid="class_ms_1_1_element" kindref="compound">Element</ref> *</type>
+          <defname>e</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/undo.h" line="539" column="7" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/undo.cpp" bodystart="674" bodyend="677"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ms_1_1_add_element_1a2f3ee2b8a417a94f9ebd513c0f7314c9" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="class_ms_1_1_element" kindref="compound">Element</ref> *</type>
+        <definition>Element* Ms::AddElement::getElement</definition>
+        <argsstring>() const</argsstring>
+        <name>getElement</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/undo.h" line="540" column="15" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/undo.h" bodystart="540" bodyend="540"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ms_1_1_add_element_1a1e2c10c5bef9616b96d7b1090f727600" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void Ms::AddElement::cleanup</definition>
+        <argsstring>(bool)</argsstring>
+        <name>cleanup</name>
+        <reimplements refid="class_ms_1_1_undo_command_1a0bbdf4bc79885d76228b155599fb46ce">cleanup</reimplements>
+        <param>
+          <type>bool</type>
+          <defname>undo</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/undo.h" line="541" column="20" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/undo.cpp" bodystart="683" bodyend="689"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ms_1_1_add_element_1a2179741699322a5dec8cc748f8132359" prot="public" static="no" const="yes" explicit="no" inline="no" virt="virtual">
+        <type>const char *</type>
+        <definition>const char * Ms::AddElement::name</definition>
+        <argsstring>() const override</argsstring>
+        <name>name</name>
+        <reimplements refid="class_ms_1_1_undo_command_1acdd15da86ef5878bc98ef2be084cc4be">name</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/undo.h" line="542" column="26" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/undo.cpp" bodystart="765" bodyend="776"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ms_1_1_add_element_1ae1724f3eff65950dd697cb7efbf1444c" prot="public" static="no" const="yes" explicit="no" inline="no" virt="virtual">
+        <type>bool</type>
+        <definition>bool Ms::AddElement::isFiltered</definition>
+        <argsstring>(UndoCommand::Filter f, const Element *target) const override</argsstring>
+        <name>isFiltered</name>
+        <reimplements refid="class_ms_1_1_undo_command_1a7e84d54e5b22eeeb9646c8a86fc2a0cb">isFiltered</reimplements>
+        <param>
+          <type>UndoCommand::Filter</type>
+          <declname>f</declname>
+        </param>
+        <param>
+          <type>const <ref refid="class_ms_1_1_element" kindref="compound">Element</ref> *</type>
+          <declname>target</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/undo.h" line="544" column="12" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/undo.cpp" bodystart="782" bodyend="794"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>Ms::AddElement</label>
+        <link refid="class_ms_1_1_add_element"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>Ms::UndoCommand</label>
+        <link refid="class_ms_1_1_undo_command"/>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>Ms::AddElement</label>
+        <link refid="class_ms_1_1_add_element"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>Ms::UndoCommand</label>
+        <link refid="class_ms_1_1_undo_command"/>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/undo.h" line="531" column="36" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/undo.h" bodystart="531" bodyend="545"/>
+    <listofallmembers>
+      <member refid="class_ms_1_1_add_element_1a590df0e3c8282928f7bacc902b90aeff" prot="public" virt="non-virtual"><scope>Ms::AddElement</scope><name>AddElement</name></member>
+      <member refid="class_ms_1_1_undo_command_1a0f5b568325d235501e5cc197b7a4d4c8" prot="public" virt="non-virtual"><scope>Ms::AddElement</scope><name>appendChild</name></member>
+      <member refid="class_ms_1_1_undo_command_1adbc9ce586560a1ca06f83bb38d04c4f0" prot="protected" virt="non-virtual"><scope>Ms::AddElement</scope><name>appendChildren</name></member>
+      <member refid="class_ms_1_1_undo_command_1a701d710e19f4d356f2b12d093729d295" prot="public" virt="non-virtual"><scope>Ms::AddElement</scope><name>childCount</name></member>
+      <member refid="class_ms_1_1_add_element_1a1e2c10c5bef9616b96d7b1090f727600" prot="public" virt="virtual"><scope>Ms::AddElement</scope><name>cleanup</name></member>
+      <member refid="class_ms_1_1_undo_command_1a4cdbb50e02a38b3c0b259e8bb6b58bca" prot="public" virt="non-virtual"><scope>Ms::AddElement</scope><name>commands</name></member>
+      <member refid="class_ms_1_1_add_element_1a99c2d0fa14ca1d50f1108ce491da9a59" prot="private" virt="non-virtual"><scope>Ms::AddElement</scope><name>element</name></member>
+      <member refid="class_ms_1_1_add_element_1a3975f0ceccf211857ae63a05ed87a5ca" prot="private" virt="non-virtual"><scope>Ms::AddElement</scope><name>endUndoRedo</name></member>
+      <member refid="class_ms_1_1_undo_command_1a7c3fae86b0c593d95eb2acf44348b425" prot="public" virt="non-virtual"><scope>Ms::AddElement</scope><name>Filter</name></member>
+      <member refid="class_ms_1_1_undo_command_1a850e4c72c907bce1aed4b7d318ddf626" prot="public" virt="non-virtual"><scope>Ms::AddElement</scope><name>filterChildren</name></member>
+      <member refid="class_ms_1_1_undo_command_1a861162fe6c105a00dfec5a5b70a690a5" prot="protected" virt="virtual"><scope>Ms::AddElement</scope><name>flip</name></member>
+      <member refid="class_ms_1_1_add_element_1a2f3ee2b8a417a94f9ebd513c0f7314c9" prot="public" virt="non-virtual"><scope>Ms::AddElement</scope><name>getElement</name></member>
+      <member refid="class_ms_1_1_undo_command_1a09b5c550fffd0dfe1e38490c7f0de8e4" prot="public" virt="non-virtual"><scope>Ms::AddElement</scope><name>hasFilteredChildren</name></member>
+      <member refid="class_ms_1_1_undo_command_1a7131c9beb9c694ef3f0d8235f4e2892a" prot="public" virt="non-virtual"><scope>Ms::AddElement</scope><name>hasUnfilteredChildren</name></member>
+      <member refid="class_ms_1_1_add_element_1ae1724f3eff65950dd697cb7efbf1444c" prot="public" virt="virtual"><scope>Ms::AddElement</scope><name>isFiltered</name></member>
+      <member refid="class_ms_1_1_add_element_1a2179741699322a5dec8cc748f8132359" prot="public" virt="virtual"><scope>Ms::AddElement</scope><name>name</name></member>
+      <member refid="class_ms_1_1_add_element_1ac20dd8ed95599b2634a4624ffa5dd385" prot="private" virt="virtual"><scope>Ms::AddElement</scope><name>redo</name></member>
+      <member refid="class_ms_1_1_undo_command_1ad645cbed278b04cea2164006b52c4d8f" prot="public" virt="non-virtual"><scope>Ms::AddElement</scope><name>removeChild</name></member>
+      <member refid="class_ms_1_1_add_element_1ab566b98941c1a39f956b6eecc51f5bf8" prot="private" virt="virtual"><scope>Ms::AddElement</scope><name>undo</name></member>
+      <member refid="class_ms_1_1_undo_command_1abc893037b5a33408c25552b8579debe4" prot="public" virt="non-virtual"><scope>Ms::AddElement</scope><name>unwind</name></member>
+      <member refid="class_ms_1_1_undo_command_1ad4aec6e8dbb0e92bd2b8be2ebd79b9df" prot="public" virt="virtual"><scope>Ms::AddElement</scope><name>~UndoCommand</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

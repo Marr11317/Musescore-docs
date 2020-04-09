@@ -1,0 +1,222 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.17">
+  <compounddef id="class_ms_1_1_text_diff_parser" kind="class" language="C++" prot="public">
+    <compoundname>Ms::TextDiffParser</compoundname>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_ms_1_1_text_diff_parser_1a284733535786d1fe3324bbb266a4add5" prot="private" static="no" mutable="no">
+        <type>const int</type>
+        <definition>const int Ms::TextDiffParser::iScore</definition>
+        <argsstring></argsstring>
+        <name>iScore</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/scorediff.cpp" line="69" column="17" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/scorediff.cpp" bodystart="69" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_ms_1_1_text_diff_parser_1aa63dec9790c523649435acdf867b88c0" prot="private" static="no" mutable="no">
+        <type>const int</type>
+        <definition>const int Ms::TextDiffParser::iOtherScore</definition>
+        <argsstring></argsstring>
+        <name>iOtherScore</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/scorediff.cpp" line="70" column="17" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/scorediff.cpp" bodystart="70" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_ms_1_1_text_diff_parser_1ad132a69c250a23c98d565c9e97597860" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int Ms::TextDiffParser::tagLevel</definition>
+        <argsstring></argsstring>
+        <name>tagLevel</name>
+        <initializer>= 0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/scorediff.cpp" line="72" column="11" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/scorediff.cpp" bodystart="72" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_ms_1_1_text_diff_parser_1a554b95cc30869b91a944224421a835c1" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int Ms::TextDiffParser::currentDiffTagLevel</definition>
+        <argsstring></argsstring>
+        <name>currentDiffTagLevel</name>
+        <initializer>= 0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/scorediff.cpp" line="73" column="11" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/scorediff.cpp" bodystart="73" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_ms_1_1_text_diff_parser_1a00fbf40035b3e985fc42e62ccf09e99f" prot="private" static="no" mutable="no">
+        <type>std::vector&lt; const <ref refid="class_ms_1_1_score_element" kindref="compound">ScoreElement</ref> * &gt;</type>
+        <definition>std::vector&lt;const ScoreElement*&gt; Ms::TextDiffParser::contextsStack</definition>
+        <argsstring></argsstring>
+        <name>contextsStack</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/scorediff.cpp" line="74" column="19" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/scorediff.cpp" bodystart="74" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_ms_1_1_text_diff_parser_1a1e240836cbe7f5c384a1dbaa1649ff8d" prot="private" static="no" mutable="no">
+        <type>std::vector&lt; bool &gt;</type>
+        <definition>std::vector&lt;bool&gt; Ms::TextDiffParser::tagIsElement</definition>
+        <argsstring></argsstring>
+        <name>tagIsElement</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/scorediff.cpp" line="75" column="19" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/scorediff.cpp" bodystart="75" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_ms_1_1_text_diff_parser_1a20c6c3d37b78927685ab88d40950f6c7" prot="private" static="no" mutable="no">
+        <type>const <ref refid="class_ms_1_1_score_element" kindref="compound">ScoreElement</ref> *</type>
+        <definition>const ScoreElement* Ms::TextDiffParser::lastElementEnded</definition>
+        <argsstring></argsstring>
+        <name>lastElementEnded</name>
+        <initializer>= nullptr</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/scorediff.cpp" line="76" column="26" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/scorediff.cpp" bodystart="76" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_ms_1_1_text_diff_parser_1afd2313132014ae71684d66de29e80521" prot="private" static="no" mutable="no">
+        <type>QString</type>
+        <definition>QString Ms::TextDiffParser::markupContext</definition>
+        <argsstring></argsstring>
+        <name>markupContext</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/scorediff.cpp" line="77" column="15" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/scorediff.cpp" bodystart="77" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_ms_1_1_text_diff_parser_1a5972cd86ce9ba744c225373533406123" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="struct_ms_1_1_base_diff" kindref="compound">BaseDiff</ref> *</type>
+        <definition>BaseDiff * Ms::TextDiffParser::handleToken</definition>
+        <argsstring>(const QXmlStreamReader &amp;r, const ScoreElement *newElement, bool saveDiff)</argsstring>
+        <name>handleToken</name>
+        <param>
+          <type>const QXmlStreamReader &amp;</type>
+          <declname>r</declname>
+        </param>
+        <param>
+          <type>const <ref refid="class_ms_1_1_score_element" kindref="compound">ScoreElement</ref> *</type>
+          <declname>newElement</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>saveDiff</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/scorediff.cpp" line="79" column="16" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/scorediff.cpp" bodystart="624" bodyend="696"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ms_1_1_text_diff_parser_1a400fcc8ec2569fce53646e11d15e7a11" prot="private" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool Ms::TextDiffParser::insideDiffTag</definition>
+        <argsstring>() const</argsstring>
+        <name>insideDiffTag</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/scorediff.cpp" line="80" column="12" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/scorediff.cpp" bodystart="80" bodyend="80"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_ms_1_1_text_diff_parser_1a5ca330642bef728a711b662bae1a703b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>Ms::TextDiffParser::TextDiffParser</definition>
+        <argsstring>(int iScore)</argsstring>
+        <name>TextDiffParser</name>
+        <param>
+          <type>int</type>
+          <declname>iScore</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/scorediff.cpp" line="83" column="7" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/scorediff.cpp" bodystart="521" bodyend="525"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ms_1_1_text_diff_parser_1a648c25a0e0d1e9ba598d1eb4ad6bdc39" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Ms::TextDiffParser::makeDiffs</definition>
+        <argsstring>(const QString &amp;mscx, const std::vector&lt; std::pair&lt; const ScoreElement *, QString &gt;&gt; &amp;elements, const std::vector&lt; TextDiff &gt; &amp;textDiffs, std::vector&lt; BaseDiff * &gt; &amp;diffs)</argsstring>
+        <name>makeDiffs</name>
+        <param>
+          <type>const QString &amp;</type>
+          <declname>mscx</declname>
+        </param>
+        <param>
+          <type>const std::vector&lt; std::pair&lt; const <ref refid="class_ms_1_1_score_element" kindref="compound">ScoreElement</ref> *, QString &gt;&gt; &amp;</type>
+          <declname>elements</declname>
+        </param>
+        <param>
+          <type>const std::vector&lt; <ref refid="struct_ms_1_1_text_diff" kindref="compound">TextDiff</ref> &gt; &amp;</type>
+          <declname>textDiffs</declname>
+        </param>
+        <param>
+          <type>std::vector&lt; <ref refid="struct_ms_1_1_base_diff" kindref="compound">BaseDiff</ref> * &gt; &amp;</type>
+          <declname>diffs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/scorediff.cpp" line="85" column="12" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/scorediff.cpp" bodystart="531" bodyend="614"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/scorediff.cpp" line="68" column="21" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/scorediff.cpp" bodystart="68" bodyend="86"/>
+    <listofallmembers>
+      <member refid="class_ms_1_1_text_diff_parser_1a00fbf40035b3e985fc42e62ccf09e99f" prot="private" virt="non-virtual"><scope>Ms::TextDiffParser</scope><name>contextsStack</name></member>
+      <member refid="class_ms_1_1_text_diff_parser_1a554b95cc30869b91a944224421a835c1" prot="private" virt="non-virtual"><scope>Ms::TextDiffParser</scope><name>currentDiffTagLevel</name></member>
+      <member refid="class_ms_1_1_text_diff_parser_1a5972cd86ce9ba744c225373533406123" prot="private" virt="non-virtual"><scope>Ms::TextDiffParser</scope><name>handleToken</name></member>
+      <member refid="class_ms_1_1_text_diff_parser_1a400fcc8ec2569fce53646e11d15e7a11" prot="private" virt="non-virtual"><scope>Ms::TextDiffParser</scope><name>insideDiffTag</name></member>
+      <member refid="class_ms_1_1_text_diff_parser_1aa63dec9790c523649435acdf867b88c0" prot="private" virt="non-virtual"><scope>Ms::TextDiffParser</scope><name>iOtherScore</name></member>
+      <member refid="class_ms_1_1_text_diff_parser_1a284733535786d1fe3324bbb266a4add5" prot="private" virt="non-virtual"><scope>Ms::TextDiffParser</scope><name>iScore</name></member>
+      <member refid="class_ms_1_1_text_diff_parser_1a20c6c3d37b78927685ab88d40950f6c7" prot="private" virt="non-virtual"><scope>Ms::TextDiffParser</scope><name>lastElementEnded</name></member>
+      <member refid="class_ms_1_1_text_diff_parser_1a648c25a0e0d1e9ba598d1eb4ad6bdc39" prot="public" virt="non-virtual"><scope>Ms::TextDiffParser</scope><name>makeDiffs</name></member>
+      <member refid="class_ms_1_1_text_diff_parser_1afd2313132014ae71684d66de29e80521" prot="private" virt="non-virtual"><scope>Ms::TextDiffParser</scope><name>markupContext</name></member>
+      <member refid="class_ms_1_1_text_diff_parser_1a1e240836cbe7f5c384a1dbaa1649ff8d" prot="private" virt="non-virtual"><scope>Ms::TextDiffParser</scope><name>tagIsElement</name></member>
+      <member refid="class_ms_1_1_text_diff_parser_1ad132a69c250a23c98d565c9e97597860" prot="private" virt="non-virtual"><scope>Ms::TextDiffParser</scope><name>tagLevel</name></member>
+      <member refid="class_ms_1_1_text_diff_parser_1a5ca330642bef728a711b662bae1a703b" prot="public" virt="non-virtual"><scope>Ms::TextDiffParser</scope><name>TextDiffParser</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

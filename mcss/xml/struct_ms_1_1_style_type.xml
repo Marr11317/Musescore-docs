@@ -1,0 +1,129 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.17">
+  <compounddef id="struct_ms_1_1_style_type" kind="struct" language="C++" prot="public">
+    <compoundname>Ms::StyleType</compoundname>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="struct_ms_1_1_style_type_1ad365c8607bcb8b5faafeeb934a2eb41a" prot="public" static="no" mutable="no">
+        <type>Sid</type>
+        <definition>Sid Ms::StyleType::_idx</definition>
+        <argsstring></argsstring>
+        <name>_idx</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/style.cpp" line="42" column="11" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/style.cpp" bodystart="42" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_ms_1_1_style_type_1aa4d86bfda3b359fea4680a85a71c1389" prot="public" static="no" mutable="no">
+        <type>const char *</type>
+        <definition>const char* Ms::StyleType::_name</definition>
+        <argsstring></argsstring>
+        <name>_name</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/style.cpp" line="43" column="18" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/style.cpp" bodystart="43" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_ms_1_1_style_type_1a691b2de92994d276dbb5ae82333a521b" prot="public" static="no" mutable="no">
+        <type>QVariant</type>
+        <definition>QVariant Ms::StyleType::_defaultValue</definition>
+        <argsstring></argsstring>
+        <name>_defaultValue</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/style.cpp" line="44" column="16" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/style.cpp" bodystart="44" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="struct_ms_1_1_style_type_1a35a3200c0a507763d19e1af13c69b8b1" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>Sid</type>
+        <definition>Sid Ms::StyleType::styleIdx</definition>
+        <argsstring>() const</argsstring>
+        <name>styleIdx</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/style.cpp" line="47" column="12" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/style.cpp" bodystart="47" bodyend="47"/>
+      </memberdef>
+      <memberdef kind="function" id="struct_ms_1_1_style_type_1a58dc5849cb77b0d9fb887d7ecdccc6c4" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>int</type>
+        <definition>int Ms::StyleType::idx</definition>
+        <argsstring>() const</argsstring>
+        <name>idx</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/style.cpp" line="48" column="11" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/style.cpp" bodystart="48" bodyend="48"/>
+      </memberdef>
+      <memberdef kind="function" id="struct_ms_1_1_style_type_1a76dba69e99591f3e3153e9157c87c9cd" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>const char *</type>
+        <definition>const char* Ms::StyleType::valueType</definition>
+        <argsstring>() const</argsstring>
+        <name>valueType</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/style.cpp" line="49" column="19" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/style.cpp" bodystart="49" bodyend="49"/>
+      </memberdef>
+      <memberdef kind="function" id="struct_ms_1_1_style_type_1a1b3905b7ec4cf26ccd25d69079b41d20" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>const char *</type>
+        <definition>const char* Ms::StyleType::name</definition>
+        <argsstring>() const</argsstring>
+        <name>name</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/style.cpp" line="50" column="23" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/style.cpp" bodystart="50" bodyend="50"/>
+      </memberdef>
+      <memberdef kind="function" id="struct_ms_1_1_style_type_1a51e41adeb757fd25b268ee19fddb9bc2" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>const QVariant &amp;</type>
+        <definition>const QVariant&amp; Ms::StyleType::defaultValue</definition>
+        <argsstring>() const</argsstring>
+        <name>defaultValue</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/style.cpp" line="51" column="23" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/style.cpp" bodystart="51" bodyend="51"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/style.cpp" line="41" column="16" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/style.cpp" bodystart="41" bodyend="52"/>
+    <listofallmembers>
+      <member refid="struct_ms_1_1_style_type_1a691b2de92994d276dbb5ae82333a521b" prot="public" virt="non-virtual"><scope>Ms::StyleType</scope><name>_defaultValue</name></member>
+      <member refid="struct_ms_1_1_style_type_1ad365c8607bcb8b5faafeeb934a2eb41a" prot="public" virt="non-virtual"><scope>Ms::StyleType</scope><name>_idx</name></member>
+      <member refid="struct_ms_1_1_style_type_1aa4d86bfda3b359fea4680a85a71c1389" prot="public" virt="non-virtual"><scope>Ms::StyleType</scope><name>_name</name></member>
+      <member refid="struct_ms_1_1_style_type_1a51e41adeb757fd25b268ee19fddb9bc2" prot="public" virt="non-virtual"><scope>Ms::StyleType</scope><name>defaultValue</name></member>
+      <member refid="struct_ms_1_1_style_type_1a58dc5849cb77b0d9fb887d7ecdccc6c4" prot="public" virt="non-virtual"><scope>Ms::StyleType</scope><name>idx</name></member>
+      <member refid="struct_ms_1_1_style_type_1a1b3905b7ec4cf26ccd25d69079b41d20" prot="public" virt="non-virtual"><scope>Ms::StyleType</scope><name>name</name></member>
+      <member refid="struct_ms_1_1_style_type_1a35a3200c0a507763d19e1af13c69b8b1" prot="public" virt="non-virtual"><scope>Ms::StyleType</scope><name>styleIdx</name></member>
+      <member refid="struct_ms_1_1_style_type_1a76dba69e99591f3e3153e9157c87c9cd" prot="public" virt="non-virtual"><scope>Ms::StyleType</scope><name>valueType</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

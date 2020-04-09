@@ -1,0 +1,225 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.17">
+  <compounddef id="class_ms_1_1_note_edit_data" kind="class" language="C++" prot="public">
+    <compoundname>Ms::NoteEditData</compoundname>
+    <basecompoundref refid="class_ms_1_1_element_edit_data" prot="public" virt="non-virtual">Ms::ElementEditData</basecompoundref>
+      <sectiondef kind="public-type">
+      <memberdef kind="enum" id="class_ms_1_1_note_edit_data_1a403edb91f798b95077bfbee48e15ffe9" prot="public" static="no" strong="no">
+        <type></type>
+        <name>EditMode</name>
+        <enumvalue id="class_ms_1_1_note_edit_data_1a403edb91f798b95077bfbee48e15ffe9a374793cfdf8272c22582adefd71239fb" prot="public">
+          <name>EditMode_ChangePitch</name>
+          <initializer>= 0</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="class_ms_1_1_note_edit_data_1a403edb91f798b95077bfbee48e15ffe9a9078226bb20f1362404031683b75c8c5" prot="public">
+          <name>EditMode_AddSpacing</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="class_ms_1_1_note_edit_data_1a403edb91f798b95077bfbee48e15ffe9a76f7fa05809066fe30da6da467407cf1" prot="public">
+          <name>EditMode_Undefined</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/note.cpp" line="1492" column="20" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/note.cpp" bodystart="1492" bodyend="1496"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_ms_1_1_note_edit_data_1a2ffbe9747bacb638d94e7386bbf1e61e" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int Ms::NoteEditData::line</definition>
+        <argsstring></argsstring>
+        <name>line</name>
+        <initializer>= 0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/note.cpp" line="1498" column="11" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/note.cpp" bodystart="1498" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_ms_1_1_note_edit_data_1a5a8df12a9de4f078b62ecd0b386ad6c3" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int Ms::NoteEditData::string</definition>
+        <argsstring></argsstring>
+        <name>string</name>
+        <initializer>= 0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/note.cpp" line="1499" column="11" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/note.cpp" bodystart="1499" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_ms_1_1_note_edit_data_1ae4ea14cd1e0a9773f62c6d1ea0804956" prot="public" static="no" mutable="no">
+        <type>EditMode</type>
+        <definition>EditMode Ms::NoteEditData::mode</definition>
+        <argsstring></argsstring>
+        <name>mode</name>
+        <initializer>= EditMode_Undefined</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/note.cpp" line="1500" column="16" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/note.cpp" bodystart="1500" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_ms_1_1_note_edit_data_1a40d51c27959b62535e2f4ea76d75c94c" prot="public" static="no" mutable="no">
+        <type>QPointF</type>
+        <definition>QPointF Ms::NoteEditData::delta</definition>
+        <argsstring></argsstring>
+        <name>delta</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/note.cpp" line="1501" column="15" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/note.cpp" bodystart="1501" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-static-attrib">
+      <memberdef kind="variable" id="class_ms_1_1_note_edit_data_1a837eaa1e72f80c2d5540b1b6c9aae81f" prot="public" static="yes" constexpr="yes" mutable="no">
+        <type>constexpr double</type>
+        <definition>constexpr double Ms::NoteEditData::MODE_TRANSITION_LIMIT_DEGREES</definition>
+        <argsstring></argsstring>
+        <name>MODE_TRANSITION_LIMIT_DEGREES</name>
+        <initializer>= 15.0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/note.cpp" line="1505" column="31" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/note.cpp" bodystart="1505" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_ms_1_1_note_edit_data_1a459395890e567118f6f9bc2272092d82" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>EditDataType</type>
+        <definition>virtual EditDataType Ms::NoteEditData::type</definition>
+        <argsstring>() override</argsstring>
+        <name>type</name>
+        <reimplements refid="class_ms_1_1_element_edit_data_1ac49812941581aa2c22e10d3e94f67be9">type</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/note.cpp" line="1503" column="28" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/note.cpp" bodystart="1503" bodyend="1503"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="class_ms_1_1_note_edit_data_1a8eb7626880a540a40bdc868426dc1d90" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>EditMode</type>
+        <definition>static EditMode Ms::NoteEditData::editModeByDragDirection</definition>
+        <argsstring>(const qreal &amp;deltaX, const qreal &amp;deltaY)</argsstring>
+        <name>editModeByDragDirection</name>
+        <param>
+          <type>const qreal &amp;</type>
+          <declname>deltaX</declname>
+        </param>
+        <param>
+          <type>const qreal &amp;</type>
+          <declname>deltaY</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/note.cpp" line="1507" column="30" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/note.cpp" bodystart="1507" bodyend="1526"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>Ms::NoteEditData</label>
+        <link refid="class_ms_1_1_note_edit_data"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>Ms::ElementEditData</label>
+        <link refid="class_ms_1_1_element_edit_data"/>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="6">
+        <label>QList&lt; ScoreElement * &gt;</label>
+      </node>
+      <node id="1">
+        <label>Ms::NoteEditData</label>
+        <link refid="class_ms_1_1_note_edit_data"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="4">
+        <label>Ms::ScoreElement</label>
+        <link refid="class_ms_1_1_score_element"/>
+        <childnode refid="5" relation="usage">
+          <edgelabel>_links</edgelabel>
+        </childnode>
+      </node>
+      <node id="5">
+        <label>Ms::LinkedElements</label>
+        <link refid="class_ms_1_1_linked_elements"/>
+        <childnode refid="6" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>Ms::Element</label>
+        <link refid="class_ms_1_1_element"/>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>Ms::ElementEditData</label>
+        <link refid="class_ms_1_1_element_edit_data"/>
+        <childnode refid="3" relation="usage">
+          <edgelabel>e</edgelabel>
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/note.cpp" line="1490" column="42" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/note.cpp" bodystart="1490" bodyend="1527"/>
+    <listofallmembers>
+      <member refid="class_ms_1_1_note_edit_data_1a40d51c27959b62535e2f4ea76d75c94c" prot="public" virt="non-virtual"><scope>Ms::NoteEditData</scope><name>delta</name></member>
+      <member refid="class_ms_1_1_element_edit_data_1a4a5b2a5182a4a984de50d65dcd5660f3" prot="public" virt="non-virtual"><scope>Ms::NoteEditData</scope><name>e</name></member>
+      <member refid="class_ms_1_1_note_edit_data_1a403edb91f798b95077bfbee48e15ffe9" prot="public" virt="non-virtual"><scope>Ms::NoteEditData</scope><name>EditMode</name></member>
+      <member refid="class_ms_1_1_note_edit_data_1a403edb91f798b95077bfbee48e15ffe9a9078226bb20f1362404031683b75c8c5" prot="public" virt="non-virtual"><scope>Ms::NoteEditData</scope><name>EditMode_AddSpacing</name></member>
+      <member refid="class_ms_1_1_note_edit_data_1a403edb91f798b95077bfbee48e15ffe9a374793cfdf8272c22582adefd71239fb" prot="public" virt="non-virtual"><scope>Ms::NoteEditData</scope><name>EditMode_ChangePitch</name></member>
+      <member refid="class_ms_1_1_note_edit_data_1a403edb91f798b95077bfbee48e15ffe9a76f7fa05809066fe30da6da467407cf1" prot="public" virt="non-virtual"><scope>Ms::NoteEditData</scope><name>EditMode_Undefined</name></member>
+      <member refid="class_ms_1_1_note_edit_data_1a8eb7626880a540a40bdc868426dc1d90" prot="public" virt="non-virtual"><scope>Ms::NoteEditData</scope><name>editModeByDragDirection</name></member>
+      <member refid="class_ms_1_1_note_edit_data_1a2ffbe9747bacb638d94e7386bbf1e61e" prot="public" virt="non-virtual"><scope>Ms::NoteEditData</scope><name>line</name></member>
+      <member refid="class_ms_1_1_note_edit_data_1ae4ea14cd1e0a9773f62c6d1ea0804956" prot="public" virt="non-virtual"><scope>Ms::NoteEditData</scope><name>mode</name></member>
+      <member refid="class_ms_1_1_note_edit_data_1a837eaa1e72f80c2d5540b1b6c9aae81f" prot="public" virt="non-virtual"><scope>Ms::NoteEditData</scope><name>MODE_TRANSITION_LIMIT_DEGREES</name></member>
+      <member refid="class_ms_1_1_element_edit_data_1aa543bb38e2a53f697dc9973bce7b4a44" prot="public" virt="non-virtual"><scope>Ms::NoteEditData</scope><name>propertyData</name></member>
+      <member refid="class_ms_1_1_element_edit_data_1abfc969792e8cdce39582711139ef1d97" prot="public" virt="non-virtual"><scope>Ms::NoteEditData</scope><name>pushProperty</name></member>
+      <member refid="class_ms_1_1_note_edit_data_1a5a8df12a9de4f078b62ecd0b386ad6c3" prot="public" virt="non-virtual"><scope>Ms::NoteEditData</scope><name>string</name></member>
+      <member refid="class_ms_1_1_note_edit_data_1a459395890e567118f6f9bc2272092d82" prot="public" virt="virtual"><scope>Ms::NoteEditData</scope><name>type</name></member>
+      <member refid="class_ms_1_1_element_edit_data_1a50686e6b398def7c9b43a03c409bb025" prot="public" virt="virtual"><scope>Ms::NoteEditData</scope><name>~ElementEditData</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

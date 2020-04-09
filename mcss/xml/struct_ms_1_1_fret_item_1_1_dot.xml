@@ -1,0 +1,113 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.17">
+  <compounddef id="struct_ms_1_1_fret_item_1_1_dot" kind="struct" language="C++" prot="public">
+    <compoundname>Ms::FretItem::Dot</compoundname>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="struct_ms_1_1_fret_item_1_1_dot_1a8499ae1e4cbc2b170653f5f7a4ba19b5" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int Ms::FretItem::Dot::fret</definition>
+        <argsstring></argsstring>
+        <name>fret</name>
+        <initializer>{ 0 }</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/fret.h" line="53" column="17" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/fret.h" bodystart="53" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_ms_1_1_fret_item_1_1_dot_1a8bb6283e19eccfc20156aed41e546524" prot="public" static="no" mutable="no">
+        <type>FretDotType</type>
+        <definition>FretDotType Ms::FretItem::Dot::dtype</definition>
+        <argsstring></argsstring>
+        <name>dtype</name>
+        <initializer>{ FretDotType::NORMAL }</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/fret.h" line="54" column="25" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/fret.h" bodystart="54" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_ms_1_1_fret_item_1_1_dot_1ac5c2064c56c0c9b0696f0440a6173a46" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int Ms::FretItem::Dot::fingering</definition>
+        <argsstring></argsstring>
+        <name>fingering</name>
+        <initializer>{ 0 }</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/fret.h" line="55" column="17" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/fret.h" bodystart="55" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="struct_ms_1_1_fret_item_1_1_dot_1a579b52146d822d51ce02f4e75f7fde39" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>Ms::FretItem::Dot::Dot</definition>
+        <argsstring>()</argsstring>
+        <name>Dot</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/fret.h" line="57" column="13" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/fret.h" bodystart="57" bodyend="57"/>
+      </memberdef>
+      <memberdef kind="function" id="struct_ms_1_1_fret_item_1_1_dot_1aadb6da63cb86b6b5666069d5c8f53d0f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>Ms::FretItem::Dot::Dot</definition>
+        <argsstring>(int f, FretDotType t=FretDotType::NORMAL)</argsstring>
+        <name>Dot</name>
+        <param>
+          <type>int</type>
+          <declname>f</declname>
+        </param>
+        <param>
+          <type>FretDotType</type>
+          <declname>t</declname>
+          <defval>FretDotType::NORMAL</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/fret.h" line="58" column="13" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/fret.h" bodystart="58" bodyend="58"/>
+      </memberdef>
+      <memberdef kind="function" id="struct_ms_1_1_fret_item_1_1_dot_1a0f7f831bfeeb3e4eadb0ccf0aec745ba" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool Ms::FretItem::Dot::exists</definition>
+        <argsstring>() const</argsstring>
+        <name>exists</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/fret.h" line="59" column="18" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/fret.h" bodystart="59" bodyend="59"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/fret.h" line="52" column="16" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/fret.h" bodystart="52" bodyend="60"/>
+    <listofallmembers>
+      <member refid="struct_ms_1_1_fret_item_1_1_dot_1a579b52146d822d51ce02f4e75f7fde39" prot="public" virt="non-virtual"><scope>Ms::FretItem::Dot</scope><name>Dot</name></member>
+      <member refid="struct_ms_1_1_fret_item_1_1_dot_1aadb6da63cb86b6b5666069d5c8f53d0f" prot="public" virt="non-virtual"><scope>Ms::FretItem::Dot</scope><name>Dot</name></member>
+      <member refid="struct_ms_1_1_fret_item_1_1_dot_1a8bb6283e19eccfc20156aed41e546524" prot="public" virt="non-virtual"><scope>Ms::FretItem::Dot</scope><name>dtype</name></member>
+      <member refid="struct_ms_1_1_fret_item_1_1_dot_1a0f7f831bfeeb3e4eadb0ccf0aec745ba" prot="public" virt="non-virtual"><scope>Ms::FretItem::Dot</scope><name>exists</name></member>
+      <member refid="struct_ms_1_1_fret_item_1_1_dot_1ac5c2064c56c0c9b0696f0440a6173a46" prot="public" virt="non-virtual"><scope>Ms::FretItem::Dot</scope><name>fingering</name></member>
+      <member refid="struct_ms_1_1_fret_item_1_1_dot_1a8499ae1e4cbc2b170653f5f7a4ba19b5" prot="public" virt="non-virtual"><scope>Ms::FretItem::Dot</scope><name>fret</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

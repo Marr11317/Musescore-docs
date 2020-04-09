@@ -1,0 +1,64 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.17">
+  <compounddef id="class_ms_1_1_rect" kind="class" language="C++" prot="public">
+    <compoundname>Ms::Rect</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">QRectF</basecompoundref>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_ms_1_1_rect_1a3db6ae3a51038551cca9cf531dc2adb1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>Ms::Rect::Rect</definition>
+        <argsstring>(const QPointF &amp;p1, const QPointF &amp;p2, qreal w)</argsstring>
+        <name>Rect</name>
+        <param>
+          <type>const QPointF &amp;</type>
+          <declname>p1</declname>
+        </param>
+        <param>
+          <type>const QPointF &amp;</type>
+          <declname>p2</declname>
+        </param>
+        <param>
+          <type>qreal</type>
+          <declname>w</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/tuplet.cpp" line="705" column="7" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/tuplet.cpp" bodystart="713" bodyend="717"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>QRectF</label>
+      </node>
+      <node id="1">
+        <label>Ms::Rect</label>
+        <link refid="class_ms_1_1_rect"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>QRectF</label>
+      </node>
+      <node id="1">
+        <label>Ms::Rect</label>
+        <link refid="class_ms_1_1_rect"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/tuplet.cpp" line="703" column="25" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/tuplet.cpp" bodystart="703" bodyend="706"/>
+    <listofallmembers>
+      <member refid="class_ms_1_1_rect_1a3db6ae3a51038551cca9cf531dc2adb1" prot="public" virt="non-virtual"><scope>Ms::Rect</scope><name>Rect</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

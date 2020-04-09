@@ -1,0 +1,77 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.17">
+  <compounddef id="struct_ms_1_1_fret_item_1_1_marker" kind="struct" language="C++" prot="public">
+    <compoundname>Ms::FretItem::Marker</compoundname>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="struct_ms_1_1_fret_item_1_1_marker_1a672895541807126dbefa473bd46f71db" prot="public" static="no" mutable="no">
+        <type>FretMarkerType</type>
+        <definition>FretMarkerType Ms::FretItem::Marker::mtype</definition>
+        <argsstring></argsstring>
+        <name>mtype</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/fret.h" line="63" column="28" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/fret.h" bodystart="63" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="struct_ms_1_1_fret_item_1_1_marker_1a5bb93dd10fb56ab480813c51c2f84945" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>Ms::FretItem::Marker::Marker</definition>
+        <argsstring>()</argsstring>
+        <name>Marker</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/fret.h" line="65" column="13" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/fret.h" bodystart="65" bodyend="65"/>
+      </memberdef>
+      <memberdef kind="function" id="struct_ms_1_1_fret_item_1_1_marker_1aec703a2065aee33fa367a75c73a7c5f7" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>Ms::FretItem::Marker::Marker</definition>
+        <argsstring>(FretMarkerType t)</argsstring>
+        <name>Marker</name>
+        <param>
+          <type>FretMarkerType</type>
+          <declname>t</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/fret.h" line="66" column="13" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/fret.h" bodystart="66" bodyend="66"/>
+      </memberdef>
+      <memberdef kind="function" id="struct_ms_1_1_fret_item_1_1_marker_1a594ade1973e8f0972fee5692ad87180d" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool Ms::FretItem::Marker::exists</definition>
+        <argsstring>() const</argsstring>
+        <name>exists</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/fret.h" line="67" column="18" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/fret.h" bodystart="67" bodyend="67"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/fret.h" line="62" column="19" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/fret.h" bodystart="62" bodyend="68"/>
+    <listofallmembers>
+      <member refid="struct_ms_1_1_fret_item_1_1_marker_1a594ade1973e8f0972fee5692ad87180d" prot="public" virt="non-virtual"><scope>Ms::FretItem::Marker</scope><name>exists</name></member>
+      <member refid="struct_ms_1_1_fret_item_1_1_marker_1a5bb93dd10fb56ab480813c51c2f84945" prot="public" virt="non-virtual"><scope>Ms::FretItem::Marker</scope><name>Marker</name></member>
+      <member refid="struct_ms_1_1_fret_item_1_1_marker_1aec703a2065aee33fa367a75c73a7c5f7" prot="public" virt="non-virtual"><scope>Ms::FretItem::Marker</scope><name>Marker</name></member>
+      <member refid="struct_ms_1_1_fret_item_1_1_marker_1a672895541807126dbefa473bd46f71db" prot="public" virt="non-virtual"><scope>Ms::FretItem::Marker</scope><name>mtype</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

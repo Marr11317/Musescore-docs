@@ -1,0 +1,334 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.17">
+  <compounddef id="class_ms_1_1_part_channel_settings_link" kind="class" language="C++" prot="public" final="yes">
+    <compoundname>Ms::PartChannelSettingsLink</compoundname>
+    <basecompoundref refid="class_ms_1_1_channel_listener" prot="private" virt="non-virtual">Ms::ChannelListener</basecompoundref>
+      <sectiondef kind="private-static-attrib">
+      <memberdef kind="variable" id="class_ms_1_1_part_channel_settings_link_1aeb73cbd6e53847599a311437aa3aeab4" prot="private" static="yes" mutable="no">
+        <type>const std::initializer_list&lt; Channel::Prop &gt;</type>
+        <definition>const std::initializer_list&lt; Channel::Prop &gt; Ms::PartChannelSettingsLink::excerptProperties</definition>
+        <argsstring></argsstring>
+        <name>excerptProperties</name>
+        <initializer>{
+      Channel::Prop::SOLOMUTE,
+      Channel::Prop::SOLO,
+      Channel::Prop::MUTE,
+      }</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/instrument.h" line="224" column="42" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/instrument.h" bodystart="224" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_ms_1_1_part_channel_settings_link_1a874c0ca53fd8318a4e8ee94505c161bf" prot="private" static="no" mutable="no">
+        <type><ref refid="class_ms_1_1_channel" kindref="compound">Channel</ref> *</type>
+        <definition>Channel* Ms::PartChannelSettingsLink::_main</definition>
+        <argsstring></argsstring>
+        <name>_main</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/instrument.h" line="227" column="15" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/instrument.h" bodystart="227" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_ms_1_1_part_channel_settings_link_1ae4cba3156ebae24d840ecc63b8b0c0d9" prot="private" static="no" mutable="no">
+        <type><ref refid="class_ms_1_1_channel" kindref="compound">Channel</ref> *</type>
+        <definition>Channel* Ms::PartChannelSettingsLink::_bound</definition>
+        <argsstring></argsstring>
+        <name>_bound</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/instrument.h" line="228" column="15" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/instrument.h" bodystart="228" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_ms_1_1_part_channel_settings_link_1af1b06cc630a1bf77061132680d6136dc" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool Ms::PartChannelSettingsLink::_excerpt</definition>
+        <argsstring></argsstring>
+        <name>_excerpt</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/instrument.h" line="229" column="12" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/instrument.h" bodystart="229" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-static-func">
+      <memberdef kind="function" id="class_ms_1_1_part_channel_settings_link_1ac677febad85814c291d39916ae90f009" prot="private" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>static bool Ms::PartChannelSettingsLink::isExcerptProperty</definition>
+        <argsstring>(Channel::Prop p)</argsstring>
+        <name>isExcerptProperty</name>
+        <param>
+          <type>Channel::Prop</type>
+          <declname>p</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/instrument.h" line="231" column="19" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/instrument.h" bodystart="231" bodyend="231"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ms_1_1_part_channel_settings_link_1a1ae1cc615908bb8585f666db4c32d398" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Ms::PartChannelSettingsLink::applyProperty</definition>
+        <argsstring>(Channel::Prop p, const Channel *from, Channel *to)</argsstring>
+        <name>applyProperty</name>
+        <param>
+          <type>Channel::Prop</type>
+          <declname>p</declname>
+        </param>
+        <param>
+          <type>const <ref refid="class_ms_1_1_channel" kindref="compound">Channel</ref> *</type>
+          <declname>from</declname>
+        </param>
+        <param>
+          <type><ref refid="class_ms_1_1_channel" kindref="compound">Channel</ref> *</type>
+          <declname>to</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/instrument.h" line="232" column="19" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/instrument.cpp" bodystart="978" bodyend="1027"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_ms_1_1_part_channel_settings_link_1a6106a06000f1a27d6deec748560d6063" prot="private" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void Ms::PartChannelSettingsLink::propertyChanged</definition>
+        <argsstring>(Channel::Prop p) override</argsstring>
+        <name>propertyChanged</name>
+        <reimplements refid="class_ms_1_1_channel_listener_1a22d3ab365af7d6b38404c0aa3619b620">propertyChanged</reimplements>
+        <param>
+          <type>Channel::Prop</type>
+          <declname>p</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/instrument.h" line="233" column="12" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/instrument.cpp" bodystart="1033" bodyend="1037"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_ms_1_1_part_channel_settings_link_1adeb94b0d5fea27ea433cae4a1239e9b8" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>Ms::PartChannelSettingsLink::PartChannelSettingsLink</definition>
+        <argsstring>()</argsstring>
+        <name>PartChannelSettingsLink</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/instrument.h" line="236" column="7" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/instrument.h" bodystart="236" bodyend="236"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ms_1_1_part_channel_settings_link_1a22783264f3a3ace769dc439c0ad517ea" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>Ms::PartChannelSettingsLink::PartChannelSettingsLink</definition>
+        <argsstring>(Channel *main, Channel *bound, bool excerpt)</argsstring>
+        <name>PartChannelSettingsLink</name>
+        <param>
+          <type><ref refid="class_ms_1_1_channel" kindref="compound">Channel</ref> *</type>
+          <declname>main</declname>
+        </param>
+        <param>
+          <type><ref refid="class_ms_1_1_channel" kindref="compound">Channel</ref> *</type>
+          <declname>bound</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>excerpt</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/instrument.h" line="237" column="7" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/instrument.cpp" bodystart="924" bodyend="937"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ms_1_1_part_channel_settings_link_1a6d10a1eb773492b12ce62fa0c8dff87c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>Ms::PartChannelSettingsLink::PartChannelSettingsLink</definition>
+        <argsstring>(const PartChannelSettingsLink &amp;)=delete</argsstring>
+        <name>PartChannelSettingsLink</name>
+        <param>
+          <type>const <ref refid="class_ms_1_1_part_channel_settings_link" kindref="compound">PartChannelSettingsLink</ref> &amp;</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/instrument.h" line="238" column="7"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ms_1_1_part_channel_settings_link_1ae03ddab813326ef8340a71e6e3636a8e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>Ms::PartChannelSettingsLink::PartChannelSettingsLink</definition>
+        <argsstring>(PartChannelSettingsLink &amp;&amp;)</argsstring>
+        <name>PartChannelSettingsLink</name>
+        <param>
+          <type><ref refid="class_ms_1_1_part_channel_settings_link" kindref="compound">PartChannelSettingsLink</ref> &amp;&amp;</type>
+          <defname>other</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/instrument.h" line="239" column="7" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/instrument.cpp" bodystart="943" bodyend="948"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ms_1_1_part_channel_settings_link_1ad52a6f3fe998f4baffa2abaf0f0b2f8e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="class_ms_1_1_part_channel_settings_link" kindref="compound">PartChannelSettingsLink</ref> &amp;</type>
+        <definition>PartChannelSettingsLink&amp; Ms::PartChannelSettingsLink::operator=</definition>
+        <argsstring>(const PartChannelSettingsLink &amp;)=delete</argsstring>
+        <name>operator=</name>
+        <param>
+          <type>const <ref refid="class_ms_1_1_part_channel_settings_link" kindref="compound">PartChannelSettingsLink</ref> &amp;</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/instrument.h" line="240" column="31"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ms_1_1_part_channel_settings_link_1a6072f761e86ebc3a17ffb9183d239ca1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="class_ms_1_1_part_channel_settings_link" kindref="compound">PartChannelSettingsLink</ref> &amp;</type>
+        <definition>PartChannelSettingsLink &amp; Ms::PartChannelSettingsLink::operator=</definition>
+        <argsstring>(PartChannelSettingsLink &amp;&amp;)</argsstring>
+        <name>operator=</name>
+        <param>
+          <type><ref refid="class_ms_1_1_part_channel_settings_link" kindref="compound">PartChannelSettingsLink</ref> &amp;&amp;</type>
+          <defname>other</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/instrument.h" line="241" column="31" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/instrument.cpp" bodystart="954" bodyend="959"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ms_1_1_part_channel_settings_link_1a5d5dade674cd2d0d37ea1c0016d5fe2c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>Ms::PartChannelSettingsLink::~PartChannelSettingsLink</definition>
+        <argsstring>()</argsstring>
+        <name>~PartChannelSettingsLink</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/instrument.h" line="242" column="7" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/instrument.h" bodystart="242" bodyend="242"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="friend">
+      <memberdef kind="friend" id="class_ms_1_1_part_channel_settings_link_1a344c593ff100b41c6425d1607647a3d9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>friend void</type>
+        <definition>void swap</definition>
+        <argsstring>(PartChannelSettingsLink &amp;, PartChannelSettingsLink &amp;)</argsstring>
+        <name>swap</name>
+        <param>
+          <type><ref refid="class_ms_1_1_part_channel_settings_link" kindref="compound">PartChannelSettingsLink</ref> &amp;</type>
+          <defname>l1</defname>
+        </param>
+        <param>
+          <type><ref refid="class_ms_1_1_part_channel_settings_link" kindref="compound">PartChannelSettingsLink</ref> &amp;</type>
+          <defname>l2</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/instrument.h" line="244" column="19" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/instrument.cpp" bodystart="965" bodyend="972"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>Ms::PartChannelSettingsLink</label>
+        <link refid="class_ms_1_1_part_channel_settings_link"/>
+        <childnode refid="2" relation="private-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>Ms::Listener&lt; Channel::Prop &gt;</label>
+        <link refid="class_ms_1_1_listener"/>
+      </node>
+      <node id="2">
+        <label>Ms::ChannelListener</label>
+        <link refid="class_ms_1_1_channel_listener"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>Ms::PartChannelSettingsLink</label>
+        <link refid="class_ms_1_1_part_channel_settings_link"/>
+        <childnode refid="2" relation="private-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>Ms::Listener&lt; Channel::Prop &gt;</label>
+        <link refid="class_ms_1_1_listener"/>
+      </node>
+      <node id="2">
+        <label>Ms::ChannelListener</label>
+        <link refid="class_ms_1_1_channel_listener"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/instrument.h" line="222" column="54" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/instrument.h" bodystart="222" bodyend="245"/>
+    <listofallmembers>
+      <member refid="class_ms_1_1_part_channel_settings_link_1ae4cba3156ebae24d840ecc63b8b0c0d9" prot="private" virt="non-virtual"><scope>Ms::PartChannelSettingsLink</scope><name>_bound</name></member>
+      <member refid="class_ms_1_1_part_channel_settings_link_1af1b06cc630a1bf77061132680d6136dc" prot="private" virt="non-virtual"><scope>Ms::PartChannelSettingsLink</scope><name>_excerpt</name></member>
+      <member refid="class_ms_1_1_part_channel_settings_link_1a874c0ca53fd8318a4e8ee94505c161bf" prot="private" virt="non-virtual"><scope>Ms::PartChannelSettingsLink</scope><name>_main</name></member>
+      <member refid="class_ms_1_1_part_channel_settings_link_1a1ae1cc615908bb8585f666db4c32d398" prot="private" virt="non-virtual"><scope>Ms::PartChannelSettingsLink</scope><name>applyProperty</name></member>
+      <member refid="class_ms_1_1_part_channel_settings_link_1aeb73cbd6e53847599a311437aa3aeab4" prot="private" virt="non-virtual"><scope>Ms::PartChannelSettingsLink</scope><name>excerptProperties</name></member>
+      <member refid="class_ms_1_1_part_channel_settings_link_1ac677febad85814c291d39916ae90f009" prot="private" virt="non-virtual"><scope>Ms::PartChannelSettingsLink</scope><name>isExcerptProperty</name></member>
+      <member refid="class_ms_1_1_part_channel_settings_link_1ad52a6f3fe998f4baffa2abaf0f0b2f8e" prot="public" virt="non-virtual"><scope>Ms::PartChannelSettingsLink</scope><name>operator=</name></member>
+      <member refid="class_ms_1_1_part_channel_settings_link_1a6072f761e86ebc3a17ffb9183d239ca1" prot="public" virt="non-virtual"><scope>Ms::PartChannelSettingsLink</scope><name>operator=</name></member>
+      <member refid="class_ms_1_1_listener_1a099a52a70938915e238eeecebb8e06af" prot="private" virt="non-virtual" ambiguityscope="Ms::ChannelListener::"><scope>Ms::PartChannelSettingsLink</scope><name>operator=</name></member>
+      <member refid="class_ms_1_1_listener_1aa3bfed53b0219bb4645967c1f40a8b66" prot="private" virt="non-virtual" ambiguityscope="Ms::ChannelListener::"><scope>Ms::PartChannelSettingsLink</scope><name>operator=</name></member>
+      <member refid="class_ms_1_1_part_channel_settings_link_1adeb94b0d5fea27ea433cae4a1239e9b8" prot="public" virt="non-virtual"><scope>Ms::PartChannelSettingsLink</scope><name>PartChannelSettingsLink</name></member>
+      <member refid="class_ms_1_1_part_channel_settings_link_1a22783264f3a3ace769dc439c0ad517ea" prot="public" virt="non-virtual"><scope>Ms::PartChannelSettingsLink</scope><name>PartChannelSettingsLink</name></member>
+      <member refid="class_ms_1_1_part_channel_settings_link_1a6d10a1eb773492b12ce62fa0c8dff87c" prot="public" virt="non-virtual"><scope>Ms::PartChannelSettingsLink</scope><name>PartChannelSettingsLink</name></member>
+      <member refid="class_ms_1_1_part_channel_settings_link_1ae03ddab813326ef8340a71e6e3636a8e" prot="public" virt="non-virtual"><scope>Ms::PartChannelSettingsLink</scope><name>PartChannelSettingsLink</name></member>
+      <member refid="class_ms_1_1_part_channel_settings_link_1a6106a06000f1a27d6deec748560d6063" prot="private" virt="virtual"><scope>Ms::PartChannelSettingsLink</scope><name>propertyChanged</name></member>
+      <member refid="class_ms_1_1_part_channel_settings_link_1a344c593ff100b41c6425d1607647a3d9" prot="public" virt="non-virtual"><scope>Ms::PartChannelSettingsLink</scope><name>swap</name></member>
+      <member refid="class_ms_1_1_part_channel_settings_link_1a5d5dade674cd2d0d37ea1c0016d5fe2c" prot="public" virt="non-virtual"><scope>Ms::PartChannelSettingsLink</scope><name>~PartChannelSettingsLink</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

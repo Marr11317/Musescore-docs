@@ -1,0 +1,907 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.17">
+  <compounddef id="mscore_8cpp" kind="file" language="C++">
+    <compoundname>mscore.cpp</compoundname>
+    <includes local="yes">config.h</includes>
+    <includes refid="musescore_core_8h" local="yes">musescoreCore.h</includes>
+    <includes refid="style_8h" local="yes">style.h</includes>
+    <includes refid="mscore_8h" local="yes">mscore.h</includes>
+    <includes refid="sequencer_8h" local="yes">sequencer.h</includes>
+    <includes refid="element_8h" local="yes">element.h</includes>
+    <includes refid="dynamic_8h" local="yes">dynamic.h</includes>
+    <includes refid="accidental_8h" local="yes">accidental.h</includes>
+    <includes refid="figuredbass_8h" local="yes">figuredbass.h</includes>
+    <includes refid="stafftype_8h" local="yes">stafftype.h</includes>
+    <includes refid="note_8h" local="yes">note.h</includes>
+    <includes refid="spanner_8h" local="yes">spanner.h</includes>
+    <includes refid="volta_8h" local="yes">volta.h</includes>
+    <includes refid="ottava_8h" local="yes">ottava.h</includes>
+    <includes refid="trill_8h" local="yes">trill.h</includes>
+    <includes refid="repeat_8h" local="yes">repeat.h</includes>
+    <includes refid="jump_8h" local="yes">jump.h</includes>
+    <includes refid="marker_8h" local="yes">marker.h</includes>
+    <includes refid="layoutbreak_8h" local="yes">layoutbreak.h</includes>
+    <includes refid="hairpin_8h" local="yes">hairpin.h</includes>
+    <includes refid="glissando_8h" local="yes">glissando.h</includes>
+    <includes refid="page_8h" local="yes">page.h</includes>
+    <includes refid="slur_8h" local="yes">slur.h</includes>
+    <includes refid="lyrics_8h" local="yes">lyrics.h</includes>
+    <includes refid="notedot_8h" local="yes">notedot.h</includes>
+    <includes refid="tie_8h" local="yes">tie.h</includes>
+    <includes refid="staff_8h" local="yes">staff.h</includes>
+    <includes refid="beam_8h" local="yes">beam.h</includes>
+    <includes refid="timesig_8h" local="yes">timesig.h</includes>
+    <includes refid="part_8h" local="yes">part.h</includes>
+    <includes refid="measure_8h" local="yes">measure.h</includes>
+    <includes refid="score_8h" local="yes">score.h</includes>
+    <includes refid="keysig_8h" local="yes">keysig.h</includes>
+    <includes refid="harmony_8h" local="yes">harmony.h</includes>
+    <includes refid="stafftext_8h" local="yes">stafftext.h</includes>
+    <includes refid="mscoreview_8h" local="yes">mscoreview.h</includes>
+    <includes refid="chord_8h" local="yes">chord.h</includes>
+    <includes refid="hook_8h" local="yes">hook.h</includes>
+    <includes refid="stem_8h" local="yes">stem.h</includes>
+    <includes refid="stemslash_8h" local="yes">stemslash.h</includes>
+    <includes refid="fraction_8h" local="yes">fraction.h</includes>
+    <includes refid="excerpt_8h" local="yes">excerpt.h</includes>
+    <includes refid="spatium_8h" local="yes">spatium.h</includes>
+    <includes refid="barline_8h" local="yes">barline.h</includes>
+    <includes refid="skyline_8h" local="yes">skyline.h</includes>
+    <incdepgraph>
+      <node id="42">
+        <label>beam.h</label>
+        <link refid="beam_8h_source"/>
+        <childnode refid="9" relation="include">
+        </childnode>
+        <childnode refid="24" relation="include">
+        </childnode>
+        <childnode refid="17" relation="include">
+        </childnode>
+      </node>
+      <node id="85">
+        <label>list</label>
+      </node>
+      <node id="92">
+        <label>QMap</label>
+      </node>
+      <node id="4">
+        <label>style.h</label>
+        <link refid="style_8h_source"/>
+        <childnode refid="5" relation="include">
+        </childnode>
+        <childnode refid="6" relation="include">
+        </childnode>
+      </node>
+      <node id="62">
+        <label>stafftypelist.h</label>
+        <link refid="stafftypelist_8h_source"/>
+        <childnode refid="23" relation="include">
+        </childnode>
+      </node>
+      <node id="54">
+        <label>tie.h</label>
+        <link refid="tie_8h_source"/>
+        <childnode refid="52" relation="include">
+        </childnode>
+      </node>
+      <node id="58">
+        <label>pitch.h</label>
+        <link refid="pitch_8h_source"/>
+      </node>
+      <node id="40">
+        <label>functional</label>
+      </node>
+      <node id="98">
+        <label>stemslash.h</label>
+        <link refid="stemslash_8h_source"/>
+        <childnode refid="9" relation="include">
+        </childnode>
+        <childnode refid="97" relation="include">
+        </childnode>
+      </node>
+      <node id="44">
+        <label>jump.h</label>
+        <link refid="jump_8h_source"/>
+        <childnode refid="15" relation="include">
+        </childnode>
+      </node>
+      <node id="35">
+        <label>ottava.h</label>
+        <link refid="ottava_8h_source"/>
+        <childnode refid="33" relation="include">
+        </childnode>
+        <childnode refid="17" relation="include">
+        </childnode>
+      </node>
+      <node id="46">
+        <label>layoutbreak.h</label>
+        <link refid="layoutbreak_8h_source"/>
+        <childnode refid="9" relation="include">
+        </childnode>
+      </node>
+      <node id="68">
+        <label>stringdata.h</label>
+        <link refid="stringdata_8h_source"/>
+        <childnode refid="69" relation="include">
+        </childnode>
+      </node>
+      <node id="24">
+        <label>durationtype.h</label>
+        <link refid="durationtype_8h_source"/>
+        <childnode refid="11" relation="include">
+        </childnode>
+        <childnode refid="25" relation="include">
+        </childnode>
+      </node>
+      <node id="67">
+        <label>instrument.h</label>
+        <link refid="instrument_8h_source"/>
+        <childnode refid="68" relation="include">
+        </childnode>
+        <childnode refid="7" relation="include">
+        </childnode>
+        <childnode refid="75" relation="include">
+        </childnode>
+        <childnode refid="76" relation="include">
+        </childnode>
+        <childnode refid="73" relation="include">
+        </childnode>
+        <childnode refid="60" relation="include">
+        </childnode>
+        <childnode refid="77" relation="include">
+        </childnode>
+        <childnode refid="19" relation="include">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>C:/Users/main/Documents/GitHub/MuseScore/libmscore/mscore.cpp</label>
+        <link refid="mscore_8cpp"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="7" relation="include">
+        </childnode>
+        <childnode refid="8" relation="include">
+        </childnode>
+        <childnode refid="9" relation="include">
+        </childnode>
+        <childnode refid="14" relation="include">
+        </childnode>
+        <childnode refid="18" relation="include">
+        </childnode>
+        <childnode refid="22" relation="include">
+        </childnode>
+        <childnode refid="23" relation="include">
+        </childnode>
+        <childnode refid="25" relation="include">
+        </childnode>
+        <childnode refid="31" relation="include">
+        </childnode>
+        <childnode refid="32" relation="include">
+        </childnode>
+        <childnode refid="35" relation="include">
+        </childnode>
+        <childnode refid="36" relation="include">
+        </childnode>
+        <childnode refid="37" relation="include">
+        </childnode>
+        <childnode refid="44" relation="include">
+        </childnode>
+        <childnode refid="45" relation="include">
+        </childnode>
+        <childnode refid="46" relation="include">
+        </childnode>
+        <childnode refid="47" relation="include">
+        </childnode>
+        <childnode refid="48" relation="include">
+        </childnode>
+        <childnode refid="49" relation="include">
+        </childnode>
+        <childnode refid="51" relation="include">
+        </childnode>
+        <childnode refid="53" relation="include">
+        </childnode>
+        <childnode refid="43" relation="include">
+        </childnode>
+        <childnode refid="54" relation="include">
+        </childnode>
+        <childnode refid="55" relation="include">
+        </childnode>
+        <childnode refid="42" relation="include">
+        </childnode>
+        <childnode refid="64" relation="include">
+        </childnode>
+        <childnode refid="66" relation="include">
+        </childnode>
+        <childnode refid="78" relation="include">
+        </childnode>
+        <childnode refid="82" relation="include">
+        </childnode>
+        <childnode refid="89" relation="include">
+        </childnode>
+        <childnode refid="90" relation="include">
+        </childnode>
+        <childnode refid="93" relation="include">
+        </childnode>
+        <childnode refid="86" relation="include">
+        </childnode>
+        <childnode refid="95" relation="include">
+        </childnode>
+        <childnode refid="96" relation="include">
+        </childnode>
+        <childnode refid="97" relation="include">
+        </childnode>
+        <childnode refid="98" relation="include">
+        </childnode>
+        <childnode refid="11" relation="include">
+        </childnode>
+        <childnode refid="99" relation="include">
+        </childnode>
+        <childnode refid="10" relation="include">
+        </childnode>
+        <childnode refid="100" relation="include">
+        </childnode>
+        <childnode refid="101" relation="include">
+        </childnode>
+      </node>
+      <node id="37">
+        <label>repeat.h</label>
+        <link refid="repeat_8h_source"/>
+        <childnode refid="15" relation="include">
+        </childnode>
+        <childnode refid="38" relation="include">
+        </childnode>
+      </node>
+      <node id="8">
+        <label>sequencer.h</label>
+        <link refid="sequencer_8h_source"/>
+      </node>
+      <node id="20">
+        <label>QList</label>
+      </node>
+      <node id="91">
+        <label>realizedharmony.h</label>
+        <link refid="realizedharmony_8h_source"/>
+        <childnode refid="92" relation="include">
+        </childnode>
+        <childnode refid="20" relation="include">
+        </childnode>
+      </node>
+      <node id="51">
+        <label>slur.h</label>
+        <link refid="slur_8h_source"/>
+        <childnode refid="52" relation="include">
+        </childnode>
+      </node>
+      <node id="11">
+        <label>fraction.h</label>
+        <link refid="fraction_8h_source"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="7" relation="include">
+        </childnode>
+      </node>
+      <node id="87">
+        <label>spannermap.h</label>
+        <link refid="spannermap_8h_source"/>
+        <childnode refid="88" relation="include">
+        </childnode>
+      </node>
+      <node id="69">
+        <label>xml.h</label>
+        <link refid="xml_8h_source"/>
+        <childnode refid="57" relation="include">
+        </childnode>
+        <childnode refid="70" relation="include">
+        </childnode>
+        <childnode refid="23" relation="include">
+        </childnode>
+        <childnode refid="73" relation="include">
+        </childnode>
+        <childnode refid="9" relation="include">
+        </childnode>
+        <childnode refid="74" relation="include">
+        </childnode>
+      </node>
+      <node id="59">
+        <label>cleflist.h</label>
+        <link refid="cleflist_8h_source"/>
+        <childnode refid="7" relation="include">
+        </childnode>
+        <childnode refid="60" relation="include">
+        </childnode>
+      </node>
+      <node id="5">
+        <label>chordlist.h</label>
+        <link refid="chordlist_8h_source"/>
+      </node>
+      <node id="97">
+        <label>stem.h</label>
+        <link refid="stem_8h_source"/>
+        <childnode refid="9" relation="include">
+        </childnode>
+      </node>
+      <node id="45">
+        <label>marker.h</label>
+        <link refid="marker_8h_source"/>
+        <childnode refid="15" relation="include">
+        </childnode>
+      </node>
+      <node id="14">
+        <label>dynamic.h</label>
+        <link refid="dynamic_8h_source"/>
+        <childnode refid="15" relation="include">
+        </childnode>
+        <childnode refid="7" relation="include">
+        </childnode>
+      </node>
+      <node id="22">
+        <label>figuredbass.h</label>
+        <link refid="figuredbass_8h_source"/>
+        <childnode refid="15" relation="include">
+        </childnode>
+      </node>
+      <node id="74">
+        <label>select.h</label>
+        <link refid="select_8h_source"/>
+        <childnode refid="29" relation="include">
+        </childnode>
+        <childnode refid="7" relation="include">
+        </childnode>
+        <childnode refid="24" relation="include">
+        </childnode>
+      </node>
+      <node id="18">
+        <label>accidental.h</label>
+        <link refid="accidental_8h"/>
+        <childnode refid="19" relation="include">
+        </childnode>
+        <childnode refid="20" relation="include">
+        </childnode>
+        <childnode refid="21" relation="include">
+        </childnode>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="9" relation="include">
+        </childnode>
+      </node>
+      <node id="15">
+        <label>text.h</label>
+        <link refid="text_8h_source"/>
+        <childnode refid="16" relation="include">
+        </childnode>
+      </node>
+      <node id="90">
+        <label>harmony.h</label>
+        <link refid="harmony_8h_source"/>
+        <childnode refid="15" relation="include">
+        </childnode>
+        <childnode refid="29" relation="include">
+        </childnode>
+        <childnode refid="91" relation="include">
+        </childnode>
+      </node>
+      <node id="43">
+        <label>notedot.h</label>
+        <link refid="notedot_8h_source"/>
+        <childnode refid="9" relation="include">
+        </childnode>
+      </node>
+      <node id="53">
+        <label>lyrics.h</label>
+        <link refid="lyrics_8h_source"/>
+        <childnode refid="34" relation="include">
+        </childnode>
+        <childnode refid="15" relation="include">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>musescoreCore.h</label>
+        <link refid="musescore_core_8h_source"/>
+      </node>
+      <node id="77">
+        <label>QtGlobal</label>
+      </node>
+      <node id="9">
+        <label>element.h</label>
+        <link refid="element_8h_source"/>
+        <childnode refid="10" relation="include">
+        </childnode>
+        <childnode refid="11" relation="include">
+        </childnode>
+        <childnode refid="12" relation="include">
+        </childnode>
+        <childnode refid="13" relation="include">
+        </childnode>
+      </node>
+      <node id="13">
+        <label>shape.h</label>
+        <link refid="shape_8h_source"/>
+      </node>
+      <node id="25">
+        <label>note.h</label>
+        <link refid="note_8h"/>
+        <childnode refid="9" relation="include">
+        </childnode>
+        <childnode refid="26" relation="include">
+        </childnode>
+        <childnode refid="28" relation="include">
+        </childnode>
+        <childnode refid="29" relation="include">
+        </childnode>
+        <childnode refid="13" relation="include">
+        </childnode>
+        <childnode refid="30" relation="include">
+        </childnode>
+      </node>
+      <node id="66">
+        <label>part.h</label>
+        <link refid="part_8h_source"/>
+        <childnode refid="7" relation="include">
+        </childnode>
+        <childnode refid="67" relation="include">
+        </childnode>
+        <childnode refid="15" relation="include">
+        </childnode>
+      </node>
+      <node id="82">
+        <label>score.h</label>
+        <link refid="score_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="83" relation="include">
+        </childnode>
+        <childnode refid="67" relation="include">
+        </childnode>
+        <childnode refid="74" relation="include">
+        </childnode>
+        <childnode refid="84" relation="include">
+        </childnode>
+        <childnode refid="86" relation="include">
+        </childnode>
+        <childnode refid="87" relation="include">
+        </childnode>
+        <childnode refid="46" relation="include">
+        </childnode>
+        <childnode refid="17" relation="include">
+        </childnode>
+      </node>
+      <node id="56">
+        <label>changeMap.h</label>
+        <link refid="change_map_8h"/>
+        <childnode refid="57" relation="include">
+        </childnode>
+        <childnode refid="11" relation="include">
+        </childnode>
+      </node>
+      <node id="47">
+        <label>hairpin.h</label>
+        <link refid="hairpin_8h_source"/>
+        <childnode refid="9" relation="include">
+        </childnode>
+        <childnode refid="14" relation="include">
+        </childnode>
+        <childnode refid="34" relation="include">
+        </childnode>
+        <childnode refid="33" relation="include">
+        </childnode>
+        <childnode refid="7" relation="include">
+        </childnode>
+      </node>
+      <node id="26">
+        <label>symbol.h</label>
+        <link refid="symbol_8h_source"/>
+        <childnode refid="27" relation="include">
+        </childnode>
+      </node>
+      <node id="36">
+        <label>trill.h</label>
+        <link refid="trill_8h_source"/>
+        <childnode refid="34" relation="include">
+        </childnode>
+      </node>
+      <node id="55">
+        <label>staff.h</label>
+        <link refid="staff_8h"/>
+        <childnode refid="7" relation="include">
+        </childnode>
+        <childnode refid="56" relation="include">
+        </childnode>
+        <childnode refid="58" relation="include">
+        </childnode>
+        <childnode refid="59" relation="include">
+        </childnode>
+        <childnode refid="61" relation="include">
+        </childnode>
+        <childnode refid="62" relation="include">
+        </childnode>
+        <childnode refid="63" relation="include">
+        </childnode>
+        <childnode refid="12" relation="include">
+        </childnode>
+      </node>
+      <node id="83">
+        <label>input.h</label>
+        <link refid="input_8h_source"/>
+        <childnode refid="7" relation="include">
+        </childnode>
+        <childnode refid="24" relation="include">
+        </childnode>
+        <childnode refid="42" relation="include">
+        </childnode>
+      </node>
+      <node id="94">
+        <label>stafftextbase.h</label>
+        <link refid="stafftextbase_8h_source"/>
+        <childnode refid="15" relation="include">
+        </childnode>
+        <childnode refid="66" relation="include">
+        </childnode>
+        <childnode refid="55" relation="include">
+        </childnode>
+      </node>
+      <node id="101">
+        <label>skyline.h</label>
+        <link refid="skyline_8h_source"/>
+      </node>
+      <node id="65">
+        <label>sig.h</label>
+        <link refid="sig_8h_source"/>
+        <childnode refid="11" relation="include">
+        </childnode>
+      </node>
+      <node id="60">
+        <label>clef.h</label>
+        <link refid="clef_8h"/>
+        <childnode refid="9" relation="include">
+        </childnode>
+        <childnode refid="7" relation="include">
+        </childnode>
+      </node>
+      <node id="93">
+        <label>stafftext.h</label>
+        <link refid="stafftext_8h_source"/>
+        <childnode refid="15" relation="include">
+        </childnode>
+        <childnode refid="66" relation="include">
+        </childnode>
+        <childnode refid="55" relation="include">
+        </childnode>
+        <childnode refid="94" relation="include">
+        </childnode>
+      </node>
+      <node id="78">
+        <label>measure.h</label>
+        <link refid="measure_8h"/>
+        <childnode refid="79" relation="include">
+        </childnode>
+        <childnode refid="11" relation="include">
+        </childnode>
+        <childnode refid="80" relation="include">
+        </childnode>
+      </node>
+      <node id="95">
+        <label>chord.h</label>
+        <link refid="chord_8h"/>
+        <childnode refid="40" relation="include">
+        </childnode>
+        <childnode refid="39" relation="include">
+        </childnode>
+      </node>
+      <node id="38">
+        <label>rest.h</label>
+        <link refid="rest_8h_source"/>
+        <childnode refid="39" relation="include">
+        </childnode>
+        <childnode refid="43" relation="include">
+        </childnode>
+      </node>
+      <node id="41">
+        <label>duration.h</label>
+        <link refid="duration_8h_source"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="9" relation="include">
+        </childnode>
+        <childnode refid="24" relation="include">
+        </childnode>
+      </node>
+      <node id="10">
+        <label>spatium.h</label>
+        <link refid="spatium_8h_source"/>
+      </node>
+      <node id="76">
+        <label>synthesizer/event.h</label>
+      </node>
+      <node id="16">
+        <label>textbase.h</label>
+        <link refid="textbase_8h_source"/>
+        <childnode refid="9" relation="include">
+        </childnode>
+        <childnode refid="17" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+      </node>
+      <node id="99">
+        <label>excerpt.h</label>
+        <link refid="excerpt_8h_source"/>
+        <childnode refid="57" relation="include">
+        </childnode>
+        <childnode refid="11" relation="include">
+        </childnode>
+      </node>
+      <node id="88">
+        <label>thirdparty/intervaltree/IntervalTree.h</label>
+      </node>
+      <node id="96">
+        <label>hook.h</label>
+        <link refid="hook_8h_source"/>
+        <childnode refid="26" relation="include">
+        </childnode>
+      </node>
+      <node id="32">
+        <label>volta.h</label>
+        <link refid="volta_8h_source"/>
+        <childnode refid="33" relation="include">
+        </childnode>
+      </node>
+      <node id="39">
+        <label>chordrest.h</label>
+        <link refid="chordrest_8h_source"/>
+        <childnode refid="40" relation="include">
+        </childnode>
+        <childnode refid="26" relation="include">
+        </childnode>
+        <childnode refid="41" relation="include">
+        </childnode>
+        <childnode refid="42" relation="include">
+        </childnode>
+        <childnode refid="13" relation="include">
+        </childnode>
+      </node>
+      <node id="70">
+        <label>connector.h</label>
+        <link refid="connector_8h_source"/>
+        <childnode refid="71" relation="include">
+        </childnode>
+        <childnode refid="6" relation="include">
+        </childnode>
+      </node>
+      <node id="33">
+        <label>textlinebase.h</label>
+        <link refid="textlinebase_8h_source"/>
+        <childnode refid="34" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="17" relation="include">
+        </childnode>
+      </node>
+      <node id="19">
+        <label>QString</label>
+      </node>
+      <node id="6">
+        <label>types.h</label>
+        <link refid="types_8h_source"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+      </node>
+      <node id="28">
+        <label>noteevent.h</label>
+        <link refid="noteevent_8h_source"/>
+      </node>
+      <node id="61">
+        <label>keylist.h</label>
+        <link refid="keylist_8h_source"/>
+        <childnode refid="30" relation="include">
+        </childnode>
+      </node>
+      <node id="27">
+        <label>bsymbol.h</label>
+        <link refid="bsymbol_8h_source"/>
+        <childnode refid="9" relation="include">
+        </childnode>
+      </node>
+      <node id="7">
+        <label>mscore.h</label>
+        <link refid="mscore_8h_source"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+      </node>
+      <node id="34">
+        <label>line.h</label>
+        <link refid="line_8h_source"/>
+        <childnode refid="31" relation="include">
+        </childnode>
+        <childnode refid="7" relation="include">
+        </childnode>
+      </node>
+      <node id="84">
+        <label>synthesizerstate.h</label>
+        <link refid="synthesizerstate_8h_source"/>
+        <childnode refid="85" relation="include">
+        </childnode>
+      </node>
+      <node id="63">
+        <label>groups.h</label>
+        <link refid="groups_8h_source"/>
+        <childnode refid="11" relation="include">
+        </childnode>
+        <childnode refid="7" relation="include">
+        </childnode>
+        <childnode refid="24" relation="include">
+        </childnode>
+        <childnode refid="42" relation="include">
+        </childnode>
+      </node>
+      <node id="89">
+        <label>keysig.h</label>
+        <link refid="keysig_8h_source"/>
+        <childnode refid="30" relation="include">
+        </childnode>
+        <childnode refid="9" relation="include">
+        </childnode>
+      </node>
+      <node id="12">
+        <label>scoreElement.h</label>
+        <link refid="score_element_8h_source"/>
+        <childnode refid="6" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+      </node>
+      <node id="29">
+        <label>pitchspelling.h</label>
+        <link refid="pitchspelling_8h_source"/>
+        <childnode refid="7" relation="include">
+        </childnode>
+      </node>
+      <node id="72">
+        <label>climits</label>
+      </node>
+      <node id="80">
+        <label>segmentlist.h</label>
+        <link refid="segmentlist_8h_source"/>
+        <childnode refid="81" relation="include">
+        </childnode>
+      </node>
+      <node id="30">
+        <label>key.h</label>
+        <link refid="key_8h_source"/>
+      </node>
+      <node id="17">
+        <label>property.h</label>
+        <link refid="property_8h_source"/>
+      </node>
+      <node id="81">
+        <label>segment.h</label>
+        <link refid="segment_8h_source"/>
+        <childnode refid="9" relation="include">
+        </childnode>
+        <childnode refid="13" relation="include">
+        </childnode>
+        <childnode refid="7" relation="include">
+        </childnode>
+      </node>
+      <node id="79">
+        <label>measurebase.h</label>
+        <link refid="measurebase_8h"/>
+        <childnode refid="9" relation="include">
+        </childnode>
+        <childnode refid="46" relation="include">
+        </childnode>
+      </node>
+      <node id="75">
+        <label>notifier.hpp</label>
+        <link refid="notifier_8hpp_source"/>
+      </node>
+      <node id="31">
+        <label>spanner.h</label>
+        <link refid="spanner_8h_source"/>
+        <childnode refid="9" relation="include">
+        </childnode>
+      </node>
+      <node id="49">
+        <label>page.h</label>
+        <link refid="page_8h_source"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="9" relation="include">
+        </childnode>
+        <childnode refid="50" relation="include">
+        </childnode>
+      </node>
+      <node id="71">
+        <label>location.h</label>
+        <link refid="location_8h_source"/>
+        <childnode refid="11" relation="include">
+        </childnode>
+        <childnode refid="72" relation="include">
+        </childnode>
+      </node>
+      <node id="50">
+        <label>bsp.h</label>
+        <link refid="bsp_8h_source"/>
+      </node>
+      <node id="23">
+        <label>stafftype.h</label>
+        <link refid="stafftype_8h_source"/>
+        <childnode refid="9" relation="include">
+        </childnode>
+        <childnode refid="10" relation="include">
+        </childnode>
+        <childnode refid="7" relation="include">
+        </childnode>
+        <childnode refid="24" relation="include">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>config.h</label>
+      </node>
+      <node id="100">
+        <label>barline.h</label>
+        <link refid="barline_8h_source"/>
+        <childnode refid="9" relation="include">
+        </childnode>
+        <childnode refid="7" relation="include">
+        </childnode>
+      </node>
+      <node id="48">
+        <label>glissando.h</label>
+        <link refid="glissando_8h_source"/>
+        <childnode refid="9" relation="include">
+        </childnode>
+        <childnode refid="34" relation="include">
+        </childnode>
+        <childnode refid="17" relation="include">
+        </childnode>
+      </node>
+      <node id="52">
+        <label>slurtie.h</label>
+        <link refid="slurtie_8h_source"/>
+        <childnode refid="31" relation="include">
+        </childnode>
+        <childnode refid="7" relation="include">
+        </childnode>
+      </node>
+      <node id="21">
+        <label>QVariant</label>
+      </node>
+      <node id="73">
+        <label>interval.h</label>
+        <link refid="interval_8h_source"/>
+      </node>
+      <node id="86">
+        <label>mscoreview.h</label>
+        <link refid="mscoreview_8h_source"/>
+      </node>
+      <node id="64">
+        <label>timesig.h</label>
+        <link refid="timesig_8h_source"/>
+        <childnode refid="9" relation="include">
+        </childnode>
+        <childnode refid="65" relation="include">
+        </childnode>
+        <childnode refid="7" relation="include">
+        </childnode>
+        <childnode refid="63" relation="include">
+        </childnode>
+      </node>
+      <node id="57">
+        <label>QMultiMap</label>
+      </node>
+    </incdepgraph>
+    <innernamespace refid="namespace_ms">Ms</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/mscore.cpp"/>
+  </compounddef>
+</doxygen>

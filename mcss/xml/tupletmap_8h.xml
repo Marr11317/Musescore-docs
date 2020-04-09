@@ -1,0 +1,30 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.17">
+  <compounddef id="tupletmap_8h" kind="file" language="C++">
+    <compoundname>tupletmap.h</compoundname>
+    <includedby refid="edit_8cpp" local="yes">C:/Users/main/Documents/GitHub/MuseScore/libmscore/edit.cpp</includedby>
+    <includedby refid="elementmap_8cpp" local="yes">C:/Users/main/Documents/GitHub/MuseScore/libmscore/elementmap.cpp</includedby>
+    <includedby refid="excerpt_8cpp" local="yes">C:/Users/main/Documents/GitHub/MuseScore/libmscore/excerpt.cpp</includedby>
+    <includedby refid="measure_8cpp" local="yes">C:/Users/main/Documents/GitHub/MuseScore/libmscore/measure.cpp</includedby>
+    <invincdepgraph>
+      <node id="2">
+        <label>C:/Users/main/Documents/GitHub/MuseScore/libmscore/measure.cpp</label>
+        <link refid="measure_8cpp"/>
+      </node>
+      <node id="1">
+        <label>C:/Users/main/Documents/GitHub/MuseScore/libmscore/tupletmap.h</label>
+        <link refid="tupletmap_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+      </node>
+    </invincdepgraph>
+    <innerclass refid="struct_ms_1_1_tuplet2" prot="public">Ms::Tuplet2</innerclass>
+    <innerclass refid="class_ms_1_1_tuplet_map" prot="public">Ms::TupletMap</innerclass>
+    <innernamespace refid="namespace_ms">Ms</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/tupletmap.h"/>
+  </compounddef>
+</doxygen>

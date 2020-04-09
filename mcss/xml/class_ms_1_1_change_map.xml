@@ -1,0 +1,396 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.17">
+  <compounddef id="class_ms_1_1_change_map" kind="class" language="C++" prot="public">
+    <compoundname>Ms::ChangeMap</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">QMultiMap&lt; Fraction, ChangeEvent &gt;</basecompoundref>
+    <innerclass refid="struct_ms_1_1_change_map_1_1_change_method_item" prot="private">Ms::ChangeMap::ChangeMethodItem</innerclass>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_ms_1_1_change_map_1aa03d27b689599c8929fc4bf9d049e8d2" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool Ms::ChangeMap::cleanedUp</definition>
+        <argsstring></argsstring>
+        <name>cleanedUp</name>
+        <initializer>{ false }</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/changeMap.h" line="76" column="12" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/changeMap.h" bodystart="76" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-static-attrib">
+      <memberdef kind="variable" id="class_ms_1_1_change_map_1aa40bf8842f6756848704845155a94254" prot="private" static="yes" mutable="no">
+        <type>const int</type>
+        <definition>const int Ms::ChangeMap::DEFAULT_VALUE</definition>
+        <argsstring></argsstring>
+        <name>DEFAULT_VALUE</name>
+        <initializer>{ 80 }</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/changeMap.h" line="77" column="24" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/changeMap.h" bodystart="77" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-static-attrib">
+      <memberdef kind="variable" id="class_ms_1_1_change_map_1a9024d5b7568df1051880f9e8549f6ee0" prot="public" static="yes" mutable="no">
+        <type>const std::vector&lt; ChangeMethodItem &gt;</type>
+        <definition>const std::vector&lt; ChangeMap::ChangeMethodItem &gt; Ms::ChangeMap::changeMethodTable</definition>
+        <argsstring></argsstring>
+        <name>changeMethodTable</name>
+        <initializer>{
+      { ChangeMethod::NORMAL,           &quot;normal&quot;      },
+      { ChangeMethod::EASE_IN,          &quot;ease-in&quot;     },
+      { ChangeMethod::EASE_OUT,         &quot;ease-out&quot;    },
+      { ChangeMethod::EASE_IN_OUT,      &quot;ease-in-out&quot; },
+      { ChangeMethod::EXPONENTIAL,      &quot;exponential&quot; },
+      }</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/changeMap.h" line="106" column="32" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/changeMap.h" bodystart="106" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-static-func">
+      <memberdef kind="function" id="class_ms_1_1_change_map_1af01b363f6327a3be786e997330f2acf0" prot="private" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>static bool Ms::ChangeMap::compareRampEvents</definition>
+        <argsstring>(ChangeEvent &amp;a, ChangeEvent &amp;b)</argsstring>
+        <name>compareRampEvents</name>
+        <param>
+          <type><ref refid="class_ms_1_1_change_event" kindref="compound">ChangeEvent</ref> &amp;</type>
+          <declname>a</declname>
+        </param>
+        <param>
+          <type><ref refid="class_ms_1_1_change_event" kindref="compound">ChangeEvent</ref> &amp;</type>
+          <declname>b</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/changeMap.h" line="84" column="19" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/changeMap.h" bodystart="84" bodyend="84"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_ms_1_1_change_map_1a1b0f37e2ded45fe24d0ab3dc15e21490" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Ms::ChangeMap::cleanupStage0</definition>
+        <argsstring>()</argsstring>
+        <name>cleanupStage0</name>
+        <briefdescription>
+<para>put the ramps in size order if they start at the same point </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/changeMap.h" line="86" column="12" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/changeMap.cpp" bodystart="176" bodyend="197"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ms_1_1_change_map_1a88f142f8f5c443b4d5268eae12474343" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Ms::ChangeMap::cleanupStage1</definition>
+        <argsstring>()</argsstring>
+        <name>cleanupStage1</name>
+        <briefdescription>
+<para>remove any ramps or fixes that are completely enclosed within other ramps </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/changeMap.h" line="87" column="12" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/changeMap.cpp" bodystart="204" bodyend="264"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ms_1_1_change_map_1a95927483c89f9bdd41eb6d984467f1a6" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Ms::ChangeMap::cleanupStage2</definition>
+        <argsstring>(std::vector&lt; bool &gt; &amp;startsInRamp, EndPointsVector &amp;endPoints)</argsstring>
+        <name>cleanupStage2</name>
+        <param>
+          <type>std::vector&lt; bool &gt; &amp;</type>
+          <declname>startsInRamp</declname>
+        </param>
+        <param>
+          <type><ref refid="namespace_ms_1a6285e5bb1c4dfaffef87e3fd116292e1" kindref="member">EndPointsVector</ref> &amp;</type>
+          <declname>endPoints</declname>
+        </param>
+        <briefdescription>
+<para>readjust lengths of any colliding ramps </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/changeMap.h" line="88" column="12" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/changeMap.cpp" bodystart="271" bodyend="302"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ms_1_1_change_map_1a9d8025001e764ab253d92769df12a996" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Ms::ChangeMap::cleanupStage3</definition>
+        <argsstring>()</argsstring>
+        <name>cleanupStage3</name>
+        <briefdescription>
+<para>cache start and end values for each ramp </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/changeMap.h" line="89" column="12" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/changeMap.cpp" bodystart="309" bodyend="402"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_ms_1_1_change_map_1ab3b1d40e9feab61582f1b19e6c994650" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>Ms::ChangeMap::ChangeMap</definition>
+        <argsstring>()</argsstring>
+        <name>ChangeMap</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/changeMap.h" line="92" column="7" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/changeMap.h" bodystart="92" bodyend="92"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ms_1_1_change_map_1ad96cccac097a84caacb51916bbffb06a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int Ms::ChangeMap::val</definition>
+        <argsstring>(Fraction tick)</argsstring>
+        <name>val</name>
+        <param>
+          <type><ref refid="class_ms_1_1_fraction" kindref="compound">Fraction</ref></type>
+          <declname>tick</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>return value at tick position. Do not confuse with <computeroutput>value</computeroutput>, which is a method of QMultiMap. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/changeMap.h" line="93" column="11" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/changeMap.cpp" bodystart="112" bodyend="145"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ms_1_1_change_map_1a754afa80795d9b61ef9305af1f303775" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>std::vector&lt; std::pair&lt; <ref refid="class_ms_1_1_fraction" kindref="compound">Fraction</ref>, <ref refid="class_ms_1_1_fraction" kindref="compound">Fraction</ref> &gt; &gt;</type>
+        <definition>std::vector&lt; std::pair&lt; Fraction, Fraction &gt; &gt; Ms::ChangeMap::changesInRange</definition>
+        <argsstring>(Fraction stick, Fraction etick)</argsstring>
+        <name>changesInRange</name>
+        <param>
+          <type><ref refid="class_ms_1_1_fraction" kindref="compound">Fraction</ref></type>
+          <declname>stick</declname>
+        </param>
+        <param>
+          <type><ref refid="class_ms_1_1_fraction" kindref="compound">Fraction</ref></type>
+          <declname>etick</declname>
+        </param>
+        <briefdescription>
+<para>returns a list of changes in a range, and their start and end points </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/changeMap.h" line="94" column="19" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/changeMap.cpp" bodystart="430" bodyend="467"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ms_1_1_change_map_1aedaee48f4e01ea00c86903cb8e260f37" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Ms::ChangeMap::addFixed</definition>
+        <argsstring>(Fraction tick, int value)</argsstring>
+        <name>addFixed</name>
+        <param>
+          <type><ref refid="class_ms_1_1_fraction" kindref="compound">Fraction</ref></type>
+          <declname>tick</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/changeMap.h" line="96" column="12" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/changeMap.cpp" bodystart="151" bodyend="155"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ms_1_1_change_map_1ad7fb9b4e7e8d5104ff354c0507b74c66" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Ms::ChangeMap::addRamp</definition>
+        <argsstring>(Fraction stick, Fraction etick, int change, ChangeMethod method, ChangeDirection direction)</argsstring>
+        <name>addRamp</name>
+        <param>
+          <type><ref refid="class_ms_1_1_fraction" kindref="compound">Fraction</ref></type>
+          <declname>stick</declname>
+        </param>
+        <param>
+          <type><ref refid="class_ms_1_1_fraction" kindref="compound">Fraction</ref></type>
+          <declname>etick</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>change</declname>
+        </param>
+        <param>
+          <type>ChangeMethod</type>
+          <declname>method</declname>
+        </param>
+        <param>
+          <type>ChangeDirection</type>
+          <declname>direction</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>A <computeroutput>change</computeroutput> of 0 means that the change in velocity should be calculated from the next fixed velocity event. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/changeMap.h" line="97" column="12" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/changeMap.cpp" bodystart="163" bodyend="169"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ms_1_1_change_map_1a4a38159efb1e45709b47ba8bcf0257f2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Ms::ChangeMap::cleanup</definition>
+        <argsstring>()</argsstring>
+        <name>cleanup</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/changeMap.h" line="98" column="12" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/changeMap.cpp" bodystart="408" bodyend="423"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ms_1_1_change_map_1a5d2c7382f9dbb379271bc7a8c52e9346" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Ms::ChangeMap::dump</definition>
+        <argsstring>()</argsstring>
+        <name>dump</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/changeMap.h" line="100" column="12" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/changeMap.cpp" bodystart="512" bodyend="529"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="class_ms_1_1_change_map_1a11fe7161414996edd0b6370f9ecdf281" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int Ms::ChangeMap::interpolate</definition>
+        <argsstring>(Fraction &amp;eventTick, ChangeEvent &amp;event, Fraction &amp;tick)</argsstring>
+        <name>interpolate</name>
+        <param>
+          <type><ref refid="class_ms_1_1_fraction" kindref="compound">Fraction</ref> &amp;</type>
+          <declname>eventTick</declname>
+        </param>
+        <param>
+          <type><ref refid="class_ms_1_1_change_event" kindref="compound">ChangeEvent</ref> &amp;</type>
+          <declname>event</declname>
+        </param>
+        <param>
+          <type><ref refid="class_ms_1_1_fraction" kindref="compound">Fraction</ref> &amp;</type>
+          <declname>tick</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>the maths looks complex, but is just a series of graph transformations. You can see these graphically at: <ulink url="https://www.desmos.com/calculator/kk89ficmjk">https://www.desmos.com/calculator/kk89ficmjk</ulink> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/changeMap.h" line="102" column="18" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/changeMap.cpp" bodystart="28" bodyend="104"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ms_1_1_change_map_1a910dbc28e0732524cbc41a48227ff199" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>QString</type>
+        <definition>QString Ms::ChangeMap::changeMethodToName</definition>
+        <argsstring>(ChangeMethod method)</argsstring>
+        <name>changeMethodToName</name>
+        <param>
+          <type>ChangeMethod</type>
+          <declname>method</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/changeMap.h" line="103" column="22" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/changeMap.cpp" bodystart="485" bodyend="493"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ms_1_1_change_map_1a324d164e413e3f764d9c228ebffceffc" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>ChangeMethod</type>
+        <definition>ChangeMethod Ms::ChangeMap::nameToChangeMethod</definition>
+        <argsstring>(QString name)</argsstring>
+        <name>nameToChangeMethod</name>
+        <param>
+          <type>QString</type>
+          <declname>name</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/changeMap.h" line="104" column="27" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/changeMap.cpp" bodystart="499" bodyend="506"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>Ms::ChangeMap</label>
+        <link refid="class_ms_1_1_change_map"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>QMultiMap&lt; Fraction, ChangeEvent &gt;</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>Ms::ChangeMap</label>
+        <link refid="class_ms_1_1_change_map"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>QMultiMap&lt; Fraction, ChangeEvent &gt;</label>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/changeMap.h" line="75" column="35" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/changeMap.h" bodystart="75" bodyend="107"/>
+    <listofallmembers>
+      <member refid="class_ms_1_1_change_map_1aedaee48f4e01ea00c86903cb8e260f37" prot="public" virt="non-virtual"><scope>Ms::ChangeMap</scope><name>addFixed</name></member>
+      <member refid="class_ms_1_1_change_map_1ad7fb9b4e7e8d5104ff354c0507b74c66" prot="public" virt="non-virtual"><scope>Ms::ChangeMap</scope><name>addRamp</name></member>
+      <member refid="class_ms_1_1_change_map_1ab3b1d40e9feab61582f1b19e6c994650" prot="public" virt="non-virtual"><scope>Ms::ChangeMap</scope><name>ChangeMap</name></member>
+      <member refid="class_ms_1_1_change_map_1a9024d5b7568df1051880f9e8549f6ee0" prot="public" virt="non-virtual"><scope>Ms::ChangeMap</scope><name>changeMethodTable</name></member>
+      <member refid="class_ms_1_1_change_map_1a910dbc28e0732524cbc41a48227ff199" prot="public" virt="non-virtual"><scope>Ms::ChangeMap</scope><name>changeMethodToName</name></member>
+      <member refid="class_ms_1_1_change_map_1a754afa80795d9b61ef9305af1f303775" prot="public" virt="non-virtual"><scope>Ms::ChangeMap</scope><name>changesInRange</name></member>
+      <member refid="class_ms_1_1_change_map_1aa03d27b689599c8929fc4bf9d049e8d2" prot="private" virt="non-virtual"><scope>Ms::ChangeMap</scope><name>cleanedUp</name></member>
+      <member refid="class_ms_1_1_change_map_1a4a38159efb1e45709b47ba8bcf0257f2" prot="public" virt="non-virtual"><scope>Ms::ChangeMap</scope><name>cleanup</name></member>
+      <member refid="class_ms_1_1_change_map_1a1b0f37e2ded45fe24d0ab3dc15e21490" prot="private" virt="non-virtual"><scope>Ms::ChangeMap</scope><name>cleanupStage0</name></member>
+      <member refid="class_ms_1_1_change_map_1a88f142f8f5c443b4d5268eae12474343" prot="private" virt="non-virtual"><scope>Ms::ChangeMap</scope><name>cleanupStage1</name></member>
+      <member refid="class_ms_1_1_change_map_1a95927483c89f9bdd41eb6d984467f1a6" prot="private" virt="non-virtual"><scope>Ms::ChangeMap</scope><name>cleanupStage2</name></member>
+      <member refid="class_ms_1_1_change_map_1a9d8025001e764ab253d92769df12a996" prot="private" virt="non-virtual"><scope>Ms::ChangeMap</scope><name>cleanupStage3</name></member>
+      <member refid="class_ms_1_1_change_map_1af01b363f6327a3be786e997330f2acf0" prot="private" virt="non-virtual"><scope>Ms::ChangeMap</scope><name>compareRampEvents</name></member>
+      <member refid="class_ms_1_1_change_map_1aa40bf8842f6756848704845155a94254" prot="private" virt="non-virtual"><scope>Ms::ChangeMap</scope><name>DEFAULT_VALUE</name></member>
+      <member refid="class_ms_1_1_change_map_1a5d2c7382f9dbb379271bc7a8c52e9346" prot="public" virt="non-virtual"><scope>Ms::ChangeMap</scope><name>dump</name></member>
+      <member refid="class_ms_1_1_change_map_1a11fe7161414996edd0b6370f9ecdf281" prot="public" virt="non-virtual"><scope>Ms::ChangeMap</scope><name>interpolate</name></member>
+      <member refid="class_ms_1_1_change_map_1a324d164e413e3f764d9c228ebffceffc" prot="public" virt="non-virtual"><scope>Ms::ChangeMap</scope><name>nameToChangeMethod</name></member>
+      <member refid="class_ms_1_1_change_map_1ad96cccac097a84caacb51916bbffb06a" prot="public" virt="non-virtual"><scope>Ms::ChangeMap</scope><name>val</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,116 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.17">
+  <compounddef id="class_ms_1_1_channel_listener" kind="class" language="C++" prot="public" abstract="yes">
+    <compoundname>Ms::ChannelListener</compoundname>
+    <basecompoundref refid="class_ms_1_1_listener" prot="public" virt="non-virtual">Ms::Listener&lt; Channel::Prop &gt;</basecompoundref>
+    <derivedcompoundref refid="class_ms_1_1_part_channel_settings_link" prot="private" virt="non-virtual">Ms::PartChannelSettingsLink</derivedcompoundref>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_ms_1_1_channel_listener_1a22d3ab365af7d6b38404c0aa3619b620" prot="public" static="no" const="no" explicit="no" inline="no" virt="pure-virtual">
+        <type>void</type>
+        <definition>virtual void Ms::ChannelListener::propertyChanged</definition>
+        <argsstring>(Channel::Prop property)=0</argsstring>
+        <name>propertyChanged</name>
+        <reimplementedby refid="class_ms_1_1_part_channel_settings_link_1a6106a06000f1a27d6deec748560d6063">propertyChanged</reimplementedby>
+        <param>
+          <type>Channel::Prop</type>
+          <declname>property</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/instrument.h" line="211" column="20"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ms_1_1_channel_listener_1a1b32a433edc7d8a6f3fb4a76757568ef" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Ms::ChannelListener::setNotifier</definition>
+        <argsstring>(Channel *ch)</argsstring>
+        <name>setNotifier</name>
+        <param>
+          <type><ref refid="class_ms_1_1_channel" kindref="compound">Channel</ref> *</type>
+          <declname>ch</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/instrument.h" line="212" column="12" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/instrument.h" bodystart="212" bodyend="212"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_ms_1_1_channel_listener_1a5ee877a5e7d59342a31288faed83d799" prot="private" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>void</type>
+        <definition>void Ms::ChannelListener::receive</definition>
+        <argsstring>(Channel::Prop prop) override</argsstring>
+        <name>receive</name>
+        <reimplements refid="class_ms_1_1_listener_1a7ab88dccecf04ff7c8784d6a4df428b6">receive</reimplements>
+        <param>
+          <type>Channel::Prop</type>
+          <declname>prop</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/instrument.h" line="215" column="12" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/instrument.h" bodystart="215" bodyend="215"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="3">
+        <label>Ms::PartChannelSettingsLink</label>
+        <link refid="class_ms_1_1_part_channel_settings_link"/>
+        <childnode refid="1" relation="private-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>Ms::Listener&lt; Channel::Prop &gt;</label>
+        <link refid="class_ms_1_1_listener"/>
+      </node>
+      <node id="1">
+        <label>Ms::ChannelListener</label>
+        <link refid="class_ms_1_1_channel_listener"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>Ms::Listener&lt; Channel::Prop &gt;</label>
+        <link refid="class_ms_1_1_listener"/>
+      </node>
+      <node id="1">
+        <label>Ms::ChannelListener</label>
+        <link refid="class_ms_1_1_channel_listener"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/instrument.h" line="209" column="39" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/instrument.h" bodystart="209" bodyend="216"/>
+    <listofallmembers>
+      <member refid="class_ms_1_1_listener_1a348a0495af12454084fc6503938130eb" prot="public" virt="non-virtual"><scope>Ms::ChannelListener</scope><name>detachNotifier</name></member>
+      <member refid="class_ms_1_1_listener_1ae2865170ba86773ff61d115e2805dc19" prot="public" virt="non-virtual"><scope>Ms::ChannelListener</scope><name>Listener</name></member>
+      <member refid="class_ms_1_1_listener_1ae00cc588e083ac2af9e191b88d910c3b" prot="public" virt="non-virtual"><scope>Ms::ChannelListener</scope><name>Listener</name></member>
+      <member refid="class_ms_1_1_listener_1ae1b80168bd04dd8f627fe6bcf8ce5860" prot="public" virt="non-virtual"><scope>Ms::ChannelListener</scope><name>Listener</name></member>
+      <member refid="class_ms_1_1_listener_1a055013096ac5f7bf48c38b9495b694cf" prot="public" virt="non-virtual"><scope>Ms::ChannelListener</scope><name>Listener</name></member>
+      <member refid="class_ms_1_1_listener_1a3093e9163e24a8945ced1a00e3195ac9" prot="public" virt="non-virtual"><scope>Ms::ChannelListener</scope><name>notifier</name></member>
+      <member refid="class_ms_1_1_listener_1a324335090b5c131f947b3216c7be8815" prot="public" virt="non-virtual"><scope>Ms::ChannelListener</scope><name>notifier</name></member>
+      <member refid="class_ms_1_1_listener_1a099a52a70938915e238eeecebb8e06af" prot="public" virt="non-virtual"><scope>Ms::ChannelListener</scope><name>operator=</name></member>
+      <member refid="class_ms_1_1_listener_1aa3bfed53b0219bb4645967c1f40a8b66" prot="public" virt="non-virtual"><scope>Ms::ChannelListener</scope><name>operator=</name></member>
+      <member refid="class_ms_1_1_channel_listener_1a22d3ab365af7d6b38404c0aa3619b620" prot="public" virt="pure-virtual"><scope>Ms::ChannelListener</scope><name>propertyChanged</name></member>
+      <member refid="class_ms_1_1_channel_listener_1a5ee877a5e7d59342a31288faed83d799" prot="private" virt="virtual"><scope>Ms::ChannelListener</scope><name>receive</name></member>
+      <member refid="class_ms_1_1_channel_listener_1a1b32a433edc7d8a6f3fb4a76757568ef" prot="public" virt="non-virtual"><scope>Ms::ChannelListener</scope><name>setNotifier</name></member>
+      <member refid="class_ms_1_1_listener_1a571f3641f1abb1bff8d78797e808f6f0" prot="public" virt="non-virtual" ambiguityscope="Listener&lt; Channel::Prop &gt;::"><scope>Ms::ChannelListener</scope><name>setNotifier</name></member>
+      <member refid="class_ms_1_1_listener_1a434530e00cfc637bcc0e88a7cccac633" prot="public" virt="non-virtual"><scope>Ms::ChannelListener</scope><name>~Listener</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

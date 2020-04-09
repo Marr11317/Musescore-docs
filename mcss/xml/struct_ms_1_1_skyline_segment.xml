@@ -1,0 +1,85 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.17">
+  <compounddef id="struct_ms_1_1_skyline_segment" kind="struct" language="C++" prot="public">
+    <compoundname>Ms::SkylineSegment</compoundname>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="struct_ms_1_1_skyline_segment_1aa595c31f00f1841e8a87d849425c6692" prot="public" static="no" mutable="no">
+        <type>qreal</type>
+        <definition>qreal Ms::SkylineSegment::x</definition>
+        <argsstring></argsstring>
+        <name>x</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/skyline.h" line="30" column="13" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/skyline.h" bodystart="30" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_ms_1_1_skyline_segment_1a9a96d76dce42813c333949ff8938cfa9" prot="public" static="no" mutable="no">
+        <type>qreal</type>
+        <definition>qreal Ms::SkylineSegment::y</definition>
+        <argsstring></argsstring>
+        <name>y</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/skyline.h" line="31" column="13" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/skyline.h" bodystart="31" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_ms_1_1_skyline_segment_1a2a5e10cec9a83a5b65d0269a89e3c62e" prot="public" static="no" mutable="no">
+        <type>qreal</type>
+        <definition>qreal Ms::SkylineSegment::w</definition>
+        <argsstring></argsstring>
+        <name>w</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/skyline.h" line="32" column="13" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/skyline.h" bodystart="32" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="struct_ms_1_1_skyline_segment_1a2c388fdab79f799998a5cb632afd0e54" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>Ms::SkylineSegment::SkylineSegment</definition>
+        <argsstring>(qreal _x, qreal _y, qreal _w)</argsstring>
+        <name>SkylineSegment</name>
+        <param>
+          <type>qreal</type>
+          <declname>_x</declname>
+        </param>
+        <param>
+          <type>qreal</type>
+          <declname>_y</declname>
+        </param>
+        <param>
+          <type>qreal</type>
+          <declname>_w</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/skyline.h" line="34" column="7" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/skyline.h" bodystart="34" bodyend="34"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/skyline.h" line="29" column="21" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/skyline.h" bodystart="29" bodyend="35"/>
+    <listofallmembers>
+      <member refid="struct_ms_1_1_skyline_segment_1a2c388fdab79f799998a5cb632afd0e54" prot="public" virt="non-virtual"><scope>Ms::SkylineSegment</scope><name>SkylineSegment</name></member>
+      <member refid="struct_ms_1_1_skyline_segment_1a2a5e10cec9a83a5b65d0269a89e3c62e" prot="public" virt="non-virtual"><scope>Ms::SkylineSegment</scope><name>w</name></member>
+      <member refid="struct_ms_1_1_skyline_segment_1aa595c31f00f1841e8a87d849425c6692" prot="public" virt="non-virtual"><scope>Ms::SkylineSegment</scope><name>x</name></member>
+      <member refid="struct_ms_1_1_skyline_segment_1a9a96d76dce42813c333949ff8938cfa9" prot="public" virt="non-virtual"><scope>Ms::SkylineSegment</scope><name>y</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

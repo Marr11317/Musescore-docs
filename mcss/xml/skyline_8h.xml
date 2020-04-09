@@ -1,0 +1,97 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.17">
+  <compounddef id="skyline_8h" kind="file" language="C++">
+    <compoundname>skyline.h</compoundname>
+    <includedby refid="system_8h" local="yes">C:/Users/main/Documents/GitHub/MuseScore/libmscore/system.h</includedby>
+    <includedby refid="fingering_8cpp" local="yes">C:/Users/main/Documents/GitHub/MuseScore/libmscore/fingering.cpp</includedby>
+    <includedby refid="mscore_8cpp" local="yes">C:/Users/main/Documents/GitHub/MuseScore/libmscore/mscore.cpp</includedby>
+    <includedby refid="skyline_8cpp" local="yes">C:/Users/main/Documents/GitHub/MuseScore/libmscore/skyline.cpp</includedby>
+    <invincdepgraph>
+      <node id="3">
+        <label>C:/Users/main/Documents/GitHub/MuseScore/libmscore/clef.cpp</label>
+        <link refid="clef_8cpp"/>
+      </node>
+      <node id="6">
+        <label>C:/Users/main/Documents/GitHub/MuseScore/libmscore/measure.cpp</label>
+        <link refid="measure_8cpp"/>
+      </node>
+      <node id="7">
+        <label>C:/Users/main/Documents/GitHub/MuseScore/libmscore/note.cpp</label>
+        <link refid="note_8cpp"/>
+      </node>
+      <node id="9">
+        <label>C:/Users/main/Documents/GitHub/MuseScore/libmscore/select.cpp</label>
+        <link refid="select_8cpp"/>
+      </node>
+      <node id="11">
+        <label>C:/Users/main/Documents/GitHub/MuseScore/libmscore/undo.cpp</label>
+        <link refid="undo_8cpp"/>
+      </node>
+      <node id="2">
+        <label>C:/Users/main/Documents/GitHub/MuseScore/libmscore/system.h</label>
+        <link refid="system_8h"/>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
+        </childnode>
+        <childnode refid="6" relation="include">
+        </childnode>
+        <childnode refid="7" relation="include">
+        </childnode>
+        <childnode refid="8" relation="include">
+        </childnode>
+        <childnode refid="9" relation="include">
+        </childnode>
+        <childnode refid="10" relation="include">
+        </childnode>
+        <childnode refid="11" relation="include">
+        </childnode>
+      </node>
+      <node id="10">
+        <label>C:/Users/main/Documents/GitHub/MuseScore/libmscore/system.cpp</label>
+        <link refid="system_8cpp"/>
+      </node>
+      <node id="1">
+        <label>C:/Users/main/Documents/GitHub/MuseScore/libmscore/skyline.h</label>
+        <link refid="skyline_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+      </node>
+      <node id="5">
+        <label>C:/Users/main/Documents/GitHub/MuseScore/libmscore/element.cpp</label>
+        <link refid="element_8cpp"/>
+      </node>
+      <node id="4">
+        <label>C:/Users/main/Documents/GitHub/MuseScore/libmscore/cmd.cpp</label>
+        <link refid="cmd_8cpp"/>
+      </node>
+      <node id="8">
+        <label>C:/Users/main/Documents/GitHub/MuseScore/libmscore/score.cpp</label>
+        <link refid="score_8cpp"/>
+      </node>
+    </invincdepgraph>
+    <innerclass refid="struct_ms_1_1_skyline_segment" prot="public">Ms::SkylineSegment</innerclass>
+    <innerclass refid="class_ms_1_1_skyline_line" prot="public">Ms::SkylineLine</innerclass>
+    <innerclass refid="class_ms_1_1_skyline" prot="public">Ms::Skyline</innerclass>
+    <innernamespace refid="namespace_ms">Ms</innernamespace>
+      <sectiondef kind="define">
+      <memberdef kind="define" id="skyline_8h_1ac3b9ad60d1f33ccbba9647a8afcddfe6" prot="public" static="no">
+        <name>DEBUG_SKYLINE</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/skyline.h" line="19" column="9" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/skyline.h" bodystart="19" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/skyline.h"/>
+  </compounddef>
+</doxygen>

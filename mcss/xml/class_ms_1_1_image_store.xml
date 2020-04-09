@@ -1,0 +1,249 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.17">
+  <compounddef id="class_ms_1_1_image_store" kind="class" language="C++" prot="public">
+    <compoundname>Ms::ImageStore</compoundname>
+      <sectiondef kind="private-type">
+      <memberdef kind="typedef" id="class_ms_1_1_image_store_1aa775c42845643f079a8dd9c1408594db" prot="private" static="no">
+        <type>std::vector&lt; <ref refid="class_ms_1_1_image_store_item" kindref="compound">ImageStoreItem</ref> * &gt;</type>
+        <definition>typedef std::vector&lt;ImageStoreItem*&gt; Ms::ImageStore::ItemList</definition>
+        <argsstring></argsstring>
+        <name>ItemList</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/imageStore.h" line="55" column="27" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/imageStore.h" bodystart="55" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-type">
+      <memberdef kind="typedef" id="class_ms_1_1_image_store_1aff2932c7dcaa6008a3ef2607dddf522e" prot="public" static="no">
+        <type>ItemList::iterator</type>
+        <definition>typedef ItemList::iterator Ms::ImageStore::iterator</definition>
+        <argsstring></argsstring>
+        <name>iterator</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/imageStore.h" line="68" column="34" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/imageStore.h" bodystart="68" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="class_ms_1_1_image_store_1ab3fd82121acc658b376030e0aa0ac1e6" prot="public" static="no">
+        <type>ItemList::const_iterator</type>
+        <definition>typedef ItemList::const_iterator Ms::ImageStore::const_iterator</definition>
+        <argsstring></argsstring>
+        <name>const_iterator</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/imageStore.h" line="69" column="40" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/imageStore.h" bodystart="69" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_ms_1_1_image_store_1a9534e34169ac16b041c984555d1db6ee" prot="private" static="no" mutable="no">
+        <type>ItemList</type>
+        <definition>ItemList Ms::ImageStore::_items</definition>
+        <argsstring></argsstring>
+        <name>_items</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/imageStore.h" line="56" column="16" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/imageStore.h" bodystart="56" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_ms_1_1_image_store_1aa4d0f5ac0f746bba62e4fae481dcfc5e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>Ms::ImageStore::ImageStore</definition>
+        <argsstring>()=default</argsstring>
+        <name>ImageStore</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/imageStore.h" line="59" column="7"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ms_1_1_image_store_1a7e92a27f9eb7a4482397d532cc40216d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>Ms::ImageStore::ImageStore</definition>
+        <argsstring>(const ImageStore &amp;)=delete</argsstring>
+        <name>ImageStore</name>
+        <param>
+          <type>const <ref refid="class_ms_1_1_image_store" kindref="compound">ImageStore</ref> &amp;</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/imageStore.h" line="60" column="7"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ms_1_1_image_store_1a907c5b690d96b1a58c8ca252583c16ee" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="class_ms_1_1_image_store" kindref="compound">ImageStore</ref> &amp;</type>
+        <definition>ImageStore&amp; Ms::ImageStore::operator=</definition>
+        <argsstring>(const ImageStore &amp;)=delete</argsstring>
+        <name>operator=</name>
+        <param>
+          <type>const <ref refid="class_ms_1_1_image_store" kindref="compound">ImageStore</ref> &amp;</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/imageStore.h" line="61" column="18"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ms_1_1_image_store_1a74c13e4d778dd6f72627d18b69836612" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>Ms::ImageStore::~ImageStore</definition>
+        <argsstring>()</argsstring>
+        <name>~ImageStore</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/imageStore.h" line="62" column="7" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/imageStore.cpp" bodystart="146" bodyend="149"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ms_1_1_image_store_1ae4eb368554277dd3d5f1b33c21ac5860" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="class_ms_1_1_image_store_item" kindref="compound">ImageStoreItem</ref> *</type>
+        <definition>ImageStoreItem * Ms::ImageStore::getImage</definition>
+        <argsstring>(const QString &amp;path) const</argsstring>
+        <name>getImage</name>
+        <param>
+          <type>const QString &amp;</type>
+          <declname>path</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/imageStore.h" line="64" column="22" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/imageStore.cpp" bodystart="155" bodyend="183"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ms_1_1_image_store_1aa92975fd380b45a7510529f05d652e2b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="class_ms_1_1_image_store_item" kindref="compound">ImageStoreItem</ref> *</type>
+        <definition>ImageStoreItem * Ms::ImageStore::add</definition>
+        <argsstring>(const QString &amp;path, const QByteArray &amp;)</argsstring>
+        <name>add</name>
+        <param>
+          <type>const QString &amp;</type>
+          <declname>path</declname>
+        </param>
+        <param>
+          <type>const QByteArray &amp;</type>
+          <defname>ba</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/imageStore.h" line="65" column="22" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/imageStore.cpp" bodystart="189" bodyend="202"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ms_1_1_image_store_1a93c9e2afc9c64d803fecb52f70efe30b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Ms::ImageStore::clearUnused</definition>
+        <argsstring>()</argsstring>
+        <name>clearUnused</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/imageStore.h" line="66" column="12" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/imageStore.cpp" bodystart="208" bodyend="219"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ms_1_1_image_store_1a382db509927b47aabef4bd6ca8737cd9" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>iterator</type>
+        <definition>iterator Ms::ImageStore::begin</definition>
+        <argsstring>()</argsstring>
+        <name>begin</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/imageStore.h" line="71" column="16" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/imageStore.h" bodystart="71" bodyend="71"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ms_1_1_image_store_1a7d0ab3ddb59c1ae1495f40366923c458" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>const_iterator</type>
+        <definition>const_iterator Ms::ImageStore::begin</definition>
+        <argsstring>() const</argsstring>
+        <name>begin</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/imageStore.h" line="72" column="22" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/imageStore.h" bodystart="72" bodyend="72"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ms_1_1_image_store_1ac96efe844b0db72ff721361dd3065b65" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>iterator</type>
+        <definition>iterator Ms::ImageStore::end</definition>
+        <argsstring>()</argsstring>
+        <name>end</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/imageStore.h" line="73" column="16" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/imageStore.h" bodystart="73" bodyend="73"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ms_1_1_image_store_1ae86b3e47f839e57dc1fff499bb42a520" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>const_iterator</type>
+        <definition>const_iterator Ms::ImageStore::end</definition>
+        <argsstring>() const</argsstring>
+        <name>end</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/imageStore.h" line="74" column="22" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/imageStore.h" bodystart="74" bodyend="74"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/imageStore.h" line="54" column="17" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/imageStore.h" bodystart="54" bodyend="75"/>
+    <listofallmembers>
+      <member refid="class_ms_1_1_image_store_1a9534e34169ac16b041c984555d1db6ee" prot="private" virt="non-virtual"><scope>Ms::ImageStore</scope><name>_items</name></member>
+      <member refid="class_ms_1_1_image_store_1aa92975fd380b45a7510529f05d652e2b" prot="public" virt="non-virtual"><scope>Ms::ImageStore</scope><name>add</name></member>
+      <member refid="class_ms_1_1_image_store_1a382db509927b47aabef4bd6ca8737cd9" prot="public" virt="non-virtual"><scope>Ms::ImageStore</scope><name>begin</name></member>
+      <member refid="class_ms_1_1_image_store_1a7d0ab3ddb59c1ae1495f40366923c458" prot="public" virt="non-virtual"><scope>Ms::ImageStore</scope><name>begin</name></member>
+      <member refid="class_ms_1_1_image_store_1a93c9e2afc9c64d803fecb52f70efe30b" prot="public" virt="non-virtual"><scope>Ms::ImageStore</scope><name>clearUnused</name></member>
+      <member refid="class_ms_1_1_image_store_1ab3fd82121acc658b376030e0aa0ac1e6" prot="public" virt="non-virtual"><scope>Ms::ImageStore</scope><name>const_iterator</name></member>
+      <member refid="class_ms_1_1_image_store_1ac96efe844b0db72ff721361dd3065b65" prot="public" virt="non-virtual"><scope>Ms::ImageStore</scope><name>end</name></member>
+      <member refid="class_ms_1_1_image_store_1ae86b3e47f839e57dc1fff499bb42a520" prot="public" virt="non-virtual"><scope>Ms::ImageStore</scope><name>end</name></member>
+      <member refid="class_ms_1_1_image_store_1ae4eb368554277dd3d5f1b33c21ac5860" prot="public" virt="non-virtual"><scope>Ms::ImageStore</scope><name>getImage</name></member>
+      <member refid="class_ms_1_1_image_store_1aa4d0f5ac0f746bba62e4fae481dcfc5e" prot="public" virt="non-virtual"><scope>Ms::ImageStore</scope><name>ImageStore</name></member>
+      <member refid="class_ms_1_1_image_store_1a7e92a27f9eb7a4482397d532cc40216d" prot="public" virt="non-virtual"><scope>Ms::ImageStore</scope><name>ImageStore</name></member>
+      <member refid="class_ms_1_1_image_store_1aa775c42845643f079a8dd9c1408594db" prot="private" virt="non-virtual"><scope>Ms::ImageStore</scope><name>ItemList</name></member>
+      <member refid="class_ms_1_1_image_store_1aff2932c7dcaa6008a3ef2607dddf522e" prot="public" virt="non-virtual"><scope>Ms::ImageStore</scope><name>iterator</name></member>
+      <member refid="class_ms_1_1_image_store_1a907c5b690d96b1a58c8ca252583c16ee" prot="public" virt="non-virtual"><scope>Ms::ImageStore</scope><name>operator=</name></member>
+      <member refid="class_ms_1_1_image_store_1a74c13e4d778dd6f72627d18b69836612" prot="public" virt="non-virtual"><scope>Ms::ImageStore</scope><name>~ImageStore</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

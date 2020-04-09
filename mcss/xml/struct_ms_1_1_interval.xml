@@ -1,0 +1,163 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.17">
+  <compounddef id="struct_ms_1_1_interval" kind="struct" language="C++" prot="public">
+    <compoundname>Ms::Interval</compoundname>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="struct_ms_1_1_interval_1a54024eb8b718cfea4c81522664ad50a9" prot="public" static="no" mutable="no">
+        <type>signed char</type>
+        <definition>signed char Ms::Interval::diatonic</definition>
+        <argsstring></argsstring>
+        <name>diatonic</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/interval.h" line="23" column="19" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/interval.h" bodystart="23" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_ms_1_1_interval_1a251c3700b32300c766246519b91ae94c" prot="public" static="no" mutable="no">
+        <type>signed char</type>
+        <definition>signed char Ms::Interval::chromatic</definition>
+        <argsstring></argsstring>
+        <name>chromatic</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/interval.h" line="24" column="19" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/interval.h" bodystart="24" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="struct_ms_1_1_interval_1acc3625cfa64deb2f267714980c9ba765" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>Ms::Interval::Interval</definition>
+        <argsstring>()</argsstring>
+        <name>Interval</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/interval.h" line="26" column="7" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/interval.cpp" bodystart="22" bodyend="25"/>
+      </memberdef>
+      <memberdef kind="function" id="struct_ms_1_1_interval_1aeb70b4cfbd0c19d2b7690406df68baba" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>Ms::Interval::Interval</definition>
+        <argsstring>(int a, int b)</argsstring>
+        <name>Interval</name>
+        <param>
+          <type>int</type>
+          <declname>a</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>b</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/interval.h" line="27" column="7" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/interval.cpp" bodystart="27" bodyend="30"/>
+      </memberdef>
+      <memberdef kind="function" id="struct_ms_1_1_interval_1a58767ab69a268a36c942e3f249de5c0c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>Ms::Interval::Interval</definition>
+        <argsstring>(int _chromatic)</argsstring>
+        <name>Interval</name>
+        <param>
+          <type>int</type>
+          <declname>_chromatic</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/interval.h" line="28" column="7" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/interval.cpp" bodystart="32" bodyend="36"/>
+      </memberdef>
+      <memberdef kind="function" id="struct_ms_1_1_interval_1ae3d9448bf2d27c98b90378bf0385cbd7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Ms::Interval::flip</definition>
+        <argsstring>()</argsstring>
+        <name>flip</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/interval.h" line="29" column="12" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/interval.cpp" bodystart="42" bodyend="46"/>
+      </memberdef>
+      <memberdef kind="function" id="struct_ms_1_1_interval_1adf842db251f8db45ea8d3813fdefeea4" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool Ms::Interval::isZero</definition>
+        <argsstring>() const</argsstring>
+        <name>isZero</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/interval.h" line="30" column="12" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/interval.cpp" bodystart="52" bodyend="55"/>
+      </memberdef>
+      <memberdef kind="function" id="struct_ms_1_1_interval_1af5ce61f3468975c61bc383c8883f3698" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool Ms::Interval::operator!=</definition>
+        <argsstring>(const Interval &amp;a) const</argsstring>
+        <name>operator!=</name>
+        <param>
+          <type>const <ref refid="struct_ms_1_1_interval" kindref="compound">Interval</ref> &amp;</type>
+          <declname>a</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/interval.h" line="31" column="12" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/interval.h" bodystart="31" bodyend="31"/>
+      </memberdef>
+      <memberdef kind="function" id="struct_ms_1_1_interval_1a62cac96ca1d3349e77b00941de2110eb" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool Ms::Interval::operator==</definition>
+        <argsstring>(const Interval &amp;a) const</argsstring>
+        <name>operator==</name>
+        <param>
+          <type>const <ref refid="struct_ms_1_1_interval" kindref="compound">Interval</ref> &amp;</type>
+          <declname>a</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/interval.h" line="32" column="12" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/interval.h" bodystart="32" bodyend="32"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/interval.h" line="22" column="15" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/interval.h" bodystart="22" bodyend="33"/>
+    <listofallmembers>
+      <member refid="struct_ms_1_1_interval_1a251c3700b32300c766246519b91ae94c" prot="public" virt="non-virtual"><scope>Ms::Interval</scope><name>chromatic</name></member>
+      <member refid="struct_ms_1_1_interval_1a54024eb8b718cfea4c81522664ad50a9" prot="public" virt="non-virtual"><scope>Ms::Interval</scope><name>diatonic</name></member>
+      <member refid="struct_ms_1_1_interval_1ae3d9448bf2d27c98b90378bf0385cbd7" prot="public" virt="non-virtual"><scope>Ms::Interval</scope><name>flip</name></member>
+      <member refid="struct_ms_1_1_interval_1acc3625cfa64deb2f267714980c9ba765" prot="public" virt="non-virtual"><scope>Ms::Interval</scope><name>Interval</name></member>
+      <member refid="struct_ms_1_1_interval_1aeb70b4cfbd0c19d2b7690406df68baba" prot="public" virt="non-virtual"><scope>Ms::Interval</scope><name>Interval</name></member>
+      <member refid="struct_ms_1_1_interval_1a58767ab69a268a36c942e3f249de5c0c" prot="public" virt="non-virtual"><scope>Ms::Interval</scope><name>Interval</name></member>
+      <member refid="struct_ms_1_1_interval_1adf842db251f8db45ea8d3813fdefeea4" prot="public" virt="non-virtual"><scope>Ms::Interval</scope><name>isZero</name></member>
+      <member refid="struct_ms_1_1_interval_1af5ce61f3468975c61bc383c8883f3698" prot="public" virt="non-virtual"><scope>Ms::Interval</scope><name>operator!=</name></member>
+      <member refid="struct_ms_1_1_interval_1a62cac96ca1d3349e77b00941de2110eb" prot="public" virt="non-virtual"><scope>Ms::Interval</scope><name>operator==</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

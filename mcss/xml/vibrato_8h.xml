@@ -1,0 +1,143 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.17">
+  <compounddef id="vibrato_8h" kind="file" language="C++">
+    <compoundname>vibrato.h</compoundname>
+    <includes refid="line_8h" local="yes">line.h</includes>
+    <includedby refid="element_8cpp" local="yes">C:/Users/main/Documents/GitHub/MuseScore/libmscore/element.cpp</includedby>
+    <includedby refid="property_8cpp" local="yes">C:/Users/main/Documents/GitHub/MuseScore/libmscore/property.cpp</includedby>
+    <includedby refid="rendermidi_8cpp" local="yes">C:/Users/main/Documents/GitHub/MuseScore/libmscore/rendermidi.cpp</includedby>
+    <includedby refid="vibrato_8cpp" local="yes">C:/Users/main/Documents/GitHub/MuseScore/libmscore/vibrato.cpp</includedby>
+    <incdepgraph>
+      <node id="9">
+        <label>style.h</label>
+        <link refid="style_8h_source"/>
+        <childnode refid="10" relation="include">
+        </childnode>
+        <childnode refid="11" relation="include">
+        </childnode>
+      </node>
+      <node id="6">
+        <label>fraction.h</label>
+        <link refid="fraction_8h_source"/>
+        <childnode refid="7" relation="include">
+        </childnode>
+        <childnode refid="8" relation="include">
+        </childnode>
+      </node>
+      <node id="10">
+        <label>chordlist.h</label>
+        <link refid="chordlist_8h_source"/>
+      </node>
+      <node id="4">
+        <label>element.h</label>
+        <link refid="element_8h_source"/>
+        <childnode refid="5" relation="include">
+        </childnode>
+        <childnode refid="6" relation="include">
+        </childnode>
+        <childnode refid="12" relation="include">
+        </childnode>
+        <childnode refid="13" relation="include">
+        </childnode>
+      </node>
+      <node id="13">
+        <label>shape.h</label>
+        <link refid="shape_8h_source"/>
+      </node>
+      <node id="5">
+        <label>spatium.h</label>
+        <link refid="spatium_8h_source"/>
+      </node>
+      <node id="1">
+        <label>C:/Users/main/Documents/GitHub/MuseScore/libmscore/vibrato.h</label>
+        <link refid="vibrato_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+      </node>
+      <node id="11">
+        <label>types.h</label>
+        <link refid="types_8h_source"/>
+        <childnode refid="7" relation="include">
+        </childnode>
+      </node>
+      <node id="8">
+        <label>mscore.h</label>
+        <link refid="mscore_8h_source"/>
+        <childnode refid="7" relation="include">
+        </childnode>
+        <childnode refid="9" relation="include">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>line.h</label>
+        <link refid="line_8h_source"/>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="8" relation="include">
+        </childnode>
+      </node>
+      <node id="12">
+        <label>scoreElement.h</label>
+        <link refid="score_element_8h_source"/>
+        <childnode refid="11" relation="include">
+        </childnode>
+        <childnode refid="9" relation="include">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>spanner.h</label>
+        <link refid="spanner_8h_source"/>
+        <childnode refid="4" relation="include">
+        </childnode>
+      </node>
+      <node id="7">
+        <label>config.h</label>
+      </node>
+    </incdepgraph>
+    <invincdepgraph>
+      <node id="3">
+        <label>C:/Users/main/Documents/GitHub/MuseScore/libmscore/rendermidi.cpp</label>
+        <link refid="rendermidi_8cpp"/>
+      </node>
+      <node id="1">
+        <label>C:/Users/main/Documents/GitHub/MuseScore/libmscore/vibrato.h</label>
+        <link refid="vibrato_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="3" relation="include">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>C:/Users/main/Documents/GitHub/MuseScore/libmscore/element.cpp</label>
+        <link refid="element_8cpp"/>
+      </node>
+    </invincdepgraph>
+    <innerclass refid="class_ms_1_1_vibrato_segment" prot="public">Ms::VibratoSegment</innerclass>
+    <innerclass refid="class_ms_1_1_vibrato" prot="public">Ms::Vibrato</innerclass>
+    <innerclass refid="struct_ms_1_1_vibrato_table_item" prot="public">Ms::VibratoTableItem</innerclass>
+    <innernamespace refid="namespace_ms">Ms</innernamespace>
+      <sectiondef kind="func">
+      <memberdef kind="function" id="vibrato_8h_1a156deb987e4046d0d86cc9f2285d3567" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>Q_DECLARE_METATYPE</definition>
+        <argsstring>(Ms::Vibrato::Type)</argsstring>
+        <name>Q_DECLARE_METATYPE</name>
+        <param>
+          <type>Ms::Vibrato::Type</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/vibrato.h" line="111" column="1" declfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/vibrato.h" declline="111" declcolumn="1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/vibrato.h"/>
+  </compounddef>
+</doxygen>

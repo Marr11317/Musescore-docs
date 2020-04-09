@@ -1,0 +1,479 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.17">
+  <compounddef id="class_ms_1_1_m_staff" kind="class" language="C++" prot="public">
+    <compoundname>Ms::MStaff</compoundname>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_ms_1_1_m_staff_1a1be966f99f1d2987842d679d234a8271" prot="private" static="no" mutable="no">
+        <type><ref refid="class_ms_1_1_measure_number" kindref="compound">MeasureNumber</ref> *</type>
+        <definition>MeasureNumber* Ms::MStaff::_noText</definition>
+        <argsstring></argsstring>
+        <name>_noText</name>
+        <initializer>{ 0 }</initializer>
+        <briefdescription>
+<para><ref refid="class_ms_1_1_measure" kindref="compound">Measure</ref> number text object. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/measure.cpp" line="93" column="21" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/measure.cpp" bodystart="93" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_ms_1_1_m_staff_1a7ac45733d3f97f947ba83e3d3212df5d" prot="private" static="no" mutable="no">
+        <type><ref refid="class_ms_1_1_staff_lines" kindref="compound">StaffLines</ref> *</type>
+        <definition>StaffLines* Ms::MStaff::_lines</definition>
+        <argsstring></argsstring>
+        <name>_lines</name>
+        <initializer>{ 0 }</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/measure.cpp" line="94" column="19" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/measure.cpp" bodystart="94" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_ms_1_1_m_staff_1a043ef05f89f829d2063af4cbb1545f56" prot="private" static="no" mutable="no">
+        <type><ref refid="class_ms_1_1_spacer" kindref="compound">Spacer</ref> *</type>
+        <definition>Spacer* Ms::MStaff::_vspacerUp</definition>
+        <argsstring></argsstring>
+        <name>_vspacerUp</name>
+        <initializer>{ 0 }</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/measure.cpp" line="95" column="14" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/measure.cpp" bodystart="95" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_ms_1_1_m_staff_1a035589c5f18131eaa886c295d0208598" prot="private" static="no" mutable="no">
+        <type><ref refid="class_ms_1_1_spacer" kindref="compound">Spacer</ref> *</type>
+        <definition>Spacer* Ms::MStaff::_vspacerDown</definition>
+        <argsstring></argsstring>
+        <name>_vspacerDown</name>
+        <initializer>{ 0 }</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/measure.cpp" line="96" column="14" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/measure.cpp" bodystart="96" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_ms_1_1_m_staff_1a1d17195da2422c6f6c5fe35d3cc7511f" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool Ms::MStaff::_hasVoices</definition>
+        <argsstring></argsstring>
+        <name>_hasVoices</name>
+        <initializer>{ false }</initializer>
+        <briefdescription>
+<para>this changes some layout rules </para>
+        </briefdescription>
+        <detaileddescription>
+<para>indicates that <ref refid="class_ms_1_1_m_staff" kindref="compound">MStaff</ref> contains more than one voice, </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/measure.cpp" line="97" column="12" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/measure.cpp" bodystart="97" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_ms_1_1_m_staff_1afb27ff823c85debc51aeb9aeefcf3dfc" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool Ms::MStaff::_visible</definition>
+        <argsstring></argsstring>
+        <name>_visible</name>
+        <initializer>{ true  }</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/measure.cpp" line="99" column="12" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/measure.cpp" bodystart="99" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_ms_1_1_m_staff_1ace44a50b7742136dd9767760134c43fb" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool Ms::MStaff::_stemless</definition>
+        <argsstring></argsstring>
+        <name>_stemless</name>
+        <initializer>{ false }</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/measure.cpp" line="100" column="12" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/measure.cpp" bodystart="100" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_ms_1_1_m_staff_1a69cddf6c18dbc8953b1c7ed29d68348e" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool Ms::MStaff::_corrupted</definition>
+        <argsstring></argsstring>
+        <name>_corrupted</name>
+        <initializer>{ false }</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/measure.cpp" line="102" column="12" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/measure.cpp" bodystart="102" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_ms_1_1_m_staff_1ad44779102b81a4620f5a1ddf07774ba4" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>Ms::MStaff::MStaff</definition>
+        <argsstring>()</argsstring>
+        <name>MStaff</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/measure.cpp" line="106" column="7" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/measure.cpp" bodystart="106" bodyend="106"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ms_1_1_m_staff_1aa708c22012e71e2f34ea32cef3461dc9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>Ms::MStaff::~MStaff</definition>
+        <argsstring>()</argsstring>
+        <name>~MStaff</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/measure.cpp" line="107" column="7" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/measure.cpp" bodystart="139" bodyend="145"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ms_1_1_m_staff_1a44b094189add92868eec2fb68b7802c5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>Ms::MStaff::MStaff</definition>
+        <argsstring>(const MStaff &amp;)</argsstring>
+        <name>MStaff</name>
+        <param>
+          <type>const <ref refid="class_ms_1_1_m_staff" kindref="compound">MStaff</ref> &amp;</type>
+          <defname>m</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/measure.cpp" line="108" column="7" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/measure.cpp" bodystart="147" bodyend="159"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ms_1_1_m_staff_1a5c822eb5566827cf62ef1d4344be88d2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Ms::MStaff::setScore</definition>
+        <argsstring>(Score *)</argsstring>
+        <name>setScore</name>
+        <param>
+          <type><ref refid="class_ms_1_1_score" kindref="compound">Score</ref> *</type>
+          <defname>score</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/measure.cpp" line="110" column="12" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/measure.cpp" bodystart="165" bodyend="175"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ms_1_1_m_staff_1a2333afc43017bebe8316a6092ae26200" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Ms::MStaff::setTrack</definition>
+        <argsstring>(int)</argsstring>
+        <name>setTrack</name>
+        <param>
+          <type>int</type>
+          <defname>track</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/measure.cpp" line="111" column="12" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/measure.cpp" bodystart="181" bodyend="191"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ms_1_1_m_staff_1aed0dc4e98c1d5e82e6730882c25c5e75" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="class_ms_1_1_measure_number" kindref="compound">MeasureNumber</ref> *</type>
+        <definition>MeasureNumber* Ms::MStaff::noText</definition>
+        <argsstring>() const</argsstring>
+        <name>noText</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/measure.cpp" line="113" column="21" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/measure.cpp" bodystart="113" bodyend="113"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ms_1_1_m_staff_1a79e0813cc78b026c68ae56b8fa78d3b3" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Ms::MStaff::setNoText</definition>
+        <argsstring>(MeasureNumber *t)</argsstring>
+        <name>setNoText</name>
+        <param>
+          <type><ref refid="class_ms_1_1_measure_number" kindref="compound">MeasureNumber</ref> *</type>
+          <declname>t</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/measure.cpp" line="114" column="12" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/measure.cpp" bodystart="114" bodyend="114"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ms_1_1_m_staff_1a041c3a7ee0840b9da7d30a4df99b296f" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="class_ms_1_1_staff_lines" kindref="compound">StaffLines</ref> *</type>
+        <definition>StaffLines* Ms::MStaff::lines</definition>
+        <argsstring>() const</argsstring>
+        <name>lines</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/measure.cpp" line="116" column="18" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/measure.cpp" bodystart="116" bodyend="116"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ms_1_1_m_staff_1a9e074af4f92172f25ca2a00de71d0550" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Ms::MStaff::setLines</definition>
+        <argsstring>(StaffLines *l)</argsstring>
+        <name>setLines</name>
+        <param>
+          <type><ref refid="class_ms_1_1_staff_lines" kindref="compound">StaffLines</ref> *</type>
+          <declname>l</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/measure.cpp" line="117" column="12" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/measure.cpp" bodystart="117" bodyend="117"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ms_1_1_m_staff_1a1b1e5839292f0f03716fa15f86b845c8" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="class_ms_1_1_spacer" kindref="compound">Spacer</ref> *</type>
+        <definition>Spacer* Ms::MStaff::vspacerUp</definition>
+        <argsstring>() const</argsstring>
+        <name>vspacerUp</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/measure.cpp" line="119" column="14" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/measure.cpp" bodystart="119" bodyend="119"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ms_1_1_m_staff_1ad4cfb80fbfc65bb4cedbf4ffa7fa5075" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Ms::MStaff::setVspacerUp</definition>
+        <argsstring>(Spacer *s)</argsstring>
+        <name>setVspacerUp</name>
+        <param>
+          <type><ref refid="class_ms_1_1_spacer" kindref="compound">Spacer</ref> *</type>
+          <declname>s</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/measure.cpp" line="120" column="12" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/measure.cpp" bodystart="120" bodyend="120"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ms_1_1_m_staff_1ae74877ec5db0771ee6f4eca32560c59b" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="class_ms_1_1_spacer" kindref="compound">Spacer</ref> *</type>
+        <definition>Spacer* Ms::MStaff::vspacerDown</definition>
+        <argsstring>() const</argsstring>
+        <name>vspacerDown</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/measure.cpp" line="121" column="14" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/measure.cpp" bodystart="121" bodyend="121"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ms_1_1_m_staff_1ae4f844e66b1a144acbc96cc0854975eb" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Ms::MStaff::setVspacerDown</definition>
+        <argsstring>(Spacer *s)</argsstring>
+        <name>setVspacerDown</name>
+        <param>
+          <type><ref refid="class_ms_1_1_spacer" kindref="compound">Spacer</ref> *</type>
+          <declname>s</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/measure.cpp" line="122" column="12" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/measure.cpp" bodystart="122" bodyend="122"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ms_1_1_m_staff_1a716cf297623cd8648d20591826452934" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool Ms::MStaff::hasVoices</definition>
+        <argsstring>() const</argsstring>
+        <name>hasVoices</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/measure.cpp" line="124" column="12" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/measure.cpp" bodystart="124" bodyend="124"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ms_1_1_m_staff_1a603da3b6be7664f23a1cb7d60216be44" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Ms::MStaff::setHasVoices</definition>
+        <argsstring>(bool val)</argsstring>
+        <name>setHasVoices</name>
+        <param>
+          <type>bool</type>
+          <declname>val</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/measure.cpp" line="125" column="12" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/measure.cpp" bodystart="125" bodyend="125"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ms_1_1_m_staff_1a698ed6f7368e15414b6e06d2e04fde31" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool Ms::MStaff::visible</definition>
+        <argsstring>() const</argsstring>
+        <name>visible</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/measure.cpp" line="127" column="12" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/measure.cpp" bodystart="127" bodyend="127"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ms_1_1_m_staff_1ad18c9173aae39dbd97770c65e17bf141" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Ms::MStaff::setVisible</definition>
+        <argsstring>(bool val)</argsstring>
+        <name>setVisible</name>
+        <param>
+          <type>bool</type>
+          <declname>val</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/measure.cpp" line="128" column="12" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/measure.cpp" bodystart="128" bodyend="128"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ms_1_1_m_staff_1a23283a4481d21d5ddee04d923370afc9" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool Ms::MStaff::stemless</definition>
+        <argsstring>() const</argsstring>
+        <name>stemless</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/measure.cpp" line="130" column="12" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/measure.cpp" bodystart="130" bodyend="130"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ms_1_1_m_staff_1ae91038f9c8c1efdb92ab216f71a900e1" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Ms::MStaff::setStemless</definition>
+        <argsstring>(bool val)</argsstring>
+        <name>setStemless</name>
+        <param>
+          <type>bool</type>
+          <declname>val</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/measure.cpp" line="131" column="12" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/measure.cpp" bodystart="131" bodyend="131"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ms_1_1_m_staff_1a59ead6fcfdcff72e582cb2c67722842d" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool Ms::MStaff::corrupted</definition>
+        <argsstring>() const</argsstring>
+        <name>corrupted</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/measure.cpp" line="134" column="12" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/measure.cpp" bodystart="134" bodyend="134"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ms_1_1_m_staff_1a930334f25476a9ef33a8b8ecff63795c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Ms::MStaff::setCorrupted</definition>
+        <argsstring>(bool val)</argsstring>
+        <name>setCorrupted</name>
+        <param>
+          <type>bool</type>
+          <declname>val</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/measure.cpp" line="135" column="12" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/measure.cpp" bodystart="135" bodyend="135"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Per staff values of measure. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/measure.cpp" line="92" column="13" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/measure.cpp" bodystart="92" bodyend="137"/>
+    <listofallmembers>
+      <member refid="class_ms_1_1_m_staff_1a69cddf6c18dbc8953b1c7ed29d68348e" prot="private" virt="non-virtual"><scope>Ms::MStaff</scope><name>_corrupted</name></member>
+      <member refid="class_ms_1_1_m_staff_1a1d17195da2422c6f6c5fe35d3cc7511f" prot="private" virt="non-virtual"><scope>Ms::MStaff</scope><name>_hasVoices</name></member>
+      <member refid="class_ms_1_1_m_staff_1a7ac45733d3f97f947ba83e3d3212df5d" prot="private" virt="non-virtual"><scope>Ms::MStaff</scope><name>_lines</name></member>
+      <member refid="class_ms_1_1_m_staff_1a1be966f99f1d2987842d679d234a8271" prot="private" virt="non-virtual"><scope>Ms::MStaff</scope><name>_noText</name></member>
+      <member refid="class_ms_1_1_m_staff_1ace44a50b7742136dd9767760134c43fb" prot="private" virt="non-virtual"><scope>Ms::MStaff</scope><name>_stemless</name></member>
+      <member refid="class_ms_1_1_m_staff_1afb27ff823c85debc51aeb9aeefcf3dfc" prot="private" virt="non-virtual"><scope>Ms::MStaff</scope><name>_visible</name></member>
+      <member refid="class_ms_1_1_m_staff_1a035589c5f18131eaa886c295d0208598" prot="private" virt="non-virtual"><scope>Ms::MStaff</scope><name>_vspacerDown</name></member>
+      <member refid="class_ms_1_1_m_staff_1a043ef05f89f829d2063af4cbb1545f56" prot="private" virt="non-virtual"><scope>Ms::MStaff</scope><name>_vspacerUp</name></member>
+      <member refid="class_ms_1_1_m_staff_1a59ead6fcfdcff72e582cb2c67722842d" prot="public" virt="non-virtual"><scope>Ms::MStaff</scope><name>corrupted</name></member>
+      <member refid="class_ms_1_1_m_staff_1a716cf297623cd8648d20591826452934" prot="public" virt="non-virtual"><scope>Ms::MStaff</scope><name>hasVoices</name></member>
+      <member refid="class_ms_1_1_m_staff_1a041c3a7ee0840b9da7d30a4df99b296f" prot="public" virt="non-virtual"><scope>Ms::MStaff</scope><name>lines</name></member>
+      <member refid="class_ms_1_1_m_staff_1ad44779102b81a4620f5a1ddf07774ba4" prot="public" virt="non-virtual"><scope>Ms::MStaff</scope><name>MStaff</name></member>
+      <member refid="class_ms_1_1_m_staff_1a44b094189add92868eec2fb68b7802c5" prot="public" virt="non-virtual"><scope>Ms::MStaff</scope><name>MStaff</name></member>
+      <member refid="class_ms_1_1_m_staff_1aed0dc4e98c1d5e82e6730882c25c5e75" prot="public" virt="non-virtual"><scope>Ms::MStaff</scope><name>noText</name></member>
+      <member refid="class_ms_1_1_m_staff_1a930334f25476a9ef33a8b8ecff63795c" prot="public" virt="non-virtual"><scope>Ms::MStaff</scope><name>setCorrupted</name></member>
+      <member refid="class_ms_1_1_m_staff_1a603da3b6be7664f23a1cb7d60216be44" prot="public" virt="non-virtual"><scope>Ms::MStaff</scope><name>setHasVoices</name></member>
+      <member refid="class_ms_1_1_m_staff_1a9e074af4f92172f25ca2a00de71d0550" prot="public" virt="non-virtual"><scope>Ms::MStaff</scope><name>setLines</name></member>
+      <member refid="class_ms_1_1_m_staff_1a79e0813cc78b026c68ae56b8fa78d3b3" prot="public" virt="non-virtual"><scope>Ms::MStaff</scope><name>setNoText</name></member>
+      <member refid="class_ms_1_1_m_staff_1a5c822eb5566827cf62ef1d4344be88d2" prot="public" virt="non-virtual"><scope>Ms::MStaff</scope><name>setScore</name></member>
+      <member refid="class_ms_1_1_m_staff_1ae91038f9c8c1efdb92ab216f71a900e1" prot="public" virt="non-virtual"><scope>Ms::MStaff</scope><name>setStemless</name></member>
+      <member refid="class_ms_1_1_m_staff_1a2333afc43017bebe8316a6092ae26200" prot="public" virt="non-virtual"><scope>Ms::MStaff</scope><name>setTrack</name></member>
+      <member refid="class_ms_1_1_m_staff_1ad18c9173aae39dbd97770c65e17bf141" prot="public" virt="non-virtual"><scope>Ms::MStaff</scope><name>setVisible</name></member>
+      <member refid="class_ms_1_1_m_staff_1ae4f844e66b1a144acbc96cc0854975eb" prot="public" virt="non-virtual"><scope>Ms::MStaff</scope><name>setVspacerDown</name></member>
+      <member refid="class_ms_1_1_m_staff_1ad4cfb80fbfc65bb4cedbf4ffa7fa5075" prot="public" virt="non-virtual"><scope>Ms::MStaff</scope><name>setVspacerUp</name></member>
+      <member refid="class_ms_1_1_m_staff_1a23283a4481d21d5ddee04d923370afc9" prot="public" virt="non-virtual"><scope>Ms::MStaff</scope><name>stemless</name></member>
+      <member refid="class_ms_1_1_m_staff_1a698ed6f7368e15414b6e06d2e04fde31" prot="public" virt="non-virtual"><scope>Ms::MStaff</scope><name>visible</name></member>
+      <member refid="class_ms_1_1_m_staff_1ae74877ec5db0771ee6f4eca32560c59b" prot="public" virt="non-virtual"><scope>Ms::MStaff</scope><name>vspacerDown</name></member>
+      <member refid="class_ms_1_1_m_staff_1a1b1e5839292f0f03716fa15f86b845c8" prot="public" virt="non-virtual"><scope>Ms::MStaff</scope><name>vspacerUp</name></member>
+      <member refid="class_ms_1_1_m_staff_1aa708c22012e71e2f34ea32cef3461dc9" prot="public" virt="non-virtual"><scope>Ms::MStaff</scope><name>~MStaff</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

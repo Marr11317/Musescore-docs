@@ -1,0 +1,29 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.17">
+  <compounddef id="layout_8h" kind="file" language="C++">
+    <compoundname>layout.h</compoundname>
+    <includedby refid="layout_8cpp" local="yes">C:/Users/main/Documents/GitHub/MuseScore/libmscore/layout.cpp</includedby>
+    <includedby refid="layoutlinear_8cpp" local="yes">C:/Users/main/Documents/GitHub/MuseScore/libmscore/layoutlinear.cpp</includedby>
+    <includedby refid="measure_8cpp" local="yes">C:/Users/main/Documents/GitHub/MuseScore/libmscore/measure.cpp</includedby>
+    <includedby refid="style_8cpp" local="yes">C:/Users/main/Documents/GitHub/MuseScore/libmscore/style.cpp</includedby>
+    <invincdepgraph>
+      <node id="2">
+        <label>C:/Users/main/Documents/GitHub/MuseScore/libmscore/measure.cpp</label>
+        <link refid="measure_8cpp"/>
+      </node>
+      <node id="1">
+        <label>C:/Users/main/Documents/GitHub/MuseScore/libmscore/layout.h</label>
+        <link refid="layout_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+      </node>
+    </invincdepgraph>
+    <innerclass refid="struct_ms_1_1_layout_context" prot="public">Ms::LayoutContext</innerclass>
+    <innernamespace refid="namespace_ms">Ms</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/layout.h"/>
+  </compounddef>
+</doxygen>

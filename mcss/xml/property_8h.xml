@@ -1,0 +1,799 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.17">
+  <compounddef id="property_8h" kind="file" language="C++">
+    <compoundname>property.h</compoundname>
+    <includedby refid="beam_8h" local="yes">C:/Users/main/Documents/GitHub/MuseScore/libmscore/beam.h</includedby>
+    <includedby refid="score_8h" local="yes">C:/Users/main/Documents/GitHub/MuseScore/libmscore/score.h</includedby>
+    <includedby refid="textbase_8h" local="yes">C:/Users/main/Documents/GitHub/MuseScore/libmscore/textbase.h</includedby>
+    <includedby refid="arpeggio_8cpp" local="yes">C:/Users/main/Documents/GitHub/MuseScore/libmscore/arpeggio.cpp</includedby>
+    <includedby refid="tuplet_8h" local="yes">C:/Users/main/Documents/GitHub/MuseScore/libmscore/tuplet.h</includedby>
+    <includedby refid="bend_8h" local="yes">C:/Users/main/Documents/GitHub/MuseScore/libmscore/bend.h</includedby>
+    <includedby refid="box_8h" local="yes">C:/Users/main/Documents/GitHub/MuseScore/libmscore/box.h</includedby>
+    <includedby refid="bracket_item_8cpp" local="yes">C:/Users/main/Documents/GitHub/MuseScore/libmscore/bracketItem.cpp</includedby>
+    <includedby refid="glissando_8h" local="yes">C:/Users/main/Documents/GitHub/MuseScore/libmscore/glissando.h</includedby>
+    <includedby refid="textlinebase_8h" local="yes">C:/Users/main/Documents/GitHub/MuseScore/libmscore/textlinebase.h</includedby>
+    <includedby refid="ottava_8h" local="yes">C:/Users/main/Documents/GitHub/MuseScore/libmscore/ottava.h</includedby>
+    <includedby refid="duration_8cpp" local="yes">C:/Users/main/Documents/GitHub/MuseScore/libmscore/duration.cpp</includedby>
+    <includedby refid="icon_8cpp" local="yes">C:/Users/main/Documents/GitHub/MuseScore/libmscore/icon.cpp</includedby>
+    <includedby refid="property_8cpp" local="yes">C:/Users/main/Documents/GitHub/MuseScore/libmscore/property.cpp</includedby>
+    <includedby refid="style_8cpp" local="yes">C:/Users/main/Documents/GitHub/MuseScore/libmscore/style.cpp</includedby>
+    <includedby refid="xmlwriter_8cpp" local="yes">C:/Users/main/Documents/GitHub/MuseScore/libmscore/xmlwriter.cpp</includedby>
+    <invincdepgraph>
+      <node id="2">
+        <label>C:/Users/main/Documents/GitHub/MuseScore/libmscore/beam.h</label>
+        <link refid="beam_8h_source"/>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="18" relation="include">
+        </childnode>
+        <childnode refid="25" relation="include">
+        </childnode>
+        <childnode refid="6" relation="include">
+        </childnode>
+        <childnode refid="8" relation="include">
+        </childnode>
+        <childnode refid="11" relation="include">
+        </childnode>
+        <childnode refid="13" relation="include">
+        </childnode>
+        <childnode refid="15" relation="include">
+        </childnode>
+      </node>
+      <node id="54">
+        <label>C:/Users/main/Documents/GitHub/MuseScore/libmscore/textline.h</label>
+        <link refid="textline_8h_source"/>
+        <childnode refid="6" relation="include">
+        </childnode>
+        <childnode refid="7" relation="include">
+        </childnode>
+        <childnode refid="9" relation="include">
+        </childnode>
+      </node>
+      <node id="34">
+        <label>C:/Users/main/Documents/GitHub/MuseScore/libmscore/fret.h</label>
+        <link refid="fret_8h_source"/>
+        <childnode refid="16" relation="include">
+        </childnode>
+        <childnode refid="7" relation="include">
+        </childnode>
+        <childnode refid="8" relation="include">
+        </childnode>
+        <childnode refid="9" relation="include">
+        </childnode>
+        <childnode refid="13" relation="include">
+        </childnode>
+        <childnode refid="15" relation="include">
+        </childnode>
+      </node>
+      <node id="12">
+        <label>C:/Users/main/Documents/GitHub/MuseScore/libmscore/scorediff.h</label>
+        <link refid="scorediff_8h_source"/>
+      </node>
+      <node id="5">
+        <label>C:/Users/main/Documents/GitHub/MuseScore/libmscore/clef.cpp</label>
+        <link refid="clef_8cpp"/>
+      </node>
+      <node id="43">
+        <label>C:/Users/main/Documents/GitHub/MuseScore/libmscore/jump.h</label>
+        <link refid="jump_8h_source"/>
+        <childnode refid="7" relation="include">
+        </childnode>
+      </node>
+      <node id="8">
+        <label>C:/Users/main/Documents/GitHub/MuseScore/libmscore/measure.cpp</label>
+        <link refid="measure_8cpp"/>
+      </node>
+      <node id="52">
+        <label>C:/Users/main/Documents/GitHub/MuseScore/libmscore/ottava.h</label>
+        <link refid="ottava_8h_source"/>
+        <childnode refid="6" relation="include">
+        </childnode>
+        <childnode refid="7" relation="include">
+        </childnode>
+        <childnode refid="8" relation="include">
+        </childnode>
+        <childnode refid="11" relation="include">
+        </childnode>
+      </node>
+      <node id="48">
+        <label>C:/Users/main/Documents/GitHub/MuseScore/libmscore/box.h</label>
+        <link refid="box_8h"/>
+        <childnode refid="49" relation="include">
+        </childnode>
+        <childnode refid="6" relation="include">
+        </childnode>
+        <childnode refid="7" relation="include">
+        </childnode>
+        <childnode refid="8" relation="include">
+        </childnode>
+        <childnode refid="11" relation="include">
+        </childnode>
+        <childnode refid="14" relation="include">
+        </childnode>
+        <childnode refid="15" relation="include">
+        </childnode>
+      </node>
+      <node id="9">
+        <label>C:/Users/main/Documents/GitHub/MuseScore/libmscore/note.cpp</label>
+        <link refid="note_8cpp"/>
+      </node>
+      <node id="38">
+        <label>C:/Users/main/Documents/GitHub/MuseScore/libmscore/fingering.h</label>
+        <link refid="fingering_8h_source"/>
+        <childnode refid="7" relation="include">
+        </childnode>
+        <childnode refid="9" relation="include">
+        </childnode>
+        <childnode refid="15" relation="include">
+        </childnode>
+      </node>
+      <node id="28">
+        <label>C:/Users/main/Documents/GitHub/MuseScore/libmscore/repeat.h</label>
+        <link refid="repeat_8h_source"/>
+        <childnode refid="6" relation="include">
+        </childnode>
+        <childnode refid="7" relation="include">
+        </childnode>
+        <childnode refid="8" relation="include">
+        </childnode>
+        <childnode refid="10" relation="include">
+        </childnode>
+        <childnode refid="11" relation="include">
+        </childnode>
+      </node>
+      <node id="58">
+        <label>C:/Users/main/Documents/GitHub/MuseScore/libmscore/palmmute.h</label>
+        <link refid="palmmute_8h_source"/>
+        <childnode refid="7" relation="include">
+        </childnode>
+      </node>
+      <node id="36">
+        <label>C:/Users/main/Documents/GitHub/MuseScore/libmscore/marker.h</label>
+        <link refid="marker_8h_source"/>
+        <childnode refid="7" relation="include">
+        </childnode>
+      </node>
+      <node id="31">
+        <label>C:/Users/main/Documents/GitHub/MuseScore/libmscore/dynamic.h</label>
+        <link refid="dynamic_8h_source"/>
+        <childnode refid="16" relation="include">
+        </childnode>
+        <childnode refid="32" relation="include">
+        </childnode>
+        <childnode refid="6" relation="include">
+        </childnode>
+        <childnode refid="7" relation="include">
+        </childnode>
+        <childnode refid="8" relation="include">
+        </childnode>
+        <childnode refid="10" relation="include">
+        </childnode>
+        <childnode refid="13" relation="include">
+        </childnode>
+        <childnode refid="15" relation="include">
+        </childnode>
+      </node>
+      <node id="40">
+        <label>C:/Users/main/Documents/GitHub/MuseScore/libmscore/figuredbass.h</label>
+        <link refid="figuredbass_8h_source"/>
+        <childnode refid="7" relation="include">
+        </childnode>
+        <childnode refid="13" relation="include">
+        </childnode>
+      </node>
+      <node id="13">
+        <label>C:/Users/main/Documents/GitHub/MuseScore/libmscore/select.cpp</label>
+        <link refid="select_8cpp"/>
+      </node>
+      <node id="30">
+        <label>C:/Users/main/Documents/GitHub/MuseScore/libmscore/text.h</label>
+        <link refid="text_8h_source"/>
+        <childnode refid="31" relation="include">
+        </childnode>
+        <childnode refid="33" relation="include">
+        </childnode>
+        <childnode refid="35" relation="include">
+        </childnode>
+        <childnode refid="36" relation="include">
+        </childnode>
+        <childnode refid="28" relation="include">
+        </childnode>
+        <childnode refid="20" relation="include">
+        </childnode>
+        <childnode refid="23" relation="include">
+        </childnode>
+        <childnode refid="37" relation="include">
+        </childnode>
+        <childnode refid="38" relation="include">
+        </childnode>
+        <childnode refid="39" relation="include">
+        </childnode>
+        <childnode refid="40" relation="include">
+        </childnode>
+        <childnode refid="41" relation="include">
+        </childnode>
+        <childnode refid="6" relation="include">
+        </childnode>
+        <childnode refid="42" relation="include">
+        </childnode>
+        <childnode refid="43" relation="include">
+        </childnode>
+        <childnode refid="7" relation="include">
+        </childnode>
+        <childnode refid="17" relation="include">
+        </childnode>
+        <childnode refid="9" relation="include">
+        </childnode>
+        <childnode refid="11" relation="include">
+        </childnode>
+        <childnode refid="13" relation="include">
+        </childnode>
+        <childnode refid="14" relation="include">
+        </childnode>
+      </node>
+      <node id="33">
+        <label>C:/Users/main/Documents/GitHub/MuseScore/libmscore/harmony.h</label>
+        <link refid="harmony_8h_source"/>
+        <childnode refid="34" relation="include">
+        </childnode>
+        <childnode refid="6" relation="include">
+        </childnode>
+        <childnode refid="7" relation="include">
+        </childnode>
+        <childnode refid="8" relation="include">
+        </childnode>
+        <childnode refid="9" relation="include">
+        </childnode>
+        <childnode refid="11" relation="include">
+        </childnode>
+        <childnode refid="13" relation="include">
+        </childnode>
+        <childnode refid="15" relation="include">
+        </childnode>
+      </node>
+      <node id="56">
+        <label>C:/Users/main/Documents/GitHub/MuseScore/libmscore/noteline.h</label>
+        <link refid="noteline_8h_source"/>
+        <childnode refid="7" relation="include">
+        </childnode>
+      </node>
+      <node id="37">
+        <label>C:/Users/main/Documents/GitHub/MuseScore/libmscore/lyrics.h</label>
+        <link refid="lyrics_8h_source"/>
+        <childnode refid="6" relation="include">
+        </childnode>
+        <childnode refid="7" relation="include">
+        </childnode>
+        <childnode refid="11" relation="include">
+        </childnode>
+        <childnode refid="13" relation="include">
+        </childnode>
+      </node>
+      <node id="57">
+        <label>C:/Users/main/Documents/GitHub/MuseScore/libmscore/letring.h</label>
+        <link refid="letring_8h_source"/>
+        <childnode refid="7" relation="include">
+        </childnode>
+      </node>
+      <node id="35">
+        <label>C:/Users/main/Documents/GitHub/MuseScore/libmscore/part.h</label>
+        <link refid="part_8h_source"/>
+        <childnode refid="20" relation="include">
+        </childnode>
+        <childnode refid="23" relation="include">
+        </childnode>
+        <childnode refid="6" relation="include">
+        </childnode>
+        <childnode refid="8" relation="include">
+        </childnode>
+        <childnode refid="9" relation="include">
+        </childnode>
+        <childnode refid="10" relation="include">
+        </childnode>
+        <childnode refid="11" relation="include">
+        </childnode>
+        <childnode refid="13" relation="include">
+        </childnode>
+        <childnode refid="14" relation="include">
+        </childnode>
+        <childnode refid="15" relation="include">
+        </childnode>
+      </node>
+      <node id="4">
+        <label>C:/Users/main/Documents/GitHub/MuseScore/libmscore/score.h</label>
+        <link refid="score_8h"/>
+        <childnode refid="5" relation="include">
+        </childnode>
+        <childnode refid="6" relation="include">
+        </childnode>
+        <childnode refid="7" relation="include">
+        </childnode>
+        <childnode refid="8" relation="include">
+        </childnode>
+        <childnode refid="9" relation="include">
+        </childnode>
+        <childnode refid="10" relation="include">
+        </childnode>
+        <childnode refid="11" relation="include">
+        </childnode>
+        <childnode refid="12" relation="include">
+        </childnode>
+        <childnode refid="13" relation="include">
+        </childnode>
+        <childnode refid="14" relation="include">
+        </childnode>
+        <childnode refid="15" relation="include">
+        </childnode>
+      </node>
+      <node id="32">
+        <label>C:/Users/main/Documents/GitHub/MuseScore/libmscore/hairpin.h</label>
+        <link refid="hairpin_8h_source"/>
+        <childnode refid="6" relation="include">
+        </childnode>
+        <childnode refid="7" relation="include">
+        </childnode>
+        <childnode refid="8" relation="include">
+        </childnode>
+        <childnode refid="9" relation="include">
+        </childnode>
+        <childnode refid="10" relation="include">
+        </childnode>
+        <childnode refid="13" relation="include">
+        </childnode>
+        <childnode refid="15" relation="include">
+        </childnode>
+      </node>
+      <node id="15">
+        <label>C:/Users/main/Documents/GitHub/MuseScore/libmscore/undo.cpp</label>
+        <link refid="undo_8cpp"/>
+      </node>
+      <node id="19">
+        <label>C:/Users/main/Documents/GitHub/MuseScore/libmscore/staff.h</label>
+        <link refid="staff_8h"/>
+        <childnode refid="16" relation="include">
+        </childnode>
+        <childnode refid="20" relation="include">
+        </childnode>
+        <childnode refid="23" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
+        </childnode>
+        <childnode refid="6" relation="include">
+        </childnode>
+        <childnode refid="7" relation="include">
+        </childnode>
+        <childnode refid="8" relation="include">
+        </childnode>
+        <childnode refid="9" relation="include">
+        </childnode>
+        <childnode refid="10" relation="include">
+        </childnode>
+        <childnode refid="11" relation="include">
+        </childnode>
+        <childnode refid="13" relation="include">
+        </childnode>
+        <childnode refid="14" relation="include">
+        </childnode>
+        <childnode refid="15" relation="include">
+        </childnode>
+      </node>
+      <node id="47">
+        <label>C:/Users/main/Documents/GitHub/MuseScore/libmscore/bend.h</label>
+        <link refid="bend_8h_source"/>
+        <childnode refid="7" relation="include">
+        </childnode>
+        <childnode refid="9" relation="include">
+        </childnode>
+        <childnode refid="10" relation="include">
+        </childnode>
+        <childnode refid="15" relation="include">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>C:/Users/main/Documents/GitHub/MuseScore/libmscore/input.h</label>
+        <link refid="input_8h_source"/>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="16" relation="include">
+        </childnode>
+        <childnode refid="13" relation="include">
+        </childnode>
+        <childnode refid="15" relation="include">
+        </childnode>
+      </node>
+      <node id="23">
+        <label>C:/Users/main/Documents/GitHub/MuseScore/libmscore/stafftextbase.h</label>
+        <link refid="stafftextbase_8h_source"/>
+        <childnode refid="20" relation="include">
+        </childnode>
+      </node>
+      <node id="14">
+        <label>C:/Users/main/Documents/GitHub/MuseScore/libmscore/system.cpp</label>
+        <link refid="system_8cpp"/>
+      </node>
+      <node id="49">
+        <label>C:/Users/main/Documents/GitHub/MuseScore/libmscore/textframe.h</label>
+        <link refid="textframe_8h_source"/>
+        <childnode refid="7" relation="include">
+        </childnode>
+        <childnode refid="14" relation="include">
+        </childnode>
+      </node>
+      <node id="20">
+        <label>C:/Users/main/Documents/GitHub/MuseScore/libmscore/stafftext.h</label>
+        <link refid="stafftext_8h_source"/>
+        <childnode refid="21" relation="include">
+        </childnode>
+        <childnode refid="6" relation="include">
+        </childnode>
+        <childnode refid="7" relation="include">
+        </childnode>
+        <childnode refid="8" relation="include">
+        </childnode>
+        <childnode refid="10" relation="include">
+        </childnode>
+        <childnode refid="11" relation="include">
+        </childnode>
+        <childnode refid="15" relation="include">
+        </childnode>
+      </node>
+      <node id="26">
+        <label>C:/Users/main/Documents/GitHub/MuseScore/libmscore/chord.h</label>
+        <link refid="chord_8h"/>
+        <childnode refid="16" relation="include">
+        </childnode>
+        <childnode refid="6" relation="include">
+        </childnode>
+        <childnode refid="7" relation="include">
+        </childnode>
+        <childnode refid="8" relation="include">
+        </childnode>
+        <childnode refid="9" relation="include">
+        </childnode>
+        <childnode refid="10" relation="include">
+        </childnode>
+        <childnode refid="11" relation="include">
+        </childnode>
+        <childnode refid="13" relation="include">
+        </childnode>
+        <childnode refid="15" relation="include">
+        </childnode>
+      </node>
+      <node id="10">
+        <label>C:/Users/main/Documents/GitHub/MuseScore/libmscore/rendermidi.cpp</label>
+        <link refid="rendermidi_8cpp"/>
+      </node>
+      <node id="27">
+        <label>C:/Users/main/Documents/GitHub/MuseScore/libmscore/rest.h</label>
+        <link refid="rest_8h_source"/>
+        <childnode refid="16" relation="include">
+        </childnode>
+        <childnode refid="28" relation="include">
+        </childnode>
+        <childnode refid="6" relation="include">
+        </childnode>
+        <childnode refid="7" relation="include">
+        </childnode>
+        <childnode refid="8" relation="include">
+        </childnode>
+        <childnode refid="11" relation="include">
+        </childnode>
+        <childnode refid="13" relation="include">
+        </childnode>
+        <childnode refid="15" relation="include">
+        </childnode>
+      </node>
+      <node id="29">
+        <label>C:/Users/main/Documents/GitHub/MuseScore/libmscore/textbase.h</label>
+        <link refid="textbase_8h_source"/>
+        <childnode refid="30" relation="include">
+        </childnode>
+        <childnode refid="44" relation="include">
+        </childnode>
+        <childnode refid="45" relation="include">
+        </childnode>
+      </node>
+      <node id="46">
+        <label>C:/Users/main/Documents/GitHub/MuseScore/libmscore/tuplet.h</label>
+        <link refid="tuplet_8h_source"/>
+        <childnode refid="6" relation="include">
+        </childnode>
+        <childnode refid="8" relation="include">
+        </childnode>
+        <childnode refid="9" relation="include">
+        </childnode>
+        <childnode refid="11" relation="include">
+        </childnode>
+        <childnode refid="13" relation="include">
+        </childnode>
+        <childnode refid="15" relation="include">
+        </childnode>
+      </node>
+      <node id="39">
+        <label>C:/Users/main/Documents/GitHub/MuseScore/libmscore/tempotext.h</label>
+        <link refid="tempotext_8h_source"/>
+        <childnode refid="6" relation="include">
+        </childnode>
+        <childnode refid="7" relation="include">
+        </childnode>
+        <childnode refid="8" relation="include">
+        </childnode>
+        <childnode refid="11" relation="include">
+        </childnode>
+        <childnode refid="15" relation="include">
+        </childnode>
+      </node>
+      <node id="55">
+        <label>C:/Users/main/Documents/GitHub/MuseScore/libmscore/volta.h</label>
+        <link refid="volta_8h_source"/>
+        <childnode refid="6" relation="include">
+        </childnode>
+        <childnode refid="7" relation="include">
+        </childnode>
+        <childnode refid="8" relation="include">
+        </childnode>
+        <childnode refid="10" relation="include">
+        </childnode>
+        <childnode refid="11" relation="include">
+        </childnode>
+        <childnode refid="15" relation="include">
+        </childnode>
+      </node>
+      <node id="25">
+        <label>C:/Users/main/Documents/GitHub/MuseScore/libmscore/chordrest.h</label>
+        <link refid="chordrest_8h_source"/>
+        <childnode refid="26" relation="include">
+        </childnode>
+        <childnode refid="27" relation="include">
+        </childnode>
+        <childnode refid="7" relation="include">
+        </childnode>
+        <childnode refid="14" relation="include">
+        </childnode>
+      </node>
+      <node id="42">
+        <label>C:/Users/main/Documents/GitHub/MuseScore/libmscore/iname.h</label>
+        <link refid="iname_8h_source"/>
+        <childnode refid="7" relation="include">
+        </childnode>
+        <childnode refid="14" relation="include">
+        </childnode>
+      </node>
+      <node id="53">
+        <label>C:/Users/main/Documents/GitHub/MuseScore/libmscore/pedal.h</label>
+        <link refid="pedal_8h_source"/>
+        <childnode refid="6" relation="include">
+        </childnode>
+        <childnode refid="7" relation="include">
+        </childnode>
+        <childnode refid="8" relation="include">
+        </childnode>
+        <childnode refid="10" relation="include">
+        </childnode>
+      </node>
+      <node id="51">
+        <label>C:/Users/main/Documents/GitHub/MuseScore/libmscore/textlinebase.h</label>
+        <link refid="textlinebase_8h_source"/>
+        <childnode refid="32" relation="include">
+        </childnode>
+        <childnode refid="52" relation="include">
+        </childnode>
+        <childnode refid="53" relation="include">
+        </childnode>
+        <childnode refid="54" relation="include">
+        </childnode>
+        <childnode refid="55" relation="include">
+        </childnode>
+        <childnode refid="56" relation="include">
+        </childnode>
+        <childnode refid="57" relation="include">
+        </childnode>
+        <childnode refid="58" relation="include">
+        </childnode>
+      </node>
+      <node id="17">
+        <label>C:/Users/main/Documents/GitHub/MuseScore/libmscore/textedit.h</label>
+        <link refid="textedit_8h_source"/>
+        <childnode refid="15" relation="include">
+        </childnode>
+      </node>
+      <node id="45">
+        <label>C:/Users/main/Documents/GitHub/MuseScore/libmscore/measurenumber.h</label>
+        <link refid="measurenumber_8h_source"/>
+        <childnode refid="7" relation="include">
+        </childnode>
+        <childnode refid="8" relation="include">
+        </childnode>
+      </node>
+      <node id="7">
+        <label>C:/Users/main/Documents/GitHub/MuseScore/libmscore/element.cpp</label>
+        <link refid="element_8cpp"/>
+      </node>
+      <node id="18">
+        <label>C:/Users/main/Documents/GitHub/MuseScore/libmscore/groups.h</label>
+        <link refid="groups_8h_source"/>
+        <childnode refid="19" relation="include">
+        </childnode>
+        <childnode refid="24" relation="include">
+        </childnode>
+      </node>
+      <node id="22">
+        <label>C:/Users/main/Documents/GitHub/MuseScore/libmscore/rehearsalmark.h</label>
+        <link refid="rehearsalmark_8h_source"/>
+        <childnode refid="6" relation="include">
+        </childnode>
+        <childnode refid="7" relation="include">
+        </childnode>
+        <childnode refid="11" relation="include">
+        </childnode>
+        <childnode refid="15" relation="include">
+        </childnode>
+      </node>
+      <node id="6">
+        <label>C:/Users/main/Documents/GitHub/MuseScore/libmscore/cmd.cpp</label>
+        <link refid="cmd_8cpp"/>
+      </node>
+      <node id="1">
+        <label>C:/Users/main/Documents/GitHub/MuseScore/libmscore/property.h</label>
+        <link refid="property_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="29" relation="include">
+        </childnode>
+        <childnode refid="46" relation="include">
+        </childnode>
+        <childnode refid="47" relation="include">
+        </childnode>
+        <childnode refid="48" relation="include">
+        </childnode>
+        <childnode refid="50" relation="include">
+        </childnode>
+        <childnode refid="51" relation="include">
+        </childnode>
+        <childnode refid="52" relation="include">
+        </childnode>
+      </node>
+      <node id="16">
+        <label>C:/Users/main/Documents/GitHub/MuseScore/libmscore/undo.h</label>
+        <link refid="undo_8h"/>
+        <childnode refid="6" relation="include">
+        </childnode>
+        <childnode refid="7" relation="include">
+        </childnode>
+        <childnode refid="17" relation="include">
+        </childnode>
+        <childnode refid="8" relation="include">
+        </childnode>
+        <childnode refid="9" relation="include">
+        </childnode>
+        <childnode refid="10" relation="include">
+        </childnode>
+        <childnode refid="11" relation="include">
+        </childnode>
+        <childnode refid="15" relation="include">
+        </childnode>
+      </node>
+      <node id="21">
+        <label>C:/Users/main/Documents/GitHub/MuseScore/libmscore/systemtext.h</label>
+        <link refid="systemtext_8h_source"/>
+        <childnode refid="22" relation="include">
+        </childnode>
+        <childnode refid="7" relation="include">
+        </childnode>
+      </node>
+      <node id="11">
+        <label>C:/Users/main/Documents/GitHub/MuseScore/libmscore/score.cpp</label>
+        <link refid="score_8cpp"/>
+      </node>
+      <node id="50">
+        <label>C:/Users/main/Documents/GitHub/MuseScore/libmscore/glissando.h</label>
+        <link refid="glissando_8h_source"/>
+        <childnode refid="7" relation="include">
+        </childnode>
+        <childnode refid="8" relation="include">
+        </childnode>
+        <childnode refid="9" relation="include">
+        </childnode>
+        <childnode refid="10" relation="include">
+        </childnode>
+        <childnode refid="13" relation="include">
+        </childnode>
+        <childnode refid="15" relation="include">
+        </childnode>
+      </node>
+      <node id="41">
+        <label>C:/Users/main/Documents/GitHub/MuseScore/libmscore/instrchange.h</label>
+        <link refid="instrchange_8h_source"/>
+        <childnode refid="7" relation="include">
+        </childnode>
+        <childnode refid="11" relation="include">
+        </childnode>
+        <childnode refid="15" relation="include">
+        </childnode>
+      </node>
+      <node id="44">
+        <label>C:/Users/main/Documents/GitHub/MuseScore/libmscore/sticking.h</label>
+        <link refid="sticking_8h_source"/>
+        <childnode refid="7" relation="include">
+        </childnode>
+      </node>
+      <node id="24">
+        <label>C:/Users/main/Documents/GitHub/MuseScore/libmscore/timesig.h</label>
+        <link refid="timesig_8h_source"/>
+        <childnode refid="16" relation="include">
+        </childnode>
+        <childnode refid="6" relation="include">
+        </childnode>
+        <childnode refid="7" relation="include">
+        </childnode>
+        <childnode refid="8" relation="include">
+        </childnode>
+      </node>
+    </invincdepgraph>
+    <innernamespace refid="namespace_ms">Ms</innernamespace>
+      <sectiondef kind="define">
+      <memberdef kind="define" id="property_8h_1a89ee7f17f2d8ff9e0b4f27edd6a20ec7" prot="public" static="no">
+        <name>M_PROPERTY</name>
+        <param><defname>a</defname></param>
+        <param><defname>b</defname></param>
+        <param><defname>c</defname></param>
+        <initializer>      a _ ## b;                                                \
+   public:                                                     \
+      const a&amp; b() const   { return _ ## b; }                  \
+      void c(const a&amp; val) { _ ## b = val;  }                  \
+   private:</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/property.h" line="36" column="9" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/property.h" bodystart="36" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="property_8h_1a23df3effb517739c58cfb97d09daede6" prot="public" static="no">
+        <name>M_PROPERTY2</name>
+        <param><defname>a</defname></param>
+        <param><defname>b</defname></param>
+        <param><defname>c</defname></param>
+        <param><defname>d</defname></param>
+        <initializer>      a _ ## b { d };                                          \
+   public:                                                     \
+      const a&amp; b() const   { return _ ## b; }                  \
+      void c(const a&amp; val) { _ ## b = val;  }                  \
+   private:</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/property.h" line="43" column="9" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/property.h" bodystart="43" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="func">
+      <memberdef kind="function" id="property_8h_1a493eb3046ae009435538674c4665620e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>Q_DECLARE_METATYPE</definition>
+        <argsstring>(QPainterPath)</argsstring>
+        <name>Q_DECLARE_METATYPE</name>
+        <param>
+          <type>QPainterPath</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/property.h" line="417" column="1" declfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/property.h" declline="417" declcolumn="1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/property.h"/>
+  </compounddef>
+</doxygen>

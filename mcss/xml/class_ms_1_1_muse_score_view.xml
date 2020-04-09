@@ -1,0 +1,616 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.17">
+  <compounddef id="class_ms_1_1_muse_score_view" kind="class" language="C++" prot="public" abstract="yes">
+    <compoundname>Ms::MuseScoreView</compoundname>
+      <sectiondef kind="protected-attrib">
+      <memberdef kind="variable" id="class_ms_1_1_muse_score_view_1aa2cd78d926357a2c03d7a537ab5c3ad9" prot="protected" static="no" mutable="no">
+        <type><ref refid="class_ms_1_1_score" kindref="compound">Score</ref> *</type>
+        <definition>Score* Ms::MuseScoreView::_score</definition>
+        <argsstring></argsstring>
+        <name>_score</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/mscoreview.h" line="35" column="13" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/mscoreview.h" bodystart="35" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_ms_1_1_muse_score_view_1a05017cd00b8f255c4f35928f9b63f946" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>Ms::MuseScoreView::MuseScoreView</definition>
+        <argsstring>()</argsstring>
+        <name>MuseScoreView</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/mscoreview.h" line="38" column="7" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/mscoreview.h" bodystart="38" bodyend="38"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ms_1_1_muse_score_view_1adeeb33788e9c40bc7a88ac0bd553ec13" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="class_ms_1_1_page" kindref="compound">Page</ref> *</type>
+        <definition>Page * Ms::MuseScoreView::point2page</definition>
+        <argsstring>(const QPointF &amp;)</argsstring>
+        <name>point2page</name>
+        <param>
+          <type>const QPointF &amp;</type>
+          <defname>p</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/mscoreview.h" line="39" column="12" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/mscoreview.cpp" bodystart="54" bodyend="63"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ms_1_1_muse_score_view_1aa29a808a6e3214a2a9e807698f641fbe" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="class_ms_1_1_element" kindref="compound">Element</ref> *</type>
+        <definition>Element * Ms::MuseScoreView::elementAt</definition>
+        <argsstring>(const QPointF &amp;p)</argsstring>
+        <name>elementAt</name>
+        <param>
+          <type>const QPointF &amp;</type>
+          <declname>p</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/mscoreview.h" line="40" column="15" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/mscoreview.cpp" bodystart="36" bodyend="48"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ms_1_1_muse_score_view_1a27549ad399faa2222fe1da7f92a73450" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>const QList&lt; <ref refid="class_ms_1_1_element" kindref="compound">Element</ref> * &gt;</type>
+        <definition>const QList&lt; Element * &gt; Ms::MuseScoreView::elementsAt</definition>
+        <argsstring>(const QPointF &amp;)</argsstring>
+        <name>elementsAt</name>
+        <param>
+          <type>const QPointF &amp;</type>
+          <defname>p</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/mscoreview.h" line="41" column="19" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/mscoreview.cpp" bodystart="70" bodyend="80"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ms_1_1_muse_score_view_1a0ef1d3a617ad73884ebcb73483073003" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type><ref refid="class_ms_1_1_element" kindref="compound">Element</ref> *</type>
+        <definition>virtual Element* Ms::MuseScoreView::elementNear</definition>
+        <argsstring>(QPointF)</argsstring>
+        <name>elementNear</name>
+        <param>
+          <type>QPointF</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/mscoreview.h" line="42" column="23" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/mscoreview.h" bodystart="42" bodyend="42"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ms_1_1_muse_score_view_1a71ab04532cb99c055139fa4cae46cff8" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>void</type>
+        <definition>virtual void Ms::MuseScoreView::layoutChanged</definition>
+        <argsstring>()</argsstring>
+        <name>layoutChanged</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/mscoreview.h" line="44" column="20" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/mscoreview.h" bodystart="44" bodyend="44"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ms_1_1_muse_score_view_1add97900dd0c89bc296379fa308095291" prot="public" static="no" const="no" explicit="no" inline="no" virt="pure-virtual">
+        <type>void</type>
+        <definition>virtual void Ms::MuseScoreView::dataChanged</definition>
+        <argsstring>(const QRectF &amp;)=0</argsstring>
+        <name>dataChanged</name>
+        <param>
+          <type>const QRectF &amp;</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/mscoreview.h" line="45" column="20"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ms_1_1_muse_score_view_1aea875986ccdc61414ae216df50b60a22" prot="public" static="no" const="no" explicit="no" inline="no" virt="pure-virtual">
+        <type>void</type>
+        <definition>virtual void Ms::MuseScoreView::updateAll</definition>
+        <argsstring>()=0</argsstring>
+        <name>updateAll</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/mscoreview.h" line="46" column="20"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ms_1_1_muse_score_view_1ac4a710539324f69104599c63ddda106c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>void</type>
+        <definition>virtual void Ms::MuseScoreView::moveCursor</definition>
+        <argsstring>()</argsstring>
+        <name>moveCursor</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/mscoreview.h" line="48" column="20" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/mscoreview.h" bodystart="48" bodyend="48"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ms_1_1_muse_score_view_1a59550b3b38934a81b2d7745576deebc2" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>void</type>
+        <definition>virtual void Ms::MuseScoreView::showLoopCursors</definition>
+        <argsstring>(bool)</argsstring>
+        <name>showLoopCursors</name>
+        <param>
+          <type>bool</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/mscoreview.h" line="49" column="20" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/mscoreview.h" bodystart="49" bodyend="49"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ms_1_1_muse_score_view_1ae26de73683570706ca982bb837c3d49f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>void</type>
+        <definition>virtual void Ms::MuseScoreView::adjustCanvasPosition</definition>
+        <argsstring>(const Element *, bool, int=-1)</argsstring>
+        <name>adjustCanvasPosition</name>
+        <param>
+          <type>const <ref refid="class_ms_1_1_element" kindref="compound">Element</ref> *</type>
+        </param>
+        <param>
+          <type>bool</type>
+        </param>
+        <param>
+          <type>int</type>
+          <defval>-1</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/mscoreview.h" line="51" column="20" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/mscoreview.h" bodystart="51" bodyend="51"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ms_1_1_muse_score_view_1ada3167c78f2ddfb10692d4686b3d73f5" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>void</type>
+        <definition>virtual void Ms::MuseScoreView::setScore</definition>
+        <argsstring>(Score *s)</argsstring>
+        <name>setScore</name>
+        <param>
+          <type><ref refid="class_ms_1_1_score" kindref="compound">Score</ref> *</type>
+          <declname>s</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/mscoreview.h" line="52" column="20" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/mscoreview.h" bodystart="52" bodyend="52"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ms_1_1_muse_score_view_1a65ec08ade4d6eb8ded10ebbcb88604cc" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="class_ms_1_1_score" kindref="compound">Score</ref> *</type>
+        <definition>Score* Ms::MuseScoreView::score</definition>
+        <argsstring>() const</argsstring>
+        <name>score</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/mscoreview.h" line="53" column="13" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/mscoreview.h" bodystart="53" bodyend="53"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ms_1_1_muse_score_view_1a05f48a7c51f09ea712e0be184fff2d1f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>void</type>
+        <definition>virtual void Ms::MuseScoreView::removeScore</definition>
+        <argsstring>()</argsstring>
+        <name>removeScore</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/mscoreview.h" line="54" column="20" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/mscoreview.h" bodystart="54" bodyend="54"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ms_1_1_muse_score_view_1a1437e50571283d3f406c250a66026a99" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>void</type>
+        <definition>virtual void Ms::MuseScoreView::changeEditElement</definition>
+        <argsstring>(Element *)</argsstring>
+        <name>changeEditElement</name>
+        <param>
+          <type><ref refid="class_ms_1_1_element" kindref="compound">Element</ref> *</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/mscoreview.h" line="56" column="20" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/mscoreview.h" bodystart="56" bodyend="56"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ms_1_1_muse_score_view_1a0e2535e845477f4a00e4e58a03cf3b29" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="virtual">
+        <type>QCursor</type>
+        <definition>virtual QCursor Ms::MuseScoreView::cursor</definition>
+        <argsstring>() const</argsstring>
+        <name>cursor</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/mscoreview.h" line="57" column="23" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/mscoreview.h" bodystart="57" bodyend="57"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ms_1_1_muse_score_view_1a1cb48f67b4c53fbc9631f3303e42e3ca" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>void</type>
+        <definition>virtual void Ms::MuseScoreView::setCursor</definition>
+        <argsstring>(const QCursor &amp;)</argsstring>
+        <name>setCursor</name>
+        <param>
+          <type>const QCursor &amp;</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/mscoreview.h" line="58" column="20" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/mscoreview.h" bodystart="58" bodyend="58"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ms_1_1_muse_score_view_1ad7748481b8aeb5dff410911dbcaf6a0c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>void</type>
+        <definition>virtual void Ms::MuseScoreView::setDropRectangle</definition>
+        <argsstring>(const QRectF &amp;)</argsstring>
+        <name>setDropRectangle</name>
+        <param>
+          <type>const QRectF &amp;</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/mscoreview.h" line="59" column="20" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/mscoreview.h" bodystart="59" bodyend="59"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ms_1_1_muse_score_view_1a4ca278ed0b483c8681b39c12a64285bd" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>void</type>
+        <definition>virtual void Ms::MuseScoreView::addSlur</definition>
+        <argsstring>(ChordRest *, ChordRest *, const Slur *)</argsstring>
+        <name>addSlur</name>
+        <param>
+          <type><ref refid="class_ms_1_1_chord_rest" kindref="compound">ChordRest</ref> *</type>
+        </param>
+        <param>
+          <type><ref refid="class_ms_1_1_chord_rest" kindref="compound">ChordRest</ref> *</type>
+        </param>
+        <param>
+          <type>const <ref refid="class_ms_1_1_slur" kindref="compound">Slur</ref> *</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/mscoreview.h" line="60" column="20" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/mscoreview.h" bodystart="60" bodyend="60"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ms_1_1_muse_score_view_1a3428a436f6584a39b92ea8f04032f156" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>void</type>
+        <definition>virtual void Ms::MuseScoreView::startEdit</definition>
+        <argsstring>(Element *, Grip)</argsstring>
+        <name>startEdit</name>
+        <param>
+          <type><ref refid="class_ms_1_1_element" kindref="compound">Element</ref> *</type>
+        </param>
+        <param>
+          <type>Grip</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/mscoreview.h" line="61" column="20" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/mscoreview.h" bodystart="61" bodyend="61"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ms_1_1_muse_score_view_1af6a6ae5dc3d9b12328fa73c10f4a02b9" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>void</type>
+        <definition>virtual void Ms::MuseScoreView::startNoteEntryMode</definition>
+        <argsstring>()</argsstring>
+        <name>startNoteEntryMode</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/mscoreview.h" line="62" column="20" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/mscoreview.h" bodystart="62" bodyend="62"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ms_1_1_muse_score_view_1a6d7ac4e81d176a5ac38d59f0c4acdfda" prot="public" static="no" const="yes" explicit="no" inline="no" virt="pure-virtual">
+        <type>void</type>
+        <definition>virtual void Ms::MuseScoreView::drawBackground</definition>
+        <argsstring>(QPainter *, const QRectF &amp;) const =0</argsstring>
+        <name>drawBackground</name>
+        <param>
+          <type>QPainter *</type>
+        </param>
+        <param>
+          <type>const QRectF &amp;</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/mscoreview.h" line="63" column="20"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ms_1_1_muse_score_view_1ae1c34dcfa9d21eeaea40a33ab92242eb" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>void</type>
+        <definition>virtual void Ms::MuseScoreView::setDropTarget</definition>
+        <argsstring>(const Element *)</argsstring>
+        <name>setDropTarget</name>
+        <param>
+          <type>const <ref refid="class_ms_1_1_element" kindref="compound">Element</ref> *</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/mscoreview.h" line="64" column="20" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/mscoreview.h" bodystart="64" bodyend="64"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ms_1_1_muse_score_view_1ad4abd40d8ed1a5c4d5b3c60357a37219" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>void</type>
+        <definition>virtual void Ms::MuseScoreView::textTab</definition>
+        <argsstring>(bool)</argsstring>
+        <name>textTab</name>
+        <param>
+          <type>bool</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/mscoreview.h" line="66" column="20" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/mscoreview.h" bodystart="66" bodyend="66"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ms_1_1_muse_score_view_1aacd1260015f94ccef9e5b82377ca9d99" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>void</type>
+        <definition>virtual void Ms::MuseScoreView::lyricsTab</definition>
+        <argsstring>(bool, bool, bool)</argsstring>
+        <name>lyricsTab</name>
+        <param>
+          <type>bool</type>
+        </param>
+        <param>
+          <type>bool</type>
+        </param>
+        <param>
+          <type>bool</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/mscoreview.h" line="67" column="20" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/mscoreview.h" bodystart="67" bodyend="67"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ms_1_1_muse_score_view_1ae1226ce19c01e1e4082b2f91e399c1e5" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>void</type>
+        <definition>virtual void Ms::MuseScoreView::lyricsReturn</definition>
+        <argsstring>()</argsstring>
+        <name>lyricsReturn</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/mscoreview.h" line="68" column="20" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/mscoreview.h" bodystart="68" bodyend="68"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ms_1_1_muse_score_view_1ac0b7e4335657db836fdc952000141b6d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>void</type>
+        <definition>virtual void Ms::MuseScoreView::lyricsEndEdit</definition>
+        <argsstring>()</argsstring>
+        <name>lyricsEndEdit</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/mscoreview.h" line="69" column="20" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/mscoreview.h" bodystart="69" bodyend="69"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ms_1_1_muse_score_view_1a92d7a4e6aeb1a60261efba1ec3022d2d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>void</type>
+        <definition>virtual void Ms::MuseScoreView::lyricsUpDown</definition>
+        <argsstring>(bool, bool)</argsstring>
+        <name>lyricsUpDown</name>
+        <param>
+          <type>bool</type>
+        </param>
+        <param>
+          <type>bool</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/mscoreview.h" line="70" column="20" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/mscoreview.h" bodystart="70" bodyend="70"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ms_1_1_muse_score_view_1a8bacd78170bd87e91d63fd55a6025322" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>void</type>
+        <definition>virtual void Ms::MuseScoreView::lyricsMinus</definition>
+        <argsstring>()</argsstring>
+        <name>lyricsMinus</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/mscoreview.h" line="71" column="20" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/mscoreview.h" bodystart="71" bodyend="71"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ms_1_1_muse_score_view_1ab4a327b08bb4022a09de8b8e6930b093" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>void</type>
+        <definition>virtual void Ms::MuseScoreView::lyricsUnderscore</definition>
+        <argsstring>()</argsstring>
+        <name>lyricsUnderscore</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/mscoreview.h" line="72" column="20" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/mscoreview.h" bodystart="72" bodyend="72"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ms_1_1_muse_score_view_1aa1b703561a1e4e3a05f0929ba46e55a8" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>void</type>
+        <definition>virtual void Ms::MuseScoreView::onElementDestruction</definition>
+        <argsstring>(Element *)</argsstring>
+        <name>onElementDestruction</name>
+        <param>
+          <type><ref refid="class_ms_1_1_element" kindref="compound">Element</ref> *</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/mscoreview.h" line="74" column="20" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/mscoreview.h" bodystart="74" bodyend="74"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ms_1_1_muse_score_view_1a0f8d9540b00e92287435f54a45cda5bb" prot="public" static="no" const="yes" explicit="no" inline="no" virt="pure-virtual">
+        <type>const QRect</type>
+        <definition>virtual const QRect Ms::MuseScoreView::geometry</definition>
+        <argsstring>() const =0</argsstring>
+        <name>geometry</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/mscoreview.h" line="76" column="27"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="6">
+        <label>QList&lt; ScoreElement * &gt;</label>
+      </node>
+      <node id="3">
+        <label>QObject</label>
+      </node>
+      <node id="8">
+        <label>std::list&lt; SynthesizerGroup &gt;</label>
+      </node>
+      <node id="7">
+        <label>Ms::SynthesizerState</label>
+        <link refid="class_ms_1_1_synthesizer_state"/>
+        <childnode refid="8" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="4">
+        <label>Ms::ScoreElement</label>
+        <link refid="class_ms_1_1_score_element"/>
+        <childnode refid="5" relation="usage">
+          <edgelabel>_links</edgelabel>
+        </childnode>
+      </node>
+      <node id="5">
+        <label>Ms::LinkedElements</label>
+        <link refid="class_ms_1_1_linked_elements"/>
+        <childnode refid="6" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>Ms::Score</label>
+        <link refid="class_ms_1_1_score"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+        <childnode refid="7" relation="usage">
+          <edgelabel>_synthesizerState</edgelabel>
+        </childnode>
+      </node>
+      <node id="1">
+        <label>Ms::MuseScoreView</label>
+        <link refid="class_ms_1_1_muse_score_view"/>
+        <childnode refid="2" relation="usage">
+          <edgelabel>_score</edgelabel>
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/mscoreview.h" line="32" column="20" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/mscoreview.h" bodystart="32" bodyend="77"/>
+    <listofallmembers>
+      <member refid="class_ms_1_1_muse_score_view_1aa2cd78d926357a2c03d7a537ab5c3ad9" prot="protected" virt="non-virtual"><scope>Ms::MuseScoreView</scope><name>_score</name></member>
+      <member refid="class_ms_1_1_muse_score_view_1a4ca278ed0b483c8681b39c12a64285bd" prot="public" virt="virtual"><scope>Ms::MuseScoreView</scope><name>addSlur</name></member>
+      <member refid="class_ms_1_1_muse_score_view_1ae26de73683570706ca982bb837c3d49f" prot="public" virt="virtual"><scope>Ms::MuseScoreView</scope><name>adjustCanvasPosition</name></member>
+      <member refid="class_ms_1_1_muse_score_view_1a1437e50571283d3f406c250a66026a99" prot="public" virt="virtual"><scope>Ms::MuseScoreView</scope><name>changeEditElement</name></member>
+      <member refid="class_ms_1_1_muse_score_view_1a0e2535e845477f4a00e4e58a03cf3b29" prot="public" virt="virtual"><scope>Ms::MuseScoreView</scope><name>cursor</name></member>
+      <member refid="class_ms_1_1_muse_score_view_1add97900dd0c89bc296379fa308095291" prot="public" virt="pure-virtual"><scope>Ms::MuseScoreView</scope><name>dataChanged</name></member>
+      <member refid="class_ms_1_1_muse_score_view_1a6d7ac4e81d176a5ac38d59f0c4acdfda" prot="public" virt="pure-virtual"><scope>Ms::MuseScoreView</scope><name>drawBackground</name></member>
+      <member refid="class_ms_1_1_muse_score_view_1aa29a808a6e3214a2a9e807698f641fbe" prot="public" virt="non-virtual"><scope>Ms::MuseScoreView</scope><name>elementAt</name></member>
+      <member refid="class_ms_1_1_muse_score_view_1a0ef1d3a617ad73884ebcb73483073003" prot="public" virt="virtual"><scope>Ms::MuseScoreView</scope><name>elementNear</name></member>
+      <member refid="class_ms_1_1_muse_score_view_1a27549ad399faa2222fe1da7f92a73450" prot="public" virt="non-virtual"><scope>Ms::MuseScoreView</scope><name>elementsAt</name></member>
+      <member refid="class_ms_1_1_muse_score_view_1a0f8d9540b00e92287435f54a45cda5bb" prot="public" virt="pure-virtual"><scope>Ms::MuseScoreView</scope><name>geometry</name></member>
+      <member refid="class_ms_1_1_muse_score_view_1a71ab04532cb99c055139fa4cae46cff8" prot="public" virt="virtual"><scope>Ms::MuseScoreView</scope><name>layoutChanged</name></member>
+      <member refid="class_ms_1_1_muse_score_view_1ac0b7e4335657db836fdc952000141b6d" prot="public" virt="virtual"><scope>Ms::MuseScoreView</scope><name>lyricsEndEdit</name></member>
+      <member refid="class_ms_1_1_muse_score_view_1a8bacd78170bd87e91d63fd55a6025322" prot="public" virt="virtual"><scope>Ms::MuseScoreView</scope><name>lyricsMinus</name></member>
+      <member refid="class_ms_1_1_muse_score_view_1ae1226ce19c01e1e4082b2f91e399c1e5" prot="public" virt="virtual"><scope>Ms::MuseScoreView</scope><name>lyricsReturn</name></member>
+      <member refid="class_ms_1_1_muse_score_view_1aacd1260015f94ccef9e5b82377ca9d99" prot="public" virt="virtual"><scope>Ms::MuseScoreView</scope><name>lyricsTab</name></member>
+      <member refid="class_ms_1_1_muse_score_view_1ab4a327b08bb4022a09de8b8e6930b093" prot="public" virt="virtual"><scope>Ms::MuseScoreView</scope><name>lyricsUnderscore</name></member>
+      <member refid="class_ms_1_1_muse_score_view_1a92d7a4e6aeb1a60261efba1ec3022d2d" prot="public" virt="virtual"><scope>Ms::MuseScoreView</scope><name>lyricsUpDown</name></member>
+      <member refid="class_ms_1_1_muse_score_view_1ac4a710539324f69104599c63ddda106c" prot="public" virt="virtual"><scope>Ms::MuseScoreView</scope><name>moveCursor</name></member>
+      <member refid="class_ms_1_1_muse_score_view_1a05017cd00b8f255c4f35928f9b63f946" prot="public" virt="non-virtual"><scope>Ms::MuseScoreView</scope><name>MuseScoreView</name></member>
+      <member refid="class_ms_1_1_muse_score_view_1aa1b703561a1e4e3a05f0929ba46e55a8" prot="public" virt="virtual"><scope>Ms::MuseScoreView</scope><name>onElementDestruction</name></member>
+      <member refid="class_ms_1_1_muse_score_view_1adeeb33788e9c40bc7a88ac0bd553ec13" prot="public" virt="non-virtual"><scope>Ms::MuseScoreView</scope><name>point2page</name></member>
+      <member refid="class_ms_1_1_muse_score_view_1a05f48a7c51f09ea712e0be184fff2d1f" prot="public" virt="virtual"><scope>Ms::MuseScoreView</scope><name>removeScore</name></member>
+      <member refid="class_ms_1_1_muse_score_view_1a65ec08ade4d6eb8ded10ebbcb88604cc" prot="public" virt="non-virtual"><scope>Ms::MuseScoreView</scope><name>score</name></member>
+      <member refid="class_ms_1_1_muse_score_view_1a1cb48f67b4c53fbc9631f3303e42e3ca" prot="public" virt="virtual"><scope>Ms::MuseScoreView</scope><name>setCursor</name></member>
+      <member refid="class_ms_1_1_muse_score_view_1ad7748481b8aeb5dff410911dbcaf6a0c" prot="public" virt="virtual"><scope>Ms::MuseScoreView</scope><name>setDropRectangle</name></member>
+      <member refid="class_ms_1_1_muse_score_view_1ae1c34dcfa9d21eeaea40a33ab92242eb" prot="public" virt="virtual"><scope>Ms::MuseScoreView</scope><name>setDropTarget</name></member>
+      <member refid="class_ms_1_1_muse_score_view_1ada3167c78f2ddfb10692d4686b3d73f5" prot="public" virt="virtual"><scope>Ms::MuseScoreView</scope><name>setScore</name></member>
+      <member refid="class_ms_1_1_muse_score_view_1a59550b3b38934a81b2d7745576deebc2" prot="public" virt="virtual"><scope>Ms::MuseScoreView</scope><name>showLoopCursors</name></member>
+      <member refid="class_ms_1_1_muse_score_view_1a3428a436f6584a39b92ea8f04032f156" prot="public" virt="virtual"><scope>Ms::MuseScoreView</scope><name>startEdit</name></member>
+      <member refid="class_ms_1_1_muse_score_view_1af6a6ae5dc3d9b12328fa73c10f4a02b9" prot="public" virt="virtual"><scope>Ms::MuseScoreView</scope><name>startNoteEntryMode</name></member>
+      <member refid="class_ms_1_1_muse_score_view_1ad4abd40d8ed1a5c4d5b3c60357a37219" prot="public" virt="virtual"><scope>Ms::MuseScoreView</scope><name>textTab</name></member>
+      <member refid="class_ms_1_1_muse_score_view_1aea875986ccdc61414ae216df50b60a22" prot="public" virt="pure-virtual"><scope>Ms::MuseScoreView</scope><name>updateAll</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

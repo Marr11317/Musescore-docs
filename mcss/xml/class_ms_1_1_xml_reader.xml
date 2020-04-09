@@ -1,0 +1,1822 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.17">
+  <compounddef id="class_ms_1_1_xml_reader" kind="class" language="C++" prot="public">
+    <compoundname>Ms::XmlReader</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">QXmlStreamReader</basecompoundref>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_ms_1_1_xml_reader_1ace1587a5e37efbf4a149c9798a56d1fe" prot="private" static="no" mutable="no">
+        <type>QString</type>
+        <definition>QString Ms::XmlReader::docName</definition>
+        <argsstring></argsstring>
+        <name>docName</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/xml.h" line="70" column="15" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/xml.h" bodystart="70" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_ms_1_1_xml_reader_1a0bea0caea316bc605e65d2ae752f9c72" prot="private" static="no" mutable="no">
+        <type>QIODevice *</type>
+        <definition>QIODevice* Ms::XmlReader::_readAheadDevice</definition>
+        <argsstring></argsstring>
+        <name>_readAheadDevice</name>
+        <initializer>= nullptr</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/xml.h" line="74" column="17" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/xml.h" bodystart="74" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_ms_1_1_xml_reader_1af7c7045202de7497bb9396c44ff76145" prot="private" static="no" mutable="no">
+        <type><ref refid="class_ms_1_1_fraction" kindref="compound">Fraction</ref></type>
+        <definition>Fraction Ms::XmlReader::_tick</definition>
+        <argsstring></argsstring>
+        <name>_tick</name>
+        <initializer>{ <ref refid="class_ms_1_1_fraction" kindref="compound">Fraction</ref>(0, 1) }</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/xml.h" line="77" column="16" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/xml.h" bodystart="77" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_ms_1_1_xml_reader_1af9491ef04d02ab7bff32e1cfbecd8b07" prot="private" static="no" mutable="no">
+        <type><ref refid="class_ms_1_1_fraction" kindref="compound">Fraction</ref></type>
+        <definition>Fraction Ms::XmlReader::_tickOffset</definition>
+        <argsstring></argsstring>
+        <name>_tickOffset</name>
+        <initializer>{ <ref refid="class_ms_1_1_fraction" kindref="compound">Fraction</ref>(0, 1) }</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/xml.h" line="78" column="16" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/xml.h" bodystart="78" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_ms_1_1_xml_reader_1af14980c29abe4e4a68999002135bad99" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int Ms::XmlReader::_intTick</definition>
+        <argsstring></argsstring>
+        <name>_intTick</name>
+        <initializer>{ 0       }</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/xml.h" line="79" column="11" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/xml.h" bodystart="79" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_ms_1_1_xml_reader_1a5a1b45835df7376f9eb8e086dee8ef55" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int Ms::XmlReader::_track</definition>
+        <argsstring></argsstring>
+        <name>_track</name>
+        <initializer>{ 0       }</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/xml.h" line="80" column="11" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/xml.h" bodystart="80" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_ms_1_1_xml_reader_1a7a211eec7dc909d1325e92696ad2abed" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int Ms::XmlReader::_trackOffset</definition>
+        <argsstring></argsstring>
+        <name>_trackOffset</name>
+        <initializer>{ 0       }</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/xml.h" line="81" column="11" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/xml.h" bodystart="81" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_ms_1_1_xml_reader_1a048675d7634fe2904a3cac77d48ef723" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool Ms::XmlReader::_pasteMode</definition>
+        <argsstring></argsstring>
+        <name>_pasteMode</name>
+        <initializer>{ false   }</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/xml.h" line="82" column="12" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/xml.h" bodystart="82" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_ms_1_1_xml_reader_1a4154714e47ffc7e936cadade9ca3e6ab" prot="private" static="no" mutable="no">
+        <type><ref refid="class_ms_1_1_measure" kindref="compound">Measure</ref> *</type>
+        <definition>Measure* Ms::XmlReader::_lastMeasure</definition>
+        <argsstring></argsstring>
+        <name>_lastMeasure</name>
+        <initializer>{ 0       }</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/xml.h" line="83" column="15" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/xml.h" bodystart="83" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_ms_1_1_xml_reader_1afcbf4296a751716318e607ae70a3e527" prot="private" static="no" mutable="no">
+        <type><ref refid="class_ms_1_1_measure" kindref="compound">Measure</ref> *</type>
+        <definition>Measure* Ms::XmlReader::_curMeasure</definition>
+        <argsstring></argsstring>
+        <name>_curMeasure</name>
+        <initializer>{ 0       }</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/xml.h" line="84" column="15" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/xml.h" bodystart="84" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_ms_1_1_xml_reader_1a61f134e85d6a10b4de00c9f623b9eee8" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int Ms::XmlReader::_curMeasureIdx</definition>
+        <argsstring></argsstring>
+        <name>_curMeasureIdx</name>
+        <initializer>{ 0       }</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/xml.h" line="85" column="11" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/xml.h" bodystart="85" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_ms_1_1_xml_reader_1a1d8dea9b2deee8958f93cc510f94d126" prot="private" static="no" mutable="no">
+        <type>QHash&lt; int, <ref refid="class_ms_1_1_beam" kindref="compound">Beam</ref> * &gt;</type>
+        <definition>QHash&lt;int, Beam*&gt; Ms::XmlReader::_beams</definition>
+        <argsstring></argsstring>
+        <name>_beams</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/xml.h" line="86" column="16" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/xml.h" bodystart="86" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_ms_1_1_xml_reader_1ac1c4b85d690c5d1b8486e3e03ac1cf56" prot="private" static="no" mutable="no">
+        <type>QHash&lt; int, <ref refid="class_ms_1_1_tuplet" kindref="compound">Tuplet</ref> * &gt;</type>
+        <definition>QHash&lt;int, Tuplet*&gt; Ms::XmlReader::_tuplets</definition>
+        <argsstring></argsstring>
+        <name>_tuplets</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/xml.h" line="87" column="14" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/xml.h" bodystart="87" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_ms_1_1_xml_reader_1a80e2ada143f78cdb5ea93a72f9662dfd" prot="private" static="no" mutable="no">
+        <type>QList&lt; <ref refid="struct_ms_1_1_spanner_values" kindref="compound">SpannerValues</ref> &gt;</type>
+        <definition>QList&lt;SpannerValues&gt; Ms::XmlReader::_spannerValues</definition>
+        <argsstring></argsstring>
+        <name>_spannerValues</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/xml.h" line="89" column="13" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/xml.h" bodystart="89" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_ms_1_1_xml_reader_1abca8cf53c0dc8b231700866bd131f4e1" prot="private" static="no" mutable="no">
+        <type>QList&lt; std::pair&lt; int, <ref refid="class_ms_1_1_spanner" kindref="compound">Spanner</ref> * &gt; &gt;</type>
+        <definition>QList&lt;std::pair&lt;int,Spanner*&gt; &gt; Ms::XmlReader::_spanner</definition>
+        <argsstring></argsstring>
+        <name>_spanner</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/xml.h" line="90" column="13" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/xml.h" bodystart="90" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_ms_1_1_xml_reader_1a19398d968923149b6c8405f10de15fa8" prot="private" static="no" mutable="no">
+        <type>QList&lt; <ref refid="class_ms_1_1_staff_type" kindref="compound">StaffType</ref> &gt;</type>
+        <definition>QList&lt;StaffType&gt; Ms::XmlReader::_staffTypes</definition>
+        <argsstring></argsstring>
+        <name>_staffTypes</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/xml.h" line="91" column="13" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/xml.h" bodystart="91" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_ms_1_1_xml_reader_1a3016d01effb45ee9b7a46e700a7022f2" prot="private" static="no" mutable="no">
+        <type>QList&lt; std::pair&lt; <ref refid="class_ms_1_1_element" kindref="compound">Element</ref> *, QPointF &gt; &gt;</type>
+        <definition>QList&lt;std::pair&lt;Element*, QPointF&gt; &gt; Ms::XmlReader::_fixOffsets</definition>
+        <argsstring></argsstring>
+        <name>_fixOffsets</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/xml.h" line="92" column="13" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/xml.h" bodystart="92" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_ms_1_1_xml_reader_1a5272e0407515b938c653a57d834ed8d6" prot="private" static="no" mutable="no">
+        <type>std::vector&lt; std::unique_ptr&lt; <ref refid="class_ms_1_1_connector_info_reader" kindref="compound">ConnectorInfoReader</ref> &gt; &gt;</type>
+        <definition>std::vector&lt;std::unique_ptr&lt;ConnectorInfoReader&gt; &gt; Ms::XmlReader::_connectors</definition>
+        <argsstring></argsstring>
+        <name>_connectors</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/xml.h" line="94" column="19" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/xml.h" bodystart="94" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_ms_1_1_xml_reader_1acd7f4e33db5d6ac1a68fcd86165fb9c4" prot="private" static="no" mutable="no">
+        <type>std::vector&lt; std::unique_ptr&lt; <ref refid="class_ms_1_1_connector_info_reader" kindref="compound">ConnectorInfoReader</ref> &gt; &gt;</type>
+        <definition>std::vector&lt;std::unique_ptr&lt;ConnectorInfoReader&gt; &gt; Ms::XmlReader::_pendingConnectors</definition>
+        <argsstring></argsstring>
+        <name>_pendingConnectors</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/xml.h" line="95" column="19" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/xml.h" bodystart="95" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_ms_1_1_xml_reader_1a4a3236bd96deb925ec5dc640f7239010" prot="private" static="no" mutable="no">
+        <type><ref refid="struct_ms_1_1_interval" kindref="compound">Interval</ref></type>
+        <definition>Interval Ms::XmlReader::_transpose</definition>
+        <argsstring></argsstring>
+        <name>_transpose</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/xml.h" line="98" column="16" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/xml.h" bodystart="98" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_ms_1_1_xml_reader_1ad9652b92349e6bafd774215020e498c9" prot="private" static="no" mutable="no">
+        <type>QMap&lt; int, <ref refid="class_ms_1_1_linked_elements" kindref="compound">LinkedElements</ref> * &gt;</type>
+        <definition>QMap&lt;int, LinkedElements*&gt; Ms::XmlReader::_elinks</definition>
+        <argsstring></argsstring>
+        <name>_elinks</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/xml.h" line="99" column="12" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/xml.h" bodystart="99" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_ms_1_1_xml_reader_1aed0ab858f064abb971a61b8d9d5109f3" prot="private" static="no" mutable="no">
+        <type>QMap&lt; int, QList&lt; QPair&lt; <ref refid="class_ms_1_1_linked_elements" kindref="compound">LinkedElements</ref> *, <ref refid="class_ms_1_1_location" kindref="compound">Location</ref> &gt; &gt; &gt;</type>
+        <definition>QMap&lt;int, QList&lt;QPair&lt;LinkedElements*, Location&gt; &gt; &gt; Ms::XmlReader::_staffLinkedElements</definition>
+        <argsstring></argsstring>
+        <name>_staffLinkedElements</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/xml.h" line="100" column="12" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/xml.h" bodystart="100" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_ms_1_1_xml_reader_1aebe55263821acd7e22de98ed7200e477" prot="private" static="no" mutable="no">
+        <type><ref refid="class_ms_1_1_links_indexer" kindref="compound">LinksIndexer</ref></type>
+        <definition>LinksIndexer Ms::XmlReader::_linksIndexer</definition>
+        <argsstring></argsstring>
+        <name>_linksIndexer</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/xml.h" line="101" column="20" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/xml.h" bodystart="101" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_ms_1_1_xml_reader_1ac7899314794f4b475052aa138342dfe3" prot="private" static="no" mutable="no">
+        <type>QMultiMap&lt; int, int &gt;</type>
+        <definition>QMultiMap&lt;int, int&gt; Ms::XmlReader::_tracks</definition>
+        <argsstring></argsstring>
+        <name>_tracks</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/xml.h" line="102" column="17" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/xml.h" bodystart="102" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_ms_1_1_xml_reader_1adea7da3fa63723df247c2a4600bf1c10" prot="private" static="no" mutable="no">
+        <type>QList&lt; <ref refid="struct_ms_1_1_text_style_map" kindref="compound">TextStyleMap</ref> &gt;</type>
+        <definition>QList&lt;TextStyleMap&gt; Ms::XmlReader::userTextStyles</definition>
+        <argsstring></argsstring>
+        <name>userTextStyles</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/xml.h" line="104" column="13" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/xml.h" bodystart="104" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_ms_1_1_xml_reader_1a130362673b361e759a6befb1028b9b0e" prot="public" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool Ms::XmlReader::hasAccidental</definition>
+        <argsstring></argsstring>
+        <name>hasAccidental</name>
+        <initializer>{ false }</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/xml.h" line="118" column="12" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/xml.h" bodystart="118" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_ms_1_1_xml_reader_1a206c8641a677845c3890d8e509e956a8" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Ms::XmlReader::htmlToString</definition>
+        <argsstring>(int level, QString *)</argsstring>
+        <name>htmlToString</name>
+        <param>
+          <type>int</type>
+          <declname>level</declname>
+        </param>
+        <param>
+          <type>QString *</type>
+          <defname>s</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/xml.h" line="97" column="12" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/xmlreader.cpp" bodystart="353" bodyend="382"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ms_1_1_xml_reader_1adbba50fdd9c9ecac326243aef06063d5" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Ms::XmlReader::addConnectorInfo</definition>
+        <argsstring>(std::unique_ptr&lt; ConnectorInfoReader &gt;)</argsstring>
+        <name>addConnectorInfo</name>
+        <param>
+          <type>std::unique_ptr&lt; <ref refid="class_ms_1_1_connector_info_reader" kindref="compound">ConnectorInfoReader</ref> &gt;</type>
+          <defname>c</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/xml.h" line="106" column="12" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/xmlreader.cpp" bodystart="575" bodyend="589"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ms_1_1_xml_reader_1a513fc0a475d5115bb14c3ea26f532b22" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Ms::XmlReader::removeConnector</definition>
+        <argsstring>(const ConnectorInfoReader *)</argsstring>
+        <name>removeConnector</name>
+        <param>
+          <type>const <ref refid="class_ms_1_1_connector_info_reader" kindref="compound">ConnectorInfoReader</ref> *</type>
+          <defname>c</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/xml.h" line="107" column="12" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/xmlreader.cpp" bodystart="595" bodyend="609"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_ms_1_1_xml_reader_1aefa30ad5f12b0cf3d41d5beef154338d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>Ms::XmlReader::XmlReader</definition>
+        <argsstring>(QFile *f)</argsstring>
+        <name>XmlReader</name>
+        <param>
+          <type>QFile *</type>
+          <declname>f</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/xml.h" line="110" column="7" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/xml.h" bodystart="110" bodyend="110"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ms_1_1_xml_reader_1afcd7610b8be3d1b3d7f45c886e65e777" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>Ms::XmlReader::XmlReader</definition>
+        <argsstring>(const QByteArray &amp;d, const QString &amp;st=QString())</argsstring>
+        <name>XmlReader</name>
+        <param>
+          <type>const QByteArray &amp;</type>
+          <declname>d</declname>
+        </param>
+        <param>
+          <type>const QString &amp;</type>
+          <declname>st</declname>
+          <defval>QString()</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/xml.h" line="111" column="7" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/xml.h" bodystart="111" bodyend="111"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ms_1_1_xml_reader_1ae3e872e0150a759dfe383b269eecebd6" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>Ms::XmlReader::XmlReader</definition>
+        <argsstring>(QIODevice *d, const QString &amp;st=QString())</argsstring>
+        <name>XmlReader</name>
+        <param>
+          <type>QIODevice *</type>
+          <declname>d</declname>
+        </param>
+        <param>
+          <type>const QString &amp;</type>
+          <declname>st</declname>
+          <defval>QString()</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/xml.h" line="112" column="7" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/xml.h" bodystart="112" bodyend="112"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ms_1_1_xml_reader_1a18eccd44aaa34ab92a86d9534ccbd358" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>Ms::XmlReader::XmlReader</definition>
+        <argsstring>(const QString &amp;d, const QString &amp;st=QString())</argsstring>
+        <name>XmlReader</name>
+        <param>
+          <type>const QString &amp;</type>
+          <declname>d</declname>
+        </param>
+        <param>
+          <type>const QString &amp;</type>
+          <declname>st</declname>
+          <defval>QString()</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/xml.h" line="113" column="7" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/xml.h" bodystart="113" bodyend="113"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ms_1_1_xml_reader_1a5140dfc4262de12089d48829780f70ee" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>Ms::XmlReader::XmlReader</definition>
+        <argsstring>(const XmlReader &amp;)=delete</argsstring>
+        <name>XmlReader</name>
+        <param>
+          <type>const <ref refid="class_ms_1_1_xml_reader" kindref="compound">XmlReader</ref> &amp;</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/xml.h" line="114" column="7"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ms_1_1_xml_reader_1a0e9d7129c419ef72236c8d6a5fa9299d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="class_ms_1_1_xml_reader" kindref="compound">XmlReader</ref> &amp;</type>
+        <definition>XmlReader&amp; Ms::XmlReader::operator=</definition>
+        <argsstring>(const XmlReader &amp;)=delete</argsstring>
+        <name>operator=</name>
+        <param>
+          <type>const <ref refid="class_ms_1_1_xml_reader" kindref="compound">XmlReader</ref> &amp;</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/xml.h" line="115" column="17"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ms_1_1_xml_reader_1adc02674841abc0acabd0a87676d345b0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>Ms::XmlReader::~XmlReader</definition>
+        <argsstring>()</argsstring>
+        <name>~XmlReader</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/xml.h" line="116" column="7" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/xmlreader.cpp" bodystart="27" bodyend="39"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ms_1_1_xml_reader_1aadf37033e546227e50e7438333b1b997" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Ms::XmlReader::unknown</definition>
+        <argsstring>()</argsstring>
+        <name>unknown</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/xml.h" line="119" column="12" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/xmlreader.cpp" bodystart="204" bodyend="214"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ms_1_1_xml_reader_1ad0b7f9095ed1301cb1d1f2a46f4da5a5" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>QString</type>
+        <definition>QString Ms::XmlReader::attribute</definition>
+        <argsstring>(const char *s) const</argsstring>
+        <name>attribute</name>
+        <param>
+          <type>const char *</type>
+          <declname>s</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/xml.h" line="122" column="15" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/xml.h" bodystart="122" bodyend="122"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ms_1_1_xml_reader_1a0a5d4280bedd4049f3b5077cc006c057" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>QString</type>
+        <definition>QString Ms::XmlReader::attribute</definition>
+        <argsstring>(const char *s, const QString &amp;) const</argsstring>
+        <name>attribute</name>
+        <param>
+          <type>const char *</type>
+          <declname>s</declname>
+        </param>
+        <param>
+          <type>const QString &amp;</type>
+          <defname>_default</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/xml.h" line="123" column="15" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/xmlreader.cpp" bodystart="80" bodyend="86"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ms_1_1_xml_reader_1abd21dcf535a892cb2232e89cf92d2a3f" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int Ms::XmlReader::intAttribute</definition>
+        <argsstring>(const char *s) const</argsstring>
+        <name>intAttribute</name>
+        <param>
+          <type>const char *</type>
+          <declname>s</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/xml.h" line="124" column="11" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/xmlreader.cpp" bodystart="54" bodyend="57"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ms_1_1_xml_reader_1ae4f4e09029a168ac79a9ae142755b1f6" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int Ms::XmlReader::intAttribute</definition>
+        <argsstring>(const char *s, int _default) const</argsstring>
+        <name>intAttribute</name>
+        <param>
+          <type>const char *</type>
+          <declname>s</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>_default</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/xml.h" line="125" column="11" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/xmlreader.cpp" bodystart="45" bodyend="52"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ms_1_1_xml_reader_1ade60b2eaa74062b273e5ef0559608ac4" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>double</type>
+        <definition>double Ms::XmlReader::doubleAttribute</definition>
+        <argsstring>(const char *s) const</argsstring>
+        <name>doubleAttribute</name>
+        <param>
+          <type>const char *</type>
+          <declname>s</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/xml.h" line="126" column="14" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/xmlreader.cpp" bodystart="63" bodyend="66"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ms_1_1_xml_reader_1aede021569bd0caa5a99ed83aff3c1bbb" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>double</type>
+        <definition>double Ms::XmlReader::doubleAttribute</definition>
+        <argsstring>(const char *s, double _default) const</argsstring>
+        <name>doubleAttribute</name>
+        <param>
+          <type>const char *</type>
+          <declname>s</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>_default</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/xml.h" line="127" column="14" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/xmlreader.cpp" bodystart="68" bodyend="74"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ms_1_1_xml_reader_1a02ce2114bc6cd78e209b3a814d11f6cb" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool Ms::XmlReader::hasAttribute</definition>
+        <argsstring>(const char *s) const</argsstring>
+        <name>hasAttribute</name>
+        <param>
+          <type>const char *</type>
+          <declname>s</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/xml.h" line="128" column="12" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/xmlreader.cpp" bodystart="92" bodyend="95"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ms_1_1_xml_reader_1a2fa825cb5155311203dae047b695a6ed" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>int</type>
+        <definition>int Ms::XmlReader::readInt</definition>
+        <argsstring>()</argsstring>
+        <name>readInt</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/xml.h" line="131" column="11" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/xml.h" bodystart="131" bodyend="131"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ms_1_1_xml_reader_1a64bdc61e768dead69c0c3ea5acb7eed0" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>int</type>
+        <definition>int Ms::XmlReader::readInt</definition>
+        <argsstring>(bool *ok)</argsstring>
+        <name>readInt</name>
+        <param>
+          <type>bool *</type>
+          <declname>ok</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/xml.h" line="132" column="11" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/xml.h" bodystart="132" bodyend="132"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ms_1_1_xml_reader_1a2ea4030d29bcc90d88814be8a67dc6e7" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>int</type>
+        <definition>int Ms::XmlReader::readIntHex</definition>
+        <argsstring>()</argsstring>
+        <name>readIntHex</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/xml.h" line="133" column="11" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/xml.h" bodystart="133" bodyend="133"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ms_1_1_xml_reader_1a1bd1324984256ab150f003f2682d013e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>double</type>
+        <definition>double Ms::XmlReader::readDouble</definition>
+        <argsstring>()</argsstring>
+        <name>readDouble</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/xml.h" line="134" column="14" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/xml.h" bodystart="134" bodyend="134"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ms_1_1_xml_reader_1a24706a04b949777285d92463453f4389" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>qlonglong</type>
+        <definition>qlonglong Ms::XmlReader::readLongLong</definition>
+        <argsstring>()</argsstring>
+        <name>readLongLong</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/xml.h" line="135" column="17" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/xml.h" bodystart="135" bodyend="135"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ms_1_1_xml_reader_1a8c1e9ae327691da69b81773cd50cd208" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>double</type>
+        <definition>double Ms::XmlReader::readDouble</definition>
+        <argsstring>(double min, double max)</argsstring>
+        <name>readDouble</name>
+        <param>
+          <type>double</type>
+          <declname>min</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>max</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/xml.h" line="137" column="14" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/xmlreader.cpp" bodystart="298" bodyend="306"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ms_1_1_xml_reader_1a516627bad0a74b49531bf3de602cf3d0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool Ms::XmlReader::readBool</definition>
+        <argsstring>()</argsstring>
+        <name>readBool</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/xml.h" line="138" column="12" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/xmlreader.cpp" bodystart="312" bodyend="323"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ms_1_1_xml_reader_1a21a4c85ca73435b61ee64981d46312b8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>QPointF</type>
+        <definition>QPointF Ms::XmlReader::readPoint</definition>
+        <argsstring>()</argsstring>
+        <name>readPoint</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/xml.h" line="139" column="15" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/xmlreader.cpp" bodystart="101" bodyend="124"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ms_1_1_xml_reader_1a0fddddc1c67c3930150639c398249b0c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>QSizeF</type>
+        <definition>QSizeF Ms::XmlReader::readSize</definition>
+        <argsstring>()</argsstring>
+        <name>readSize</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/xml.h" line="140" column="14" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/xmlreader.cpp" bodystart="146" bodyend="154"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ms_1_1_xml_reader_1a4593033274b09cfc12df519c0bea194f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>QRectF</type>
+        <definition>QRectF Ms::XmlReader::readRect</definition>
+        <argsstring>()</argsstring>
+        <name>readRect</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/xml.h" line="141" column="14" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/xmlreader.cpp" bodystart="160" bodyend="170"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ms_1_1_xml_reader_1a45f2041a3ba37715e6609c7743ac478a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>QColor</type>
+        <definition>QColor Ms::XmlReader::readColor</definition>
+        <argsstring>()</argsstring>
+        <name>readColor</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/xml.h" line="142" column="14" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/xmlreader.cpp" bodystart="130" bodyend="140"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ms_1_1_xml_reader_1a5359dda928864c78c59004a97f2bfc73" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="class_ms_1_1_fraction" kindref="compound">Fraction</ref></type>
+        <definition>Fraction Ms::XmlReader::readFraction</definition>
+        <argsstring>()</argsstring>
+        <name>readFraction</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/xml.h" line="143" column="16" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/xmlreader.cpp" bodystart="179" bodyend="197"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ms_1_1_xml_reader_1ae46ae8169650e0ed54d2a581d0aa3d4d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>QString</type>
+        <definition>QString Ms::XmlReader::readXml</definition>
+        <argsstring>()</argsstring>
+        <name>readXml</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/xml.h" line="144" column="15" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/xmlreader.cpp" bodystart="389" bodyend="412"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ms_1_1_xml_reader_1a86af1cd58e5becba7d9eebe074e5447e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Ms::XmlReader::setDocName</definition>
+        <argsstring>(const QString &amp;s)</argsstring>
+        <name>setDocName</name>
+        <param>
+          <type>const QString &amp;</type>
+          <declname>s</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/xml.h" line="146" column="12" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/xml.h" bodystart="146" bodyend="146"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ms_1_1_xml_reader_1a9eef733ca713123e9634ea89f7cac8a0" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>QString</type>
+        <definition>QString Ms::XmlReader::getDocName</definition>
+        <argsstring>() const</argsstring>
+        <name>getDocName</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/xml.h" line="147" column="15" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/xml.h" bodystart="147" bodyend="147"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ms_1_1_xml_reader_1ac2cd1b600c0d6b8ab0d8eb1e6c1a07cf" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="class_ms_1_1_fraction" kindref="compound">Fraction</ref></type>
+        <definition>Fraction Ms::XmlReader::tick</definition>
+        <argsstring>() const</argsstring>
+        <name>tick</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/xml.h" line="149" column="16" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/xml.h" bodystart="149" bodyend="149"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ms_1_1_xml_reader_1a46bf5362f7e50646d9df67cd66a9aba4" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="class_ms_1_1_fraction" kindref="compound">Fraction</ref></type>
+        <definition>Fraction Ms::XmlReader::rtick</definition>
+        <argsstring>() const</argsstring>
+        <name>rtick</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/xml.h" line="150" column="16" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/xmlreader.cpp" bodystart="750" bodyend="753"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ms_1_1_xml_reader_1afebcfc3603d41c70772e3b7332d41ac7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Ms::XmlReader::setTick</definition>
+        <argsstring>(const Fraction &amp;f)</argsstring>
+        <name>setTick</name>
+        <param>
+          <type>const <ref refid="class_ms_1_1_fraction" kindref="compound">Fraction</ref> &amp;</type>
+          <declname>f</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/xml.h" line="151" column="12" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/xmlreader.cpp" bodystart="759" bodyend="763"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ms_1_1_xml_reader_1a3d1928758e47405f92405c8e45b6c692" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Ms::XmlReader::incTick</definition>
+        <argsstring>(const Fraction &amp;f)</argsstring>
+        <name>incTick</name>
+        <param>
+          <type>const <ref refid="class_ms_1_1_fraction" kindref="compound">Fraction</ref> &amp;</type>
+          <declname>f</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/xml.h" line="152" column="12" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/xmlreader.cpp" bodystart="769" bodyend="774"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ms_1_1_xml_reader_1a0e7cd8a0bb4f2a64808fcc262031a669" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Ms::XmlReader::setTickOffset</definition>
+        <argsstring>(const Fraction &amp;val)</argsstring>
+        <name>setTickOffset</name>
+        <param>
+          <type>const <ref refid="class_ms_1_1_fraction" kindref="compound">Fraction</ref> &amp;</type>
+          <declname>val</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/xml.h" line="153" column="12" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/xml.h" bodystart="153" bodyend="153"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ms_1_1_xml_reader_1a6a8145d54a03a3de24a025e570748946" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>int</type>
+        <definition>int Ms::XmlReader::track</definition>
+        <argsstring>() const</argsstring>
+        <name>track</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/xml.h" line="155" column="11" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/xml.h" bodystart="155" bodyend="155"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ms_1_1_xml_reader_1a7ae1db7323b1094b0e7b5ca9d0648f7d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Ms::XmlReader::setTrackOffset</definition>
+        <argsstring>(int val)</argsstring>
+        <name>setTrackOffset</name>
+        <param>
+          <type>int</type>
+          <declname>val</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/xml.h" line="156" column="12" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/xml.h" bodystart="156" bodyend="156"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ms_1_1_xml_reader_1afc6b56247c6020297523e08978b23059" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>int</type>
+        <definition>int Ms::XmlReader::trackOffset</definition>
+        <argsstring>() const</argsstring>
+        <name>trackOffset</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/xml.h" line="157" column="11" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/xml.h" bodystart="157" bodyend="157"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ms_1_1_xml_reader_1acc68852230a95baf45668da9e9ecc6e1" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Ms::XmlReader::setTrack</definition>
+        <argsstring>(int val)</argsstring>
+        <name>setTrack</name>
+        <param>
+          <type>int</type>
+          <declname>val</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/xml.h" line="158" column="12" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/xml.h" bodystart="158" bodyend="158"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ms_1_1_xml_reader_1a0cdbd6bed9cb9d4c6cbdd3945d7ef6e0" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool Ms::XmlReader::pasteMode</definition>
+        <argsstring>() const</argsstring>
+        <name>pasteMode</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/xml.h" line="159" column="12" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/xml.h" bodystart="159" bodyend="159"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ms_1_1_xml_reader_1a3ee702a9accd05079651b4a7ddefd0d4" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Ms::XmlReader::setPasteMode</definition>
+        <argsstring>(bool v)</argsstring>
+        <name>setPasteMode</name>
+        <param>
+          <type>bool</type>
+          <declname>v</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/xml.h" line="160" column="12" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/xml.h" bodystart="160" bodyend="160"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ms_1_1_xml_reader_1a804a1601559818c53ba69b896f5bb66d" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="class_ms_1_1_location" kindref="compound">Location</ref></type>
+        <definition>Location Ms::XmlReader::location</definition>
+        <argsstring>(bool forceAbsFrac=false) const</argsstring>
+        <name>location</name>
+        <param>
+          <type>bool</type>
+          <declname>forceAbsFrac</declname>
+          <defval>false</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/xml.h" line="162" column="16" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/xmlreader.cpp" bodystart="220" bodyend="225"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ms_1_1_xml_reader_1a76a21a725bb06f27461054a1e9f3b4fd" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Ms::XmlReader::fillLocation</definition>
+        <argsstring>(Location &amp;, bool forceAbsFrac=false) const</argsstring>
+        <name>fillLocation</name>
+        <param>
+          <type><ref refid="class_ms_1_1_location" kindref="compound">Location</ref> &amp;</type>
+          <defname>l</defname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>forceAbsFrac</declname>
+          <defval>false</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/xml.h" line="163" column="12" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/xmlreader.cpp" bodystart="236" bodyend="246"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ms_1_1_xml_reader_1ae51c7a5e811291619fc263f7629c3ab3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Ms::XmlReader::setLocation</definition>
+        <argsstring>(const Location &amp;)</argsstring>
+        <name>setLocation</name>
+        <param>
+          <type>const <ref refid="class_ms_1_1_location" kindref="compound">Location</ref> &amp;</type>
+          <defname>l</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/xml.h" line="164" column="12" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/xmlreader.cpp" bodystart="254" bodyend="274"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ms_1_1_xml_reader_1a4696e481c970e1c1772c0fc9babbfe16" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Ms::XmlReader::addBeam</definition>
+        <argsstring>(Beam *s)</argsstring>
+        <name>addBeam</name>
+        <param>
+          <type><ref refid="class_ms_1_1_beam" kindref="compound">Beam</ref> *</type>
+          <declname>s</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/xml.h" line="167" column="12" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/xmlreader.cpp" bodystart="280" bodyend="283"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ms_1_1_xml_reader_1a5448eb5d27edeaec663215053c3896a3" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="class_ms_1_1_beam" kindref="compound">Beam</ref> *</type>
+        <definition>Beam* Ms::XmlReader::findBeam</definition>
+        <argsstring>(int id) const</argsstring>
+        <name>findBeam</name>
+        <param>
+          <type>int</type>
+          <declname>id</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/xml.h" line="168" column="12" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/xml.h" bodystart="168" bodyend="168"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ms_1_1_xml_reader_1aa9cd2017b6d93b722054c3e516a19511" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Ms::XmlReader::addTuplet</definition>
+        <argsstring>(Tuplet *s)</argsstring>
+        <name>addTuplet</name>
+        <param>
+          <type><ref refid="class_ms_1_1_tuplet" kindref="compound">Tuplet</ref> *</type>
+          <declname>s</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/xml.h" line="170" column="12" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/xmlreader.cpp" bodystart="289" bodyend="292"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ms_1_1_xml_reader_1ade129f9cf5be2549fbd765b3607149fb" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="class_ms_1_1_tuplet" kindref="compound">Tuplet</ref> *</type>
+        <definition>Tuplet* Ms::XmlReader::findTuplet</definition>
+        <argsstring>(int id) const</argsstring>
+        <name>findTuplet</name>
+        <param>
+          <type>int</type>
+          <declname>id</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/xml.h" line="171" column="14" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/xml.h" bodystart="171" bodyend="171"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ms_1_1_xml_reader_1a36e34209d72d73850c75055c0af02819" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>QHash&lt; int, <ref refid="class_ms_1_1_tuplet" kindref="compound">Tuplet</ref> * &gt; &amp;</type>
+        <definition>QHash&lt;int, Tuplet*&gt;&amp; Ms::XmlReader::tuplets</definition>
+        <argsstring>()</argsstring>
+        <name>tuplets</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/xml.h" line="172" column="13" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/xml.h" bodystart="172" bodyend="172"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ms_1_1_xml_reader_1a8fce4ae9f3c45a8c2b33d5ea4162578e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Ms::XmlReader::setLastMeasure</definition>
+        <argsstring>(Measure *m)</argsstring>
+        <name>setLastMeasure</name>
+        <param>
+          <type><ref refid="class_ms_1_1_measure" kindref="compound">Measure</ref> *</type>
+          <declname>m</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/xml.h" line="174" column="12" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/xml.h" bodystart="174" bodyend="174"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ms_1_1_xml_reader_1a20741a81f2684abe91fdb1230e3cc652" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="class_ms_1_1_measure" kindref="compound">Measure</ref> *</type>
+        <definition>Measure* Ms::XmlReader::lastMeasure</definition>
+        <argsstring>() const</argsstring>
+        <name>lastMeasure</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/xml.h" line="175" column="15" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/xml.h" bodystart="175" bodyend="175"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ms_1_1_xml_reader_1a5b9fc943cf886d54385d4a8546e3be77" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Ms::XmlReader::setCurrentMeasure</definition>
+        <argsstring>(Measure *m)</argsstring>
+        <name>setCurrentMeasure</name>
+        <param>
+          <type><ref refid="class_ms_1_1_measure" kindref="compound">Measure</ref> *</type>
+          <declname>m</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/xml.h" line="176" column="12" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/xml.h" bodystart="176" bodyend="176"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ms_1_1_xml_reader_1a057a85f77a75dbb03c2c92999e475818" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="class_ms_1_1_measure" kindref="compound">Measure</ref> *</type>
+        <definition>Measure* Ms::XmlReader::currentMeasure</definition>
+        <argsstring>() const</argsstring>
+        <name>currentMeasure</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/xml.h" line="177" column="15" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/xml.h" bodystart="177" bodyend="177"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ms_1_1_xml_reader_1a17f1f8031a351b05f45c6efd71f9859c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Ms::XmlReader::setCurrentMeasureIndex</definition>
+        <argsstring>(int idx)</argsstring>
+        <name>setCurrentMeasureIndex</name>
+        <param>
+          <type>int</type>
+          <declname>idx</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/xml.h" line="178" column="12" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/xml.h" bodystart="178" bodyend="178"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ms_1_1_xml_reader_1a4446881be3d666224c25dbf11004d8e2" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>int</type>
+        <definition>int Ms::XmlReader::currentMeasureIndex</definition>
+        <argsstring>() const</argsstring>
+        <name>currentMeasureIndex</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/xml.h" line="179" column="11" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/xml.h" bodystart="179" bodyend="179"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ms_1_1_xml_reader_1ac821947deedac20e58f2ee8cc6d10231" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Ms::XmlReader::removeSpanner</definition>
+        <argsstring>(const Spanner *)</argsstring>
+        <name>removeSpanner</name>
+        <param>
+          <type>const <ref refid="class_ms_1_1_spanner" kindref="compound">Spanner</ref> *</type>
+          <defname>s</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/xml.h" line="181" column="12" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/xmlreader.cpp" bodystart="459" bodyend="467"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ms_1_1_xml_reader_1aee600410cd507bc07f5a837efad5d820" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Ms::XmlReader::addSpanner</definition>
+        <argsstring>(int id, Spanner *)</argsstring>
+        <name>addSpanner</name>
+        <param>
+          <type>int</type>
+          <declname>id</declname>
+        </param>
+        <param>
+          <type><ref refid="class_ms_1_1_spanner" kindref="compound">Spanner</ref> *</type>
+          <defname>s</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/xml.h" line="182" column="12" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/xmlreader.cpp" bodystart="450" bodyend="453"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ms_1_1_xml_reader_1ab59eaa006c6684479886ff12538c1850" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="class_ms_1_1_spanner" kindref="compound">Spanner</ref> *</type>
+        <definition>Spanner * Ms::XmlReader::findSpanner</definition>
+        <argsstring>(int id)</argsstring>
+        <name>findSpanner</name>
+        <param>
+          <type>int</type>
+          <declname>id</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/xml.h" line="183" column="15" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/xmlreader.cpp" bodystart="473" bodyend="480"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ms_1_1_xml_reader_1a8ff260da92c1e311689f8b4e649bada9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int Ms::XmlReader::spannerId</definition>
+        <argsstring>(const Spanner *)</argsstring>
+        <name>spannerId</name>
+        <param>
+          <type>const <ref refid="class_ms_1_1_spanner" kindref="compound">Spanner</ref> *</type>
+          <defname>s</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/xml.h" line="185" column="11" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/xmlreader.cpp" bodystart="486" bodyend="494"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ms_1_1_xml_reader_1a936812b8d73a66586cb276b81cb7440d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Ms::XmlReader::addSpannerValues</definition>
+        <argsstring>(const SpannerValues &amp;sv)</argsstring>
+        <name>addSpannerValues</name>
+        <param>
+          <type>const <ref refid="struct_ms_1_1_spanner_values" kindref="compound">SpannerValues</ref> &amp;</type>
+          <declname>sv</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/xml.h" line="187" column="12" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/xml.h" bodystart="187" bodyend="187"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ms_1_1_xml_reader_1a73c3c4450bd4b83c7a8d774b00753494" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>const <ref refid="struct_ms_1_1_spanner_values" kindref="compound">SpannerValues</ref> *</type>
+        <definition>const SpannerValues * Ms::XmlReader::spannerValues</definition>
+        <argsstring>(int id) const</argsstring>
+        <name>spannerValues</name>
+        <param>
+          <type>int</type>
+          <declname>id</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/xml.h" line="188" column="27" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/xmlreader.cpp" bodystart="437" bodyend="444"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ms_1_1_xml_reader_1aa4758004fc01cd9874aec94d5dc4bf05" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Ms::XmlReader::addConnectorInfoLater</definition>
+        <argsstring>(std::unique_ptr&lt; ConnectorInfoReader &gt; c)</argsstring>
+        <name>addConnectorInfoLater</name>
+        <param>
+          <type>std::unique_ptr&lt; <ref refid="class_ms_1_1_connector_info_reader" kindref="compound">ConnectorInfoReader</ref> &gt;</type>
+          <declname>c</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/xml.h" line="190" column="12" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/xml.h" bodystart="190" bodyend="190"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ms_1_1_xml_reader_1a891fc5ad6b336196b6df824932264cfb" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Ms::XmlReader::checkConnectors</definition>
+        <argsstring>()</argsstring>
+        <name>checkConnectors</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/xml.h" line="191" column="12" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/xmlreader.cpp" bodystart="615" bodyend="620"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ms_1_1_xml_reader_1ade2cee7959007ff4ce8c16e6bfcbc9ed" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Ms::XmlReader::reconnectBrokenConnectors</definition>
+        <argsstring>()</argsstring>
+        <name>reconnectBrokenConnectors</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/xml.h" line="192" column="12" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/xmlreader.cpp" bodystart="635" bodyend="672"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ms_1_1_xml_reader_1a94cf5e8504cb75c6444c58c7b8bdbbbb" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>QList&lt; <ref refid="class_ms_1_1_staff_type" kindref="compound">StaffType</ref> &gt; &amp;</type>
+        <definition>QList&lt;StaffType&gt;&amp; Ms::XmlReader::staffType</definition>
+        <argsstring>()</argsstring>
+        <name>staffType</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/xml.h" line="194" column="13" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/xml.h" bodystart="194" bodyend="194"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ms_1_1_xml_reader_1a63c287934d8c622375123b09dc50151b" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="struct_ms_1_1_interval" kindref="compound">Interval</ref></type>
+        <definition>Interval Ms::XmlReader::transpose</definition>
+        <argsstring>() const</argsstring>
+        <name>transpose</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/xml.h" line="195" column="16" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/xml.h" bodystart="195" bodyend="195"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ms_1_1_xml_reader_1ae06dd39ca1099eaffd79f3b029c03cc1" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Ms::XmlReader::setTransposeChromatic</definition>
+        <argsstring>(int v)</argsstring>
+        <name>setTransposeChromatic</name>
+        <param>
+          <type>int</type>
+          <declname>v</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/xml.h" line="196" column="12" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/xml.h" bodystart="196" bodyend="196"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ms_1_1_xml_reader_1aeafe68be3ce32d09ef60c8b7ca8d3a35" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Ms::XmlReader::setTransposeDiatonic</definition>
+        <argsstring>(int v)</argsstring>
+        <name>setTransposeDiatonic</name>
+        <param>
+          <type>int</type>
+          <declname>v</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/xml.h" line="197" column="12" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/xml.h" bodystart="197" bodyend="197"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ms_1_1_xml_reader_1ab33e414747332e801d5246e81636f75a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="class_ms_1_1_linked_elements" kindref="compound">LinkedElements</ref> *</type>
+        <definition>LinkedElements * Ms::XmlReader::getLink</definition>
+        <argsstring>(bool masterScore, const Location &amp;l, int localIndexDiff)</argsstring>
+        <name>getLink</name>
+        <param>
+          <type>bool</type>
+          <declname>masterScore</declname>
+        </param>
+        <param>
+          <type>const <ref refid="class_ms_1_1_location" kindref="compound">Location</ref> &amp;</type>
+          <declname>l</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>localIndexDiff</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/xml.h" line="199" column="22" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/xmlreader.cpp" bodystart="702" bodyend="730"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ms_1_1_xml_reader_1adec342679a50d487f8f1c900fe71d558" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Ms::XmlReader::addLink</definition>
+        <argsstring>(Staff *staff, LinkedElements *link)</argsstring>
+        <name>addLink</name>
+        <param>
+          <type><ref refid="class_ms_1_1_staff" kindref="compound">Staff</ref> *</type>
+          <declname>staff</declname>
+        </param>
+        <param>
+          <type><ref refid="class_ms_1_1_linked_elements" kindref="compound">LinkedElements</ref> *</type>
+          <declname>link</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/xml.h" line="200" column="12" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/xmlreader.cpp" bodystart="678" bodyend="696"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ms_1_1_xml_reader_1aa932f23579a63558f89c353e246faf3e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>QMap&lt; int, <ref refid="class_ms_1_1_linked_elements" kindref="compound">LinkedElements</ref> * &gt; &amp;</type>
+        <definition>QMap&lt;int, LinkedElements*&gt;&amp; Ms::XmlReader::linkIds</definition>
+        <argsstring>()</argsstring>
+        <name>linkIds</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/xml.h" line="201" column="12" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/xml.h" bodystart="201" bodyend="201"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ms_1_1_xml_reader_1a21bcd474929d41d5dab87bd80020a4af" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>QMultiMap&lt; int, int &gt; &amp;</type>
+        <definition>QMultiMap&lt;int, int&gt;&amp; Ms::XmlReader::tracks</definition>
+        <argsstring>()</argsstring>
+        <name>tracks</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/xml.h" line="202" column="17" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/xml.h" bodystart="202" bodyend="202"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ms_1_1_xml_reader_1aa6db9582e8b0713ff51d5badff7f670e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Ms::XmlReader::checkTuplets</definition>
+        <argsstring>()</argsstring>
+        <name>checkTuplets</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/xml.h" line="204" column="12" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/xmlreader.cpp" bodystart="329" bodyend="347"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ms_1_1_xml_reader_1a05cd6830f56360b3f74eca1c87e8a568" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="namespace_ms_1ad1b3e57dfd5b26a280bf2ebde66b9d5a" kindref="member">Tid</ref></type>
+        <definition>Tid Ms::XmlReader::addUserTextStyle</definition>
+        <argsstring>(const QString &amp;name)</argsstring>
+        <name>addUserTextStyle</name>
+        <param>
+          <type>const QString &amp;</type>
+          <declname>name</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/xml.h" line="205" column="11" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/xmlreader.cpp" bodystart="502" bodyend="535"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ms_1_1_xml_reader_1a18b191d7a0b31ab20192422c8bfd05bb" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="namespace_ms_1ad1b3e57dfd5b26a280bf2ebde66b9d5a" kindref="member">Tid</ref></type>
+        <definition>Tid Ms::XmlReader::lookupUserTextStyle</definition>
+        <argsstring>(const QString &amp;name)</argsstring>
+        <name>lookupUserTextStyle</name>
+        <param>
+          <type>const QString &amp;</type>
+          <declname>name</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/xml.h" line="206" column="11" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/xmlreader.cpp" bodystart="541" bodyend="548"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ms_1_1_xml_reader_1a59a3ba3df01ebd8acd43c89e79594033" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Ms::XmlReader::setReadAheadDevice</definition>
+        <argsstring>(QIODevice *dev)</argsstring>
+        <name>setReadAheadDevice</name>
+        <param>
+          <type>QIODevice *</type>
+          <declname>dev</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/xml.h" line="209" column="12" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/xml.h" bodystart="209" bodyend="209"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ms_1_1_xml_reader_1a92a9a3496a597dd1820c29462b17dab8" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool Ms::XmlReader::readAheadAvailable</definition>
+        <argsstring>() const</argsstring>
+        <name>readAheadAvailable</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/xml.h" line="210" column="12" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/xml.h" bodystart="210" bodyend="210"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ms_1_1_xml_reader_1a510be3861cc0ebfa37cb362d6c379847" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Ms::XmlReader::performReadAhead</definition>
+        <argsstring>(std::function&lt; void(QIODevice &amp;)&gt; readAheadRoutine)</argsstring>
+        <name>performReadAhead</name>
+        <param>
+          <type>std::function&lt; void(QIODevice &amp;)&gt;</type>
+          <declname>readAheadRoutine</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/xml.h" line="211" column="12" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/xmlreader.cpp" bodystart="558" bodyend="569"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ms_1_1_xml_reader_1a27fd7969b0a15bfa1cc21f2d15ff57e0" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>QList&lt; std::pair&lt; <ref refid="class_ms_1_1_element" kindref="compound">Element</ref> *, QPointF &gt; &gt; &amp;</type>
+        <definition>QList&lt;std::pair&lt;Element*, QPointF&gt; &gt;&amp; Ms::XmlReader::fixOffsets</definition>
+        <argsstring>()</argsstring>
+        <name>fixOffsets</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/xml.h" line="213" column="13" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/xml.h" bodystart="213" bodyend="213"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>QXmlStreamReader</label>
+      </node>
+      <node id="1">
+        <label>Ms::XmlReader</label>
+        <link refid="class_ms_1_1_xml_reader"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>QXmlStreamReader</label>
+      </node>
+      <node id="1">
+        <label>Ms::XmlReader</label>
+        <link refid="class_ms_1_1_xml_reader"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/xml.h" line="69" column="40" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/xml.h" bodystart="69" bodyend="214"/>
+    <listofallmembers>
+      <member refid="class_ms_1_1_xml_reader_1a1d8dea9b2deee8958f93cc510f94d126" prot="private" virt="non-virtual"><scope>Ms::XmlReader</scope><name>_beams</name></member>
+      <member refid="class_ms_1_1_xml_reader_1a5272e0407515b938c653a57d834ed8d6" prot="private" virt="non-virtual"><scope>Ms::XmlReader</scope><name>_connectors</name></member>
+      <member refid="class_ms_1_1_xml_reader_1afcbf4296a751716318e607ae70a3e527" prot="private" virt="non-virtual"><scope>Ms::XmlReader</scope><name>_curMeasure</name></member>
+      <member refid="class_ms_1_1_xml_reader_1a61f134e85d6a10b4de00c9f623b9eee8" prot="private" virt="non-virtual"><scope>Ms::XmlReader</scope><name>_curMeasureIdx</name></member>
+      <member refid="class_ms_1_1_xml_reader_1ad9652b92349e6bafd774215020e498c9" prot="private" virt="non-virtual"><scope>Ms::XmlReader</scope><name>_elinks</name></member>
+      <member refid="class_ms_1_1_xml_reader_1a3016d01effb45ee9b7a46e700a7022f2" prot="private" virt="non-virtual"><scope>Ms::XmlReader</scope><name>_fixOffsets</name></member>
+      <member refid="class_ms_1_1_xml_reader_1af14980c29abe4e4a68999002135bad99" prot="private" virt="non-virtual"><scope>Ms::XmlReader</scope><name>_intTick</name></member>
+      <member refid="class_ms_1_1_xml_reader_1a4154714e47ffc7e936cadade9ca3e6ab" prot="private" virt="non-virtual"><scope>Ms::XmlReader</scope><name>_lastMeasure</name></member>
+      <member refid="class_ms_1_1_xml_reader_1aebe55263821acd7e22de98ed7200e477" prot="private" virt="non-virtual"><scope>Ms::XmlReader</scope><name>_linksIndexer</name></member>
+      <member refid="class_ms_1_1_xml_reader_1a048675d7634fe2904a3cac77d48ef723" prot="private" virt="non-virtual"><scope>Ms::XmlReader</scope><name>_pasteMode</name></member>
+      <member refid="class_ms_1_1_xml_reader_1acd7f4e33db5d6ac1a68fcd86165fb9c4" prot="private" virt="non-virtual"><scope>Ms::XmlReader</scope><name>_pendingConnectors</name></member>
+      <member refid="class_ms_1_1_xml_reader_1a0bea0caea316bc605e65d2ae752f9c72" prot="private" virt="non-virtual"><scope>Ms::XmlReader</scope><name>_readAheadDevice</name></member>
+      <member refid="class_ms_1_1_xml_reader_1abca8cf53c0dc8b231700866bd131f4e1" prot="private" virt="non-virtual"><scope>Ms::XmlReader</scope><name>_spanner</name></member>
+      <member refid="class_ms_1_1_xml_reader_1a80e2ada143f78cdb5ea93a72f9662dfd" prot="private" virt="non-virtual"><scope>Ms::XmlReader</scope><name>_spannerValues</name></member>
+      <member refid="class_ms_1_1_xml_reader_1aed0ab858f064abb971a61b8d9d5109f3" prot="private" virt="non-virtual"><scope>Ms::XmlReader</scope><name>_staffLinkedElements</name></member>
+      <member refid="class_ms_1_1_xml_reader_1a19398d968923149b6c8405f10de15fa8" prot="private" virt="non-virtual"><scope>Ms::XmlReader</scope><name>_staffTypes</name></member>
+      <member refid="class_ms_1_1_xml_reader_1af7c7045202de7497bb9396c44ff76145" prot="private" virt="non-virtual"><scope>Ms::XmlReader</scope><name>_tick</name></member>
+      <member refid="class_ms_1_1_xml_reader_1af9491ef04d02ab7bff32e1cfbecd8b07" prot="private" virt="non-virtual"><scope>Ms::XmlReader</scope><name>_tickOffset</name></member>
+      <member refid="class_ms_1_1_xml_reader_1a5a1b45835df7376f9eb8e086dee8ef55" prot="private" virt="non-virtual"><scope>Ms::XmlReader</scope><name>_track</name></member>
+      <member refid="class_ms_1_1_xml_reader_1a7a211eec7dc909d1325e92696ad2abed" prot="private" virt="non-virtual"><scope>Ms::XmlReader</scope><name>_trackOffset</name></member>
+      <member refid="class_ms_1_1_xml_reader_1ac7899314794f4b475052aa138342dfe3" prot="private" virt="non-virtual"><scope>Ms::XmlReader</scope><name>_tracks</name></member>
+      <member refid="class_ms_1_1_xml_reader_1a4a3236bd96deb925ec5dc640f7239010" prot="private" virt="non-virtual"><scope>Ms::XmlReader</scope><name>_transpose</name></member>
+      <member refid="class_ms_1_1_xml_reader_1ac1c4b85d690c5d1b8486e3e03ac1cf56" prot="private" virt="non-virtual"><scope>Ms::XmlReader</scope><name>_tuplets</name></member>
+      <member refid="class_ms_1_1_xml_reader_1a4696e481c970e1c1772c0fc9babbfe16" prot="public" virt="non-virtual"><scope>Ms::XmlReader</scope><name>addBeam</name></member>
+      <member refid="class_ms_1_1_xml_reader_1adbba50fdd9c9ecac326243aef06063d5" prot="private" virt="non-virtual"><scope>Ms::XmlReader</scope><name>addConnectorInfo</name></member>
+      <member refid="class_ms_1_1_xml_reader_1aa4758004fc01cd9874aec94d5dc4bf05" prot="public" virt="non-virtual"><scope>Ms::XmlReader</scope><name>addConnectorInfoLater</name></member>
+      <member refid="class_ms_1_1_xml_reader_1adec342679a50d487f8f1c900fe71d558" prot="public" virt="non-virtual"><scope>Ms::XmlReader</scope><name>addLink</name></member>
+      <member refid="class_ms_1_1_xml_reader_1aee600410cd507bc07f5a837efad5d820" prot="public" virt="non-virtual"><scope>Ms::XmlReader</scope><name>addSpanner</name></member>
+      <member refid="class_ms_1_1_xml_reader_1a936812b8d73a66586cb276b81cb7440d" prot="public" virt="non-virtual"><scope>Ms::XmlReader</scope><name>addSpannerValues</name></member>
+      <member refid="class_ms_1_1_xml_reader_1aa9cd2017b6d93b722054c3e516a19511" prot="public" virt="non-virtual"><scope>Ms::XmlReader</scope><name>addTuplet</name></member>
+      <member refid="class_ms_1_1_xml_reader_1a05cd6830f56360b3f74eca1c87e8a568" prot="public" virt="non-virtual"><scope>Ms::XmlReader</scope><name>addUserTextStyle</name></member>
+      <member refid="class_ms_1_1_xml_reader_1ad0b7f9095ed1301cb1d1f2a46f4da5a5" prot="public" virt="non-virtual"><scope>Ms::XmlReader</scope><name>attribute</name></member>
+      <member refid="class_ms_1_1_xml_reader_1a0a5d4280bedd4049f3b5077cc006c057" prot="public" virt="non-virtual"><scope>Ms::XmlReader</scope><name>attribute</name></member>
+      <member refid="class_ms_1_1_xml_reader_1a891fc5ad6b336196b6df824932264cfb" prot="public" virt="non-virtual"><scope>Ms::XmlReader</scope><name>checkConnectors</name></member>
+      <member refid="class_ms_1_1_xml_reader_1aa6db9582e8b0713ff51d5badff7f670e" prot="public" virt="non-virtual"><scope>Ms::XmlReader</scope><name>checkTuplets</name></member>
+      <member refid="class_ms_1_1_xml_reader_1a057a85f77a75dbb03c2c92999e475818" prot="public" virt="non-virtual"><scope>Ms::XmlReader</scope><name>currentMeasure</name></member>
+      <member refid="class_ms_1_1_xml_reader_1a4446881be3d666224c25dbf11004d8e2" prot="public" virt="non-virtual"><scope>Ms::XmlReader</scope><name>currentMeasureIndex</name></member>
+      <member refid="class_ms_1_1_xml_reader_1ace1587a5e37efbf4a149c9798a56d1fe" prot="private" virt="non-virtual"><scope>Ms::XmlReader</scope><name>docName</name></member>
+      <member refid="class_ms_1_1_xml_reader_1ade60b2eaa74062b273e5ef0559608ac4" prot="public" virt="non-virtual"><scope>Ms::XmlReader</scope><name>doubleAttribute</name></member>
+      <member refid="class_ms_1_1_xml_reader_1aede021569bd0caa5a99ed83aff3c1bbb" prot="public" virt="non-virtual"><scope>Ms::XmlReader</scope><name>doubleAttribute</name></member>
+      <member refid="class_ms_1_1_xml_reader_1a76a21a725bb06f27461054a1e9f3b4fd" prot="public" virt="non-virtual"><scope>Ms::XmlReader</scope><name>fillLocation</name></member>
+      <member refid="class_ms_1_1_xml_reader_1a5448eb5d27edeaec663215053c3896a3" prot="public" virt="non-virtual"><scope>Ms::XmlReader</scope><name>findBeam</name></member>
+      <member refid="class_ms_1_1_xml_reader_1ab59eaa006c6684479886ff12538c1850" prot="public" virt="non-virtual"><scope>Ms::XmlReader</scope><name>findSpanner</name></member>
+      <member refid="class_ms_1_1_xml_reader_1ade129f9cf5be2549fbd765b3607149fb" prot="public" virt="non-virtual"><scope>Ms::XmlReader</scope><name>findTuplet</name></member>
+      <member refid="class_ms_1_1_xml_reader_1a27fd7969b0a15bfa1cc21f2d15ff57e0" prot="public" virt="non-virtual"><scope>Ms::XmlReader</scope><name>fixOffsets</name></member>
+      <member refid="class_ms_1_1_xml_reader_1a9eef733ca713123e9634ea89f7cac8a0" prot="public" virt="non-virtual"><scope>Ms::XmlReader</scope><name>getDocName</name></member>
+      <member refid="class_ms_1_1_xml_reader_1ab33e414747332e801d5246e81636f75a" prot="public" virt="non-virtual"><scope>Ms::XmlReader</scope><name>getLink</name></member>
+      <member refid="class_ms_1_1_xml_reader_1a130362673b361e759a6befb1028b9b0e" prot="public" virt="non-virtual"><scope>Ms::XmlReader</scope><name>hasAccidental</name></member>
+      <member refid="class_ms_1_1_xml_reader_1a02ce2114bc6cd78e209b3a814d11f6cb" prot="public" virt="non-virtual"><scope>Ms::XmlReader</scope><name>hasAttribute</name></member>
+      <member refid="class_ms_1_1_xml_reader_1a206c8641a677845c3890d8e509e956a8" prot="private" virt="non-virtual"><scope>Ms::XmlReader</scope><name>htmlToString</name></member>
+      <member refid="class_ms_1_1_xml_reader_1a3d1928758e47405f92405c8e45b6c692" prot="public" virt="non-virtual"><scope>Ms::XmlReader</scope><name>incTick</name></member>
+      <member refid="class_ms_1_1_xml_reader_1abd21dcf535a892cb2232e89cf92d2a3f" prot="public" virt="non-virtual"><scope>Ms::XmlReader</scope><name>intAttribute</name></member>
+      <member refid="class_ms_1_1_xml_reader_1ae4f4e09029a168ac79a9ae142755b1f6" prot="public" virt="non-virtual"><scope>Ms::XmlReader</scope><name>intAttribute</name></member>
+      <member refid="class_ms_1_1_xml_reader_1a20741a81f2684abe91fdb1230e3cc652" prot="public" virt="non-virtual"><scope>Ms::XmlReader</scope><name>lastMeasure</name></member>
+      <member refid="class_ms_1_1_xml_reader_1aa932f23579a63558f89c353e246faf3e" prot="public" virt="non-virtual"><scope>Ms::XmlReader</scope><name>linkIds</name></member>
+      <member refid="class_ms_1_1_xml_reader_1a804a1601559818c53ba69b896f5bb66d" prot="public" virt="non-virtual"><scope>Ms::XmlReader</scope><name>location</name></member>
+      <member refid="class_ms_1_1_xml_reader_1a18b191d7a0b31ab20192422c8bfd05bb" prot="public" virt="non-virtual"><scope>Ms::XmlReader</scope><name>lookupUserTextStyle</name></member>
+      <member refid="class_ms_1_1_xml_reader_1a0e9d7129c419ef72236c8d6a5fa9299d" prot="public" virt="non-virtual"><scope>Ms::XmlReader</scope><name>operator=</name></member>
+      <member refid="class_ms_1_1_xml_reader_1a0cdbd6bed9cb9d4c6cbdd3945d7ef6e0" prot="public" virt="non-virtual"><scope>Ms::XmlReader</scope><name>pasteMode</name></member>
+      <member refid="class_ms_1_1_xml_reader_1a510be3861cc0ebfa37cb362d6c379847" prot="public" virt="non-virtual"><scope>Ms::XmlReader</scope><name>performReadAhead</name></member>
+      <member refid="class_ms_1_1_xml_reader_1a92a9a3496a597dd1820c29462b17dab8" prot="public" virt="non-virtual"><scope>Ms::XmlReader</scope><name>readAheadAvailable</name></member>
+      <member refid="class_ms_1_1_xml_reader_1a516627bad0a74b49531bf3de602cf3d0" prot="public" virt="non-virtual"><scope>Ms::XmlReader</scope><name>readBool</name></member>
+      <member refid="class_ms_1_1_xml_reader_1a45f2041a3ba37715e6609c7743ac478a" prot="public" virt="non-virtual"><scope>Ms::XmlReader</scope><name>readColor</name></member>
+      <member refid="class_ms_1_1_xml_reader_1a1bd1324984256ab150f003f2682d013e" prot="public" virt="non-virtual"><scope>Ms::XmlReader</scope><name>readDouble</name></member>
+      <member refid="class_ms_1_1_xml_reader_1a8c1e9ae327691da69b81773cd50cd208" prot="public" virt="non-virtual"><scope>Ms::XmlReader</scope><name>readDouble</name></member>
+      <member refid="class_ms_1_1_xml_reader_1a5359dda928864c78c59004a97f2bfc73" prot="public" virt="non-virtual"><scope>Ms::XmlReader</scope><name>readFraction</name></member>
+      <member refid="class_ms_1_1_xml_reader_1a2fa825cb5155311203dae047b695a6ed" prot="public" virt="non-virtual"><scope>Ms::XmlReader</scope><name>readInt</name></member>
+      <member refid="class_ms_1_1_xml_reader_1a64bdc61e768dead69c0c3ea5acb7eed0" prot="public" virt="non-virtual"><scope>Ms::XmlReader</scope><name>readInt</name></member>
+      <member refid="class_ms_1_1_xml_reader_1a2ea4030d29bcc90d88814be8a67dc6e7" prot="public" virt="non-virtual"><scope>Ms::XmlReader</scope><name>readIntHex</name></member>
+      <member refid="class_ms_1_1_xml_reader_1a24706a04b949777285d92463453f4389" prot="public" virt="non-virtual"><scope>Ms::XmlReader</scope><name>readLongLong</name></member>
+      <member refid="class_ms_1_1_xml_reader_1a21a4c85ca73435b61ee64981d46312b8" prot="public" virt="non-virtual"><scope>Ms::XmlReader</scope><name>readPoint</name></member>
+      <member refid="class_ms_1_1_xml_reader_1a4593033274b09cfc12df519c0bea194f" prot="public" virt="non-virtual"><scope>Ms::XmlReader</scope><name>readRect</name></member>
+      <member refid="class_ms_1_1_xml_reader_1a0fddddc1c67c3930150639c398249b0c" prot="public" virt="non-virtual"><scope>Ms::XmlReader</scope><name>readSize</name></member>
+      <member refid="class_ms_1_1_xml_reader_1ae46ae8169650e0ed54d2a581d0aa3d4d" prot="public" virt="non-virtual"><scope>Ms::XmlReader</scope><name>readXml</name></member>
+      <member refid="class_ms_1_1_xml_reader_1ade2cee7959007ff4ce8c16e6bfcbc9ed" prot="public" virt="non-virtual"><scope>Ms::XmlReader</scope><name>reconnectBrokenConnectors</name></member>
+      <member refid="class_ms_1_1_xml_reader_1a513fc0a475d5115bb14c3ea26f532b22" prot="private" virt="non-virtual"><scope>Ms::XmlReader</scope><name>removeConnector</name></member>
+      <member refid="class_ms_1_1_xml_reader_1ac821947deedac20e58f2ee8cc6d10231" prot="public" virt="non-virtual"><scope>Ms::XmlReader</scope><name>removeSpanner</name></member>
+      <member refid="class_ms_1_1_xml_reader_1a46bf5362f7e50646d9df67cd66a9aba4" prot="public" virt="non-virtual"><scope>Ms::XmlReader</scope><name>rtick</name></member>
+      <member refid="class_ms_1_1_xml_reader_1a5b9fc943cf886d54385d4a8546e3be77" prot="public" virt="non-virtual"><scope>Ms::XmlReader</scope><name>setCurrentMeasure</name></member>
+      <member refid="class_ms_1_1_xml_reader_1a17f1f8031a351b05f45c6efd71f9859c" prot="public" virt="non-virtual"><scope>Ms::XmlReader</scope><name>setCurrentMeasureIndex</name></member>
+      <member refid="class_ms_1_1_xml_reader_1a86af1cd58e5becba7d9eebe074e5447e" prot="public" virt="non-virtual"><scope>Ms::XmlReader</scope><name>setDocName</name></member>
+      <member refid="class_ms_1_1_xml_reader_1a8fce4ae9f3c45a8c2b33d5ea4162578e" prot="public" virt="non-virtual"><scope>Ms::XmlReader</scope><name>setLastMeasure</name></member>
+      <member refid="class_ms_1_1_xml_reader_1ae51c7a5e811291619fc263f7629c3ab3" prot="public" virt="non-virtual"><scope>Ms::XmlReader</scope><name>setLocation</name></member>
+      <member refid="class_ms_1_1_xml_reader_1a3ee702a9accd05079651b4a7ddefd0d4" prot="public" virt="non-virtual"><scope>Ms::XmlReader</scope><name>setPasteMode</name></member>
+      <member refid="class_ms_1_1_xml_reader_1a59a3ba3df01ebd8acd43c89e79594033" prot="public" virt="non-virtual"><scope>Ms::XmlReader</scope><name>setReadAheadDevice</name></member>
+      <member refid="class_ms_1_1_xml_reader_1afebcfc3603d41c70772e3b7332d41ac7" prot="public" virt="non-virtual"><scope>Ms::XmlReader</scope><name>setTick</name></member>
+      <member refid="class_ms_1_1_xml_reader_1a0e7cd8a0bb4f2a64808fcc262031a669" prot="public" virt="non-virtual"><scope>Ms::XmlReader</scope><name>setTickOffset</name></member>
+      <member refid="class_ms_1_1_xml_reader_1acc68852230a95baf45668da9e9ecc6e1" prot="public" virt="non-virtual"><scope>Ms::XmlReader</scope><name>setTrack</name></member>
+      <member refid="class_ms_1_1_xml_reader_1a7ae1db7323b1094b0e7b5ca9d0648f7d" prot="public" virt="non-virtual"><scope>Ms::XmlReader</scope><name>setTrackOffset</name></member>
+      <member refid="class_ms_1_1_xml_reader_1ae06dd39ca1099eaffd79f3b029c03cc1" prot="public" virt="non-virtual"><scope>Ms::XmlReader</scope><name>setTransposeChromatic</name></member>
+      <member refid="class_ms_1_1_xml_reader_1aeafe68be3ce32d09ef60c8b7ca8d3a35" prot="public" virt="non-virtual"><scope>Ms::XmlReader</scope><name>setTransposeDiatonic</name></member>
+      <member refid="class_ms_1_1_xml_reader_1a8ff260da92c1e311689f8b4e649bada9" prot="public" virt="non-virtual"><scope>Ms::XmlReader</scope><name>spannerId</name></member>
+      <member refid="class_ms_1_1_xml_reader_1a73c3c4450bd4b83c7a8d774b00753494" prot="public" virt="non-virtual"><scope>Ms::XmlReader</scope><name>spannerValues</name></member>
+      <member refid="class_ms_1_1_xml_reader_1a94cf5e8504cb75c6444c58c7b8bdbbbb" prot="public" virt="non-virtual"><scope>Ms::XmlReader</scope><name>staffType</name></member>
+      <member refid="class_ms_1_1_xml_reader_1ac2cd1b600c0d6b8ab0d8eb1e6c1a07cf" prot="public" virt="non-virtual"><scope>Ms::XmlReader</scope><name>tick</name></member>
+      <member refid="class_ms_1_1_xml_reader_1a6a8145d54a03a3de24a025e570748946" prot="public" virt="non-virtual"><scope>Ms::XmlReader</scope><name>track</name></member>
+      <member refid="class_ms_1_1_xml_reader_1afc6b56247c6020297523e08978b23059" prot="public" virt="non-virtual"><scope>Ms::XmlReader</scope><name>trackOffset</name></member>
+      <member refid="class_ms_1_1_xml_reader_1a21bcd474929d41d5dab87bd80020a4af" prot="public" virt="non-virtual"><scope>Ms::XmlReader</scope><name>tracks</name></member>
+      <member refid="class_ms_1_1_xml_reader_1a63c287934d8c622375123b09dc50151b" prot="public" virt="non-virtual"><scope>Ms::XmlReader</scope><name>transpose</name></member>
+      <member refid="class_ms_1_1_xml_reader_1a36e34209d72d73850c75055c0af02819" prot="public" virt="non-virtual"><scope>Ms::XmlReader</scope><name>tuplets</name></member>
+      <member refid="class_ms_1_1_xml_reader_1aadf37033e546227e50e7438333b1b997" prot="public" virt="non-virtual"><scope>Ms::XmlReader</scope><name>unknown</name></member>
+      <member refid="class_ms_1_1_xml_reader_1adea7da3fa63723df247c2a4600bf1c10" prot="private" virt="non-virtual"><scope>Ms::XmlReader</scope><name>userTextStyles</name></member>
+      <member refid="class_ms_1_1_xml_reader_1aefa30ad5f12b0cf3d41d5beef154338d" prot="public" virt="non-virtual"><scope>Ms::XmlReader</scope><name>XmlReader</name></member>
+      <member refid="class_ms_1_1_xml_reader_1afcd7610b8be3d1b3d7f45c886e65e777" prot="public" virt="non-virtual"><scope>Ms::XmlReader</scope><name>XmlReader</name></member>
+      <member refid="class_ms_1_1_xml_reader_1ae3e872e0150a759dfe383b269eecebd6" prot="public" virt="non-virtual"><scope>Ms::XmlReader</scope><name>XmlReader</name></member>
+      <member refid="class_ms_1_1_xml_reader_1a18eccd44aaa34ab92a86d9534ccbd358" prot="public" virt="non-virtual"><scope>Ms::XmlReader</scope><name>XmlReader</name></member>
+      <member refid="class_ms_1_1_xml_reader_1a5140dfc4262de12089d48829780f70ee" prot="public" virt="non-virtual"><scope>Ms::XmlReader</scope><name>XmlReader</name></member>
+      <member refid="class_ms_1_1_xml_reader_1adc02674841abc0acabd0a87676d345b0" prot="public" virt="non-virtual"><scope>Ms::XmlReader</scope><name>~XmlReader</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

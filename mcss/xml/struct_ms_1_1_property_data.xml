@@ -1,0 +1,57 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.17">
+  <compounddef id="struct_ms_1_1_property_data" kind="struct" language="C++" prot="public">
+    <compoundname>Ms::PropertyData</compoundname>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="struct_ms_1_1_property_data_1a72a52bf0dd6a482c4054f706dbf71b01" prot="public" static="no" mutable="no">
+        <type>Pid</type>
+        <definition>Pid Ms::PropertyData::id</definition>
+        <argsstring></argsstring>
+        <name>id</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/element.h" line="510" column="11" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/element.h" bodystart="510" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_ms_1_1_property_data_1a2b14fab45baef964783a0882f5dba812" prot="public" static="no" mutable="no">
+        <type>QVariant</type>
+        <definition>QVariant Ms::PropertyData::data</definition>
+        <argsstring></argsstring>
+        <name>data</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/element.h" line="511" column="16" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/element.h" bodystart="511" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_ms_1_1_property_data_1aadd1dd36bb7207ae63f625e88e87e5e7" prot="public" static="no" mutable="no">
+        <type>PropertyFlags</type>
+        <definition>PropertyFlags Ms::PropertyData::f</definition>
+        <argsstring></argsstring>
+        <name>f</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/element.h" line="512" column="21" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/element.h" bodystart="512" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/element.h" line="509" column="19" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/element.h" bodystart="509" bodyend="513"/>
+    <listofallmembers>
+      <member refid="struct_ms_1_1_property_data_1a2b14fab45baef964783a0882f5dba812" prot="public" virt="non-virtual"><scope>Ms::PropertyData</scope><name>data</name></member>
+      <member refid="struct_ms_1_1_property_data_1aadd1dd36bb7207ae63f625e88e87e5e7" prot="public" virt="non-virtual"><scope>Ms::PropertyData</scope><name>f</name></member>
+      <member refid="struct_ms_1_1_property_data_1a72a52bf0dd6a482c4054f706dbf71b01" prot="public" virt="non-virtual"><scope>Ms::PropertyData</scope><name>id</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

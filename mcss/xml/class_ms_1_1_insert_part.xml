@@ -1,0 +1,143 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.17">
+  <compounddef id="class_ms_1_1_insert_part" kind="class" language="C++" prot="public">
+    <compoundname>Ms::InsertPart</compoundname>
+    <basecompoundref refid="class_ms_1_1_undo_command" prot="public" virt="non-virtual">Ms::UndoCommand</basecompoundref>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_ms_1_1_insert_part_1ade44e385d68fd6d2520c154c04050d00" prot="private" static="no" mutable="no">
+        <type><ref refid="class_ms_1_1_part" kindref="compound">Part</ref> *</type>
+        <definition>Part* Ms::InsertPart::part</definition>
+        <argsstring></argsstring>
+        <name>part</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/undo.h" line="218" column="12" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/undo.h" bodystart="218" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_ms_1_1_insert_part_1af9828ffe2d4ce645997f0a76a2065b11" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int Ms::InsertPart::idx</definition>
+        <argsstring></argsstring>
+        <name>idx</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/undo.h" line="219" column="11" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/undo.h" bodystart="219" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_ms_1_1_insert_part_1ab7ff5af18408818ab56450a4803429d4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>Ms::InsertPart::InsertPart</definition>
+        <argsstring>(Part *p, int i)</argsstring>
+        <name>InsertPart</name>
+        <param>
+          <type><ref refid="class_ms_1_1_part" kindref="compound">Part</ref> *</type>
+          <declname>p</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>i</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/undo.h" line="222" column="7" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/undo.cpp" bodystart="946" bodyend="950"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ms_1_1_insert_part_1ad7ed6170c9aacab26ac01f612f80dd32" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void Ms::InsertPart::undo</definition>
+        <argsstring>(EditData *) override</argsstring>
+        <name>undo</name>
+        <reimplements refid="class_ms_1_1_undo_command_1a42a2038f903e77e6bb5881209b764186">undo</reimplements>
+        <param>
+          <type><ref refid="class_ms_1_1_edit_data" kindref="compound">EditData</ref> *</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/undo.h" line="223" column="20" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/undo.cpp" bodystart="952" bodyend="955"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ms_1_1_insert_part_1adcbf7e3aa8d3da3c7207bfbfa4bcb2a5" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void Ms::InsertPart::redo</definition>
+        <argsstring>(EditData *) override</argsstring>
+        <name>redo</name>
+        <reimplements refid="class_ms_1_1_undo_command_1a7fccbb0cf027a5e3b43176a5e0213f75">redo</reimplements>
+        <param>
+          <type><ref refid="class_ms_1_1_edit_data" kindref="compound">EditData</ref> *</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/undo.h" line="224" column="20" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/undo.cpp" bodystart="957" bodyend="960"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>Ms::InsertPart</label>
+        <link refid="class_ms_1_1_insert_part"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>Ms::UndoCommand</label>
+        <link refid="class_ms_1_1_undo_command"/>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>Ms::InsertPart</label>
+        <link refid="class_ms_1_1_insert_part"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>Ms::UndoCommand</label>
+        <link refid="class_ms_1_1_undo_command"/>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/undo.h" line="217" column="36" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/undo.h" bodystart="217" bodyend="226"/>
+    <listofallmembers>
+      <member refid="class_ms_1_1_undo_command_1a0f5b568325d235501e5cc197b7a4d4c8" prot="public" virt="non-virtual"><scope>Ms::InsertPart</scope><name>appendChild</name></member>
+      <member refid="class_ms_1_1_undo_command_1adbc9ce586560a1ca06f83bb38d04c4f0" prot="protected" virt="non-virtual"><scope>Ms::InsertPart</scope><name>appendChildren</name></member>
+      <member refid="class_ms_1_1_undo_command_1a701d710e19f4d356f2b12d093729d295" prot="public" virt="non-virtual"><scope>Ms::InsertPart</scope><name>childCount</name></member>
+      <member refid="class_ms_1_1_undo_command_1a0bbdf4bc79885d76228b155599fb46ce" prot="public" virt="virtual"><scope>Ms::InsertPart</scope><name>cleanup</name></member>
+      <member refid="class_ms_1_1_undo_command_1a4cdbb50e02a38b3c0b259e8bb6b58bca" prot="public" virt="non-virtual"><scope>Ms::InsertPart</scope><name>commands</name></member>
+      <member refid="class_ms_1_1_undo_command_1a7c3fae86b0c593d95eb2acf44348b425" prot="public" virt="non-virtual"><scope>Ms::InsertPart</scope><name>Filter</name></member>
+      <member refid="class_ms_1_1_undo_command_1a850e4c72c907bce1aed4b7d318ddf626" prot="public" virt="non-virtual"><scope>Ms::InsertPart</scope><name>filterChildren</name></member>
+      <member refid="class_ms_1_1_undo_command_1a861162fe6c105a00dfec5a5b70a690a5" prot="protected" virt="virtual"><scope>Ms::InsertPart</scope><name>flip</name></member>
+      <member refid="class_ms_1_1_undo_command_1a09b5c550fffd0dfe1e38490c7f0de8e4" prot="public" virt="non-virtual"><scope>Ms::InsertPart</scope><name>hasFilteredChildren</name></member>
+      <member refid="class_ms_1_1_undo_command_1a7131c9beb9c694ef3f0d8235f4e2892a" prot="public" virt="non-virtual"><scope>Ms::InsertPart</scope><name>hasUnfilteredChildren</name></member>
+      <member refid="class_ms_1_1_insert_part_1af9828ffe2d4ce645997f0a76a2065b11" prot="private" virt="non-virtual"><scope>Ms::InsertPart</scope><name>idx</name></member>
+      <member refid="class_ms_1_1_insert_part_1ab7ff5af18408818ab56450a4803429d4" prot="public" virt="non-virtual"><scope>Ms::InsertPart</scope><name>InsertPart</name></member>
+      <member refid="class_ms_1_1_undo_command_1a7e84d54e5b22eeeb9646c8a86fc2a0cb" prot="public" virt="virtual"><scope>Ms::InsertPart</scope><name>isFiltered</name></member>
+      <member refid="class_ms_1_1_undo_command_1acdd15da86ef5878bc98ef2be084cc4be" prot="public" virt="virtual"><scope>Ms::InsertPart</scope><name>name</name></member>
+      <member refid="class_ms_1_1_insert_part_1ade44e385d68fd6d2520c154c04050d00" prot="private" virt="non-virtual"><scope>Ms::InsertPart</scope><name>part</name></member>
+      <member refid="class_ms_1_1_insert_part_1adcbf7e3aa8d3da3c7207bfbfa4bcb2a5" prot="public" virt="virtual"><scope>Ms::InsertPart</scope><name>redo</name></member>
+      <member refid="class_ms_1_1_undo_command_1ad645cbed278b04cea2164006b52c4d8f" prot="public" virt="non-virtual"><scope>Ms::InsertPart</scope><name>removeChild</name></member>
+      <member refid="class_ms_1_1_insert_part_1ad7ed6170c9aacab26ac01f612f80dd32" prot="public" virt="virtual"><scope>Ms::InsertPart</scope><name>undo</name></member>
+      <member refid="class_ms_1_1_undo_command_1abc893037b5a33408c25552b8579debe4" prot="public" virt="non-virtual"><scope>Ms::InsertPart</scope><name>unwind</name></member>
+      <member refid="class_ms_1_1_undo_command_1ad4aec6e8dbb0e92bd2b8be2ebd79b9df" prot="public" virt="virtual"><scope>Ms::InsertPart</scope><name>~UndoCommand</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

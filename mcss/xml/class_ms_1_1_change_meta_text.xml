@@ -1,0 +1,146 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.17">
+  <compounddef id="class_ms_1_1_change_meta_text" kind="class" language="C++" prot="public">
+    <compoundname>Ms::ChangeMetaText</compoundname>
+    <basecompoundref refid="class_ms_1_1_undo_command" prot="public" virt="non-virtual">Ms::UndoCommand</basecompoundref>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_ms_1_1_change_meta_text_1a5e13fb4fffd1f4e6f5476cb7ac1aa74a" prot="private" static="no" mutable="no">
+        <type><ref refid="class_ms_1_1_score" kindref="compound">Score</ref> *</type>
+        <definition>Score* Ms::ChangeMetaText::score</definition>
+        <argsstring></argsstring>
+        <name>score</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/undo.h" line="1054" column="13" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/undo.h" bodystart="1054" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_ms_1_1_change_meta_text_1a40d5311477216350d8b7f0455cf525b9" prot="private" static="no" mutable="no">
+        <type>QString</type>
+        <definition>QString Ms::ChangeMetaText::id</definition>
+        <argsstring></argsstring>
+        <name>id</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/undo.h" line="1055" column="15" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/undo.h" bodystart="1055" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_ms_1_1_change_meta_text_1ad7a9f6451566d1d03149834f6d0fd854" prot="private" static="no" mutable="no">
+        <type>QString</type>
+        <definition>QString Ms::ChangeMetaText::text</definition>
+        <argsstring></argsstring>
+        <name>text</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/undo.h" line="1056" column="15" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/undo.h" bodystart="1056" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_ms_1_1_change_meta_text_1a0a226afe181406e9a45cf489508f0695" prot="private" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void Ms::ChangeMetaText::flip</definition>
+        <argsstring>(EditData *) override</argsstring>
+        <name>flip</name>
+        <reimplements refid="class_ms_1_1_undo_command_1a861162fe6c105a00dfec5a5b70a690a5">flip</reimplements>
+        <param>
+          <type><ref refid="class_ms_1_1_edit_data" kindref="compound">EditData</ref> *</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/undo.h" line="1058" column="12" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/undo.cpp" bodystart="2214" bodyend="2219"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_ms_1_1_change_meta_text_1abe6d69387a7257e57dd6c2167df2bada" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>Ms::ChangeMetaText::ChangeMetaText</definition>
+        <argsstring>(Score *s, const QString &amp;i, const QString &amp;t)</argsstring>
+        <name>ChangeMetaText</name>
+        <param>
+          <type><ref refid="class_ms_1_1_score" kindref="compound">Score</ref> *</type>
+          <declname>s</declname>
+        </param>
+        <param>
+          <type>const QString &amp;</type>
+          <declname>i</declname>
+        </param>
+        <param>
+          <type>const QString &amp;</type>
+          <declname>t</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/undo.h" line="1061" column="7" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/undo.h" bodystart="1061" bodyend="1061"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>Ms::ChangeMetaText</label>
+        <link refid="class_ms_1_1_change_meta_text"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>Ms::UndoCommand</label>
+        <link refid="class_ms_1_1_undo_command"/>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>Ms::ChangeMetaText</label>
+        <link refid="class_ms_1_1_change_meta_text"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>Ms::UndoCommand</label>
+        <link refid="class_ms_1_1_undo_command"/>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/undo.h" line="1053" column="40" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/undo.h" bodystart="1053" bodyend="1063"/>
+    <listofallmembers>
+      <member refid="class_ms_1_1_undo_command_1a0f5b568325d235501e5cc197b7a4d4c8" prot="public" virt="non-virtual"><scope>Ms::ChangeMetaText</scope><name>appendChild</name></member>
+      <member refid="class_ms_1_1_undo_command_1adbc9ce586560a1ca06f83bb38d04c4f0" prot="protected" virt="non-virtual"><scope>Ms::ChangeMetaText</scope><name>appendChildren</name></member>
+      <member refid="class_ms_1_1_change_meta_text_1abe6d69387a7257e57dd6c2167df2bada" prot="public" virt="non-virtual"><scope>Ms::ChangeMetaText</scope><name>ChangeMetaText</name></member>
+      <member refid="class_ms_1_1_undo_command_1a701d710e19f4d356f2b12d093729d295" prot="public" virt="non-virtual"><scope>Ms::ChangeMetaText</scope><name>childCount</name></member>
+      <member refid="class_ms_1_1_undo_command_1a0bbdf4bc79885d76228b155599fb46ce" prot="public" virt="virtual"><scope>Ms::ChangeMetaText</scope><name>cleanup</name></member>
+      <member refid="class_ms_1_1_undo_command_1a4cdbb50e02a38b3c0b259e8bb6b58bca" prot="public" virt="non-virtual"><scope>Ms::ChangeMetaText</scope><name>commands</name></member>
+      <member refid="class_ms_1_1_undo_command_1a7c3fae86b0c593d95eb2acf44348b425" prot="public" virt="non-virtual"><scope>Ms::ChangeMetaText</scope><name>Filter</name></member>
+      <member refid="class_ms_1_1_undo_command_1a850e4c72c907bce1aed4b7d318ddf626" prot="public" virt="non-virtual"><scope>Ms::ChangeMetaText</scope><name>filterChildren</name></member>
+      <member refid="class_ms_1_1_change_meta_text_1a0a226afe181406e9a45cf489508f0695" prot="private" virt="virtual"><scope>Ms::ChangeMetaText</scope><name>flip</name></member>
+      <member refid="class_ms_1_1_undo_command_1a09b5c550fffd0dfe1e38490c7f0de8e4" prot="public" virt="non-virtual"><scope>Ms::ChangeMetaText</scope><name>hasFilteredChildren</name></member>
+      <member refid="class_ms_1_1_undo_command_1a7131c9beb9c694ef3f0d8235f4e2892a" prot="public" virt="non-virtual"><scope>Ms::ChangeMetaText</scope><name>hasUnfilteredChildren</name></member>
+      <member refid="class_ms_1_1_change_meta_text_1a40d5311477216350d8b7f0455cf525b9" prot="private" virt="non-virtual"><scope>Ms::ChangeMetaText</scope><name>id</name></member>
+      <member refid="class_ms_1_1_undo_command_1a7e84d54e5b22eeeb9646c8a86fc2a0cb" prot="public" virt="virtual"><scope>Ms::ChangeMetaText</scope><name>isFiltered</name></member>
+      <member refid="class_ms_1_1_undo_command_1acdd15da86ef5878bc98ef2be084cc4be" prot="public" virt="virtual"><scope>Ms::ChangeMetaText</scope><name>name</name></member>
+      <member refid="class_ms_1_1_undo_command_1a7fccbb0cf027a5e3b43176a5e0213f75" prot="public" virt="virtual"><scope>Ms::ChangeMetaText</scope><name>redo</name></member>
+      <member refid="class_ms_1_1_undo_command_1ad645cbed278b04cea2164006b52c4d8f" prot="public" virt="non-virtual"><scope>Ms::ChangeMetaText</scope><name>removeChild</name></member>
+      <member refid="class_ms_1_1_change_meta_text_1a5e13fb4fffd1f4e6f5476cb7ac1aa74a" prot="private" virt="non-virtual"><scope>Ms::ChangeMetaText</scope><name>score</name></member>
+      <member refid="class_ms_1_1_change_meta_text_1ad7a9f6451566d1d03149834f6d0fd854" prot="private" virt="non-virtual"><scope>Ms::ChangeMetaText</scope><name>text</name></member>
+      <member refid="class_ms_1_1_undo_command_1a42a2038f903e77e6bb5881209b764186" prot="public" virt="virtual"><scope>Ms::ChangeMetaText</scope><name>undo</name></member>
+      <member refid="class_ms_1_1_undo_command_1abc893037b5a33408c25552b8579debe4" prot="public" virt="non-virtual"><scope>Ms::ChangeMetaText</scope><name>unwind</name></member>
+      <member refid="class_ms_1_1_undo_command_1ad4aec6e8dbb0e92bd2b8be2ebd79b9df" prot="public" virt="virtual"><scope>Ms::ChangeMetaText</scope><name>~UndoCommand</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,574 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.17">
+  <compounddef id="class_ms_1_1_text_cursor" kind="class" language="C++" prot="public">
+    <compoundname>Ms::TextCursor</compoundname>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_ms_1_1_text_cursor_1adb0c414ad691a33da35b19835c06ba1a" prot="private" static="no" mutable="no">
+        <type><ref refid="class_ms_1_1_text_base" kindref="compound">TextBase</ref> *</type>
+        <definition>TextBase* Ms::TextCursor::_text</definition>
+        <argsstring></argsstring>
+        <name>_text</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/textbase.h" line="103" column="21" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/textbase.h" bodystart="103" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_ms_1_1_text_cursor_1a52702883ff40d76ec4cee5d84d5442ab" prot="private" static="no" mutable="no">
+        <type><ref refid="class_ms_1_1_char_format" kindref="compound">CharFormat</ref></type>
+        <definition>CharFormat Ms::TextCursor::_format</definition>
+        <argsstring></argsstring>
+        <name>_format</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/textbase.h" line="104" column="18" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/textbase.h" bodystart="104" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_ms_1_1_text_cursor_1a870eef7e64759213f587525d58d2806a" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int Ms::TextCursor::_row</definition>
+        <argsstring></argsstring>
+        <name>_row</name>
+        <initializer>{ 0 }</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/textbase.h" line="105" column="11" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/textbase.h" bodystart="105" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_ms_1_1_text_cursor_1aa65145869b9ca67bbfa0b888d26ca68c" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int Ms::TextCursor::_column</definition>
+        <argsstring></argsstring>
+        <name>_column</name>
+        <initializer>{ 0 }</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/textbase.h" line="106" column="11" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/textbase.h" bodystart="106" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_ms_1_1_text_cursor_1af824409c28d2b072f627e41772e7b673" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int Ms::TextCursor::_selectLine</definition>
+        <argsstring></argsstring>
+        <name>_selectLine</name>
+        <initializer>{ 0 }</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/textbase.h" line="107" column="11" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/textbase.h" bodystart="107" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_ms_1_1_text_cursor_1a1a1763cc1e594288612d611ac2338ef7" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int Ms::TextCursor::_selectColumn</definition>
+        <argsstring></argsstring>
+        <name>_selectColumn</name>
+        <initializer>{ 0 }</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/textbase.h" line="108" column="11" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/textbase.h" bodystart="108" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_ms_1_1_text_cursor_1ad97a4c38f46c90a5d06a660604e04ced" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>Ms::TextCursor::TextCursor</definition>
+        <argsstring>(TextBase *t)</argsstring>
+        <name>TextCursor</name>
+        <param>
+          <type><ref refid="class_ms_1_1_text_base" kindref="compound">TextBase</ref> *</type>
+          <declname>t</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/textbase.h" line="111" column="7" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/textbase.h" bodystart="111" bodyend="111"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ms_1_1_text_cursor_1ad1d14fd7a7346c62439201b4c62907a2" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="class_ms_1_1_text_base" kindref="compound">TextBase</ref> *</type>
+        <definition>TextBase* Ms::TextCursor::text</definition>
+        <argsstring>() const</argsstring>
+        <name>text</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/textbase.h" line="113" column="16" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/textbase.h" bodystart="113" bodyend="113"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ms_1_1_text_cursor_1a689a455b1276a038b652f92cc4d80b06" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool Ms::TextCursor::hasSelection</definition>
+        <argsstring>() const</argsstring>
+        <name>hasSelection</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/textbase.h" line="114" column="12" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/textbase.h" bodystart="114" bodyend="114"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ms_1_1_text_cursor_1a03b2d0a6f86f9414226e693972eb11ed" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Ms::TextCursor::clearSelection</definition>
+        <argsstring>()</argsstring>
+        <name>clearSelection</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/textbase.h" line="115" column="12" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/textbase.cpp" bodystart="60" bodyend="64"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ms_1_1_text_cursor_1a4457e59ff1af87233fdd37aa845b58e9" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="class_ms_1_1_char_format" kindref="compound">CharFormat</ref> *</type>
+        <definition>CharFormat* Ms::TextCursor::format</definition>
+        <argsstring>()</argsstring>
+        <name>format</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/textbase.h" line="117" column="18" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/textbase.h" bodystart="117" bodyend="117"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ms_1_1_text_cursor_1aa49f92ccc5aa500d3f06045051d98134" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>const <ref refid="class_ms_1_1_char_format" kindref="compound">CharFormat</ref> *</type>
+        <definition>const CharFormat* Ms::TextCursor::format</definition>
+        <argsstring>() const</argsstring>
+        <name>format</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/textbase.h" line="118" column="24" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/textbase.h" bodystart="118" bodyend="118"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ms_1_1_text_cursor_1a8fd6f69f1a363f059267170c3c681246" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Ms::TextCursor::setFormat</definition>
+        <argsstring>(const CharFormat &amp;f)</argsstring>
+        <name>setFormat</name>
+        <param>
+          <type>const <ref refid="class_ms_1_1_char_format" kindref="compound">CharFormat</ref> &amp;</type>
+          <declname>f</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/textbase.h" line="119" column="12" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/textbase.h" bodystart="119" bodyend="119"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ms_1_1_text_cursor_1a8264409f4dfcc3b198e7d007a2ea82af" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>int</type>
+        <definition>int Ms::TextCursor::row</definition>
+        <argsstring>() const</argsstring>
+        <name>row</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/textbase.h" line="121" column="11" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/textbase.h" bodystart="121" bodyend="121"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ms_1_1_text_cursor_1adcdb0ff78191f3e18d04f5429b1d0f5c" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>int</type>
+        <definition>int Ms::TextCursor::column</definition>
+        <argsstring>() const</argsstring>
+        <name>column</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/textbase.h" line="122" column="11" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/textbase.h" bodystart="122" bodyend="122"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ms_1_1_text_cursor_1aa47dd277979294ee8134151d952fab7a" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>int</type>
+        <definition>int Ms::TextCursor::selectLine</definition>
+        <argsstring>() const</argsstring>
+        <name>selectLine</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/textbase.h" line="123" column="11" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/textbase.h" bodystart="123" bodyend="123"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ms_1_1_text_cursor_1ae621afd53e53d0d2cc82590ce61269fa" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>int</type>
+        <definition>int Ms::TextCursor::selectColumn</definition>
+        <argsstring>() const</argsstring>
+        <name>selectColumn</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/textbase.h" line="124" column="11" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/textbase.h" bodystart="124" bodyend="124"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ms_1_1_text_cursor_1ac94b0fc9a78c9232cd47bacbc358e9be" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Ms::TextCursor::setRow</definition>
+        <argsstring>(int val)</argsstring>
+        <name>setRow</name>
+        <param>
+          <type>int</type>
+          <declname>val</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/textbase.h" line="125" column="12" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/textbase.h" bodystart="125" bodyend="125"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ms_1_1_text_cursor_1a4f5a2a642c33b7418c0e465e65b7c6cf" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Ms::TextCursor::setColumn</definition>
+        <argsstring>(int val)</argsstring>
+        <name>setColumn</name>
+        <param>
+          <type>int</type>
+          <declname>val</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/textbase.h" line="126" column="12" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/textbase.h" bodystart="126" bodyend="126"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ms_1_1_text_cursor_1a8e968916dbacfdb7891886b82678bcfb" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Ms::TextCursor::setSelectLine</definition>
+        <argsstring>(int val)</argsstring>
+        <name>setSelectLine</name>
+        <param>
+          <type>int</type>
+          <declname>val</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/textbase.h" line="127" column="12" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/textbase.h" bodystart="127" bodyend="127"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ms_1_1_text_cursor_1aa07104935d291f364850ce21bc26ec7a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Ms::TextCursor::setSelectColumn</definition>
+        <argsstring>(int val)</argsstring>
+        <name>setSelectColumn</name>
+        <param>
+          <type>int</type>
+          <declname>val</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/textbase.h" line="128" column="12" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/textbase.h" bodystart="128" bodyend="128"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ms_1_1_text_cursor_1aad4a472132939bcdb0c73c7fc90cde7f" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int Ms::TextCursor::columns</definition>
+        <argsstring>() const</argsstring>
+        <name>columns</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/textbase.h" line="129" column="11" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/textbase.cpp" bodystart="83" bodyend="86"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ms_1_1_text_cursor_1addf5083394971122fa809ae7b6cf40a0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Ms::TextCursor::init</definition>
+        <argsstring>()</argsstring>
+        <name>init</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/textbase.h" line="130" column="12" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/textbase.cpp" bodystart="70" bodyend="77"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ms_1_1_text_cursor_1a5ee856984f9ac343b421b750435256e3" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="class_ms_1_1_text_block" kindref="compound">TextBlock</ref> &amp;</type>
+        <definition>TextBlock &amp; Ms::TextCursor::curLine</definition>
+        <argsstring>() const</argsstring>
+        <name>curLine</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/textbase.h" line="132" column="17" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/textbase.cpp" bodystart="138" bodyend="142"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ms_1_1_text_cursor_1a4edbcbcd5699b08957c2869c32af433e" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>QRectF</type>
+        <definition>QRectF Ms::TextCursor::cursorRect</definition>
+        <argsstring>() const</argsstring>
+        <name>cursorRect</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/textbase.h" line="133" column="14" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/textbase.cpp" bodystart="120" bodyend="131"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ms_1_1_text_cursor_1a439cb66d9dee88efcb7eac95d1d27278" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool Ms::TextCursor::movePosition</definition>
+        <argsstring>(QTextCursor::MoveOperation op, QTextCursor::MoveMode mode=QTextCursor::MoveAnchor, int count=1)</argsstring>
+        <name>movePosition</name>
+        <param>
+          <type>QTextCursor::MoveOperation</type>
+          <declname>op</declname>
+        </param>
+        <param>
+          <type>QTextCursor::MoveMode</type>
+          <declname>mode</declname>
+          <defval>QTextCursor::MoveAnchor</defval>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>count</declname>
+          <defval>1</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/textbase.h" line="134" column="12" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/textbase.cpp" bodystart="199" bodyend="329"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ms_1_1_text_cursor_1ae31d0417cfe8efd853b102c38543db5d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Ms::TextCursor::doubleClickSelect</definition>
+        <argsstring>()</argsstring>
+        <name>doubleClickSelect</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/textbase.h" line="135" column="12" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/textbase.cpp" bodystart="337" bodyend="362"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ms_1_1_text_cursor_1ab8424730fd4d7c926e0ca7f0020806ce" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Ms::TextCursor::moveCursorToEnd</definition>
+        <argsstring>()</argsstring>
+        <name>moveCursorToEnd</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/textbase.h" line="136" column="12" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/textbase.h" bodystart="136" bodyend="136"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ms_1_1_text_cursor_1ad1718e31a506c4eb068bc388ce3baf2d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Ms::TextCursor::moveCursorToStart</definition>
+        <argsstring>()</argsstring>
+        <name>moveCursorToStart</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/textbase.h" line="137" column="12" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/textbase.h" bodystart="137" bodyend="137"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ms_1_1_text_cursor_1a9c071cc868c3eed63e583375b78e16ec" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>QChar</type>
+        <definition>QChar Ms::TextCursor::currentCharacter</definition>
+        <argsstring>() const</argsstring>
+        <name>currentCharacter</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/textbase.h" line="138" column="13" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/textbase.cpp" bodystart="92" bodyend="99"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ms_1_1_text_cursor_1ad8409e8a8e642f285e45314bf874ac16" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool Ms::TextCursor::set</definition>
+        <argsstring>(const QPointF &amp;p, QTextCursor::MoveMode mode=QTextCursor::MoveAnchor)</argsstring>
+        <name>set</name>
+        <param>
+          <type>const QPointF &amp;</type>
+          <declname>p</declname>
+        </param>
+        <param>
+          <type>QTextCursor::MoveMode</type>
+          <declname>mode</declname>
+          <defval>QTextCursor::MoveAnchor</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/textbase.h" line="139" column="12" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/textbase.cpp" bodystart="368" bodyend="397"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ms_1_1_text_cursor_1a161e91c25d9d8f9ca32eb09088f64747" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>QString</type>
+        <definition>QString Ms::TextCursor::selectedText</definition>
+        <argsstring>() const</argsstring>
+        <name>selectedText</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/textbase.h" line="140" column="15" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/textbase.cpp" bodystart="404" bodyend="439"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ms_1_1_text_cursor_1a1e8b8c3ad319d812ef6d782e06a532a8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Ms::TextCursor::updateCursorFormat</definition>
+        <argsstring>()</argsstring>
+        <name>updateCursorFormat</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/textbase.h" line="141" column="12" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/textbase.cpp" bodystart="105" bodyend="114"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ms_1_1_text_cursor_1a1156d0d63e730d3c343b7ce7679efc1b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Ms::TextCursor::setFormat</definition>
+        <argsstring>(FormatId, QVariant)</argsstring>
+        <name>setFormat</name>
+        <param>
+          <type>FormatId</type>
+          <defname>id</defname>
+        </param>
+        <param>
+          <type>QVariant</type>
+          <defname>val</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/textbase.h" line="142" column="12" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/textbase.cpp" bodystart="188" bodyend="193"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ms_1_1_text_cursor_1a408a6304eb31a7ab848a6c3f6250ea45" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Ms::TextCursor::changeSelectionFormat</definition>
+        <argsstring>(FormatId id, QVariant val)</argsstring>
+        <name>changeSelectionFormat</name>
+        <param>
+          <type>FormatId</type>
+          <declname>id</declname>
+        </param>
+        <param>
+          <type>QVariant</type>
+          <declname>val</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/textbase.h" line="143" column="12" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/textbase.cpp" bodystart="148" bodyend="182"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/textbase.h" line="102" column="17" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/textbase.h" bodystart="102" bodyend="144"/>
+    <listofallmembers>
+      <member refid="class_ms_1_1_text_cursor_1aa65145869b9ca67bbfa0b888d26ca68c" prot="private" virt="non-virtual"><scope>Ms::TextCursor</scope><name>_column</name></member>
+      <member refid="class_ms_1_1_text_cursor_1a52702883ff40d76ec4cee5d84d5442ab" prot="private" virt="non-virtual"><scope>Ms::TextCursor</scope><name>_format</name></member>
+      <member refid="class_ms_1_1_text_cursor_1a870eef7e64759213f587525d58d2806a" prot="private" virt="non-virtual"><scope>Ms::TextCursor</scope><name>_row</name></member>
+      <member refid="class_ms_1_1_text_cursor_1a1a1763cc1e594288612d611ac2338ef7" prot="private" virt="non-virtual"><scope>Ms::TextCursor</scope><name>_selectColumn</name></member>
+      <member refid="class_ms_1_1_text_cursor_1af824409c28d2b072f627e41772e7b673" prot="private" virt="non-virtual"><scope>Ms::TextCursor</scope><name>_selectLine</name></member>
+      <member refid="class_ms_1_1_text_cursor_1adb0c414ad691a33da35b19835c06ba1a" prot="private" virt="non-virtual"><scope>Ms::TextCursor</scope><name>_text</name></member>
+      <member refid="class_ms_1_1_text_cursor_1a408a6304eb31a7ab848a6c3f6250ea45" prot="public" virt="non-virtual"><scope>Ms::TextCursor</scope><name>changeSelectionFormat</name></member>
+      <member refid="class_ms_1_1_text_cursor_1a03b2d0a6f86f9414226e693972eb11ed" prot="public" virt="non-virtual"><scope>Ms::TextCursor</scope><name>clearSelection</name></member>
+      <member refid="class_ms_1_1_text_cursor_1adcdb0ff78191f3e18d04f5429b1d0f5c" prot="public" virt="non-virtual"><scope>Ms::TextCursor</scope><name>column</name></member>
+      <member refid="class_ms_1_1_text_cursor_1aad4a472132939bcdb0c73c7fc90cde7f" prot="public" virt="non-virtual"><scope>Ms::TextCursor</scope><name>columns</name></member>
+      <member refid="class_ms_1_1_text_cursor_1a5ee856984f9ac343b421b750435256e3" prot="public" virt="non-virtual"><scope>Ms::TextCursor</scope><name>curLine</name></member>
+      <member refid="class_ms_1_1_text_cursor_1a9c071cc868c3eed63e583375b78e16ec" prot="public" virt="non-virtual"><scope>Ms::TextCursor</scope><name>currentCharacter</name></member>
+      <member refid="class_ms_1_1_text_cursor_1a4edbcbcd5699b08957c2869c32af433e" prot="public" virt="non-virtual"><scope>Ms::TextCursor</scope><name>cursorRect</name></member>
+      <member refid="class_ms_1_1_text_cursor_1ae31d0417cfe8efd853b102c38543db5d" prot="public" virt="non-virtual"><scope>Ms::TextCursor</scope><name>doubleClickSelect</name></member>
+      <member refid="class_ms_1_1_text_cursor_1a4457e59ff1af87233fdd37aa845b58e9" prot="public" virt="non-virtual"><scope>Ms::TextCursor</scope><name>format</name></member>
+      <member refid="class_ms_1_1_text_cursor_1aa49f92ccc5aa500d3f06045051d98134" prot="public" virt="non-virtual"><scope>Ms::TextCursor</scope><name>format</name></member>
+      <member refid="class_ms_1_1_text_cursor_1a689a455b1276a038b652f92cc4d80b06" prot="public" virt="non-virtual"><scope>Ms::TextCursor</scope><name>hasSelection</name></member>
+      <member refid="class_ms_1_1_text_cursor_1addf5083394971122fa809ae7b6cf40a0" prot="public" virt="non-virtual"><scope>Ms::TextCursor</scope><name>init</name></member>
+      <member refid="class_ms_1_1_text_cursor_1ab8424730fd4d7c926e0ca7f0020806ce" prot="public" virt="non-virtual"><scope>Ms::TextCursor</scope><name>moveCursorToEnd</name></member>
+      <member refid="class_ms_1_1_text_cursor_1ad1718e31a506c4eb068bc388ce3baf2d" prot="public" virt="non-virtual"><scope>Ms::TextCursor</scope><name>moveCursorToStart</name></member>
+      <member refid="class_ms_1_1_text_cursor_1a439cb66d9dee88efcb7eac95d1d27278" prot="public" virt="non-virtual"><scope>Ms::TextCursor</scope><name>movePosition</name></member>
+      <member refid="class_ms_1_1_text_cursor_1a8264409f4dfcc3b198e7d007a2ea82af" prot="public" virt="non-virtual"><scope>Ms::TextCursor</scope><name>row</name></member>
+      <member refid="class_ms_1_1_text_cursor_1ae621afd53e53d0d2cc82590ce61269fa" prot="public" virt="non-virtual"><scope>Ms::TextCursor</scope><name>selectColumn</name></member>
+      <member refid="class_ms_1_1_text_cursor_1a161e91c25d9d8f9ca32eb09088f64747" prot="public" virt="non-virtual"><scope>Ms::TextCursor</scope><name>selectedText</name></member>
+      <member refid="class_ms_1_1_text_cursor_1aa47dd277979294ee8134151d952fab7a" prot="public" virt="non-virtual"><scope>Ms::TextCursor</scope><name>selectLine</name></member>
+      <member refid="class_ms_1_1_text_cursor_1ad8409e8a8e642f285e45314bf874ac16" prot="public" virt="non-virtual"><scope>Ms::TextCursor</scope><name>set</name></member>
+      <member refid="class_ms_1_1_text_cursor_1a4f5a2a642c33b7418c0e465e65b7c6cf" prot="public" virt="non-virtual"><scope>Ms::TextCursor</scope><name>setColumn</name></member>
+      <member refid="class_ms_1_1_text_cursor_1a8fd6f69f1a363f059267170c3c681246" prot="public" virt="non-virtual"><scope>Ms::TextCursor</scope><name>setFormat</name></member>
+      <member refid="class_ms_1_1_text_cursor_1a1156d0d63e730d3c343b7ce7679efc1b" prot="public" virt="non-virtual"><scope>Ms::TextCursor</scope><name>setFormat</name></member>
+      <member refid="class_ms_1_1_text_cursor_1ac94b0fc9a78c9232cd47bacbc358e9be" prot="public" virt="non-virtual"><scope>Ms::TextCursor</scope><name>setRow</name></member>
+      <member refid="class_ms_1_1_text_cursor_1aa07104935d291f364850ce21bc26ec7a" prot="public" virt="non-virtual"><scope>Ms::TextCursor</scope><name>setSelectColumn</name></member>
+      <member refid="class_ms_1_1_text_cursor_1a8e968916dbacfdb7891886b82678bcfb" prot="public" virt="non-virtual"><scope>Ms::TextCursor</scope><name>setSelectLine</name></member>
+      <member refid="class_ms_1_1_text_cursor_1ad1d14fd7a7346c62439201b4c62907a2" prot="public" virt="non-virtual"><scope>Ms::TextCursor</scope><name>text</name></member>
+      <member refid="class_ms_1_1_text_cursor_1ad97a4c38f46c90a5d06a660604e04ced" prot="public" virt="non-virtual"><scope>Ms::TextCursor</scope><name>TextCursor</name></member>
+      <member refid="class_ms_1_1_text_cursor_1a1e8b8c3ad319d812ef6d782e06a532a8" prot="public" virt="non-virtual"><scope>Ms::TextCursor</scope><name>updateCursorFormat</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

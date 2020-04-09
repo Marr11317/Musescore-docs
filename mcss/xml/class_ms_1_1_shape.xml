@@ -1,0 +1,549 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.17">
+  <compounddef id="class_ms_1_1_shape" kind="class" language="C++" prot="public">
+    <compoundname>Ms::Shape</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">std::vector&lt; ShapeElement &gt;</basecompoundref>
+      <sectiondef kind="public-type">
+      <memberdef kind="enum" id="class_ms_1_1_shape_1ac4685ed835d615eb01d0e5ee6093be6c" prot="public" static="no" strong="no">
+        <type></type>
+        <name>HorizontalSpacingType</name>
+        <enumvalue id="class_ms_1_1_shape_1ac4685ed835d615eb01d0e5ee6093be6ca33a39bc3e14d74d001f9ddfc981a302e" prot="public">
+          <name>SPACING_GENERAL</name>
+          <initializer>= 0</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="class_ms_1_1_shape_1ac4685ed835d615eb01d0e5ee6093be6ca2588173bdbe3ddc3aff31d3d8458bd14" prot="public">
+          <name>SPACING_LYRICS</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="class_ms_1_1_shape_1ac4685ed835d615eb01d0e5ee6093be6ca7b7e2bb0aff7d6e804218fe1381da171" prot="public">
+          <name>SPACING_HARMONY</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/shape.h" line="45" column="33" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/shape.h" bodystart="45" bodyend="49"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_ms_1_1_shape_1a4e1305e4ad3c3c798d63a11ba3454867" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>Ms::Shape::Shape</definition>
+        <argsstring>()</argsstring>
+        <name>Shape</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/shape.h" line="51" column="7" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/shape.h" bodystart="51" bodyend="51"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ms_1_1_shape_1a624af5d0c441e7312943d5a44c7f25f4" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>Ms::Shape::Shape</definition>
+        <argsstring>(const QRectF &amp;r, const char *s=0)</argsstring>
+        <name>Shape</name>
+        <param>
+          <type>const QRectF &amp;</type>
+          <declname>r</declname>
+        </param>
+        <param>
+          <type>const char *</type>
+          <declname>s</declname>
+          <defval>0</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/shape.h" line="53" column="7" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/shape.h" bodystart="53" bodyend="53"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ms_1_1_shape_1aaf147d607f2bf5e6fc8a6ed1cb019ef7" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Ms::Shape::add</definition>
+        <argsstring>(const Shape &amp;s)</argsstring>
+        <name>add</name>
+        <param>
+          <type>const <ref refid="class_ms_1_1_shape" kindref="compound">Shape</ref> &amp;</type>
+          <declname>s</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/shape.h" line="57" column="12" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/shape.h" bodystart="57" bodyend="57"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ms_1_1_shape_1a3ad367597a4eceaf6ce949adbf0e32dc" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Ms::Shape::add</definition>
+        <argsstring>(const QRectF &amp;r, const char *t=0)</argsstring>
+        <name>add</name>
+        <param>
+          <type>const QRectF &amp;</type>
+          <declname>r</declname>
+        </param>
+        <param>
+          <type>const char *</type>
+          <declname>t</declname>
+          <defval>0</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/shape.h" line="59" column="12" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/shape.cpp" bodystart="310" bodyend="313"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ms_1_1_shape_1aec371e074141d165e014fa671a34bec8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Ms::Shape::remove</definition>
+        <argsstring>(const QRectF &amp;)</argsstring>
+        <name>remove</name>
+        <param>
+          <type>const QRectF &amp;</type>
+          <defname>r</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/shape.h" line="63" column="12" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/shape.cpp" bodystart="221" bodyend="231"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ms_1_1_shape_1ab56e92489024c20457b7963295895dcc" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Ms::Shape::remove</definition>
+        <argsstring>(const Shape &amp;)</argsstring>
+        <name>remove</name>
+        <param>
+          <type>const <ref refid="class_ms_1_1_shape" kindref="compound">Shape</ref> &amp;</type>
+          <defname>s</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/shape.h" line="64" column="12" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/shape.cpp" bodystart="233" bodyend="237"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ms_1_1_shape_1a13e2bf27745a27442dae0382fcfd9197" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Ms::Shape::addHorizontalSpacing</definition>
+        <argsstring>(HorizontalSpacingType type, qreal left, qreal right)</argsstring>
+        <name>addHorizontalSpacing</name>
+        <param>
+          <type>HorizontalSpacingType</type>
+          <declname>type</declname>
+        </param>
+        <param>
+          <type>qreal</type>
+          <declname>left</declname>
+        </param>
+        <param>
+          <type>qreal</type>
+          <declname>right</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/shape.h" line="66" column="12" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/shape.cpp" bodystart="25" bodyend="32"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ms_1_1_shape_1a68602b449079621b10afecdaea3cbe60" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Ms::Shape::translate</definition>
+        <argsstring>(const QPointF &amp;)</argsstring>
+        <name>translate</name>
+        <param>
+          <type>const QPointF &amp;</type>
+          <defname>pt</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/shape.h" line="68" column="12" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/shape.cpp" bodystart="38" bodyend="42"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ms_1_1_shape_1a8448d34c6c1fd67f63143479b8d0b178" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Ms::Shape::translateX</definition>
+        <argsstring>(qreal)</argsstring>
+        <name>translateX</name>
+        <param>
+          <type>qreal</type>
+          <defname>xo</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/shape.h" line="69" column="12" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/shape.cpp" bodystart="44" bodyend="50"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ms_1_1_shape_1ab992d358f5dc0561ec350d7576f9c96a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Ms::Shape::translateY</definition>
+        <argsstring>(qreal)</argsstring>
+        <name>translateY</name>
+        <param>
+          <type>qreal</type>
+          <defname>yo</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/shape.h" line="70" column="12" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/shape.cpp" bodystart="51" bodyend="57"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ms_1_1_shape_1a51535d0e5b819152b44f47f98925e1e7" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="class_ms_1_1_shape" kindref="compound">Shape</ref></type>
+        <definition>Shape Ms::Shape::translated</definition>
+        <argsstring>(const QPointF &amp;) const</argsstring>
+        <name>translated</name>
+        <param>
+          <type>const QPointF &amp;</type>
+          <defname>pt</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/shape.h" line="71" column="13" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/shape.cpp" bodystart="63" bodyend="73"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ms_1_1_shape_1a159413b243aff63b765b2a0aebde7f36" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>qreal</type>
+        <definition>qreal Ms::Shape::minHorizontalDistance</definition>
+        <argsstring>(const Shape &amp;) const</argsstring>
+        <name>minHorizontalDistance</name>
+        <param>
+          <type>const <ref refid="class_ms_1_1_shape" kindref="compound">Shape</ref> &amp;</type>
+          <defname>a</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/shape.h" line="73" column="13" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/shape.cpp" bodystart="82" bodyend="98"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ms_1_1_shape_1a317e21df057a3f52374e2ae9c487c361" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>qreal</type>
+        <definition>qreal Ms::Shape::minVerticalDistance</definition>
+        <argsstring>(const Shape &amp;) const</argsstring>
+        <name>minVerticalDistance</name>
+        <param>
+          <type>const <ref refid="class_ms_1_1_shape" kindref="compound">Shape</ref> &amp;</type>
+          <defname>a</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/shape.h" line="74" column="13" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/shape.cpp" bodystart="106" bodyend="124"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ms_1_1_shape_1a63c6f501d701f77b9b07cf43ad71a1be" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>qreal</type>
+        <definition>qreal Ms::Shape::topDistance</definition>
+        <argsstring>(const QPointF &amp;) const</argsstring>
+        <name>topDistance</name>
+        <param>
+          <type>const QPointF &amp;</type>
+          <defname>p</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/shape.h" line="75" column="13" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/shape.cpp" bodystart="191" bodyend="199"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ms_1_1_shape_1ae213f269a5b776c7b4d831bbe6ae67f5" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>qreal</type>
+        <definition>qreal Ms::Shape::bottomDistance</definition>
+        <argsstring>(const QPointF &amp;) const</argsstring>
+        <name>bottomDistance</name>
+        <param>
+          <type>const QPointF &amp;</type>
+          <defname>p</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/shape.h" line="76" column="13" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/shape.cpp" bodystart="207" bodyend="215"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ms_1_1_shape_1a277958ebd3d7acd75f428ab75071568a" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>qreal</type>
+        <definition>qreal Ms::Shape::left</definition>
+        <argsstring>() const</argsstring>
+        <name>left</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/shape.h" line="77" column="13" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/shape.cpp" bodystart="131" bodyend="140"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ms_1_1_shape_1a2bcfd20f6873a977e11fcd078f9d6ea3" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>qreal</type>
+        <definition>qreal Ms::Shape::right</definition>
+        <argsstring>() const</argsstring>
+        <name>right</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/shape.h" line="78" column="13" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/shape.cpp" bodystart="147" bodyend="155"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ms_1_1_shape_1abfab9c37e26f80c54532642f8106c788" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>qreal</type>
+        <definition>qreal Ms::Shape::top</definition>
+        <argsstring>() const</argsstring>
+        <name>top</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/shape.h" line="79" column="13" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/shape.cpp" bodystart="161" bodyend="169"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ms_1_1_shape_1ab9fdef0f0d375caf55c4f02d40e2bc92" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>qreal</type>
+        <definition>qreal Ms::Shape::bottom</definition>
+        <argsstring>() const</argsstring>
+        <name>bottom</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/shape.h" line="80" column="13" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/shape.cpp" bodystart="175" bodyend="183"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ms_1_1_shape_1aac6aacacd518f0ee56354a14aa354f64" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>size_t</type>
+        <definition>size_t Ms::Shape::size</definition>
+        <argsstring>() const</argsstring>
+        <name>size</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/shape.h" line="82" column="14" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/shape.h" bodystart="82" bodyend="82"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ms_1_1_shape_1a575e43623b8dc7913ba31b1bbf1d78b5" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool Ms::Shape::empty</definition>
+        <argsstring>() const</argsstring>
+        <name>empty</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/shape.h" line="83" column="12" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/shape.h" bodystart="83" bodyend="83"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ms_1_1_shape_1ad064c4dfda3cbc7434355a26d88f763d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Ms::Shape::clear</definition>
+        <argsstring>()</argsstring>
+        <name>clear</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/shape.h" line="84" column="12" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/shape.h" bodystart="84" bodyend="84"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ms_1_1_shape_1a3701cd44981246acfa15ca202c641725" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool Ms::Shape::contains</definition>
+        <argsstring>(const QPointF &amp;) const</argsstring>
+        <name>contains</name>
+        <param>
+          <type>const QPointF &amp;</type>
+          <defname>p</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/shape.h" line="86" column="12" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/shape.cpp" bodystart="243" bodyend="250"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ms_1_1_shape_1aae937632bf13592c1c4e9138083cdea8" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool Ms::Shape::intersects</definition>
+        <argsstring>(const QRectF &amp;rr) const</argsstring>
+        <name>intersects</name>
+        <param>
+          <type>const QRectF &amp;</type>
+          <declname>rr</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/shape.h" line="87" column="12" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/shape.cpp" bodystart="256" bodyend="263"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ms_1_1_shape_1add6f5c6a2a8ef7821df8181515ef135b" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool Ms::Shape::intersects</definition>
+        <argsstring>(const Shape &amp;) const</argsstring>
+        <name>intersects</name>
+        <param>
+          <type>const <ref refid="class_ms_1_1_shape" kindref="compound">Shape</ref> &amp;</type>
+          <defname>other</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/shape.h" line="88" column="12" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/shape.cpp" bodystart="269" bodyend="276"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ms_1_1_shape_1af605f5193bfe217ac0305a749fade8ff" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Ms::Shape::paint</definition>
+        <argsstring>(QPainter &amp;) const</argsstring>
+        <name>paint</name>
+        <param>
+          <type>QPainter &amp;</type>
+          <defname>p</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/shape.h" line="89" column="12" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/shape.cpp" bodystart="282" bodyend="286"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ms_1_1_shape_1a671d979016848030c31797144e191872" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Ms::Shape::dump</definition>
+        <argsstring>(const char *) const</argsstring>
+        <name>dump</name>
+        <param>
+          <type>const char *</type>
+          <defname>p</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/shape.h" line="92" column="12" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/shape.cpp" bodystart="293" bodyend="299"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>std::vector&lt; ShapeElement &gt;</label>
+      </node>
+      <node id="1">
+        <label>Ms::Shape</label>
+        <link refid="class_ms_1_1_shape"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>std::vector&lt; ShapeElement &gt;</label>
+      </node>
+      <node id="1">
+        <label>Ms::Shape</label>
+        <link refid="class_ms_1_1_shape"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/shape.h" line="42" column="32" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/shape.h" bodystart="42" bodyend="94"/>
+    <listofallmembers>
+      <member refid="class_ms_1_1_shape_1aaf147d607f2bf5e6fc8a6ed1cb019ef7" prot="public" virt="non-virtual"><scope>Ms::Shape</scope><name>add</name></member>
+      <member refid="class_ms_1_1_shape_1a3ad367597a4eceaf6ce949adbf0e32dc" prot="public" virt="non-virtual"><scope>Ms::Shape</scope><name>add</name></member>
+      <member refid="class_ms_1_1_shape_1a13e2bf27745a27442dae0382fcfd9197" prot="public" virt="non-virtual"><scope>Ms::Shape</scope><name>addHorizontalSpacing</name></member>
+      <member refid="class_ms_1_1_shape_1ab9fdef0f0d375caf55c4f02d40e2bc92" prot="public" virt="non-virtual"><scope>Ms::Shape</scope><name>bottom</name></member>
+      <member refid="class_ms_1_1_shape_1ae213f269a5b776c7b4d831bbe6ae67f5" prot="public" virt="non-virtual"><scope>Ms::Shape</scope><name>bottomDistance</name></member>
+      <member refid="class_ms_1_1_shape_1ad064c4dfda3cbc7434355a26d88f763d" prot="public" virt="non-virtual"><scope>Ms::Shape</scope><name>clear</name></member>
+      <member refid="class_ms_1_1_shape_1a3701cd44981246acfa15ca202c641725" prot="public" virt="non-virtual"><scope>Ms::Shape</scope><name>contains</name></member>
+      <member refid="class_ms_1_1_shape_1a671d979016848030c31797144e191872" prot="public" virt="non-virtual"><scope>Ms::Shape</scope><name>dump</name></member>
+      <member refid="class_ms_1_1_shape_1a575e43623b8dc7913ba31b1bbf1d78b5" prot="public" virt="non-virtual"><scope>Ms::Shape</scope><name>empty</name></member>
+      <member refid="class_ms_1_1_shape_1ac4685ed835d615eb01d0e5ee6093be6c" prot="public" virt="non-virtual"><scope>Ms::Shape</scope><name>HorizontalSpacingType</name></member>
+      <member refid="class_ms_1_1_shape_1aae937632bf13592c1c4e9138083cdea8" prot="public" virt="non-virtual"><scope>Ms::Shape</scope><name>intersects</name></member>
+      <member refid="class_ms_1_1_shape_1add6f5c6a2a8ef7821df8181515ef135b" prot="public" virt="non-virtual"><scope>Ms::Shape</scope><name>intersects</name></member>
+      <member refid="class_ms_1_1_shape_1a277958ebd3d7acd75f428ab75071568a" prot="public" virt="non-virtual"><scope>Ms::Shape</scope><name>left</name></member>
+      <member refid="class_ms_1_1_shape_1a159413b243aff63b765b2a0aebde7f36" prot="public" virt="non-virtual"><scope>Ms::Shape</scope><name>minHorizontalDistance</name></member>
+      <member refid="class_ms_1_1_shape_1a317e21df057a3f52374e2ae9c487c361" prot="public" virt="non-virtual"><scope>Ms::Shape</scope><name>minVerticalDistance</name></member>
+      <member refid="class_ms_1_1_shape_1af605f5193bfe217ac0305a749fade8ff" prot="public" virt="non-virtual"><scope>Ms::Shape</scope><name>paint</name></member>
+      <member refid="class_ms_1_1_shape_1aec371e074141d165e014fa671a34bec8" prot="public" virt="non-virtual"><scope>Ms::Shape</scope><name>remove</name></member>
+      <member refid="class_ms_1_1_shape_1ab56e92489024c20457b7963295895dcc" prot="public" virt="non-virtual"><scope>Ms::Shape</scope><name>remove</name></member>
+      <member refid="class_ms_1_1_shape_1a2bcfd20f6873a977e11fcd078f9d6ea3" prot="public" virt="non-virtual"><scope>Ms::Shape</scope><name>right</name></member>
+      <member refid="class_ms_1_1_shape_1a4e1305e4ad3c3c798d63a11ba3454867" prot="public" virt="non-virtual"><scope>Ms::Shape</scope><name>Shape</name></member>
+      <member refid="class_ms_1_1_shape_1a624af5d0c441e7312943d5a44c7f25f4" prot="public" virt="non-virtual"><scope>Ms::Shape</scope><name>Shape</name></member>
+      <member refid="class_ms_1_1_shape_1aac6aacacd518f0ee56354a14aa354f64" prot="public" virt="non-virtual"><scope>Ms::Shape</scope><name>size</name></member>
+      <member refid="class_ms_1_1_shape_1ac4685ed835d615eb01d0e5ee6093be6ca33a39bc3e14d74d001f9ddfc981a302e" prot="public" virt="non-virtual"><scope>Ms::Shape</scope><name>SPACING_GENERAL</name></member>
+      <member refid="class_ms_1_1_shape_1ac4685ed835d615eb01d0e5ee6093be6ca7b7e2bb0aff7d6e804218fe1381da171" prot="public" virt="non-virtual"><scope>Ms::Shape</scope><name>SPACING_HARMONY</name></member>
+      <member refid="class_ms_1_1_shape_1ac4685ed835d615eb01d0e5ee6093be6ca2588173bdbe3ddc3aff31d3d8458bd14" prot="public" virt="non-virtual"><scope>Ms::Shape</scope><name>SPACING_LYRICS</name></member>
+      <member refid="class_ms_1_1_shape_1abfab9c37e26f80c54532642f8106c788" prot="public" virt="non-virtual"><scope>Ms::Shape</scope><name>top</name></member>
+      <member refid="class_ms_1_1_shape_1a63c6f501d701f77b9b07cf43ad71a1be" prot="public" virt="non-virtual"><scope>Ms::Shape</scope><name>topDistance</name></member>
+      <member refid="class_ms_1_1_shape_1a68602b449079621b10afecdaea3cbe60" prot="public" virt="non-virtual"><scope>Ms::Shape</scope><name>translate</name></member>
+      <member refid="class_ms_1_1_shape_1a51535d0e5b819152b44f47f98925e1e7" prot="public" virt="non-virtual"><scope>Ms::Shape</scope><name>translated</name></member>
+      <member refid="class_ms_1_1_shape_1a8448d34c6c1fd67f63143479b8d0b178" prot="public" virt="non-virtual"><scope>Ms::Shape</scope><name>translateX</name></member>
+      <member refid="class_ms_1_1_shape_1ab992d358f5dc0561ec350d7576f9c96a" prot="public" virt="non-virtual"><scope>Ms::Shape</scope><name>translateY</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

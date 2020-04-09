@@ -1,0 +1,464 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.17">
+  <compounddef id="class_ms_1_1_chord_list" kind="class" language="C++" prot="public">
+    <compoundname>Ms::ChordList</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">QMap&lt; int, ChordDescription &gt;</basecompoundref>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_ms_1_1_chord_list_1a1664b5e3a1d11d4c4fd1a9f84ceaa9f1" prot="private" static="no" mutable="no">
+        <type>QMap&lt; QString, <ref refid="struct_ms_1_1_chord_symbol" kindref="compound">ChordSymbol</ref> &gt;</type>
+        <definition>QMap&lt;QString, ChordSymbol&gt; Ms::ChordList::symbols</definition>
+        <argsstring></argsstring>
+        <name>symbols</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/chordlist.h" line="232" column="12" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/chordlist.h" bodystart="232" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_ms_1_1_chord_list_1a58d59027f32e5d9e89b1ad3f05cd6f25" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool Ms::ChordList::_autoAdjust</definition>
+        <argsstring></argsstring>
+        <name>_autoAdjust</name>
+        <initializer>= false</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/chordlist.h" line="233" column="12" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/chordlist.h" bodystart="233" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_ms_1_1_chord_list_1a8243cf99c03545cc08a0b0b4367685f9" prot="private" static="no" mutable="no">
+        <type>qreal</type>
+        <definition>qreal Ms::ChordList::_nmag</definition>
+        <argsstring></argsstring>
+        <name>_nmag</name>
+        <initializer>= 1.0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/chordlist.h" line="234" column="13" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/chordlist.h" bodystart="234" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_ms_1_1_chord_list_1a1dfd2ea951588ea20a3cd09a2380f6e4" prot="private" static="no" mutable="no">
+        <type>qreal</type>
+        <definition>qreal Ms::ChordList::_nadjust</definition>
+        <argsstring></argsstring>
+        <name>_nadjust</name>
+        <initializer>= 0.0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/chordlist.h" line="234" column="20" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/chordlist.h" bodystart="234" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_ms_1_1_chord_list_1a1d7bd01c8658c9fc091fbc93e9e2d0dd" prot="private" static="no" mutable="no">
+        <type>qreal</type>
+        <definition>qreal Ms::ChordList::_emag</definition>
+        <argsstring></argsstring>
+        <name>_emag</name>
+        <initializer>= 1.0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/chordlist.h" line="235" column="13" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/chordlist.h" bodystart="235" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_ms_1_1_chord_list_1a77d0bbedbff149ce773a24af2c86a661" prot="private" static="no" mutable="no">
+        <type>qreal</type>
+        <definition>qreal Ms::ChordList::_eadjust</definition>
+        <argsstring></argsstring>
+        <name>_eadjust</name>
+        <initializer>= 0.0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/chordlist.h" line="235" column="20" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/chordlist.h" bodystart="235" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_ms_1_1_chord_list_1a89d5b00f9b8edede859ddbcee9c899ec" prot="private" static="no" mutable="no">
+        <type>qreal</type>
+        <definition>qreal Ms::ChordList::_mmag</definition>
+        <argsstring></argsstring>
+        <name>_mmag</name>
+        <initializer>= 1.0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/chordlist.h" line="236" column="13" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/chordlist.h" bodystart="236" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_ms_1_1_chord_list_1a5b0cbc824ebac1164d83e6e2e75477b5" prot="private" static="no" mutable="no">
+        <type>qreal</type>
+        <definition>qreal Ms::ChordList::_madjust</definition>
+        <argsstring></argsstring>
+        <name>_madjust</name>
+        <initializer>= 0.0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/chordlist.h" line="236" column="20" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/chordlist.h" bodystart="236" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_ms_1_1_chord_list_1a4b9a1163f99f31a7b1b8137fd83bbe2d" prot="public" static="no" mutable="no">
+        <type>QList&lt; <ref refid="struct_ms_1_1_chord_font" kindref="compound">ChordFont</ref> &gt;</type>
+        <definition>QList&lt;ChordFont&gt; Ms::ChordList::fonts</definition>
+        <argsstring></argsstring>
+        <name>fonts</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/chordlist.h" line="239" column="13" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/chordlist.h" bodystart="239" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_ms_1_1_chord_list_1ae2587931a4beac56ffdd175382f6dd72" prot="public" static="no" mutable="no">
+        <type>QList&lt; <ref refid="struct_ms_1_1_render_action" kindref="compound">RenderAction</ref> &gt;</type>
+        <definition>QList&lt;RenderAction&gt; Ms::ChordList::renderListRoot</definition>
+        <argsstring></argsstring>
+        <name>renderListRoot</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/chordlist.h" line="240" column="13" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/chordlist.h" bodystart="240" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_ms_1_1_chord_list_1a0cacfb55f167c64751b78655cc7e0bd0" prot="public" static="no" mutable="no">
+        <type>QList&lt; <ref refid="struct_ms_1_1_render_action" kindref="compound">RenderAction</ref> &gt;</type>
+        <definition>QList&lt;RenderAction&gt; Ms::ChordList::renderListFunction</definition>
+        <argsstring></argsstring>
+        <name>renderListFunction</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/chordlist.h" line="241" column="13" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/chordlist.h" bodystart="241" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_ms_1_1_chord_list_1afa63dc61c1f29b5844addf815ec73867" prot="public" static="no" mutable="no">
+        <type>QList&lt; <ref refid="struct_ms_1_1_render_action" kindref="compound">RenderAction</ref> &gt;</type>
+        <definition>QList&lt;RenderAction&gt; Ms::ChordList::renderListBase</definition>
+        <argsstring></argsstring>
+        <name>renderListBase</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/chordlist.h" line="242" column="13" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/chordlist.h" bodystart="242" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_ms_1_1_chord_list_1ac4e402d4d569f47b3b7597f08fb0353e" prot="public" static="no" mutable="no">
+        <type>QList&lt; <ref refid="class_ms_1_1_chord_token" kindref="compound">ChordToken</ref> &gt;</type>
+        <definition>QList&lt;ChordToken&gt; Ms::ChordList::chordTokenList</definition>
+        <argsstring></argsstring>
+        <name>chordTokenList</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/chordlist.h" line="243" column="13" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/chordlist.h" bodystart="243" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-static-attrib">
+      <memberdef kind="variable" id="class_ms_1_1_chord_list_1a83ba4d8b0cb17f087decaa76f7b0947b" prot="public" static="yes" mutable="no">
+        <type>int</type>
+        <definition>int Ms::ChordList::privateID</definition>
+        <argsstring></argsstring>
+        <name>privateID</name>
+        <initializer>= -1000</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/chordlist.h" line="244" column="18" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/chordlist.h" bodystart="244" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_ms_1_1_chord_list_1a4b36fa8f52c71712a6d0ae2b8e892aa3" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool Ms::ChordList::autoAdjust</definition>
+        <argsstring>() const</argsstring>
+        <name>autoAdjust</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/chordlist.h" line="246" column="12" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/chordlist.h" bodystart="246" bodyend="246"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ms_1_1_chord_list_1a74fdded2af370f9ce7c564a73845c342" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>qreal</type>
+        <definition>qreal Ms::ChordList::nominalMag</definition>
+        <argsstring>() const</argsstring>
+        <name>nominalMag</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/chordlist.h" line="247" column="13" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/chordlist.h" bodystart="247" bodyend="247"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ms_1_1_chord_list_1a616986beba0c889488ab9f860fce0806" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>qreal</type>
+        <definition>qreal Ms::ChordList::nominalAdjust</definition>
+        <argsstring>() const</argsstring>
+        <name>nominalAdjust</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/chordlist.h" line="248" column="13" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/chordlist.h" bodystart="248" bodyend="248"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ms_1_1_chord_list_1a7d6a4577a394cf152af70da6ee53e053" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Ms::ChordList::configureAutoAdjust</definition>
+        <argsstring>(qreal emag=1.0, qreal eadjust=0.0, qreal mmag=1.0, qreal madjust=0.0)</argsstring>
+        <name>configureAutoAdjust</name>
+        <param>
+          <type>qreal</type>
+          <declname>emag</declname>
+          <defval>1.0</defval>
+        </param>
+        <param>
+          <type>qreal</type>
+          <declname>eadjust</declname>
+          <defval>0.0</defval>
+        </param>
+        <param>
+          <type>qreal</type>
+          <declname>mmag</declname>
+          <defval>1.0</defval>
+        </param>
+        <param>
+          <type>qreal</type>
+          <declname>madjust</declname>
+          <defval>0.0</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/chordlist.h" line="249" column="12" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/chordlist.cpp" bodystart="1624" bodyend="1642"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ms_1_1_chord_list_1afcaa1d7997c06465eec3df3c818cde8a" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>qreal</type>
+        <definition>qreal Ms::ChordList::position</definition>
+        <argsstring>(const QStringList &amp;names, ChordTokenClass ctc) const</argsstring>
+        <name>position</name>
+        <param>
+          <type>const QStringList &amp;</type>
+          <declname>names</declname>
+        </param>
+        <param>
+          <type>ChordTokenClass</type>
+          <declname>ctc</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/chordlist.h" line="250" column="13" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/chordlist.cpp" bodystart="1388" bodyend="1407"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ms_1_1_chord_list_1aa560d8927689be2f58ad549266118b76" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Ms::ChordList::write</definition>
+        <argsstring>(XmlWriter &amp;xml) const</argsstring>
+        <name>write</name>
+        <param>
+          <type><ref refid="class_ms_1_1_xml_writer" kindref="compound">XmlWriter</ref> &amp;</type>
+          <declname>xml</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/chordlist.h" line="252" column="12" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/chordlist.cpp" bodystart="1758" bodyend="1787"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ms_1_1_chord_list_1a694a93f0c0acba0290a1bb9a8a28d580" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Ms::ChordList::read</definition>
+        <argsstring>(XmlReader &amp;)</argsstring>
+        <name>read</name>
+        <param>
+          <type><ref refid="class_ms_1_1_xml_reader" kindref="compound">XmlReader</ref> &amp;</type>
+          <defname>e</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/chordlist.h" line="253" column="12" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/chordlist.cpp" bodystart="1648" bodyend="1752"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ms_1_1_chord_list_1a1c0af6e6a8c71f3ac5d8a0c71ad56265" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool Ms::ChordList::read</definition>
+        <argsstring>(const QString &amp;)</argsstring>
+        <name>read</name>
+        <param>
+          <type>const QString &amp;</type>
+          <defname>name</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/chordlist.h" line="254" column="12" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/chordlist.cpp" bodystart="1794" bodyend="1841"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ms_1_1_chord_list_1a52944b269b87143ddce61e9d3af65261" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool Ms::ChordList::write</definition>
+        <argsstring>(const QString &amp;) const</argsstring>
+        <name>write</name>
+        <param>
+          <type>const QString &amp;</type>
+          <defname>name</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/chordlist.h" line="255" column="12" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/chordlist.cpp" bodystart="1847" bodyend="1874"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ms_1_1_chord_list_1a68c1ddd64fcb28a3c2ed8cb7d5256491" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool Ms::ChordList::loaded</definition>
+        <argsstring>() const</argsstring>
+        <name>loaded</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/chordlist.h" line="256" column="12" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/chordlist.cpp" bodystart="1880" bodyend="1887"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ms_1_1_chord_list_1ad564d20f0749fd88446f9c1c8174be26" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Ms::ChordList::unload</definition>
+        <argsstring>()</argsstring>
+        <name>unload</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/chordlist.h" line="257" column="12" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/chordlist.cpp" bodystart="1893" bodyend="1902"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ms_1_1_chord_list_1ac93e9e2b6a2b5222a5fe901f62231ad1" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="struct_ms_1_1_chord_symbol" kindref="compound">ChordSymbol</ref></type>
+        <definition>ChordSymbol Ms::ChordList::symbol</definition>
+        <argsstring>(const QString &amp;s) const</argsstring>
+        <name>symbol</name>
+        <param>
+          <type>const QString &amp;</type>
+          <declname>s</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/chordlist.h" line="258" column="19" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/chordlist.h" bodystart="258" bodyend="258"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>Ms::ChordList</label>
+        <link refid="class_ms_1_1_chord_list"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>QMap&lt; int, ChordDescription &gt;</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>Ms::ChordList</label>
+        <link refid="class_ms_1_1_chord_list"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>QMap&lt; int, ChordDescription &gt;</label>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/chordlist.h" line="231" column="30" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/chordlist.h" bodystart="231" bodyend="259"/>
+    <listofallmembers>
+      <member refid="class_ms_1_1_chord_list_1a58d59027f32e5d9e89b1ad3f05cd6f25" prot="private" virt="non-virtual"><scope>Ms::ChordList</scope><name>_autoAdjust</name></member>
+      <member refid="class_ms_1_1_chord_list_1a77d0bbedbff149ce773a24af2c86a661" prot="private" virt="non-virtual"><scope>Ms::ChordList</scope><name>_eadjust</name></member>
+      <member refid="class_ms_1_1_chord_list_1a1d7bd01c8658c9fc091fbc93e9e2d0dd" prot="private" virt="non-virtual"><scope>Ms::ChordList</scope><name>_emag</name></member>
+      <member refid="class_ms_1_1_chord_list_1a5b0cbc824ebac1164d83e6e2e75477b5" prot="private" virt="non-virtual"><scope>Ms::ChordList</scope><name>_madjust</name></member>
+      <member refid="class_ms_1_1_chord_list_1a89d5b00f9b8edede859ddbcee9c899ec" prot="private" virt="non-virtual"><scope>Ms::ChordList</scope><name>_mmag</name></member>
+      <member refid="class_ms_1_1_chord_list_1a1dfd2ea951588ea20a3cd09a2380f6e4" prot="private" virt="non-virtual"><scope>Ms::ChordList</scope><name>_nadjust</name></member>
+      <member refid="class_ms_1_1_chord_list_1a8243cf99c03545cc08a0b0b4367685f9" prot="private" virt="non-virtual"><scope>Ms::ChordList</scope><name>_nmag</name></member>
+      <member refid="class_ms_1_1_chord_list_1a4b36fa8f52c71712a6d0ae2b8e892aa3" prot="public" virt="non-virtual"><scope>Ms::ChordList</scope><name>autoAdjust</name></member>
+      <member refid="class_ms_1_1_chord_list_1ac4e402d4d569f47b3b7597f08fb0353e" prot="public" virt="non-virtual"><scope>Ms::ChordList</scope><name>chordTokenList</name></member>
+      <member refid="class_ms_1_1_chord_list_1a7d6a4577a394cf152af70da6ee53e053" prot="public" virt="non-virtual"><scope>Ms::ChordList</scope><name>configureAutoAdjust</name></member>
+      <member refid="class_ms_1_1_chord_list_1a4b9a1163f99f31a7b1b8137fd83bbe2d" prot="public" virt="non-virtual"><scope>Ms::ChordList</scope><name>fonts</name></member>
+      <member refid="class_ms_1_1_chord_list_1a68c1ddd64fcb28a3c2ed8cb7d5256491" prot="public" virt="non-virtual"><scope>Ms::ChordList</scope><name>loaded</name></member>
+      <member refid="class_ms_1_1_chord_list_1a616986beba0c889488ab9f860fce0806" prot="public" virt="non-virtual"><scope>Ms::ChordList</scope><name>nominalAdjust</name></member>
+      <member refid="class_ms_1_1_chord_list_1a74fdded2af370f9ce7c564a73845c342" prot="public" virt="non-virtual"><scope>Ms::ChordList</scope><name>nominalMag</name></member>
+      <member refid="class_ms_1_1_chord_list_1afcaa1d7997c06465eec3df3c818cde8a" prot="public" virt="non-virtual"><scope>Ms::ChordList</scope><name>position</name></member>
+      <member refid="class_ms_1_1_chord_list_1a83ba4d8b0cb17f087decaa76f7b0947b" prot="public" virt="non-virtual"><scope>Ms::ChordList</scope><name>privateID</name></member>
+      <member refid="class_ms_1_1_chord_list_1a694a93f0c0acba0290a1bb9a8a28d580" prot="public" virt="non-virtual"><scope>Ms::ChordList</scope><name>read</name></member>
+      <member refid="class_ms_1_1_chord_list_1a1c0af6e6a8c71f3ac5d8a0c71ad56265" prot="public" virt="non-virtual"><scope>Ms::ChordList</scope><name>read</name></member>
+      <member refid="class_ms_1_1_chord_list_1afa63dc61c1f29b5844addf815ec73867" prot="public" virt="non-virtual"><scope>Ms::ChordList</scope><name>renderListBase</name></member>
+      <member refid="class_ms_1_1_chord_list_1a0cacfb55f167c64751b78655cc7e0bd0" prot="public" virt="non-virtual"><scope>Ms::ChordList</scope><name>renderListFunction</name></member>
+      <member refid="class_ms_1_1_chord_list_1ae2587931a4beac56ffdd175382f6dd72" prot="public" virt="non-virtual"><scope>Ms::ChordList</scope><name>renderListRoot</name></member>
+      <member refid="class_ms_1_1_chord_list_1ac93e9e2b6a2b5222a5fe901f62231ad1" prot="public" virt="non-virtual"><scope>Ms::ChordList</scope><name>symbol</name></member>
+      <member refid="class_ms_1_1_chord_list_1a1664b5e3a1d11d4c4fd1a9f84ceaa9f1" prot="private" virt="non-virtual"><scope>Ms::ChordList</scope><name>symbols</name></member>
+      <member refid="class_ms_1_1_chord_list_1ad564d20f0749fd88446f9c1c8174be26" prot="public" virt="non-virtual"><scope>Ms::ChordList</scope><name>unload</name></member>
+      <member refid="class_ms_1_1_chord_list_1aa560d8927689be2f58ad549266118b76" prot="public" virt="non-virtual"><scope>Ms::ChordList</scope><name>write</name></member>
+      <member refid="class_ms_1_1_chord_list_1a52944b269b87143ddce61e9d3af65261" prot="public" virt="non-virtual"><scope>Ms::ChordList</scope><name>write</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,151 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.17">
+  <compounddef id="keysig_8h" kind="file" language="C++">
+    <compoundname>keysig.h</compoundname>
+    <includes refid="key_8h" local="yes">key.h</includes>
+    <includes refid="element_8h" local="yes">element.h</includes>
+    <includedby refid="check_8cpp" local="yes">C:/Users/main/Documents/GitHub/MuseScore/libmscore/check.cpp</includedby>
+    <includedby refid="chordrest_8cpp" local="yes">C:/Users/main/Documents/GitHub/MuseScore/libmscore/chordrest.cpp</includedby>
+    <includedby refid="cmd_8cpp" local="yes">C:/Users/main/Documents/GitHub/MuseScore/libmscore/cmd.cpp</includedby>
+    <includedby refid="edit_8cpp" local="yes">C:/Users/main/Documents/GitHub/MuseScore/libmscore/edit.cpp</includedby>
+    <includedby refid="element_8cpp" local="yes">C:/Users/main/Documents/GitHub/MuseScore/libmscore/element.cpp</includedby>
+    <includedby refid="instrchange_8cpp" local="yes">C:/Users/main/Documents/GitHub/MuseScore/libmscore/instrchange.cpp</includedby>
+    <includedby refid="keysig_8cpp" local="yes">C:/Users/main/Documents/GitHub/MuseScore/libmscore/keysig.cpp</includedby>
+    <includedby refid="layout_8cpp" local="yes">C:/Users/main/Documents/GitHub/MuseScore/libmscore/layout.cpp</includedby>
+    <includedby refid="layoutlinear_8cpp" local="yes">C:/Users/main/Documents/GitHub/MuseScore/libmscore/layoutlinear.cpp</includedby>
+    <includedby refid="mcursor_8cpp" local="yes">C:/Users/main/Documents/GitHub/MuseScore/libmscore/mcursor.cpp</includedby>
+    <includedby refid="measure_8cpp" local="yes">C:/Users/main/Documents/GitHub/MuseScore/libmscore/measure.cpp</includedby>
+    <includedby refid="mscore_8cpp" local="yes">C:/Users/main/Documents/GitHub/MuseScore/libmscore/mscore.cpp</includedby>
+    <includedby refid="read114_8cpp" local="yes">C:/Users/main/Documents/GitHub/MuseScore/libmscore/read114.cpp</includedby>
+    <includedby refid="read206_8cpp" local="yes">C:/Users/main/Documents/GitHub/MuseScore/libmscore/read206.cpp</includedby>
+    <includedby refid="score_8cpp" local="yes">C:/Users/main/Documents/GitHub/MuseScore/libmscore/score.cpp</includedby>
+    <includedby refid="scorefile_8cpp" local="yes">C:/Users/main/Documents/GitHub/MuseScore/libmscore/scorefile.cpp</includedby>
+    <includedby refid="segment_8cpp" local="yes">C:/Users/main/Documents/GitHub/MuseScore/libmscore/segment.cpp</includedby>
+    <includedby refid="staff_8cpp" local="yes">C:/Users/main/Documents/GitHub/MuseScore/libmscore/staff.cpp</includedby>
+    <includedby refid="transpose_8cpp" local="yes">C:/Users/main/Documents/GitHub/MuseScore/libmscore/transpose.cpp</includedby>
+    <includedby refid="undo_8cpp" local="yes">C:/Users/main/Documents/GitHub/MuseScore/libmscore/undo.cpp</includedby>
+    <includedby refid="unrollrepeats_8cpp" local="yes">C:/Users/main/Documents/GitHub/MuseScore/libmscore/unrollrepeats.cpp</includedby>
+    <incdepgraph>
+      <node id="8">
+        <label>style.h</label>
+        <link refid="style_8h_source"/>
+        <childnode refid="9" relation="include">
+        </childnode>
+        <childnode refid="10" relation="include">
+        </childnode>
+      </node>
+      <node id="5">
+        <label>fraction.h</label>
+        <link refid="fraction_8h_source"/>
+        <childnode refid="6" relation="include">
+        </childnode>
+        <childnode refid="7" relation="include">
+        </childnode>
+      </node>
+      <node id="9">
+        <label>chordlist.h</label>
+        <link refid="chordlist_8h_source"/>
+      </node>
+      <node id="3">
+        <label>element.h</label>
+        <link refid="element_8h_source"/>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
+        </childnode>
+        <childnode refid="11" relation="include">
+        </childnode>
+        <childnode refid="12" relation="include">
+        </childnode>
+      </node>
+      <node id="12">
+        <label>shape.h</label>
+        <link refid="shape_8h_source"/>
+      </node>
+      <node id="4">
+        <label>spatium.h</label>
+        <link refid="spatium_8h_source"/>
+      </node>
+      <node id="10">
+        <label>types.h</label>
+        <link refid="types_8h_source"/>
+        <childnode refid="6" relation="include">
+        </childnode>
+      </node>
+      <node id="7">
+        <label>mscore.h</label>
+        <link refid="mscore_8h_source"/>
+        <childnode refid="6" relation="include">
+        </childnode>
+        <childnode refid="8" relation="include">
+        </childnode>
+      </node>
+      <node id="11">
+        <label>scoreElement.h</label>
+        <link refid="score_element_8h_source"/>
+        <childnode refid="10" relation="include">
+        </childnode>
+        <childnode refid="8" relation="include">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>C:/Users/main/Documents/GitHub/MuseScore/libmscore/keysig.h</label>
+        <link refid="keysig_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="3" relation="include">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>key.h</label>
+        <link refid="key_8h_source"/>
+      </node>
+      <node id="6">
+        <label>config.h</label>
+      </node>
+    </incdepgraph>
+    <invincdepgraph>
+      <node id="4">
+        <label>C:/Users/main/Documents/GitHub/MuseScore/libmscore/measure.cpp</label>
+        <link refid="measure_8cpp"/>
+      </node>
+      <node id="6">
+        <label>C:/Users/main/Documents/GitHub/MuseScore/libmscore/undo.cpp</label>
+        <link refid="undo_8cpp"/>
+      </node>
+      <node id="3">
+        <label>C:/Users/main/Documents/GitHub/MuseScore/libmscore/element.cpp</label>
+        <link refid="element_8cpp"/>
+      </node>
+      <node id="1">
+        <label>C:/Users/main/Documents/GitHub/MuseScore/libmscore/keysig.h</label>
+        <link refid="keysig_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
+        </childnode>
+        <childnode refid="6" relation="include">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>C:/Users/main/Documents/GitHub/MuseScore/libmscore/cmd.cpp</label>
+        <link refid="cmd_8cpp"/>
+      </node>
+      <node id="5">
+        <label>C:/Users/main/Documents/GitHub/MuseScore/libmscore/score.cpp</label>
+        <link refid="score_8cpp"/>
+      </node>
+    </invincdepgraph>
+    <innerclass refid="class_ms_1_1_key_sig" prot="public">Ms::KeySig</innerclass>
+    <innernamespace refid="namespace_ms">Ms</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/keysig.h"/>
+  </compounddef>
+</doxygen>

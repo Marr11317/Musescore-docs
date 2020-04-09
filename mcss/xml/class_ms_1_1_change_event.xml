@@ -1,0 +1,239 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.17">
+  <compounddef id="class_ms_1_1_change_event" kind="class" language="C++" prot="public">
+    <compoundname>Ms::ChangeEvent</compoundname>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_ms_1_1_change_event_1aa41daa40a4e63abe1c226bbd9db783dc" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int Ms::ChangeEvent::value</definition>
+        <argsstring></argsstring>
+        <name>value</name>
+        <initializer>{ 0 }</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/changeMap.h" line="48" column="11" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/changeMap.h" bodystart="48" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_ms_1_1_change_event_1a9889fc65bd9f4c05e31155c89ed4c1be" prot="private" static="no" mutable="no">
+        <type><ref refid="namespace_ms_1afd2d92e724fa46cd57d85657a3b1bef1" kindref="member">ChangeEventType</ref></type>
+        <definition>ChangeEventType Ms::ChangeEvent::type</definition>
+        <argsstring></argsstring>
+        <name>type</name>
+        <initializer>{ ChangeEventType::INVALID }</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/changeMap.h" line="49" column="23" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/changeMap.h" bodystart="49" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_ms_1_1_change_event_1a526f82c2571891dc047d8039caf19737" prot="private" static="no" mutable="no">
+        <type><ref refid="class_ms_1_1_fraction" kindref="compound">Fraction</ref></type>
+        <definition>Fraction Ms::ChangeEvent::length</definition>
+        <argsstring></argsstring>
+        <name>length</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/changeMap.h" line="50" column="16" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/changeMap.h" bodystart="50" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_ms_1_1_change_event_1a3dd6e3412bd3ebe704e9b7d63a6ba56e" prot="private" static="no" mutable="no">
+        <type>ChangeMethod</type>
+        <definition>ChangeMethod Ms::ChangeEvent::method</definition>
+        <argsstring></argsstring>
+        <name>method</name>
+        <initializer>{ ChangeMethod::NORMAL }</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/changeMap.h" line="51" column="20" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/changeMap.h" bodystart="51" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_ms_1_1_change_event_1a0fc22dc69026a12bdf7a56bf0ea9d1b4" prot="private" static="no" mutable="no">
+        <type>ChangeDirection</type>
+        <definition>ChangeDirection Ms::ChangeEvent::direction</definition>
+        <argsstring></argsstring>
+        <name>direction</name>
+        <initializer>{ ChangeDirection::INCREASING }</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/changeMap.h" line="52" column="23" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/changeMap.h" bodystart="52" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_ms_1_1_change_event_1a0acf32b9efeef971e9ebd097d5bc23c6" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int Ms::ChangeEvent::cachedStartVal</definition>
+        <argsstring></argsstring>
+        <name>cachedStartVal</name>
+        <initializer>{ -1 }</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/changeMap.h" line="53" column="11" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/changeMap.h" bodystart="53" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_ms_1_1_change_event_1ab1599dbf2a8c870b83b0a0548b97ed7e" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int Ms::ChangeEvent::cachedEndVal</definition>
+        <argsstring></argsstring>
+        <name>cachedEndVal</name>
+        <initializer>{ -1 }</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/changeMap.h" line="54" column="11" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/changeMap.h" bodystart="54" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="friend">
+      <memberdef kind="friend" id="class_ms_1_1_change_event_1a08b1c39198ddd2b448f9b13f1031c0ce" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>friend class</type>
+        <definition>friend class ChangeMap</definition>
+        <argsstring></argsstring>
+        <name>ChangeMap</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/changeMap.h" line="65" column="7" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/changeMap.h" bodystart="65" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_ms_1_1_change_event_1a2ca3bdc0fc35cd89975bc657bb64b47c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>Ms::ChangeEvent::ChangeEvent</definition>
+        <argsstring>()</argsstring>
+        <name>ChangeEvent</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/changeMap.h" line="57" column="7" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/changeMap.h" bodystart="57" bodyend="57"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ms_1_1_change_event_1ace00e1c74e7a4253ea5eeb20a7d54571" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>Ms::ChangeEvent::ChangeEvent</definition>
+        <argsstring>(int vel)</argsstring>
+        <name>ChangeEvent</name>
+        <param>
+          <type>int</type>
+          <declname>vel</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/changeMap.h" line="58" column="7" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/changeMap.h" bodystart="58" bodyend="58"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ms_1_1_change_event_1af414a29013332218d1191cea759afb61" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>Ms::ChangeEvent::ChangeEvent</definition>
+        <argsstring>(Fraction s, Fraction e, int diff, ChangeMethod m, ChangeDirection d)</argsstring>
+        <name>ChangeEvent</name>
+        <param>
+          <type><ref refid="class_ms_1_1_fraction" kindref="compound">Fraction</ref></type>
+          <declname>s</declname>
+        </param>
+        <param>
+          <type><ref refid="class_ms_1_1_fraction" kindref="compound">Fraction</ref></type>
+          <declname>e</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>diff</declname>
+        </param>
+        <param>
+          <type>ChangeMethod</type>
+          <declname>m</declname>
+        </param>
+        <param>
+          <type>ChangeDirection</type>
+          <declname>d</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/changeMap.h" line="59" column="7" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/changeMap.h" bodystart="59" bodyend="60"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ms_1_1_change_event_1a60a31a8f588692dc2a526aabd1793118" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool Ms::ChangeEvent::operator==</definition>
+        <argsstring>(const ChangeEvent &amp;event) const</argsstring>
+        <name>operator==</name>
+        <param>
+          <type>const <ref refid="class_ms_1_1_change_event" kindref="compound">ChangeEvent</ref> &amp;</type>
+          <declname>event</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/changeMap.h" line="62" column="12" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/changeMap.cpp" bodystart="535" bodyend="544"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ms_1_1_change_event_1a7c14ad098bedcb0ca457f7e0dc1ce3be" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool Ms::ChangeEvent::operator!=</definition>
+        <argsstring>(const ChangeEvent &amp;event) const</argsstring>
+        <name>operator!=</name>
+        <param>
+          <type>const <ref refid="class_ms_1_1_change_event" kindref="compound">ChangeEvent</ref> &amp;</type>
+          <declname>event</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/changeMap.h" line="63" column="12" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/changeMap.h" bodystart="63" bodyend="63"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/changeMap.h" line="47" column="18" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/changeMap.h" bodystart="47" bodyend="66"/>
+    <listofallmembers>
+      <member refid="class_ms_1_1_change_event_1ab1599dbf2a8c870b83b0a0548b97ed7e" prot="private" virt="non-virtual"><scope>Ms::ChangeEvent</scope><name>cachedEndVal</name></member>
+      <member refid="class_ms_1_1_change_event_1a0acf32b9efeef971e9ebd097d5bc23c6" prot="private" virt="non-virtual"><scope>Ms::ChangeEvent</scope><name>cachedStartVal</name></member>
+      <member refid="class_ms_1_1_change_event_1a2ca3bdc0fc35cd89975bc657bb64b47c" prot="public" virt="non-virtual"><scope>Ms::ChangeEvent</scope><name>ChangeEvent</name></member>
+      <member refid="class_ms_1_1_change_event_1ace00e1c74e7a4253ea5eeb20a7d54571" prot="public" virt="non-virtual"><scope>Ms::ChangeEvent</scope><name>ChangeEvent</name></member>
+      <member refid="class_ms_1_1_change_event_1af414a29013332218d1191cea759afb61" prot="public" virt="non-virtual"><scope>Ms::ChangeEvent</scope><name>ChangeEvent</name></member>
+      <member refid="class_ms_1_1_change_event_1a08b1c39198ddd2b448f9b13f1031c0ce" prot="public" virt="non-virtual"><scope>Ms::ChangeEvent</scope><name>ChangeMap</name></member>
+      <member refid="class_ms_1_1_change_event_1a0fc22dc69026a12bdf7a56bf0ea9d1b4" prot="private" virt="non-virtual"><scope>Ms::ChangeEvent</scope><name>direction</name></member>
+      <member refid="class_ms_1_1_change_event_1a526f82c2571891dc047d8039caf19737" prot="private" virt="non-virtual"><scope>Ms::ChangeEvent</scope><name>length</name></member>
+      <member refid="class_ms_1_1_change_event_1a3dd6e3412bd3ebe704e9b7d63a6ba56e" prot="private" virt="non-virtual"><scope>Ms::ChangeEvent</scope><name>method</name></member>
+      <member refid="class_ms_1_1_change_event_1a7c14ad098bedcb0ca457f7e0dc1ce3be" prot="public" virt="non-virtual"><scope>Ms::ChangeEvent</scope><name>operator!=</name></member>
+      <member refid="class_ms_1_1_change_event_1a60a31a8f588692dc2a526aabd1793118" prot="public" virt="non-virtual"><scope>Ms::ChangeEvent</scope><name>operator==</name></member>
+      <member refid="class_ms_1_1_change_event_1a9889fc65bd9f4c05e31155c89ed4c1be" prot="private" virt="non-virtual"><scope>Ms::ChangeEvent</scope><name>type</name></member>
+      <member refid="class_ms_1_1_change_event_1aa41daa40a4e63abe1c226bbd9db783dc" prot="private" virt="non-virtual"><scope>Ms::ChangeEvent</scope><name>value</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

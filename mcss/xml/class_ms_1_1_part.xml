@@ -1,0 +1,1340 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.17">
+  <compounddef id="class_ms_1_1_part" kind="class" language="C++" prot="public" final="yes">
+    <compoundname>Ms::Part</compoundname>
+    <basecompoundref refid="class_ms_1_1_score_element" prot="public" virt="non-virtual">Ms::ScoreElement</basecompoundref>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_ms_1_1_part_1a0c4b6dd7a2680511bef26ec4ffba8d12" prot="private" static="no" mutable="no">
+        <type>QString</type>
+        <definition>QString Ms::Part::_partName</definition>
+        <argsstring></argsstring>
+        <name>_partName</name>
+        <briefdescription>
+<para>used in tracklist (mixer) </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/part.h" line="56" column="15" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/part.h" bodystart="56" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_ms_1_1_part_1afa089e53822fa18019b1d6d6fbdd1d02" prot="private" static="no" mutable="no">
+        <type><ref refid="class_ms_1_1_instrument_list" kindref="compound">InstrumentList</ref></type>
+        <definition>InstrumentList Ms::Part::_instruments</definition>
+        <argsstring></argsstring>
+        <name>_instruments</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/part.h" line="57" column="22" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/part.h" bodystart="57" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_ms_1_1_part_1a8f0cd80d0a1f1ca3856bf262b237a471" prot="private" static="no" mutable="no">
+        <type>QList&lt; <ref refid="class_ms_1_1_staff" kindref="compound">Staff</ref> * &gt;</type>
+        <definition>QList&lt;Staff*&gt; Ms::Part::_staves</definition>
+        <argsstring></argsstring>
+        <name>_staves</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/part.h" line="58" column="13" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/part.h" bodystart="58" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_ms_1_1_part_1ac30b1c0fda785e7261d9b2cc4a50bc09" prot="private" static="no" mutable="no">
+        <type>QString</type>
+        <definition>QString Ms::Part::_id</definition>
+        <argsstring></argsstring>
+        <name>_id</name>
+        <briefdescription>
+<para>used for MusicXml import </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/part.h" line="59" column="15" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/part.h" bodystart="59" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_ms_1_1_part_1aa8dfa1c27279a9cc5fbff0398f85280f" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool Ms::Part::_show</definition>
+        <argsstring></argsstring>
+        <name>_show</name>
+        <briefdescription>
+<para>show part in partitur if true </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/part.h" line="60" column="12" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/part.h" bodystart="60" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_ms_1_1_part_1a9bfd770efb546cabad7288549a5908d8" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int Ms::Part::_color</definition>
+        <argsstring></argsstring>
+        <name>_color</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/part.h" line="63" column="11" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/part.h" bodystart="63" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_ms_1_1_part_1a516e892a4110b085fb51a0db25fd69d2" prot="private" static="no" mutable="no">
+        <type>PreferSharpFlat</type>
+        <definition>PreferSharpFlat Ms::Part::_preferSharpFlat</definition>
+        <argsstring></argsstring>
+        <name>_preferSharpFlat</name>
+        <briefdescription>
+<para>User specified color for helping to label parts. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/part.h" line="65" column="23" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/part.h" bodystart="65" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-static-attrib">
+      <memberdef kind="variable" id="class_ms_1_1_part_1a5c1cabec19ec19722a9c9b5286cf39a4" prot="private" static="yes" mutable="no">
+        <type>const int</type>
+        <definition>const int Ms::Part::DEFAULT_COLOR</definition>
+        <argsstring></argsstring>
+        <name>DEFAULT_COLOR</name>
+        <initializer>= 0x3399ff</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/part.h" line="62" column="24" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/part.h" bodystart="62" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_ms_1_1_part_1a23a03278ba00f37930c218db377358aa" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>Ms::Part::Part</definition>
+        <argsstring>(Score *=0)</argsstring>
+        <name>Part</name>
+        <param>
+          <type><ref refid="class_ms_1_1_score" kindref="compound">Score</ref> *</type>
+          <defname>s</defname>
+          <defval>0</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/part.h" line="68" column="7" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/part.cpp" bodystart="34" bodyend="41"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ms_1_1_part_1a37456bf94d31f872c5a85f7c6575bd1c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Ms::Part::initFromInstrTemplate</definition>
+        <argsstring>(const InstrumentTemplate *)</argsstring>
+        <name>initFromInstrTemplate</name>
+        <param>
+          <type>const <ref refid="class_ms_1_1_instrument_template" kindref="compound">InstrumentTemplate</ref> *</type>
+          <defname>t</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/part.h" line="69" column="12" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/part.cpp" bodystart="47" bodyend="51"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ms_1_1_part_1a77da39b33e7904043d36fac77ce6eda7" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="virtual">
+        <type><ref refid="namespace_ms_1a2c92ce0204176ede1ab86e2f44ae6b9e" kindref="member">ElementType</ref></type>
+        <definition>virtual ElementType Ms::Part::type</definition>
+        <argsstring>() const override</argsstring>
+        <name>type</name>
+        <reimplements refid="class_ms_1_1_score_element_1a3dbb763c3cd4ec05d202d03115abe1d5">type</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/part.h" line="70" column="27" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/part.h" bodystart="70" bodyend="70"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ms_1_1_part_1ae77e06ffac8a5d3870b231f98fda515f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Ms::Part::read</definition>
+        <argsstring>(XmlReader &amp;)</argsstring>
+        <name>read</name>
+        <param>
+          <type><ref refid="class_ms_1_1_xml_reader" kindref="compound">XmlReader</ref> &amp;</type>
+          <defname>e</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/part.h" line="72" column="12" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/part.cpp" bodystart="137" bodyend="145"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ms_1_1_part_1a92622cbe30f0da4d7523d3a5ccdb6ae0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool Ms::Part::readProperties</definition>
+        <argsstring>(XmlReader &amp;)</argsstring>
+        <name>readProperties</name>
+        <param>
+          <type><ref refid="class_ms_1_1_xml_reader" kindref="compound">XmlReader</ref> &amp;</type>
+          <defname>e</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/part.h" line="73" column="12" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/part.cpp" bodystart="100" bodyend="131"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ms_1_1_part_1a0bc2986f52d436bb4fa4d26604d1921b" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Ms::Part::write</definition>
+        <argsstring>(XmlWriter &amp;xml) const</argsstring>
+        <name>write</name>
+        <param>
+          <type><ref refid="class_ms_1_1_xml_writer" kindref="compound">XmlWriter</ref> &amp;</type>
+          <declname>xml</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/part.h" line="74" column="12" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/part.cpp" bodystart="151" bodyend="166"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ms_1_1_part_1ac0d6f1ee40e54d54510e2c2b56a7ec5c" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>int</type>
+        <definition>int Ms::Part::nstaves</definition>
+        <argsstring>() const</argsstring>
+        <name>nstaves</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/part.h" line="76" column="11" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/part.h" bodystart="76" bodyend="76"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ms_1_1_part_1aa11473b705e1917640e87bba141cdee4" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>QList&lt; <ref refid="class_ms_1_1_staff" kindref="compound">Staff</ref> * &gt; *</type>
+        <definition>QList&lt;Staff*&gt;* Ms::Part::staves</definition>
+        <argsstring>()</argsstring>
+        <name>staves</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/part.h" line="77" column="13" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/part.h" bodystart="77" bodyend="77"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ms_1_1_part_1a56540e2bb291ed2468f6b47569052f05" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>const QList&lt; <ref refid="class_ms_1_1_staff" kindref="compound">Staff</ref> * &gt; *</type>
+        <definition>const QList&lt;Staff*&gt;* Ms::Part::staves</definition>
+        <argsstring>() const</argsstring>
+        <name>staves</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/part.h" line="78" column="19" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/part.h" bodystart="78" bodyend="78"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ms_1_1_part_1a3416c1062c8d4edc6247c8bdd11e00d8" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="class_ms_1_1_staff" kindref="compound">Staff</ref> *</type>
+        <definition>Staff * Ms::Part::staff</definition>
+        <argsstring>(int idx) const</argsstring>
+        <name>staff</name>
+        <param>
+          <type>int</type>
+          <declname>idx</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/part.h" line="79" column="13" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/part.cpp" bodystart="57" bodyend="60"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ms_1_1_part_1a63fd6b97236309036cdb4915c28a5aec" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Ms::Part::setId</definition>
+        <argsstring>(const QString &amp;s)</argsstring>
+        <name>setId</name>
+        <param>
+          <type>const QString &amp;</type>
+          <declname>s</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/part.h" line="80" column="12" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/part.h" bodystart="80" bodyend="80"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ms_1_1_part_1af48dff3059219a41c066b0a1fd57da93" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>QString</type>
+        <definition>QString Ms::Part::id</definition>
+        <argsstring>() const</argsstring>
+        <name>id</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/part.h" line="81" column="15" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/part.h" bodystart="81" bodyend="81"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ms_1_1_part_1a9cf90028e8f1f9610b16ac63eb41a506" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int Ms::Part::startTrack</definition>
+        <argsstring>() const</argsstring>
+        <name>startTrack</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/part.h" line="83" column="11" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/part.cpp" bodystart="471" bodyend="474"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ms_1_1_part_1abe6771ce7c8d60d52b17d5f5497fdc17" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int Ms::Part::endTrack</definition>
+        <argsstring>() const</argsstring>
+        <name>endTrack</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/part.h" line="84" column="11" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/part.cpp" bodystart="480" bodyend="483"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ms_1_1_part_1a8035841f52dec57cb18a6578e5102bdf" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>QString</type>
+        <definition>QString Ms::Part::longName</definition>
+        <argsstring>(const Fraction &amp;tick={ -1, 1 }) const</argsstring>
+        <name>longName</name>
+        <param>
+          <type>const <ref refid="class_ms_1_1_fraction" kindref="compound">Fraction</ref> &amp;</type>
+          <declname>tick</declname>
+          <defval>{ -1, 1 }</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/part.h" line="86" column="15" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/part.cpp" bodystart="364" bodyend="368"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ms_1_1_part_1abd41badc4e1a13f5618584c22c1c818c" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>QString</type>
+        <definition>QString Ms::Part::shortName</definition>
+        <argsstring>(const Fraction &amp;tick={ -1, 1 }) const</argsstring>
+        <name>shortName</name>
+        <param>
+          <type>const <ref refid="class_ms_1_1_fraction" kindref="compound">Fraction</ref> &amp;</type>
+          <declname>tick</declname>
+          <defval>{ -1, 1 }</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/part.h" line="87" column="15" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/part.cpp" bodystart="383" bodyend="387"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ms_1_1_part_1a5943bee088c3393e817205c203796319" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>QString</type>
+        <definition>QString Ms::Part::instrumentName</definition>
+        <argsstring>(const Fraction &amp;tick={ -1, 1 }) const</argsstring>
+        <name>instrumentName</name>
+        <param>
+          <type>const <ref refid="class_ms_1_1_fraction" kindref="compound">Fraction</ref> &amp;</type>
+          <declname>tick</declname>
+          <defval>{ -1, 1 }</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/part.h" line="88" column="15" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/part.cpp" bodystart="374" bodyend="377"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ms_1_1_part_1a6fdc42630b1e972ce29cf4852741c9db" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>QString</type>
+        <definition>QString Ms::Part::instrumentId</definition>
+        <argsstring>(const Fraction &amp;tick={ -1, 1 }) const</argsstring>
+        <name>instrumentId</name>
+        <param>
+          <type>const <ref refid="class_ms_1_1_fraction" kindref="compound">Fraction</ref> &amp;</type>
+          <declname>tick</declname>
+          <defval>{ -1, 1 }</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/part.h" line="89" column="15" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/part.cpp" bodystart="355" bodyend="358"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ms_1_1_part_1ad41675da24d0afe604ba234990909d98" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>const QList&lt; <ref refid="class_ms_1_1_staff_name" kindref="compound">StaffName</ref> &gt; &amp;</type>
+        <definition>const QList&lt;StaffName&gt;&amp; Ms::Part::longNames</definition>
+        <argsstring>(const Fraction &amp;tick={ -1, 1 }) const</argsstring>
+        <name>longNames</name>
+        <param>
+          <type>const <ref refid="class_ms_1_1_fraction" kindref="compound">Fraction</ref> &amp;</type>
+          <declname>tick</declname>
+          <defval>{ -1, 1 }</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/part.h" line="91" column="19" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/part.h" bodystart="91" bodyend="91"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ms_1_1_part_1a8031d1e96477d96b942216c45b099697" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>const QList&lt; <ref refid="class_ms_1_1_staff_name" kindref="compound">StaffName</ref> &gt; &amp;</type>
+        <definition>const QList&lt;StaffName&gt;&amp; Ms::Part::shortNames</definition>
+        <argsstring>(const Fraction &amp;tick={ -1, 1 }) const</argsstring>
+        <name>shortNames</name>
+        <param>
+          <type>const <ref refid="class_ms_1_1_fraction" kindref="compound">Fraction</ref> &amp;</type>
+          <declname>tick</declname>
+          <defval>{ -1, 1 }</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/part.h" line="92" column="19" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/part.h" bodystart="92" bodyend="92"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ms_1_1_part_1ab6870fbcddbd90907a5db02f2a0f0f74" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Ms::Part::setLongNames</definition>
+        <argsstring>(QList&lt; StaffName &gt; &amp;s, const Fraction &amp;tick={ -1, 1 })</argsstring>
+        <name>setLongNames</name>
+        <param>
+          <type>QList&lt; <ref refid="class_ms_1_1_staff_name" kindref="compound">StaffName</ref> &gt; &amp;</type>
+          <declname>s</declname>
+        </param>
+        <param>
+          <type>const <ref refid="class_ms_1_1_fraction" kindref="compound">Fraction</ref> &amp;</type>
+          <declname>tick</declname>
+          <defval>{ -1, 1 }</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/part.h" line="94" column="12" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/part.cpp" bodystart="172" bodyend="175"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ms_1_1_part_1ae0b6a8539a1d622d5defebc39bbd43bd" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Ms::Part::setShortNames</definition>
+        <argsstring>(QList&lt; StaffName &gt; &amp;s, const Fraction &amp;tick={ -1, 1 })</argsstring>
+        <name>setShortNames</name>
+        <param>
+          <type>QList&lt; <ref refid="class_ms_1_1_staff_name" kindref="compound">StaffName</ref> &gt; &amp;</type>
+          <declname>s</declname>
+        </param>
+        <param>
+          <type>const <ref refid="class_ms_1_1_fraction" kindref="compound">Fraction</ref> &amp;</type>
+          <declname>tick</declname>
+          <defval>{ -1, 1 }</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/part.h" line="95" column="12" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/part.cpp" bodystart="177" bodyend="180"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ms_1_1_part_1aef3df85794ccf339b54e4e6c683fc40f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Ms::Part::setLongName</definition>
+        <argsstring>(const QString &amp;s)</argsstring>
+        <name>setLongName</name>
+        <param>
+          <type>const QString &amp;</type>
+          <declname>s</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/part.h" line="97" column="12" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/part.cpp" bodystart="393" bodyend="396"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ms_1_1_part_1acc3377d2b92a5cb0cb41c4ce61d7063c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Ms::Part::setShortName</definition>
+        <argsstring>(const QString &amp;s)</argsstring>
+        <name>setShortName</name>
+        <param>
+          <type>const QString &amp;</type>
+          <declname>s</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/part.h" line="98" column="12" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/part.cpp" bodystart="402" bodyend="405"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ms_1_1_part_1a0da062a1f17c8e4980fb3666608b94c5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Ms::Part::setPlainLongName</definition>
+        <argsstring>(const QString &amp;s)</argsstring>
+        <name>setPlainLongName</name>
+        <param>
+          <type>const QString &amp;</type>
+          <declname>s</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/part.h" line="100" column="12" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/part.cpp" bodystart="411" bodyend="414"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ms_1_1_part_1a5b52e69bc036527d9fb9fccd6341d80b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Ms::Part::setPlainShortName</definition>
+        <argsstring>(const QString &amp;s)</argsstring>
+        <name>setPlainShortName</name>
+        <param>
+          <type>const QString &amp;</type>
+          <declname>s</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/part.h" line="101" column="12" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/part.cpp" bodystart="420" bodyend="423"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ms_1_1_part_1a244092dfe0743085b642804e6cc93a21" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Ms::Part::setStaves</definition>
+        <argsstring>(int)</argsstring>
+        <name>setStaves</name>
+        <param>
+          <type>int</type>
+          <defname>n</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/part.h" line="103" column="12" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/part.cpp" bodystart="186" bodyend="206"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ms_1_1_part_1a196ff7c4335a5a486f12f97c4d54914b" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int Ms::Part::midiProgram</definition>
+        <argsstring>() const</argsstring>
+        <name>midiProgram</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/part.h" line="105" column="11" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/part.cpp" bodystart="249" bodyend="252"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ms_1_1_part_1a289630faf54df5f562c472c8bbfe4a29" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Ms::Part::setMidiProgram</definition>
+        <argsstring>(int, int bank=0)</argsstring>
+        <name>setMidiProgram</name>
+        <param>
+          <type>int</type>
+          <defname>program</defname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>bank</declname>
+          <defval>0</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/part.h" line="106" column="12" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/part.cpp" bodystart="237" bodyend="243"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ms_1_1_part_1afd2e6236a2abfd44b877f87b1676b806" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int Ms::Part::midiChannel</definition>
+        <argsstring>() const</argsstring>
+        <name>midiChannel</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/part.h" line="108" column="11" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/part.cpp" bodystart="258" bodyend="261"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ms_1_1_part_1a1896e0bcc7706a1ebd959da4ea485b10" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int Ms::Part::midiPort</definition>
+        <argsstring>() const</argsstring>
+        <name>midiPort</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/part.h" line="109" column="11" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/part.cpp" bodystart="267" bodyend="270"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ms_1_1_part_1a9a33c138aef17f3a3a1741175bacc03e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Ms::Part::setMidiChannel</definition>
+        <argsstring>(int ch, int port=-1, const Fraction &amp;tick={-1, 1})</argsstring>
+        <name>setMidiChannel</name>
+        <param>
+          <type>int</type>
+          <declname>ch</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>port</declname>
+          <defval>-1</defval>
+        </param>
+        <param>
+          <type>const <ref refid="class_ms_1_1_fraction" kindref="compound">Fraction</ref> &amp;</type>
+          <declname>tick</declname>
+          <defval>{-1, 1}</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/part.h" line="110" column="12" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/part.cpp" bodystart="282" bodyend="289"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ms_1_1_part_1a59495f5c2fc1a139f6597d9402a63a5f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Ms::Part::insertStaff</definition>
+        <argsstring>(Staff *, int idx)</argsstring>
+        <name>insertStaff</name>
+        <param>
+          <type><ref refid="class_ms_1_1_staff" kindref="compound">Staff</ref> *</type>
+          <defname>staff</defname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>idx</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/part.h" line="112" column="12" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/part.cpp" bodystart="212" bodyend="218"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ms_1_1_part_1a0c9bf8a8dafbf8abba9b39e45aba003e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Ms::Part::removeStaff</definition>
+        <argsstring>(Staff *)</argsstring>
+        <name>removeStaff</name>
+        <param>
+          <type><ref refid="class_ms_1_1_staff" kindref="compound">Staff</ref> *</type>
+          <defname>staff</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/part.h" line="113" column="12" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/part.cpp" bodystart="224" bodyend="230"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ms_1_1_part_1a184459de534501648fb8ca613cfdd1e4" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool Ms::Part::show</definition>
+        <argsstring>() const</argsstring>
+        <name>show</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/part.h" line="114" column="12" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/part.h" bodystart="114" bodyend="114"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ms_1_1_part_1a781dda652f4144320f1a7e137ff507b7" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Ms::Part::setShow</definition>
+        <argsstring>(bool val)</argsstring>
+        <name>setShow</name>
+        <param>
+          <type>bool</type>
+          <declname>val</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/part.h" line="115" column="12" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/part.h" bodystart="115" bodyend="115"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ms_1_1_part_1a6cae82662abe64d683dff09b3c7874f8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="class_ms_1_1_instrument" kindref="compound">Instrument</ref> *</type>
+        <definition>Instrument * Ms::Part::instrument</definition>
+        <argsstring>(Fraction={ -1, 1 })</argsstring>
+        <name>instrument</name>
+        <param>
+          <type><ref refid="class_ms_1_1_fraction" kindref="compound">Fraction</ref></type>
+          <defname>tick</defname>
+          <defval>{ -1, 1 }</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/part.h" line="117" column="18" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/part.cpp" bodystart="328" bodyend="331"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ms_1_1_part_1a7a06ef995ca1a946fc1800653a287fcc" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>const <ref refid="class_ms_1_1_instrument" kindref="compound">Instrument</ref> *</type>
+        <definition>const Instrument * Ms::Part::instrument</definition>
+        <argsstring>(Fraction={ -1, 1 }) const</argsstring>
+        <name>instrument</name>
+        <param>
+          <type><ref refid="class_ms_1_1_fraction" kindref="compound">Fraction</ref></type>
+          <defname>tick</defname>
+          <defval>{ -1, 1 }</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/part.h" line="118" column="24" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/part.cpp" bodystart="337" bodyend="340"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ms_1_1_part_1a78faa958eb395ed351ee94123e2b42db" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Ms::Part::setInstrument</definition>
+        <argsstring>(Instrument *, Fraction={ -1, 1})</argsstring>
+        <name>setInstrument</name>
+        <param>
+          <type><ref refid="class_ms_1_1_instrument" kindref="compound">Instrument</ref> *</type>
+          <defname>i</defname>
+        </param>
+        <param>
+          <type><ref refid="class_ms_1_1_fraction" kindref="compound">Fraction</ref></type>
+          <defname>tick</defname>
+          <defval>{ -1, 1}</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/part.h" line="119" column="12" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/part.cpp" bodystart="295" bodyend="298"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ms_1_1_part_1aa5a0392b1d69bd19075eb2a010208a92" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Ms::Part::setInstrument</definition>
+        <argsstring>(const Instrument &amp;&amp;, Fraction={ -1, 1 })</argsstring>
+        <name>setInstrument</name>
+        <param>
+          <type>const <ref refid="class_ms_1_1_instrument" kindref="compound">Instrument</ref> &amp;&amp;</type>
+          <defname>i</defname>
+        </param>
+        <param>
+          <type><ref refid="class_ms_1_1_fraction" kindref="compound">Fraction</ref></type>
+          <defname>tick</defname>
+          <defval>{ -1, 1 }</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/part.h" line="120" column="12" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/part.cpp" bodystart="300" bodyend="303"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ms_1_1_part_1a7b141181ee4948fe5902210bf092a981" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Ms::Part::setInstrument</definition>
+        <argsstring>(const Instrument &amp;, Fraction={ -1, 1 })</argsstring>
+        <name>setInstrument</name>
+        <param>
+          <type>const <ref refid="class_ms_1_1_instrument" kindref="compound">Instrument</ref> &amp;</type>
+          <defname>i</defname>
+        </param>
+        <param>
+          <type><ref refid="class_ms_1_1_fraction" kindref="compound">Fraction</ref></type>
+          <defname>tick</defname>
+          <defval>{ -1, 1 }</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/part.h" line="121" column="12" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/part.cpp" bodystart="305" bodyend="308"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ms_1_1_part_1aa9a6d998e1f7cefeed8e02783a1264f2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Ms::Part::removeInstrument</definition>
+        <argsstring>(const Fraction &amp;)</argsstring>
+        <name>removeInstrument</name>
+        <param>
+          <type>const <ref refid="class_ms_1_1_fraction" kindref="compound">Fraction</ref> &amp;</type>
+          <defname>tick</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/part.h" line="122" column="12" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/part.cpp" bodystart="314" bodyend="322"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ms_1_1_part_1a189d96be9a334c89d92813a11fd3a92e" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>const <ref refid="class_ms_1_1_instrument_list" kindref="compound">InstrumentList</ref> *</type>
+        <definition>const InstrumentList * Ms::Part::instruments</definition>
+        <argsstring>() const</argsstring>
+        <name>instruments</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/part.h" line="123" column="28" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/part.cpp" bodystart="346" bodyend="349"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ms_1_1_part_1a6bf2df1f21bb3ba70855f6966b2882e1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Ms::Part::insertTime</definition>
+        <argsstring>(const Fraction &amp;tick, const Fraction &amp;len)</argsstring>
+        <name>insertTime</name>
+        <param>
+          <type>const <ref refid="class_ms_1_1_fraction" kindref="compound">Fraction</ref> &amp;</type>
+          <declname>tick</declname>
+        </param>
+        <param>
+          <type>const <ref refid="class_ms_1_1_fraction" kindref="compound">Fraction</ref> &amp;</type>
+          <declname>len</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/part.h" line="125" column="12" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/part.cpp" bodystart="489" bodyend="513"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ms_1_1_part_1ad2391fa561a67958bc07078bd13d9e69" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>QString</type>
+        <definition>QString Ms::Part::partName</definition>
+        <argsstring>() const</argsstring>
+        <name>partName</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/part.h" line="127" column="15" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/part.h" bodystart="127" bodyend="127"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ms_1_1_part_1a511af9d701762c6ebb0093fdbc39be1a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Ms::Part::setPartName</definition>
+        <argsstring>(const QString &amp;s)</argsstring>
+        <name>setPartName</name>
+        <param>
+          <type>const QString &amp;</type>
+          <declname>s</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/part.h" line="128" column="12" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/part.h" bodystart="128" bodyend="128"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ms_1_1_part_1a7e2a696e9af478eb473be16ef1810785" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>int</type>
+        <definition>int Ms::Part::color</definition>
+        <argsstring>() const</argsstring>
+        <name>color</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/part.h" line="129" column="11" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/part.h" bodystart="129" bodyend="129"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ms_1_1_part_1a87d56b06bfcb715dd95f53f3f6d2c5fe" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Ms::Part::setColor</definition>
+        <argsstring>(int value)</argsstring>
+        <name>setColor</name>
+        <param>
+          <type>int</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/part.h" line="130" column="12" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/part.h" bodystart="130" bodyend="130"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ms_1_1_part_1a28645e8ca15388482e22e1a49d3afcc9" prot="public" static="no" const="yes" explicit="no" inline="no" virt="virtual">
+        <type>QVariant</type>
+        <definition>QVariant Ms::Part::getProperty</definition>
+        <argsstring>(Pid) const override</argsstring>
+        <name>getProperty</name>
+        <reimplements refid="class_ms_1_1_score_element_1aa55b8db6cf96c29d192fbfc9e74110ff">getProperty</reimplements>
+        <param>
+          <type>Pid</type>
+          <defname>id</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/part.h" line="132" column="16" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/part.cpp" bodystart="429" bodyend="441"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ms_1_1_part_1af6597ca69e71f04a1d2b84fc40bb784b" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>bool</type>
+        <definition>bool Ms::Part::setProperty</definition>
+        <argsstring>(Pid, const QVariant &amp;) override</argsstring>
+        <name>setProperty</name>
+        <reimplements refid="class_ms_1_1_score_element_1a6746334cee7348173d3175c433ed2fab">setProperty</reimplements>
+        <param>
+          <type>Pid</type>
+          <defname>id</defname>
+        </param>
+        <param>
+          <type>const QVariant &amp;</type>
+          <defname>property</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/part.h" line="133" column="12" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/part.cpp" bodystart="447" bodyend="465"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ms_1_1_part_1a24ca6737a71ba8e3dfb8461f16eea56a" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int Ms::Part::lyricCount</definition>
+        <argsstring>() const</argsstring>
+        <name>lyricCount</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/part.h" line="135" column="11" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/part.cpp" bodystart="519" bodyend="533"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ms_1_1_part_1ab232b25e51d0f524d15809b260d79fc9" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int Ms::Part::harmonyCount</definition>
+        <argsstring>() const</argsstring>
+        <name>harmonyCount</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/part.h" line="136" column="11" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/part.cpp" bodystart="539" bodyend="557"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ms_1_1_part_1a8e7dde29717934c1f80d2a69dd04f410" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool Ms::Part::hasPitchedStaff</definition>
+        <argsstring>() const</argsstring>
+        <name>hasPitchedStaff</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/part.h" line="137" column="12" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/part.cpp" bodystart="630" bodyend="639"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ms_1_1_part_1a9cd1ecb973dd9e98de9ceadd2c06a9bf" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool Ms::Part::hasTabStaff</definition>
+        <argsstring>() const</argsstring>
+        <name>hasTabStaff</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/part.h" line="138" column="12" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/part.cpp" bodystart="645" bodyend="654"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ms_1_1_part_1af3da63deccf28cacf154004e994a6c30" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool Ms::Part::hasDrumStaff</definition>
+        <argsstring>() const</argsstring>
+        <name>hasDrumStaff</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/part.h" line="139" column="12" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/part.cpp" bodystart="660" bodyend="669"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ms_1_1_part_1a06168747cf4c1b2dd1c1971cd3c6a867" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Ms::Part::updateHarmonyChannels</definition>
+        <argsstring>(bool isDoOnInstrumentChanged, bool checkRemoval=false)</argsstring>
+        <name>updateHarmonyChannels</name>
+        <param>
+          <type>bool</type>
+          <declname>isDoOnInstrumentChanged</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>checkRemoval</declname>
+          <defval>false</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>update the harmony channel by creating a new channel when appropriate or using the existing one</para>
+<para>checkRemoval can be set to true to check to see if we can remove the harmony channel </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/part.h" line="141" column="12" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/part.cpp" bodystart="567" bodyend="605"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ms_1_1_part_1a91f809b4dd16f7be5dbe37c7b40587fa" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>const <ref refid="class_ms_1_1_channel" kindref="compound">Channel</ref> *</type>
+        <definition>const Channel * Ms::Part::harmonyChannel</definition>
+        <argsstring>() const</argsstring>
+        <name>harmonyChannel</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/part.h" line="142" column="21" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/part.cpp" bodystart="611" bodyend="624"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ms_1_1_part_1a8c5fb41d36344ba8026d2edcff23364f" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>const <ref refid="class_ms_1_1_part" kindref="compound">Part</ref> *</type>
+        <definition>Part * Ms::Part::masterPart</definition>
+        <argsstring>() const</argsstring>
+        <name>masterPart</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/part.h" line="144" column="18" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/part.cpp" bodystart="66" bodyend="85"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ms_1_1_part_1a2a70e14610613dc4e89dd30ee04aac9f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="class_ms_1_1_part" kindref="compound">Part</ref> *</type>
+        <definition>Part* Ms::Part::masterPart</definition>
+        <argsstring>()</argsstring>
+        <name>masterPart</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/part.h" line="145" column="12"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ms_1_1_part_1a57b33d6693a4b52f875a0f7f1c9fa9d7" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>PreferSharpFlat</type>
+        <definition>PreferSharpFlat Ms::Part::preferSharpFlat</definition>
+        <argsstring>() const</argsstring>
+        <name>preferSharpFlat</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/part.h" line="147" column="23" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/part.h" bodystart="147" bodyend="147"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ms_1_1_part_1a87cc3e9f740bbb3c8d30d2ea69cde675" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Ms::Part::setPreferSharpFlat</definition>
+        <argsstring>(PreferSharpFlat v)</argsstring>
+        <name>setPreferSharpFlat</name>
+        <param>
+          <type>PreferSharpFlat</type>
+          <declname>v</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/part.h" line="148" column="12" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/part.h" bodystart="148" bodyend="148"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="friend">
+      <memberdef kind="friend" id="class_ms_1_1_part_1a1dc84c224767d14ce37d7b609f818e76" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>friend void</type>
+        <definition>void readPart206</definition>
+        <argsstring>(Part *, XmlReader &amp;)</argsstring>
+        <name>readPart206</name>
+        <param>
+          <type><ref refid="class_ms_1_1_part" kindref="compound">Part</ref> *</type>
+          <defname>part</defname>
+        </param>
+        <param>
+          <type><ref refid="class_ms_1_1_xml_reader" kindref="compound">XmlReader</ref> &amp;</type>
+          <defname>e</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/part.h" line="152" column="19" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/read206.cpp" bodystart="1088" bodyend="1115"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>Ms::Part</label>
+        <link refid="class_ms_1_1_part"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>Ms::ScoreElement</label>
+        <link refid="class_ms_1_1_score_element"/>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="4">
+        <label>QList&lt; ScoreElement * &gt;</label>
+      </node>
+      <node id="1">
+        <label>Ms::Part</label>
+        <link refid="class_ms_1_1_part"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>Ms::ScoreElement</label>
+        <link refid="class_ms_1_1_score_element"/>
+        <childnode refid="3" relation="usage">
+          <edgelabel>_links</edgelabel>
+        </childnode>
+      </node>
+      <node id="3">
+        <label>Ms::LinkedElements</label>
+        <link refid="class_ms_1_1_linked_elements"/>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/part.h" line="55" column="31" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/part.h" bodystart="55" bodyend="153"/>
+    <listofallmembers>
+      <member refid="class_ms_1_1_part_1a9bfd770efb546cabad7288549a5908d8" prot="private" virt="non-virtual"><scope>Ms::Part</scope><name>_color</name></member>
+      <member refid="class_ms_1_1_score_element_1a648639a58d05aa85412217db5ad40b18" prot="protected" virt="non-virtual"><scope>Ms::Part</scope><name>_elementStyle</name></member>
+      <member refid="class_ms_1_1_part_1ac30b1c0fda785e7261d9b2cc4a50bc09" prot="private" virt="non-virtual"><scope>Ms::Part</scope><name>_id</name></member>
+      <member refid="class_ms_1_1_part_1afa089e53822fa18019b1d6d6fbdd1d02" prot="private" virt="non-virtual"><scope>Ms::Part</scope><name>_instruments</name></member>
+      <member refid="class_ms_1_1_score_element_1a405b151c60a010237414678a0e0952af" prot="protected" virt="non-virtual"><scope>Ms::Part</scope><name>_links</name></member>
+      <member refid="class_ms_1_1_part_1a0c4b6dd7a2680511bef26ec4ffba8d12" prot="private" virt="non-virtual"><scope>Ms::Part</scope><name>_partName</name></member>
+      <member refid="class_ms_1_1_part_1a516e892a4110b085fb51a0db25fd69d2" prot="private" virt="non-virtual"><scope>Ms::Part</scope><name>_preferSharpFlat</name></member>
+      <member refid="class_ms_1_1_score_element_1a6d4b99ddb9e217aaa9f9ae67a76861f3" prot="protected" virt="non-virtual"><scope>Ms::Part</scope><name>_propertyFlagsList</name></member>
+      <member refid="class_ms_1_1_part_1aa8dfa1c27279a9cc5fbff0398f85280f" prot="private" virt="non-virtual"><scope>Ms::Part</scope><name>_show</name></member>
+      <member refid="class_ms_1_1_part_1a8f0cd80d0a1f1ca3856bf262b237a471" prot="private" virt="non-virtual"><scope>Ms::Part</scope><name>_staves</name></member>
+      <member refid="class_ms_1_1_part_1a7e2a696e9af478eb473be16ef1810785" prot="public" virt="non-virtual"><scope>Ms::Part</scope><name>color</name></member>
+      <member refid="class_ms_1_1_part_1a5c1cabec19ec19722a9c9b5286cf39a4" prot="private" virt="non-virtual"><scope>Ms::Part</scope><name>DEFAULT_COLOR</name></member>
+      <member refid="class_ms_1_1_part_1abe6771ce7c8d60d52b17d5f5497fdc17" prot="public" virt="non-virtual"><scope>Ms::Part</scope><name>endTrack</name></member>
+      <member refid="class_ms_1_1_part_1a28645e8ca15388482e22e1a49d3afcc9" prot="public" virt="virtual"><scope>Ms::Part</scope><name>getProperty</name></member>
+      <member refid="class_ms_1_1_score_element_1a5dd171e2eca7de57f28a9bc4430bb12d" prot="protected" virt="virtual"><scope>Ms::Part</scope><name>getPropertyFlagsIdx</name></member>
+      <member refid="class_ms_1_1_score_element_1a36d66100b5c6df17eb37f276aaca0454" prot="public" virt="virtual"><scope>Ms::Part</scope><name>getPropertyStyle</name></member>
+      <member refid="class_ms_1_1_part_1a91f809b4dd16f7be5dbe37c7b40587fa" prot="public" virt="non-virtual"><scope>Ms::Part</scope><name>harmonyChannel</name></member>
+      <member refid="class_ms_1_1_part_1ab232b25e51d0f524d15809b260d79fc9" prot="public" virt="non-virtual"><scope>Ms::Part</scope><name>harmonyCount</name></member>
+      <member refid="class_ms_1_1_part_1af3da63deccf28cacf154004e994a6c30" prot="public" virt="non-virtual"><scope>Ms::Part</scope><name>hasDrumStaff</name></member>
+      <member refid="class_ms_1_1_part_1a8e7dde29717934c1f80d2a69dd04f410" prot="public" virt="non-virtual"><scope>Ms::Part</scope><name>hasPitchedStaff</name></member>
+      <member refid="class_ms_1_1_part_1a9cd1ecb973dd9e98de9ceadd2c06a9bf" prot="public" virt="non-virtual"><scope>Ms::Part</scope><name>hasTabStaff</name></member>
+      <member refid="class_ms_1_1_part_1af48dff3059219a41c066b0a1fd57da93" prot="public" virt="non-virtual"><scope>Ms::Part</scope><name>id</name></member>
+      <member refid="class_ms_1_1_score_element_1a8deeadfce551a58b1078f1af62c2075d" prot="public" virt="virtual"><scope>Ms::Part</scope><name>initElementStyle</name></member>
+      <member refid="class_ms_1_1_part_1a37456bf94d31f872c5a85f7c6575bd1c" prot="public" virt="non-virtual"><scope>Ms::Part</scope><name>initFromInstrTemplate</name></member>
+      <member refid="class_ms_1_1_part_1a59495f5c2fc1a139f6597d9402a63a5f" prot="public" virt="non-virtual"><scope>Ms::Part</scope><name>insertStaff</name></member>
+      <member refid="class_ms_1_1_part_1a6bf2df1f21bb3ba70855f6966b2882e1" prot="public" virt="non-virtual"><scope>Ms::Part</scope><name>insertTime</name></member>
+      <member refid="class_ms_1_1_part_1a6cae82662abe64d683dff09b3c7874f8" prot="public" virt="non-virtual"><scope>Ms::Part</scope><name>instrument</name></member>
+      <member refid="class_ms_1_1_part_1a7a06ef995ca1a946fc1800653a287fcc" prot="public" virt="non-virtual"><scope>Ms::Part</scope><name>instrument</name></member>
+      <member refid="class_ms_1_1_part_1a6fdc42630b1e972ce29cf4852741c9db" prot="public" virt="non-virtual"><scope>Ms::Part</scope><name>instrumentId</name></member>
+      <member refid="class_ms_1_1_part_1a5943bee088c3393e817205c203796319" prot="public" virt="non-virtual"><scope>Ms::Part</scope><name>instrumentName</name></member>
+      <member refid="class_ms_1_1_part_1a189d96be9a334c89d92813a11fd3a92e" prot="public" virt="non-virtual"><scope>Ms::Part</scope><name>instruments</name></member>
+      <member refid="class_ms_1_1_score_element_1a997e1063786d8c705c74b3d66c54f269" prot="public" virt="non-virtual"><scope>Ms::Part</scope><name>isBox</name></member>
+      <member refid="class_ms_1_1_score_element_1ad05261e50a084a0c6c42fced1ca78d8f" prot="public" virt="non-virtual"><scope>Ms::Part</scope><name>isBSymbol</name></member>
+      <member refid="class_ms_1_1_score_element_1accef1c91df491a43c54e70474deea60c" prot="public" virt="non-virtual"><scope>Ms::Part</scope><name>isChordRest</name></member>
+      <member refid="class_ms_1_1_score_element_1a203290a59b13861b957d2943f65a4cf0" prot="public" virt="non-virtual"><scope>Ms::Part</scope><name>isDurationElement</name></member>
+      <member refid="class_ms_1_1_score_element_1ac98792e8d02a53ecabe29cf9cc02e1a1" prot="public" virt="virtual"><scope>Ms::Part</scope><name>isElement</name></member>
+      <member refid="class_ms_1_1_score_element_1a0d5f2d0a979bf52ab2436f6ceb6d9ef6" prot="public" virt="non-virtual"><scope>Ms::Part</scope><name>isLineSegment</name></member>
+      <member refid="class_ms_1_1_score_element_1a1d34473f54590e3d8c2a1bc78b560c21" prot="public" virt="non-virtual"><scope>Ms::Part</scope><name>isLinked</name></member>
+      <member refid="class_ms_1_1_score_element_1a06e5d7c169bf6eb01f5f723cbdae973f" prot="public" virt="non-virtual"><scope>Ms::Part</scope><name>isMeasureBase</name></member>
+      <member refid="class_ms_1_1_score_element_1a4de90a044cdd2a7030d707f2b081c8a4" prot="public" virt="non-virtual"><scope>Ms::Part</scope><name>isSLine</name></member>
+      <member refid="class_ms_1_1_score_element_1acf35020b5e670ac13791697e65b679d4" prot="public" virt="non-virtual"><scope>Ms::Part</scope><name>isSLineSegment</name></member>
+      <member refid="class_ms_1_1_score_element_1a372dfc0678c5194028e61b6a9a24ab62" prot="public" virt="non-virtual"><scope>Ms::Part</scope><name>isSlurTieSegment</name></member>
+      <member refid="class_ms_1_1_score_element_1a98f8c58df0f5baafe63414bedf84514f" prot="public" virt="non-virtual"><scope>Ms::Part</scope><name>isSpanner</name></member>
+      <member refid="class_ms_1_1_score_element_1a5aa58f96618edb0e3ff660e1c96c5d4e" prot="public" virt="non-virtual"><scope>Ms::Part</scope><name>isSpannerSegment</name></member>
+      <member refid="class_ms_1_1_score_element_1ac009e016c7a3dc148b0aaad50c1c4547" prot="public" virt="non-virtual"><scope>Ms::Part</scope><name>isStaffTextBase</name></member>
+      <member refid="class_ms_1_1_score_element_1a4d0de3ac9401da46c32ed8becb9d496b" prot="public" virt="non-virtual"><scope>Ms::Part</scope><name>isStyled</name></member>
+      <member refid="class_ms_1_1_score_element_1a979b6e1bc10cf790e755aa8641feb4cf" prot="public" virt="non-virtual"><scope>Ms::Part</scope><name>isTextBase</name></member>
+      <member refid="class_ms_1_1_score_element_1a7151838e2192a30624d6111dd4c87918" prot="public" virt="non-virtual"><scope>Ms::Part</scope><name>isTextLineBase</name></member>
+      <member refid="class_ms_1_1_score_element_1ab98a731c7adf65cebc23235f9fe150af" prot="public" virt="non-virtual"><scope>Ms::Part</scope><name>isTextLineBaseSegment</name></member>
+      <member refid="class_ms_1_1_score_element_1aac3320320d350a161ed3f9a601160451" prot="public" virt="non-virtual"><scope>Ms::Part</scope><name>isVBoxBase</name></member>
+      <member refid="class_ms_1_1_score_element_1ad9b69df1d2c04f2b298520bb649a8c55" prot="public" virt="non-virtual"><scope>Ms::Part</scope><name>lid</name></member>
+      <member refid="class_ms_1_1_score_element_1a2f0ed55c566c19cb483d77250cb52450" prot="public" virt="non-virtual"><scope>Ms::Part</scope><name>linkList</name></member>
+      <member refid="class_ms_1_1_score_element_1a3d5c97191484848b3f10e754246f8758" prot="public" virt="non-virtual"><scope>Ms::Part</scope><name>links</name></member>
+      <member refid="class_ms_1_1_score_element_1a1dad93f0591eb31f69854e8f141b051e" prot="public" virt="non-virtual"><scope>Ms::Part</scope><name>linkTo</name></member>
+      <member refid="class_ms_1_1_part_1a8035841f52dec57cb18a6578e5102bdf" prot="public" virt="non-virtual"><scope>Ms::Part</scope><name>longName</name></member>
+      <member refid="class_ms_1_1_part_1ad41675da24d0afe604ba234990909d98" prot="public" virt="non-virtual"><scope>Ms::Part</scope><name>longNames</name></member>
+      <member refid="class_ms_1_1_part_1a24ca6737a71ba8e3dfb8461f16eea56a" prot="public" virt="non-virtual"><scope>Ms::Part</scope><name>lyricCount</name></member>
+      <member refid="class_ms_1_1_part_1a8c5fb41d36344ba8026d2edcff23364f" prot="public" virt="non-virtual"><scope>Ms::Part</scope><name>masterPart</name></member>
+      <member refid="class_ms_1_1_part_1a2a70e14610613dc4e89dd30ee04aac9f" prot="public" virt="non-virtual"><scope>Ms::Part</scope><name>masterPart</name></member>
+      <member refid="class_ms_1_1_score_element_1ae4991aaf0d79271cc347530f3d07fcd6" prot="public" virt="non-virtual"><scope>Ms::Part</scope><name>masterScore</name></member>
+      <member refid="class_ms_1_1_part_1afd2e6236a2abfd44b877f87b1676b806" prot="public" virt="non-virtual"><scope>Ms::Part</scope><name>midiChannel</name></member>
+      <member refid="class_ms_1_1_part_1a1896e0bcc7706a1ebd959da4ea485b10" prot="public" virt="non-virtual"><scope>Ms::Part</scope><name>midiPort</name></member>
+      <member refid="class_ms_1_1_part_1a196ff7c4335a5a486f12f97c4d54914b" prot="public" virt="non-virtual"><scope>Ms::Part</scope><name>midiProgram</name></member>
+      <member refid="class_ms_1_1_score_element_1ad80dda73306d6b784b0cac4626f797d4" prot="public" virt="non-virtual"><scope>Ms::Part</scope><name>name</name></member>
+      <member refid="class_ms_1_1_score_element_1ab6ded8e7ff6dcb45db0036a57f9f9d26" prot="public" virt="non-virtual"><scope>Ms::Part</scope><name>name</name></member>
+      <member refid="class_ms_1_1_score_element_1a971f91737e74571d6e4b6bb78f56e1dc" prot="public" virt="non-virtual"><scope>Ms::Part</scope><name>name2type</name></member>
+      <member refid="class_ms_1_1_score_element_1ae41701f68025bc77c26f6db74b452465" prot="public" virt="non-virtual"><scope>Ms::Part</scope><name>name2type</name></member>
+      <member refid="class_ms_1_1_part_1ac0d6f1ee40e54d54510e2c2b56a7ec5c" prot="public" virt="non-virtual"><scope>Ms::Part</scope><name>nstaves</name></member>
+      <member refid="class_ms_1_1_part_1a23a03278ba00f37930c218db377358aa" prot="public" virt="non-virtual"><scope>Ms::Part</scope><name>Part</name></member>
+      <member refid="class_ms_1_1_part_1ad2391fa561a67958bc07078bd13d9e69" prot="public" virt="non-virtual"><scope>Ms::Part</scope><name>partName</name></member>
+      <member refid="class_ms_1_1_part_1a57b33d6693a4b52f875a0f7f1c9fa9d7" prot="public" virt="non-virtual"><scope>Ms::Part</scope><name>preferSharpFlat</name></member>
+      <member refid="class_ms_1_1_score_element_1ab3fcbdb9cd19d04933bd15434138c230" prot="public" virt="virtual"><scope>Ms::Part</scope><name>propertyDefault</name></member>
+      <member refid="class_ms_1_1_score_element_1aaae0b7999568ce64245a5cf995af62b5" prot="public" virt="non-virtual"><scope>Ms::Part</scope><name>propertyDefault</name></member>
+      <member refid="class_ms_1_1_score_element_1a9b9c00757c23cba103638b4ab63df03e" prot="public" virt="virtual"><scope>Ms::Part</scope><name>propertyFlags</name></member>
+      <member refid="class_ms_1_1_score_element_1ab00670f7d8229c14090cc3d7376d2202" prot="public" virt="virtual"><scope>Ms::Part</scope><name>propertyFlagsList</name></member>
+      <member refid="class_ms_1_1_score_element_1aca54d0e9003af5f13c7121a192229255" prot="public" virt="virtual"><scope>Ms::Part</scope><name>propertyId</name></member>
+      <member refid="class_ms_1_1_score_element_1a8b64f4c9f3ea93ea6dd3e668bc24eb3e" prot="public" virt="virtual"><scope>Ms::Part</scope><name>propertyUserValue</name></member>
+      <member refid="class_ms_1_1_part_1ae77e06ffac8a5d3870b231f98fda515f" prot="public" virt="non-virtual"><scope>Ms::Part</scope><name>read</name></member>
+      <member refid="class_ms_1_1_score_element_1a92ef81d3a9835ec8e78a308229da35f8" prot="public" virt="virtual"><scope>Ms::Part</scope><name>readAddConnector</name></member>
+      <member refid="class_ms_1_1_part_1a1dc84c224767d14ce37d7b609f818e76" prot="public" virt="non-virtual"><scope>Ms::Part</scope><name>readPart206</name></member>
+      <member refid="class_ms_1_1_part_1a92622cbe30f0da4d7523d3a5ccdb6ae0" prot="public" virt="non-virtual"><scope>Ms::Part</scope><name>readProperties</name></member>
+      <member refid="class_ms_1_1_score_element_1a8b3be86196659c2e0fb6ed86256cb0fe" prot="public" virt="non-virtual"><scope>Ms::Part</scope><name>readProperty</name></member>
+      <member refid="class_ms_1_1_score_element_1a473e639853dd8adc607a5c2a63c6d4ad" prot="public" virt="non-virtual"><scope>Ms::Part</scope><name>readProperty</name></member>
+      <member refid="class_ms_1_1_score_element_1a053d7512b54eaa787bcef0eba427a76f" prot="public" virt="non-virtual"><scope>Ms::Part</scope><name>readStyledProperty</name></member>
+      <member refid="class_ms_1_1_part_1aa9a6d998e1f7cefeed8e02783a1264f2" prot="public" virt="non-virtual"><scope>Ms::Part</scope><name>removeInstrument</name></member>
+      <member refid="class_ms_1_1_part_1a0c9bf8a8dafbf8abba9b39e45aba003e" prot="public" virt="non-virtual"><scope>Ms::Part</scope><name>removeStaff</name></member>
+      <member refid="class_ms_1_1_score_element_1a89ab22206aebcf2c3249b5c78b1122e7" prot="public" virt="virtual"><scope>Ms::Part</scope><name>reset</name></member>
+      <member refid="class_ms_1_1_score_element_1a8f3e233ff30279756578c751c0ea3e17" prot="public" virt="virtual"><scope>Ms::Part</scope><name>resetProperty</name></member>
+      <member refid="class_ms_1_1_score_element_1a70883d048b0884821ac779d9ab168151" prot="public" virt="non-virtual"><scope>Ms::Part</scope><name>score</name></member>
+      <member refid="class_ms_1_1_score_element_1a3fed4ec5f58054eb578ff9c7bb80d72f" prot="public" virt="non-virtual"><scope>Ms::Part</scope><name>ScoreElement</name></member>
+      <member refid="class_ms_1_1_score_element_1ac2b2cb70fe954ba2b1cce6d35743edf2" prot="public" virt="non-virtual"><scope>Ms::Part</scope><name>ScoreElement</name></member>
+      <member refid="class_ms_1_1_part_1a87d56b06bfcb715dd95f53f3f6d2c5fe" prot="public" virt="non-virtual"><scope>Ms::Part</scope><name>setColor</name></member>
+      <member refid="class_ms_1_1_part_1a63fd6b97236309036cdb4915c28a5aec" prot="public" virt="non-virtual"><scope>Ms::Part</scope><name>setId</name></member>
+      <member refid="class_ms_1_1_part_1a78faa958eb395ed351ee94123e2b42db" prot="public" virt="non-virtual"><scope>Ms::Part</scope><name>setInstrument</name></member>
+      <member refid="class_ms_1_1_part_1aa5a0392b1d69bd19075eb2a010208a92" prot="public" virt="non-virtual"><scope>Ms::Part</scope><name>setInstrument</name></member>
+      <member refid="class_ms_1_1_part_1a7b141181ee4948fe5902210bf092a981" prot="public" virt="non-virtual"><scope>Ms::Part</scope><name>setInstrument</name></member>
+      <member refid="class_ms_1_1_score_element_1ae1e16c1a83100a1ea23b05bfb1642283" prot="public" virt="non-virtual"><scope>Ms::Part</scope><name>setLinks</name></member>
+      <member refid="class_ms_1_1_part_1aef3df85794ccf339b54e4e6c683fc40f" prot="public" virt="non-virtual"><scope>Ms::Part</scope><name>setLongName</name></member>
+      <member refid="class_ms_1_1_part_1ab6870fbcddbd90907a5db02f2a0f0f74" prot="public" virt="non-virtual"><scope>Ms::Part</scope><name>setLongNames</name></member>
+      <member refid="class_ms_1_1_part_1a9a33c138aef17f3a3a1741175bacc03e" prot="public" virt="non-virtual"><scope>Ms::Part</scope><name>setMidiChannel</name></member>
+      <member refid="class_ms_1_1_part_1a289630faf54df5f562c472c8bbfe4a29" prot="public" virt="non-virtual"><scope>Ms::Part</scope><name>setMidiProgram</name></member>
+      <member refid="class_ms_1_1_part_1a511af9d701762c6ebb0093fdbc39be1a" prot="public" virt="non-virtual"><scope>Ms::Part</scope><name>setPartName</name></member>
+      <member refid="class_ms_1_1_part_1a0da062a1f17c8e4980fb3666608b94c5" prot="public" virt="non-virtual"><scope>Ms::Part</scope><name>setPlainLongName</name></member>
+      <member refid="class_ms_1_1_part_1a5b52e69bc036527d9fb9fccd6341d80b" prot="public" virt="non-virtual"><scope>Ms::Part</scope><name>setPlainShortName</name></member>
+      <member refid="class_ms_1_1_part_1a87cc3e9f740bbb3c8d30d2ea69cde675" prot="public" virt="non-virtual"><scope>Ms::Part</scope><name>setPreferSharpFlat</name></member>
+      <member refid="class_ms_1_1_part_1af6597ca69e71f04a1d2b84fc40bb784b" prot="public" virt="virtual"><scope>Ms::Part</scope><name>setProperty</name></member>
+      <member refid="class_ms_1_1_score_element_1aceed92c262270a2a79d3f97d0f018a29" prot="public" virt="non-virtual"><scope>Ms::Part</scope><name>setPropertyFlags</name></member>
+      <member refid="class_ms_1_1_score_element_1a6a1e59c49777e28459d2270981fc97df" prot="public" virt="virtual"><scope>Ms::Part</scope><name>setScore</name></member>
+      <member refid="class_ms_1_1_part_1acc3377d2b92a5cb0cb41c4ce61d7063c" prot="public" virt="non-virtual"><scope>Ms::Part</scope><name>setShortName</name></member>
+      <member refid="class_ms_1_1_part_1ae0b6a8539a1d622d5defebc39bbd43bd" prot="public" virt="non-virtual"><scope>Ms::Part</scope><name>setShortNames</name></member>
+      <member refid="class_ms_1_1_part_1a781dda652f4144320f1a7e137ff507b7" prot="public" virt="non-virtual"><scope>Ms::Part</scope><name>setShow</name></member>
+      <member refid="class_ms_1_1_part_1a244092dfe0743085b642804e6cc93a21" prot="public" virt="non-virtual"><scope>Ms::Part</scope><name>setStaves</name></member>
+      <member refid="class_ms_1_1_part_1abd41badc4e1a13f5618584c22c1c818c" prot="public" virt="non-virtual"><scope>Ms::Part</scope><name>shortName</name></member>
+      <member refid="class_ms_1_1_part_1a8031d1e96477d96b942216c45b099697" prot="public" virt="non-virtual"><scope>Ms::Part</scope><name>shortNames</name></member>
+      <member refid="class_ms_1_1_part_1a184459de534501648fb8ca613cfdd1e4" prot="public" virt="non-virtual"><scope>Ms::Part</scope><name>show</name></member>
+      <member refid="class_ms_1_1_score_element_1ad9b5a0f3ec11f88a2659416d105ab5b0" prot="public" virt="virtual"><scope>Ms::Part</scope><name>sizeIsSpatiumDependent</name></member>
+      <member refid="class_ms_1_1_part_1a3416c1062c8d4edc6247c8bdd11e00d8" prot="public" virt="non-virtual"><scope>Ms::Part</scope><name>staff</name></member>
+      <member refid="class_ms_1_1_part_1a9cf90028e8f1f9610b16ac63eb41a506" prot="public" virt="non-virtual"><scope>Ms::Part</scope><name>startTrack</name></member>
+      <member refid="class_ms_1_1_part_1aa11473b705e1917640e87bba141cdee4" prot="public" virt="non-virtual"><scope>Ms::Part</scope><name>staves</name></member>
+      <member refid="class_ms_1_1_part_1a56540e2bb291ed2468f6b47569052f05" prot="public" virt="non-virtual"><scope>Ms::Part</scope><name>staves</name></member>
+      <member refid="class_ms_1_1_score_element_1abd7730432b512afc15873362a5414bad" prot="public" virt="virtual"><scope>Ms::Part</scope><name>styleChanged</name></member>
+      <member refid="class_ms_1_1_score_element_1a08e4c60af2466c57931724393f7bee4f" prot="public" virt="virtual"><scope>Ms::Part</scope><name>styledProperties</name></member>
+      <member refid="class_ms_1_1_score_element_1a8a3670f26efa9a07e14695cee4512dc4" prot="public" virt="non-virtual"><scope>Ms::Part</scope><name>styleValue</name></member>
+      <member refid="class_ms_1_1_part_1a77da39b33e7904043d36fac77ce6eda7" prot="public" virt="virtual"><scope>Ms::Part</scope><name>type</name></member>
+      <member refid="class_ms_1_1_score_element_1af0505b234ccb7520a7d93ddd09ca4e1f" prot="public" virt="virtual"><scope>Ms::Part</scope><name>undoChangeProperty</name></member>
+      <member refid="class_ms_1_1_score_element_1a4d0c98408c09304865fc3c9e011a9695" prot="public" virt="non-virtual"><scope>Ms::Part</scope><name>undoChangeProperty</name></member>
+      <member refid="class_ms_1_1_score_element_1ab31ad4878a7d6e5c5acbd88e3232f2fb" prot="public" virt="non-virtual"><scope>Ms::Part</scope><name>undoPushProperty</name></member>
+      <member refid="class_ms_1_1_score_element_1a2f2ea7d6e1179cbb00f95689125482d0" prot="public" virt="non-virtual"><scope>Ms::Part</scope><name>undoResetProperty</name></member>
+      <member refid="class_ms_1_1_score_element_1a994f2abd8df02a160c7055b0cae26c87" prot="public" virt="virtual"><scope>Ms::Part</scope><name>undoUnlink</name></member>
+      <member refid="class_ms_1_1_score_element_1a1d76afaf3ee463445961c3d981901be1" prot="public" virt="non-virtual"><scope>Ms::Part</scope><name>unlink</name></member>
+      <member refid="class_ms_1_1_part_1a06168747cf4c1b2dd1c1971cd3c6a867" prot="public" virt="non-virtual"><scope>Ms::Part</scope><name>updateHarmonyChannels</name></member>
+      <member refid="class_ms_1_1_score_element_1acb1866df2e440923354fa5b1ee9d5f52" prot="public" virt="virtual"><scope>Ms::Part</scope><name>userName</name></member>
+      <member refid="class_ms_1_1_part_1a0bc2986f52d436bb4fa4d26604d1921b" prot="public" virt="non-virtual"><scope>Ms::Part</scope><name>write</name></member>
+      <member refid="class_ms_1_1_score_element_1a4ae6e7e095b8f672951ffc30f980c45d" prot="public" virt="non-virtual"><scope>Ms::Part</scope><name>writeProperty</name></member>
+      <member refid="class_ms_1_1_score_element_1a7a3de180bd5a72ab3e27b7fbf9213567" prot="public" virt="non-virtual"><scope>Ms::Part</scope><name>writeStyledProperties</name></member>
+      <member refid="class_ms_1_1_score_element_1abc6cbffe99d185a7262f86be05cf6365" prot="public" virt="virtual"><scope>Ms::Part</scope><name>~ScoreElement</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

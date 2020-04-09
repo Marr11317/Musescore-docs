@@ -1,0 +1,222 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.17">
+  <compounddef id="class_ms_1_1_synthesizer_state" kind="class" language="C++" prot="public">
+    <compoundname>Ms::SynthesizerState</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">std::list&lt; SynthesizerGroup &gt;</basecompoundref>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_ms_1_1_synthesizer_state_1adc05b2122827dfb79097292dae7584cd" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool Ms::SynthesizerState::_isDefault</definition>
+        <argsstring></argsstring>
+        <name>_isDefault</name>
+        <initializer>{ true }</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/synthesizerstate.h" line="56" column="12" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/synthesizerstate.h" bodystart="56" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_ms_1_1_synthesizer_state_1a65321e96ef7a8ca623da0ce424d5ee08" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>Ms::SynthesizerState::SynthesizerState</definition>
+        <argsstring>(std::initializer_list&lt; SynthesizerGroup &gt; l)</argsstring>
+        <name>SynthesizerState</name>
+        <param>
+          <type>std::initializer_list&lt; <ref refid="class_ms_1_1_synthesizer_group" kindref="compound">SynthesizerGroup</ref> &gt;</type>
+          <declname>l</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/synthesizerstate.h" line="59" column="7" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/synthesizerstate.h" bodystart="59" bodyend="61"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ms_1_1_synthesizer_state_1a0067b5a52c1529ea374bec452446f2e9" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>Ms::SynthesizerState::SynthesizerState</definition>
+        <argsstring>()</argsstring>
+        <name>SynthesizerState</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/synthesizerstate.h" line="62" column="7" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/synthesizerstate.h" bodystart="62" bodyend="62"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ms_1_1_synthesizer_state_1a2984dba6adbcd0dd9b17bea8592a4c69" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Ms::SynthesizerState::write</definition>
+        <argsstring>(XmlWriter &amp;, bool force=false) const</argsstring>
+        <name>write</name>
+        <param>
+          <type><ref refid="class_ms_1_1_xml_writer" kindref="compound">XmlWriter</ref> &amp;</type>
+          <defname>xml</defname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>force</declname>
+          <defval>false</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/synthesizerstate.h" line="64" column="12" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/synthesizerstate.cpp" bodystart="22" bodyend="37"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ms_1_1_synthesizer_state_1a0be2aab38a583681071e6e05d8162071" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Ms::SynthesizerState::read</definition>
+        <argsstring>(XmlReader &amp;)</argsstring>
+        <name>read</name>
+        <param>
+          <type><ref refid="class_ms_1_1_xml_reader" kindref="compound">XmlReader</ref> &amp;</type>
+          <defname>e</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/synthesizerstate.h" line="65" column="12" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/synthesizerstate.cpp" bodystart="43" bodyend="66"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ms_1_1_synthesizer_state_1addbb693dd4dcdaf908c6c7a2046d2ff4" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="class_ms_1_1_synthesizer_group" kindref="compound">SynthesizerGroup</ref></type>
+        <definition>SynthesizerGroup Ms::SynthesizerState::group</definition>
+        <argsstring>(const QString &amp;name) const</argsstring>
+        <name>group</name>
+        <param>
+          <type>const QString &amp;</type>
+          <declname>name</declname>
+        </param>
+        <briefdescription>
+<para>Get <ref refid="class_ms_1_1_synthesizer_group" kindref="compound">SynthesizerGroup</ref> by name. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/synthesizerstate.h" line="66" column="24" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/synthesizerstate.cpp" bodystart="73" bodyend="81"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ms_1_1_synthesizer_state_1aa308307dab5d80434cea75cff5355ad9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool Ms::SynthesizerState::isDefaultSynthSoundfont</definition>
+        <argsstring>()</argsstring>
+        <name>isDefaultSynthSoundfont</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>check if synthesizer state uses default synth and default font only </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/synthesizerstate.h" line="67" column="12" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/synthesizerstate.cpp" bodystart="89" bodyend="98"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ms_1_1_synthesizer_state_1a4366db7ce56fdc0c2b15df64fc985cfd" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int Ms::SynthesizerState::ccToUse</definition>
+        <argsstring>() const</argsstring>
+        <name>ccToUse</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/synthesizerstate.h" line="68" column="11" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/synthesizerstate.cpp" bodystart="104" bodyend="138"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ms_1_1_synthesizer_state_1a1e6c336e0076dc44dee7d08e03d65789" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int Ms::SynthesizerState::method</definition>
+        <argsstring>() const</argsstring>
+        <name>method</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/synthesizerstate.h" line="69" column="11" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/synthesizerstate.cpp" bodystart="144" bodyend="158"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ms_1_1_synthesizer_state_1a59e722ed6c3539467204b7c03c885b53" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool Ms::SynthesizerState::isDefault</definition>
+        <argsstring>() const</argsstring>
+        <name>isDefault</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/synthesizerstate.h" line="70" column="12" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/synthesizerstate.h" bodystart="70" bodyend="70"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ms_1_1_synthesizer_state_1a18f0b5d39a54fe885bee093c98b2627f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Ms::SynthesizerState::setIsDefault</definition>
+        <argsstring>(bool val)</argsstring>
+        <name>setIsDefault</name>
+        <param>
+          <type>bool</type>
+          <declname>val</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/synthesizerstate.h" line="71" column="12" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/synthesizerstate.h" bodystart="71" bodyend="71"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>std::list&lt; SynthesizerGroup &gt;</label>
+      </node>
+      <node id="1">
+        <label>Ms::SynthesizerState</label>
+        <link refid="class_ms_1_1_synthesizer_state"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>std::list&lt; SynthesizerGroup &gt;</label>
+      </node>
+      <node id="1">
+        <label>Ms::SynthesizerState</label>
+        <link refid="class_ms_1_1_synthesizer_state"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/synthesizerstate.h" line="55" column="41" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/synthesizerstate.h" bodystart="55" bodyend="72"/>
+    <listofallmembers>
+      <member refid="class_ms_1_1_synthesizer_state_1adc05b2122827dfb79097292dae7584cd" prot="private" virt="non-virtual"><scope>Ms::SynthesizerState</scope><name>_isDefault</name></member>
+      <member refid="class_ms_1_1_synthesizer_state_1a4366db7ce56fdc0c2b15df64fc985cfd" prot="public" virt="non-virtual"><scope>Ms::SynthesizerState</scope><name>ccToUse</name></member>
+      <member refid="class_ms_1_1_synthesizer_state_1addbb693dd4dcdaf908c6c7a2046d2ff4" prot="public" virt="non-virtual"><scope>Ms::SynthesizerState</scope><name>group</name></member>
+      <member refid="class_ms_1_1_synthesizer_state_1a59e722ed6c3539467204b7c03c885b53" prot="public" virt="non-virtual"><scope>Ms::SynthesizerState</scope><name>isDefault</name></member>
+      <member refid="class_ms_1_1_synthesizer_state_1aa308307dab5d80434cea75cff5355ad9" prot="public" virt="non-virtual"><scope>Ms::SynthesizerState</scope><name>isDefaultSynthSoundfont</name></member>
+      <member refid="class_ms_1_1_synthesizer_state_1a1e6c336e0076dc44dee7d08e03d65789" prot="public" virt="non-virtual"><scope>Ms::SynthesizerState</scope><name>method</name></member>
+      <member refid="class_ms_1_1_synthesizer_state_1a0be2aab38a583681071e6e05d8162071" prot="public" virt="non-virtual"><scope>Ms::SynthesizerState</scope><name>read</name></member>
+      <member refid="class_ms_1_1_synthesizer_state_1a18f0b5d39a54fe885bee093c98b2627f" prot="public" virt="non-virtual"><scope>Ms::SynthesizerState</scope><name>setIsDefault</name></member>
+      <member refid="class_ms_1_1_synthesizer_state_1a65321e96ef7a8ca623da0ce424d5ee08" prot="public" virt="non-virtual"><scope>Ms::SynthesizerState</scope><name>SynthesizerState</name></member>
+      <member refid="class_ms_1_1_synthesizer_state_1a0067b5a52c1529ea374bec452446f2e9" prot="public" virt="non-virtual"><scope>Ms::SynthesizerState</scope><name>SynthesizerState</name></member>
+      <member refid="class_ms_1_1_synthesizer_state_1a2984dba6adbcd0dd9b17bea8592a4c69" prot="public" virt="non-virtual"><scope>Ms::SynthesizerState</scope><name>write</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,241 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.17">
+  <compounddef id="class_ms_1_1_repeat_segment" kind="class" language="C++" prot="public">
+    <compoundname>Ms::RepeatSegment</compoundname>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_ms_1_1_repeat_segment_1a9342e4ce4938256c4875ee51b7b2b42e" prot="private" static="no" mutable="no">
+        <type>QList&lt; std::pair&lt; <ref refid="class_ms_1_1_measure" kindref="compound">Measure</ref> *, int &gt; &gt;</type>
+        <definition>QList&lt;std::pair&lt;Measure*, int&gt; &gt; Ms::RepeatSegment::measureList</definition>
+        <argsstring></argsstring>
+        <name>measureList</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/repeatlist.h" line="29" column="13" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/repeatlist.h" bodystart="29" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_ms_1_1_repeat_segment_1abe0d339ede48c79c40418c6b6cc189a1" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int Ms::RepeatSegment::tick</definition>
+        <argsstring></argsstring>
+        <name>tick</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/repeatlist.h" line="31" column="11" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/repeatlist.h" bodystart="31" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_ms_1_1_repeat_segment_1a5373793f0d793ea1d9b1dd65f38b1b79" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int Ms::RepeatSegment::utick</definition>
+        <argsstring></argsstring>
+        <name>utick</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/repeatlist.h" line="32" column="11" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/repeatlist.h" bodystart="32" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_ms_1_1_repeat_segment_1ae12ac25bd66b8034acaef2d81682079b" prot="public" static="no" mutable="no">
+        <type>qreal</type>
+        <definition>qreal Ms::RepeatSegment::utime</definition>
+        <argsstring></argsstring>
+        <name>utime</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/repeatlist.h" line="33" column="13" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/repeatlist.h" bodystart="33" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_ms_1_1_repeat_segment_1a349be9a48c72b3fef91ee898805dc735" prot="public" static="no" mutable="no">
+        <type>qreal</type>
+        <definition>qreal Ms::RepeatSegment::timeOffset</definition>
+        <argsstring></argsstring>
+        <name>timeOffset</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/repeatlist.h" line="34" column="13" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/repeatlist.h" bodystart="34" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="friend">
+      <memberdef kind="friend" id="class_ms_1_1_repeat_segment_1a8affaef58a4d29202db804d9084e41ee" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>friend class</type>
+        <definition>friend class RepeatList</definition>
+        <argsstring></argsstring>
+        <name>RepeatList</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/repeatlist.h" line="46" column="7" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/repeatlist.h" bodystart="46" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_ms_1_1_repeat_segment_1a8ccd451819fafd30d14000a7951da3cb" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>Ms::RepeatSegment::RepeatSegment</definition>
+        <argsstring>()</argsstring>
+        <name>RepeatSegment</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/repeatlist.h" line="36" column="7" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/repeatlist.cpp" bodystart="74" bodyend="80"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ms_1_1_repeat_segment_1aa2ec7a35585d474a697c9a62fa404eff" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>Ms::RepeatSegment::RepeatSegment</definition>
+        <argsstring>(RepeatSegment *const, Measure *const fromMeasure, Measure *const untilMeasure)</argsstring>
+        <name>RepeatSegment</name>
+        <param>
+          <type><ref refid="class_ms_1_1_repeat_segment" kindref="compound">RepeatSegment</ref> * const</type>
+          <defname>rs</defname>
+        </param>
+        <param>
+          <type><ref refid="class_ms_1_1_measure" kindref="compound">Measure</ref> *const</type>
+          <declname>fromMeasure</declname>
+        </param>
+        <param>
+          <type><ref refid="class_ms_1_1_measure" kindref="compound">Measure</ref> *const</type>
+          <declname>untilMeasure</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/repeatlist.h" line="37" column="7" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/repeatlist.cpp" bodystart="82" bodyend="104"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ms_1_1_repeat_segment_1a998a2fe99430c9cd3d62172d98f064b4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Ms::RepeatSegment::addMeasure</definition>
+        <argsstring>(Measure *const)</argsstring>
+        <name>addMeasure</name>
+        <param>
+          <type><ref refid="class_ms_1_1_measure" kindref="compound">Measure</ref> * const</type>
+          <defname>m</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/repeatlist.h" line="38" column="12" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/repeatlist.cpp" bodystart="106" bodyend="113"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ms_1_1_repeat_segment_1a0133a492e83698566e9ed0e7adfe66d8" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool Ms::RepeatSegment::containsMeasure</definition>
+        <argsstring>(Measure const *const) const</argsstring>
+        <name>containsMeasure</name>
+        <param>
+          <type><ref refid="class_ms_1_1_measure" kindref="compound">Measure</ref> const * const</type>
+          <defname>m</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/repeatlist.h" line="39" column="12" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/repeatlist.cpp" bodystart="115" bodyend="123"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ms_1_1_repeat_segment_1ab3b35496c325d4039eed412758790c37" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int Ms::RepeatSegment::len</definition>
+        <argsstring>() const</argsstring>
+        <name>len</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/repeatlist.h" line="40" column="11" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/repeatlist.cpp" bodystart="125" bodyend="128"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ms_1_1_repeat_segment_1aa55fd226e6008bf93eb4ebd39947dffb" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int Ms::RepeatSegment::playbackCount</definition>
+        <argsstring>(Measure *const) const</argsstring>
+        <name>playbackCount</name>
+        <param>
+          <type><ref refid="class_ms_1_1_measure" kindref="compound">Measure</ref> * const</type>
+          <defname>m</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/repeatlist.h" line="41" column="11" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/repeatlist.cpp" bodystart="136" bodyend="144"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ms_1_1_repeat_segment_1ad8d3dca624e67746288d03848b114634" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="class_ms_1_1_measure" kindref="compound">Measure</ref> *</type>
+        <definition>Measure* Ms::RepeatSegment::firstMeasure</definition>
+        <argsstring>() const</argsstring>
+        <name>firstMeasure</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/repeatlist.h" line="43" column="15" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/repeatlist.h" bodystart="43" bodyend="43"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ms_1_1_repeat_segment_1a07dc249955e0335283f0e7eebcb5793d" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="class_ms_1_1_measure" kindref="compound">Measure</ref> *</type>
+        <definition>Measure* Ms::RepeatSegment::lastMeasure</definition>
+        <argsstring>() const</argsstring>
+        <name>lastMeasure</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/repeatlist.h" line="44" column="15" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/repeatlist.h" bodystart="44" bodyend="44"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/repeatlist.h" line="27" column="20" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/repeatlist.h" bodystart="27" bodyend="47"/>
+    <listofallmembers>
+      <member refid="class_ms_1_1_repeat_segment_1a998a2fe99430c9cd3d62172d98f064b4" prot="public" virt="non-virtual"><scope>Ms::RepeatSegment</scope><name>addMeasure</name></member>
+      <member refid="class_ms_1_1_repeat_segment_1a0133a492e83698566e9ed0e7adfe66d8" prot="public" virt="non-virtual"><scope>Ms::RepeatSegment</scope><name>containsMeasure</name></member>
+      <member refid="class_ms_1_1_repeat_segment_1ad8d3dca624e67746288d03848b114634" prot="public" virt="non-virtual"><scope>Ms::RepeatSegment</scope><name>firstMeasure</name></member>
+      <member refid="class_ms_1_1_repeat_segment_1a07dc249955e0335283f0e7eebcb5793d" prot="public" virt="non-virtual"><scope>Ms::RepeatSegment</scope><name>lastMeasure</name></member>
+      <member refid="class_ms_1_1_repeat_segment_1ab3b35496c325d4039eed412758790c37" prot="public" virt="non-virtual"><scope>Ms::RepeatSegment</scope><name>len</name></member>
+      <member refid="class_ms_1_1_repeat_segment_1a9342e4ce4938256c4875ee51b7b2b42e" prot="private" virt="non-virtual"><scope>Ms::RepeatSegment</scope><name>measureList</name></member>
+      <member refid="class_ms_1_1_repeat_segment_1aa55fd226e6008bf93eb4ebd39947dffb" prot="public" virt="non-virtual"><scope>Ms::RepeatSegment</scope><name>playbackCount</name></member>
+      <member refid="class_ms_1_1_repeat_segment_1a8affaef58a4d29202db804d9084e41ee" prot="public" virt="non-virtual"><scope>Ms::RepeatSegment</scope><name>RepeatList</name></member>
+      <member refid="class_ms_1_1_repeat_segment_1a8ccd451819fafd30d14000a7951da3cb" prot="public" virt="non-virtual"><scope>Ms::RepeatSegment</scope><name>RepeatSegment</name></member>
+      <member refid="class_ms_1_1_repeat_segment_1aa2ec7a35585d474a697c9a62fa404eff" prot="public" virt="non-virtual"><scope>Ms::RepeatSegment</scope><name>RepeatSegment</name></member>
+      <member refid="class_ms_1_1_repeat_segment_1abe0d339ede48c79c40418c6b6cc189a1" prot="public" virt="non-virtual"><scope>Ms::RepeatSegment</scope><name>tick</name></member>
+      <member refid="class_ms_1_1_repeat_segment_1a349be9a48c72b3fef91ee898805dc735" prot="public" virt="non-virtual"><scope>Ms::RepeatSegment</scope><name>timeOffset</name></member>
+      <member refid="class_ms_1_1_repeat_segment_1a5373793f0d793ea1d9b1dd65f38b1b79" prot="public" virt="non-virtual"><scope>Ms::RepeatSegment</scope><name>utick</name></member>
+      <member refid="class_ms_1_1_repeat_segment_1ae12ac25bd66b8034acaef2d81682079b" prot="public" virt="non-virtual"><scope>Ms::RepeatSegment</scope><name>utime</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

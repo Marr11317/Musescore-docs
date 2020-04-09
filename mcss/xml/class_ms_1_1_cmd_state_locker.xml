@@ -1,0 +1,63 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.17">
+  <compounddef id="class_ms_1_1_cmd_state_locker" kind="class" language="C++" prot="public">
+    <compoundname>Ms::CmdStateLocker</compoundname>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_ms_1_1_cmd_state_locker_1ac8c472a03b779a7f26984fa582781103" prot="private" static="no" mutable="no">
+        <type><ref refid="class_ms_1_1_score" kindref="compound">Score</ref> *</type>
+        <definition>Score* Ms::CmdStateLocker::score</definition>
+        <argsstring></argsstring>
+        <name>score</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/layout.cpp" line="4343" column="13" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/layout.cpp" bodystart="4343" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_ms_1_1_cmd_state_locker_1a3d66544b71eabf57e874e2d83fc0197d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>Ms::CmdStateLocker::CmdStateLocker</definition>
+        <argsstring>(Score *s)</argsstring>
+        <name>CmdStateLocker</name>
+        <param>
+          <type><ref refid="class_ms_1_1_score" kindref="compound">Score</ref> *</type>
+          <declname>s</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/layout.cpp" line="4345" column="7" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/layout.cpp" bodystart="4345" bodyend="4345"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ms_1_1_cmd_state_locker_1a0e3f9c15a4145645b443959f273715c5" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>Ms::CmdStateLocker::~CmdStateLocker</definition>
+        <argsstring>()</argsstring>
+        <name>~CmdStateLocker</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/layout.cpp" line="4346" column="7" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/layout.cpp" bodystart="4346" bodyend="4346"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/layout.cpp" line="4342" column="21" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/layout.cpp" bodystart="4342" bodyend="4347"/>
+    <listofallmembers>
+      <member refid="class_ms_1_1_cmd_state_locker_1a3d66544b71eabf57e874e2d83fc0197d" prot="public" virt="non-virtual"><scope>Ms::CmdStateLocker</scope><name>CmdStateLocker</name></member>
+      <member refid="class_ms_1_1_cmd_state_locker_1ac8c472a03b779a7f26984fa582781103" prot="private" virt="non-virtual"><scope>Ms::CmdStateLocker</scope><name>score</name></member>
+      <member refid="class_ms_1_1_cmd_state_locker_1a0e3f9c15a4145645b443959f273715c5" prot="public" virt="non-virtual"><scope>Ms::CmdStateLocker</scope><name>~CmdStateLocker</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,34 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.17">
+  <compounddef id="sequencer_8h" kind="file" language="C++">
+    <compoundname>sequencer.h</compoundname>
+    <includedby refid="cmd_8cpp" local="yes">C:/Users/main/Documents/GitHub/MuseScore/libmscore/cmd.cpp</includedby>
+    <includedby refid="mscore_8cpp" local="yes">C:/Users/main/Documents/GitHub/MuseScore/libmscore/mscore.cpp</includedby>
+    <includedby refid="undo_8cpp" local="yes">C:/Users/main/Documents/GitHub/MuseScore/libmscore/undo.cpp</includedby>
+    <invincdepgraph>
+      <node id="1">
+        <label>C:/Users/main/Documents/GitHub/MuseScore/libmscore/sequencer.h</label>
+        <link refid="sequencer_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="3" relation="include">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>C:/Users/main/Documents/GitHub/MuseScore/libmscore/undo.cpp</label>
+        <link refid="undo_8cpp"/>
+      </node>
+      <node id="2">
+        <label>C:/Users/main/Documents/GitHub/MuseScore/libmscore/cmd.cpp</label>
+        <link refid="cmd_8cpp"/>
+      </node>
+    </invincdepgraph>
+    <innerclass refid="class_ms_1_1_sequencer" prot="public">Ms::Sequencer</innerclass>
+    <innernamespace refid="namespace_ms">Ms</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/sequencer.h"/>
+  </compounddef>
+</doxygen>

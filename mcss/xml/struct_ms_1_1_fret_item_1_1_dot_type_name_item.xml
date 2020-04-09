@@ -1,0 +1,43 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.17">
+  <compounddef id="struct_ms_1_1_fret_item_1_1_dot_type_name_item" kind="struct" language="C++" prot="public">
+    <compoundname>Ms::FretItem::DotTypeNameItem</compoundname>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="struct_ms_1_1_fret_item_1_1_dot_type_name_item_1ae1cdaeb74e66858315f1744592523bb5" prot="public" static="no" mutable="no">
+        <type>FretDotType</type>
+        <definition>FretDotType Ms::FretItem::DotTypeNameItem::dtype</definition>
+        <argsstring></argsstring>
+        <name>dtype</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/fret.h" line="76" column="25" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/fret.h" bodystart="76" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_ms_1_1_fret_item_1_1_dot_type_name_item_1adc882eba485d3b871c45a408b6703e16" prot="public" static="no" mutable="no">
+        <type>const char *</type>
+        <definition>const char* Ms::FretItem::DotTypeNameItem::name</definition>
+        <argsstring></argsstring>
+        <name>name</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/fret.h" line="77" column="24" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/fret.h" bodystart="77" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/fret.h" line="75" column="28" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/fret.h" bodystart="75" bodyend="78"/>
+    <listofallmembers>
+      <member refid="struct_ms_1_1_fret_item_1_1_dot_type_name_item_1ae1cdaeb74e66858315f1744592523bb5" prot="public" virt="non-virtual"><scope>Ms::FretItem::DotTypeNameItem</scope><name>dtype</name></member>
+      <member refid="struct_ms_1_1_fret_item_1_1_dot_type_name_item_1adc882eba485d3b871c45a408b6703e16" prot="public" virt="non-virtual"><scope>Ms::FretItem::DotTypeNameItem</scope><name>name</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

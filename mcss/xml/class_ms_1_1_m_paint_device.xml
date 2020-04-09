@@ -1,0 +1,100 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.17">
+  <compounddef id="class_ms_1_1_m_paint_device" kind="class" language="C++" prot="public">
+    <compoundname>Ms::MPaintDevice</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">QPaintDevice</basecompoundref>
+      <sectiondef kind="protected-func">
+      <memberdef kind="function" id="class_ms_1_1_m_paint_device_1adb0a5ceba6c81ddbe6fe3083615a97e1" prot="protected" static="no" const="yes" explicit="no" inline="no" virt="virtual">
+        <type>int</type>
+        <definition>int Ms::MPaintDevice::metric</definition>
+        <argsstring>(PaintDeviceMetric m) const</argsstring>
+        <name>metric</name>
+        <param>
+          <type>PaintDeviceMetric</type>
+          <declname>m</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/mscore.h" line="271" column="19" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/mscore.cpp" bodystart="460" bodyend="469"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_ms_1_1_m_paint_device_1a6a01ec1a5ec4e1d8f2ced295e085257c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>Ms::MPaintDevice::MPaintDevice</definition>
+        <argsstring>()</argsstring>
+        <name>MPaintDevice</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/mscore.h" line="274" column="7" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/mscore.h" bodystart="274" bodyend="274"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ms_1_1_m_paint_device_1a3ea7d3e0acc4e42faef736c192f820b5" prot="public" static="no" const="yes" explicit="no" inline="no" virt="virtual">
+        <type>QPaintEngine *</type>
+        <definition>QPaintEngine * Ms::MPaintDevice::paintEngine</definition>
+        <argsstring>() const</argsstring>
+        <name>paintEngine</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/mscore.h" line="275" column="28" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/mscore.cpp" bodystart="475" bodyend="479"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ms_1_1_m_paint_device_1ab0e927997bf2b5d7880a6ed3641cc38b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type></type>
+        <definition>virtual Ms::MPaintDevice::~MPaintDevice</definition>
+        <argsstring>()</argsstring>
+        <name>~MPaintDevice</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/mscore.h" line="276" column="15" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/mscore.h" bodystart="276" bodyend="276"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>Ms::MPaintDevice</label>
+        <link refid="class_ms_1_1_m_paint_device"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>QPaintDevice</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>Ms::MPaintDevice</label>
+        <link refid="class_ms_1_1_m_paint_device"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>QPaintDevice</label>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/mscore.h" line="268" column="39" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/mscore.h" bodystart="268" bodyend="277"/>
+    <listofallmembers>
+      <member refid="class_ms_1_1_m_paint_device_1adb0a5ceba6c81ddbe6fe3083615a97e1" prot="protected" virt="virtual"><scope>Ms::MPaintDevice</scope><name>metric</name></member>
+      <member refid="class_ms_1_1_m_paint_device_1a6a01ec1a5ec4e1d8f2ced295e085257c" prot="public" virt="non-virtual"><scope>Ms::MPaintDevice</scope><name>MPaintDevice</name></member>
+      <member refid="class_ms_1_1_m_paint_device_1a3ea7d3e0acc4e42faef736c192f820b5" prot="public" virt="virtual"><scope>Ms::MPaintDevice</scope><name>paintEngine</name></member>
+      <member refid="class_ms_1_1_m_paint_device_1ab0e927997bf2b5d7880a6ed3641cc38b" prot="public" virt="virtual"><scope>Ms::MPaintDevice</scope><name>~MPaintDevice</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

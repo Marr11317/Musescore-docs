@@ -1,0 +1,141 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.17">
+  <compounddef id="class_ms_1_1_fret_clear" kind="class" language="C++" prot="public">
+    <compoundname>Ms::FretClear</compoundname>
+    <basecompoundref refid="class_ms_1_1_undo_command" prot="public" virt="non-virtual">Ms::UndoCommand</basecompoundref>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_ms_1_1_fret_clear_1a172116674df47515e1537160a1dc074d" prot="private" static="no" mutable="no">
+        <type><ref refid="class_ms_1_1_fret_diagram" kindref="compound">FretDiagram</ref> *</type>
+        <definition>FretDiagram* Ms::FretClear::diagram</definition>
+        <argsstring></argsstring>
+        <name>diagram</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/undo.h" line="1371" column="19" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/undo.h" bodystart="1371" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_ms_1_1_fret_clear_1a57b573769818ec0035fab54f043e3f72" prot="private" static="no" mutable="no">
+        <type><ref refid="class_ms_1_1_fret_undo_data" kindref="compound">FretUndoData</ref></type>
+        <definition>FretUndoData Ms::FretClear::undoData</definition>
+        <argsstring></argsstring>
+        <name>undoData</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/undo.h" line="1372" column="20" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/undo.h" bodystart="1372" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_ms_1_1_fret_clear_1a84846d3797adc369b26e56cf61105f25" prot="private" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void Ms::FretClear::redo</definition>
+        <argsstring>(EditData *) override</argsstring>
+        <name>redo</name>
+        <reimplements refid="class_ms_1_1_undo_command_1a7fccbb0cf027a5e3b43176a5e0213f75">redo</reimplements>
+        <param>
+          <type><ref refid="class_ms_1_1_edit_data" kindref="compound">EditData</ref> *</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/undo.h" line="1374" column="12" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/undo.cpp" bodystart="2544" bodyend="2550"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ms_1_1_fret_clear_1ab6c18163ea80d6904dc2b3e163e4b97d" prot="private" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void Ms::FretClear::undo</definition>
+        <argsstring>(EditData *) override</argsstring>
+        <name>undo</name>
+        <reimplements refid="class_ms_1_1_undo_command_1a42a2038f903e77e6bb5881209b764186">undo</reimplements>
+        <param>
+          <type><ref refid="class_ms_1_1_edit_data" kindref="compound">EditData</ref> *</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/undo.h" line="1375" column="12" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/undo.cpp" bodystart="2552" bodyend="2556"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_ms_1_1_fret_clear_1afd3619e5fb474aec47e11df1f2e90eaa" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>Ms::FretClear::FretClear</definition>
+        <argsstring>(FretDiagram *d)</argsstring>
+        <name>FretClear</name>
+        <param>
+          <type><ref refid="class_ms_1_1_fret_diagram" kindref="compound">FretDiagram</ref> *</type>
+          <declname>d</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/undo.h" line="1378" column="7" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/undo.h" bodystart="1378" bodyend="1378"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>Ms::FretClear</label>
+        <link refid="class_ms_1_1_fret_clear"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>Ms::UndoCommand</label>
+        <link refid="class_ms_1_1_undo_command"/>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>Ms::FretClear</label>
+        <link refid="class_ms_1_1_fret_clear"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>Ms::UndoCommand</label>
+        <link refid="class_ms_1_1_undo_command"/>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/undo.h" line="1370" column="35" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/undo.h" bodystart="1370" bodyend="1380"/>
+    <listofallmembers>
+      <member refid="class_ms_1_1_undo_command_1a0f5b568325d235501e5cc197b7a4d4c8" prot="public" virt="non-virtual"><scope>Ms::FretClear</scope><name>appendChild</name></member>
+      <member refid="class_ms_1_1_undo_command_1adbc9ce586560a1ca06f83bb38d04c4f0" prot="protected" virt="non-virtual"><scope>Ms::FretClear</scope><name>appendChildren</name></member>
+      <member refid="class_ms_1_1_undo_command_1a701d710e19f4d356f2b12d093729d295" prot="public" virt="non-virtual"><scope>Ms::FretClear</scope><name>childCount</name></member>
+      <member refid="class_ms_1_1_undo_command_1a0bbdf4bc79885d76228b155599fb46ce" prot="public" virt="virtual"><scope>Ms::FretClear</scope><name>cleanup</name></member>
+      <member refid="class_ms_1_1_undo_command_1a4cdbb50e02a38b3c0b259e8bb6b58bca" prot="public" virt="non-virtual"><scope>Ms::FretClear</scope><name>commands</name></member>
+      <member refid="class_ms_1_1_fret_clear_1a172116674df47515e1537160a1dc074d" prot="private" virt="non-virtual"><scope>Ms::FretClear</scope><name>diagram</name></member>
+      <member refid="class_ms_1_1_undo_command_1a7c3fae86b0c593d95eb2acf44348b425" prot="public" virt="non-virtual"><scope>Ms::FretClear</scope><name>Filter</name></member>
+      <member refid="class_ms_1_1_undo_command_1a850e4c72c907bce1aed4b7d318ddf626" prot="public" virt="non-virtual"><scope>Ms::FretClear</scope><name>filterChildren</name></member>
+      <member refid="class_ms_1_1_undo_command_1a861162fe6c105a00dfec5a5b70a690a5" prot="protected" virt="virtual"><scope>Ms::FretClear</scope><name>flip</name></member>
+      <member refid="class_ms_1_1_fret_clear_1afd3619e5fb474aec47e11df1f2e90eaa" prot="public" virt="non-virtual"><scope>Ms::FretClear</scope><name>FretClear</name></member>
+      <member refid="class_ms_1_1_undo_command_1a09b5c550fffd0dfe1e38490c7f0de8e4" prot="public" virt="non-virtual"><scope>Ms::FretClear</scope><name>hasFilteredChildren</name></member>
+      <member refid="class_ms_1_1_undo_command_1a7131c9beb9c694ef3f0d8235f4e2892a" prot="public" virt="non-virtual"><scope>Ms::FretClear</scope><name>hasUnfilteredChildren</name></member>
+      <member refid="class_ms_1_1_undo_command_1a7e84d54e5b22eeeb9646c8a86fc2a0cb" prot="public" virt="virtual"><scope>Ms::FretClear</scope><name>isFiltered</name></member>
+      <member refid="class_ms_1_1_undo_command_1acdd15da86ef5878bc98ef2be084cc4be" prot="public" virt="virtual"><scope>Ms::FretClear</scope><name>name</name></member>
+      <member refid="class_ms_1_1_fret_clear_1a84846d3797adc369b26e56cf61105f25" prot="private" virt="virtual"><scope>Ms::FretClear</scope><name>redo</name></member>
+      <member refid="class_ms_1_1_undo_command_1ad645cbed278b04cea2164006b52c4d8f" prot="public" virt="non-virtual"><scope>Ms::FretClear</scope><name>removeChild</name></member>
+      <member refid="class_ms_1_1_fret_clear_1ab6c18163ea80d6904dc2b3e163e4b97d" prot="private" virt="virtual"><scope>Ms::FretClear</scope><name>undo</name></member>
+      <member refid="class_ms_1_1_fret_clear_1a57b573769818ec0035fab54f043e3f72" prot="private" virt="non-virtual"><scope>Ms::FretClear</scope><name>undoData</name></member>
+      <member refid="class_ms_1_1_undo_command_1abc893037b5a33408c25552b8579debe4" prot="public" virt="non-virtual"><scope>Ms::FretClear</scope><name>unwind</name></member>
+      <member refid="class_ms_1_1_undo_command_1ad4aec6e8dbb0e92bd2b8be2ebd79b9df" prot="public" virt="virtual"><scope>Ms::FretClear</scope><name>~UndoCommand</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

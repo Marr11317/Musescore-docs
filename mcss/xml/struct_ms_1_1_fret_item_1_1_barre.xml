@@ -1,0 +1,95 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.17">
+  <compounddef id="struct_ms_1_1_fret_item_1_1_barre" kind="struct" language="C++" prot="public">
+    <compoundname>Ms::FretItem::Barre</compoundname>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="struct_ms_1_1_fret_item_1_1_barre_1ab4031b26bba2e986a01dc5f600b0dcd7" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int Ms::FretItem::Barre::startString</definition>
+        <argsstring></argsstring>
+        <name>startString</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/fret.h" line="44" column="17" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/fret.h" bodystart="44" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_ms_1_1_fret_item_1_1_barre_1a92a21fd38a124b314549d635d73e160a" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int Ms::FretItem::Barre::endString</definition>
+        <argsstring></argsstring>
+        <name>endString</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/fret.h" line="45" column="17" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/fret.h" bodystart="45" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="struct_ms_1_1_fret_item_1_1_barre_1aeaa2b12f2bdbd8033d71825982f1275a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>Ms::FretItem::Barre::Barre</definition>
+        <argsstring>()</argsstring>
+        <name>Barre</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/fret.h" line="47" column="13" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/fret.h" bodystart="47" bodyend="47"/>
+      </memberdef>
+      <memberdef kind="function" id="struct_ms_1_1_fret_item_1_1_barre_1a721b9b66d5721a09e101c74d494c011a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>Ms::FretItem::Barre::Barre</definition>
+        <argsstring>(int s, int e)</argsstring>
+        <name>Barre</name>
+        <param>
+          <type>int</type>
+          <declname>s</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>e</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/fret.h" line="48" column="13" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/fret.h" bodystart="48" bodyend="48"/>
+      </memberdef>
+      <memberdef kind="function" id="struct_ms_1_1_fret_item_1_1_barre_1a3a5ed03184cece67e59cad6ed44d8981" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool Ms::FretItem::Barre::exists</definition>
+        <argsstring>() const</argsstring>
+        <name>exists</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/fret.h" line="49" column="18" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/fret.h" bodystart="49" bodyend="49"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/fret.h" line="43" column="18" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/fret.h" bodystart="43" bodyend="50"/>
+    <listofallmembers>
+      <member refid="struct_ms_1_1_fret_item_1_1_barre_1aeaa2b12f2bdbd8033d71825982f1275a" prot="public" virt="non-virtual"><scope>Ms::FretItem::Barre</scope><name>Barre</name></member>
+      <member refid="struct_ms_1_1_fret_item_1_1_barre_1a721b9b66d5721a09e101c74d494c011a" prot="public" virt="non-virtual"><scope>Ms::FretItem::Barre</scope><name>Barre</name></member>
+      <member refid="struct_ms_1_1_fret_item_1_1_barre_1a92a21fd38a124b314549d635d73e160a" prot="public" virt="non-virtual"><scope>Ms::FretItem::Barre</scope><name>endString</name></member>
+      <member refid="struct_ms_1_1_fret_item_1_1_barre_1a3a5ed03184cece67e59cad6ed44d8981" prot="public" virt="non-virtual"><scope>Ms::FretItem::Barre</scope><name>exists</name></member>
+      <member refid="struct_ms_1_1_fret_item_1_1_barre_1ab4031b26bba2e986a01dc5f600b0dcd7" prot="public" virt="non-virtual"><scope>Ms::FretItem::Barre</scope><name>startString</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

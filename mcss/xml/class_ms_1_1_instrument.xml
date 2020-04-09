@@ -1,0 +1,1415 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.17">
+  <compounddef id="class_ms_1_1_instrument" kind="class" language="C++" prot="public">
+    <compoundname>Ms::Instrument</compoundname>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_ms_1_1_instrument_1a3cb5223999e0fdcef5d68c628755ea1e" prot="private" static="no" mutable="no">
+        <type><ref refid="class_ms_1_1_staff_name_list" kindref="compound">StaffNameList</ref></type>
+        <definition>StaffNameList Ms::Instrument::_longNames</definition>
+        <argsstring></argsstring>
+        <name>_longNames</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/instrument.h" line="252" column="21" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/instrument.h" bodystart="252" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_ms_1_1_instrument_1a8996813624d27837891d8b977b57ba2d" prot="private" static="no" mutable="no">
+        <type><ref refid="class_ms_1_1_staff_name_list" kindref="compound">StaffNameList</ref></type>
+        <definition>StaffNameList Ms::Instrument::_shortNames</definition>
+        <argsstring></argsstring>
+        <name>_shortNames</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/instrument.h" line="253" column="21" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/instrument.h" bodystart="253" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_ms_1_1_instrument_1a1357081a5c35fc332264fdb3d8091ea1" prot="private" static="no" mutable="no">
+        <type>QString</type>
+        <definition>QString Ms::Instrument::_trackName</definition>
+        <argsstring></argsstring>
+        <name>_trackName</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/instrument.h" line="254" column="15" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/instrument.h" bodystart="254" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_ms_1_1_instrument_1a8816abd01b707804e43ad457362c8475" prot="private" static="no" mutable="no">
+        <type>char</type>
+        <definition>char Ms::Instrument::_minPitchA</definition>
+        <argsstring></argsstring>
+        <name>_minPitchA</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/instrument.h" line="256" column="12" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/instrument.h" bodystart="256" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_ms_1_1_instrument_1aa46380eaf2aea7b04d39cf38f7f4d43a" prot="private" static="no" mutable="no">
+        <type>char</type>
+        <definition>char Ms::Instrument::_maxPitchA</definition>
+        <argsstring></argsstring>
+        <name>_maxPitchA</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/instrument.h" line="256" column="23" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/instrument.h" bodystart="256" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_ms_1_1_instrument_1aab65a2b4426f303f2ad139ccb40ee1fa" prot="private" static="no" mutable="no">
+        <type>char</type>
+        <definition>char Ms::Instrument::_minPitchP</definition>
+        <argsstring></argsstring>
+        <name>_minPitchP</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/instrument.h" line="256" column="34" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/instrument.h" bodystart="256" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_ms_1_1_instrument_1a622a4288ee532710538ecffa7a125d95" prot="private" static="no" mutable="no">
+        <type>char</type>
+        <definition>char Ms::Instrument::_maxPitchP</definition>
+        <argsstring></argsstring>
+        <name>_maxPitchP</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/instrument.h" line="256" column="45" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/instrument.h" bodystart="256" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_ms_1_1_instrument_1aad067956c7ac22dae3d71e15555be181" prot="private" static="no" mutable="no">
+        <type><ref refid="struct_ms_1_1_interval" kindref="compound">Interval</ref></type>
+        <definition>Interval Ms::Instrument::_transpose</definition>
+        <argsstring></argsstring>
+        <name>_transpose</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/instrument.h" line="257" column="16" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/instrument.h" bodystart="257" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_ms_1_1_instrument_1ade891452f15073b4a465f01978769cca" prot="private" static="no" mutable="no">
+        <type>QString</type>
+        <definition>QString Ms::Instrument::_instrumentId</definition>
+        <argsstring></argsstring>
+        <name>_instrumentId</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/instrument.h" line="258" column="15" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/instrument.h" bodystart="258" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_ms_1_1_instrument_1a96949db5a1edcd04dd644478f5db92d0" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool Ms::Instrument::_useDrumset</definition>
+        <argsstring></argsstring>
+        <name>_useDrumset</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/instrument.h" line="260" column="12" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/instrument.h" bodystart="260" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_ms_1_1_instrument_1aad092ba47eb06e1d75e6c03d29e13cd8" prot="private" static="no" mutable="no">
+        <type><ref refid="class_ms_1_1_drumset" kindref="compound">Drumset</ref> *</type>
+        <definition>Drumset* Ms::Instrument::_drumset</definition>
+        <argsstring></argsstring>
+        <name>_drumset</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/instrument.h" line="261" column="15" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/instrument.h" bodystart="261" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_ms_1_1_instrument_1a4374b6fbfad4a0d7767319acc66736f5" prot="private" static="no" mutable="no">
+        <type><ref refid="class_ms_1_1_string_data" kindref="compound">StringData</ref></type>
+        <definition>StringData Ms::Instrument::_stringData</definition>
+        <argsstring></argsstring>
+        <name>_stringData</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/instrument.h" line="262" column="19" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/instrument.h" bodystart="262" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_ms_1_1_instrument_1ac5c07717fd240588bca2583f7380e9d3" prot="private" static="no" mutable="no">
+        <type>QList&lt; <ref refid="struct_ms_1_1_named_event_list" kindref="compound">NamedEventList</ref> &gt;</type>
+        <definition>QList&lt;NamedEventList&gt; Ms::Instrument::_midiActions</definition>
+        <argsstring></argsstring>
+        <name>_midiActions</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/instrument.h" line="264" column="15" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/instrument.h" bodystart="264" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_ms_1_1_instrument_1ac0ecfd0ac53c2d8a0f9f95af6d22e5d4" prot="private" static="no" mutable="no">
+        <type>QList&lt; <ref refid="struct_ms_1_1_midi_articulation" kindref="compound">MidiArticulation</ref> &gt;</type>
+        <definition>QList&lt;MidiArticulation&gt; Ms::Instrument::_articulation</definition>
+        <argsstring></argsstring>
+        <name>_articulation</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/instrument.h" line="265" column="13" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/instrument.h" bodystart="265" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_ms_1_1_instrument_1aa91e3cfba9e728a9b655130c4530576f" prot="private" static="no" mutable="no">
+        <type>QList&lt; <ref refid="class_ms_1_1_channel" kindref="compound">Channel</ref> * &gt;</type>
+        <definition>QList&lt;Channel*&gt; Ms::Instrument::_channel</definition>
+        <argsstring></argsstring>
+        <name>_channel</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/instrument.h" line="266" column="13" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/instrument.h" bodystart="266" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_ms_1_1_instrument_1aab5eb9d170fdedae06075b4675f3dfaf" prot="private" static="no" mutable="no">
+        <type>QList&lt; <ref refid="struct_ms_1_1_clef_type_list" kindref="compound">ClefTypeList</ref> &gt;</type>
+        <definition>QList&lt;ClefTypeList&gt; Ms::Instrument::_clefType</definition>
+        <argsstring></argsstring>
+        <name>_clefType</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/instrument.h" line="267" column="13" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/instrument.h" bodystart="267" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_ms_1_1_instrument_1a09ffc63605c3c633a099b1c3491ac776" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool Ms::Instrument::_singleNoteDynamics</definition>
+        <argsstring></argsstring>
+        <name>_singleNoteDynamics</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/instrument.h" line="269" column="12" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/instrument.h" bodystart="269" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_ms_1_1_instrument_1a1c7b4bbce5c8ca36a89c33b853b6d805" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>Ms::Instrument::Instrument</definition>
+        <argsstring>()</argsstring>
+        <name>Instrument</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/instrument.h" line="272" column="7" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/instrument.cpp" bodystart="94" bodyend="107"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ms_1_1_instrument_1ada9dc7b0257938a9ccfd99ed63548005" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>Ms::Instrument::Instrument</definition>
+        <argsstring>(const Instrument &amp;)</argsstring>
+        <name>Instrument</name>
+        <param>
+          <type>const <ref refid="class_ms_1_1_instrument" kindref="compound">Instrument</ref> &amp;</type>
+          <defname>i</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/instrument.h" line="273" column="7" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/instrument.cpp" bodystart="109" bodyend="131"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ms_1_1_instrument_1a6ad444f145ae2b79709286b864cd3447" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Ms::Instrument::operator=</definition>
+        <argsstring>(const Instrument &amp;)</argsstring>
+        <name>operator=</name>
+        <param>
+          <type>const <ref refid="class_ms_1_1_instrument" kindref="compound">Instrument</ref> &amp;</type>
+          <defname>i</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/instrument.h" line="274" column="12" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/instrument.cpp" bodystart="133" bodyend="159"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ms_1_1_instrument_1ac81836757ba5b27cf3fdf9765d9bc5ed" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>Ms::Instrument::~Instrument</definition>
+        <argsstring>()</argsstring>
+        <name>~Instrument</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/instrument.h" line="275" column="7" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/instrument.cpp" bodystart="165" bodyend="169"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ms_1_1_instrument_1a5ce412e4f90eee152d242bfbdec55951" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Ms::Instrument::read</definition>
+        <argsstring>(XmlReader &amp;, Part *part)</argsstring>
+        <name>read</name>
+        <param>
+          <type><ref refid="class_ms_1_1_xml_reader" kindref="compound">XmlReader</ref> &amp;</type>
+          <defname>e</defname>
+        </param>
+        <param>
+          <type><ref refid="class_ms_1_1_part" kindref="compound">Part</ref> *</type>
+          <declname>part</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/instrument.h" line="277" column="12" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/instrument.cpp" bodystart="280" bodyend="303"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ms_1_1_instrument_1af228740167f18fa0615dfde9c03ab108" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool Ms::Instrument::readProperties</definition>
+        <argsstring>(XmlReader &amp;, Part *, bool *customDrumset)</argsstring>
+        <name>readProperties</name>
+        <param>
+          <type><ref refid="class_ms_1_1_xml_reader" kindref="compound">XmlReader</ref> &amp;</type>
+          <defname>e</defname>
+        </param>
+        <param>
+          <type><ref refid="class_ms_1_1_part" kindref="compound">Part</ref> *</type>
+          <defname>part</defname>
+        </param>
+        <param>
+          <type>bool *</type>
+          <declname>customDrumset</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/instrument.h" line="278" column="12" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/instrument.cpp" bodystart="309" bodyend="404"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ms_1_1_instrument_1a13499447a6bc7ea08175ac6488209d0e" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Ms::Instrument::write</definition>
+        <argsstring>(XmlWriter &amp;xml, const Part *part) const</argsstring>
+        <name>write</name>
+        <param>
+          <type><ref refid="class_ms_1_1_xml_writer" kindref="compound">XmlWriter</ref> &amp;</type>
+          <declname>xml</declname>
+        </param>
+        <param>
+          <type>const <ref refid="class_ms_1_1_part" kindref="compound">Part</ref> *</type>
+          <declname>part</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/instrument.h" line="279" column="12" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/instrument.cpp" bodystart="212" bodyend="274"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ms_1_1_instrument_1a9be864c62f7d12f938292d5e8276e0db" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="struct_ms_1_1_named_event_list" kindref="compound">NamedEventList</ref> *</type>
+        <definition>NamedEventList * Ms::Instrument::midiAction</definition>
+        <argsstring>(const QString &amp;s, int channel) const</argsstring>
+        <name>midiAction</name>
+        <param>
+          <type>const QString &amp;</type>
+          <declname>s</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>channel</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/instrument.h" line="280" column="22" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/instrument.cpp" bodystart="410" bodyend="424"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ms_1_1_instrument_1aed7d2c00f36a4176f098e1fedcc8e77d" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int Ms::Instrument::channelIdx</definition>
+        <argsstring>(const QString &amp;s) const</argsstring>
+        <name>channelIdx</name>
+        <param>
+          <type>const QString &amp;</type>
+          <declname>s</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/instrument.h" line="281" column="11" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/instrument.cpp" bodystart="1043" bodyend="1054"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ms_1_1_instrument_1a2aebe9753c44e5080dc94f3b7fb3043e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Ms::Instrument::updateVelocity</definition>
+        <argsstring>(int *velocity, int channel, const QString &amp;name)</argsstring>
+        <name>updateVelocity</name>
+        <param>
+          <type>int *</type>
+          <declname>velocity</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>channel</declname>
+        </param>
+        <param>
+          <type>const QString &amp;</type>
+          <declname>name</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/instrument.h" line="282" column="12" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/instrument.cpp" bodystart="1105" bodyend="1108"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ms_1_1_instrument_1abfdbb5994ebd99c1fc003e4de85e99b4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>qreal</type>
+        <definition>qreal Ms::Instrument::getVelocityMultiplier</definition>
+        <argsstring>(const QString &amp;name)</argsstring>
+        <name>getVelocityMultiplier</name>
+        <param>
+          <type>const QString &amp;</type>
+          <declname>name</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/instrument.h" line="283" column="13" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/instrument.cpp" bodystart="1114" bodyend="1122"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ms_1_1_instrument_1ad4f5fc0cc1cfa2bcea6ace19849c22ee" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Ms::Instrument::updateGateTime</definition>
+        <argsstring>(int *gateTime, int channelIdx, const QString &amp;name)</argsstring>
+        <name>updateGateTime</name>
+        <param>
+          <type>int *</type>
+          <declname>gateTime</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>channelIdx</declname>
+        </param>
+        <param>
+          <type>const QString &amp;</type>
+          <declname>name</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/instrument.h" line="284" column="12" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/instrument.cpp" bodystart="1128" bodyend="1136"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ms_1_1_instrument_1a0963f1462e91f210f52edf6238afa3d4" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool Ms::Instrument::operator==</definition>
+        <argsstring>(const Instrument &amp;) const</argsstring>
+        <name>operator==</name>
+        <param>
+          <type>const <ref refid="class_ms_1_1_instrument" kindref="compound">Instrument</ref> &amp;</type>
+          <defname>i</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/instrument.h" line="286" column="12" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/instrument.cpp" bodystart="1160" bodyend="1196"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ms_1_1_instrument_1a2812c3a4080df7314c30af0adcb859b5" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool Ms::Instrument::isDifferentInstrument</definition>
+        <argsstring>(const Instrument &amp;i) const</argsstring>
+        <name>isDifferentInstrument</name>
+        <param>
+          <type>const <ref refid="class_ms_1_1_instrument" kindref="compound">Instrument</ref> &amp;</type>
+          <declname>i</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Checks if the passed instrument is a different instrument. Does not compare channels. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/instrument.h" line="287" column="12" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/instrument.cpp" bodystart="1204" bodyend="1233"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ms_1_1_instrument_1a8b5342b40efb77e2ab3c13314d2d988d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Ms::Instrument::setMinPitchP</definition>
+        <argsstring>(int v)</argsstring>
+        <name>setMinPitchP</name>
+        <param>
+          <type>int</type>
+          <declname>v</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/instrument.h" line="289" column="12" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/instrument.h" bodystart="289" bodyend="289"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ms_1_1_instrument_1a377c095d03aaf7ade23d413ee8b1eb41" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Ms::Instrument::setMaxPitchP</definition>
+        <argsstring>(int v)</argsstring>
+        <name>setMaxPitchP</name>
+        <param>
+          <type>int</type>
+          <declname>v</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/instrument.h" line="290" column="12" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/instrument.h" bodystart="290" bodyend="290"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ms_1_1_instrument_1ad0f624488e8d22d885b5b71a7128b36b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Ms::Instrument::setMinPitchA</definition>
+        <argsstring>(int v)</argsstring>
+        <name>setMinPitchA</name>
+        <param>
+          <type>int</type>
+          <declname>v</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/instrument.h" line="291" column="12" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/instrument.h" bodystart="291" bodyend="291"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ms_1_1_instrument_1aca547d29d2726faa4f66b8807d823c75" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Ms::Instrument::setMaxPitchA</definition>
+        <argsstring>(int v)</argsstring>
+        <name>setMaxPitchA</name>
+        <param>
+          <type>int</type>
+          <declname>v</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/instrument.h" line="292" column="12" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/instrument.h" bodystart="292" bodyend="292"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ms_1_1_instrument_1aa79b017182d2d76a2d398a56c038b3fc" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="struct_ms_1_1_interval" kindref="compound">Interval</ref></type>
+        <definition>Interval Ms::Instrument::transpose</definition>
+        <argsstring>() const</argsstring>
+        <name>transpose</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/instrument.h" line="293" column="16" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/instrument.h" bodystart="293" bodyend="293"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ms_1_1_instrument_1aebf5fe12b5d95b1fe14cc9eeded4ebeb" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Ms::Instrument::setTranspose</definition>
+        <argsstring>(const Interval &amp;v)</argsstring>
+        <name>setTranspose</name>
+        <param>
+          <type>const <ref refid="struct_ms_1_1_interval" kindref="compound">Interval</ref> &amp;</type>
+          <declname>v</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/instrument.h" line="294" column="12" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/instrument.h" bodystart="294" bodyend="294"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ms_1_1_instrument_1aa4cc1131c5ee048a6e16897cbb7c2a13" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>QString</type>
+        <definition>QString Ms::Instrument::instrumentId</definition>
+        <argsstring>()</argsstring>
+        <name>instrumentId</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/instrument.h" line="295" column="15" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/instrument.h" bodystart="295" bodyend="295"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ms_1_1_instrument_1a0422ca02ce2b78387f5a31dc74bb4bca" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Ms::Instrument::setInstrumentId</definition>
+        <argsstring>(const QString &amp;instrumentId)</argsstring>
+        <name>setInstrumentId</name>
+        <param>
+          <type>const QString &amp;</type>
+          <declname>instrumentId</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/instrument.h" line="296" column="12" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/instrument.h" bodystart="296" bodyend="296"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ms_1_1_instrument_1a8d1568b455350500327acd25dfd89e9a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Ms::Instrument::setDrumset</definition>
+        <argsstring>(const Drumset *ds)</argsstring>
+        <name>setDrumset</name>
+        <param>
+          <type>const <ref refid="class_ms_1_1_drumset" kindref="compound">Drumset</ref> *</type>
+          <declname>ds</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/instrument.h" line="298" column="12" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/instrument.cpp" bodystart="1259" bodyend="1270"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ms_1_1_instrument_1ac377dcee9176d06151474454b0f3c265" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>const <ref refid="class_ms_1_1_drumset" kindref="compound">Drumset</ref> *</type>
+        <definition>const Drumset* Ms::Instrument::drumset</definition>
+        <argsstring>() const</argsstring>
+        <name>drumset</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/instrument.h" line="299" column="21" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/instrument.h" bodystart="299" bodyend="299"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ms_1_1_instrument_1a3a0e52aa4b075f5bdc9510f8306c95bf" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="class_ms_1_1_drumset" kindref="compound">Drumset</ref> *</type>
+        <definition>Drumset* Ms::Instrument::drumset</definition>
+        <argsstring>()</argsstring>
+        <name>drumset</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/instrument.h" line="300" column="15" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/instrument.h" bodystart="300" bodyend="300"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ms_1_1_instrument_1a1632d4bf3af6b96e024ae13be290099d" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool Ms::Instrument::useDrumset</definition>
+        <argsstring>() const</argsstring>
+        <name>useDrumset</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/instrument.h" line="301" column="12" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/instrument.h" bodystart="301" bodyend="301"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ms_1_1_instrument_1a1de09574c7bb06120e1d7515fe01da4b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Ms::Instrument::setUseDrumset</definition>
+        <argsstring>(bool val)</argsstring>
+        <name>setUseDrumset</name>
+        <param>
+          <type>bool</type>
+          <declname>val</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/instrument.h" line="302" column="12" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/instrument.cpp" bodystart="1248" bodyend="1253"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ms_1_1_instrument_1aedea38a9f0a91615e42f5ed1d7f5399d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Ms::Instrument::setAmateurPitchRange</definition>
+        <argsstring>(int a, int b)</argsstring>
+        <name>setAmateurPitchRange</name>
+        <param>
+          <type>int</type>
+          <declname>a</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>b</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/instrument.h" line="303" column="12" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/instrument.h" bodystart="303" bodyend="303"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ms_1_1_instrument_1a91946d203c2bc1a2e0ca3fd5e82ce5f0" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Ms::Instrument::setProfessionalPitchRange</definition>
+        <argsstring>(int a, int b)</argsstring>
+        <name>setProfessionalPitchRange</name>
+        <param>
+          <type>int</type>
+          <declname>a</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>b</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/instrument.h" line="304" column="12" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/instrument.h" bodystart="304" bodyend="304"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ms_1_1_instrument_1aa4f0203241ae16e4b0b036a17758a00a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="class_ms_1_1_channel" kindref="compound">Channel</ref> *</type>
+        <definition>Channel* Ms::Instrument::channel</definition>
+        <argsstring>(int idx)</argsstring>
+        <name>channel</name>
+        <param>
+          <type>int</type>
+          <declname>idx</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/instrument.h" line="305" column="15" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/instrument.h" bodystart="305" bodyend="305"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ms_1_1_instrument_1ac12e47a107a3ef2d95757d99c0967411" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>const <ref refid="class_ms_1_1_channel" kindref="compound">Channel</ref> *</type>
+        <definition>const Channel* Ms::Instrument::channel</definition>
+        <argsstring>(int idx) const</argsstring>
+        <name>channel</name>
+        <param>
+          <type>int</type>
+          <declname>idx</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/instrument.h" line="306" column="21" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/instrument.h" bodystart="306" bodyend="306"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ms_1_1_instrument_1aa8898f639c061ef1f2588f508bae0b17" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="class_ms_1_1_channel" kindref="compound">Channel</ref> *</type>
+        <definition>Channel * Ms::Instrument::playbackChannel</definition>
+        <argsstring>(int idx, MasterScore *)</argsstring>
+        <name>playbackChannel</name>
+        <param>
+          <type>int</type>
+          <declname>idx</declname>
+        </param>
+        <param>
+          <type><ref refid="class_ms_1_1_master_score" kindref="compound">MasterScore</ref> *</type>
+          <defname>score</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/instrument.h" line="307" column="15" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/instrument.cpp" bodystart="1518" bodyend="1521"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ms_1_1_instrument_1a90a55e0cf6354a4d8dc4dbdfb141db4a" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>const <ref refid="class_ms_1_1_channel" kindref="compound">Channel</ref> *</type>
+        <definition>const Channel * Ms::Instrument::playbackChannel</definition>
+        <argsstring>(int idx, const MasterScore *) const</argsstring>
+        <name>playbackChannel</name>
+        <param>
+          <type>int</type>
+          <declname>idx</declname>
+        </param>
+        <param>
+          <type>const <ref refid="class_ms_1_1_master_score" kindref="compound">MasterScore</ref> *</type>
+          <defname>score</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/instrument.h" line="308" column="21" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/instrument.cpp" bodystart="1508" bodyend="1511"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ms_1_1_instrument_1a32a720606d9b468ca7c5ddd5ff12bf13" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="struct_ms_1_1_clef_type_list" kindref="compound">ClefTypeList</ref></type>
+        <definition>ClefTypeList Ms::Instrument::clefType</definition>
+        <argsstring>(int staffIdx) const</argsstring>
+        <name>clefType</name>
+        <param>
+          <type>int</type>
+          <declname>staffIdx</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/instrument.h" line="309" column="20" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/instrument.cpp" bodystart="1318" bodyend="1326"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ms_1_1_instrument_1a238574689702903909650b8b1cb08f10" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Ms::Instrument::setClefType</definition>
+        <argsstring>(int staffIdx, const ClefTypeList &amp;c)</argsstring>
+        <name>setClefType</name>
+        <param>
+          <type>int</type>
+          <declname>staffIdx</declname>
+        </param>
+        <param>
+          <type>const <ref refid="struct_ms_1_1_clef_type_list" kindref="compound">ClefTypeList</ref> &amp;</type>
+          <declname>c</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/instrument.h" line="310" column="12" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/instrument.cpp" bodystart="1332" bodyend="1337"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ms_1_1_instrument_1a00b44e7232b9cc810fd3becc7bf96c22" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>const QList&lt; <ref refid="struct_ms_1_1_named_event_list" kindref="compound">NamedEventList</ref> &gt; &amp;</type>
+        <definition>const QList&lt;NamedEventList&gt;&amp; Ms::Instrument::midiActions</definition>
+        <argsstring>() const</argsstring>
+        <name>midiActions</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/instrument.h" line="312" column="19" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/instrument.h" bodystart="312" bodyend="312"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ms_1_1_instrument_1a370e641cf45c27a5b61c941ff710eed1" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>const QList&lt; <ref refid="struct_ms_1_1_midi_articulation" kindref="compound">MidiArticulation</ref> &gt; &amp;</type>
+        <definition>const QList&lt;MidiArticulation&gt;&amp; Ms::Instrument::articulation</definition>
+        <argsstring>() const</argsstring>
+        <name>articulation</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/instrument.h" line="313" column="19" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/instrument.h" bodystart="313" bodyend="313"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ms_1_1_instrument_1a186a430816fe22e7a3a0fe4fcc21467e" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>const QList&lt; <ref refid="class_ms_1_1_channel" kindref="compound">Channel</ref> * &gt; &amp;</type>
+        <definition>const QList&lt;Channel*&gt;&amp; Ms::Instrument::channel</definition>
+        <argsstring>() const</argsstring>
+        <name>channel</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/instrument.h" line="315" column="19" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/instrument.h" bodystart="315" bodyend="315"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ms_1_1_instrument_1aaec70bfa6c33bac938ff13ac6c28f06f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Ms::Instrument::appendChannel</definition>
+        <argsstring>(Channel *c)</argsstring>
+        <name>appendChannel</name>
+        <param>
+          <type><ref refid="class_ms_1_1_channel" kindref="compound">Channel</ref> *</type>
+          <declname>c</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/instrument.h" line="316" column="12" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/instrument.h" bodystart="316" bodyend="316"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ms_1_1_instrument_1a731f29bbe694939a7178303978a8ea81" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Ms::Instrument::removeChannel</definition>
+        <argsstring>(Channel *c)</argsstring>
+        <name>removeChannel</name>
+        <param>
+          <type><ref refid="class_ms_1_1_channel" kindref="compound">Channel</ref> *</type>
+          <declname>c</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/instrument.h" line="317" column="12" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/instrument.h" bodystart="317" bodyend="317"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ms_1_1_instrument_1ab55a4ff72eff8ca506c07178a962a243" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Ms::Instrument::clearChannels</definition>
+        <argsstring>()</argsstring>
+        <name>clearChannels</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/instrument.h" line="318" column="12" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/instrument.h" bodystart="318" bodyend="318"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ms_1_1_instrument_1a5615222c1ec456e28c4bba1dabb53318" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Ms::Instrument::setMidiActions</definition>
+        <argsstring>(const QList&lt; NamedEventList &gt; &amp;l)</argsstring>
+        <name>setMidiActions</name>
+        <param>
+          <type>const QList&lt; <ref refid="struct_ms_1_1_named_event_list" kindref="compound">NamedEventList</ref> &gt; &amp;</type>
+          <declname>l</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/instrument.h" line="320" column="12" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/instrument.h" bodystart="320" bodyend="320"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ms_1_1_instrument_1a4b72f2b1b17707258c1bdb4ca472e487" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Ms::Instrument::setArticulation</definition>
+        <argsstring>(const QList&lt; MidiArticulation &gt; &amp;l)</argsstring>
+        <name>setArticulation</name>
+        <param>
+          <type>const QList&lt; <ref refid="struct_ms_1_1_midi_articulation" kindref="compound">MidiArticulation</ref> &gt; &amp;</type>
+          <declname>l</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/instrument.h" line="321" column="12" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/instrument.h" bodystart="321" bodyend="321"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ms_1_1_instrument_1a212a6cb5bd1c9382df7ef53a92f3d9db" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>const <ref refid="class_ms_1_1_string_data" kindref="compound">StringData</ref> *</type>
+        <definition>const StringData* Ms::Instrument::stringData</definition>
+        <argsstring>() const</argsstring>
+        <name>stringData</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/instrument.h" line="322" column="24" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/instrument.h" bodystart="322" bodyend="322"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ms_1_1_instrument_1a2b6c7df74eb8dbd6f1620a1bbcceebcd" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Ms::Instrument::setStringData</definition>
+        <argsstring>(const StringData &amp;d)</argsstring>
+        <name>setStringData</name>
+        <param>
+          <type>const <ref refid="class_ms_1_1_string_data" kindref="compound">StringData</ref> &amp;</type>
+          <declname>d</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/instrument.h" line="323" column="12" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/instrument.h" bodystart="323" bodyend="323"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ms_1_1_instrument_1a17d61362f6b893bdb52231a8f52e8b5b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Ms::Instrument::setLongName</definition>
+        <argsstring>(const QString &amp;f)</argsstring>
+        <name>setLongName</name>
+        <param>
+          <type>const QString &amp;</type>
+          <declname>f</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/instrument.h" line="325" column="12" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/instrument.cpp" bodystart="1277" bodyend="1282"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ms_1_1_instrument_1aa846ef9cb5d517d6198361bbab3d06ca" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Ms::Instrument::setShortName</definition>
+        <argsstring>(const QString &amp;f)</argsstring>
+        <name>setShortName</name>
+        <param>
+          <type>const QString &amp;</type>
+          <declname>f</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/instrument.h" line="326" column="12" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/instrument.cpp" bodystart="1289" bodyend="1294"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ms_1_1_instrument_1acedf34801efe4c500959f91d996c3600" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Ms::Instrument::addLongName</definition>
+        <argsstring>(const StaffName &amp;f)</argsstring>
+        <name>addLongName</name>
+        <param>
+          <type>const <ref refid="class_ms_1_1_staff_name" kindref="compound">StaffName</ref> &amp;</type>
+          <declname>f</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/instrument.h" line="328" column="12" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/instrument.cpp" bodystart="1300" bodyend="1303"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ms_1_1_instrument_1aa1bcbfdb45118ceb7303b00218c95f2f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Ms::Instrument::addShortName</definition>
+        <argsstring>(const StaffName &amp;f)</argsstring>
+        <name>addShortName</name>
+        <param>
+          <type>const <ref refid="class_ms_1_1_staff_name" kindref="compound">StaffName</ref> &amp;</type>
+          <declname>f</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/instrument.h" line="329" column="12" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/instrument.cpp" bodystart="1309" bodyend="1312"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ms_1_1_instrument_1a8f4096136b0f823fd6c0def30e51b088" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int Ms::Instrument::minPitchP</definition>
+        <argsstring>() const</argsstring>
+        <name>minPitchP</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/instrument.h" line="331" column="11" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/instrument.cpp" bodystart="1343" bodyend="1346"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ms_1_1_instrument_1a05bf0214df1736820e37e04dc3686b7c" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int Ms::Instrument::maxPitchP</definition>
+        <argsstring>() const</argsstring>
+        <name>maxPitchP</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/instrument.h" line="332" column="11" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/instrument.cpp" bodystart="1352" bodyend="1355"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ms_1_1_instrument_1a73a1bd2424ed4b53d2ed8d41199b99a7" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int Ms::Instrument::minPitchA</definition>
+        <argsstring>() const</argsstring>
+        <name>minPitchA</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/instrument.h" line="333" column="11" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/instrument.cpp" bodystart="1361" bodyend="1364"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ms_1_1_instrument_1a891d3c35b24ac8fb8a414bc4fa2ce01d" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int Ms::Instrument::maxPitchA</definition>
+        <argsstring>() const</argsstring>
+        <name>maxPitchA</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/instrument.h" line="334" column="11" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/instrument.cpp" bodystart="1370" bodyend="1373"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ms_1_1_instrument_1a27153e56433f34c380d6ffb121043aff" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>QString</type>
+        <definition>QString Ms::Instrument::instrumentId</definition>
+        <argsstring>() const</argsstring>
+        <name>instrumentId</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/instrument.h" line="335" column="15"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ms_1_1_instrument_1aa3439395f6ea377bda10a52c1f85b259" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>const QList&lt; <ref refid="class_ms_1_1_staff_name" kindref="compound">StaffName</ref> &gt; &amp;</type>
+        <definition>QList&lt; StaffName &gt; &amp; Ms::Instrument::longNames</definition>
+        <argsstring>() const</argsstring>
+        <name>longNames</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/instrument.h" line="337" column="19" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/instrument.cpp" bodystart="1428" bodyend="1431"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ms_1_1_instrument_1ae852b6dc37ae457cefe2a7e303adb1b2" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>const QList&lt; <ref refid="class_ms_1_1_staff_name" kindref="compound">StaffName</ref> &gt; &amp;</type>
+        <definition>QList&lt; StaffName &gt; &amp; Ms::Instrument::shortNames</definition>
+        <argsstring>() const</argsstring>
+        <name>shortNames</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/instrument.h" line="338" column="19" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/instrument.cpp" bodystart="1437" bodyend="1440"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ms_1_1_instrument_1a909ec3da88f836e16c76af7ace59e75c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>QList&lt; <ref refid="class_ms_1_1_staff_name" kindref="compound">StaffName</ref> &gt; &amp;</type>
+        <definition>QList&lt;StaffName&gt;&amp; Ms::Instrument::longNames</definition>
+        <argsstring>()</argsstring>
+        <name>longNames</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/instrument.h" line="339" column="13"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ms_1_1_instrument_1a605921c38de801c07d21b2393dc1bf36" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>QList&lt; <ref refid="class_ms_1_1_staff_name" kindref="compound">StaffName</ref> &gt; &amp;</type>
+        <definition>QList&lt;StaffName&gt;&amp; Ms::Instrument::shortNames</definition>
+        <argsstring>()</argsstring>
+        <name>shortNames</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/instrument.h" line="341" column="13"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ms_1_1_instrument_1a96a6135ca18ef424be2db795d50c6c11" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>QString</type>
+        <definition>QString Ms::Instrument::trackName</definition>
+        <argsstring>() const</argsstring>
+        <name>trackName</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/instrument.h" line="342" column="15" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/instrument.cpp" bodystart="1464" bodyend="1467"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ms_1_1_instrument_1a53d05a717400cc25f6e7cabf399b4e68" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Ms::Instrument::setTrackName</definition>
+        <argsstring>(const QString &amp;s)</argsstring>
+        <name>setTrackName</name>
+        <param>
+          <type>const QString &amp;</type>
+          <declname>s</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/instrument.h" line="343" column="12" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/instrument.cpp" bodystart="1469" bodyend="1472"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ms_1_1_instrument_1a30d4047b3f6227e915820e6f321d4480" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool Ms::Instrument::singleNoteDynamics</definition>
+        <argsstring>() const</argsstring>
+        <name>singleNoteDynamics</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/instrument.h" line="346" column="12" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/instrument.h" bodystart="346" bodyend="346"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ms_1_1_instrument_1a80eca65b5ca966e7e94adeb8c918d9a4" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Ms::Instrument::setSingleNoteDynamics</definition>
+        <argsstring>(bool val)</argsstring>
+        <name>setSingleNoteDynamics</name>
+        <param>
+          <type>bool</type>
+          <declname>val</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/instrument.h" line="347" column="12" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/instrument.h" bodystart="347" bodyend="347"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ms_1_1_instrument_1a160d3ef857a14f9df0cd6bbfd82e9451" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Ms::Instrument::setSingleNoteDynamicsFromTemplate</definition>
+        <argsstring>()</argsstring>
+        <name>setSingleNoteDynamicsFromTemplate</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/instrument.h" line="348" column="12" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/instrument.cpp" bodystart="1540" bodyend="1543"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ms_1_1_instrument_1a8d1c7e7b3a5bf5e792e04df9fd61136f" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool Ms::Instrument::getSingleNoteDynamicsFromTemplate</definition>
+        <argsstring>() const</argsstring>
+        <name>getSingleNoteDynamicsFromTemplate</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/instrument.h" line="349" column="12" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/instrument.cpp" bodystart="1527" bodyend="1534"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ms_1_1_instrument_1a84f06a49a29e528741636c9c5b443933" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Ms::Instrument::switchExpressive</definition>
+        <argsstring>(MasterScore *score, Synthesizer *synth, bool expressive, bool force=false)</argsstring>
+        <name>switchExpressive</name>
+        <param>
+          <type><ref refid="class_ms_1_1_master_score" kindref="compound">MasterScore</ref> *</type>
+          <declname>score</declname>
+        </param>
+        <param>
+          <type>Synthesizer *</type>
+          <declname>synth</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>expressive</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>force</declname>
+          <defval>false</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/instrument.h" line="350" column="12" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/instrument.cpp" bodystart="1143" bodyend="1154"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="class_ms_1_1_instrument_1a65d8e0fadc7e6d2b6cd64c37094ed43e" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="class_ms_1_1_instrument" kindref="compound">Instrument</ref></type>
+        <definition>Instrument Ms::Instrument::fromTemplate</definition>
+        <argsstring>(const InstrumentTemplate *t)</argsstring>
+        <name>fromTemplate</name>
+        <param>
+          <type>const <ref refid="class_ms_1_1_instrument_template" kindref="compound">InstrumentTemplate</ref> *</type>
+          <declname>t</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/instrument.h" line="344" column="25" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/instrument.cpp" bodystart="1478" bodyend="1502"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/instrument.h" line="251" column="17" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/instrument.h" bodystart="251" bodyend="351"/>
+    <listofallmembers>
+      <member refid="class_ms_1_1_instrument_1ac0ecfd0ac53c2d8a0f9f95af6d22e5d4" prot="private" virt="non-virtual"><scope>Ms::Instrument</scope><name>_articulation</name></member>
+      <member refid="class_ms_1_1_instrument_1aa91e3cfba9e728a9b655130c4530576f" prot="private" virt="non-virtual"><scope>Ms::Instrument</scope><name>_channel</name></member>
+      <member refid="class_ms_1_1_instrument_1aab5eb9d170fdedae06075b4675f3dfaf" prot="private" virt="non-virtual"><scope>Ms::Instrument</scope><name>_clefType</name></member>
+      <member refid="class_ms_1_1_instrument_1aad092ba47eb06e1d75e6c03d29e13cd8" prot="private" virt="non-virtual"><scope>Ms::Instrument</scope><name>_drumset</name></member>
+      <member refid="class_ms_1_1_instrument_1ade891452f15073b4a465f01978769cca" prot="private" virt="non-virtual"><scope>Ms::Instrument</scope><name>_instrumentId</name></member>
+      <member refid="class_ms_1_1_instrument_1a3cb5223999e0fdcef5d68c628755ea1e" prot="private" virt="non-virtual"><scope>Ms::Instrument</scope><name>_longNames</name></member>
+      <member refid="class_ms_1_1_instrument_1aa46380eaf2aea7b04d39cf38f7f4d43a" prot="private" virt="non-virtual"><scope>Ms::Instrument</scope><name>_maxPitchA</name></member>
+      <member refid="class_ms_1_1_instrument_1a622a4288ee532710538ecffa7a125d95" prot="private" virt="non-virtual"><scope>Ms::Instrument</scope><name>_maxPitchP</name></member>
+      <member refid="class_ms_1_1_instrument_1ac5c07717fd240588bca2583f7380e9d3" prot="private" virt="non-virtual"><scope>Ms::Instrument</scope><name>_midiActions</name></member>
+      <member refid="class_ms_1_1_instrument_1a8816abd01b707804e43ad457362c8475" prot="private" virt="non-virtual"><scope>Ms::Instrument</scope><name>_minPitchA</name></member>
+      <member refid="class_ms_1_1_instrument_1aab65a2b4426f303f2ad139ccb40ee1fa" prot="private" virt="non-virtual"><scope>Ms::Instrument</scope><name>_minPitchP</name></member>
+      <member refid="class_ms_1_1_instrument_1a8996813624d27837891d8b977b57ba2d" prot="private" virt="non-virtual"><scope>Ms::Instrument</scope><name>_shortNames</name></member>
+      <member refid="class_ms_1_1_instrument_1a09ffc63605c3c633a099b1c3491ac776" prot="private" virt="non-virtual"><scope>Ms::Instrument</scope><name>_singleNoteDynamics</name></member>
+      <member refid="class_ms_1_1_instrument_1a4374b6fbfad4a0d7767319acc66736f5" prot="private" virt="non-virtual"><scope>Ms::Instrument</scope><name>_stringData</name></member>
+      <member refid="class_ms_1_1_instrument_1a1357081a5c35fc332264fdb3d8091ea1" prot="private" virt="non-virtual"><scope>Ms::Instrument</scope><name>_trackName</name></member>
+      <member refid="class_ms_1_1_instrument_1aad067956c7ac22dae3d71e15555be181" prot="private" virt="non-virtual"><scope>Ms::Instrument</scope><name>_transpose</name></member>
+      <member refid="class_ms_1_1_instrument_1a96949db5a1edcd04dd644478f5db92d0" prot="private" virt="non-virtual"><scope>Ms::Instrument</scope><name>_useDrumset</name></member>
+      <member refid="class_ms_1_1_instrument_1acedf34801efe4c500959f91d996c3600" prot="public" virt="non-virtual"><scope>Ms::Instrument</scope><name>addLongName</name></member>
+      <member refid="class_ms_1_1_instrument_1aa1bcbfdb45118ceb7303b00218c95f2f" prot="public" virt="non-virtual"><scope>Ms::Instrument</scope><name>addShortName</name></member>
+      <member refid="class_ms_1_1_instrument_1aaec70bfa6c33bac938ff13ac6c28f06f" prot="public" virt="non-virtual"><scope>Ms::Instrument</scope><name>appendChannel</name></member>
+      <member refid="class_ms_1_1_instrument_1a370e641cf45c27a5b61c941ff710eed1" prot="public" virt="non-virtual"><scope>Ms::Instrument</scope><name>articulation</name></member>
+      <member refid="class_ms_1_1_instrument_1aa4f0203241ae16e4b0b036a17758a00a" prot="public" virt="non-virtual"><scope>Ms::Instrument</scope><name>channel</name></member>
+      <member refid="class_ms_1_1_instrument_1ac12e47a107a3ef2d95757d99c0967411" prot="public" virt="non-virtual"><scope>Ms::Instrument</scope><name>channel</name></member>
+      <member refid="class_ms_1_1_instrument_1a186a430816fe22e7a3a0fe4fcc21467e" prot="public" virt="non-virtual"><scope>Ms::Instrument</scope><name>channel</name></member>
+      <member refid="class_ms_1_1_instrument_1aed7d2c00f36a4176f098e1fedcc8e77d" prot="public" virt="non-virtual"><scope>Ms::Instrument</scope><name>channelIdx</name></member>
+      <member refid="class_ms_1_1_instrument_1ab55a4ff72eff8ca506c07178a962a243" prot="public" virt="non-virtual"><scope>Ms::Instrument</scope><name>clearChannels</name></member>
+      <member refid="class_ms_1_1_instrument_1a32a720606d9b468ca7c5ddd5ff12bf13" prot="public" virt="non-virtual"><scope>Ms::Instrument</scope><name>clefType</name></member>
+      <member refid="class_ms_1_1_instrument_1ac377dcee9176d06151474454b0f3c265" prot="public" virt="non-virtual"><scope>Ms::Instrument</scope><name>drumset</name></member>
+      <member refid="class_ms_1_1_instrument_1a3a0e52aa4b075f5bdc9510f8306c95bf" prot="public" virt="non-virtual"><scope>Ms::Instrument</scope><name>drumset</name></member>
+      <member refid="class_ms_1_1_instrument_1a65d8e0fadc7e6d2b6cd64c37094ed43e" prot="public" virt="non-virtual"><scope>Ms::Instrument</scope><name>fromTemplate</name></member>
+      <member refid="class_ms_1_1_instrument_1a8d1c7e7b3a5bf5e792e04df9fd61136f" prot="public" virt="non-virtual"><scope>Ms::Instrument</scope><name>getSingleNoteDynamicsFromTemplate</name></member>
+      <member refid="class_ms_1_1_instrument_1abfdbb5994ebd99c1fc003e4de85e99b4" prot="public" virt="non-virtual"><scope>Ms::Instrument</scope><name>getVelocityMultiplier</name></member>
+      <member refid="class_ms_1_1_instrument_1a1c7b4bbce5c8ca36a89c33b853b6d805" prot="public" virt="non-virtual"><scope>Ms::Instrument</scope><name>Instrument</name></member>
+      <member refid="class_ms_1_1_instrument_1ada9dc7b0257938a9ccfd99ed63548005" prot="public" virt="non-virtual"><scope>Ms::Instrument</scope><name>Instrument</name></member>
+      <member refid="class_ms_1_1_instrument_1aa4cc1131c5ee048a6e16897cbb7c2a13" prot="public" virt="non-virtual"><scope>Ms::Instrument</scope><name>instrumentId</name></member>
+      <member refid="class_ms_1_1_instrument_1a27153e56433f34c380d6ffb121043aff" prot="public" virt="non-virtual"><scope>Ms::Instrument</scope><name>instrumentId</name></member>
+      <member refid="class_ms_1_1_instrument_1a2812c3a4080df7314c30af0adcb859b5" prot="public" virt="non-virtual"><scope>Ms::Instrument</scope><name>isDifferentInstrument</name></member>
+      <member refid="class_ms_1_1_instrument_1aa3439395f6ea377bda10a52c1f85b259" prot="public" virt="non-virtual"><scope>Ms::Instrument</scope><name>longNames</name></member>
+      <member refid="class_ms_1_1_instrument_1a909ec3da88f836e16c76af7ace59e75c" prot="public" virt="non-virtual"><scope>Ms::Instrument</scope><name>longNames</name></member>
+      <member refid="class_ms_1_1_instrument_1a891d3c35b24ac8fb8a414bc4fa2ce01d" prot="public" virt="non-virtual"><scope>Ms::Instrument</scope><name>maxPitchA</name></member>
+      <member refid="class_ms_1_1_instrument_1a05bf0214df1736820e37e04dc3686b7c" prot="public" virt="non-virtual"><scope>Ms::Instrument</scope><name>maxPitchP</name></member>
+      <member refid="class_ms_1_1_instrument_1a9be864c62f7d12f938292d5e8276e0db" prot="public" virt="non-virtual"><scope>Ms::Instrument</scope><name>midiAction</name></member>
+      <member refid="class_ms_1_1_instrument_1a00b44e7232b9cc810fd3becc7bf96c22" prot="public" virt="non-virtual"><scope>Ms::Instrument</scope><name>midiActions</name></member>
+      <member refid="class_ms_1_1_instrument_1a73a1bd2424ed4b53d2ed8d41199b99a7" prot="public" virt="non-virtual"><scope>Ms::Instrument</scope><name>minPitchA</name></member>
+      <member refid="class_ms_1_1_instrument_1a8f4096136b0f823fd6c0def30e51b088" prot="public" virt="non-virtual"><scope>Ms::Instrument</scope><name>minPitchP</name></member>
+      <member refid="class_ms_1_1_instrument_1a6ad444f145ae2b79709286b864cd3447" prot="public" virt="non-virtual"><scope>Ms::Instrument</scope><name>operator=</name></member>
+      <member refid="class_ms_1_1_instrument_1a0963f1462e91f210f52edf6238afa3d4" prot="public" virt="non-virtual"><scope>Ms::Instrument</scope><name>operator==</name></member>
+      <member refid="class_ms_1_1_instrument_1aa8898f639c061ef1f2588f508bae0b17" prot="public" virt="non-virtual"><scope>Ms::Instrument</scope><name>playbackChannel</name></member>
+      <member refid="class_ms_1_1_instrument_1a90a55e0cf6354a4d8dc4dbdfb141db4a" prot="public" virt="non-virtual"><scope>Ms::Instrument</scope><name>playbackChannel</name></member>
+      <member refid="class_ms_1_1_instrument_1a5ce412e4f90eee152d242bfbdec55951" prot="public" virt="non-virtual"><scope>Ms::Instrument</scope><name>read</name></member>
+      <member refid="class_ms_1_1_instrument_1af228740167f18fa0615dfde9c03ab108" prot="public" virt="non-virtual"><scope>Ms::Instrument</scope><name>readProperties</name></member>
+      <member refid="class_ms_1_1_instrument_1a731f29bbe694939a7178303978a8ea81" prot="public" virt="non-virtual"><scope>Ms::Instrument</scope><name>removeChannel</name></member>
+      <member refid="class_ms_1_1_instrument_1aedea38a9f0a91615e42f5ed1d7f5399d" prot="public" virt="non-virtual"><scope>Ms::Instrument</scope><name>setAmateurPitchRange</name></member>
+      <member refid="class_ms_1_1_instrument_1a4b72f2b1b17707258c1bdb4ca472e487" prot="public" virt="non-virtual"><scope>Ms::Instrument</scope><name>setArticulation</name></member>
+      <member refid="class_ms_1_1_instrument_1a238574689702903909650b8b1cb08f10" prot="public" virt="non-virtual"><scope>Ms::Instrument</scope><name>setClefType</name></member>
+      <member refid="class_ms_1_1_instrument_1a8d1568b455350500327acd25dfd89e9a" prot="public" virt="non-virtual"><scope>Ms::Instrument</scope><name>setDrumset</name></member>
+      <member refid="class_ms_1_1_instrument_1a0422ca02ce2b78387f5a31dc74bb4bca" prot="public" virt="non-virtual"><scope>Ms::Instrument</scope><name>setInstrumentId</name></member>
+      <member refid="class_ms_1_1_instrument_1a17d61362f6b893bdb52231a8f52e8b5b" prot="public" virt="non-virtual"><scope>Ms::Instrument</scope><name>setLongName</name></member>
+      <member refid="class_ms_1_1_instrument_1aca547d29d2726faa4f66b8807d823c75" prot="public" virt="non-virtual"><scope>Ms::Instrument</scope><name>setMaxPitchA</name></member>
+      <member refid="class_ms_1_1_instrument_1a377c095d03aaf7ade23d413ee8b1eb41" prot="public" virt="non-virtual"><scope>Ms::Instrument</scope><name>setMaxPitchP</name></member>
+      <member refid="class_ms_1_1_instrument_1a5615222c1ec456e28c4bba1dabb53318" prot="public" virt="non-virtual"><scope>Ms::Instrument</scope><name>setMidiActions</name></member>
+      <member refid="class_ms_1_1_instrument_1ad0f624488e8d22d885b5b71a7128b36b" prot="public" virt="non-virtual"><scope>Ms::Instrument</scope><name>setMinPitchA</name></member>
+      <member refid="class_ms_1_1_instrument_1a8b5342b40efb77e2ab3c13314d2d988d" prot="public" virt="non-virtual"><scope>Ms::Instrument</scope><name>setMinPitchP</name></member>
+      <member refid="class_ms_1_1_instrument_1a91946d203c2bc1a2e0ca3fd5e82ce5f0" prot="public" virt="non-virtual"><scope>Ms::Instrument</scope><name>setProfessionalPitchRange</name></member>
+      <member refid="class_ms_1_1_instrument_1aa846ef9cb5d517d6198361bbab3d06ca" prot="public" virt="non-virtual"><scope>Ms::Instrument</scope><name>setShortName</name></member>
+      <member refid="class_ms_1_1_instrument_1a80eca65b5ca966e7e94adeb8c918d9a4" prot="public" virt="non-virtual"><scope>Ms::Instrument</scope><name>setSingleNoteDynamics</name></member>
+      <member refid="class_ms_1_1_instrument_1a160d3ef857a14f9df0cd6bbfd82e9451" prot="public" virt="non-virtual"><scope>Ms::Instrument</scope><name>setSingleNoteDynamicsFromTemplate</name></member>
+      <member refid="class_ms_1_1_instrument_1a2b6c7df74eb8dbd6f1620a1bbcceebcd" prot="public" virt="non-virtual"><scope>Ms::Instrument</scope><name>setStringData</name></member>
+      <member refid="class_ms_1_1_instrument_1a53d05a717400cc25f6e7cabf399b4e68" prot="public" virt="non-virtual"><scope>Ms::Instrument</scope><name>setTrackName</name></member>
+      <member refid="class_ms_1_1_instrument_1aebf5fe12b5d95b1fe14cc9eeded4ebeb" prot="public" virt="non-virtual"><scope>Ms::Instrument</scope><name>setTranspose</name></member>
+      <member refid="class_ms_1_1_instrument_1a1de09574c7bb06120e1d7515fe01da4b" prot="public" virt="non-virtual"><scope>Ms::Instrument</scope><name>setUseDrumset</name></member>
+      <member refid="class_ms_1_1_instrument_1ae852b6dc37ae457cefe2a7e303adb1b2" prot="public" virt="non-virtual"><scope>Ms::Instrument</scope><name>shortNames</name></member>
+      <member refid="class_ms_1_1_instrument_1a605921c38de801c07d21b2393dc1bf36" prot="public" virt="non-virtual"><scope>Ms::Instrument</scope><name>shortNames</name></member>
+      <member refid="class_ms_1_1_instrument_1a30d4047b3f6227e915820e6f321d4480" prot="public" virt="non-virtual"><scope>Ms::Instrument</scope><name>singleNoteDynamics</name></member>
+      <member refid="class_ms_1_1_instrument_1a212a6cb5bd1c9382df7ef53a92f3d9db" prot="public" virt="non-virtual"><scope>Ms::Instrument</scope><name>stringData</name></member>
+      <member refid="class_ms_1_1_instrument_1a84f06a49a29e528741636c9c5b443933" prot="public" virt="non-virtual"><scope>Ms::Instrument</scope><name>switchExpressive</name></member>
+      <member refid="class_ms_1_1_instrument_1a96a6135ca18ef424be2db795d50c6c11" prot="public" virt="non-virtual"><scope>Ms::Instrument</scope><name>trackName</name></member>
+      <member refid="class_ms_1_1_instrument_1aa79b017182d2d76a2d398a56c038b3fc" prot="public" virt="non-virtual"><scope>Ms::Instrument</scope><name>transpose</name></member>
+      <member refid="class_ms_1_1_instrument_1ad4f5fc0cc1cfa2bcea6ace19849c22ee" prot="public" virt="non-virtual"><scope>Ms::Instrument</scope><name>updateGateTime</name></member>
+      <member refid="class_ms_1_1_instrument_1a2aebe9753c44e5080dc94f3b7fb3043e" prot="public" virt="non-virtual"><scope>Ms::Instrument</scope><name>updateVelocity</name></member>
+      <member refid="class_ms_1_1_instrument_1a1632d4bf3af6b96e024ae13be290099d" prot="public" virt="non-virtual"><scope>Ms::Instrument</scope><name>useDrumset</name></member>
+      <member refid="class_ms_1_1_instrument_1a13499447a6bc7ea08175ac6488209d0e" prot="public" virt="non-virtual"><scope>Ms::Instrument</scope><name>write</name></member>
+      <member refid="class_ms_1_1_instrument_1ac81836757ba5b27cf3fdf9765d9bc5ed" prot="public" virt="non-virtual"><scope>Ms::Instrument</scope><name>~Instrument</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

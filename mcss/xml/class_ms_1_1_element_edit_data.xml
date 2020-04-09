@@ -1,0 +1,160 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.17">
+  <compounddef id="class_ms_1_1_element_edit_data" kind="class" language="C++" prot="public">
+    <compoundname>Ms::ElementEditData</compoundname>
+    <derivedcompoundref refid="class_ms_1_1_bar_line_edit_data" prot="public" virt="non-virtual">Ms::BarLineEditData</derivedcompoundref>
+    <derivedcompoundref refid="class_ms_1_1_beam_edit_data" prot="public" virt="non-virtual">Ms::BeamEditData</derivedcompoundref>
+    <derivedcompoundref refid="class_ms_1_1_note_edit_data" prot="public" virt="non-virtual">Ms::NoteEditData</derivedcompoundref>
+    <derivedcompoundref refid="struct_ms_1_1_text_edit_data" prot="public" virt="non-virtual">Ms::TextEditData</derivedcompoundref>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_ms_1_1_element_edit_data_1a4a5b2a5182a4a984de50d65dcd5660f3" prot="public" static="no" mutable="no">
+        <type><ref refid="class_ms_1_1_element" kindref="compound">Element</ref> *</type>
+        <definition>Element* Ms::ElementEditData::e</definition>
+        <argsstring></argsstring>
+        <name>e</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/element.h" line="517" column="15" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/element.h" bodystart="517" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_ms_1_1_element_edit_data_1aa543bb38e2a53f697dc9973bce7b4a44" prot="public" static="no" mutable="no">
+        <type>QList&lt; <ref refid="struct_ms_1_1_property_data" kindref="compound">PropertyData</ref> &gt;</type>
+        <definition>QList&lt;PropertyData&gt; Ms::ElementEditData::propertyData</definition>
+        <argsstring></argsstring>
+        <name>propertyData</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/element.h" line="518" column="13" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/element.h" bodystart="518" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_ms_1_1_element_edit_data_1a50686e6b398def7c9b43a03c409bb025" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type></type>
+        <definition>virtual Ms::ElementEditData::~ElementEditData</definition>
+        <argsstring>()=default</argsstring>
+        <name>~ElementEditData</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/element.h" line="520" column="15"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ms_1_1_element_edit_data_1abfc969792e8cdce39582711139ef1d97" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Ms::ElementEditData::pushProperty</definition>
+        <argsstring>(Pid pid)</argsstring>
+        <name>pushProperty</name>
+        <param>
+          <type>Pid</type>
+          <declname>pid</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/element.h" line="521" column="12" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/element.h" bodystart="521" bodyend="521"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ms_1_1_element_edit_data_1ac49812941581aa2c22e10d3e94f67be9" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>EditDataType</type>
+        <definition>virtual EditDataType Ms::ElementEditData::type</definition>
+        <argsstring>()</argsstring>
+        <name>type</name>
+        <reimplementedby refid="struct_ms_1_1_text_edit_data_1a0be9ca3a0245ab4f5f98428b4b86f594">type</reimplementedby>
+        <reimplementedby refid="class_ms_1_1_bar_line_edit_data_1a64f25d3f8f1ee9f4d6623e522182c855">type</reimplementedby>
+        <reimplementedby refid="class_ms_1_1_note_edit_data_1a459395890e567118f6f9bc2272092d82">type</reimplementedby>
+        <reimplementedby refid="class_ms_1_1_beam_edit_data_1ac8bdc1438e861d0cd69d1949a3639601">type</reimplementedby>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/element.h" line="522" column="28" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/element.h" bodystart="522" bodyend="522"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="3">
+        <label>Ms::BeamEditData</label>
+        <link refid="class_ms_1_1_beam_edit_data"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="4">
+        <label>Ms::NoteEditData</label>
+        <link refid="class_ms_1_1_note_edit_data"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="5">
+        <label>Ms::TextEditData</label>
+        <link refid="struct_ms_1_1_text_edit_data"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>Ms::BarLineEditData</label>
+        <link refid="class_ms_1_1_bar_line_edit_data"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>Ms::ElementEditData</label>
+        <link refid="class_ms_1_1_element_edit_data"/>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="5">
+        <label>QList&lt; ScoreElement * &gt;</label>
+      </node>
+      <node id="3">
+        <label>Ms::ScoreElement</label>
+        <link refid="class_ms_1_1_score_element"/>
+        <childnode refid="4" relation="usage">
+          <edgelabel>_links</edgelabel>
+        </childnode>
+      </node>
+      <node id="4">
+        <label>Ms::LinkedElements</label>
+        <link refid="class_ms_1_1_linked_elements"/>
+        <childnode refid="5" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>Ms::Element</label>
+        <link refid="class_ms_1_1_element"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>Ms::ElementEditData</label>
+        <link refid="class_ms_1_1_element_edit_data"/>
+        <childnode refid="2" relation="usage">
+          <edgelabel>e</edgelabel>
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/element.h" line="515" column="22" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/element.h" bodystart="515" bodyend="523"/>
+    <listofallmembers>
+      <member refid="class_ms_1_1_element_edit_data_1a4a5b2a5182a4a984de50d65dcd5660f3" prot="public" virt="non-virtual"><scope>Ms::ElementEditData</scope><name>e</name></member>
+      <member refid="class_ms_1_1_element_edit_data_1aa543bb38e2a53f697dc9973bce7b4a44" prot="public" virt="non-virtual"><scope>Ms::ElementEditData</scope><name>propertyData</name></member>
+      <member refid="class_ms_1_1_element_edit_data_1abfc969792e8cdce39582711139ef1d97" prot="public" virt="non-virtual"><scope>Ms::ElementEditData</scope><name>pushProperty</name></member>
+      <member refid="class_ms_1_1_element_edit_data_1ac49812941581aa2c22e10d3e94f67be9" prot="public" virt="virtual"><scope>Ms::ElementEditData</scope><name>type</name></member>
+      <member refid="class_ms_1_1_element_edit_data_1a50686e6b398def7c9b43a03c409bb025" prot="public" virt="virtual"><scope>Ms::ElementEditData</scope><name>~ElementEditData</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

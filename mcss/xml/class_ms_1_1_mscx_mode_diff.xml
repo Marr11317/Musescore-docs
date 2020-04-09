@@ -1,0 +1,359 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.17">
+  <compounddef id="class_ms_1_1_mscx_mode_diff" kind="class" language="C++" prot="public">
+    <compoundname>Ms::MscxModeDiff</compoundname>
+    <innerclass refid="struct_ms_1_1_mscx_mode_diff_1_1_tag" prot="private">Ms::MscxModeDiff::Tag</innerclass>
+      <sectiondef kind="private-type">
+      <memberdef kind="enum" id="class_ms_1_1_mscx_mode_diff_1a4d73970b0b112023cacc8e94e2d77405" prot="private" static="no" strong="no">
+        <type></type>
+        <name>TagType</name>
+        <enumvalue id="class_ms_1_1_mscx_mode_diff_1a4d73970b0b112023cacc8e94e2d77405ac75507d21f4eee87d4a96a9457e2b457" prot="private">
+          <name>START_TAG</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="class_ms_1_1_mscx_mode_diff_1a4d73970b0b112023cacc8e94e2d77405a3414aa398b1d3848a9d2f4565f2ebb15" prot="private">
+          <name>END_TAG</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/scorediff.cpp" line="36" column="19" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/scorediff.cpp" bodystart="36" bodyend="36"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-static-attrib">
+      <memberdef kind="variable" id="class_ms_1_1_mscx_mode_diff_1a4b5a5b020f0cfe83755e538b3c277575" prot="private" static="yes" constexpr="yes" mutable="no">
+        <type>constexpr const char *</type>
+        <definition>constexpr const char* Ms::MscxModeDiff::tagRegExpStr</definition>
+        <argsstring></argsstring>
+        <name>tagRegExpStr</name>
+        <initializer>= &quot;&lt;/?(?&lt;name&gt;[A-z_][A-z_0-9\\-.:]*)( [A-z_0-9\\-.:\\s=\&quot;]*)?/?&gt;&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/scorediff.cpp" line="33" column="35" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/scorediff.cpp" bodystart="33" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_ms_1_1_mscx_mode_diff_1ae00065dac790700aa21641593380bec9" prot="private" static="no" mutable="no">
+        <type>const QRegularExpression</type>
+        <definition>const QRegularExpression Ms::MscxModeDiff::tagRegExp</definition>
+        <argsstring></argsstring>
+        <name>tagRegExp</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/scorediff.cpp" line="34" column="32" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/scorediff.cpp" bodystart="34" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-static-func">
+      <memberdef kind="function" id="class_ms_1_1_mscx_mode_diff_1a30a97a555eae63dc151ac4c106dd3ab2" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>DiffType</type>
+        <definition>DiffType Ms::MscxModeDiff::fromDtlDiffType</definition>
+        <argsstring>(dtl::edit_t dtlType)</argsstring>
+        <name>fromDtlDiffType</name>
+        <param>
+          <type>dtl::edit_t</type>
+          <declname>dtlType</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/scorediff.cpp" line="45" column="23" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/scorediff.cpp" bodystart="100" bodyend="112"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ms_1_1_mscx_mode_diff_1a1916edf8a940ae390c4ffbe5cf42e463" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>QString</type>
+        <definition>QString Ms::MscxModeDiff::getOuterLines</definition>
+        <argsstring>(const QString &amp;str, int lines, bool start)</argsstring>
+        <name>getOuterLines</name>
+        <param>
+          <type>const QString &amp;</type>
+          <declname>str</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>lines</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>start</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/scorediff.cpp" line="50" column="22" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/scorediff.cpp" bodystart="424" bodyend="430"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_ms_1_1_mscx_mode_diff_1a7627aa8b95685866e9bd1d52e23991b8" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Ms::MscxModeDiff::adjustSemanticsMscx</definition>
+        <argsstring>(std::vector&lt; TextDiff &gt; &amp;)</argsstring>
+        <name>adjustSemanticsMscx</name>
+        <param>
+          <type>std::vector&lt; <ref refid="struct_ms_1_1_text_diff" kindref="compound">TextDiff</ref> &gt; &amp;</type>
+          <defname>diffs</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/scorediff.cpp" line="47" column="12" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/scorediff.cpp" bodystart="197" bodyend="201"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ms_1_1_mscx_mode_diff_1a473146e463493e30f0cfe2af834b85ca" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int Ms::MscxModeDiff::adjustSemanticsMscxOneDiff</definition>
+        <argsstring>(std::vector&lt; TextDiff &gt; &amp;diffs, int index)</argsstring>
+        <name>adjustSemanticsMscxOneDiff</name>
+        <param>
+          <type>std::vector&lt; <ref refid="struct_ms_1_1_text_diff" kindref="compound">TextDiff</ref> &gt; &amp;</type>
+          <declname>diffs</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>index</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/scorediff.cpp" line="48" column="11" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/scorediff.cpp" bodystart="208" bodyend="265"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ms_1_1_mscx_mode_diff_1a938e173624dd5c76d44ab2bf261ccbba" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int Ms::MscxModeDiff::nextDiffOnShiftIndex</definition>
+        <argsstring>(const std::vector&lt; TextDiff &gt; &amp;diffs, int index, bool down)</argsstring>
+        <name>nextDiffOnShiftIndex</name>
+        <param>
+          <type>const std::vector&lt; <ref refid="struct_ms_1_1_text_diff" kindref="compound">TextDiff</ref> &gt; &amp;</type>
+          <declname>diffs</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>index</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>down</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/scorediff.cpp" line="49" column="11" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/scorediff.cpp" bodystart="436" bodyend="454"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ms_1_1_mscx_mode_diff_1a951d68316565d4746306382dbdf107db" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool Ms::MscxModeDiff::assessShiftDiff</definition>
+        <argsstring>(const std::vector&lt; TextDiff &gt; &amp;, const std::vector&lt; Tag &gt; &amp;extraTags, int index, int lines)</argsstring>
+        <name>assessShiftDiff</name>
+        <param>
+          <type>const std::vector&lt; <ref refid="struct_ms_1_1_text_diff" kindref="compound">TextDiff</ref> &gt; &amp;</type>
+          <defname>diffs</defname>
+        </param>
+        <param>
+          <type>const std::vector&lt; Tag &gt; &amp;</type>
+          <declname>extraTags</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>index</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>lines</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/scorediff.cpp" line="51" column="12" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/scorediff.cpp" bodystart="274" bodyend="329"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ms_1_1_mscx_mode_diff_1a31741a2123576163930db1a0537b1720" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int Ms::MscxModeDiff::performShiftDiff</definition>
+        <argsstring>(std::vector&lt; TextDiff &gt; &amp;, int index, int lines)</argsstring>
+        <name>performShiftDiff</name>
+        <param>
+          <type>std::vector&lt; <ref refid="struct_ms_1_1_text_diff" kindref="compound">TextDiff</ref> &gt; &amp;</type>
+          <defname>diffs</defname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>index</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>lines</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/scorediff.cpp" line="52" column="11" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/scorediff.cpp" bodystart="337" bodyend="418"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ms_1_1_mscx_mode_diff_1ad492028173cd55d6104c02961e267114" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Ms::MscxModeDiff::readMscx</definition>
+        <argsstring>(const QString &amp;xml, std::vector&lt; Tag &gt; &amp;extraTags)</argsstring>
+        <name>readMscx</name>
+        <param>
+          <type>const QString &amp;</type>
+          <declname>xml</declname>
+        </param>
+        <param>
+          <type>std::vector&lt; Tag &gt; &amp;</type>
+          <declname>extraTags</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/scorediff.cpp" line="53" column="12" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/scorediff.cpp" bodystart="460" bodyend="492"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ms_1_1_mscx_mode_diff_1ab46bd94c203a44e0de3ec3f54b402963" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Ms::MscxModeDiff::handleTag</definition>
+        <argsstring>(int line, TagType type, const QString &amp;name, std::vector&lt; Tag &gt; &amp;extraTags)</argsstring>
+        <name>handleTag</name>
+        <param>
+          <type>int</type>
+          <declname>line</declname>
+        </param>
+        <param>
+          <type>TagType</type>
+          <declname>type</declname>
+        </param>
+        <param>
+          <type>const QString &amp;</type>
+          <declname>name</declname>
+        </param>
+        <param>
+          <type>std::vector&lt; Tag &gt; &amp;</type>
+          <declname>extraTags</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/scorediff.cpp" line="54" column="12" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/scorediff.cpp" bodystart="498" bodyend="515"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_ms_1_1_mscx_mode_diff_1a157bd52ce31efc9d3f65b02d4a68e340" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>Ms::MscxModeDiff::MscxModeDiff</definition>
+        <argsstring>()</argsstring>
+        <name>MscxModeDiff</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/scorediff.cpp" line="57" column="7" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/scorediff.cpp" bodystart="92" bodyend="94"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ms_1_1_mscx_mode_diff_1aeea011d67fea265347ff0d4c43126294" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>std::vector&lt; <ref refid="struct_ms_1_1_text_diff" kindref="compound">TextDiff</ref> &gt;</type>
+        <definition>std::vector&lt; TextDiff &gt; Ms::MscxModeDiff::lineModeDiff</definition>
+        <argsstring>(const QString &amp;s1, const QString &amp;s2)</argsstring>
+        <name>lineModeDiff</name>
+        <param>
+          <type>const QString &amp;</type>
+          <declname>s1</declname>
+        </param>
+        <param>
+          <type>const QString &amp;</type>
+          <declname>s2</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/scorediff.cpp" line="59" column="19" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/scorediff.cpp" bodystart="118" bodyend="180"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ms_1_1_mscx_mode_diff_1ae874f36e6672756827fdfe4e80ed9e07" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>std::vector&lt; <ref refid="struct_ms_1_1_text_diff" kindref="compound">TextDiff</ref> &gt;</type>
+        <definition>std::vector&lt; TextDiff &gt; Ms::MscxModeDiff::mscxModeDiff</definition>
+        <argsstring>(const QString &amp;s1, const QString &amp;s2)</argsstring>
+        <name>mscxModeDiff</name>
+        <param>
+          <type>const QString &amp;</type>
+          <declname>s1</declname>
+        </param>
+        <param>
+          <type>const QString &amp;</type>
+          <declname>s2</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/scorediff.cpp" line="60" column="19" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/scorediff.cpp" bodystart="186" bodyend="191"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/scorediff.cpp" line="32" column="19" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/scorediff.cpp" bodystart="32" bodyend="61"/>
+    <listofallmembers>
+      <member refid="class_ms_1_1_mscx_mode_diff_1a7627aa8b95685866e9bd1d52e23991b8" prot="private" virt="non-virtual"><scope>Ms::MscxModeDiff</scope><name>adjustSemanticsMscx</name></member>
+      <member refid="class_ms_1_1_mscx_mode_diff_1a473146e463493e30f0cfe2af834b85ca" prot="private" virt="non-virtual"><scope>Ms::MscxModeDiff</scope><name>adjustSemanticsMscxOneDiff</name></member>
+      <member refid="class_ms_1_1_mscx_mode_diff_1a951d68316565d4746306382dbdf107db" prot="private" virt="non-virtual"><scope>Ms::MscxModeDiff</scope><name>assessShiftDiff</name></member>
+      <member refid="class_ms_1_1_mscx_mode_diff_1a4d73970b0b112023cacc8e94e2d77405a3414aa398b1d3848a9d2f4565f2ebb15" prot="private" virt="non-virtual"><scope>Ms::MscxModeDiff</scope><name>END_TAG</name></member>
+      <member refid="class_ms_1_1_mscx_mode_diff_1a30a97a555eae63dc151ac4c106dd3ab2" prot="private" virt="non-virtual"><scope>Ms::MscxModeDiff</scope><name>fromDtlDiffType</name></member>
+      <member refid="class_ms_1_1_mscx_mode_diff_1a1916edf8a940ae390c4ffbe5cf42e463" prot="private" virt="non-virtual"><scope>Ms::MscxModeDiff</scope><name>getOuterLines</name></member>
+      <member refid="class_ms_1_1_mscx_mode_diff_1ab46bd94c203a44e0de3ec3f54b402963" prot="private" virt="non-virtual"><scope>Ms::MscxModeDiff</scope><name>handleTag</name></member>
+      <member refid="class_ms_1_1_mscx_mode_diff_1aeea011d67fea265347ff0d4c43126294" prot="public" virt="non-virtual"><scope>Ms::MscxModeDiff</scope><name>lineModeDiff</name></member>
+      <member refid="class_ms_1_1_mscx_mode_diff_1ae874f36e6672756827fdfe4e80ed9e07" prot="public" virt="non-virtual"><scope>Ms::MscxModeDiff</scope><name>mscxModeDiff</name></member>
+      <member refid="class_ms_1_1_mscx_mode_diff_1a157bd52ce31efc9d3f65b02d4a68e340" prot="public" virt="non-virtual"><scope>Ms::MscxModeDiff</scope><name>MscxModeDiff</name></member>
+      <member refid="class_ms_1_1_mscx_mode_diff_1a938e173624dd5c76d44ab2bf261ccbba" prot="private" virt="non-virtual"><scope>Ms::MscxModeDiff</scope><name>nextDiffOnShiftIndex</name></member>
+      <member refid="class_ms_1_1_mscx_mode_diff_1a31741a2123576163930db1a0537b1720" prot="private" virt="non-virtual"><scope>Ms::MscxModeDiff</scope><name>performShiftDiff</name></member>
+      <member refid="class_ms_1_1_mscx_mode_diff_1ad492028173cd55d6104c02961e267114" prot="private" virt="non-virtual"><scope>Ms::MscxModeDiff</scope><name>readMscx</name></member>
+      <member refid="class_ms_1_1_mscx_mode_diff_1a4d73970b0b112023cacc8e94e2d77405ac75507d21f4eee87d4a96a9457e2b457" prot="private" virt="non-virtual"><scope>Ms::MscxModeDiff</scope><name>START_TAG</name></member>
+      <member refid="class_ms_1_1_mscx_mode_diff_1ae00065dac790700aa21641593380bec9" prot="private" virt="non-virtual"><scope>Ms::MscxModeDiff</scope><name>tagRegExp</name></member>
+      <member refid="class_ms_1_1_mscx_mode_diff_1a4b5a5b020f0cfe83755e538b3c277575" prot="private" virt="non-virtual"><scope>Ms::MscxModeDiff</scope><name>tagRegExpStr</name></member>
+      <member refid="class_ms_1_1_mscx_mode_diff_1a4d73970b0b112023cacc8e94e2d77405" prot="private" virt="non-virtual"><scope>Ms::MscxModeDiff</scope><name>TagType</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,91 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.17">
+  <compounddef id="class_ms_1_1_update_state" kind="class" language="C++" prot="public">
+    <compoundname>Ms::UpdateState</compoundname>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_ms_1_1_update_state_1a5b275722049930f65fe701d667169b90" prot="public" static="no" mutable="no">
+        <type>QRectF</type>
+        <definition>QRectF Ms::UpdateState::refresh</definition>
+        <argsstring></argsstring>
+        <name>refresh</name>
+        <briefdescription>
+<para>area to update, canvas coordinates </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/score.h" line="314" column="14" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/score.h" bodystart="314" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_ms_1_1_update_state_1a3cd53a0b52af34eb210ff8f9c618993f" prot="public" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool Ms::UpdateState::_playNote</definition>
+        <argsstring></argsstring>
+        <name>_playNote</name>
+        <initializer>{ false }</initializer>
+        <briefdescription>
+<para>play selected note after command </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/score.h" line="315" column="12" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/score.h" bodystart="315" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_ms_1_1_update_state_1a14fe94853872d3ef379ab0cdce84c040" prot="public" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool Ms::UpdateState::_playChord</definition>
+        <argsstring></argsstring>
+        <name>_playChord</name>
+        <initializer>{ false }</initializer>
+        <briefdescription>
+<para>play whole chord for the selected note </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/score.h" line="316" column="12" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/score.h" bodystart="316" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_ms_1_1_update_state_1aabd4d9889d263bdf7263df6b43b28794" prot="public" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool Ms::UpdateState::_selectionChanged</definition>
+        <argsstring></argsstring>
+        <name>_selectionChanged</name>
+        <initializer>{ false }</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/score.h" line="317" column="12" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/score.h" bodystart="317" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_ms_1_1_update_state_1aa240636bdb445c9a69997a6366558169" prot="public" static="no" mutable="no">
+        <type>QList&lt; <ref refid="class_ms_1_1_score_element" kindref="compound">ScoreElement</ref> * &gt;</type>
+        <definition>QList&lt;ScoreElement*&gt; Ms::UpdateState::_deleteList</definition>
+        <argsstring></argsstring>
+        <name>_deleteList</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/score.h" line="318" column="13" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/score.h" bodystart="318" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/score.h" line="312" column="18" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/score.h" bodystart="312" bodyend="319"/>
+    <listofallmembers>
+      <member refid="class_ms_1_1_update_state_1aa240636bdb445c9a69997a6366558169" prot="public" virt="non-virtual"><scope>Ms::UpdateState</scope><name>_deleteList</name></member>
+      <member refid="class_ms_1_1_update_state_1a14fe94853872d3ef379ab0cdce84c040" prot="public" virt="non-virtual"><scope>Ms::UpdateState</scope><name>_playChord</name></member>
+      <member refid="class_ms_1_1_update_state_1a3cd53a0b52af34eb210ff8f9c618993f" prot="public" virt="non-virtual"><scope>Ms::UpdateState</scope><name>_playNote</name></member>
+      <member refid="class_ms_1_1_update_state_1aabd4d9889d263bdf7263df6b43b28794" prot="public" virt="non-virtual"><scope>Ms::UpdateState</scope><name>_selectionChanged</name></member>
+      <member refid="class_ms_1_1_update_state_1a5b275722049930f65fe701d667169b90" prot="public" virt="non-virtual"><scope>Ms::UpdateState</scope><name>refresh</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

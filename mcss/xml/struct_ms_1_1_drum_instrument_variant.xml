@@ -1,0 +1,73 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.17">
+  <compounddef id="struct_ms_1_1_drum_instrument_variant" kind="struct" language="C++" prot="public">
+    <compoundname>Ms::DrumInstrumentVariant</compoundname>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="struct_ms_1_1_drum_instrument_variant_1a35ae4c094a41072e831d36b28e54b03e" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int Ms::DrumInstrumentVariant::pitch</definition>
+        <argsstring></argsstring>
+        <name>pitch</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/drumset.h" line="26" column="11" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/drumset.h" bodystart="26" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_ms_1_1_drum_instrument_variant_1a39ef210ea57846203aa7b3327c205561" prot="public" static="no" mutable="no">
+        <type>QString</type>
+        <definition>QString Ms::DrumInstrumentVariant::articulationName</definition>
+        <argsstring></argsstring>
+        <name>articulationName</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/drumset.h" line="27" column="15" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/drumset.h" bodystart="27" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_ms_1_1_drum_instrument_variant_1ab8aacc3ee1777bcfcb4715d5ace17a4a" prot="public" static="no" mutable="no">
+        <type>TremoloType</type>
+        <definition>TremoloType Ms::DrumInstrumentVariant::tremolo</definition>
+        <argsstring></argsstring>
+        <name>tremolo</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/drumset.h" line="28" column="19" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/drumset.h" bodystart="28" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="struct_ms_1_1_drum_instrument_variant_1ad50b130b077feebd73e74fd8e588eb44" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>Ms::DrumInstrumentVariant::DrumInstrumentVariant</definition>
+        <argsstring>()</argsstring>
+        <name>DrumInstrumentVariant</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/drumset.h" line="29" column="7" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/drumset.h" bodystart="29" bodyend="33"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/drumset.h" line="25" column="28" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/drumset.h" bodystart="25" bodyend="34"/>
+    <listofallmembers>
+      <member refid="struct_ms_1_1_drum_instrument_variant_1a39ef210ea57846203aa7b3327c205561" prot="public" virt="non-virtual"><scope>Ms::DrumInstrumentVariant</scope><name>articulationName</name></member>
+      <member refid="struct_ms_1_1_drum_instrument_variant_1ad50b130b077feebd73e74fd8e588eb44" prot="public" virt="non-virtual"><scope>Ms::DrumInstrumentVariant</scope><name>DrumInstrumentVariant</name></member>
+      <member refid="struct_ms_1_1_drum_instrument_variant_1a35ae4c094a41072e831d36b28e54b03e" prot="public" virt="non-virtual"><scope>Ms::DrumInstrumentVariant</scope><name>pitch</name></member>
+      <member refid="struct_ms_1_1_drum_instrument_variant_1ab8aacc3ee1777bcfcb4715d5ace17a4a" prot="public" virt="non-virtual"><scope>Ms::DrumInstrumentVariant</scope><name>tremolo</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

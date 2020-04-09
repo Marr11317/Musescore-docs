@@ -1,0 +1,125 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.17">
+  <compounddef id="class_ms_1_1_add_excerpt" kind="class" language="C++" prot="public">
+    <compoundname>Ms::AddExcerpt</compoundname>
+    <basecompoundref refid="class_ms_1_1_undo_command" prot="public" virt="non-virtual">Ms::UndoCommand</basecompoundref>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_ms_1_1_add_excerpt_1a5f33aeeee532176e67b1c1ea95962e1f" prot="private" static="no" mutable="no">
+        <type><ref refid="class_ms_1_1_excerpt" kindref="compound">Excerpt</ref> *</type>
+        <definition>Excerpt* Ms::AddExcerpt::excerpt</definition>
+        <argsstring></argsstring>
+        <name>excerpt</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/undo.h" line="809" column="15" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/undo.h" bodystart="809" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_ms_1_1_add_excerpt_1a39d4f9f72aeb4b1ec40fca011d106119" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>Ms::AddExcerpt::AddExcerpt</definition>
+        <argsstring>(Excerpt *ex)</argsstring>
+        <name>AddExcerpt</name>
+        <param>
+          <type><ref refid="class_ms_1_1_excerpt" kindref="compound">Excerpt</ref> *</type>
+          <declname>ex</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/undo.h" line="812" column="7" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/undo.h" bodystart="812" bodyend="812"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ms_1_1_add_excerpt_1a7c7d3a057f5542d33872d9c54a9350b5" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void Ms::AddExcerpt::undo</definition>
+        <argsstring>(EditData *) override</argsstring>
+        <name>undo</name>
+        <reimplements refid="class_ms_1_1_undo_command_1a42a2038f903e77e6bb5881209b764186">undo</reimplements>
+        <param>
+          <type><ref refid="class_ms_1_1_edit_data" kindref="compound">EditData</ref> *</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/undo.h" line="813" column="20" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/undo.cpp" bodystart="1960" bodyend="1963"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ms_1_1_add_excerpt_1a837ba02525776afd0115e58f2c84c17b" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void Ms::AddExcerpt::redo</definition>
+        <argsstring>(EditData *) override</argsstring>
+        <name>redo</name>
+        <reimplements refid="class_ms_1_1_undo_command_1a7fccbb0cf027a5e3b43176a5e0213f75">redo</reimplements>
+        <param>
+          <type><ref refid="class_ms_1_1_edit_data" kindref="compound">EditData</ref> *</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/undo.h" line="814" column="20" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/undo.cpp" bodystart="1969" bodyend="1972"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>Ms::AddExcerpt</label>
+        <link refid="class_ms_1_1_add_excerpt"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>Ms::UndoCommand</label>
+        <link refid="class_ms_1_1_undo_command"/>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>Ms::AddExcerpt</label>
+        <link refid="class_ms_1_1_add_excerpt"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>Ms::UndoCommand</label>
+        <link refid="class_ms_1_1_undo_command"/>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/undo.h" line="808" column="36" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/undo.h" bodystart="808" bodyend="816"/>
+    <listofallmembers>
+      <member refid="class_ms_1_1_add_excerpt_1a39d4f9f72aeb4b1ec40fca011d106119" prot="public" virt="non-virtual"><scope>Ms::AddExcerpt</scope><name>AddExcerpt</name></member>
+      <member refid="class_ms_1_1_undo_command_1a0f5b568325d235501e5cc197b7a4d4c8" prot="public" virt="non-virtual"><scope>Ms::AddExcerpt</scope><name>appendChild</name></member>
+      <member refid="class_ms_1_1_undo_command_1adbc9ce586560a1ca06f83bb38d04c4f0" prot="protected" virt="non-virtual"><scope>Ms::AddExcerpt</scope><name>appendChildren</name></member>
+      <member refid="class_ms_1_1_undo_command_1a701d710e19f4d356f2b12d093729d295" prot="public" virt="non-virtual"><scope>Ms::AddExcerpt</scope><name>childCount</name></member>
+      <member refid="class_ms_1_1_undo_command_1a0bbdf4bc79885d76228b155599fb46ce" prot="public" virt="virtual"><scope>Ms::AddExcerpt</scope><name>cleanup</name></member>
+      <member refid="class_ms_1_1_undo_command_1a4cdbb50e02a38b3c0b259e8bb6b58bca" prot="public" virt="non-virtual"><scope>Ms::AddExcerpt</scope><name>commands</name></member>
+      <member refid="class_ms_1_1_add_excerpt_1a5f33aeeee532176e67b1c1ea95962e1f" prot="private" virt="non-virtual"><scope>Ms::AddExcerpt</scope><name>excerpt</name></member>
+      <member refid="class_ms_1_1_undo_command_1a7c3fae86b0c593d95eb2acf44348b425" prot="public" virt="non-virtual"><scope>Ms::AddExcerpt</scope><name>Filter</name></member>
+      <member refid="class_ms_1_1_undo_command_1a850e4c72c907bce1aed4b7d318ddf626" prot="public" virt="non-virtual"><scope>Ms::AddExcerpt</scope><name>filterChildren</name></member>
+      <member refid="class_ms_1_1_undo_command_1a861162fe6c105a00dfec5a5b70a690a5" prot="protected" virt="virtual"><scope>Ms::AddExcerpt</scope><name>flip</name></member>
+      <member refid="class_ms_1_1_undo_command_1a09b5c550fffd0dfe1e38490c7f0de8e4" prot="public" virt="non-virtual"><scope>Ms::AddExcerpt</scope><name>hasFilteredChildren</name></member>
+      <member refid="class_ms_1_1_undo_command_1a7131c9beb9c694ef3f0d8235f4e2892a" prot="public" virt="non-virtual"><scope>Ms::AddExcerpt</scope><name>hasUnfilteredChildren</name></member>
+      <member refid="class_ms_1_1_undo_command_1a7e84d54e5b22eeeb9646c8a86fc2a0cb" prot="public" virt="virtual"><scope>Ms::AddExcerpt</scope><name>isFiltered</name></member>
+      <member refid="class_ms_1_1_undo_command_1acdd15da86ef5878bc98ef2be084cc4be" prot="public" virt="virtual"><scope>Ms::AddExcerpt</scope><name>name</name></member>
+      <member refid="class_ms_1_1_add_excerpt_1a837ba02525776afd0115e58f2c84c17b" prot="public" virt="virtual"><scope>Ms::AddExcerpt</scope><name>redo</name></member>
+      <member refid="class_ms_1_1_undo_command_1ad645cbed278b04cea2164006b52c4d8f" prot="public" virt="non-virtual"><scope>Ms::AddExcerpt</scope><name>removeChild</name></member>
+      <member refid="class_ms_1_1_add_excerpt_1a7c7d3a057f5542d33872d9c54a9350b5" prot="public" virt="virtual"><scope>Ms::AddExcerpt</scope><name>undo</name></member>
+      <member refid="class_ms_1_1_undo_command_1abc893037b5a33408c25552b8579debe4" prot="public" virt="non-virtual"><scope>Ms::AddExcerpt</scope><name>unwind</name></member>
+      <member refid="class_ms_1_1_undo_command_1ad4aec6e8dbb0e92bd2b8be2ebd79b9df" prot="public" virt="virtual"><scope>Ms::AddExcerpt</scope><name>~UndoCommand</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

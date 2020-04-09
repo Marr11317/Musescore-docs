@@ -1,0 +1,43 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.17">
+  <compounddef id="struct_ms_1_1_channel_actions" kind="struct" language="C++" prot="public">
+    <compoundname>Ms::ChannelActions</compoundname>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="struct_ms_1_1_channel_actions_1a7a453d89c5e10c0285fc8712a4989d04" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int Ms::ChannelActions::channel</definition>
+        <argsstring></argsstring>
+        <name>channel</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/stafftextbase.h" line="27" column="11" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/stafftextbase.h" bodystart="27" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_ms_1_1_channel_actions_1ae4a444706e3dd034f82b0857aad7f20a" prot="public" static="no" mutable="no">
+        <type>QStringList</type>
+        <definition>QStringList Ms::ChannelActions::midiActionNames</definition>
+        <argsstring></argsstring>
+        <name>midiActionNames</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/stafftextbase.h" line="28" column="19" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/stafftextbase.h" bodystart="28" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/stafftextbase.h" line="26" column="21" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/stafftextbase.h" bodystart="26" bodyend="29"/>
+    <listofallmembers>
+      <member refid="struct_ms_1_1_channel_actions_1a7a453d89c5e10c0285fc8712a4989d04" prot="public" virt="non-virtual"><scope>Ms::ChannelActions</scope><name>channel</name></member>
+      <member refid="struct_ms_1_1_channel_actions_1ae4a444706e3dd034f82b0857aad7f20a" prot="public" virt="non-virtual"><scope>Ms::ChannelActions</scope><name>midiActionNames</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

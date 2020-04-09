@@ -1,0 +1,342 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.17">
+  <compounddef id="class_ms_1_1_connector_info_reader" kind="class" language="C++" prot="public" final="yes">
+    <compoundname>Ms::ConnectorInfoReader</compoundname>
+    <basecompoundref refid="class_ms_1_1_connector_info" prot="public" virt="non-virtual">Ms::ConnectorInfo</basecompoundref>
+    <includes refid="connector_8h" local="yes">connector.h</includes>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_ms_1_1_connector_info_reader_1ae9fec3d35c6f46cdf375bddcd8c6f7d8" prot="private" static="no" mutable="no">
+        <type><ref refid="class_ms_1_1_xml_reader" kindref="compound">XmlReader</ref> *</type>
+        <definition>XmlReader* Ms::ConnectorInfoReader::_reader</definition>
+        <argsstring></argsstring>
+        <name>_reader</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/connector.h" line="97" column="17" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/connector.h" bodystart="97" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_ms_1_1_connector_info_reader_1a0a4817d397d6d15c9c174f0c3e2d5840" prot="private" static="no" mutable="no">
+        <type><ref refid="class_ms_1_1_element" kindref="compound">Element</ref> *</type>
+        <definition>Element* Ms::ConnectorInfoReader::_connector</definition>
+        <argsstring></argsstring>
+        <name>_connector</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/connector.h" line="98" column="15" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/connector.h" bodystart="98" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_ms_1_1_connector_info_reader_1ae0d99dcb48461b796bbb1105c6646e98" prot="private" static="no" mutable="no">
+        <type><ref refid="class_ms_1_1_score_element" kindref="compound">ScoreElement</ref> *</type>
+        <definition>ScoreElement* Ms::ConnectorInfoReader::_connectorReceiver</definition>
+        <argsstring></argsstring>
+        <name>_connectorReceiver</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/connector.h" line="99" column="20" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/connector.h" bodystart="99" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_ms_1_1_connector_info_reader_1a83ba1e8217443beddb845791cbef2271" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Ms::ConnectorInfoReader::readEndpointLocation</definition>
+        <argsstring>(Location &amp;l)</argsstring>
+        <name>readEndpointLocation</name>
+        <param>
+          <type><ref refid="class_ms_1_1_location" kindref="compound">Location</ref> &amp;</type>
+          <declname>l</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/connector.h" line="101" column="12" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/connector.cpp" bodystart="385" bodyend="398"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_ms_1_1_connector_info_reader_1ae09a6123d1fad8762c7db05222ee7604" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>Ms::ConnectorInfoReader::ConnectorInfoReader</definition>
+        <argsstring>(XmlReader &amp;e, Element *current, int track=-1)</argsstring>
+        <name>ConnectorInfoReader</name>
+        <param>
+          <type><ref refid="class_ms_1_1_xml_reader" kindref="compound">XmlReader</ref> &amp;</type>
+          <declname>e</declname>
+        </param>
+        <param>
+          <type><ref refid="class_ms_1_1_element" kindref="compound">Element</ref> *</type>
+          <declname>current</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>track</declname>
+          <defval>-1</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/connector.h" line="104" column="7" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/connector.cpp" bodystart="279" bodyend="281"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ms_1_1_connector_info_reader_1a9479d800c4568b151049f08178d78ed5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>Ms::ConnectorInfoReader::ConnectorInfoReader</definition>
+        <argsstring>(XmlReader &amp;e, Score *current, int track=-1)</argsstring>
+        <name>ConnectorInfoReader</name>
+        <param>
+          <type><ref refid="class_ms_1_1_xml_reader" kindref="compound">XmlReader</ref> &amp;</type>
+          <declname>e</declname>
+        </param>
+        <param>
+          <type><ref refid="class_ms_1_1_score" kindref="compound">Score</ref> *</type>
+          <declname>current</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>track</declname>
+          <defval>-1</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/connector.h" line="105" column="7" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/connector.cpp" bodystart="297" bodyend="301"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ms_1_1_connector_info_reader_1a761220a3efa9070f08e9cde162e03edb" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="class_ms_1_1_connector_info_reader" kindref="compound">ConnectorInfoReader</ref> *</type>
+        <definition>ConnectorInfoReader* Ms::ConnectorInfoReader::prev</definition>
+        <argsstring>() const</argsstring>
+        <name>prev</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/connector.h" line="107" column="27" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/connector.h" bodystart="107" bodyend="107"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ms_1_1_connector_info_reader_1a6cd5c30166551eb65f1f1e51a31ecda2" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="class_ms_1_1_connector_info_reader" kindref="compound">ConnectorInfoReader</ref> *</type>
+        <definition>ConnectorInfoReader* Ms::ConnectorInfoReader::next</definition>
+        <argsstring>() const</argsstring>
+        <name>next</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/connector.h" line="108" column="27" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/connector.h" bodystart="108" bodyend="108"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ms_1_1_connector_info_reader_1a7963a48775330c0f5e33093fada7a9c4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="class_ms_1_1_element" kindref="compound">Element</ref> *</type>
+        <definition>const Element * Ms::ConnectorInfoReader::connector</definition>
+        <argsstring>()</argsstring>
+        <name>connector</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/connector.h" line="110" column="15" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/connector.cpp" bodystart="446" bodyend="453"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ms_1_1_connector_info_reader_1a7cc38336c4896ca255e58b869c502759" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>const <ref refid="class_ms_1_1_element" kindref="compound">Element</ref> *</type>
+        <definition>const Element* Ms::ConnectorInfoReader::connector</definition>
+        <argsstring>() const</argsstring>
+        <name>connector</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/connector.h" line="111" column="21"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ms_1_1_connector_info_reader_1a2ad111d4747e36605584df4f909e6b7d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="class_ms_1_1_element" kindref="compound">Element</ref> *</type>
+        <definition>Element * Ms::ConnectorInfoReader::releaseConnector</definition>
+        <argsstring>()</argsstring>
+        <name>releaseConnector</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/connector.h" line="112" column="15" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/connector.cpp" bodystart="468" bodyend="489"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ms_1_1_connector_info_reader_1a9ebaa7f9deb8d0f7490b37bcd9b15b66" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool Ms::ConnectorInfoReader::read</definition>
+        <argsstring>()</argsstring>
+        <name>read</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/connector.h" line="115" column="12" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/connector.cpp" bodystart="349" bodyend="379"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ms_1_1_connector_info_reader_1a50c19a292225c6167a38c7a864f2106d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Ms::ConnectorInfoReader::update</definition>
+        <argsstring>()</argsstring>
+        <name>update</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/connector.h" line="116" column="12" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/connector.cpp" bodystart="404" bodyend="412"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ms_1_1_connector_info_reader_1ad01cac05308cb50aa6be6fe46006494c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Ms::ConnectorInfoReader::addToScore</definition>
+        <argsstring>(bool pasteMode)</argsstring>
+        <name>addToScore</name>
+        <param>
+          <type>bool</type>
+          <declname>pasteMode</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/connector.h" line="117" column="12" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/connector.cpp" bodystart="418" bodyend="427"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="class_ms_1_1_connector_info_reader_1af0eda39d0149e43153ba14643682611a" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Ms::ConnectorInfoReader::readConnector</definition>
+        <argsstring>(std::unique_ptr&lt; ConnectorInfoReader &gt; info, XmlReader &amp;e)</argsstring>
+        <name>readConnector</name>
+        <param>
+          <type>std::unique_ptr&lt; <ref refid="class_ms_1_1_connector_info_reader" kindref="compound">ConnectorInfoReader</ref> &gt;</type>
+          <declname>info</declname>
+        </param>
+        <param>
+          <type><ref refid="class_ms_1_1_xml_reader" kindref="compound">XmlReader</ref> &amp;</type>
+          <declname>e</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/connector.h" line="119" column="19" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/connector.cpp" bodystart="433" bodyend="440"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Helper class for reading beams, tuplets and spanners. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>Ms::ConnectorInfoReader</label>
+        <link refid="class_ms_1_1_connector_info_reader"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>Ms::ConnectorInfo</label>
+        <link refid="class_ms_1_1_connector_info"/>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>Ms::ConnectorInfoReader</label>
+        <link refid="class_ms_1_1_connector_info_reader"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>Ms::ConnectorInfo</label>
+        <link refid="class_ms_1_1_connector_info"/>
+        <childnode refid="3" relation="usage">
+          <edgelabel>_nextLoc</edgelabel>
+          <edgelabel>_prevLoc</edgelabel>
+          <edgelabel>_currentLoc</edgelabel>
+        </childnode>
+        <childnode refid="2" relation="usage">
+          <edgelabel>_prev</edgelabel>
+          <edgelabel>_next</edgelabel>
+        </childnode>
+      </node>
+      <node id="3">
+        <label>Ms::Location</label>
+        <link refid="class_ms_1_1_location"/>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/connector.h" line="96" column="47" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/connector.h" bodystart="96" bodyend="120"/>
+    <listofallmembers>
+      <member refid="class_ms_1_1_connector_info_reader_1a0a4817d397d6d15c9c174f0c3e2d5840" prot="private" virt="non-virtual"><scope>Ms::ConnectorInfoReader</scope><name>_connector</name></member>
+      <member refid="class_ms_1_1_connector_info_reader_1ae0d99dcb48461b796bbb1105c6646e98" prot="private" virt="non-virtual"><scope>Ms::ConnectorInfoReader</scope><name>_connectorReceiver</name></member>
+      <member refid="class_ms_1_1_connector_info_1aab0597f472df593d388b70456100e5fd" prot="protected" virt="non-virtual"><scope>Ms::ConnectorInfoReader</scope><name>_currentLoc</name></member>
+      <member refid="class_ms_1_1_connector_info_1a2905228a8a36636c8ef06c7e5fc985a8" prot="protected" virt="non-virtual"><scope>Ms::ConnectorInfoReader</scope><name>_next</name></member>
+      <member refid="class_ms_1_1_connector_info_1a69f5760d0f557c56484f40c0ad3c49a1" prot="protected" virt="non-virtual"><scope>Ms::ConnectorInfoReader</scope><name>_nextLoc</name></member>
+      <member refid="class_ms_1_1_connector_info_1aff17bc100920b8616729358f5bb02379" prot="protected" virt="non-virtual"><scope>Ms::ConnectorInfoReader</scope><name>_prev</name></member>
+      <member refid="class_ms_1_1_connector_info_1a2c99a173d1a0fbc43c687ad726dbbf25" prot="protected" virt="non-virtual"><scope>Ms::ConnectorInfoReader</scope><name>_prevLoc</name></member>
+      <member refid="class_ms_1_1_connector_info_reader_1ae9fec3d35c6f46cdf375bddcd8c6f7d8" prot="private" virt="non-virtual"><scope>Ms::ConnectorInfoReader</scope><name>_reader</name></member>
+      <member refid="class_ms_1_1_connector_info_1a8717926a1bd0470587949a1e8c3702d3" prot="protected" virt="non-virtual"><scope>Ms::ConnectorInfoReader</scope><name>_type</name></member>
+      <member refid="class_ms_1_1_connector_info_reader_1ad01cac05308cb50aa6be6fe46006494c" prot="public" virt="non-virtual"><scope>Ms::ConnectorInfoReader</scope><name>addToScore</name></member>
+      <member refid="class_ms_1_1_connector_info_1a0dd2078b5a9d747815e61be20b8d11ff" prot="public" virt="non-virtual"><scope>Ms::ConnectorInfoReader</scope><name>connect</name></member>
+      <member refid="class_ms_1_1_connector_info_1a6b43bdec59e0fe7369a25e256a750d10" prot="public" virt="non-virtual"><scope>Ms::ConnectorInfoReader</scope><name>connectionDistance</name></member>
+      <member refid="class_ms_1_1_connector_info_reader_1a7963a48775330c0f5e33093fada7a9c4" prot="public" virt="non-virtual"><scope>Ms::ConnectorInfoReader</scope><name>connector</name></member>
+      <member refid="class_ms_1_1_connector_info_reader_1a7cc38336c4896ca255e58b869c502759" prot="public" virt="non-virtual"><scope>Ms::ConnectorInfoReader</scope><name>connector</name></member>
+      <member refid="class_ms_1_1_connector_info_1ac6c91f9fa35643efcd7cd7170a78e57a" prot="public" virt="non-virtual"><scope>Ms::ConnectorInfoReader</scope><name>ConnectorInfo</name></member>
+      <member refid="class_ms_1_1_connector_info_1a2b896505b084deb704711c6d76b7578f" prot="public" virt="non-virtual"><scope>Ms::ConnectorInfoReader</scope><name>ConnectorInfo</name></member>
+      <member refid="class_ms_1_1_connector_info_reader_1ae09a6123d1fad8762c7db05222ee7604" prot="public" virt="non-virtual"><scope>Ms::ConnectorInfoReader</scope><name>ConnectorInfoReader</name></member>
+      <member refid="class_ms_1_1_connector_info_reader_1a9479d800c4568b151049f08178d78ed5" prot="public" virt="non-virtual"><scope>Ms::ConnectorInfoReader</scope><name>ConnectorInfoReader</name></member>
+      <member refid="class_ms_1_1_connector_info_1aff4f0bcb93449d8b63c2a91ace0d32d7" prot="protected" virt="non-virtual"><scope>Ms::ConnectorInfoReader</scope><name>currentUpdated</name></member>
+      <member refid="class_ms_1_1_connector_info_1a0e2bedcf1060635cf0d8e4ea6a82666d" prot="public" virt="non-virtual"><scope>Ms::ConnectorInfoReader</scope><name>end</name></member>
+      <member refid="class_ms_1_1_connector_info_1a3c4db4898aec66fda08e298016d4c6c3" prot="protected" virt="non-virtual"><scope>Ms::ConnectorInfoReader</scope><name>findFirst</name></member>
+      <member refid="class_ms_1_1_connector_info_1a67a5edb108a229da29c242de7249454f" prot="protected" virt="non-virtual"><scope>Ms::ConnectorInfoReader</scope><name>findFirst</name></member>
+      <member refid="class_ms_1_1_connector_info_1a89f26c9ed03fae0d53b94c1a3e3978f8" prot="protected" virt="non-virtual"><scope>Ms::ConnectorInfoReader</scope><name>findLast</name></member>
+      <member refid="class_ms_1_1_connector_info_1a4e54867fd7ddaebfec9e34db2bc41f56" prot="protected" virt="non-virtual"><scope>Ms::ConnectorInfoReader</scope><name>findLast</name></member>
+      <member refid="class_ms_1_1_connector_info_1aa17145f5aab3720d88b425c3ac294d2f" prot="public" virt="non-virtual"><scope>Ms::ConnectorInfoReader</scope><name>finished</name></member>
+      <member refid="class_ms_1_1_connector_info_1ab09c14f574ef27a9479a1ebd35fa442d" prot="public" virt="non-virtual"><scope>Ms::ConnectorInfoReader</scope><name>forceConnect</name></member>
+      <member refid="class_ms_1_1_connector_info_1ab037fea7df8a6be9a88118bd2f266317" prot="public" virt="non-virtual"><scope>Ms::ConnectorInfoReader</scope><name>hasNext</name></member>
+      <member refid="class_ms_1_1_connector_info_1a6b5333899fed93f5f2f2920f6fb5ca51" prot="public" virt="non-virtual"><scope>Ms::ConnectorInfoReader</scope><name>hasPrevious</name></member>
+      <member refid="class_ms_1_1_connector_info_1a07346ecc733f815b2e8600224f349321" prot="public" virt="non-virtual"><scope>Ms::ConnectorInfoReader</scope><name>isEnd</name></member>
+      <member refid="class_ms_1_1_connector_info_1a02e65534b7808b08fdc044c38ccf6b25" prot="public" virt="non-virtual"><scope>Ms::ConnectorInfoReader</scope><name>isMiddle</name></member>
+      <member refid="class_ms_1_1_connector_info_1a354ac221a0e69bfc19dae36d20b66085" prot="public" virt="non-virtual"><scope>Ms::ConnectorInfoReader</scope><name>isStart</name></member>
+      <member refid="class_ms_1_1_connector_info_1ab5d7ba02564de631e482aea5a3174a46" prot="public" virt="non-virtual"><scope>Ms::ConnectorInfoReader</scope><name>location</name></member>
+      <member refid="class_ms_1_1_connector_info_reader_1a6cd5c30166551eb65f1f1e51a31ecda2" prot="public" virt="non-virtual"><scope>Ms::ConnectorInfoReader</scope><name>next</name></member>
+      <member refid="class_ms_1_1_connector_info_reader_1a761220a3efa9070f08e9cde162e03edb" prot="public" virt="non-virtual"><scope>Ms::ConnectorInfoReader</scope><name>prev</name></member>
+      <member refid="class_ms_1_1_connector_info_reader_1a9ebaa7f9deb8d0f7490b37bcd9b15b66" prot="public" virt="non-virtual"><scope>Ms::ConnectorInfoReader</scope><name>read</name></member>
+      <member refid="class_ms_1_1_connector_info_reader_1af0eda39d0149e43153ba14643682611a" prot="public" virt="non-virtual"><scope>Ms::ConnectorInfoReader</scope><name>readConnector</name></member>
+      <member refid="class_ms_1_1_connector_info_reader_1a83ba1e8217443beddb845791cbef2271" prot="private" virt="non-virtual"><scope>Ms::ConnectorInfoReader</scope><name>readEndpointLocation</name></member>
+      <member refid="class_ms_1_1_connector_info_reader_1a2ad111d4747e36605584df4f909e6b7d" prot="public" virt="non-virtual"><scope>Ms::ConnectorInfoReader</scope><name>releaseConnector</name></member>
+      <member refid="class_ms_1_1_connector_info_1aaf7cd6cfbab92d7e6405b0d756085736" prot="protected" virt="non-virtual"><scope>Ms::ConnectorInfoReader</scope><name>setCurrentUpdated</name></member>
+      <member refid="class_ms_1_1_connector_info_1aa2abe336c58a7047257636dca2091707" prot="public" virt="non-virtual"><scope>Ms::ConnectorInfoReader</scope><name>start</name></member>
+      <member refid="class_ms_1_1_connector_info_1a5aab8aa8e6f79162a1db656b559f065c" prot="public" virt="non-virtual"><scope>Ms::ConnectorInfoReader</scope><name>type</name></member>
+      <member refid="class_ms_1_1_connector_info_reader_1a50c19a292225c6167a38c7a864f2106d" prot="public" virt="non-virtual"><scope>Ms::ConnectorInfoReader</scope><name>update</name></member>
+      <member refid="class_ms_1_1_connector_info_1a1ae6f85c3f76423708eec4e8b31b6e91" prot="protected" virt="non-virtual"><scope>Ms::ConnectorInfoReader</scope><name>updateCurrentInfo</name></member>
+      <member refid="class_ms_1_1_connector_info_1adf1d4b87bf54e320867dd91c5d682c8f" prot="protected" virt="non-virtual"><scope>Ms::ConnectorInfoReader</scope><name>updateLocation</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,43 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.17">
+  <compounddef id="struct_ms_1_1_dynamic_1_1_change_speed_item" kind="struct" language="C++" prot="public">
+    <compoundname>Ms::Dynamic::ChangeSpeedItem</compoundname>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="struct_ms_1_1_dynamic_1_1_change_speed_item_1a62d9f42bda6e1f2737246ceaf504a063" prot="public" static="no" mutable="no">
+        <type>Speed</type>
+        <definition>Speed Ms::Dynamic::ChangeSpeedItem::speed</definition>
+        <argsstring></argsstring>
+        <name>speed</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/dynamic.h" line="75" column="19" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/dynamic.h" bodystart="75" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_ms_1_1_dynamic_1_1_change_speed_item_1a213fab494c0194fd57c6568427e9c333" prot="public" static="no" mutable="no">
+        <type>const char *</type>
+        <definition>const char* Ms::Dynamic::ChangeSpeedItem::name</definition>
+        <argsstring></argsstring>
+        <name>name</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/dynamic.h" line="76" column="24" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/dynamic.h" bodystart="76" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/dynamic.h" line="74" column="28" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/dynamic.h" bodystart="74" bodyend="77"/>
+    <listofallmembers>
+      <member refid="struct_ms_1_1_dynamic_1_1_change_speed_item_1a213fab494c0194fd57c6568427e9c333" prot="public" virt="non-virtual"><scope>Ms::Dynamic::ChangeSpeedItem</scope><name>name</name></member>
+      <member refid="struct_ms_1_1_dynamic_1_1_change_speed_item_1a62d9f42bda6e1f2737246ceaf504a063" prot="public" virt="non-virtual"><scope>Ms::Dynamic::ChangeSpeedItem</scope><name>speed</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

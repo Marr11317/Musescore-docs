@@ -1,0 +1,279 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.17">
+  <compounddef id="class_ms_1_1_undo_macro" kind="class" language="C++" prot="public">
+    <compoundname>Ms::UndoMacro</compoundname>
+    <basecompoundref refid="class_ms_1_1_undo_command" prot="public" virt="non-virtual">Ms::UndoCommand</basecompoundref>
+    <innerclass refid="struct_ms_1_1_undo_macro_1_1_selection_info" prot="private">Ms::UndoMacro::SelectionInfo</innerclass>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_ms_1_1_undo_macro_1af73165790987b12530b95465026e5dbf" prot="private" static="no" mutable="no">
+        <type><ref refid="class_ms_1_1_input_state" kindref="compound">InputState</ref></type>
+        <definition>InputState Ms::UndoMacro::undoInputState</definition>
+        <argsstring></argsstring>
+        <name>undoInputState</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/undo.h" line="150" column="18" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/undo.h" bodystart="150" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_ms_1_1_undo_macro_1ab51538cd2a9348bf5528602d099522d4" prot="private" static="no" mutable="no">
+        <type><ref refid="class_ms_1_1_input_state" kindref="compound">InputState</ref></type>
+        <definition>InputState Ms::UndoMacro::redoInputState</definition>
+        <argsstring></argsstring>
+        <name>redoInputState</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/undo.h" line="151" column="18" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/undo.h" bodystart="151" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_ms_1_1_undo_macro_1adcee742b469628e08ce8bb978dea8253" prot="private" static="no" mutable="no">
+        <type>SelectionInfo</type>
+        <definition>SelectionInfo Ms::UndoMacro::undoSelectionInfo</definition>
+        <argsstring></argsstring>
+        <name>undoSelectionInfo</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/undo.h" line="152" column="21" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/undo.h" bodystart="152" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_ms_1_1_undo_macro_1a87dd44253f998a87302d67ea1a9502ae" prot="private" static="no" mutable="no">
+        <type>SelectionInfo</type>
+        <definition>SelectionInfo Ms::UndoMacro::redoSelectionInfo</definition>
+        <argsstring></argsstring>
+        <name>redoSelectionInfo</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/undo.h" line="153" column="21" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/undo.h" bodystart="153" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_ms_1_1_undo_macro_1ad4998a27bc6020474df34b79a567d44a" prot="private" static="no" mutable="no">
+        <type><ref refid="class_ms_1_1_score" kindref="compound">Score</ref> *</type>
+        <definition>Score* Ms::UndoMacro::score</definition>
+        <argsstring></argsstring>
+        <name>score</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/undo.h" line="155" column="13" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/undo.h" bodystart="155" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-static-func">
+      <memberdef kind="function" id="class_ms_1_1_undo_macro_1a4e544882dded47ad9419efc7e0b334bd" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Ms::UndoMacro::fillSelectionInfo</definition>
+        <argsstring>(SelectionInfo &amp;, const Selection &amp;)</argsstring>
+        <name>fillSelectionInfo</name>
+        <param>
+          <type>SelectionInfo &amp;</type>
+          <defname>info</defname>
+        </param>
+        <param>
+          <type>const <ref refid="class_ms_1_1_selection" kindref="compound">Selection</ref> &amp;</type>
+          <defname>sel</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/undo.h" line="157" column="19" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/undo.cpp" bodystart="485" bodyend="507"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ms_1_1_undo_macro_1a49c46acba01879286e5d86a682653803" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Ms::UndoMacro::applySelectionInfo</definition>
+        <argsstring>(const SelectionInfo &amp;, Selection &amp;)</argsstring>
+        <name>applySelectionInfo</name>
+        <param>
+          <type>const SelectionInfo &amp;</type>
+          <defname>info</defname>
+        </param>
+        <param>
+          <type><ref refid="class_ms_1_1_selection" kindref="compound">Selection</ref> &amp;</type>
+          <defname>sel</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/undo.h" line="158" column="19" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/undo.cpp" bodystart="509" bodyend="518"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_ms_1_1_undo_macro_1ad9ca7b5a0056f92f44d11f78a2a23d3c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>Ms::UndoMacro::UndoMacro</definition>
+        <argsstring>(Score *s)</argsstring>
+        <name>UndoMacro</name>
+        <param>
+          <type><ref refid="class_ms_1_1_score" kindref="compound">Score</ref> *</type>
+          <declname>s</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/undo.h" line="161" column="7" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/undo.cpp" bodystart="520" bodyend="524"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ms_1_1_undo_macro_1ad380e22ca3b3db66151d94acb1fd2bcb" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void Ms::UndoMacro::undo</definition>
+        <argsstring>(EditData *) override</argsstring>
+        <name>undo</name>
+        <reimplements refid="class_ms_1_1_undo_command_1a42a2038f903e77e6bb5881209b764186">undo</reimplements>
+        <param>
+          <type><ref refid="class_ms_1_1_edit_data" kindref="compound">EditData</ref> *</type>
+          <defname>ed</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/undo.h" line="162" column="20" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/undo.cpp" bodystart="526" bodyend="540"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ms_1_1_undo_macro_1a59928192d10105c43042f8150f4a07cb" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void Ms::UndoMacro::redo</definition>
+        <argsstring>(EditData *) override</argsstring>
+        <name>redo</name>
+        <reimplements refid="class_ms_1_1_undo_command_1a7fccbb0cf027a5e3b43176a5e0213f75">redo</reimplements>
+        <param>
+          <type><ref refid="class_ms_1_1_edit_data" kindref="compound">EditData</ref> *</type>
+          <defname>ed</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/undo.h" line="163" column="20" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/undo.cpp" bodystart="542" bodyend="556"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ms_1_1_undo_macro_1a7ca3e26a09b6700786ffaa1502536147" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool Ms::UndoMacro::empty</definition>
+        <argsstring>() const</argsstring>
+        <name>empty</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/undo.h" line="164" column="12" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/undo.h" bodystart="164" bodyend="164"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ms_1_1_undo_macro_1a5a20087b7049f4d0439deeeb2900a1b0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Ms::UndoMacro::append</definition>
+        <argsstring>(UndoMacro &amp;&amp;other)</argsstring>
+        <name>append</name>
+        <param>
+          <type><ref refid="class_ms_1_1_undo_macro" kindref="compound">UndoMacro</ref> &amp;&amp;</type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/undo.h" line="165" column="12" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/undo.cpp" bodystart="558" bodyend="565"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ms_1_1_undo_macro_1ac4b45459fc312b8d736535db98449a09" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>Ms::UndoMacro::UNDO_NAME</definition>
+        <argsstring>(&quot;UndoMacro&quot;)</argsstring>
+        <name>UNDO_NAME</name>
+        <param>
+          <type>&quot;UndoMacro&quot;</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/undo.h" line="167" column="7"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>Ms::UndoMacro</label>
+        <link refid="class_ms_1_1_undo_macro"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>Ms::UndoCommand</label>
+        <link refid="class_ms_1_1_undo_command"/>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>Ms::UndoMacro</label>
+        <link refid="class_ms_1_1_undo_macro"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>Ms::UndoCommand</label>
+        <link refid="class_ms_1_1_undo_command"/>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/undo.h" line="139" column="35" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/undo.h" bodystart="139" bodyend="168"/>
+    <listofallmembers>
+      <member refid="class_ms_1_1_undo_macro_1a5a20087b7049f4d0439deeeb2900a1b0" prot="public" virt="non-virtual"><scope>Ms::UndoMacro</scope><name>append</name></member>
+      <member refid="class_ms_1_1_undo_command_1a0f5b568325d235501e5cc197b7a4d4c8" prot="public" virt="non-virtual"><scope>Ms::UndoMacro</scope><name>appendChild</name></member>
+      <member refid="class_ms_1_1_undo_command_1adbc9ce586560a1ca06f83bb38d04c4f0" prot="protected" virt="non-virtual"><scope>Ms::UndoMacro</scope><name>appendChildren</name></member>
+      <member refid="class_ms_1_1_undo_macro_1a49c46acba01879286e5d86a682653803" prot="private" virt="non-virtual"><scope>Ms::UndoMacro</scope><name>applySelectionInfo</name></member>
+      <member refid="class_ms_1_1_undo_command_1a701d710e19f4d356f2b12d093729d295" prot="public" virt="non-virtual"><scope>Ms::UndoMacro</scope><name>childCount</name></member>
+      <member refid="class_ms_1_1_undo_command_1a0bbdf4bc79885d76228b155599fb46ce" prot="public" virt="virtual"><scope>Ms::UndoMacro</scope><name>cleanup</name></member>
+      <member refid="class_ms_1_1_undo_command_1a4cdbb50e02a38b3c0b259e8bb6b58bca" prot="public" virt="non-virtual"><scope>Ms::UndoMacro</scope><name>commands</name></member>
+      <member refid="class_ms_1_1_undo_macro_1a7ca3e26a09b6700786ffaa1502536147" prot="public" virt="non-virtual"><scope>Ms::UndoMacro</scope><name>empty</name></member>
+      <member refid="class_ms_1_1_undo_macro_1a4e544882dded47ad9419efc7e0b334bd" prot="private" virt="non-virtual"><scope>Ms::UndoMacro</scope><name>fillSelectionInfo</name></member>
+      <member refid="class_ms_1_1_undo_command_1a7c3fae86b0c593d95eb2acf44348b425" prot="public" virt="non-virtual"><scope>Ms::UndoMacro</scope><name>Filter</name></member>
+      <member refid="class_ms_1_1_undo_command_1a850e4c72c907bce1aed4b7d318ddf626" prot="public" virt="non-virtual"><scope>Ms::UndoMacro</scope><name>filterChildren</name></member>
+      <member refid="class_ms_1_1_undo_command_1a861162fe6c105a00dfec5a5b70a690a5" prot="protected" virt="virtual"><scope>Ms::UndoMacro</scope><name>flip</name></member>
+      <member refid="class_ms_1_1_undo_command_1a09b5c550fffd0dfe1e38490c7f0de8e4" prot="public" virt="non-virtual"><scope>Ms::UndoMacro</scope><name>hasFilteredChildren</name></member>
+      <member refid="class_ms_1_1_undo_command_1a7131c9beb9c694ef3f0d8235f4e2892a" prot="public" virt="non-virtual"><scope>Ms::UndoMacro</scope><name>hasUnfilteredChildren</name></member>
+      <member refid="class_ms_1_1_undo_command_1a7e84d54e5b22eeeb9646c8a86fc2a0cb" prot="public" virt="virtual"><scope>Ms::UndoMacro</scope><name>isFiltered</name></member>
+      <member refid="class_ms_1_1_undo_command_1acdd15da86ef5878bc98ef2be084cc4be" prot="public" virt="virtual"><scope>Ms::UndoMacro</scope><name>name</name></member>
+      <member refid="class_ms_1_1_undo_macro_1a59928192d10105c43042f8150f4a07cb" prot="public" virt="virtual"><scope>Ms::UndoMacro</scope><name>redo</name></member>
+      <member refid="class_ms_1_1_undo_macro_1ab51538cd2a9348bf5528602d099522d4" prot="private" virt="non-virtual"><scope>Ms::UndoMacro</scope><name>redoInputState</name></member>
+      <member refid="class_ms_1_1_undo_macro_1a87dd44253f998a87302d67ea1a9502ae" prot="private" virt="non-virtual"><scope>Ms::UndoMacro</scope><name>redoSelectionInfo</name></member>
+      <member refid="class_ms_1_1_undo_command_1ad645cbed278b04cea2164006b52c4d8f" prot="public" virt="non-virtual"><scope>Ms::UndoMacro</scope><name>removeChild</name></member>
+      <member refid="class_ms_1_1_undo_macro_1ad4998a27bc6020474df34b79a567d44a" prot="private" virt="non-virtual"><scope>Ms::UndoMacro</scope><name>score</name></member>
+      <member refid="class_ms_1_1_undo_macro_1ad380e22ca3b3db66151d94acb1fd2bcb" prot="public" virt="virtual"><scope>Ms::UndoMacro</scope><name>undo</name></member>
+      <member refid="class_ms_1_1_undo_macro_1ac4b45459fc312b8d736535db98449a09" prot="public" virt="non-virtual"><scope>Ms::UndoMacro</scope><name>UNDO_NAME</name></member>
+      <member refid="class_ms_1_1_undo_macro_1af73165790987b12530b95465026e5dbf" prot="private" virt="non-virtual"><scope>Ms::UndoMacro</scope><name>undoInputState</name></member>
+      <member refid="class_ms_1_1_undo_macro_1ad9ca7b5a0056f92f44d11f78a2a23d3c" prot="public" virt="non-virtual"><scope>Ms::UndoMacro</scope><name>UndoMacro</name></member>
+      <member refid="class_ms_1_1_undo_macro_1adcee742b469628e08ce8bb978dea8253" prot="private" virt="non-virtual"><scope>Ms::UndoMacro</scope><name>undoSelectionInfo</name></member>
+      <member refid="class_ms_1_1_undo_command_1abc893037b5a33408c25552b8579debe4" prot="public" virt="non-virtual"><scope>Ms::UndoMacro</scope><name>unwind</name></member>
+      <member refid="class_ms_1_1_undo_command_1ad4aec6e8dbb0e92bd2b8be2ebd79b9df" prot="public" virt="virtual"><scope>Ms::UndoMacro</scope><name>~UndoCommand</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

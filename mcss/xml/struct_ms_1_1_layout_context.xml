@@ -1,0 +1,534 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.17">
+  <compounddef id="struct_ms_1_1_layout_context" kind="struct" language="C++" prot="public">
+    <compoundname>Ms::LayoutContext</compoundname>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="struct_ms_1_1_layout_context_1ae22472cdd1ee2864eb9e971e7950ae16" prot="public" static="no" mutable="no">
+        <type><ref refid="class_ms_1_1_score" kindref="compound">Score</ref> *</type>
+        <definition>Score* Ms::LayoutContext::score</definition>
+        <argsstring></argsstring>
+        <name>score</name>
+        <initializer>{ 0    }</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/layout.h" line="27" column="13" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/layout.h" bodystart="27" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_ms_1_1_layout_context_1a1f36066aac6e0601246d56816129b7e7" prot="public" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool Ms::LayoutContext::startWithLongNames</definition>
+        <argsstring></argsstring>
+        <name>startWithLongNames</name>
+        <initializer>{ true }</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/layout.h" line="28" column="12" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/layout.h" bodystart="28" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_ms_1_1_layout_context_1ad3e47f24d3c77f2bfd4e8e03f85d6124" prot="public" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool Ms::LayoutContext::firstSystem</definition>
+        <argsstring></argsstring>
+        <name>firstSystem</name>
+        <initializer>{ true }</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/layout.h" line="29" column="12" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/layout.h" bodystart="29" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_ms_1_1_layout_context_1a23a16ac12220dcac28a0d4fbf0f03e8b" prot="public" static="no" mutable="no">
+        <type><ref refid="class_ms_1_1_page" kindref="compound">Page</ref> *</type>
+        <definition>Page* Ms::LayoutContext::page</definition>
+        <argsstring></argsstring>
+        <name>page</name>
+        <initializer>{ 0 }</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/layout.h" line="30" column="12" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/layout.h" bodystart="30" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_ms_1_1_layout_context_1a2beb5c0e7b78ee4366089341237b7b61" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int Ms::LayoutContext::curPage</definition>
+        <argsstring></argsstring>
+        <name>curPage</name>
+        <initializer>{ 0 }</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/layout.h" line="31" column="11" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/layout.h" bodystart="31" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_ms_1_1_layout_context_1a49debb6c28108156c84c4615d9371180" prot="public" static="no" mutable="no">
+        <type><ref refid="class_ms_1_1_fraction" kindref="compound">Fraction</ref></type>
+        <definition>Fraction Ms::LayoutContext::tick</definition>
+        <argsstring></argsstring>
+        <name>tick</name>
+        <initializer>{ 0, 1 }</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/layout.h" line="32" column="16" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/layout.h" bodystart="32" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_ms_1_1_layout_context_1add8b93fda5fa1fedd7e5e29759ce6d97" prot="public" static="no" mutable="no">
+        <type>QList&lt; <ref refid="class_ms_1_1_system" kindref="compound">System</ref> * &gt;</type>
+        <definition>QList&lt;System*&gt; Ms::LayoutContext::systemList</definition>
+        <argsstring></argsstring>
+        <name>systemList</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/layout.h" line="34" column="13" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/layout.h" bodystart="34" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_ms_1_1_layout_context_1acd8aacbbce632709b24bc9554ffe976a" prot="public" static="no" mutable="no">
+        <type>std::set&lt; <ref refid="class_ms_1_1_spanner" kindref="compound">Spanner</ref> * &gt;</type>
+        <definition>std::set&lt;Spanner*&gt; Ms::LayoutContext::processedSpanners</definition>
+        <argsstring></argsstring>
+        <name>processedSpanners</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/layout.h" line="35" column="16" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/layout.h" bodystart="35" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_ms_1_1_layout_context_1a6493e4dc566c62adf43b5fd586436591" prot="public" static="no" mutable="no">
+        <type><ref refid="class_ms_1_1_system" kindref="compound">System</ref> *</type>
+        <definition>System* Ms::LayoutContext::prevSystem</definition>
+        <argsstring></argsstring>
+        <name>prevSystem</name>
+        <initializer>{ 0 }</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/layout.h" line="37" column="14" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/layout.h" bodystart="37" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_ms_1_1_layout_context_1a5fb0640e02f8bfd3f1a383e7a4052250" prot="public" static="no" mutable="no">
+        <type><ref refid="class_ms_1_1_system" kindref="compound">System</ref> *</type>
+        <definition>System* Ms::LayoutContext::curSystem</definition>
+        <argsstring></argsstring>
+        <name>curSystem</name>
+        <initializer>{ 0 }</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/layout.h" line="38" column="14" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/layout.h" bodystart="38" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_ms_1_1_layout_context_1a7e8b4ba56f18cb041803394a6cf5128a" prot="public" static="no" mutable="no">
+        <type><ref refid="class_ms_1_1_measure_base" kindref="compound">MeasureBase</ref> *</type>
+        <definition>MeasureBase* Ms::LayoutContext::systemOldMeasure</definition>
+        <argsstring></argsstring>
+        <name>systemOldMeasure</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/layout.h" line="40" column="19" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/layout.h" bodystart="40" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_ms_1_1_layout_context_1a087edf99614dd599fe08e655358b58b0" prot="public" static="no" mutable="no">
+        <type><ref refid="class_ms_1_1_measure_base" kindref="compound">MeasureBase</ref> *</type>
+        <definition>MeasureBase* Ms::LayoutContext::pageOldMeasure</definition>
+        <argsstring></argsstring>
+        <name>pageOldMeasure</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/layout.h" line="41" column="19" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/layout.h" bodystart="41" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_ms_1_1_layout_context_1a024756cf326cb9c76731aab5f4b152a6" prot="public" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool Ms::LayoutContext::rangeDone</definition>
+        <argsstring></argsstring>
+        <name>rangeDone</name>
+        <initializer>{ false }</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/layout.h" line="42" column="12" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/layout.h" bodystart="42" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_ms_1_1_layout_context_1a5a9584b81bbc6358dbdf54a80de73bbd" prot="public" static="no" mutable="no">
+        <type><ref refid="class_ms_1_1_measure_base" kindref="compound">MeasureBase</ref> *</type>
+        <definition>MeasureBase* Ms::LayoutContext::prevMeasure</definition>
+        <argsstring></argsstring>
+        <name>prevMeasure</name>
+        <initializer>{ 0 }</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/layout.h" line="44" column="19" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/layout.h" bodystart="44" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_ms_1_1_layout_context_1ab556c492bf4ca535ac980e0f557374a1" prot="public" static="no" mutable="no">
+        <type><ref refid="class_ms_1_1_measure_base" kindref="compound">MeasureBase</ref> *</type>
+        <definition>MeasureBase* Ms::LayoutContext::curMeasure</definition>
+        <argsstring></argsstring>
+        <name>curMeasure</name>
+        <initializer>{ 0 }</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/layout.h" line="45" column="19" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/layout.h" bodystart="45" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_ms_1_1_layout_context_1a028a9cb06e39b4da8ac2171855033f61" prot="public" static="no" mutable="no">
+        <type><ref refid="class_ms_1_1_measure_base" kindref="compound">MeasureBase</ref> *</type>
+        <definition>MeasureBase* Ms::LayoutContext::nextMeasure</definition>
+        <argsstring></argsstring>
+        <name>nextMeasure</name>
+        <initializer>{ 0 }</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/layout.h" line="46" column="19" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/layout.h" bodystart="46" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_ms_1_1_layout_context_1a83eb91a089cdd2cd25d1f18c5b607310" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int Ms::LayoutContext::measureNo</definition>
+        <argsstring></argsstring>
+        <name>measureNo</name>
+        <initializer>{ 0 }</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/layout.h" line="47" column="11" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/layout.h" bodystart="47" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_ms_1_1_layout_context_1a19322e850e35356fc301b735ed3900c8" prot="public" static="no" mutable="no">
+        <type><ref refid="class_ms_1_1_fraction" kindref="compound">Fraction</ref></type>
+        <definition>Fraction Ms::LayoutContext::startTick</definition>
+        <argsstring></argsstring>
+        <name>startTick</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/layout.h" line="48" column="16" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/layout.h" bodystart="48" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_ms_1_1_layout_context_1aa3dcfb3550a5ee045428734fdb2fad22" prot="public" static="no" mutable="no">
+        <type><ref refid="class_ms_1_1_fraction" kindref="compound">Fraction</ref></type>
+        <definition>Fraction Ms::LayoutContext::endTick</definition>
+        <argsstring></argsstring>
+        <name>endTick</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/layout.h" line="49" column="16" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/layout.h" bodystart="49" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="struct_ms_1_1_layout_context_1a2d24aa5a3e7f51fc53311c360e19bd19" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>Ms::LayoutContext::LayoutContext</definition>
+        <argsstring>(Score *s)</argsstring>
+        <name>LayoutContext</name>
+        <param>
+          <type><ref refid="class_ms_1_1_score" kindref="compound">Score</ref> *</type>
+          <declname>s</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/layout.h" line="51" column="7" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/layout.h" bodystart="51" bodyend="51"/>
+      </memberdef>
+      <memberdef kind="function" id="struct_ms_1_1_layout_context_1a81352dda03720ee996fbcf4624d60410" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>Ms::LayoutContext::LayoutContext</definition>
+        <argsstring>(const LayoutContext &amp;)=delete</argsstring>
+        <name>LayoutContext</name>
+        <param>
+          <type>const <ref refid="struct_ms_1_1_layout_context" kindref="compound">LayoutContext</ref> &amp;</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/layout.h" line="52" column="7"/>
+      </memberdef>
+      <memberdef kind="function" id="struct_ms_1_1_layout_context_1ab2de41f5f4c8fca69bd8856c4ea57f8c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="struct_ms_1_1_layout_context" kindref="compound">LayoutContext</ref> &amp;</type>
+        <definition>LayoutContext&amp; Ms::LayoutContext::operator=</definition>
+        <argsstring>(const LayoutContext &amp;)=delete</argsstring>
+        <name>operator=</name>
+        <param>
+          <type>const <ref refid="struct_ms_1_1_layout_context" kindref="compound">LayoutContext</ref> &amp;</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/layout.h" line="53" column="21"/>
+      </memberdef>
+      <memberdef kind="function" id="struct_ms_1_1_layout_context_1a5983fb61fbf461b8496f10c1bf766076" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>Ms::LayoutContext::~LayoutContext</definition>
+        <argsstring>()</argsstring>
+        <name>~LayoutContext</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/layout.h" line="54" column="7" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/layout.cpp" bodystart="4549" bodyend="4556"/>
+      </memberdef>
+      <memberdef kind="function" id="struct_ms_1_1_layout_context_1a2f38e5c2c865cd6356427975dcdffe59" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Ms::LayoutContext::layoutLinear</definition>
+        <argsstring>()</argsstring>
+        <name>layoutLinear</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/layout.h" line="56" column="12" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/layoutlinear.cpp" bodystart="202" bodyend="275"/>
+      </memberdef>
+      <memberdef kind="function" id="struct_ms_1_1_layout_context_1a8343c23d70b61fe4572e2adef6330667" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Ms::LayoutContext::layout</definition>
+        <argsstring>()</argsstring>
+        <name>layout</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/layout.h" line="58" column="12" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/layout.cpp" bodystart="4505" bodyend="4543"/>
+      </memberdef>
+      <memberdef kind="function" id="struct_ms_1_1_layout_context_1ae0e98f18c6aade818eb0c8594cebc69c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int Ms::LayoutContext::adjustMeasureNo</definition>
+        <argsstring>(MeasureBase *)</argsstring>
+        <name>adjustMeasureNo</name>
+        <param>
+          <type><ref refid="class_ms_1_1_measure_base" kindref="compound">MeasureBase</ref> *</type>
+          <defname>m</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/layout.h" line="59" column="11" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/layout.cpp" bodystart="2250" bodyend="2259"/>
+      </memberdef>
+      <memberdef kind="function" id="struct_ms_1_1_layout_context_1ac53ba577f2fb5d2c0884a0d02c628a48" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Ms::LayoutContext::getNextPage</definition>
+        <argsstring>()</argsstring>
+        <name>getNextPage</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/layout.h" line="60" column="12" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/layout.cpp" bodystart="1727" bodyend="1765"/>
+      </memberdef>
+      <memberdef kind="function" id="struct_ms_1_1_layout_context_1a930ae8dc2a6af49471c7d2a8860d7411" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Ms::LayoutContext::collectPage</definition>
+        <argsstring>()</argsstring>
+        <name>collectPage</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/layout.h" line="61" column="12" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/layout.cpp" bodystart="4104" bodyend="4326"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="6">
+        <label>QList&lt; ScoreElement * &gt;</label>
+      </node>
+      <node id="7">
+        <label>Ms::MeasureBase</label>
+        <link refid="class_ms_1_1_measure_base"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="8" relation="usage">
+          <edgelabel>_len</edgelabel>
+        </childnode>
+      </node>
+      <node id="10">
+        <label>QObject</label>
+      </node>
+      <node id="1">
+        <label>Ms::LayoutContext</label>
+        <link refid="struct_ms_1_1_layout_context"/>
+        <childnode refid="2" relation="usage">
+          <edgelabel>page</edgelabel>
+        </childnode>
+        <childnode refid="7" relation="usage">
+          <edgelabel>systemOldMeasure</edgelabel>
+          <edgelabel>nextMeasure</edgelabel>
+          <edgelabel>prevMeasure</edgelabel>
+          <edgelabel>pageOldMeasure</edgelabel>
+          <edgelabel>curMeasure</edgelabel>
+        </childnode>
+        <childnode refid="9" relation="usage">
+          <edgelabel>score</edgelabel>
+        </childnode>
+        <childnode refid="8" relation="usage">
+          <edgelabel>endTick</edgelabel>
+          <edgelabel>startTick</edgelabel>
+          <edgelabel>tick</edgelabel>
+        </childnode>
+        <childnode refid="13" relation="usage">
+          <edgelabel>prevSystem</edgelabel>
+          <edgelabel>curSystem</edgelabel>
+        </childnode>
+      </node>
+      <node id="12">
+        <label>std::list&lt; SynthesizerGroup &gt;</label>
+      </node>
+      <node id="11">
+        <label>Ms::SynthesizerState</label>
+        <link refid="class_ms_1_1_synthesizer_state"/>
+        <childnode refid="12" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="8">
+        <label>Ms::Fraction</label>
+        <link refid="class_ms_1_1_fraction"/>
+      </node>
+      <node id="4">
+        <label>Ms::ScoreElement</label>
+        <link refid="class_ms_1_1_score_element"/>
+        <childnode refid="5" relation="usage">
+          <edgelabel>_links</edgelabel>
+        </childnode>
+      </node>
+      <node id="2">
+        <label>Ms::Page</label>
+        <link refid="class_ms_1_1_page"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="13">
+        <label>Ms::System</label>
+        <link refid="class_ms_1_1_system"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="5">
+        <label>Ms::LinkedElements</label>
+        <link refid="class_ms_1_1_linked_elements"/>
+        <childnode refid="6" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="9">
+        <label>Ms::Score</label>
+        <link refid="class_ms_1_1_score"/>
+        <childnode refid="10" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+        <childnode refid="11" relation="usage">
+          <edgelabel>_synthesizerState</edgelabel>
+        </childnode>
+      </node>
+      <node id="3">
+        <label>Ms::Element</label>
+        <link refid="class_ms_1_1_element"/>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/layout.h" line="26" column="20" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/layout.h" bodystart="26" bodyend="62"/>
+    <listofallmembers>
+      <member refid="struct_ms_1_1_layout_context_1ae0e98f18c6aade818eb0c8594cebc69c" prot="public" virt="non-virtual"><scope>Ms::LayoutContext</scope><name>adjustMeasureNo</name></member>
+      <member refid="struct_ms_1_1_layout_context_1a930ae8dc2a6af49471c7d2a8860d7411" prot="public" virt="non-virtual"><scope>Ms::LayoutContext</scope><name>collectPage</name></member>
+      <member refid="struct_ms_1_1_layout_context_1ab556c492bf4ca535ac980e0f557374a1" prot="public" virt="non-virtual"><scope>Ms::LayoutContext</scope><name>curMeasure</name></member>
+      <member refid="struct_ms_1_1_layout_context_1a2beb5c0e7b78ee4366089341237b7b61" prot="public" virt="non-virtual"><scope>Ms::LayoutContext</scope><name>curPage</name></member>
+      <member refid="struct_ms_1_1_layout_context_1a5fb0640e02f8bfd3f1a383e7a4052250" prot="public" virt="non-virtual"><scope>Ms::LayoutContext</scope><name>curSystem</name></member>
+      <member refid="struct_ms_1_1_layout_context_1aa3dcfb3550a5ee045428734fdb2fad22" prot="public" virt="non-virtual"><scope>Ms::LayoutContext</scope><name>endTick</name></member>
+      <member refid="struct_ms_1_1_layout_context_1ad3e47f24d3c77f2bfd4e8e03f85d6124" prot="public" virt="non-virtual"><scope>Ms::LayoutContext</scope><name>firstSystem</name></member>
+      <member refid="struct_ms_1_1_layout_context_1ac53ba577f2fb5d2c0884a0d02c628a48" prot="public" virt="non-virtual"><scope>Ms::LayoutContext</scope><name>getNextPage</name></member>
+      <member refid="struct_ms_1_1_layout_context_1a8343c23d70b61fe4572e2adef6330667" prot="public" virt="non-virtual"><scope>Ms::LayoutContext</scope><name>layout</name></member>
+      <member refid="struct_ms_1_1_layout_context_1a2d24aa5a3e7f51fc53311c360e19bd19" prot="public" virt="non-virtual"><scope>Ms::LayoutContext</scope><name>LayoutContext</name></member>
+      <member refid="struct_ms_1_1_layout_context_1a81352dda03720ee996fbcf4624d60410" prot="public" virt="non-virtual"><scope>Ms::LayoutContext</scope><name>LayoutContext</name></member>
+      <member refid="struct_ms_1_1_layout_context_1a2f38e5c2c865cd6356427975dcdffe59" prot="public" virt="non-virtual"><scope>Ms::LayoutContext</scope><name>layoutLinear</name></member>
+      <member refid="struct_ms_1_1_layout_context_1a83eb91a089cdd2cd25d1f18c5b607310" prot="public" virt="non-virtual"><scope>Ms::LayoutContext</scope><name>measureNo</name></member>
+      <member refid="struct_ms_1_1_layout_context_1a028a9cb06e39b4da8ac2171855033f61" prot="public" virt="non-virtual"><scope>Ms::LayoutContext</scope><name>nextMeasure</name></member>
+      <member refid="struct_ms_1_1_layout_context_1ab2de41f5f4c8fca69bd8856c4ea57f8c" prot="public" virt="non-virtual"><scope>Ms::LayoutContext</scope><name>operator=</name></member>
+      <member refid="struct_ms_1_1_layout_context_1a23a16ac12220dcac28a0d4fbf0f03e8b" prot="public" virt="non-virtual"><scope>Ms::LayoutContext</scope><name>page</name></member>
+      <member refid="struct_ms_1_1_layout_context_1a087edf99614dd599fe08e655358b58b0" prot="public" virt="non-virtual"><scope>Ms::LayoutContext</scope><name>pageOldMeasure</name></member>
+      <member refid="struct_ms_1_1_layout_context_1a5a9584b81bbc6358dbdf54a80de73bbd" prot="public" virt="non-virtual"><scope>Ms::LayoutContext</scope><name>prevMeasure</name></member>
+      <member refid="struct_ms_1_1_layout_context_1a6493e4dc566c62adf43b5fd586436591" prot="public" virt="non-virtual"><scope>Ms::LayoutContext</scope><name>prevSystem</name></member>
+      <member refid="struct_ms_1_1_layout_context_1acd8aacbbce632709b24bc9554ffe976a" prot="public" virt="non-virtual"><scope>Ms::LayoutContext</scope><name>processedSpanners</name></member>
+      <member refid="struct_ms_1_1_layout_context_1a024756cf326cb9c76731aab5f4b152a6" prot="public" virt="non-virtual"><scope>Ms::LayoutContext</scope><name>rangeDone</name></member>
+      <member refid="struct_ms_1_1_layout_context_1ae22472cdd1ee2864eb9e971e7950ae16" prot="public" virt="non-virtual"><scope>Ms::LayoutContext</scope><name>score</name></member>
+      <member refid="struct_ms_1_1_layout_context_1a19322e850e35356fc301b735ed3900c8" prot="public" virt="non-virtual"><scope>Ms::LayoutContext</scope><name>startTick</name></member>
+      <member refid="struct_ms_1_1_layout_context_1a1f36066aac6e0601246d56816129b7e7" prot="public" virt="non-virtual"><scope>Ms::LayoutContext</scope><name>startWithLongNames</name></member>
+      <member refid="struct_ms_1_1_layout_context_1add8b93fda5fa1fedd7e5e29759ce6d97" prot="public" virt="non-virtual"><scope>Ms::LayoutContext</scope><name>systemList</name></member>
+      <member refid="struct_ms_1_1_layout_context_1a7e8b4ba56f18cb041803394a6cf5128a" prot="public" virt="non-virtual"><scope>Ms::LayoutContext</scope><name>systemOldMeasure</name></member>
+      <member refid="struct_ms_1_1_layout_context_1a49debb6c28108156c84c4615d9371180" prot="public" virt="non-virtual"><scope>Ms::LayoutContext</scope><name>tick</name></member>
+      <member refid="struct_ms_1_1_layout_context_1a5983fb61fbf461b8496f10c1bf766076" prot="public" virt="non-virtual"><scope>Ms::LayoutContext</scope><name>~LayoutContext</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

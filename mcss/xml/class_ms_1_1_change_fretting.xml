@@ -1,0 +1,200 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.17">
+  <compounddef id="class_ms_1_1_change_fretting" kind="class" language="C++" prot="public">
+    <compoundname>Ms::ChangeFretting</compoundname>
+    <basecompoundref refid="class_ms_1_1_undo_command" prot="public" virt="non-virtual">Ms::UndoCommand</basecompoundref>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_ms_1_1_change_fretting_1afb74e96e137ad22e9aa7b40600079590" prot="private" static="no" mutable="no">
+        <type><ref refid="class_ms_1_1_note" kindref="compound">Note</ref> *</type>
+        <definition>Note* Ms::ChangeFretting::note</definition>
+        <argsstring></argsstring>
+        <name>note</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/undo.h" line="374" column="12" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/undo.h" bodystart="374" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_ms_1_1_change_fretting_1abc691d57f6b69057304dd6706acf1b3f" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int Ms::ChangeFretting::pitch</definition>
+        <argsstring></argsstring>
+        <name>pitch</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/undo.h" line="375" column="11" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/undo.h" bodystart="375" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_ms_1_1_change_fretting_1ade7a597c9260992722075131dd2da24d" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int Ms::ChangeFretting::string</definition>
+        <argsstring></argsstring>
+        <name>string</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/undo.h" line="376" column="11" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/undo.h" bodystart="376" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_ms_1_1_change_fretting_1aa522a5822d470280c0d89daa4e5859c7" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int Ms::ChangeFretting::fret</definition>
+        <argsstring></argsstring>
+        <name>fret</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/undo.h" line="377" column="11" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/undo.h" bodystart="377" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_ms_1_1_change_fretting_1a8864c1566e30dd88b0a5545e3a1fd696" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int Ms::ChangeFretting::tpc1</definition>
+        <argsstring></argsstring>
+        <name>tpc1</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/undo.h" line="378" column="11" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/undo.h" bodystart="378" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_ms_1_1_change_fretting_1a800c303a61886b9025f81187a13630a7" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int Ms::ChangeFretting::tpc2</definition>
+        <argsstring></argsstring>
+        <name>tpc2</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/undo.h" line="379" column="11" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/undo.h" bodystart="379" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_ms_1_1_change_fretting_1a415dde15ba200f0007d2829d042836fa" prot="private" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void Ms::ChangeFretting::flip</definition>
+        <argsstring>(EditData *) override</argsstring>
+        <name>flip</name>
+        <reimplements refid="class_ms_1_1_undo_command_1a861162fe6c105a00dfec5a5b70a690a5">flip</reimplements>
+        <param>
+          <type><ref refid="class_ms_1_1_edit_data" kindref="compound">EditData</ref> *</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/undo.h" line="380" column="12" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/undo.cpp" bodystart="1136" bodyend="1157"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_ms_1_1_change_fretting_1a48e15750803d0d43a443e8d62d2b988e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>Ms::ChangeFretting::ChangeFretting</definition>
+        <argsstring>(Note *note, int pitch, int string, int fret, int tpc1, int tpc2)</argsstring>
+        <name>ChangeFretting</name>
+        <param>
+          <type><ref refid="class_ms_1_1_note" kindref="compound">Note</ref> *</type>
+          <declname>note</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>pitch</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>string</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>fret</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>tpc1</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>tpc2</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/undo.h" line="383" column="7" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/undo.cpp" bodystart="1126" bodyend="1134"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>Ms::ChangeFretting</label>
+        <link refid="class_ms_1_1_change_fretting"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>Ms::UndoCommand</label>
+        <link refid="class_ms_1_1_undo_command"/>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>Ms::ChangeFretting</label>
+        <link refid="class_ms_1_1_change_fretting"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>Ms::UndoCommand</label>
+        <link refid="class_ms_1_1_undo_command"/>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/undo.h" line="373" column="40" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/undo.h" bodystart="373" bodyend="385"/>
+    <listofallmembers>
+      <member refid="class_ms_1_1_undo_command_1a0f5b568325d235501e5cc197b7a4d4c8" prot="public" virt="non-virtual"><scope>Ms::ChangeFretting</scope><name>appendChild</name></member>
+      <member refid="class_ms_1_1_undo_command_1adbc9ce586560a1ca06f83bb38d04c4f0" prot="protected" virt="non-virtual"><scope>Ms::ChangeFretting</scope><name>appendChildren</name></member>
+      <member refid="class_ms_1_1_change_fretting_1a48e15750803d0d43a443e8d62d2b988e" prot="public" virt="non-virtual"><scope>Ms::ChangeFretting</scope><name>ChangeFretting</name></member>
+      <member refid="class_ms_1_1_undo_command_1a701d710e19f4d356f2b12d093729d295" prot="public" virt="non-virtual"><scope>Ms::ChangeFretting</scope><name>childCount</name></member>
+      <member refid="class_ms_1_1_undo_command_1a0bbdf4bc79885d76228b155599fb46ce" prot="public" virt="virtual"><scope>Ms::ChangeFretting</scope><name>cleanup</name></member>
+      <member refid="class_ms_1_1_undo_command_1a4cdbb50e02a38b3c0b259e8bb6b58bca" prot="public" virt="non-virtual"><scope>Ms::ChangeFretting</scope><name>commands</name></member>
+      <member refid="class_ms_1_1_undo_command_1a7c3fae86b0c593d95eb2acf44348b425" prot="public" virt="non-virtual"><scope>Ms::ChangeFretting</scope><name>Filter</name></member>
+      <member refid="class_ms_1_1_undo_command_1a850e4c72c907bce1aed4b7d318ddf626" prot="public" virt="non-virtual"><scope>Ms::ChangeFretting</scope><name>filterChildren</name></member>
+      <member refid="class_ms_1_1_change_fretting_1a415dde15ba200f0007d2829d042836fa" prot="private" virt="virtual"><scope>Ms::ChangeFretting</scope><name>flip</name></member>
+      <member refid="class_ms_1_1_change_fretting_1aa522a5822d470280c0d89daa4e5859c7" prot="private" virt="non-virtual"><scope>Ms::ChangeFretting</scope><name>fret</name></member>
+      <member refid="class_ms_1_1_undo_command_1a09b5c550fffd0dfe1e38490c7f0de8e4" prot="public" virt="non-virtual"><scope>Ms::ChangeFretting</scope><name>hasFilteredChildren</name></member>
+      <member refid="class_ms_1_1_undo_command_1a7131c9beb9c694ef3f0d8235f4e2892a" prot="public" virt="non-virtual"><scope>Ms::ChangeFretting</scope><name>hasUnfilteredChildren</name></member>
+      <member refid="class_ms_1_1_undo_command_1a7e84d54e5b22eeeb9646c8a86fc2a0cb" prot="public" virt="virtual"><scope>Ms::ChangeFretting</scope><name>isFiltered</name></member>
+      <member refid="class_ms_1_1_undo_command_1acdd15da86ef5878bc98ef2be084cc4be" prot="public" virt="virtual"><scope>Ms::ChangeFretting</scope><name>name</name></member>
+      <member refid="class_ms_1_1_change_fretting_1afb74e96e137ad22e9aa7b40600079590" prot="private" virt="non-virtual"><scope>Ms::ChangeFretting</scope><name>note</name></member>
+      <member refid="class_ms_1_1_change_fretting_1abc691d57f6b69057304dd6706acf1b3f" prot="private" virt="non-virtual"><scope>Ms::ChangeFretting</scope><name>pitch</name></member>
+      <member refid="class_ms_1_1_undo_command_1a7fccbb0cf027a5e3b43176a5e0213f75" prot="public" virt="virtual"><scope>Ms::ChangeFretting</scope><name>redo</name></member>
+      <member refid="class_ms_1_1_undo_command_1ad645cbed278b04cea2164006b52c4d8f" prot="public" virt="non-virtual"><scope>Ms::ChangeFretting</scope><name>removeChild</name></member>
+      <member refid="class_ms_1_1_change_fretting_1ade7a597c9260992722075131dd2da24d" prot="private" virt="non-virtual"><scope>Ms::ChangeFretting</scope><name>string</name></member>
+      <member refid="class_ms_1_1_change_fretting_1a8864c1566e30dd88b0a5545e3a1fd696" prot="private" virt="non-virtual"><scope>Ms::ChangeFretting</scope><name>tpc1</name></member>
+      <member refid="class_ms_1_1_change_fretting_1a800c303a61886b9025f81187a13630a7" prot="private" virt="non-virtual"><scope>Ms::ChangeFretting</scope><name>tpc2</name></member>
+      <member refid="class_ms_1_1_undo_command_1a42a2038f903e77e6bb5881209b764186" prot="public" virt="virtual"><scope>Ms::ChangeFretting</scope><name>undo</name></member>
+      <member refid="class_ms_1_1_undo_command_1abc893037b5a33408c25552b8579debe4" prot="public" virt="non-virtual"><scope>Ms::ChangeFretting</scope><name>unwind</name></member>
+      <member refid="class_ms_1_1_undo_command_1ad4aec6e8dbb0e92bd2b8be2ebd79b9df" prot="public" virt="virtual"><scope>Ms::ChangeFretting</scope><name>~UndoCommand</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

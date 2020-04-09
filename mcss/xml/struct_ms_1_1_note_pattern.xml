@@ -1,0 +1,240 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.17">
+  <compounddef id="struct_ms_1_1_note_pattern" kind="struct" language="C++" prot="public">
+    <compoundname>Ms::NotePattern</compoundname>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="struct_ms_1_1_note_pattern_1a7cbd7c88690186979694a9ebb1491c02" prot="public" static="no" mutable="no">
+        <type>QList&lt; <ref refid="class_ms_1_1_note" kindref="compound">Note</ref> * &gt;</type>
+        <definition>QList&lt;Note*&gt; Ms::NotePattern::el</definition>
+        <argsstring></argsstring>
+        <name>el</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/select.h" line="53" column="13" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/select.h" bodystart="53" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_ms_1_1_note_pattern_1affcc2dbd64a103557cd6374dc2bfd281" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int Ms::NotePattern::pitch</definition>
+        <argsstring></argsstring>
+        <name>pitch</name>
+        <initializer>= -1</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/select.h" line="54" column="11" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/select.h" bodystart="54" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_ms_1_1_note_pattern_1ab260a55b5b3ac68ac838ebaf3de0c8ef" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int Ms::NotePattern::string</definition>
+        <argsstring></argsstring>
+        <name>string</name>
+        <initializer>= STRING_NONE</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/select.h" line="55" column="11" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/select.h" bodystart="55" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_ms_1_1_note_pattern_1abcbec91b0e366d3307129718a5d592f2" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int Ms::NotePattern::tpc</definition>
+        <argsstring></argsstring>
+        <name>tpc</name>
+        <initializer>= Tpc::TPC_INVALID</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/select.h" line="56" column="11" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/select.h" bodystart="56" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_ms_1_1_note_pattern_1a4e59d4d7b5f94bb0ed947efa2f17018d" prot="public" static="no" mutable="no">
+        <type><ref refid="class_ms_1_1_note_head_1a1d3e8faf3d3bc1d89d9d3485acde69d1" kindref="member">NoteHead::Group</ref></type>
+        <definition>NoteHead::Group Ms::NotePattern::notehead</definition>
+        <argsstring></argsstring>
+        <name>notehead</name>
+        <initializer>= NoteHead::Group::HEAD_INVALID</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/select.h" line="57" column="23" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/select.h" bodystart="57" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_ms_1_1_note_pattern_1ad4a19e758373d1d41725394607de08a3" prot="public" static="no" mutable="no">
+        <type><ref refid="class_ms_1_1_t_duration" kindref="compound">TDuration</ref></type>
+        <definition>TDuration Ms::NotePattern::durationType</definition>
+        <argsstring></argsstring>
+        <name>durationType</name>
+        <initializer>= <ref refid="class_ms_1_1_t_duration" kindref="compound">TDuration</ref>()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/select.h" line="58" column="17" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/select.h" bodystart="58" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_ms_1_1_note_pattern_1aeea23d761f67dc8cf6624d5eaa785206" prot="public" static="no" mutable="no">
+        <type><ref refid="class_ms_1_1_fraction" kindref="compound">Fraction</ref></type>
+        <definition>Fraction Ms::NotePattern::durationTicks</definition>
+        <argsstring></argsstring>
+        <name>durationTicks</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/select.h" line="59" column="16" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/select.h" bodystart="59" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_ms_1_1_note_pattern_1a4f0def8a04648fc79da6d0b6a34830af" prot="public" static="no" mutable="no">
+        <type><ref refid="namespace_ms_1a7358b681a67b5524ff31ae9ec8e72322" kindref="member">NoteType</ref></type>
+        <definition>NoteType Ms::NotePattern::type</definition>
+        <argsstring></argsstring>
+        <name>type</name>
+        <initializer>= NoteType::INVALID</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/select.h" line="60" column="16" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/select.h" bodystart="60" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_ms_1_1_note_pattern_1a25e08ed8d485feb5cddbc765d29860fc" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int Ms::NotePattern::staffStart</definition>
+        <argsstring></argsstring>
+        <name>staffStart</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/select.h" line="61" column="11" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/select.h" bodystart="61" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_ms_1_1_note_pattern_1abe5fa55ac01549c2f3313b877269873e" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int Ms::NotePattern::staffEnd</definition>
+        <argsstring></argsstring>
+        <name>staffEnd</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/select.h" line="62" column="11" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/select.h" bodystart="62" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_ms_1_1_note_pattern_1aea3d3043b8e94526a9eeddc053950381" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int Ms::NotePattern::voice</definition>
+        <argsstring></argsstring>
+        <name>voice</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/select.h" line="63" column="11" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/select.h" bodystart="63" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_ms_1_1_note_pattern_1a41c123496c69738a7fb4fe7dcf44fe01" prot="public" static="no" mutable="no">
+        <type>const <ref refid="class_ms_1_1_system" kindref="compound">System</ref> *</type>
+        <definition>const System* Ms::NotePattern::system</definition>
+        <argsstring></argsstring>
+        <name>system</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/select.h" line="64" column="20" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/select.h" bodystart="64" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="8">
+        <label>QList&lt; ScoreElement * &gt;</label>
+      </node>
+      <node id="1">
+        <label>Ms::NotePattern</label>
+        <link refid="struct_ms_1_1_note_pattern"/>
+        <childnode refid="2" relation="usage">
+          <edgelabel>durationType</edgelabel>
+        </childnode>
+        <childnode refid="3" relation="usage">
+          <edgelabel>durationTicks</edgelabel>
+        </childnode>
+        <childnode refid="4" relation="usage">
+          <edgelabel>system</edgelabel>
+        </childnode>
+      </node>
+      <node id="3">
+        <label>Ms::Fraction</label>
+        <link refid="class_ms_1_1_fraction"/>
+      </node>
+      <node id="6">
+        <label>Ms::ScoreElement</label>
+        <link refid="class_ms_1_1_score_element"/>
+        <childnode refid="7" relation="usage">
+          <edgelabel>_links</edgelabel>
+        </childnode>
+      </node>
+      <node id="4">
+        <label>Ms::System</label>
+        <link refid="class_ms_1_1_system"/>
+        <childnode refid="5" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="7">
+        <label>Ms::LinkedElements</label>
+        <link refid="class_ms_1_1_linked_elements"/>
+        <childnode refid="8" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="5">
+        <label>Ms::Element</label>
+        <link refid="class_ms_1_1_element"/>
+        <childnode refid="6" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>Ms::TDuration</label>
+        <link refid="class_ms_1_1_t_duration"/>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/select.h" line="52" column="18" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/select.h" bodystart="52" bodyend="65"/>
+    <listofallmembers>
+      <member refid="struct_ms_1_1_note_pattern_1aeea23d761f67dc8cf6624d5eaa785206" prot="public" virt="non-virtual"><scope>Ms::NotePattern</scope><name>durationTicks</name></member>
+      <member refid="struct_ms_1_1_note_pattern_1ad4a19e758373d1d41725394607de08a3" prot="public" virt="non-virtual"><scope>Ms::NotePattern</scope><name>durationType</name></member>
+      <member refid="struct_ms_1_1_note_pattern_1a7cbd7c88690186979694a9ebb1491c02" prot="public" virt="non-virtual"><scope>Ms::NotePattern</scope><name>el</name></member>
+      <member refid="struct_ms_1_1_note_pattern_1a4e59d4d7b5f94bb0ed947efa2f17018d" prot="public" virt="non-virtual"><scope>Ms::NotePattern</scope><name>notehead</name></member>
+      <member refid="struct_ms_1_1_note_pattern_1affcc2dbd64a103557cd6374dc2bfd281" prot="public" virt="non-virtual"><scope>Ms::NotePattern</scope><name>pitch</name></member>
+      <member refid="struct_ms_1_1_note_pattern_1abe5fa55ac01549c2f3313b877269873e" prot="public" virt="non-virtual"><scope>Ms::NotePattern</scope><name>staffEnd</name></member>
+      <member refid="struct_ms_1_1_note_pattern_1a25e08ed8d485feb5cddbc765d29860fc" prot="public" virt="non-virtual"><scope>Ms::NotePattern</scope><name>staffStart</name></member>
+      <member refid="struct_ms_1_1_note_pattern_1ab260a55b5b3ac68ac838ebaf3de0c8ef" prot="public" virt="non-virtual"><scope>Ms::NotePattern</scope><name>string</name></member>
+      <member refid="struct_ms_1_1_note_pattern_1a41c123496c69738a7fb4fe7dcf44fe01" prot="public" virt="non-virtual"><scope>Ms::NotePattern</scope><name>system</name></member>
+      <member refid="struct_ms_1_1_note_pattern_1abcbec91b0e366d3307129718a5d592f2" prot="public" virt="non-virtual"><scope>Ms::NotePattern</scope><name>tpc</name></member>
+      <member refid="struct_ms_1_1_note_pattern_1a4f0def8a04648fc79da6d0b6a34830af" prot="public" virt="non-virtual"><scope>Ms::NotePattern</scope><name>type</name></member>
+      <member refid="struct_ms_1_1_note_pattern_1aea3d3043b8e94526a9eeddc053950381" prot="public" virt="non-virtual"><scope>Ms::NotePattern</scope><name>voice</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,54 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.17">
+  <compounddef id="dsp_8cpp" kind="file" language="C++">
+    <compoundname>dsp.cpp</compoundname>
+    <includes refid="dsp_8h" local="yes">dsp.h</includes>
+    <incdepgraph>
+      <node id="1">
+        <label>C:/Users/main/Documents/GitHub/MuseScore/libmscore/dsp.cpp</label>
+        <link refid="dsp_8cpp"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>dsp.h</label>
+        <link refid="dsp_8h_source"/>
+      </node>
+    </incdepgraph>
+      <sectiondef kind="var">
+      <memberdef kind="variable" id="dsp_8cpp_1a9cba7de4fbab0aa1415d823bf16daeaa" prot="public" static="no" mutable="no">
+        <type>Dsp *</type>
+        <definition>Dsp* dsp</definition>
+        <argsstring></argsstring>
+        <name>dsp</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/dsp.cpp" line="15" column="5" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/dsp.cpp" bodystart="15" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="func">
+      <memberdef kind="function" id="dsp_8cpp_1a18f395db8177dde4c86059efaf6a9371" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void initDsp</definition>
+        <argsstring>()</argsstring>
+        <name>initDsp</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/dsp.cpp" line="79" column="6" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/dsp.cpp" bodystart="79" bodyend="106"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/dsp.cpp"/>
+  </compounddef>
+</doxygen>

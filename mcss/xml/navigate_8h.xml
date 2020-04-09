@@ -1,0 +1,45 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.17">
+  <compounddef id="navigate_8h" kind="file" language="C++">
+    <compoundname>navigate.h</compoundname>
+    <includedby refid="chord_8cpp" local="yes">C:/Users/main/Documents/GitHub/MuseScore/libmscore/chord.cpp</includedby>
+    <includedby refid="cmd_8cpp" local="yes">C:/Users/main/Documents/GitHub/MuseScore/libmscore/cmd.cpp</includedby>
+    <includedby refid="edit_8cpp" local="yes">C:/Users/main/Documents/GitHub/MuseScore/libmscore/edit.cpp</includedby>
+    <includedby refid="navigate_8cpp" local="yes">C:/Users/main/Documents/GitHub/MuseScore/libmscore/navigate.cpp</includedby>
+    <includedby refid="noteentry_8cpp" local="yes">C:/Users/main/Documents/GitHub/MuseScore/libmscore/noteentry.cpp</includedby>
+    <includedby refid="rendermidi_8cpp" local="yes">C:/Users/main/Documents/GitHub/MuseScore/libmscore/rendermidi.cpp</includedby>
+    <includedby refid="slur_8cpp" local="yes">C:/Users/main/Documents/GitHub/MuseScore/libmscore/slur.cpp</includedby>
+    <includedby refid="stafftype_8cpp" local="yes">C:/Users/main/Documents/GitHub/MuseScore/libmscore/stafftype.cpp</includedby>
+    <includedby refid="system_8cpp" local="yes">C:/Users/main/Documents/GitHub/MuseScore/libmscore/system.cpp</includedby>
+    <invincdepgraph>
+      <node id="4">
+        <label>C:/Users/main/Documents/GitHub/MuseScore/libmscore/system.cpp</label>
+        <link refid="system_8cpp"/>
+      </node>
+      <node id="3">
+        <label>C:/Users/main/Documents/GitHub/MuseScore/libmscore/rendermidi.cpp</label>
+        <link refid="rendermidi_8cpp"/>
+      </node>
+      <node id="2">
+        <label>C:/Users/main/Documents/GitHub/MuseScore/libmscore/cmd.cpp</label>
+        <link refid="cmd_8cpp"/>
+      </node>
+      <node id="1">
+        <label>C:/Users/main/Documents/GitHub/MuseScore/libmscore/navigate.h</label>
+        <link refid="navigate_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+      </node>
+    </invincdepgraph>
+    <innernamespace refid="namespace_ms">Ms</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/navigate.h"/>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,30 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.17">
+  <compounddef id="image_store_8h" kind="file" language="C++">
+    <compoundname>imageStore.h</compoundname>
+    <includedby refid="image_8cpp" local="yes">C:/Users/main/Documents/GitHub/MuseScore/libmscore/image.cpp</includedby>
+    <includedby refid="image_store_8cpp" local="yes">C:/Users/main/Documents/GitHub/MuseScore/libmscore/imageStore.cpp</includedby>
+    <includedby refid="score_8cpp" local="yes">C:/Users/main/Documents/GitHub/MuseScore/libmscore/score.cpp</includedby>
+    <includedby refid="scorefile_8cpp" local="yes">C:/Users/main/Documents/GitHub/MuseScore/libmscore/scorefile.cpp</includedby>
+    <invincdepgraph>
+      <node id="1">
+        <label>C:/Users/main/Documents/GitHub/MuseScore/libmscore/imageStore.h</label>
+        <link refid="image_store_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>C:/Users/main/Documents/GitHub/MuseScore/libmscore/score.cpp</label>
+        <link refid="score_8cpp"/>
+      </node>
+    </invincdepgraph>
+    <innerclass refid="class_ms_1_1_image_store_item" prot="public">Ms::ImageStoreItem</innerclass>
+    <innerclass refid="class_ms_1_1_image_store" prot="public">Ms::ImageStore</innerclass>
+    <innernamespace refid="namespace_ms">Ms</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/imageStore.h"/>
+  </compounddef>
+</doxygen>

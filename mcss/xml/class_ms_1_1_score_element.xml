@@ -1,0 +1,2345 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.17">
+  <compounddef id="class_ms_1_1_score_element" kind="class" language="C++" prot="public" abstract="yes">
+    <compoundname>Ms::ScoreElement</compoundname>
+    <derivedcompoundref refid="class_ms_1_1_bracket_item" prot="public" virt="non-virtual">Ms::BracketItem</derivedcompoundref>
+    <derivedcompoundref refid="class_ms_1_1_element" prot="public" virt="non-virtual">Ms::Element</derivedcompoundref>
+    <derivedcompoundref refid="class_ms_1_1_part" prot="public" virt="non-virtual">Ms::Part</derivedcompoundref>
+    <derivedcompoundref refid="class_ms_1_1_score" prot="public" virt="non-virtual">Ms::Score</derivedcompoundref>
+    <derivedcompoundref refid="class_ms_1_1_staff" prot="public" virt="non-virtual">Ms::Staff</derivedcompoundref>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_ms_1_1_score_element_1aae98b72123991fc84396dc42b9199073" prot="private" static="no" mutable="no">
+        <type><ref refid="class_ms_1_1_score" kindref="compound">Score</ref> *</type>
+        <definition>Score* Ms::ScoreElement::_score</definition>
+        <argsstring></argsstring>
+        <name>_score</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/scoreElement.h" line="174" column="13" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/scoreElement.h" bodystart="174" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-static-attrib">
+      <memberdef kind="variable" id="class_ms_1_1_score_element_1a909208dcb71001e0e8a5b9aa4c9a854f" prot="private" static="yes" mutable="no">
+        <type>const ElementStyle</type>
+        <definition>const ElementStyle Ms::ScoreElement::emptyStyle</definition>
+        <argsstring></argsstring>
+        <name>emptyStyle</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/scoreElement.h" line="175" column="33" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/scoreElement.h" bodystart="175" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="protected-attrib">
+      <memberdef kind="variable" id="class_ms_1_1_score_element_1a648639a58d05aa85412217db5ad40b18" prot="protected" static="no" mutable="no">
+        <type>const ElementStyle *</type>
+        <definition>const ElementStyle* Ms::ScoreElement::_elementStyle</definition>
+        <argsstring></argsstring>
+        <name>_elementStyle</name>
+        <initializer>{ &amp;emptyStyle }</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/scoreElement.h" line="178" column="26" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/scoreElement.h" bodystart="178" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_ms_1_1_score_element_1a6d4b99ddb9e217aaa9f9ae67a76861f3" prot="protected" static="no" mutable="no">
+        <type>PropertyFlags *</type>
+        <definition>PropertyFlags* Ms::ScoreElement::_propertyFlagsList</definition>
+        <argsstring></argsstring>
+        <name>_propertyFlagsList</name>
+        <initializer>{ 0 }</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/scoreElement.h" line="179" column="21" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/scoreElement.h" bodystart="179" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_ms_1_1_score_element_1a405b151c60a010237414678a0e0952af" prot="protected" static="no" mutable="no">
+        <type><ref refid="class_ms_1_1_linked_elements" kindref="compound">LinkedElements</ref> *</type>
+        <definition>LinkedElements* Ms::ScoreElement::_links</definition>
+        <argsstring></argsstring>
+        <name>_links</name>
+        <initializer>{ 0 }</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/scoreElement.h" line="180" column="22" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/scoreElement.h" bodystart="180" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="protected-func">
+      <memberdef kind="function" id="class_ms_1_1_score_element_1a5dd171e2eca7de57f28a9bc4430bb12d" prot="protected" static="no" const="yes" explicit="no" inline="no" virt="virtual">
+        <type>int</type>
+        <definition>int Ms::ScoreElement::getPropertyFlagsIdx</definition>
+        <argsstring>(Pid id) const</argsstring>
+        <name>getPropertyFlagsIdx</name>
+        <reimplementedby refid="class_ms_1_1_text_base_1a7f34314c6beefb63c0b7e5c1e2f0c9b4">getPropertyFlagsIdx</reimplementedby>
+        <param>
+          <type>Pid</type>
+          <declname>id</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/scoreElement.h" line="181" column="19" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/scoreElement.cpp" bodystart="723" bodyend="732"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_ms_1_1_score_element_1a3fed4ec5f58054eb578ff9c7bb80d72f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>Ms::ScoreElement::ScoreElement</definition>
+        <argsstring>(Score *s)</argsstring>
+        <name>ScoreElement</name>
+        <param>
+          <type><ref refid="class_ms_1_1_score" kindref="compound">Score</ref> *</type>
+          <declname>s</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/scoreElement.h" line="184" column="7" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/scoreElement.h" bodystart="184" bodyend="184"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ms_1_1_score_element_1ac2b2cb70fe954ba2b1cce6d35743edf2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>Ms::ScoreElement::ScoreElement</definition>
+        <argsstring>(const ScoreElement &amp;se)</argsstring>
+        <name>ScoreElement</name>
+        <param>
+          <type>const <ref refid="class_ms_1_1_score_element" kindref="compound">ScoreElement</ref> &amp;</type>
+          <declname>se</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/scoreElement.h" line="185" column="7" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/scoreElement.cpp" bodystart="143" bodyend="154"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ms_1_1_score_element_1abc6cbffe99d185a7262f86be05cf6365" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type></type>
+        <definition>Ms::ScoreElement::~ScoreElement</definition>
+        <argsstring>()</argsstring>
+        <name>~ScoreElement</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/scoreElement.h" line="187" column="15" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/scoreElement.cpp" bodystart="160" bodyend="170"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ms_1_1_score_element_1a70883d048b0884821ac779d9ab168151" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="class_ms_1_1_score" kindref="compound">Score</ref> *</type>
+        <definition>Score* Ms::ScoreElement::score</definition>
+        <argsstring>() const</argsstring>
+        <name>score</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/scoreElement.h" line="189" column="13" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/scoreElement.h" bodystart="189" bodyend="189"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ms_1_1_score_element_1ae4991aaf0d79271cc347530f3d07fcd6" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="class_ms_1_1_master_score" kindref="compound">MasterScore</ref> *</type>
+        <definition>MasterScore * Ms::ScoreElement::masterScore</definition>
+        <argsstring>() const</argsstring>
+        <name>masterScore</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/scoreElement.h" line="190" column="19" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/scoreElement.cpp" bodystart="714" bodyend="717"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ms_1_1_score_element_1a6a1e59c49777e28459d2270981fc97df" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>void</type>
+        <definition>virtual void Ms::ScoreElement::setScore</definition>
+        <argsstring>(Score *s)</argsstring>
+        <name>setScore</name>
+        <reimplementedby refid="class_ms_1_1_segment_1a5482249b6b1460998636115bb416256a">setScore</reimplementedby>
+        <reimplementedby refid="class_ms_1_1_measure_base_1a1689e6b22754c7f21c03cffc0875138e">setScore</reimplementedby>
+        <reimplementedby refid="class_ms_1_1_bar_line_1a857db7497c7b461ab31f26a9da14e43c">setScore</reimplementedby>
+        <reimplementedby refid="class_ms_1_1_chord_1ae05cf93a2d8078f40e79da811017deb4">setScore</reimplementedby>
+        <reimplementedby refid="class_ms_1_1_measure_1a4d429b75faea4736aa986b1453990ef6">setScore</reimplementedby>
+        <reimplementedby refid="class_ms_1_1_spanner_1a516e9a9ce16d41ef6f2585012c718d62">setScore</reimplementedby>
+        <reimplementedby refid="class_ms_1_1_chord_rest_1abf9774dbe43a1012f09ede1b8352edd2">setScore</reimplementedby>
+        <reimplementedby refid="class_ms_1_1_note_1a2e8e367c5cd6bc24fd8e81ba7fc0db04">setScore</reimplementedby>
+        <param>
+          <type><ref refid="class_ms_1_1_score" kindref="compound">Score</ref> *</type>
+          <declname>s</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/scoreElement.h" line="191" column="20" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/scoreElement.h" bodystart="191" bodyend="191"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ms_1_1_score_element_1ad80dda73306d6b784b0cac4626f797d4" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>const char *</type>
+        <definition>const char * Ms::ScoreElement::name</definition>
+        <argsstring>() const</argsstring>
+        <name>name</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/scoreElement.h" line="192" column="18" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/scoreElement.cpp" bodystart="790" bodyend="793"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ms_1_1_score_element_1acb1866df2e440923354fa5b1ee9d5f52" prot="public" static="no" const="yes" explicit="no" inline="no" virt="virtual">
+        <type>QString</type>
+        <definition>QString Ms::ScoreElement::userName</definition>
+        <argsstring>() const</argsstring>
+        <name>userName</name>
+        <reimplementedby refid="class_ms_1_1_fermata_1a3257dbf5e4f1fae7aec6a9ae95ae1588">userName</reimplementedby>
+        <reimplementedby refid="class_ms_1_1_articulation_1ac1bea6ccc5897c1bc50b288befd04a85">userName</reimplementedby>
+        <reimplementedby refid="class_ms_1_1_harmony_1a33c699d9cfa53e5011b6c47fbf0cfefa">userName</reimplementedby>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/scoreElement.h" line="193" column="23" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/scoreElement.cpp" bodystart="808" bodyend="811"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ms_1_1_score_element_1a3dbb763c3cd4ec05d202d03115abe1d5" prot="public" static="no" const="yes" explicit="no" inline="no" virt="pure-virtual">
+        <type><ref refid="namespace_ms_1a2c92ce0204176ede1ab86e2f44ae6b9e" kindref="member">ElementType</ref></type>
+        <definition>virtual ElementType Ms::ScoreElement::type</definition>
+        <argsstring>() const =0</argsstring>
+        <name>type</name>
+        <reimplementedby refid="class_ms_1_1_t_box_1a24a0c17847f263ecce505498a9b86233">type</reimplementedby>
+        <reimplementedby refid="class_ms_1_1_note_line_1a38e30bbfa67ccc3a77814b7ef3113dcf">type</reimplementedby>
+        <reimplementedby refid="class_ms_1_1_shadow_note_1a6a1513126afb1c62a56a2eda7255f39e">type</reimplementedby>
+        <reimplementedby refid="class_ms_1_1_spacer_1ace496e7d7ebeb3de6f2952bc28d92748">type</reimplementedby>
+        <reimplementedby refid="class_ms_1_1_staff_state_1a983390ab170930884504b06835feec1e">type</reimplementedby>
+        <reimplementedby refid="class_ms_1_1_text_line_1a1a91ef765d7120874488b12e3618218a">type</reimplementedby>
+        <reimplementedby refid="class_ms_1_1_chord_rest_1a47a641f4c229f43d67ed5154fdebc05c">type</reimplementedby>
+        <reimplementedby refid="class_ms_1_1_measure_base_1ab5f6111d12a058461be1fe560c2c41b9">type</reimplementedby>
+        <reimplementedby refid="class_ms_1_1_slur_tie_1a10184ff54b668b21ca51372ab5f8bf0f">type</reimplementedby>
+        <reimplementedby refid="class_ms_1_1_spanner_1a83531d51784fd1e21df2e4e396045885">type</reimplementedby>
+        <reimplementedby refid="class_ms_1_1_compound_1a7d9db768ba5532f7ec66857322aaa59d">type</reimplementedby>
+        <reimplementedby refid="class_ms_1_1_lasso_1aeadb1d98c3f59a5c691faf435a3d210f">type</reimplementedby>
+        <reimplementedby refid="class_ms_1_1_text_1a2d14aaef88ebd6552e0fb86d4210ea9a">type</reimplementedby>
+        <reimplementedby refid="class_ms_1_1_measure_number_1aae13115615a3a43d682d98af61fac3f0">type</reimplementedby>
+        <reimplementedby refid="class_ms_1_1_let_ring_segment_1a20f6cf8e448a34499a05fcea1a396103">type</reimplementedby>
+        <reimplementedby refid="class_ms_1_1_rehearsal_mark_1a47ccbc7225ae7e027b966eb4c00d27e7">type</reimplementedby>
+        <reimplementedby refid="class_ms_1_1_ossia_1a14c10b0c7089241f54d315cfed90fc9b">type</reimplementedby>
+        <reimplementedby refid="class_ms_1_1_staff_lines_1a66cde6c476537df4c88ae81f2c72e332">type</reimplementedby>
+        <reimplementedby refid="class_ms_1_1_fingering_1ae11f1eebb829bc2d0436e2a4740116f8">type</reimplementedby>
+        <reimplementedby refid="class_ms_1_1_text_line_segment_1a1bf04baf3f1ddbd9a4318960135379da">type</reimplementedby>
+        <reimplementedby refid="class_ms_1_1_pedal_segment_1a95600bd62b89000ad7b28da960bf6a42">type</reimplementedby>
+        <reimplementedby refid="class_ms_1_1_palm_mute_segment_1aaae2bb9f0fabd1ae641ca50052bb8ef6">type</reimplementedby>
+        <reimplementedby refid="class_ms_1_1_system_text_1aade73fb5e8370cb715c7c7fb587e9e5d">type</reimplementedby>
+        <reimplementedby refid="class_ms_1_1_note_dot_1a72fd3d0b6855c3a23721d3afe0da6d0c">type</reimplementedby>
+        <reimplementedby refid="class_ms_1_1_hook_1a66924cbcda3b824c12b6d24aaa00ce8c">type</reimplementedby>
+        <reimplementedby refid="class_ms_1_1_bracket_item_1a88c1749ed0d5edc93f140cd3e2e86890">type</reimplementedby>
+        <reimplementedby refid="class_ms_1_1_volta_segment_1a9827e58a1608099027bafd729f9b5e93">type</reimplementedby>
+        <reimplementedby refid="class_ms_1_1_instrument_name_1a55d528ec324059162e7f6a7f74bfc8ce">type</reimplementedby>
+        <reimplementedby refid="class_ms_1_1_stem_slash_1ab02a55766df45f3801736bea501ab8e4">type</reimplementedby>
+        <reimplementedby refid="class_ms_1_1_staff_text_1affd50dbe03b011c1354ec89e57609b5e">type</reimplementedby>
+        <reimplementedby refid="class_ms_1_1_slur_segment_1a59059c54d97a16c8fd56fc964cf6ef2d">type</reimplementedby>
+        <reimplementedby refid="class_ms_1_1_system_divider_1a22f6fa7e625fcc50e1ca64f424232fc7">type</reimplementedby>
+        <reimplementedby refid="class_ms_1_1_repeat_measure_1af7ceeed7e30597633a6e3986f8f6f86a">type</reimplementedby>
+        <reimplementedby refid="class_ms_1_1_icon_1a25f07bbd849bf8b8171d45159f7809cf">type</reimplementedby>
+        <reimplementedby refid="class_ms_1_1_vibrato_segment_1a8281c78bece7ae3904e7418841966e70">type</reimplementedby>
+        <reimplementedby refid="class_ms_1_1_stem_1a8653fbcaab698d97f4f6a895583b455d">type</reimplementedby>
+        <reimplementedby refid="class_ms_1_1_instrument_change_1a1901022fbf1c9772bc1a220aee6f4309">type</reimplementedby>
+        <reimplementedby refid="class_ms_1_1_glissando_segment_1a0afd96594e69b8ca02c50c45daac1489">type</reimplementedby>
+        <reimplementedby refid="class_ms_1_1_trill_segment_1afe0cead5a003bf7cff2ab6ee03518dec">type</reimplementedby>
+        <reimplementedby refid="class_ms_1_1_sticking_1ac06ed5915655cd6a352f0646d7b5b887">type</reimplementedby>
+        <reimplementedby refid="class_ms_1_1_staff_type_change_1afd5e3f4e1ec7140d7d4e20c136f0922b">type</reimplementedby>
+        <reimplementedby refid="class_ms_1_1_tie_segment_1a4bb57249d462375060bf99d7524b3c9a">type</reimplementedby>
+        <reimplementedby refid="class_ms_1_1_tremolo_bar_1a4fa9481ad52b88edebc4ce0008d7bfa0">type</reimplementedby>
+        <reimplementedby refid="class_ms_1_1_ledger_line_1ae247017565f61638d2454cd35aefa987">type</reimplementedby>
+        <reimplementedby refid="class_ms_1_1_symbol_1ad0aa0b4fb02f576a4e65dbe4ab499ae9">type</reimplementedby>
+        <reimplementedby refid="class_ms_1_1_key_sig_1ada6ba1fb53f206341010cdf2cec239f8">type</reimplementedby>
+        <reimplementedby refid="class_ms_1_1_tempo_text_1ae76c836f873458fad4ac44f8af391bc0">type</reimplementedby>
+        <reimplementedby refid="class_ms_1_1_breath_1aab2b11d85f156dbf0c7f2c6b46854cd5">type</reimplementedby>
+        <reimplementedby refid="class_ms_1_1_bend_1a890a128b5da8adbefc8939a4a0fa6d00">type</reimplementedby>
+        <reimplementedby refid="class_ms_1_1_ambitus_1a7ddffe968d82bf0cbee67eb1b9a388ae">type</reimplementedby>
+        <reimplementedby refid="class_ms_1_1_fermata_1a4bcf969e1e26be08866b9cb52a9bb584">type</reimplementedby>
+        <reimplementedby refid="class_ms_1_1_let_ring_1a10f13a73d7e9c70321c0cb191caccb34">type</reimplementedby>
+        <reimplementedby refid="class_ms_1_1_chord_line_1a2b0f7833671e3910719777d2a5ed7280">type</reimplementedby>
+        <reimplementedby refid="class_ms_1_1_rest_1ae07eddac0e07e5cbba19b31f808c2a09">type</reimplementedby>
+        <reimplementedby refid="class_ms_1_1_page_1ad0e739dbbc8e3df408e0c5f4b7138be8">type</reimplementedby>
+        <reimplementedby refid="class_ms_1_1_bracket_1accbbf6e11209ebd4e754867ad318af6f">type</reimplementedby>
+        <reimplementedby refid="class_ms_1_1_pedal_1a3e37b6fb17d73077301087aed26f6cdc">type</reimplementedby>
+        <reimplementedby refid="class_ms_1_1_palm_mute_1abce38eefa0b2e40a30e29b09773da120">type</reimplementedby>
+        <reimplementedby refid="class_ms_1_1_marker_1ab70325f279ba96f1a6cd67faab922304">type</reimplementedby>
+        <reimplementedby refid="class_ms_1_1_layout_break_1a4126bee190ef391b2bd87ca00368a6a1">type</reimplementedby>
+        <reimplementedby refid="class_ms_1_1_jump_1a731b1a130904ce1d7301c98d2c441b63">type</reimplementedby>
+        <reimplementedby refid="class_ms_1_1_arpeggio_1a05ec565d65769301e2a6451e765eb2fb">type</reimplementedby>
+        <reimplementedby refid="class_ms_1_1_volta_1a8d7d64edb96e45263d21223cbfdc5a38">type</reimplementedby>
+        <reimplementedby refid="class_ms_1_1_tremolo_1a45b66575d5d035cc90cb0746a70f83e3">type</reimplementedby>
+        <reimplementedby refid="class_ms_1_1_hairpin_segment_1a779da52884d8a4c69d565d3fc74ad7f9">type</reimplementedby>
+        <reimplementedby refid="class_ms_1_1_bagpipe_embellishment_1a439bf02252cfcf4bee6e7afb6ff13dac">type</reimplementedby>
+        <reimplementedby refid="class_ms_1_1_image_1a9be4d04b8d72eef57989b4c0373deddc">type</reimplementedby>
+        <reimplementedby refid="class_ms_1_1_slur_1a4ced10d4fab4c999eba4636aadcc38c4">type</reimplementedby>
+        <reimplementedby refid="class_ms_1_1_lyrics_1aa35b4534da10a76ec5da853939c46827">type</reimplementedby>
+        <reimplementedby refid="class_ms_1_1_tuplet_1aaccd26a3a1e0a34bb0da3ae526dd5305">type</reimplementedby>
+        <reimplementedby refid="class_ms_1_1_time_sig_1acc3fb65c1efb83bfd0786694aba542f9">type</reimplementedby>
+        <reimplementedby refid="class_ms_1_1_tie_1ac01399b216cb0421efacf647f0849917">type</reimplementedby>
+        <reimplementedby refid="class_ms_1_1_glissando_1a515fb676d32c04f291a87826577f3c44">type</reimplementedby>
+        <reimplementedby refid="class_ms_1_1_vibrato_1a9b67b1bc7fcaaf212d78df5361b9f7dd">type</reimplementedby>
+        <reimplementedby refid="class_ms_1_1_part_1a77da39b33e7904043d36fac77ce6eda7">type</reimplementedby>
+        <reimplementedby refid="class_ms_1_1_f_symbol_1a0254bb7036dbee7c6bbb1a8ce0a65e71">type</reimplementedby>
+        <reimplementedby refid="class_ms_1_1_ottava_segment_1abf92fbe1b69c61c76673b01445a48898">type</reimplementedby>
+        <reimplementedby refid="class_ms_1_1_trill_1a3e6acec79947799d6af331f72ec8f828">type</reimplementedby>
+        <reimplementedby refid="class_ms_1_1_bar_line_1ae2896efb1eb21528f03a3ca18bb991aa">type</reimplementedby>
+        <reimplementedby refid="class_ms_1_1_accidental_1a09971e20375bc9c8903ab79e4915b95d">type</reimplementedby>
+        <reimplementedby refid="class_ms_1_1_segment_1aafa5c086e47d01d8d9d9b5ccdd13861c">type</reimplementedby>
+        <reimplementedby refid="class_ms_1_1_articulation_1aaae2d28d2eeb578cd3140f9f22ead750">type</reimplementedby>
+        <reimplementedby refid="class_ms_1_1_beam_1a43a600ccc203bc51aa187fa12111f875">type</reimplementedby>
+        <reimplementedby refid="class_ms_1_1_hairpin_1a4cb551c15baf8c870fcd85e47893fad8">type</reimplementedby>
+        <reimplementedby refid="class_ms_1_1_dynamic_1a2ebb9f604aadbcdc5b86ce1b2c6bcecf">type</reimplementedby>
+        <reimplementedby refid="class_ms_1_1_measure_1ae41981bf29b8ff5cb871ff02bbc2a5df">type</reimplementedby>
+        <reimplementedby refid="class_ms_1_1_chord_1a07ee676c61ad4e0e32d49142c7aa1b4e">type</reimplementedby>
+        <reimplementedby refid="class_ms_1_1_system_1aa32bac9352dfab89eceaec20858e77b2">type</reimplementedby>
+        <reimplementedby refid="class_ms_1_1_ottava_1ac30104b27d55fa1ad1345b4ca11eed10">type</reimplementedby>
+        <reimplementedby refid="class_ms_1_1_staff_1a529f768be72d30bcd70cf6f05e01e54f">type</reimplementedby>
+        <reimplementedby refid="class_ms_1_1_h_box_1a5d193e2a10ec0a7e6cf515d80bb695ec">type</reimplementedby>
+        <reimplementedby refid="class_ms_1_1_harmony_1a1f0f56616dc49c8b9328cb5c3da14eae">type</reimplementedby>
+        <reimplementedby refid="class_ms_1_1_lyrics_line_1ad6ab98e31b422d64cb7eee2ac8137a98">type</reimplementedby>
+        <reimplementedby refid="class_ms_1_1_clef_1ae693fd64a1261f73931d8e83e8d0b794">type</reimplementedby>
+        <reimplementedby refid="class_ms_1_1_v_box_1a250e524a9d672e1ad564345fd5ada5d8">type</reimplementedby>
+        <reimplementedby refid="class_ms_1_1_note_head_1a290753284265855bf1f9a0b6ade511b1">type</reimplementedby>
+        <reimplementedby refid="class_ms_1_1_lyrics_line_segment_1abf76d2826bd6d44bf03fefa5b410cfe0">type</reimplementedby>
+        <reimplementedby refid="class_ms_1_1_figured_bass_item_1ace6025238bd6b04abaf40dbe1e0864e9">type</reimplementedby>
+        <reimplementedby refid="class_ms_1_1_f_box_1a2ef2c15555be8be9b4785e933bc2e105">type</reimplementedby>
+        <reimplementedby refid="class_ms_1_1_fret_diagram_1ae9ab0cfadd1f7389d65e9076f0e89bc3">type</reimplementedby>
+        <reimplementedby refid="class_ms_1_1_figured_bass_1ab9badd4cd0bdde1156a5d00ada9070d5">type</reimplementedby>
+        <reimplementedby refid="class_ms_1_1_note_1a88e44f20b100767dc6c10f5d7c5ca5a9">type</reimplementedby>
+        <reimplementedby refid="class_ms_1_1_tab_duration_symbol_1a4ecff127a7a6040784b3a87a1375f7d5">type</reimplementedby>
+        <reimplementedby refid="class_ms_1_1_score_1acff6952d015f5f2928c5c1e0050abc86">type</reimplementedby>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/scoreElement.h" line="194" column="27"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ms_1_1_score_element_1aa55b8db6cf96c29d192fbfc9e74110ff" prot="public" static="no" const="yes" explicit="no" inline="no" virt="pure-virtual">
+        <type>QVariant</type>
+        <definition>virtual QVariant Ms::ScoreElement::getProperty</definition>
+        <argsstring>(Pid) const =0</argsstring>
+        <name>getProperty</name>
+        <reimplementedby refid="class_ms_1_1_spanner_segment_1a6bc01b9fd66776f1f94ba8362544c93a">getProperty</reimplementedby>
+        <reimplementedby refid="class_ms_1_1_text_line_base_1a2cdd40e96ab9726debfc8c83dc1c629b">getProperty</reimplementedby>
+        <reimplementedby refid="class_ms_1_1_s_line_1ac8aa7c8d8384edcbb68e2975e5ec6890">getProperty</reimplementedby>
+        <reimplementedby refid="class_ms_1_1_hairpin_1abd868fc3da8aa855aefdf70e95004f56">getProperty</reimplementedby>
+        <reimplementedby refid="class_ms_1_1_spacer_1a25b0f6bcb2c1cb6e4b1a3d184c90499c">getProperty</reimplementedby>
+        <reimplementedby refid="class_ms_1_1_spanner_1a2aa7786800482cefc923dc922491e3f8">getProperty</reimplementedby>
+        <reimplementedby refid="class_ms_1_1_lasso_1ac293b31f3dbc390ce8e0e5f1e4833b49">getProperty</reimplementedby>
+        <reimplementedby refid="class_ms_1_1_instrument_name_1a06e9fea4c3e7f2fbdc28a9e2938e90fa">getProperty</reimplementedby>
+        <reimplementedby refid="class_ms_1_1_staff_type_change_1a573d2d9e9e06c5d6cc89cac8051f12fa">getProperty</reimplementedby>
+        <reimplementedby refid="class_ms_1_1_tremolo_bar_1a482f44426f6d99706329f460bd5bf417">getProperty</reimplementedby>
+        <reimplementedby refid="class_ms_1_1_stem_1a1198808998abf8cfa50af35e4e089b6d">getProperty</reimplementedby>
+        <reimplementedby refid="class_ms_1_1_bend_1a6772c42724e84b0f5b3019bf7ea10273">getProperty</reimplementedby>
+        <reimplementedby refid="class_ms_1_1_breath_1a479b1ef90519a9c22f693bdcb213f4f3">getProperty</reimplementedby>
+        <reimplementedby refid="class_ms_1_1_fermata_1ab4b75ff7969002297c87fdb17cfa9c09">getProperty</reimplementedby>
+        <reimplementedby refid="class_ms_1_1_duration_element_1af748cce9036ac8475de21745cd7139dc">getProperty</reimplementedby>
+        <reimplementedby refid="class_ms_1_1_chord_line_1ac77f30d7de83d8609a6214f977ffd2d1">getProperty</reimplementedby>
+        <reimplementedby refid="class_ms_1_1_tempo_text_1a771c3dfb64dfef72bc03df667448b384">getProperty</reimplementedby>
+        <reimplementedby refid="class_ms_1_1_marker_1af3e712c35b0a008fa73dc9fb60ae5e10">getProperty</reimplementedby>
+        <reimplementedby refid="class_ms_1_1_jump_1a441e406654047cb8a7028c051b210ae1">getProperty</reimplementedby>
+        <reimplementedby refid="class_ms_1_1_glissando_1ac3d6b3ad0cbee9278094a7f8f6525d1b">getProperty</reimplementedby>
+        <reimplementedby refid="class_ms_1_1_layout_break_1aa0094a618aacb27b23e21461cc601e9e">getProperty</reimplementedby>
+        <reimplementedby refid="class_ms_1_1_key_sig_1a6e596081b15aa310eee46fd07fa304ab">getProperty</reimplementedby>
+        <reimplementedby refid="class_ms_1_1_volta_1a1d5f56eee504b2435c3ba7491829a7d8">getProperty</reimplementedby>
+        <reimplementedby refid="class_ms_1_1_box_1a39d00605760aa0ac34d10c3e750fee81">getProperty</reimplementedby>
+        <reimplementedby refid="class_ms_1_1_vibrato_1a07ec242eff4382870cc8d2b63fe440c9">getProperty</reimplementedby>
+        <reimplementedby refid="class_ms_1_1_arpeggio_1a49eed75ed84b6015117edd081530d7a1">getProperty</reimplementedby>
+        <reimplementedby refid="class_ms_1_1_bracket_1a0b4bbef944fc9af993ecf281fc60deef">getProperty</reimplementedby>
+        <reimplementedby refid="class_ms_1_1_rest_1a1401c6bc56ad0117067aa9b2233a2091">getProperty</reimplementedby>
+        <reimplementedby refid="class_ms_1_1_slur_tie_segment_1aba6f707cf2ef6915c8d82cd12cb3602f">getProperty</reimplementedby>
+        <reimplementedby refid="class_ms_1_1_lyrics_1a5278ff16467eab1b7ee235f284c16e31">getProperty</reimplementedby>
+        <reimplementedby refid="class_ms_1_1_tremolo_1a861514021b2b04f7493210de33d25ce1">getProperty</reimplementedby>
+        <reimplementedby refid="class_ms_1_1_articulation_1a5bea4163ea024f445f27d2845c492337">getProperty</reimplementedby>
+        <reimplementedby refid="class_ms_1_1_trill_1ae5a51f0ac9e592da278cc567680dee47">getProperty</reimplementedby>
+        <reimplementedby refid="class_ms_1_1_time_sig_1a46c1d7f6e1f6f3202ccb8710f14715f3">getProperty</reimplementedby>
+        <reimplementedby refid="class_ms_1_1_accidental_1ab58bade751475daa2d323248b531beca">getProperty</reimplementedby>
+        <reimplementedby refid="class_ms_1_1_ottava_1aa53460e1d11a46a506fc2ddd32c0c8c6">getProperty</reimplementedby>
+        <reimplementedby refid="class_ms_1_1_h_box_1a6b184dd10bd1da47529c697dcb820dc2">getProperty</reimplementedby>
+        <reimplementedby refid="class_ms_1_1_bar_line_1af1f1f77a70a7050cfa14bf43466db981">getProperty</reimplementedby>
+        <reimplementedby refid="class_ms_1_1_tuplet_1af9963792c32d2462d96a9ed68230b80c">getProperty</reimplementedby>
+        <reimplementedby refid="class_ms_1_1_dynamic_1a4e22a3051148b800cee7c15a87a69de2">getProperty</reimplementedby>
+        <reimplementedby refid="class_ms_1_1_beam_1ae7765593302c16afad8336d003380387">getProperty</reimplementedby>
+        <reimplementedby refid="class_ms_1_1_chord_rest_1a9998cf9d72661ff98e5402e1dcfd17b7">getProperty</reimplementedby>
+        <reimplementedby refid="class_ms_1_1_slur_tie_1ab5832d30b7237bc97a8a0c5bbab6669f">getProperty</reimplementedby>
+        <reimplementedby refid="class_ms_1_1_clef_1a5cb2f701e76aecf7ea02ea80755ab831">getProperty</reimplementedby>
+        <reimplementedby refid="class_ms_1_1_segment_1afb1f4dcc84b940e801abb3c8769325f8">getProperty</reimplementedby>
+        <reimplementedby refid="class_ms_1_1_figured_bass_item_1a29a6379b530f2c16817fbf979791e69e">getProperty</reimplementedby>
+        <reimplementedby refid="class_ms_1_1_chord_1a8958a6a6eae050f1d0edb09eecc5ee80">getProperty</reimplementedby>
+        <reimplementedby refid="class_ms_1_1_harmony_1a24c8734dd77c0eac73975e5679b40e21">getProperty</reimplementedby>
+        <reimplementedby refid="class_ms_1_1_fret_diagram_1ac7fb2792f58db29543f4c6db30152ca1">getProperty</reimplementedby>
+        <reimplementedby refid="class_ms_1_1_measure_1a7b480ee6b8a886f992c451071c18d243">getProperty</reimplementedby>
+        <reimplementedby refid="class_ms_1_1_figured_bass_1a558fbf9a619a428242cf36950428b0b0">getProperty</reimplementedby>
+        <reimplementedby refid="class_ms_1_1_text_base_1aae365cf1dfd76361cb4293d5ba8a9786">getProperty</reimplementedby>
+        <reimplementedby refid="class_ms_1_1_note_1a5ef1020e6b5b1c13b00650bb61b3353a">getProperty</reimplementedby>
+        <reimplementedby refid="class_ms_1_1_ambitus_1a96588f5ea27eadc42386162b5e523529">getProperty</reimplementedby>
+        <reimplementedby refid="class_ms_1_1_bracket_item_1ad904540e375e5281eba639bcc078d5f9">getProperty</reimplementedby>
+        <reimplementedby refid="class_ms_1_1_icon_1a836092aee43e30eaa289672fcf1fbb9d">getProperty</reimplementedby>
+        <reimplementedby refid="class_ms_1_1_symbol_1a99035aabccecbdab6659fb2b8fdceceb">getProperty</reimplementedby>
+        <reimplementedby refid="class_ms_1_1_image_1a641e7147298896b2d273a3d5119f8a58">getProperty</reimplementedby>
+        <reimplementedby refid="class_ms_1_1_part_1a28645e8ca15388482e22e1a49d3afcc9">getProperty</reimplementedby>
+        <reimplementedby refid="class_ms_1_1_measure_base_1ad28e90512e43ecb8b5d1f48e425a575b">getProperty</reimplementedby>
+        <reimplementedby refid="class_ms_1_1_staff_1a34a85fdfcdfb804f3fd310ea01d3fc64">getProperty</reimplementedby>
+        <reimplementedby refid="class_ms_1_1_element_1aceaefa5b47ba457d6f2e69c0ce573105">getProperty</reimplementedby>
+        <reimplementedby refid="class_ms_1_1_score_1a10ef092a2343222f5dc8e62da1661be4">getProperty</reimplementedby>
+        <param>
+          <type>Pid</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/scoreElement.h" line="200" column="24"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ms_1_1_score_element_1a6746334cee7348173d3175c433ed2fab" prot="public" static="no" const="no" explicit="no" inline="no" virt="pure-virtual">
+        <type>bool</type>
+        <definition>virtual bool Ms::ScoreElement::setProperty</definition>
+        <argsstring>(Pid, const QVariant &amp;)=0</argsstring>
+        <name>setProperty</name>
+        <reimplementedby refid="class_ms_1_1_spanner_segment_1a1c06addc838696253012873b6391da74">setProperty</reimplementedby>
+        <reimplementedby refid="class_ms_1_1_spacer_1a25cf4f6c59035bf239e32e9f4be94c97">setProperty</reimplementedby>
+        <reimplementedby refid="class_ms_1_1_ambitus_1a766731e3e6e18e27d3a60bcd63acc148">setProperty</reimplementedby>
+        <reimplementedby refid="class_ms_1_1_lasso_1a23c90911706225fc95d89abd37b278d3">setProperty</reimplementedby>
+        <reimplementedby refid="class_ms_1_1_instrument_name_1a7b979023e87f33bca2463d5d986d01a3">setProperty</reimplementedby>
+        <reimplementedby refid="class_ms_1_1_staff_type_change_1a9a1b1f6a9d4516f9198cb7fdbda6cbd4">setProperty</reimplementedby>
+        <reimplementedby refid="class_ms_1_1_tremolo_bar_1ade91b4e9756ab9e2153fe6c1270117a7">setProperty</reimplementedby>
+        <reimplementedby refid="class_ms_1_1_stem_1a40d27d3c7e9699e749358a7983b50d07">setProperty</reimplementedby>
+        <reimplementedby refid="class_ms_1_1_bend_1a6920326d5c8bdff473f23245d76721c9">setProperty</reimplementedby>
+        <reimplementedby refid="class_ms_1_1_breath_1a6747401d9499a247862304a92900f40b">setProperty</reimplementedby>
+        <reimplementedby refid="class_ms_1_1_fermata_1ad2d74a4a749c6e5a30304821a9b9c155">setProperty</reimplementedby>
+        <reimplementedby refid="class_ms_1_1_duration_element_1a24cc10af02991043f449c9ddff91e354">setProperty</reimplementedby>
+        <reimplementedby refid="class_ms_1_1_chord_line_1a5cb371798467455259e2659e80782484">setProperty</reimplementedby>
+        <reimplementedby refid="class_ms_1_1_tempo_text_1a7f89abd80432a7d725781ad03f2d3481">setProperty</reimplementedby>
+        <reimplementedby refid="class_ms_1_1_marker_1ad738f6d3b340974766a373147abecec0">setProperty</reimplementedby>
+        <reimplementedby refid="class_ms_1_1_jump_1ab9e6947b3fca161b6dc6c6b395124aa0">setProperty</reimplementedby>
+        <reimplementedby refid="class_ms_1_1_glissando_1a6ae7e46d5869ce1ecbc3f1e5db727506">setProperty</reimplementedby>
+        <reimplementedby refid="class_ms_1_1_layout_break_1a2824d77134fe21745f04d6740d4216f0">setProperty</reimplementedby>
+        <reimplementedby refid="class_ms_1_1_image_1aa3b63d0e907464506c36a42486dde2b1">setProperty</reimplementedby>
+        <reimplementedby refid="class_ms_1_1_key_sig_1af66e30f5b68079d1c90b82778fdb9e20">setProperty</reimplementedby>
+        <reimplementedby refid="class_ms_1_1_volta_1abff722e41fc6a0d1ca659d7b938283b2">setProperty</reimplementedby>
+        <reimplementedby refid="class_ms_1_1_box_1a60b3022c9e593e6079eee1d8434a3141">setProperty</reimplementedby>
+        <reimplementedby refid="class_ms_1_1_vibrato_1abfcfa9c06eee863922a4167aa343400e">setProperty</reimplementedby>
+        <reimplementedby refid="class_ms_1_1_arpeggio_1a91cbb7ef59d22064ce89201b71462ff1">setProperty</reimplementedby>
+        <reimplementedby refid="class_ms_1_1_bracket_1ae3d77593794e2dc901e4cd4b03fe7346">setProperty</reimplementedby>
+        <reimplementedby refid="class_ms_1_1_slur_tie_segment_1a294ca62b7aad260df858cca33693e627">setProperty</reimplementedby>
+        <reimplementedby refid="class_ms_1_1_lyrics_1a7209e607909426379106850b65dafb35">setProperty</reimplementedby>
+        <reimplementedby refid="class_ms_1_1_tremolo_1a20865d46f11c302daa8e24830f1b3f39">setProperty</reimplementedby>
+        <reimplementedby refid="class_ms_1_1_articulation_1a895ccd9ef3f4b690e8d6db92ef68951d">setProperty</reimplementedby>
+        <reimplementedby refid="class_ms_1_1_trill_1a39cc0aba7a19b93527d33992dc425116">setProperty</reimplementedby>
+        <reimplementedby refid="class_ms_1_1_time_sig_1a445e6f5fad7183c30537969cc2750da8">setProperty</reimplementedby>
+        <reimplementedby refid="class_ms_1_1_accidental_1a55d5747591e4b2b00c07055c3abcefcb">setProperty</reimplementedby>
+        <reimplementedby refid="class_ms_1_1_text_line_base_1a9665c397b2b7facfa2a20d9fa88ecf6a">setProperty</reimplementedby>
+        <reimplementedby refid="class_ms_1_1_s_line_1a0680296ec6940d77f83fe2eecbf59efc">setProperty</reimplementedby>
+        <reimplementedby refid="class_ms_1_1_ottava_1a9640dae3a3948869cae8cee601bb21cf">setProperty</reimplementedby>
+        <reimplementedby refid="class_ms_1_1_h_box_1a98b3fff384da1eb5e573ea4b5f298643">setProperty</reimplementedby>
+        <reimplementedby refid="class_ms_1_1_bar_line_1a86bdc0a1aa0004e87e4cb21c250a0070">setProperty</reimplementedby>
+        <reimplementedby refid="class_ms_1_1_hairpin_1a5971c74e1c25cacb5ab22e5c4d96705e">setProperty</reimplementedby>
+        <reimplementedby refid="class_ms_1_1_dynamic_1aa9a597124dc1d03a9ff9fb52a176e901">setProperty</reimplementedby>
+        <reimplementedby refid="class_ms_1_1_beam_1aa962d55ee7cfdd5ea7cfaa191e12a638">setProperty</reimplementedby>
+        <reimplementedby refid="class_ms_1_1_chord_rest_1a69e9ec83b46d8fbe7e1f1812b5067a22">setProperty</reimplementedby>
+        <reimplementedby refid="class_ms_1_1_slur_tie_1af16d2a2b7b1193a56fe66b8642d5d4d5">setProperty</reimplementedby>
+        <reimplementedby refid="class_ms_1_1_clef_1a6bb73ba60cd59e8196d4acef4664457a">setProperty</reimplementedby>
+        <reimplementedby refid="class_ms_1_1_segment_1a210480665bdc52b0e5975102fdb60eb5">setProperty</reimplementedby>
+        <reimplementedby refid="class_ms_1_1_figured_bass_item_1aea6bd3e20781c88d52146323c91ef180">setProperty</reimplementedby>
+        <reimplementedby refid="class_ms_1_1_chord_1ad35c2bb16e7bc3823a0f57939071339c">setProperty</reimplementedby>
+        <reimplementedby refid="class_ms_1_1_fret_diagram_1a7239837cf1e82eb6dfa0ede6294bf045">setProperty</reimplementedby>
+        <reimplementedby refid="class_ms_1_1_measure_1a8c45b32487eb8f5c4585bb7c12a848b8">setProperty</reimplementedby>
+        <reimplementedby refid="class_ms_1_1_figured_bass_1ae72db0a08d34978150a6ea3d12fcaba5">setProperty</reimplementedby>
+        <reimplementedby refid="class_ms_1_1_note_1a0adf97c9436679e94904fca3747f457a">setProperty</reimplementedby>
+        <reimplementedby refid="class_ms_1_1_spanner_1ad7309cc17324a2dabbae160197fa8ca2">setProperty</reimplementedby>
+        <reimplementedby refid="class_ms_1_1_rest_1ab3bc017c6d1094b50a1baefe2bc00ec2">setProperty</reimplementedby>
+        <reimplementedby refid="class_ms_1_1_lyrics_line_1a1f0b05fd2da23685f372a8f859eb2012">setProperty</reimplementedby>
+        <reimplementedby refid="class_ms_1_1_tuplet_1abbfd46909b1145999dc45689a90f04d6">setProperty</reimplementedby>
+        <reimplementedby refid="class_ms_1_1_harmony_1a2ce2ff861f1a78e2e21369befed26ab4">setProperty</reimplementedby>
+        <reimplementedby refid="class_ms_1_1_text_base_1ab5a2d7010d712f80c0c219d842e79836">setProperty</reimplementedby>
+        <reimplementedby refid="class_ms_1_1_bracket_item_1ab370a1f3646eddc8809ba14e0eb1ed19">setProperty</reimplementedby>
+        <reimplementedby refid="class_ms_1_1_icon_1a68a6525d59e0ac7f694356027d4afeac">setProperty</reimplementedby>
+        <reimplementedby refid="class_ms_1_1_symbol_1a7823986787d7f229d1f4bfe3340318e8">setProperty</reimplementedby>
+        <reimplementedby refid="class_ms_1_1_part_1af6597ca69e71f04a1d2b84fc40bb784b">setProperty</reimplementedby>
+        <reimplementedby refid="class_ms_1_1_measure_base_1af9ede3d14a4842dbe4312d0e4f40638f">setProperty</reimplementedby>
+        <reimplementedby refid="class_ms_1_1_staff_1acce2892a66214eca6eba92ccf9e2a838">setProperty</reimplementedby>
+        <reimplementedby refid="class_ms_1_1_element_1af276960f1e28fd18438752eb19895ace">setProperty</reimplementedby>
+        <reimplementedby refid="class_ms_1_1_score_1ac03d6968e9240bbf26a32fcdf857784a">setProperty</reimplementedby>
+        <param>
+          <type>Pid</type>
+        </param>
+        <param>
+          <type>const QVariant &amp;</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/scoreElement.h" line="201" column="20"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ms_1_1_score_element_1ab3fcbdb9cd19d04933bd15434138c230" prot="public" static="no" const="yes" explicit="no" inline="no" virt="virtual">
+        <type>QVariant</type>
+        <definition>QVariant Ms::ScoreElement::propertyDefault</definition>
+        <argsstring>(Pid) const</argsstring>
+        <name>propertyDefault</name>
+        <reimplementedby refid="class_ms_1_1_spacer_1a74dc26ffb6b7d4f2499dfab106cdeed2">propertyDefault</reimplementedby>
+        <reimplementedby refid="class_ms_1_1_ambitus_1ad6071405662a29c54cdf0bf09b812b77">propertyDefault</reimplementedby>
+        <reimplementedby refid="class_ms_1_1_system_text_1abae87b6f4533d4bd0d44d8a2b76e6be8">propertyDefault</reimplementedby>
+        <reimplementedby refid="class_ms_1_1_staff_text_1af68ef57ae5c273145a23a93d9d15ca71">propertyDefault</reimplementedby>
+        <reimplementedby refid="class_ms_1_1_measure_number_1a237c2c2e97c9c94b652b671bfb618e94">propertyDefault</reimplementedby>
+        <reimplementedby refid="class_ms_1_1_text_1ab866a15ed6cb88613eac008a4b47bad8">propertyDefault</reimplementedby>
+        <reimplementedby refid="class_ms_1_1_rehearsal_mark_1a8a89e25f863449972c6f25f5d332acc3">propertyDefault</reimplementedby>
+        <reimplementedby refid="class_ms_1_1_sticking_1a4ae0d8a27f8eca457f7063e1a7cc736f">propertyDefault</reimplementedby>
+        <reimplementedby refid="class_ms_1_1_bracket_item_1a418091520b3b6102ecd26c8edc582101">propertyDefault</reimplementedby>
+        <reimplementedby refid="class_ms_1_1_fingering_1a6dc8acc018187c2216b4f4e97d8ef631">propertyDefault</reimplementedby>
+        <reimplementedby refid="class_ms_1_1_stem_1a65edd8950ff0bad1555f43743e23536f">propertyDefault</reimplementedby>
+        <reimplementedby refid="class_ms_1_1_tempo_text_1ab46535f930a711f60d2cbe1811d349c9">propertyDefault</reimplementedby>
+        <reimplementedby refid="class_ms_1_1_image_1a80593f0644b69d193a6cb35c3d71ba82">propertyDefault</reimplementedby>
+        <reimplementedby refid="class_ms_1_1_key_sig_1ae8b49c559623fd83d29e45971bbb870c">propertyDefault</reimplementedby>
+        <reimplementedby refid="class_ms_1_1_spanner_segment_1a369539e94f71f276db767b2c9427a91f">propertyDefault</reimplementedby>
+        <reimplementedby refid="class_ms_1_1_slur_tie_segment_1aaa59bdfe539d16496cfc1723519f7a74">propertyDefault</reimplementedby>
+        <reimplementedby refid="class_ms_1_1_lyrics_1a3e4c20910bcf20f671d8811129e26ebc">propertyDefault</reimplementedby>
+        <reimplementedby refid="class_ms_1_1_time_sig_1a35b0fb181c0b59abac05eb29492bfb6a">propertyDefault</reimplementedby>
+        <reimplementedby refid="class_ms_1_1_s_line_1a1264cd38eec445c77e790cda228df366">propertyDefault</reimplementedby>
+        <reimplementedby refid="class_ms_1_1_tuplet_1aa7f50331a02c7bf891bb8ec899b3a5a6">propertyDefault</reimplementedby>
+        <reimplementedby refid="class_ms_1_1_hairpin_1aed2fe6523b1633faf4a63142200c20d0">propertyDefault</reimplementedby>
+        <reimplementedby refid="class_ms_1_1_dynamic_1a6ab5b6fb87cd598696e5c46dd516c85c">propertyDefault</reimplementedby>
+        <reimplementedby refid="class_ms_1_1_beam_1ab5c58f9bcf36b24b78015f7ef3058bcb">propertyDefault</reimplementedby>
+        <reimplementedby refid="class_ms_1_1_slur_tie_1a65ecbb178c6faa7e6626ae2aebcb243b">propertyDefault</reimplementedby>
+        <reimplementedby refid="class_ms_1_1_clef_1ab0509634b2f6290f179a324d7d509a96">propertyDefault</reimplementedby>
+        <reimplementedby refid="class_ms_1_1_harmony_1a34a3dc00e29f2eac96dea93434a10563">propertyDefault</reimplementedby>
+        <reimplementedby refid="class_ms_1_1_text_base_1ad438fe216fbb719fbec8e44ae7fc6d5a">propertyDefault</reimplementedby>
+        <reimplementedby refid="class_ms_1_1_spanner_1af9d305a4513e6f1058ac3948964382f6">propertyDefault</reimplementedby>
+        <reimplementedby refid="class_ms_1_1_let_ring_1aa100c53ae33086e1ec18351d159a043c">propertyDefault</reimplementedby>
+        <reimplementedby refid="class_ms_1_1_pedal_1a53d04091ae6551b9ca5b36d0724970ba">propertyDefault</reimplementedby>
+        <reimplementedby refid="class_ms_1_1_palm_mute_1a2dba20e00d3a91e47ab3cf9fb48d020a">propertyDefault</reimplementedby>
+        <reimplementedby refid="class_ms_1_1_arpeggio_1a57aecfb0c1798d6a116154fbd894002a">propertyDefault</reimplementedby>
+        <reimplementedby refid="class_ms_1_1_accidental_1ac713459138185b5bd6487d628444da5e">propertyDefault</reimplementedby>
+        <reimplementedby refid="class_ms_1_1_bar_line_1a24a00767cb1f80a97141528ec20e4b02">propertyDefault</reimplementedby>
+        <reimplementedby refid="class_ms_1_1_instrument_name_1acffc2e6f6dd0e28169ecdb34400830e0">propertyDefault</reimplementedby>
+        <reimplementedby refid="class_ms_1_1_staff_type_change_1a9a0e6bdd1dc3d82030459d5905dffcb5">propertyDefault</reimplementedby>
+        <reimplementedby refid="class_ms_1_1_tremolo_bar_1ab7777d04246c318f9116db1fb4b5cf14">propertyDefault</reimplementedby>
+        <reimplementedby refid="class_ms_1_1_text_line_1a3513fc100058ce1c3ea09c2690665a76">propertyDefault</reimplementedby>
+        <reimplementedby refid="class_ms_1_1_instrument_change_1aaf1a2081932721854ab547df6fe6672b">propertyDefault</reimplementedby>
+        <reimplementedby refid="class_ms_1_1_bend_1a8e1a059dfee1bb8465f97a4b67c2463b">propertyDefault</reimplementedby>
+        <reimplementedby refid="class_ms_1_1_breath_1a2f199fd578f82a87dc401b427c88c4c7">propertyDefault</reimplementedby>
+        <reimplementedby refid="class_ms_1_1_fermata_1a130d1ee5faf3672f4e8f76a3de4ed808">propertyDefault</reimplementedby>
+        <reimplementedby refid="class_ms_1_1_chord_line_1a54d9396ab6610a8584868e60f94925c6">propertyDefault</reimplementedby>
+        <reimplementedby refid="class_ms_1_1_marker_1a346bef5f5e2c8c4767ba77a5226bf60a">propertyDefault</reimplementedby>
+        <reimplementedby refid="class_ms_1_1_jump_1accd3b9e94798b1495b6e43b349582d46">propertyDefault</reimplementedby>
+        <reimplementedby refid="class_ms_1_1_glissando_1a3813927bbb3793c0edb97da274d2725f">propertyDefault</reimplementedby>
+        <reimplementedby refid="class_ms_1_1_layout_break_1a28ba9d2c8acdd2b3056cf63096d1fac6">propertyDefault</reimplementedby>
+        <reimplementedby refid="class_ms_1_1_volta_1a77ccc9a43d3f3f3fc53958c3631afdd1">propertyDefault</reimplementedby>
+        <reimplementedby refid="class_ms_1_1_box_1a163efed06491f473b93fab2bb6c6498a">propertyDefault</reimplementedby>
+        <reimplementedby refid="class_ms_1_1_vibrato_1aadb2b5a0bc1907e4d3521869c511b4c3">propertyDefault</reimplementedby>
+        <reimplementedby refid="class_ms_1_1_bracket_1a68c5cf305dfadeb05c2f9bb4408c1fca">propertyDefault</reimplementedby>
+        <reimplementedby refid="class_ms_1_1_rest_1ac43a747b1da8ddae47e00a85b1530fb5">propertyDefault</reimplementedby>
+        <reimplementedby refid="class_ms_1_1_articulation_1af15b76a6c6d5fc9f316bd00342b46f65">propertyDefault</reimplementedby>
+        <reimplementedby refid="class_ms_1_1_trill_1a8d8eaf765afef4ae87f2457847942a95">propertyDefault</reimplementedby>
+        <reimplementedby refid="class_ms_1_1_ottava_1aedce52201b4f00b25d06f97372761efd">propertyDefault</reimplementedby>
+        <reimplementedby refid="class_ms_1_1_h_box_1ac50b611e4a798f6fa240379be3e9d79a">propertyDefault</reimplementedby>
+        <reimplementedby refid="class_ms_1_1_measure_base_1a2f9ae1187f4e1d20a8cc065984d38b54">propertyDefault</reimplementedby>
+        <reimplementedby refid="class_ms_1_1_chord_rest_1a36c27cbff08f33c7785e001bee88381b">propertyDefault</reimplementedby>
+        <reimplementedby refid="class_ms_1_1_segment_1a5a8d9501d46968fddbc05f290515de1e">propertyDefault</reimplementedby>
+        <reimplementedby refid="class_ms_1_1_figured_bass_item_1a6cbdf442926daca50200ad11880638a4">propertyDefault</reimplementedby>
+        <reimplementedby refid="class_ms_1_1_chord_1a6f0c62a523ac6a2c445118fb472d2434">propertyDefault</reimplementedby>
+        <reimplementedby refid="class_ms_1_1_fret_diagram_1a4af65fcbfb2e7a21708e2263add9d93b">propertyDefault</reimplementedby>
+        <reimplementedby refid="class_ms_1_1_measure_1aba1be8fb011e8f82006930ad449fda67">propertyDefault</reimplementedby>
+        <reimplementedby refid="class_ms_1_1_staff_1a14f0972d179c37317a4ccd53a6f897ce">propertyDefault</reimplementedby>
+        <reimplementedby refid="class_ms_1_1_figured_bass_1a335e0502ffd57ebc33acc0ad141feca1">propertyDefault</reimplementedby>
+        <reimplementedby refid="class_ms_1_1_element_1a3662edfaf353472183a54466eb5749ae">propertyDefault</reimplementedby>
+        <reimplementedby refid="class_ms_1_1_note_1a7ead9c27b80ad9efe77e4c1b6f4f74ce">propertyDefault</reimplementedby>
+        <reimplementedby refid="class_ms_1_1_score_1a645bb433cd12ba11682d3f4e3cfbe21f">propertyDefault</reimplementedby>
+        <param>
+          <type>Pid</type>
+          <defname>pid</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/scoreElement.h" line="202" column="24" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/scoreElement.cpp" bodystart="189" bodyend="196"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ms_1_1_score_element_1a8f3e233ff30279756578c751c0ea3e17" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void Ms::ScoreElement::resetProperty</definition>
+        <argsstring>(Pid id)</argsstring>
+        <name>resetProperty</name>
+        <reimplementedby refid="class_ms_1_1_fermata_1a8a60a800455a8ca1087f0226b74d5e30">resetProperty</reimplementedby>
+        <reimplementedby refid="class_ms_1_1_spanner_segment_1a43e4b89c7a871f0acff513f8f5ee9a8d">resetProperty</reimplementedby>
+        <reimplementedby refid="class_ms_1_1_articulation_1a0ddd4a9093c3e08979aefe1be23cce7b">resetProperty</reimplementedby>
+        <param>
+          <type>Pid</type>
+          <declname>id</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/scoreElement.h" line="203" column="20" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/scoreElement.cpp" bodystart="219" bodyend="228"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ms_1_1_score_element_1aaae0b7999568ce64245a5cf995af62b5" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>QVariant</type>
+        <definition>QVariant Ms::ScoreElement::propertyDefault</definition>
+        <argsstring>(Pid pid, Tid tid) const</argsstring>
+        <name>propertyDefault</name>
+        <param>
+          <type>Pid</type>
+          <declname>pid</declname>
+        </param>
+        <param>
+          <type><ref refid="namespace_ms_1ad1b3e57dfd5b26a280bf2ebde66b9d5a" kindref="member">Tid</ref></type>
+          <declname>tid</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/scoreElement.h" line="204" column="16" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/scoreElement.cpp" bodystart="176" bodyend="183"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ms_1_1_score_element_1ad9b5a0f3ec11f88a2659416d105ab5b0" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="virtual">
+        <type>bool</type>
+        <definition>virtual bool Ms::ScoreElement::sizeIsSpatiumDependent</definition>
+        <argsstring>() const</argsstring>
+        <name>sizeIsSpatiumDependent</name>
+        <reimplementedby refid="class_ms_1_1_element_1a3e3e415df166153ec434b9a143ad7744">sizeIsSpatiumDependent</reimplementedby>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/scoreElement.h" line="205" column="20" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/scoreElement.h" bodystart="205" bodyend="205"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ms_1_1_score_element_1a89ab22206aebcf2c3249b5c78b1122e7" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void Ms::ScoreElement::reset</definition>
+        <argsstring>()</argsstring>
+        <name>reset</name>
+        <reimplementedby refid="class_ms_1_1_stem_1afe0008729e32aa340c751502c414333f">reset</reimplementedby>
+        <reimplementedby refid="class_ms_1_1_rest_1a2f082e1f625e53f9170ee50380fa5623">reset</reimplementedby>
+        <reimplementedby refid="class_ms_1_1_arpeggio_1a1d9e52626b9cc6644d0b496b61f26484">reset</reimplementedby>
+        <reimplementedby refid="class_ms_1_1_spanner_segment_1ab15de65b735f39e333865eab130fd975">reset</reimplementedby>
+        <reimplementedby refid="class_ms_1_1_beam_1a08909dcf2eef057f31f1363523d3554a">reset</reimplementedby>
+        <reimplementedby refid="class_ms_1_1_slur_tie_segment_1af7f758b653c9ac9d64e4d5c24af8c894">reset</reimplementedby>
+        <reimplementedby refid="class_ms_1_1_tuplet_1a71c79886c2160329c1cf741fde30f8f2">reset</reimplementedby>
+        <reimplementedby refid="class_ms_1_1_dynamic_1a61238a9f58ae06d87f2e59392ccf2791">reset</reimplementedby>
+        <reimplementedby refid="class_ms_1_1_slur_tie_1ad29f8ef186d8fc1e8880e3f7dcce2763">reset</reimplementedby>
+        <reimplementedby refid="class_ms_1_1_chord_1a127560a527e2a5c4f59003a28e95e618">reset</reimplementedby>
+        <reimplementedby refid="class_ms_1_1_element_1aaa90bc751111ad8ec041e2004321fbfe">reset</reimplementedby>
+        <reimplementedby refid="class_ms_1_1_note_1a519f62ae4063f2a55e74967a74eb8859">reset</reimplementedby>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/scoreElement.h" line="207" column="20" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/scoreElement.cpp" bodystart="516" bodyend="520"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ms_1_1_score_element_1aca54d0e9003af5f13c7121a192229255" prot="public" static="no" const="yes" explicit="no" inline="no" virt="virtual">
+        <type>Pid</type>
+        <definition>Pid Ms::ScoreElement::propertyId</definition>
+        <argsstring>(const QStringRef &amp;xmlName) const</argsstring>
+        <name>propertyId</name>
+        <reimplementedby refid="class_ms_1_1_fermata_1a37843d8d530837e50198866e34745d8c">propertyId</reimplementedby>
+        <reimplementedby refid="class_ms_1_1_chord_line_1a7e37cafc79fc146d43bd288fb84b76b4">propertyId</reimplementedby>
+        <reimplementedby refid="class_ms_1_1_glissando_1a410de5bf82c3486d97561873d811dc7e">propertyId</reimplementedby>
+        <reimplementedby refid="class_ms_1_1_layout_break_1aa5f245a643a5a897ea1633fb42c92436">propertyId</reimplementedby>
+        <reimplementedby refid="class_ms_1_1_vibrato_1a1aa14e87dc2cfcca354bd9cf1274fe74">propertyId</reimplementedby>
+        <reimplementedby refid="class_ms_1_1_arpeggio_1a2ff5c08e1a3bf7114c23ed03c9d885dc">propertyId</reimplementedby>
+        <reimplementedby refid="class_ms_1_1_tremolo_1a1cb003f5a30bf9bcf48b5f6d5c81396c">propertyId</reimplementedby>
+        <reimplementedby refid="class_ms_1_1_trill_1a4316b909ef6f59c56f2d800a37c3276a">propertyId</reimplementedby>
+        <reimplementedby refid="class_ms_1_1_articulation_1a6d564b17c4774ad791935d9117a04b3a">propertyId</reimplementedby>
+        <reimplementedby refid="class_ms_1_1_time_sig_1ac7b24d8be6b50ea72aed82d4743e245e">propertyId</reimplementedby>
+        <reimplementedby refid="class_ms_1_1_accidental_1af0fa05a4bd8edaa67f32a2d34483424e">propertyId</reimplementedby>
+        <reimplementedby refid="class_ms_1_1_text_line_base_1aa647f710e9994008155cb2e6fc35f448">propertyId</reimplementedby>
+        <reimplementedby refid="class_ms_1_1_ottava_1a0ea31503cc60d117bfd8d21730ee5779">propertyId</reimplementedby>
+        <reimplementedby refid="class_ms_1_1_bar_line_1acf1441b6974a63cb2c4fad8b160142c6">propertyId</reimplementedby>
+        <reimplementedby refid="class_ms_1_1_hairpin_1a2761541c8e750e0cb25cebc2003378b9">propertyId</reimplementedby>
+        <reimplementedby refid="class_ms_1_1_dynamic_1a1202707b94605297acdca29bf67343aa">propertyId</reimplementedby>
+        <reimplementedby refid="class_ms_1_1_text_base_1a35625aaa514b6676c42624c7dc8132cb">propertyId</reimplementedby>
+        <reimplementedby refid="class_ms_1_1_element_1a44c16323c852e23c783b8d7362cc9c6a">propertyId</reimplementedby>
+        <param>
+          <type>const QStringRef &amp;</type>
+          <declname>xmlName</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/scoreElement.h" line="209" column="19" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/scoreElement.cpp" bodystart="461" bodyend="464"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ms_1_1_score_element_1a8b64f4c9f3ea93ea6dd3e668bc24eb3e" prot="public" static="no" const="yes" explicit="no" inline="no" virt="virtual">
+        <type>QString</type>
+        <definition>QString Ms::ScoreElement::propertyUserValue</definition>
+        <argsstring>(Pid) const</argsstring>
+        <name>propertyUserValue</name>
+        <reimplementedby refid="class_ms_1_1_tremolo_1ac871f7ed82f4ccf802754a75de9f30ec">propertyUserValue</reimplementedby>
+        <reimplementedby refid="class_ms_1_1_accidental_1aa54fa8dd0f435edb5c270e2617f1946c">propertyUserValue</reimplementedby>
+        <reimplementedby refid="class_ms_1_1_dynamic_1af2545af4cbdc8c9069493b8d5b0a0e63">propertyUserValue</reimplementedby>
+        <reimplementedby refid="class_ms_1_1_element_1a01a8b01010e449fb1530dd27805ed042">propertyUserValue</reimplementedby>
+        <reimplementedby refid="class_ms_1_1_note_1a7e3548fe47c8fcd99784d93f527e7449">propertyUserValue</reimplementedby>
+        <param>
+          <type>Pid</type>
+          <defname>id</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/scoreElement.h" line="210" column="23" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/scoreElement.cpp" bodystart="470" bodyend="487"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ms_1_1_score_element_1a8deeadfce551a58b1078f1af62c2075d" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void Ms::ScoreElement::initElementStyle</definition>
+        <argsstring>(const ElementStyle *)</argsstring>
+        <name>initElementStyle</name>
+        <reimplementedby refid="class_ms_1_1_text_base_1a485420b930dce915edb2a25f8e5aeb63">initElementStyle</reimplementedby>
+        <param>
+          <type>const ElementStyle *</type>
+          <defname>ss</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/scoreElement.h" line="212" column="20" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/scoreElement.cpp" bodystart="202" bodyend="213"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ms_1_1_score_element_1a08e4c60af2466c57931724393f7bee4f" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="virtual">
+        <type>const ElementStyle *</type>
+        <definition>virtual const ElementStyle* Ms::ScoreElement::styledProperties</definition>
+        <argsstring>() const</argsstring>
+        <name>styledProperties</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/scoreElement.h" line="213" column="34" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/scoreElement.h" bodystart="213" bodyend="213"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ms_1_1_score_element_1ab00670f7d8229c14090cc3d7376d2202" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="virtual">
+        <type>PropertyFlags *</type>
+        <definition>virtual PropertyFlags* Ms::ScoreElement::propertyFlagsList</definition>
+        <argsstring>() const</argsstring>
+        <name>propertyFlagsList</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/scoreElement.h" line="215" column="29" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/scoreElement.h" bodystart="215" bodyend="215"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ms_1_1_score_element_1a9b9c00757c23cba103638b4ab63df03e" prot="public" static="no" const="yes" explicit="no" inline="no" virt="virtual">
+        <type>PropertyFlags</type>
+        <definition>PropertyFlags Ms::ScoreElement::propertyFlags</definition>
+        <argsstring>(Pid) const</argsstring>
+        <name>propertyFlags</name>
+        <reimplementedby refid="class_ms_1_1_spanner_segment_1abb6e07c098ce587333146b03e8841497">propertyFlags</reimplementedby>
+        <param>
+          <type>Pid</type>
+          <defname>id</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/scoreElement.h" line="216" column="29" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/scoreElement.cpp" bodystart="738" bodyend="746"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ms_1_1_score_element_1a4d0de3ac9401da46c32ed8becb9d496b" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool Ms::ScoreElement::isStyled</definition>
+        <argsstring>(Pid pid) const</argsstring>
+        <name>isStyled</name>
+        <param>
+          <type>Pid</type>
+          <declname>pid</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/scoreElement.h" line="217" column="12" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/scoreElement.cpp" bodystart="246" bodyend="250"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ms_1_1_score_element_1a8a3670f26efa9a07e14695cee4512dc4" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>QVariant</type>
+        <definition>QVariant Ms::ScoreElement::styleValue</definition>
+        <argsstring>(Pid, Sid) const</argsstring>
+        <name>styleValue</name>
+        <param>
+          <type>Pid</type>
+          <defname>pid</defname>
+        </param>
+        <param>
+          <type>Sid</type>
+          <defname>sid</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/scoreElement.h" line="218" column="16" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/scoreElement.cpp" bodystart="868" bodyend="900"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ms_1_1_score_element_1aceed92c262270a2a79d3f97d0f018a29" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Ms::ScoreElement::setPropertyFlags</definition>
+        <argsstring>(Pid, PropertyFlags)</argsstring>
+        <name>setPropertyFlags</name>
+        <param>
+          <type>Pid</type>
+          <defname>id</defname>
+        </param>
+        <param>
+          <type>PropertyFlags</type>
+          <defname>f</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/scoreElement.h" line="220" column="12" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/scoreElement.cpp" bodystart="752" bodyend="758"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ms_1_1_score_element_1a36d66100b5c6df17eb37f276aaca0454" prot="public" static="no" const="yes" explicit="no" inline="no" virt="virtual">
+        <type>Sid</type>
+        <definition>Sid Ms::ScoreElement::getPropertyStyle</definition>
+        <argsstring>(Pid) const</argsstring>
+        <name>getPropertyStyle</name>
+        <reimplementedby refid="class_ms_1_1_spanner_segment_1a8412bd77b0e1d87663d727c309b12d5d">getPropertyStyle</reimplementedby>
+        <reimplementedby refid="class_ms_1_1_articulation_1ad9709548e614dc1c699b7b189af0c32f">getPropertyStyle</reimplementedby>
+        <reimplementedby refid="class_ms_1_1_text_base_1a6af0bde9c997870b1bee0ef447a61f78">getPropertyStyle</reimplementedby>
+        <reimplementedby refid="class_ms_1_1_rehearsal_mark_1a33df0e612f97996ce3319f21ff6e7951">getPropertyStyle</reimplementedby>
+        <reimplementedby refid="class_ms_1_1_system_text_1a14b6a6207d80e3ae3d4a32198f5c6e7e">getPropertyStyle</reimplementedby>
+        <reimplementedby refid="class_ms_1_1_text_line_segment_1a7c001e8a03fe8407933a20130e2e9ce7">getPropertyStyle</reimplementedby>
+        <reimplementedby refid="class_ms_1_1_pedal_segment_1a395dec74615f1d91fa3ac0823f17d241">getPropertyStyle</reimplementedby>
+        <reimplementedby refid="class_ms_1_1_palm_mute_segment_1a7e97930c5deda42e611e76e33d9b0fa3">getPropertyStyle</reimplementedby>
+        <reimplementedby refid="class_ms_1_1_staff_text_1a09d59320537f247de7262b2f30ccc725">getPropertyStyle</reimplementedby>
+        <reimplementedby refid="class_ms_1_1_vibrato_segment_1a15f8a05eca7b1b4047e057b3d6024fed">getPropertyStyle</reimplementedby>
+        <reimplementedby refid="class_ms_1_1_trill_segment_1a30c95a1a076219850d802381be0a6bf7">getPropertyStyle</reimplementedby>
+        <reimplementedby refid="class_ms_1_1_sticking_1ab37f2369fb3c31d4610c070902e33558">getPropertyStyle</reimplementedby>
+        <reimplementedby refid="class_ms_1_1_fermata_1a484609adb1cc366da4b3c600edd21aa2">getPropertyStyle</reimplementedby>
+        <reimplementedby refid="class_ms_1_1_text_line_1af3c93fd1dd7a4323beba1f223d225499">getPropertyStyle</reimplementedby>
+        <reimplementedby refid="class_ms_1_1_pedal_1aa482ef694eed4d723b45abb11ebe437b">getPropertyStyle</reimplementedby>
+        <reimplementedby refid="class_ms_1_1_palm_mute_1a7215fbab1ab5d7a50725ec0a277838ba">getPropertyStyle</reimplementedby>
+        <reimplementedby refid="class_ms_1_1_hairpin_segment_1a3b2d00298dae9d446e97d645888ec63f">getPropertyStyle</reimplementedby>
+        <reimplementedby refid="class_ms_1_1_let_ring_1a6bed21d01ef1338f93a7e7faff6ebe76">getPropertyStyle</reimplementedby>
+        <reimplementedby refid="class_ms_1_1_vibrato_1a20339440454a7432a8db31b3f3be95a8">getPropertyStyle</reimplementedby>
+        <reimplementedby refid="class_ms_1_1_trill_1af9a5e02fbce33e22ee0beab9ccab3dc2">getPropertyStyle</reimplementedby>
+        <reimplementedby refid="class_ms_1_1_tempo_text_1a7120b101449746d7a94aeb5f2532fdcf">getPropertyStyle</reimplementedby>
+        <reimplementedby refid="class_ms_1_1_ottava_segment_1ab50f6566b64a4fd95a825b559f125145">getPropertyStyle</reimplementedby>
+        <reimplementedby refid="class_ms_1_1_hairpin_1adcdb5b4c5ffb709797b6aa36c59d835b">getPropertyStyle</reimplementedby>
+        <reimplementedby refid="class_ms_1_1_dynamic_1aa1750efcbfab7e5751a715012844eac7">getPropertyStyle</reimplementedby>
+        <reimplementedby refid="class_ms_1_1_ottava_1a6642b5de1c13c4303263b2e29f96a304">getPropertyStyle</reimplementedby>
+        <reimplementedby refid="class_ms_1_1_lyrics_1ae3c42ca02b15cc58c5e7f6a1fbcf6999">getPropertyStyle</reimplementedby>
+        <reimplementedby refid="class_ms_1_1_harmony_1a083ffedacf2f017e2ea9007931dc9eb4">getPropertyStyle</reimplementedby>
+        <reimplementedby refid="class_ms_1_1_figured_bass_1a10d81ec309d7de92d536a4c865baf435">getPropertyStyle</reimplementedby>
+        <param>
+          <type>Pid</type>
+          <defname>id</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/scoreElement.h" line="222" column="19" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/scoreElement.cpp" bodystart="764" bodyend="771"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ms_1_1_score_element_1a8b3be86196659c2e0fb6ed86256cb0fe" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool Ms::ScoreElement::readProperty</definition>
+        <argsstring>(const QStringRef &amp;, XmlReader &amp;, Pid)</argsstring>
+        <name>readProperty</name>
+        <param>
+          <type>const QStringRef &amp;</type>
+          <defname>s</defname>
+        </param>
+        <param>
+          <type><ref refid="class_ms_1_1_xml_reader" kindref="compound">XmlReader</ref> &amp;</type>
+          <defname>e</defname>
+        </param>
+        <param>
+          <type>Pid</type>
+          <defname>id</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/scoreElement.h" line="223" column="12" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/scoreElement.cpp" bodystart="385" bodyend="392"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ms_1_1_score_element_1a473e639853dd8adc607a5c2a63c6d4ad" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Ms::ScoreElement::readProperty</definition>
+        <argsstring>(XmlReader &amp;, Pid)</argsstring>
+        <name>readProperty</name>
+        <param>
+          <type><ref refid="class_ms_1_1_xml_reader" kindref="compound">XmlReader</ref> &amp;</type>
+          <defname>e</defname>
+        </param>
+        <param>
+          <type>Pid</type>
+          <defname>id</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/scoreElement.h" line="224" column="12" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/scoreElement.cpp" bodystart="361" bodyend="383"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ms_1_1_score_element_1a053d7512b54eaa787bcef0eba427a76f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool Ms::ScoreElement::readStyledProperty</definition>
+        <argsstring>(XmlReader &amp;e, const QStringRef &amp;tag)</argsstring>
+        <name>readStyledProperty</name>
+        <param>
+          <type><ref refid="class_ms_1_1_xml_reader" kindref="compound">XmlReader</ref> &amp;</type>
+          <declname>e</declname>
+        </param>
+        <param>
+          <type>const QStringRef &amp;</type>
+          <declname>tag</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/scoreElement.h" line="225" column="12" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/scoreElement.cpp" bodystart="493" bodyend="500"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ms_1_1_score_element_1a92ef81d3a9835ec8e78a308229da35f8" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void Ms::ScoreElement::readAddConnector</definition>
+        <argsstring>(ConnectorInfoReader *info, bool pasteMode)</argsstring>
+        <name>readAddConnector</name>
+        <reimplementedby refid="class_ms_1_1_chord_rest_1a74cadb1a265438396866bd3fc9ec90d1">readAddConnector</reimplementedby>
+        <reimplementedby refid="class_ms_1_1_measure_1a9c2149c8ec8d3c801a66b291c5e25cde">readAddConnector</reimplementedby>
+        <reimplementedby refid="class_ms_1_1_note_1abadcf3844d0f3c131aab2465d62857f7">readAddConnector</reimplementedby>
+        <reimplementedby refid="class_ms_1_1_score_1aff41f9a8dfe9ce27617a5759a68c6891">readAddConnector</reimplementedby>
+        <param>
+          <type><ref refid="class_ms_1_1_connector_info_reader" kindref="compound">ConnectorInfoReader</ref> *</type>
+          <declname>info</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>pasteMode</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/scoreElement.h" line="227" column="20" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/scoreElement.cpp" bodystart="526" bodyend="530"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ms_1_1_score_element_1abd7730432b512afc15873362a5414bad" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void Ms::ScoreElement::styleChanged</definition>
+        <argsstring>()</argsstring>
+        <name>styleChanged</name>
+        <reimplementedby refid="class_ms_1_1_text_base_1a6e115d5a5a25c93b4c890fc07681a10d">styleChanged</reimplementedby>
+        <reimplementedby refid="class_ms_1_1_score_1aa9d29bdcde59d2a8c3a002469a0fe61f">styleChanged</reimplementedby>
+        <reimplementedby refid="class_ms_1_1_marker_1abf47fb55b887d6d8ac0293a1e1d5b74a">styleChanged</reimplementedby>
+        <reimplementedby refid="class_ms_1_1_tremolo_1a95186c02db0cf6227d9bfe93522d7d86">styleChanged</reimplementedby>
+        <reimplementedby refid="class_ms_1_1_spanner_segment_1a9aaf19bf67a956f42cf5d6da130d73ac">styleChanged</reimplementedby>
+        <reimplementedby refid="class_ms_1_1_lyrics_line_1aa4405d7fdf2506a840edcb5a102fc0e8">styleChanged</reimplementedby>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/scoreElement.h" line="229" column="20" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/scoreElement.cpp" bodystart="777" bodyend="784"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ms_1_1_score_element_1af0505b234ccb7520a7d93ddd09ca4e1f" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void Ms::ScoreElement::undoChangeProperty</definition>
+        <argsstring>(Pid id, const QVariant &amp;, PropertyFlags ps)</argsstring>
+        <name>undoChangeProperty</name>
+        <reimplementedby refid="class_ms_1_1_bar_line_1a023fdaf51e5042c8ebef077c693fc2e5">undoChangeProperty</reimplementedby>
+        <reimplementedby refid="class_ms_1_1_tempo_text_1abb0c39619cfb43dafce67ed09ccea62d">undoChangeProperty</reimplementedby>
+        <reimplementedby refid="class_ms_1_1_lyrics_1a73833d7c038e4cbdcf3895d476582e86">undoChangeProperty</reimplementedby>
+        <reimplementedby refid="class_ms_1_1_ottava_segment_1a55a01f9418e8dbaa4d62c35c1e0215b2">undoChangeProperty</reimplementedby>
+        <reimplementedby refid="class_ms_1_1_spanner_segment_1afbeca9651e6ec049ae55c8814d5450a0">undoChangeProperty</reimplementedby>
+        <reimplementedby refid="class_ms_1_1_ottava_1ab4354e108370f0ab0941dfd506413ea8">undoChangeProperty</reimplementedby>
+        <reimplementedby refid="class_ms_1_1_slur_tie_segment_1a6ea841fcc5f333f3cd93512bf10e0561">undoChangeProperty</reimplementedby>
+        <reimplementedby refid="class_ms_1_1_spanner_1ac8caa934d24f2f56f35abb42c17fb950">undoChangeProperty</reimplementedby>
+        <reimplementedby refid="class_ms_1_1_element_1ab3227faba09a745523ba6748d9f94ab5">undoChangeProperty</reimplementedby>
+        <reimplementedby refid="class_ms_1_1_bracket_1ac5a532bf35edc24836b1812fd1c99404">undoChangeProperty</reimplementedby>
+        <reimplementedby refid="class_ms_1_1_text_base_1a7aeb5715834bc73b21923e42db600e55">undoChangeProperty</reimplementedby>
+        <param>
+          <type>Pid</type>
+          <declname>id</declname>
+        </param>
+        <param>
+          <type>const QVariant &amp;</type>
+          <defname>v</defname>
+        </param>
+        <param>
+          <type>PropertyFlags</type>
+          <declname>ps</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/scoreElement.h" line="231" column="20" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/scoreElement.cpp" bodystart="291" bodyend="345"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ms_1_1_score_element_1a4d0c98408c09304865fc3c9e011a9695" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Ms::ScoreElement::undoChangeProperty</definition>
+        <argsstring>(Pid id, const QVariant &amp;)</argsstring>
+        <name>undoChangeProperty</name>
+        <param>
+          <type>Pid</type>
+          <declname>id</declname>
+        </param>
+        <param>
+          <type>const QVariant &amp;</type>
+          <defname>v</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/scoreElement.h" line="232" column="12" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/scoreElement.cpp" bodystart="286" bodyend="289"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ms_1_1_score_element_1a2f2ea7d6e1179cbb00f95689125482d0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Ms::ScoreElement::undoResetProperty</definition>
+        <argsstring>(Pid id)</argsstring>
+        <name>undoResetProperty</name>
+        <param>
+          <type>Pid</type>
+          <declname>id</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/scoreElement.h" line="233" column="12" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/scoreElement.cpp" bodystart="234" bodyend="240"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ms_1_1_score_element_1ab31ad4878a7d6e5c5acbd88e3232f2fb" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Ms::ScoreElement::undoPushProperty</definition>
+        <argsstring>(Pid)</argsstring>
+        <name>undoPushProperty</name>
+        <param>
+          <type>Pid</type>
+          <defname>id</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/scoreElement.h" line="235" column="12" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/scoreElement.cpp" bodystart="351" bodyend="355"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ms_1_1_score_element_1a4ae6e7e095b8f672951ffc30f980c45d" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Ms::ScoreElement::writeProperty</definition>
+        <argsstring>(XmlWriter &amp;xml, Pid id) const</argsstring>
+        <name>writeProperty</name>
+        <param>
+          <type><ref refid="class_ms_1_1_xml_writer" kindref="compound">XmlWriter</ref> &amp;</type>
+          <declname>xml</declname>
+        </param>
+        <param>
+          <type>Pid</type>
+          <declname>id</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/scoreElement.h" line="236" column="12" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/scoreElement.cpp" bodystart="402" bodyend="455"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ms_1_1_score_element_1a7a3de180bd5a72ab3e27b7fbf9213567" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Ms::ScoreElement::writeStyledProperties</definition>
+        <argsstring>(XmlWriter &amp;) const</argsstring>
+        <name>writeStyledProperties</name>
+        <param>
+          <type><ref refid="class_ms_1_1_xml_writer" kindref="compound">XmlWriter</ref> &amp;</type>
+          <defname>xml</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/scoreElement.h" line="237" column="12" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/scoreElement.cpp" bodystart="506" bodyend="510"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ms_1_1_score_element_1a2f0ed55c566c19cb483d77250cb52450" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>QList&lt; <ref refid="class_ms_1_1_score_element" kindref="compound">ScoreElement</ref> * &gt;</type>
+        <definition>QList&lt; ScoreElement * &gt; Ms::ScoreElement::linkList</definition>
+        <argsstring>() const</argsstring>
+        <name>linkList</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/scoreElement.h" line="239" column="13" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/scoreElement.cpp" bodystart="602" bodyend="610"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ms_1_1_score_element_1a1dad93f0591eb31f69854e8f141b051e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Ms::ScoreElement::linkTo</definition>
+        <argsstring>(ScoreElement *)</argsstring>
+        <name>linkTo</name>
+        <param>
+          <type><ref refid="class_ms_1_1_score_element" kindref="compound">ScoreElement</ref> *</type>
+          <defname>element</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/scoreElement.h" line="241" column="12" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/scoreElement.cpp" bodystart="537" bodyend="556"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ms_1_1_score_element_1a1d76afaf3ee463445961c3d981901be1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Ms::ScoreElement::unlink</definition>
+        <argsstring>()</argsstring>
+        <name>unlink</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/scoreElement.h" line="242" column="12" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/scoreElement.cpp" bodystart="562" bodyend="575"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ms_1_1_score_element_1a1d34473f54590e3d8c2a1bc78b560c21" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool Ms::ScoreElement::isLinked</definition>
+        <argsstring>(ScoreElement *)</argsstring>
+        <name>isLinked</name>
+        <param>
+          <type><ref refid="class_ms_1_1_score_element" kindref="compound">ScoreElement</ref> *</type>
+          <defname>se</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>return true if se is different and linked to this element </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/scoreElement.h" line="243" column="12" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/scoreElement.cpp" bodystart="583" bodyend="586"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ms_1_1_score_element_1a994f2abd8df02a160c7055b0cae26c87" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void Ms::ScoreElement::undoUnlink</definition>
+        <argsstring>()</argsstring>
+        <name>undoUnlink</name>
+        <reimplementedby refid="class_ms_1_1_chord_rest_1af7d952577507bd43a7c5368805af6491">undoUnlink</reimplementedby>
+        <reimplementedby refid="class_ms_1_1_chord_1abe158a1edb003070a8844814b2998e7a">undoUnlink</reimplementedby>
+        <reimplementedby refid="class_ms_1_1_note_1aabfa9ef9e94c538ca446d0f9a3742009">undoUnlink</reimplementedby>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/scoreElement.h" line="245" column="20" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/scoreElement.cpp" bodystart="592" bodyend="596"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ms_1_1_score_element_1ad9b69df1d2c04f2b298520bb649a8c55" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>int</type>
+        <definition>int Ms::ScoreElement::lid</definition>
+        <argsstring>() const</argsstring>
+        <name>lid</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/scoreElement.h" line="246" column="11" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/scoreElement.h" bodystart="246" bodyend="246"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ms_1_1_score_element_1a3d5c97191484848b3f10e754246f8758" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="class_ms_1_1_linked_elements" kindref="compound">LinkedElements</ref> *</type>
+        <definition>LinkedElements* Ms::ScoreElement::links</definition>
+        <argsstring>() const</argsstring>
+        <name>links</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/scoreElement.h" line="247" column="22" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/scoreElement.h" bodystart="247" bodyend="247"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ms_1_1_score_element_1ae1e16c1a83100a1ea23b05bfb1642283" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Ms::ScoreElement::setLinks</definition>
+        <argsstring>(LinkedElements *le)</argsstring>
+        <name>setLinks</name>
+        <param>
+          <type><ref refid="class_ms_1_1_linked_elements" kindref="compound">LinkedElements</ref> *</type>
+          <declname>le</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/scoreElement.h" line="248" column="12" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/scoreElement.h" bodystart="248" bodyend="248"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ms_1_1_score_element_1ac98792e8d02a53ecabe29cf9cc02e1a1" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="virtual">
+        <type>bool</type>
+        <definition>virtual bool Ms::ScoreElement::isElement</definition>
+        <argsstring>() const</argsstring>
+        <name>isElement</name>
+        <reimplementedby refid="class_ms_1_1_element_1a52a39d1aee1e730f3cd399a5714b66f0">isElement</reimplementedby>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/scoreElement.h" line="359" column="20" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/scoreElement.h" bodystart="359" bodyend="359"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ms_1_1_score_element_1accef1c91df491a43c54e70474deea60c" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool Ms::ScoreElement::isChordRest</definition>
+        <argsstring>() const</argsstring>
+        <name>isChordRest</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/scoreElement.h" line="360" column="12" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/scoreElement.h" bodystart="360" bodyend="360"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ms_1_1_score_element_1a203290a59b13861b957d2943f65a4cf0" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool Ms::ScoreElement::isDurationElement</definition>
+        <argsstring>() const</argsstring>
+        <name>isDurationElement</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/scoreElement.h" line="361" column="12" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/scoreElement.h" bodystart="361" bodyend="361"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ms_1_1_score_element_1a372dfc0678c5194028e61b6a9a24ab62" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool Ms::ScoreElement::isSlurTieSegment</definition>
+        <argsstring>() const</argsstring>
+        <name>isSlurTieSegment</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/scoreElement.h" line="362" column="12" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/scoreElement.h" bodystart="362" bodyend="362"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ms_1_1_score_element_1acf35020b5e670ac13791697e65b679d4" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool Ms::ScoreElement::isSLineSegment</definition>
+        <argsstring>() const</argsstring>
+        <name>isSLineSegment</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/scoreElement.h" line="363" column="12" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/scoreElement.cpp" bodystart="832" bodyend="837"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ms_1_1_score_element_1a997e1063786d8c705c74b3d66c54f269" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool Ms::ScoreElement::isBox</definition>
+        <argsstring>() const</argsstring>
+        <name>isBox</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/scoreElement.h" line="364" column="12" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/scoreElement.h" bodystart="364" bodyend="364"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ms_1_1_score_element_1aac3320320d350a161ed3f9a601160451" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool Ms::ScoreElement::isVBoxBase</definition>
+        <argsstring>() const</argsstring>
+        <name>isVBoxBase</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/scoreElement.h" line="365" column="12" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/scoreElement.h" bodystart="365" bodyend="365"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ms_1_1_score_element_1a06e5d7c169bf6eb01f5f723cbdae973f" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool Ms::ScoreElement::isMeasureBase</definition>
+        <argsstring>() const</argsstring>
+        <name>isMeasureBase</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/scoreElement.h" line="366" column="12" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/scoreElement.h" bodystart="366" bodyend="366"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ms_1_1_score_element_1a979b6e1bc10cf790e755aa8641feb4cf" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool Ms::ScoreElement::isTextBase</definition>
+        <argsstring>() const</argsstring>
+        <name>isTextBase</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/scoreElement.h" line="367" column="12" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/scoreElement.cpp" bodystart="843" bodyend="862"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ms_1_1_score_element_1ab98a731c7adf65cebc23235f9fe150af" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool Ms::ScoreElement::isTextLineBaseSegment</definition>
+        <argsstring>() const</argsstring>
+        <name>isTextLineBaseSegment</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/scoreElement.h" line="368" column="12" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/scoreElement.h" bodystart="368" bodyend="377"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ms_1_1_score_element_1a0d5f2d0a979bf52ab2436f6ceb6d9ef6" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool Ms::ScoreElement::isLineSegment</definition>
+        <argsstring>() const</argsstring>
+        <name>isLineSegment</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/scoreElement.h" line="378" column="12" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/scoreElement.h" bodystart="378" bodyend="385"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ms_1_1_score_element_1a5aa58f96618edb0e3ff660e1c96c5d4e" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool Ms::ScoreElement::isSpannerSegment</definition>
+        <argsstring>() const</argsstring>
+        <name>isSpannerSegment</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/scoreElement.h" line="386" column="12" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/scoreElement.h" bodystart="386" bodyend="386"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ms_1_1_score_element_1ad05261e50a084a0c6c42fced1ca78d8f" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool Ms::ScoreElement::isBSymbol</definition>
+        <argsstring>() const</argsstring>
+        <name>isBSymbol</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/scoreElement.h" line="387" column="12" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/scoreElement.h" bodystart="387" bodyend="387"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ms_1_1_score_element_1a7151838e2192a30624d6111dd4c87918" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool Ms::ScoreElement::isTextLineBase</definition>
+        <argsstring>() const</argsstring>
+        <name>isTextLineBase</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/scoreElement.h" line="388" column="12" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/scoreElement.h" bodystart="388" bodyend="398"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ms_1_1_score_element_1a4de90a044cdd2a7030d707f2b081c8a4" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool Ms::ScoreElement::isSLine</definition>
+        <argsstring>() const</argsstring>
+        <name>isSLine</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/scoreElement.h" line="399" column="12" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/scoreElement.h" bodystart="399" bodyend="401"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ms_1_1_score_element_1a98f8c58df0f5baafe63414bedf84514f" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool Ms::ScoreElement::isSpanner</definition>
+        <argsstring>() const</argsstring>
+        <name>isSpanner</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/scoreElement.h" line="403" column="12" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/scoreElement.h" bodystart="403" bodyend="411"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ms_1_1_score_element_1ac009e016c7a3dc148b0aaad50c1c4547" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool Ms::ScoreElement::isStaffTextBase</definition>
+        <argsstring>() const</argsstring>
+        <name>isStaffTextBase</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/scoreElement.h" line="412" column="12" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/scoreElement.h" bodystart="412" bodyend="414"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="class_ms_1_1_score_element_1a971f91737e74571d6e4b6bb78f56e1dc" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="namespace_ms_1a2c92ce0204176ede1ab86e2f44ae6b9e" kindref="member">ElementType</ref></type>
+        <definition>ElementType Ms::ScoreElement::name2type</definition>
+        <argsstring>(const QStringRef &amp;, bool silent=false)</argsstring>
+        <name>name2type</name>
+        <param>
+          <type>const QStringRef &amp;</type>
+          <defname>s</defname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>silent</declname>
+          <defval>false</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/scoreElement.h" line="196" column="26" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/scoreElement.cpp" bodystart="817" bodyend="826"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ms_1_1_score_element_1ae41701f68025bc77c26f6db74b452465" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="namespace_ms_1a2c92ce0204176ede1ab86e2f44ae6b9e" kindref="member">ElementType</ref></type>
+        <definition>static ElementType Ms::ScoreElement::name2type</definition>
+        <argsstring>(const QString &amp;s)</argsstring>
+        <name>name2type</name>
+        <param>
+          <type>const QString &amp;</type>
+          <declname>s</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/scoreElement.h" line="197" column="26" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/scoreElement.h" bodystart="197" bodyend="197"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ms_1_1_score_element_1ab6ded8e7ff6dcb45db0036a57f9f9d26" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>const char *</type>
+        <definition>const char * Ms::ScoreElement::name</definition>
+        <argsstring>(ElementType)</argsstring>
+        <name>name</name>
+        <param>
+          <type><ref refid="namespace_ms_1a2c92ce0204176ede1ab86e2f44ae6b9e" kindref="member">ElementType</ref></type>
+          <defname>type</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/scoreElement.h" line="198" column="25" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/scoreElement.cpp" bodystart="799" bodyend="802"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="94">
+        <label>Ms::TextBase</label>
+        <link refid="class_ms_1_1_text_base"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="15">
+        <label>Ms::FSymbol</label>
+        <link refid="class_ms_1_1_f_symbol"/>
+        <childnode refid="14" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="97">
+        <label>Ms::Fingering</label>
+        <link refid="class_ms_1_1_fingering"/>
+        <childnode refid="94" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="75">
+        <label>Ms::HairpinSegment</label>
+        <link refid="class_ms_1_1_hairpin_segment"/>
+        <childnode refid="74" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="16">
+        <label>Ms::Image</label>
+        <link refid="class_ms_1_1_image"/>
+        <childnode refid="14" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="98">
+        <label>Ms::Harmony</label>
+        <link refid="class_ms_1_1_harmony"/>
+        <childnode refid="94" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="32">
+        <label>Ms::FretDiagram</label>
+        <link refid="class_ms_1_1_fret_diagram"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="71">
+        <label>Ms::LineSegment</label>
+        <link refid="class_ms_1_1_line_segment"/>
+        <childnode refid="70" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="118">
+        <label>Ms::Staff</label>
+        <link refid="class_ms_1_1_staff"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="65">
+        <label>Ms::Trill</label>
+        <link refid="class_ms_1_1_trill"/>
+        <childnode refid="53" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="38">
+        <label>Ms::MeasureBase</label>
+        <link refid="class_ms_1_1_measure_base"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="108">
+        <label>Ms::SystemText</label>
+        <link refid="class_ms_1_1_system_text"/>
+        <childnode refid="106" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="103">
+        <label>Ms::Marker</label>
+        <link refid="class_ms_1_1_marker"/>
+        <childnode refid="94" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="64">
+        <label>Ms::Volta</label>
+        <link refid="class_ms_1_1_volta"/>
+        <childnode refid="56" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="57">
+        <label>Ms::Hairpin</label>
+        <link refid="class_ms_1_1_hairpin"/>
+        <childnode refid="56" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="24">
+        <label>Ms::DurationElement</label>
+        <link refid="class_ms_1_1_duration_element"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="39">
+        <label>Ms::Box</label>
+        <link refid="class_ms_1_1_box"/>
+        <childnode refid="38" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="85">
+        <label>Ms::SlurSegment</label>
+        <link refid="class_ms_1_1_slur_segment"/>
+        <childnode refid="84" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="5">
+        <label>Ms::Ambitus</label>
+        <link refid="class_ms_1_1_ambitus"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="4">
+        <label>Ms::Accidental</label>
+        <link refid="class_ms_1_1_accidental"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="77">
+        <label>Ms::OttavaSegment</label>
+        <link refid="class_ms_1_1_ottava_segment"/>
+        <childnode refid="74" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="82">
+        <label>Ms::TrillSegment</label>
+        <link refid="class_ms_1_1_trill_segment"/>
+        <childnode refid="71" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="63">
+        <label>Ms::TextLine</label>
+        <link refid="class_ms_1_1_text_line"/>
+        <childnode refid="56" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="35">
+        <label>Ms::Lasso</label>
+        <link refid="class_ms_1_1_lasso"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="59">
+        <label>Ms::NoteLine</label>
+        <link refid="class_ms_1_1_note_line"/>
+        <childnode refid="56" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="87">
+        <label>Ms::StaffLines</label>
+        <link refid="class_ms_1_1_staff_lines"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="90">
+        <label>Ms::Stem</label>
+        <link refid="class_ms_1_1_stem"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="113">
+        <label>Ms::Tremolo</label>
+        <link refid="class_ms_1_1_tremolo"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="22">
+        <label>Ms::Clef</label>
+        <link refid="class_ms_1_1_clef"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="117">
+        <label>Ms::MasterScore</label>
+        <link refid="class_ms_1_1_master_score"/>
+        <childnode refid="116" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="102">
+        <label>Ms::Lyrics</label>
+        <link refid="class_ms_1_1_lyrics"/>
+        <childnode refid="94" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="58">
+        <label>Ms::LetRing</label>
+        <link refid="class_ms_1_1_let_ring"/>
+        <childnode refid="56" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="70">
+        <label>Ms::SpannerSegment</label>
+        <link refid="class_ms_1_1_spanner_segment"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="44">
+        <label>Ms::Measure</label>
+        <link refid="class_ms_1_1_measure"/>
+        <childnode refid="38" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="19">
+        <label>Ms::NoteHead</label>
+        <link refid="class_ms_1_1_note_head"/>
+        <childnode refid="17" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="91">
+        <label>Ms::StemSlash</label>
+        <link refid="class_ms_1_1_stem_slash"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="61">
+        <label>Ms::PalmMute</label>
+        <link refid="class_ms_1_1_palm_mute"/>
+        <childnode refid="56" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="96">
+        <label>Ms::FiguredBass</label>
+        <link refid="class_ms_1_1_figured_bass"/>
+        <childnode refid="94" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="95">
+        <label>Ms::Dynamic</label>
+        <link refid="class_ms_1_1_dynamic"/>
+        <childnode refid="94" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="109">
+        <label>Ms::Sticking</label>
+        <link refid="class_ms_1_1_sticking"/>
+        <childnode refid="94" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="73">
+        <label>Ms::LyricsLineSegment</label>
+        <link refid="class_ms_1_1_lyrics_line_segment"/>
+        <childnode refid="71" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="115">
+        <label>Ms::Part</label>
+        <link refid="class_ms_1_1_part"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="101">
+        <label>Ms::Jump</label>
+        <link refid="class_ms_1_1_jump"/>
+        <childnode refid="94" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="9">
+        <label>Ms::BarLine</label>
+        <link refid="class_ms_1_1_bar_line"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="107">
+        <label>Ms::StaffText</label>
+        <link refid="class_ms_1_1_staff_text"/>
+        <childnode refid="106" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="67">
+        <label>Ms::SlurTie</label>
+        <link refid="class_ms_1_1_slur_tie"/>
+        <childnode refid="52" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="7">
+        <label>Ms::Articulation</label>
+        <link refid="class_ms_1_1_articulation"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="55">
+        <label>Ms::LyricsLine</label>
+        <link refid="class_ms_1_1_lyrics_line"/>
+        <childnode refid="53" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="26">
+        <label>Ms::Chord</label>
+        <link refid="class_ms_1_1_chord"/>
+        <childnode refid="25" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="6">
+        <label>Ms::Arpeggio</label>
+        <link refid="class_ms_1_1_arpeggio"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="112">
+        <label>Ms::TimeSig</label>
+        <link refid="class_ms_1_1_time_sig"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>Ms::ScoreElement</label>
+        <link refid="class_ms_1_1_score_element"/>
+      </node>
+      <node id="27">
+        <label>Ms::Rest</label>
+        <link refid="class_ms_1_1_rest"/>
+        <childnode refid="25" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="79">
+        <label>Ms::PedalSegment</label>
+        <link refid="class_ms_1_1_pedal_segment"/>
+        <childnode refid="74" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="69">
+        <label>Ms::Tie</label>
+        <link refid="class_ms_1_1_tie"/>
+        <childnode refid="67" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="17">
+        <label>Ms::Symbol</label>
+        <link refid="class_ms_1_1_symbol"/>
+        <childnode refid="14" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="76">
+        <label>Ms::LetRingSegment</label>
+        <link refid="class_ms_1_1_let_ring_segment"/>
+        <childnode refid="74" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="60">
+        <label>Ms::Ottava</label>
+        <link refid="class_ms_1_1_ottava"/>
+        <childnode refid="56" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="21">
+        <label>Ms::ChordLine</label>
+        <link refid="class_ms_1_1_chord_line"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="48">
+        <label>Ms::Page</label>
+        <link refid="class_ms_1_1_page"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="78">
+        <label>Ms::PalmMuteSegment</label>
+        <link refid="class_ms_1_1_palm_mute_segment"/>
+        <childnode refid="74" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="51">
+        <label>Ms::Spacer</label>
+        <link refid="class_ms_1_1_spacer"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="81">
+        <label>Ms::VoltaSegment</label>
+        <link refid="class_ms_1_1_volta_segment"/>
+        <childnode refid="74" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="66">
+        <label>Ms::Vibrato</label>
+        <link refid="class_ms_1_1_vibrato"/>
+        <childnode refid="53" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="110">
+        <label>Ms::TempoText</label>
+        <link refid="class_ms_1_1_tempo_text"/>
+        <childnode refid="94" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="80">
+        <label>Ms::TextLineSegment</label>
+        <link refid="class_ms_1_1_text_line_segment"/>
+        <childnode refid="74" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="105">
+        <label>Ms::RehearsalMark</label>
+        <link refid="class_ms_1_1_rehearsal_mark"/>
+        <childnode refid="94" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="99">
+        <label>Ms::InstrumentChange</label>
+        <link refid="class_ms_1_1_instrument_change"/>
+        <childnode refid="94" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="111">
+        <label>Ms::Text</label>
+        <link refid="class_ms_1_1_text"/>
+        <childnode refid="94" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="43">
+        <label>Ms::TBox</label>
+        <link refid="class_ms_1_1_t_box"/>
+        <childnode refid="41" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="37">
+        <label>Ms::LedgerLine</label>
+        <link refid="class_ms_1_1_ledger_line"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="104">
+        <label>Ms::MeasureNumber</label>
+        <link refid="class_ms_1_1_measure_number"/>
+        <childnode refid="94" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="20">
+        <label>Ms::SystemDivider</label>
+        <link refid="class_ms_1_1_system_divider"/>
+        <childnode refid="17" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="52">
+        <label>Ms::Spanner</label>
+        <link refid="class_ms_1_1_spanner"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>Ms::BracketItem</label>
+        <link refid="class_ms_1_1_bracket_item"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="88">
+        <label>Ms::StaffState</label>
+        <link refid="class_ms_1_1_staff_state"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="72">
+        <label>Ms::GlissandoSegment</label>
+        <link refid="class_ms_1_1_glissando_segment"/>
+        <childnode refid="71" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="92">
+        <label>Ms::System</label>
+        <link refid="class_ms_1_1_system"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="10">
+        <label>Ms::Beam</label>
+        <link refid="class_ms_1_1_beam"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="74">
+        <label>Ms::TextLineBaseSegment</label>
+        <link refid="class_ms_1_1_text_line_base_segment"/>
+        <childnode refid="71" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="106">
+        <label>Ms::StaffTextBase</label>
+        <link refid="class_ms_1_1_staff_text_base"/>
+        <childnode refid="94" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="100">
+        <label>Ms::InstrumentName</label>
+        <link refid="class_ms_1_1_instrument_name"/>
+        <childnode refid="94" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="34">
+        <label>Ms::KeySig</label>
+        <link refid="class_ms_1_1_key_sig"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="14">
+        <label>Ms::BSymbol</label>
+        <link refid="class_ms_1_1_b_symbol"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="56">
+        <label>Ms::TextLineBase</label>
+        <link refid="class_ms_1_1_text_line_base"/>
+        <childnode refid="53" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="29">
+        <label>Ms::Tuplet</label>
+        <link refid="class_ms_1_1_tuplet"/>
+        <childnode refid="24" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="89">
+        <label>Ms::StaffTypeChange</label>
+        <link refid="class_ms_1_1_staff_type_change"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="41">
+        <label>Ms::VBox</label>
+        <link refid="class_ms_1_1_v_box"/>
+        <childnode refid="39" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="47">
+        <label>Ms::Ossia</label>
+        <link refid="class_ms_1_1_ossia"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="25">
+        <label>Ms::ChordRest</label>
+        <link refid="class_ms_1_1_chord_rest"/>
+        <childnode refid="24" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="36">
+        <label>Ms::LayoutBreak</label>
+        <link refid="class_ms_1_1_layout_break"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="116">
+        <label>Ms::Score</label>
+        <link refid="class_ms_1_1_score"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="18">
+        <label>Ms::Hook</label>
+        <link refid="class_ms_1_1_hook"/>
+        <childnode refid="17" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="8">
+        <label>Ms::BagpipeEmbellishment</label>
+        <link refid="class_ms_1_1_bagpipe_embellishment"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="42">
+        <label>Ms::FBox</label>
+        <link refid="class_ms_1_1_f_box"/>
+        <childnode refid="41" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="30">
+        <label>Ms::Fermata</label>
+        <link refid="class_ms_1_1_fermata"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="68">
+        <label>Ms::Slur</label>
+        <link refid="class_ms_1_1_slur"/>
+        <childnode refid="67" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="53">
+        <label>Ms::SLine</label>
+        <link refid="class_ms_1_1_s_line"/>
+        <childnode refid="52" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="33">
+        <label>Ms::Icon</label>
+        <link refid="class_ms_1_1_icon"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="62">
+        <label>Ms::Pedal</label>
+        <link refid="class_ms_1_1_pedal"/>
+        <childnode refid="56" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>Ms::Element</label>
+        <link refid="class_ms_1_1_element"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="114">
+        <label>Ms::TremoloBar</label>
+        <link refid="class_ms_1_1_tremolo_bar"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="45">
+        <label>Ms::Note</label>
+        <link refid="class_ms_1_1_note"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="50">
+        <label>Ms::ShadowNote</label>
+        <link refid="class_ms_1_1_shadow_note"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="13">
+        <label>Ms::Breath</label>
+        <link refid="class_ms_1_1_breath"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="12">
+        <label>Ms::Bracket</label>
+        <link refid="class_ms_1_1_bracket"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="46">
+        <label>Ms::NoteDot</label>
+        <link refid="class_ms_1_1_note_dot"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="28">
+        <label>Ms::RepeatMeasure</label>
+        <link refid="class_ms_1_1_repeat_measure"/>
+        <childnode refid="27" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="11">
+        <label>Ms::Bend</label>
+        <link refid="class_ms_1_1_bend"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="84">
+        <label>Ms::SlurTieSegment</label>
+        <link refid="class_ms_1_1_slur_tie_segment"/>
+        <childnode refid="70" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="23">
+        <label>Ms::Compound</label>
+        <link refid="class_ms_1_1_compound"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="86">
+        <label>Ms::TieSegment</label>
+        <link refid="class_ms_1_1_tie_segment"/>
+        <childnode refid="84" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="54">
+        <label>Ms::Glissando</label>
+        <link refid="class_ms_1_1_glissando"/>
+        <childnode refid="53" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="40">
+        <label>Ms::HBox</label>
+        <link refid="class_ms_1_1_h_box"/>
+        <childnode refid="39" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="83">
+        <label>Ms::VibratoSegment</label>
+        <link refid="class_ms_1_1_vibrato_segment"/>
+        <childnode refid="71" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="49">
+        <label>Ms::Segment</label>
+        <link refid="class_ms_1_1_segment"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="93">
+        <label>Ms::TabDurationSymbol</label>
+        <link refid="class_ms_1_1_tab_duration_symbol"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="31">
+        <label>Ms::FiguredBassItem</label>
+        <link refid="class_ms_1_1_figured_bass_item"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="3">
+        <label>QList&lt; ScoreElement * &gt;</label>
+      </node>
+      <node id="1">
+        <label>Ms::ScoreElement</label>
+        <link refid="class_ms_1_1_score_element"/>
+        <childnode refid="2" relation="usage">
+          <edgelabel>_links</edgelabel>
+        </childnode>
+      </node>
+      <node id="2">
+        <label>Ms::LinkedElements</label>
+        <link refid="class_ms_1_1_linked_elements"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/scoreElement.h" line="173" column="19" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/scoreElement.h" bodystart="173" bodyend="415"/>
+    <listofallmembers>
+      <member refid="class_ms_1_1_score_element_1a648639a58d05aa85412217db5ad40b18" prot="protected" virt="non-virtual"><scope>Ms::ScoreElement</scope><name>_elementStyle</name></member>
+      <member refid="class_ms_1_1_score_element_1a405b151c60a010237414678a0e0952af" prot="protected" virt="non-virtual"><scope>Ms::ScoreElement</scope><name>_links</name></member>
+      <member refid="class_ms_1_1_score_element_1a6d4b99ddb9e217aaa9f9ae67a76861f3" prot="protected" virt="non-virtual"><scope>Ms::ScoreElement</scope><name>_propertyFlagsList</name></member>
+      <member refid="class_ms_1_1_score_element_1aae98b72123991fc84396dc42b9199073" prot="private" virt="non-virtual"><scope>Ms::ScoreElement</scope><name>_score</name></member>
+      <member refid="class_ms_1_1_score_element_1a909208dcb71001e0e8a5b9aa4c9a854f" prot="private" virt="non-virtual"><scope>Ms::ScoreElement</scope><name>emptyStyle</name></member>
+      <member refid="class_ms_1_1_score_element_1aa55b8db6cf96c29d192fbfc9e74110ff" prot="public" virt="pure-virtual"><scope>Ms::ScoreElement</scope><name>getProperty</name></member>
+      <member refid="class_ms_1_1_score_element_1a5dd171e2eca7de57f28a9bc4430bb12d" prot="protected" virt="virtual"><scope>Ms::ScoreElement</scope><name>getPropertyFlagsIdx</name></member>
+      <member refid="class_ms_1_1_score_element_1a36d66100b5c6df17eb37f276aaca0454" prot="public" virt="virtual"><scope>Ms::ScoreElement</scope><name>getPropertyStyle</name></member>
+      <member refid="class_ms_1_1_score_element_1a8deeadfce551a58b1078f1af62c2075d" prot="public" virt="virtual"><scope>Ms::ScoreElement</scope><name>initElementStyle</name></member>
+      <member refid="class_ms_1_1_score_element_1a997e1063786d8c705c74b3d66c54f269" prot="public" virt="non-virtual"><scope>Ms::ScoreElement</scope><name>isBox</name></member>
+      <member refid="class_ms_1_1_score_element_1ad05261e50a084a0c6c42fced1ca78d8f" prot="public" virt="non-virtual"><scope>Ms::ScoreElement</scope><name>isBSymbol</name></member>
+      <member refid="class_ms_1_1_score_element_1accef1c91df491a43c54e70474deea60c" prot="public" virt="non-virtual"><scope>Ms::ScoreElement</scope><name>isChordRest</name></member>
+      <member refid="class_ms_1_1_score_element_1a203290a59b13861b957d2943f65a4cf0" prot="public" virt="non-virtual"><scope>Ms::ScoreElement</scope><name>isDurationElement</name></member>
+      <member refid="class_ms_1_1_score_element_1ac98792e8d02a53ecabe29cf9cc02e1a1" prot="public" virt="virtual"><scope>Ms::ScoreElement</scope><name>isElement</name></member>
+      <member refid="class_ms_1_1_score_element_1a0d5f2d0a979bf52ab2436f6ceb6d9ef6" prot="public" virt="non-virtual"><scope>Ms::ScoreElement</scope><name>isLineSegment</name></member>
+      <member refid="class_ms_1_1_score_element_1a1d34473f54590e3d8c2a1bc78b560c21" prot="public" virt="non-virtual"><scope>Ms::ScoreElement</scope><name>isLinked</name></member>
+      <member refid="class_ms_1_1_score_element_1a06e5d7c169bf6eb01f5f723cbdae973f" prot="public" virt="non-virtual"><scope>Ms::ScoreElement</scope><name>isMeasureBase</name></member>
+      <member refid="class_ms_1_1_score_element_1a4de90a044cdd2a7030d707f2b081c8a4" prot="public" virt="non-virtual"><scope>Ms::ScoreElement</scope><name>isSLine</name></member>
+      <member refid="class_ms_1_1_score_element_1acf35020b5e670ac13791697e65b679d4" prot="public" virt="non-virtual"><scope>Ms::ScoreElement</scope><name>isSLineSegment</name></member>
+      <member refid="class_ms_1_1_score_element_1a372dfc0678c5194028e61b6a9a24ab62" prot="public" virt="non-virtual"><scope>Ms::ScoreElement</scope><name>isSlurTieSegment</name></member>
+      <member refid="class_ms_1_1_score_element_1a98f8c58df0f5baafe63414bedf84514f" prot="public" virt="non-virtual"><scope>Ms::ScoreElement</scope><name>isSpanner</name></member>
+      <member refid="class_ms_1_1_score_element_1a5aa58f96618edb0e3ff660e1c96c5d4e" prot="public" virt="non-virtual"><scope>Ms::ScoreElement</scope><name>isSpannerSegment</name></member>
+      <member refid="class_ms_1_1_score_element_1ac009e016c7a3dc148b0aaad50c1c4547" prot="public" virt="non-virtual"><scope>Ms::ScoreElement</scope><name>isStaffTextBase</name></member>
+      <member refid="class_ms_1_1_score_element_1a4d0de3ac9401da46c32ed8becb9d496b" prot="public" virt="non-virtual"><scope>Ms::ScoreElement</scope><name>isStyled</name></member>
+      <member refid="class_ms_1_1_score_element_1a979b6e1bc10cf790e755aa8641feb4cf" prot="public" virt="non-virtual"><scope>Ms::ScoreElement</scope><name>isTextBase</name></member>
+      <member refid="class_ms_1_1_score_element_1a7151838e2192a30624d6111dd4c87918" prot="public" virt="non-virtual"><scope>Ms::ScoreElement</scope><name>isTextLineBase</name></member>
+      <member refid="class_ms_1_1_score_element_1ab98a731c7adf65cebc23235f9fe150af" prot="public" virt="non-virtual"><scope>Ms::ScoreElement</scope><name>isTextLineBaseSegment</name></member>
+      <member refid="class_ms_1_1_score_element_1aac3320320d350a161ed3f9a601160451" prot="public" virt="non-virtual"><scope>Ms::ScoreElement</scope><name>isVBoxBase</name></member>
+      <member refid="class_ms_1_1_score_element_1ad9b69df1d2c04f2b298520bb649a8c55" prot="public" virt="non-virtual"><scope>Ms::ScoreElement</scope><name>lid</name></member>
+      <member refid="class_ms_1_1_score_element_1a2f0ed55c566c19cb483d77250cb52450" prot="public" virt="non-virtual"><scope>Ms::ScoreElement</scope><name>linkList</name></member>
+      <member refid="class_ms_1_1_score_element_1a3d5c97191484848b3f10e754246f8758" prot="public" virt="non-virtual"><scope>Ms::ScoreElement</scope><name>links</name></member>
+      <member refid="class_ms_1_1_score_element_1a1dad93f0591eb31f69854e8f141b051e" prot="public" virt="non-virtual"><scope>Ms::ScoreElement</scope><name>linkTo</name></member>
+      <member refid="class_ms_1_1_score_element_1ae4991aaf0d79271cc347530f3d07fcd6" prot="public" virt="non-virtual"><scope>Ms::ScoreElement</scope><name>masterScore</name></member>
+      <member refid="class_ms_1_1_score_element_1ad80dda73306d6b784b0cac4626f797d4" prot="public" virt="non-virtual"><scope>Ms::ScoreElement</scope><name>name</name></member>
+      <member refid="class_ms_1_1_score_element_1ab6ded8e7ff6dcb45db0036a57f9f9d26" prot="public" virt="non-virtual"><scope>Ms::ScoreElement</scope><name>name</name></member>
+      <member refid="class_ms_1_1_score_element_1a971f91737e74571d6e4b6bb78f56e1dc" prot="public" virt="non-virtual"><scope>Ms::ScoreElement</scope><name>name2type</name></member>
+      <member refid="class_ms_1_1_score_element_1ae41701f68025bc77c26f6db74b452465" prot="public" virt="non-virtual"><scope>Ms::ScoreElement</scope><name>name2type</name></member>
+      <member refid="class_ms_1_1_score_element_1ab3fcbdb9cd19d04933bd15434138c230" prot="public" virt="virtual"><scope>Ms::ScoreElement</scope><name>propertyDefault</name></member>
+      <member refid="class_ms_1_1_score_element_1aaae0b7999568ce64245a5cf995af62b5" prot="public" virt="non-virtual"><scope>Ms::ScoreElement</scope><name>propertyDefault</name></member>
+      <member refid="class_ms_1_1_score_element_1a9b9c00757c23cba103638b4ab63df03e" prot="public" virt="virtual"><scope>Ms::ScoreElement</scope><name>propertyFlags</name></member>
+      <member refid="class_ms_1_1_score_element_1ab00670f7d8229c14090cc3d7376d2202" prot="public" virt="virtual"><scope>Ms::ScoreElement</scope><name>propertyFlagsList</name></member>
+      <member refid="class_ms_1_1_score_element_1aca54d0e9003af5f13c7121a192229255" prot="public" virt="virtual"><scope>Ms::ScoreElement</scope><name>propertyId</name></member>
+      <member refid="class_ms_1_1_score_element_1a8b64f4c9f3ea93ea6dd3e668bc24eb3e" prot="public" virt="virtual"><scope>Ms::ScoreElement</scope><name>propertyUserValue</name></member>
+      <member refid="class_ms_1_1_score_element_1a92ef81d3a9835ec8e78a308229da35f8" prot="public" virt="virtual"><scope>Ms::ScoreElement</scope><name>readAddConnector</name></member>
+      <member refid="class_ms_1_1_score_element_1a8b3be86196659c2e0fb6ed86256cb0fe" prot="public" virt="non-virtual"><scope>Ms::ScoreElement</scope><name>readProperty</name></member>
+      <member refid="class_ms_1_1_score_element_1a473e639853dd8adc607a5c2a63c6d4ad" prot="public" virt="non-virtual"><scope>Ms::ScoreElement</scope><name>readProperty</name></member>
+      <member refid="class_ms_1_1_score_element_1a053d7512b54eaa787bcef0eba427a76f" prot="public" virt="non-virtual"><scope>Ms::ScoreElement</scope><name>readStyledProperty</name></member>
+      <member refid="class_ms_1_1_score_element_1a89ab22206aebcf2c3249b5c78b1122e7" prot="public" virt="virtual"><scope>Ms::ScoreElement</scope><name>reset</name></member>
+      <member refid="class_ms_1_1_score_element_1a8f3e233ff30279756578c751c0ea3e17" prot="public" virt="virtual"><scope>Ms::ScoreElement</scope><name>resetProperty</name></member>
+      <member refid="class_ms_1_1_score_element_1a70883d048b0884821ac779d9ab168151" prot="public" virt="non-virtual"><scope>Ms::ScoreElement</scope><name>score</name></member>
+      <member refid="class_ms_1_1_score_element_1a3fed4ec5f58054eb578ff9c7bb80d72f" prot="public" virt="non-virtual"><scope>Ms::ScoreElement</scope><name>ScoreElement</name></member>
+      <member refid="class_ms_1_1_score_element_1ac2b2cb70fe954ba2b1cce6d35743edf2" prot="public" virt="non-virtual"><scope>Ms::ScoreElement</scope><name>ScoreElement</name></member>
+      <member refid="class_ms_1_1_score_element_1ae1e16c1a83100a1ea23b05bfb1642283" prot="public" virt="non-virtual"><scope>Ms::ScoreElement</scope><name>setLinks</name></member>
+      <member refid="class_ms_1_1_score_element_1a6746334cee7348173d3175c433ed2fab" prot="public" virt="pure-virtual"><scope>Ms::ScoreElement</scope><name>setProperty</name></member>
+      <member refid="class_ms_1_1_score_element_1aceed92c262270a2a79d3f97d0f018a29" prot="public" virt="non-virtual"><scope>Ms::ScoreElement</scope><name>setPropertyFlags</name></member>
+      <member refid="class_ms_1_1_score_element_1a6a1e59c49777e28459d2270981fc97df" prot="public" virt="virtual"><scope>Ms::ScoreElement</scope><name>setScore</name></member>
+      <member refid="class_ms_1_1_score_element_1ad9b5a0f3ec11f88a2659416d105ab5b0" prot="public" virt="virtual"><scope>Ms::ScoreElement</scope><name>sizeIsSpatiumDependent</name></member>
+      <member refid="class_ms_1_1_score_element_1abd7730432b512afc15873362a5414bad" prot="public" virt="virtual"><scope>Ms::ScoreElement</scope><name>styleChanged</name></member>
+      <member refid="class_ms_1_1_score_element_1a08e4c60af2466c57931724393f7bee4f" prot="public" virt="virtual"><scope>Ms::ScoreElement</scope><name>styledProperties</name></member>
+      <member refid="class_ms_1_1_score_element_1a8a3670f26efa9a07e14695cee4512dc4" prot="public" virt="non-virtual"><scope>Ms::ScoreElement</scope><name>styleValue</name></member>
+      <member refid="class_ms_1_1_score_element_1a3dbb763c3cd4ec05d202d03115abe1d5" prot="public" virt="pure-virtual"><scope>Ms::ScoreElement</scope><name>type</name></member>
+      <member refid="class_ms_1_1_score_element_1af0505b234ccb7520a7d93ddd09ca4e1f" prot="public" virt="virtual"><scope>Ms::ScoreElement</scope><name>undoChangeProperty</name></member>
+      <member refid="class_ms_1_1_score_element_1a4d0c98408c09304865fc3c9e011a9695" prot="public" virt="non-virtual"><scope>Ms::ScoreElement</scope><name>undoChangeProperty</name></member>
+      <member refid="class_ms_1_1_score_element_1ab31ad4878a7d6e5c5acbd88e3232f2fb" prot="public" virt="non-virtual"><scope>Ms::ScoreElement</scope><name>undoPushProperty</name></member>
+      <member refid="class_ms_1_1_score_element_1a2f2ea7d6e1179cbb00f95689125482d0" prot="public" virt="non-virtual"><scope>Ms::ScoreElement</scope><name>undoResetProperty</name></member>
+      <member refid="class_ms_1_1_score_element_1a994f2abd8df02a160c7055b0cae26c87" prot="public" virt="virtual"><scope>Ms::ScoreElement</scope><name>undoUnlink</name></member>
+      <member refid="class_ms_1_1_score_element_1a1d76afaf3ee463445961c3d981901be1" prot="public" virt="non-virtual"><scope>Ms::ScoreElement</scope><name>unlink</name></member>
+      <member refid="class_ms_1_1_score_element_1acb1866df2e440923354fa5b1ee9d5f52" prot="public" virt="virtual"><scope>Ms::ScoreElement</scope><name>userName</name></member>
+      <member refid="class_ms_1_1_score_element_1a4ae6e7e095b8f672951ffc30f980c45d" prot="public" virt="non-virtual"><scope>Ms::ScoreElement</scope><name>writeProperty</name></member>
+      <member refid="class_ms_1_1_score_element_1a7a3de180bd5a72ab3e27b7fbf9213567" prot="public" virt="non-virtual"><scope>Ms::ScoreElement</scope><name>writeStyledProperties</name></member>
+      <member refid="class_ms_1_1_score_element_1abc6cbffe99d185a7262f86be05cf6365" prot="public" virt="virtual"><scope>Ms::ScoreElement</scope><name>~ScoreElement</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

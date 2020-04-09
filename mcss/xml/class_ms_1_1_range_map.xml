@@ -1,0 +1,133 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.17">
+  <compounddef id="class_ms_1_1_range_map" kind="class" language="C++" prot="public">
+    <compoundname>Ms::RangeMap</compoundname>
+    <includes refid="rendermidi_8h" local="yes">rendermidi.h</includes>
+      <sectiondef kind="private-type">
+      <memberdef kind="enum" id="class_ms_1_1_range_map_1ac4019faf4fd50c3d578dbe18e3c7aa41" prot="private" static="no" strong="yes">
+        <type></type>
+        <name>Range</name>
+        <enumvalue id="class_ms_1_1_range_map_1ac4019faf4fd50c3d578dbe18e3c7aa41a19aad9f2fe3ce0023298ab83f7e75775" prot="private">
+          <name>BEGIN</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="class_ms_1_1_range_map_1ac4019faf4fd50c3d578dbe18e3c7aa41ab1a326c06d88bf042f73d70f50197905" prot="private">
+          <name>END</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/rendermidi.h" line="46" column="23" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/rendermidi.h" bodystart="46" bodyend="46"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_ms_1_1_range_map_1a5abe9c106bc237b29f997de288b1fe5a" prot="private" static="no" mutable="no">
+        <type>std::map&lt; int, Range &gt;</type>
+        <definition>std::map&lt;int, Range&gt; Ms::RangeMap::status</definition>
+        <argsstring></argsstring>
+        <name>status</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/rendermidi.h" line="47" column="16" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/rendermidi.h" bodystart="47" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_ms_1_1_range_map_1a23cc6ac95095732c00d7f268f72201b0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Ms::RangeMap::setOccupied</definition>
+        <argsstring>(int tick1, int tick2)</argsstring>
+        <name>setOccupied</name>
+        <param>
+          <type>int</type>
+          <declname>tick1</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>tick2</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/rendermidi.h" line="50" column="12" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/rendermidi.cpp" bodystart="2376" bodyend="2395"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ms_1_1_range_map_1a2b18df63e99fe903a90ce2fd040c0c80" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Ms::RangeMap::setOccupied</definition>
+        <argsstring>(std::pair&lt; int, int &gt; range)</argsstring>
+        <name>setOccupied</name>
+        <param>
+          <type>std::pair&lt; int, int &gt;</type>
+          <declname>range</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/rendermidi.h" line="51" column="12" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/rendermidi.h" bodystart="51" bodyend="51"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ms_1_1_range_map_1a74d43df3daa7c2a4bad6bcca09d07bc7" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int Ms::RangeMap::occupiedRangeEnd</definition>
+        <argsstring>(int tick) const</argsstring>
+        <name>occupiedRangeEnd</name>
+        <param>
+          <type>int</type>
+          <declname>tick</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/rendermidi.h" line="53" column="11" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/rendermidi.cpp" bodystart="2401" bodyend="2410"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ms_1_1_range_map_1ac652d67265f7108681eace8d7b00a24c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Ms::RangeMap::clear</definition>
+        <argsstring>()</argsstring>
+        <name>clear</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/rendermidi.h" line="55" column="12" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/rendermidi.h" bodystart="55" bodyend="55"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>Helper class to keep track of status of status of certain parts of score or MIDI representation. </para>
+    </detaileddescription>
+    <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/rendermidi.h" line="45" column="15" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/rendermidi.h" bodystart="45" bodyend="56"/>
+    <listofallmembers>
+      <member refid="class_ms_1_1_range_map_1ac652d67265f7108681eace8d7b00a24c" prot="public" virt="non-virtual"><scope>Ms::RangeMap</scope><name>clear</name></member>
+      <member refid="class_ms_1_1_range_map_1a74d43df3daa7c2a4bad6bcca09d07bc7" prot="public" virt="non-virtual"><scope>Ms::RangeMap</scope><name>occupiedRangeEnd</name></member>
+      <member refid="class_ms_1_1_range_map_1ac4019faf4fd50c3d578dbe18e3c7aa41" prot="private" virt="non-virtual"><scope>Ms::RangeMap</scope><name>Range</name></member>
+      <member refid="class_ms_1_1_range_map_1a23cc6ac95095732c00d7f268f72201b0" prot="public" virt="non-virtual"><scope>Ms::RangeMap</scope><name>setOccupied</name></member>
+      <member refid="class_ms_1_1_range_map_1a2b18df63e99fe903a90ce2fd040c0c80" prot="public" virt="non-virtual"><scope>Ms::RangeMap</scope><name>setOccupied</name></member>
+      <member refid="class_ms_1_1_range_map_1a5abe9c106bc237b29f997de288b1fe5a" prot="private" virt="non-virtual"><scope>Ms::RangeMap</scope><name>status</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

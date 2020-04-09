@@ -1,0 +1,85 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.17">
+  <compounddef id="struct_ms_1_1_mscx_mode_diff_1_1_tag" kind="struct" language="C++" prot="private">
+    <compoundname>Ms::MscxModeDiff::Tag</compoundname>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="struct_ms_1_1_mscx_mode_diff_1_1_tag_1a98a71836233b292e448b07eba284aec0" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int Ms::MscxModeDiff::Tag::line</definition>
+        <argsstring></argsstring>
+        <name>line</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/scorediff.cpp" line="38" column="17" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/scorediff.cpp" bodystart="38" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_ms_1_1_mscx_mode_diff_1_1_tag_1a55fad6418129d50a26c849ea55364efc" prot="public" static="no" mutable="no">
+        <type>TagType</type>
+        <definition>TagType Ms::MscxModeDiff::Tag::type</definition>
+        <argsstring></argsstring>
+        <name>type</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/scorediff.cpp" line="39" column="21" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/scorediff.cpp" bodystart="39" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_ms_1_1_mscx_mode_diff_1_1_tag_1a761daf5a4719967f77cf5ffd13628adf" prot="public" static="no" mutable="no">
+        <type>QString</type>
+        <definition>QString Ms::MscxModeDiff::Tag::name</definition>
+        <argsstring></argsstring>
+        <name>name</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/scorediff.cpp" line="40" column="21" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/scorediff.cpp" bodystart="40" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="struct_ms_1_1_mscx_mode_diff_1_1_tag_1ae0463fff3f870c01119dd2eea46ec439" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>Ms::MscxModeDiff::Tag::Tag</definition>
+        <argsstring>(int l, TagType t, const QString &amp;n)</argsstring>
+        <name>Tag</name>
+        <param>
+          <type>int</type>
+          <declname>l</declname>
+        </param>
+        <param>
+          <type>TagType</type>
+          <declname>t</declname>
+        </param>
+        <param>
+          <type>const QString &amp;</type>
+          <declname>n</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/scorediff.cpp" line="42" column="13" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/scorediff.cpp" bodystart="42" bodyend="42"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/scorediff.cpp" line="37" column="16" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/scorediff.cpp" bodystart="37" bodyend="43"/>
+    <listofallmembers>
+      <member refid="struct_ms_1_1_mscx_mode_diff_1_1_tag_1a98a71836233b292e448b07eba284aec0" prot="public" virt="non-virtual"><scope>Ms::MscxModeDiff::Tag</scope><name>line</name></member>
+      <member refid="struct_ms_1_1_mscx_mode_diff_1_1_tag_1a761daf5a4719967f77cf5ffd13628adf" prot="public" virt="non-virtual"><scope>Ms::MscxModeDiff::Tag</scope><name>name</name></member>
+      <member refid="struct_ms_1_1_mscx_mode_diff_1_1_tag_1ae0463fff3f870c01119dd2eea46ec439" prot="public" virt="non-virtual"><scope>Ms::MscxModeDiff::Tag</scope><name>Tag</name></member>
+      <member refid="struct_ms_1_1_mscx_mode_diff_1_1_tag_1a55fad6418129d50a26c849ea55364efc" prot="public" virt="non-virtual"><scope>Ms::MscxModeDiff::Tag</scope><name>type</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

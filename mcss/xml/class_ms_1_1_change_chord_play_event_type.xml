@@ -1,0 +1,142 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.17">
+  <compounddef id="class_ms_1_1_change_chord_play_event_type" kind="class" language="C++" prot="public">
+    <compoundname>Ms::ChangeChordPlayEventType</compoundname>
+    <basecompoundref refid="class_ms_1_1_undo_command" prot="public" virt="non-virtual">Ms::UndoCommand</basecompoundref>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_ms_1_1_change_chord_play_event_type_1acbd94967217d8ac5b242159e758efe50" prot="private" static="no" mutable="no">
+        <type><ref refid="class_ms_1_1_chord" kindref="compound">Ms::Chord</ref> *</type>
+        <definition>Ms::Chord* Ms::ChangeChordPlayEventType::chord</definition>
+        <argsstring></argsstring>
+        <name>chord</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/undo.h" line="930" column="17" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/undo.h" bodystart="930" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_ms_1_1_change_chord_play_event_type_1ae7e833fa3f2682edbf602ef74cbb9b78" prot="private" static="no" mutable="no">
+        <type><ref refid="namespace_ms_1a3ca11c21f2fe66a8c8efc1bf0d75ccf2" kindref="member">Ms::PlayEventType</ref></type>
+        <definition>Ms::PlayEventType Ms::ChangeChordPlayEventType::petype</definition>
+        <argsstring></argsstring>
+        <name>petype</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/undo.h" line="931" column="25" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/undo.h" bodystart="931" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_ms_1_1_change_chord_play_event_type_1a402a3a94714c584d085bee57a53556a7" prot="private" static="no" mutable="no">
+        <type>QList&lt; <ref refid="class_ms_1_1_note_event_list" kindref="compound">NoteEventList</ref> &gt;</type>
+        <definition>QList&lt;NoteEventList&gt; Ms::ChangeChordPlayEventType::events</definition>
+        <argsstring></argsstring>
+        <name>events</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/undo.h" line="932" column="13" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/undo.h" bodystart="932" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_ms_1_1_change_chord_play_event_type_1a692f852269976ce5d3019458fa682b82" prot="private" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void Ms::ChangeChordPlayEventType::flip</definition>
+        <argsstring>(EditData *) override</argsstring>
+        <name>flip</name>
+        <reimplements refid="class_ms_1_1_undo_command_1a861162fe6c105a00dfec5a5b70a690a5">flip</reimplements>
+        <param>
+          <type><ref refid="class_ms_1_1_edit_data" kindref="compound">EditData</ref> *</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/undo.h" line="934" column="12" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/undo.cpp" bodystart="2076" bodyend="2089"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_ms_1_1_change_chord_play_event_type_1a25d584fd6548b0243de3c4d4e3eeaff5" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>Ms::ChangeChordPlayEventType::ChangeChordPlayEventType</definition>
+        <argsstring>(Chord *c, Ms::PlayEventType pet)</argsstring>
+        <name>ChangeChordPlayEventType</name>
+        <param>
+          <type><ref refid="class_ms_1_1_chord" kindref="compound">Chord</ref> *</type>
+          <declname>c</declname>
+        </param>
+        <param>
+          <type><ref refid="namespace_ms_1a3ca11c21f2fe66a8c8efc1bf0d75ccf2" kindref="member">Ms::PlayEventType</ref></type>
+          <declname>pet</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/undo.h" line="937" column="7" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/undo.h" bodystart="937" bodyend="937"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>Ms::ChangeChordPlayEventType</label>
+        <link refid="class_ms_1_1_change_chord_play_event_type"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>Ms::UndoCommand</label>
+        <link refid="class_ms_1_1_undo_command"/>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>Ms::ChangeChordPlayEventType</label>
+        <link refid="class_ms_1_1_change_chord_play_event_type"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>Ms::UndoCommand</label>
+        <link refid="class_ms_1_1_undo_command"/>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/undo.h" line="929" column="50" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/undo.h" bodystart="929" bodyend="939"/>
+    <listofallmembers>
+      <member refid="class_ms_1_1_undo_command_1a0f5b568325d235501e5cc197b7a4d4c8" prot="public" virt="non-virtual"><scope>Ms::ChangeChordPlayEventType</scope><name>appendChild</name></member>
+      <member refid="class_ms_1_1_undo_command_1adbc9ce586560a1ca06f83bb38d04c4f0" prot="protected" virt="non-virtual"><scope>Ms::ChangeChordPlayEventType</scope><name>appendChildren</name></member>
+      <member refid="class_ms_1_1_change_chord_play_event_type_1a25d584fd6548b0243de3c4d4e3eeaff5" prot="public" virt="non-virtual"><scope>Ms::ChangeChordPlayEventType</scope><name>ChangeChordPlayEventType</name></member>
+      <member refid="class_ms_1_1_undo_command_1a701d710e19f4d356f2b12d093729d295" prot="public" virt="non-virtual"><scope>Ms::ChangeChordPlayEventType</scope><name>childCount</name></member>
+      <member refid="class_ms_1_1_change_chord_play_event_type_1acbd94967217d8ac5b242159e758efe50" prot="private" virt="non-virtual"><scope>Ms::ChangeChordPlayEventType</scope><name>chord</name></member>
+      <member refid="class_ms_1_1_undo_command_1a0bbdf4bc79885d76228b155599fb46ce" prot="public" virt="virtual"><scope>Ms::ChangeChordPlayEventType</scope><name>cleanup</name></member>
+      <member refid="class_ms_1_1_undo_command_1a4cdbb50e02a38b3c0b259e8bb6b58bca" prot="public" virt="non-virtual"><scope>Ms::ChangeChordPlayEventType</scope><name>commands</name></member>
+      <member refid="class_ms_1_1_change_chord_play_event_type_1a402a3a94714c584d085bee57a53556a7" prot="private" virt="non-virtual"><scope>Ms::ChangeChordPlayEventType</scope><name>events</name></member>
+      <member refid="class_ms_1_1_undo_command_1a7c3fae86b0c593d95eb2acf44348b425" prot="public" virt="non-virtual"><scope>Ms::ChangeChordPlayEventType</scope><name>Filter</name></member>
+      <member refid="class_ms_1_1_undo_command_1a850e4c72c907bce1aed4b7d318ddf626" prot="public" virt="non-virtual"><scope>Ms::ChangeChordPlayEventType</scope><name>filterChildren</name></member>
+      <member refid="class_ms_1_1_change_chord_play_event_type_1a692f852269976ce5d3019458fa682b82" prot="private" virt="virtual"><scope>Ms::ChangeChordPlayEventType</scope><name>flip</name></member>
+      <member refid="class_ms_1_1_undo_command_1a09b5c550fffd0dfe1e38490c7f0de8e4" prot="public" virt="non-virtual"><scope>Ms::ChangeChordPlayEventType</scope><name>hasFilteredChildren</name></member>
+      <member refid="class_ms_1_1_undo_command_1a7131c9beb9c694ef3f0d8235f4e2892a" prot="public" virt="non-virtual"><scope>Ms::ChangeChordPlayEventType</scope><name>hasUnfilteredChildren</name></member>
+      <member refid="class_ms_1_1_undo_command_1a7e84d54e5b22eeeb9646c8a86fc2a0cb" prot="public" virt="virtual"><scope>Ms::ChangeChordPlayEventType</scope><name>isFiltered</name></member>
+      <member refid="class_ms_1_1_undo_command_1acdd15da86ef5878bc98ef2be084cc4be" prot="public" virt="virtual"><scope>Ms::ChangeChordPlayEventType</scope><name>name</name></member>
+      <member refid="class_ms_1_1_change_chord_play_event_type_1ae7e833fa3f2682edbf602ef74cbb9b78" prot="private" virt="non-virtual"><scope>Ms::ChangeChordPlayEventType</scope><name>petype</name></member>
+      <member refid="class_ms_1_1_undo_command_1a7fccbb0cf027a5e3b43176a5e0213f75" prot="public" virt="virtual"><scope>Ms::ChangeChordPlayEventType</scope><name>redo</name></member>
+      <member refid="class_ms_1_1_undo_command_1ad645cbed278b04cea2164006b52c4d8f" prot="public" virt="non-virtual"><scope>Ms::ChangeChordPlayEventType</scope><name>removeChild</name></member>
+      <member refid="class_ms_1_1_undo_command_1a42a2038f903e77e6bb5881209b764186" prot="public" virt="virtual"><scope>Ms::ChangeChordPlayEventType</scope><name>undo</name></member>
+      <member refid="class_ms_1_1_undo_command_1abc893037b5a33408c25552b8579debe4" prot="public" virt="non-virtual"><scope>Ms::ChangeChordPlayEventType</scope><name>unwind</name></member>
+      <member refid="class_ms_1_1_undo_command_1ad4aec6e8dbb0e92bd2b8be2ebd79b9df" prot="public" virt="virtual"><scope>Ms::ChangeChordPlayEventType</scope><name>~UndoCommand</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

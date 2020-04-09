@@ -1,0 +1,294 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.17">
+  <compounddef id="measure_8h" kind="file" language="C++">
+    <compoundname>measure.h</compoundname>
+    <includes refid="measurebase_8h" local="yes">measurebase.h</includes>
+    <includes refid="fraction_8h" local="yes">fraction.h</includes>
+    <includes refid="segmentlist_8h" local="yes">segmentlist.h</includes>
+    <includedby refid="ambitus_8cpp" local="yes">C:/Users/main/Documents/GitHub/MuseScore/libmscore/ambitus.cpp</includedby>
+    <includedby refid="articulation_8cpp" local="yes">C:/Users/main/Documents/GitHub/MuseScore/libmscore/articulation.cpp</includedby>
+    <includedby refid="barline_8cpp" local="yes">C:/Users/main/Documents/GitHub/MuseScore/libmscore/barline.cpp</includedby>
+    <includedby refid="beam_8cpp" local="yes">C:/Users/main/Documents/GitHub/MuseScore/libmscore/beam.cpp</includedby>
+    <includedby refid="box_8cpp" local="yes">C:/Users/main/Documents/GitHub/MuseScore/libmscore/box.cpp</includedby>
+    <includedby refid="breath_8cpp" local="yes">C:/Users/main/Documents/GitHub/MuseScore/libmscore/breath.cpp</includedby>
+    <includedby refid="bsymbol_8cpp" local="yes">C:/Users/main/Documents/GitHub/MuseScore/libmscore/bsymbol.cpp</includedby>
+    <includedby refid="check_8cpp" local="yes">C:/Users/main/Documents/GitHub/MuseScore/libmscore/check.cpp</includedby>
+    <includedby refid="chord_8cpp" local="yes">C:/Users/main/Documents/GitHub/MuseScore/libmscore/chord.cpp</includedby>
+    <includedby refid="chordline_8cpp" local="yes">C:/Users/main/Documents/GitHub/MuseScore/libmscore/chordline.cpp</includedby>
+    <includedby refid="chordrest_8cpp" local="yes">C:/Users/main/Documents/GitHub/MuseScore/libmscore/chordrest.cpp</includedby>
+    <includedby refid="clef_8cpp" local="yes">C:/Users/main/Documents/GitHub/MuseScore/libmscore/clef.cpp</includedby>
+    <includedby refid="cmd_8cpp" local="yes">C:/Users/main/Documents/GitHub/MuseScore/libmscore/cmd.cpp</includedby>
+    <includedby refid="duration_8cpp" local="yes">C:/Users/main/Documents/GitHub/MuseScore/libmscore/duration.cpp</includedby>
+    <includedby refid="durationtype_8cpp" local="yes">C:/Users/main/Documents/GitHub/MuseScore/libmscore/durationtype.cpp</includedby>
+    <includedby refid="dynamic_8cpp" local="yes">C:/Users/main/Documents/GitHub/MuseScore/libmscore/dynamic.cpp</includedby>
+    <includedby refid="edit_8cpp" local="yes">C:/Users/main/Documents/GitHub/MuseScore/libmscore/edit.cpp</includedby>
+    <includedby refid="element_8cpp" local="yes">C:/Users/main/Documents/GitHub/MuseScore/libmscore/element.cpp</includedby>
+    <includedby refid="excerpt_8cpp" local="yes">C:/Users/main/Documents/GitHub/MuseScore/libmscore/excerpt.cpp</includedby>
+    <includedby refid="fermata_8cpp" local="yes">C:/Users/main/Documents/GitHub/MuseScore/libmscore/fermata.cpp</includedby>
+    <includedby refid="figuredbass_8cpp" local="yes">C:/Users/main/Documents/GitHub/MuseScore/libmscore/figuredbass.cpp</includedby>
+    <includedby refid="fingering_8cpp" local="yes">C:/Users/main/Documents/GitHub/MuseScore/libmscore/fingering.cpp</includedby>
+    <includedby refid="fret_8cpp" local="yes">C:/Users/main/Documents/GitHub/MuseScore/libmscore/fret.cpp</includedby>
+    <includedby refid="glissando_8cpp" local="yes">C:/Users/main/Documents/GitHub/MuseScore/libmscore/glissando.cpp</includedby>
+    <includedby refid="hairpin_8cpp" local="yes">C:/Users/main/Documents/GitHub/MuseScore/libmscore/hairpin.cpp</includedby>
+    <includedby refid="harmony_8cpp" local="yes">C:/Users/main/Documents/GitHub/MuseScore/libmscore/harmony.cpp</includedby>
+    <includedby refid="input_8cpp" local="yes">C:/Users/main/Documents/GitHub/MuseScore/libmscore/input.cpp</includedby>
+    <includedby refid="instrchange_8cpp" local="yes">C:/Users/main/Documents/GitHub/MuseScore/libmscore/instrchange.cpp</includedby>
+    <includedby refid="join_measure_8cpp" local="yes">C:/Users/main/Documents/GitHub/MuseScore/libmscore/joinMeasure.cpp</includedby>
+    <includedby refid="jump_8cpp" local="yes">C:/Users/main/Documents/GitHub/MuseScore/libmscore/jump.cpp</includedby>
+    <includedby refid="keysig_8cpp" local="yes">C:/Users/main/Documents/GitHub/MuseScore/libmscore/keysig.cpp</includedby>
+    <includedby refid="layout_8cpp" local="yes">C:/Users/main/Documents/GitHub/MuseScore/libmscore/layout.cpp</includedby>
+    <includedby refid="layoutlinear_8cpp" local="yes">C:/Users/main/Documents/GitHub/MuseScore/libmscore/layoutlinear.cpp</includedby>
+    <includedby refid="ledgerline_8cpp" local="yes">C:/Users/main/Documents/GitHub/MuseScore/libmscore/ledgerline.cpp</includedby>
+    <includedby refid="letring_8cpp" local="yes">C:/Users/main/Documents/GitHub/MuseScore/libmscore/letring.cpp</includedby>
+    <includedby refid="line_8cpp" local="yes">C:/Users/main/Documents/GitHub/MuseScore/libmscore/line.cpp</includedby>
+    <includedby refid="location_8cpp" local="yes">C:/Users/main/Documents/GitHub/MuseScore/libmscore/location.cpp</includedby>
+    <includedby refid="lyrics_8cpp" local="yes">C:/Users/main/Documents/GitHub/MuseScore/libmscore/lyrics.cpp</includedby>
+    <includedby refid="lyricsline_8cpp" local="yes">C:/Users/main/Documents/GitHub/MuseScore/libmscore/lyricsline.cpp</includedby>
+    <includedby refid="marker_8cpp" local="yes">C:/Users/main/Documents/GitHub/MuseScore/libmscore/marker.cpp</includedby>
+    <includedby refid="mcursor_8cpp" local="yes">C:/Users/main/Documents/GitHub/MuseScore/libmscore/mcursor.cpp</includedby>
+    <includedby refid="measure_8cpp" local="yes">C:/Users/main/Documents/GitHub/MuseScore/libmscore/measure.cpp</includedby>
+    <includedby refid="measurebase_8cpp" local="yes">C:/Users/main/Documents/GitHub/MuseScore/libmscore/measurebase.cpp</includedby>
+    <includedby refid="measurenumber_8cpp" local="yes">C:/Users/main/Documents/GitHub/MuseScore/libmscore/measurenumber.cpp</includedby>
+    <includedby refid="mscore_8cpp" local="yes">C:/Users/main/Documents/GitHub/MuseScore/libmscore/mscore.cpp</includedby>
+    <includedby refid="navigate_8cpp" local="yes">C:/Users/main/Documents/GitHub/MuseScore/libmscore/navigate.cpp</includedby>
+    <includedby refid="note_8cpp" local="yes">C:/Users/main/Documents/GitHub/MuseScore/libmscore/note.cpp</includedby>
+    <includedby refid="noteentry_8cpp" local="yes">C:/Users/main/Documents/GitHub/MuseScore/libmscore/noteentry.cpp</includedby>
+    <includedby refid="ottava_8cpp" local="yes">C:/Users/main/Documents/GitHub/MuseScore/libmscore/ottava.cpp</includedby>
+    <includedby refid="page_8cpp" local="yes">C:/Users/main/Documents/GitHub/MuseScore/libmscore/page.cpp</includedby>
+    <includedby refid="palmmute_8cpp" local="yes">C:/Users/main/Documents/GitHub/MuseScore/libmscore/palmmute.cpp</includedby>
+    <includedby refid="part_8cpp" local="yes">C:/Users/main/Documents/GitHub/MuseScore/libmscore/part.cpp</includedby>
+    <includedby refid="paste_8cpp" local="yes">C:/Users/main/Documents/GitHub/MuseScore/libmscore/paste.cpp</includedby>
+    <includedby refid="pedal_8cpp" local="yes">C:/Users/main/Documents/GitHub/MuseScore/libmscore/pedal.cpp</includedby>
+    <includedby refid="range_8cpp" local="yes">C:/Users/main/Documents/GitHub/MuseScore/libmscore/range.cpp</includedby>
+    <includedby refid="read114_8cpp" local="yes">C:/Users/main/Documents/GitHub/MuseScore/libmscore/read114.cpp</includedby>
+    <includedby refid="read206_8cpp" local="yes">C:/Users/main/Documents/GitHub/MuseScore/libmscore/read206.cpp</includedby>
+    <includedby refid="rehearsalmark_8cpp" local="yes">C:/Users/main/Documents/GitHub/MuseScore/libmscore/rehearsalmark.cpp</includedby>
+    <includedby refid="rendermidi_8h" local="yes">C:/Users/main/Documents/GitHub/MuseScore/libmscore/rendermidi.h</includedby>
+    <includedby refid="rendermidi_8cpp" local="yes">C:/Users/main/Documents/GitHub/MuseScore/libmscore/rendermidi.cpp</includedby>
+    <includedby refid="repeat_8cpp" local="yes">C:/Users/main/Documents/GitHub/MuseScore/libmscore/repeat.cpp</includedby>
+    <includedby refid="repeatlist_8cpp" local="yes">C:/Users/main/Documents/GitHub/MuseScore/libmscore/repeatlist.cpp</includedby>
+    <includedby refid="rest_8cpp" local="yes">C:/Users/main/Documents/GitHub/MuseScore/libmscore/rest.cpp</includedby>
+    <includedby refid="score_8cpp" local="yes">C:/Users/main/Documents/GitHub/MuseScore/libmscore/score.cpp</includedby>
+    <includedby refid="scorediff_8cpp" local="yes">C:/Users/main/Documents/GitHub/MuseScore/libmscore/scorediff.cpp</includedby>
+    <includedby refid="score_element_8cpp" local="yes">C:/Users/main/Documents/GitHub/MuseScore/libmscore/scoreElement.cpp</includedby>
+    <includedby refid="scorefile_8cpp" local="yes">C:/Users/main/Documents/GitHub/MuseScore/libmscore/scorefile.cpp</includedby>
+    <includedby refid="segment_8cpp" local="yes">C:/Users/main/Documents/GitHub/MuseScore/libmscore/segment.cpp</includedby>
+    <includedby refid="select_8cpp" local="yes">C:/Users/main/Documents/GitHub/MuseScore/libmscore/select.cpp</includedby>
+    <includedby refid="slur_8cpp" local="yes">C:/Users/main/Documents/GitHub/MuseScore/libmscore/slur.cpp</includedby>
+    <includedby refid="slurtie_8cpp" local="yes">C:/Users/main/Documents/GitHub/MuseScore/libmscore/slurtie.cpp</includedby>
+    <includedby refid="spanner_8cpp" local="yes">C:/Users/main/Documents/GitHub/MuseScore/libmscore/spanner.cpp</includedby>
+    <includedby refid="split_measure_8cpp" local="yes">C:/Users/main/Documents/GitHub/MuseScore/libmscore/splitMeasure.cpp</includedby>
+    <includedby refid="staff_8cpp" local="yes">C:/Users/main/Documents/GitHub/MuseScore/libmscore/staff.cpp</includedby>
+    <includedby refid="stafflines_8cpp" local="yes">C:/Users/main/Documents/GitHub/MuseScore/libmscore/stafflines.cpp</includedby>
+    <includedby refid="stafftext_8cpp" local="yes">C:/Users/main/Documents/GitHub/MuseScore/libmscore/stafftext.cpp</includedby>
+    <includedby refid="stafftextbase_8cpp" local="yes">C:/Users/main/Documents/GitHub/MuseScore/libmscore/stafftextbase.cpp</includedby>
+    <includedby refid="stafftype_8cpp" local="yes">C:/Users/main/Documents/GitHub/MuseScore/libmscore/stafftype.cpp</includedby>
+    <includedby refid="stafftypechange_8cpp" local="yes">C:/Users/main/Documents/GitHub/MuseScore/libmscore/stafftypechange.cpp</includedby>
+    <includedby refid="symbol_8cpp" local="yes">C:/Users/main/Documents/GitHub/MuseScore/libmscore/symbol.cpp</includedby>
+    <includedby refid="system_8cpp" local="yes">C:/Users/main/Documents/GitHub/MuseScore/libmscore/system.cpp</includedby>
+    <includedby refid="systemdivider_8cpp" local="yes">C:/Users/main/Documents/GitHub/MuseScore/libmscore/systemdivider.cpp</includedby>
+    <includedby refid="tempotext_8cpp" local="yes">C:/Users/main/Documents/GitHub/MuseScore/libmscore/tempotext.cpp</includedby>
+    <includedby refid="textbase_8cpp" local="yes">C:/Users/main/Documents/GitHub/MuseScore/libmscore/textbase.cpp</includedby>
+    <includedby refid="textlinebase_8cpp" local="yes">C:/Users/main/Documents/GitHub/MuseScore/libmscore/textlinebase.cpp</includedby>
+    <includedby refid="tie_8cpp" local="yes">C:/Users/main/Documents/GitHub/MuseScore/libmscore/tie.cpp</includedby>
+    <includedby refid="transpose_8cpp" local="yes">C:/Users/main/Documents/GitHub/MuseScore/libmscore/transpose.cpp</includedby>
+    <includedby refid="tremolo_8cpp" local="yes">C:/Users/main/Documents/GitHub/MuseScore/libmscore/tremolo.cpp</includedby>
+    <includedby refid="trill_8cpp" local="yes">C:/Users/main/Documents/GitHub/MuseScore/libmscore/trill.cpp</includedby>
+    <includedby refid="tuplet_8cpp" local="yes">C:/Users/main/Documents/GitHub/MuseScore/libmscore/tuplet.cpp</includedby>
+    <includedby refid="undo_8cpp" local="yes">C:/Users/main/Documents/GitHub/MuseScore/libmscore/undo.cpp</includedby>
+    <includedby refid="unrollrepeats_8cpp" local="yes">C:/Users/main/Documents/GitHub/MuseScore/libmscore/unrollrepeats.cpp</includedby>
+    <includedby refid="utils_8cpp" local="yes">C:/Users/main/Documents/GitHub/MuseScore/libmscore/utils.cpp</includedby>
+    <includedby refid="vibrato_8cpp" local="yes">C:/Users/main/Documents/GitHub/MuseScore/libmscore/vibrato.cpp</includedby>
+    <includedby refid="volta_8cpp" local="yes">C:/Users/main/Documents/GitHub/MuseScore/libmscore/volta.cpp</includedby>
+    <includedby refid="xmlreader_8cpp" local="yes">C:/Users/main/Documents/GitHub/MuseScore/libmscore/xmlreader.cpp</includedby>
+    <incdepgraph>
+      <node id="8">
+        <label>style.h</label>
+        <link refid="style_8h_source"/>
+        <childnode refid="9" relation="include">
+        </childnode>
+        <childnode refid="10" relation="include">
+        </childnode>
+      </node>
+      <node id="13">
+        <label>layoutbreak.h</label>
+        <link refid="layoutbreak_8h_source"/>
+        <childnode refid="3" relation="include">
+        </childnode>
+      </node>
+      <node id="5">
+        <label>fraction.h</label>
+        <link refid="fraction_8h_source"/>
+        <childnode refid="6" relation="include">
+        </childnode>
+        <childnode refid="7" relation="include">
+        </childnode>
+      </node>
+      <node id="9">
+        <label>chordlist.h</label>
+        <link refid="chordlist_8h_source"/>
+      </node>
+      <node id="3">
+        <label>element.h</label>
+        <link refid="element_8h_source"/>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
+        </childnode>
+        <childnode refid="11" relation="include">
+        </childnode>
+        <childnode refid="12" relation="include">
+        </childnode>
+      </node>
+      <node id="12">
+        <label>shape.h</label>
+        <link refid="shape_8h_source"/>
+      </node>
+      <node id="1">
+        <label>C:/Users/main/Documents/GitHub/MuseScore/libmscore/measure.h</label>
+        <link refid="measure_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
+        </childnode>
+        <childnode refid="14" relation="include">
+        </childnode>
+      </node>
+      <node id="4">
+        <label>spatium.h</label>
+        <link refid="spatium_8h_source"/>
+      </node>
+      <node id="10">
+        <label>types.h</label>
+        <link refid="types_8h_source"/>
+        <childnode refid="6" relation="include">
+        </childnode>
+      </node>
+      <node id="7">
+        <label>mscore.h</label>
+        <link refid="mscore_8h_source"/>
+        <childnode refid="6" relation="include">
+        </childnode>
+        <childnode refid="8" relation="include">
+        </childnode>
+      </node>
+      <node id="11">
+        <label>scoreElement.h</label>
+        <link refid="score_element_8h_source"/>
+        <childnode refid="10" relation="include">
+        </childnode>
+        <childnode refid="8" relation="include">
+        </childnode>
+      </node>
+      <node id="14">
+        <label>segmentlist.h</label>
+        <link refid="segmentlist_8h_source"/>
+        <childnode refid="15" relation="include">
+        </childnode>
+      </node>
+      <node id="15">
+        <label>segment.h</label>
+        <link refid="segment_8h_source"/>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="12" relation="include">
+        </childnode>
+        <childnode refid="7" relation="include">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>measurebase.h</label>
+        <link refid="measurebase_8h"/>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="13" relation="include">
+        </childnode>
+      </node>
+      <node id="6">
+        <label>config.h</label>
+      </node>
+    </incdepgraph>
+    <invincdepgraph>
+      <node id="2">
+        <label>C:/Users/main/Documents/GitHub/MuseScore/libmscore/clef.cpp</label>
+        <link refid="clef_8cpp"/>
+      </node>
+      <node id="5">
+        <label>C:/Users/main/Documents/GitHub/MuseScore/libmscore/measure.cpp</label>
+        <link refid="measure_8cpp"/>
+      </node>
+      <node id="6">
+        <label>C:/Users/main/Documents/GitHub/MuseScore/libmscore/note.cpp</label>
+        <link refid="note_8cpp"/>
+      </node>
+      <node id="10">
+        <label>C:/Users/main/Documents/GitHub/MuseScore/libmscore/select.cpp</label>
+        <link refid="select_8cpp"/>
+      </node>
+      <node id="12">
+        <label>C:/Users/main/Documents/GitHub/MuseScore/libmscore/undo.cpp</label>
+        <link refid="undo_8cpp"/>
+      </node>
+      <node id="11">
+        <label>C:/Users/main/Documents/GitHub/MuseScore/libmscore/system.cpp</label>
+        <link refid="system_8cpp"/>
+      </node>
+      <node id="1">
+        <label>C:/Users/main/Documents/GitHub/MuseScore/libmscore/measure.h</label>
+        <link refid="measure_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
+        </childnode>
+        <childnode refid="6" relation="include">
+        </childnode>
+        <childnode refid="7" relation="include">
+        </childnode>
+        <childnode refid="8" relation="include">
+        </childnode>
+        <childnode refid="9" relation="include">
+        </childnode>
+        <childnode refid="10" relation="include">
+        </childnode>
+        <childnode refid="11" relation="include">
+        </childnode>
+        <childnode refid="12" relation="include">
+        </childnode>
+      </node>
+      <node id="8">
+        <label>C:/Users/main/Documents/GitHub/MuseScore/libmscore/rendermidi.cpp</label>
+        <link refid="rendermidi_8cpp"/>
+      </node>
+      <node id="4">
+        <label>C:/Users/main/Documents/GitHub/MuseScore/libmscore/element.cpp</label>
+        <link refid="element_8cpp"/>
+      </node>
+      <node id="3">
+        <label>C:/Users/main/Documents/GitHub/MuseScore/libmscore/cmd.cpp</label>
+        <link refid="cmd_8cpp"/>
+      </node>
+      <node id="9">
+        <label>C:/Users/main/Documents/GitHub/MuseScore/libmscore/score.cpp</label>
+        <link refid="score_8cpp"/>
+      </node>
+      <node id="7">
+        <label>C:/Users/main/Documents/GitHub/MuseScore/libmscore/rendermidi.h</label>
+        <link refid="rendermidi_8h_source"/>
+        <childnode refid="8" relation="include">
+        </childnode>
+      </node>
+    </invincdepgraph>
+    <innerclass refid="class_ms_1_1_measure" prot="public">Ms::Measure</innerclass>
+    <innernamespace refid="namespace_ms">Ms</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>Definition of class Measure. </para>
+    </detaileddescription>
+    <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/measure.h"/>
+  </compounddef>
+</doxygen>

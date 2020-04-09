@@ -1,0 +1,17 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.17">
+  <compounddef id="read206_8h" kind="file" language="C++">
+    <compoundname>read206.h</compoundname>
+    <includedby refid="ambitus_8cpp" local="yes">C:/Users/main/Documents/GitHub/MuseScore/libmscore/ambitus.cpp</includedby>
+    <includedby refid="read114_8cpp" local="yes">C:/Users/main/Documents/GitHub/MuseScore/libmscore/read114.cpp</includedby>
+    <includedby refid="read206_8cpp" local="yes">C:/Users/main/Documents/GitHub/MuseScore/libmscore/read206.cpp</includedby>
+    <includedby refid="style_8cpp" local="yes">C:/Users/main/Documents/GitHub/MuseScore/libmscore/style.cpp</includedby>
+    <innerclass refid="class_ms_1_1_page_format" prot="public">Ms::PageFormat</innerclass>
+    <innernamespace refid="namespace_ms">Ms</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/read206.h"/>
+  </compounddef>
+</doxygen>

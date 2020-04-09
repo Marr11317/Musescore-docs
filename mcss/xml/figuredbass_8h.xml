@@ -1,0 +1,196 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.17">
+  <compounddef id="figuredbass_8h" kind="file" language="C++">
+    <compoundname>figuredbass.h</compoundname>
+    <includes refid="text_8h" local="yes">text.h</includes>
+    <includedby refid="chordrest_8cpp" local="yes">C:/Users/main/Documents/GitHub/MuseScore/libmscore/chordrest.cpp</includedby>
+    <includedby refid="element_8cpp" local="yes">C:/Users/main/Documents/GitHub/MuseScore/libmscore/element.cpp</includedby>
+    <includedby refid="figuredbass_8cpp" local="yes">C:/Users/main/Documents/GitHub/MuseScore/libmscore/figuredbass.cpp</includedby>
+    <includedby refid="mscore_8cpp" local="yes">C:/Users/main/Documents/GitHub/MuseScore/libmscore/mscore.cpp</includedby>
+    <includedby refid="paste_8cpp" local="yes">C:/Users/main/Documents/GitHub/MuseScore/libmscore/paste.cpp</includedby>
+    <includedby refid="select_8cpp" local="yes">C:/Users/main/Documents/GitHub/MuseScore/libmscore/select.cpp</includedby>
+    <incdepgraph>
+      <node id="9">
+        <label>style.h</label>
+        <link refid="style_8h_source"/>
+        <childnode refid="10" relation="include">
+        </childnode>
+        <childnode refid="11" relation="include">
+        </childnode>
+      </node>
+      <node id="6">
+        <label>fraction.h</label>
+        <link refid="fraction_8h_source"/>
+        <childnode refid="7" relation="include">
+        </childnode>
+        <childnode refid="8" relation="include">
+        </childnode>
+      </node>
+      <node id="10">
+        <label>chordlist.h</label>
+        <link refid="chordlist_8h_source"/>
+      </node>
+      <node id="1">
+        <label>C:/Users/main/Documents/GitHub/MuseScore/libmscore/figuredbass.h</label>
+        <link refid="figuredbass_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>text.h</label>
+        <link refid="text_8h_source"/>
+        <childnode refid="3" relation="include">
+        </childnode>
+      </node>
+      <node id="4">
+        <label>element.h</label>
+        <link refid="element_8h_source"/>
+        <childnode refid="5" relation="include">
+        </childnode>
+        <childnode refid="6" relation="include">
+        </childnode>
+        <childnode refid="12" relation="include">
+        </childnode>
+        <childnode refid="13" relation="include">
+        </childnode>
+      </node>
+      <node id="13">
+        <label>shape.h</label>
+        <link refid="shape_8h_source"/>
+      </node>
+      <node id="5">
+        <label>spatium.h</label>
+        <link refid="spatium_8h_source"/>
+      </node>
+      <node id="3">
+        <label>textbase.h</label>
+        <link refid="textbase_8h_source"/>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="14" relation="include">
+        </childnode>
+        <childnode refid="9" relation="include">
+        </childnode>
+      </node>
+      <node id="11">
+        <label>types.h</label>
+        <link refid="types_8h_source"/>
+        <childnode refid="7" relation="include">
+        </childnode>
+      </node>
+      <node id="8">
+        <label>mscore.h</label>
+        <link refid="mscore_8h_source"/>
+        <childnode refid="7" relation="include">
+        </childnode>
+        <childnode refid="9" relation="include">
+        </childnode>
+      </node>
+      <node id="12">
+        <label>scoreElement.h</label>
+        <link refid="score_element_8h_source"/>
+        <childnode refid="11" relation="include">
+        </childnode>
+        <childnode refid="9" relation="include">
+        </childnode>
+      </node>
+      <node id="14">
+        <label>property.h</label>
+        <link refid="property_8h_source"/>
+      </node>
+      <node id="7">
+        <label>config.h</label>
+      </node>
+    </incdepgraph>
+    <invincdepgraph>
+      <node id="1">
+        <label>C:/Users/main/Documents/GitHub/MuseScore/libmscore/figuredbass.h</label>
+        <link refid="figuredbass_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="3" relation="include">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>C:/Users/main/Documents/GitHub/MuseScore/libmscore/select.cpp</label>
+        <link refid="select_8cpp"/>
+      </node>
+      <node id="2">
+        <label>C:/Users/main/Documents/GitHub/MuseScore/libmscore/element.cpp</label>
+        <link refid="element_8cpp"/>
+      </node>
+    </invincdepgraph>
+    <innerclass refid="class_ms_1_1_figured_bass_item" prot="public">Ms::FiguredBassItem</innerclass>
+    <innerclass refid="struct_ms_1_1_figured_bass_font" prot="public">Ms::FiguredBassFont</innerclass>
+    <innerclass refid="class_ms_1_1_figured_bass" prot="public">Ms::FiguredBass</innerclass>
+    <innernamespace refid="namespace_ms">Ms</innernamespace>
+      <sectiondef kind="define">
+      <memberdef kind="define" id="figuredbass_8h_1a6a28d913457085f4015ee75e523d57a7" prot="public" static="no">
+        <name>FBIDigitNone</name>
+        <initializer>-1</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/figuredbass.h" line="60" column="9" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/figuredbass.h" bodystart="60" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="func">
+      <memberdef kind="function" id="figuredbass_8h_1a92c3e3c17d2d92e7dec60ef9c55ed1f1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>Q_DECLARE_METATYPE</definition>
+        <argsstring>(Ms::FiguredBassItem::Modifier)</argsstring>
+        <name>Q_DECLARE_METATYPE</name>
+        <param>
+          <type>Ms::FiguredBassItem::Modifier</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/figuredbass.h" line="311" column="1" declfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/figuredbass.h" declline="311" declcolumn="1"/>
+      </memberdef>
+      <memberdef kind="function" id="figuredbass_8h_1ae6d4a677329b8b0c8f21a07499772331" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>Q_DECLARE_METATYPE</definition>
+        <argsstring>(Ms::FiguredBassItem::Parenthesis)</argsstring>
+        <name>Q_DECLARE_METATYPE</name>
+        <param>
+          <type>Ms::FiguredBassItem::Parenthesis</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/figuredbass.h" line="312" column="1" declfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/figuredbass.h" declline="312" declcolumn="1"/>
+      </memberdef>
+      <memberdef kind="function" id="figuredbass_8h_1a870aa827c89f71886d8e3b84b12854b1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>Q_DECLARE_METATYPE</definition>
+        <argsstring>(Ms::FiguredBassItem::ContLine)</argsstring>
+        <name>Q_DECLARE_METATYPE</name>
+        <param>
+          <type>Ms::FiguredBassItem::ContLine</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/figuredbass.h" line="313" column="1" declfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/figuredbass.h" declline="313" declcolumn="1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/figuredbass.h"/>
+  </compounddef>
+</doxygen>

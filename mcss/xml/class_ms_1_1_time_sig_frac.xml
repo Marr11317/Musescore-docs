@@ -1,0 +1,588 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.17">
+  <compounddef id="class_ms_1_1_time_sig_frac" kind="class" language="C++" prot="public">
+    <compoundname>Ms::TimeSigFrac</compoundname>
+    <basecompoundref refid="class_ms_1_1_fraction" prot="public" virt="non-virtual">Ms::Fraction</basecompoundref>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_ms_1_1_time_sig_frac_1abbfd3700ce414cdcd8618627ed2d4f49" prot="public" static="no" constexpr="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>constexpr</type>
+        <definition>constexpr Ms::TimeSigFrac::TimeSigFrac</definition>
+        <argsstring>(int n=0, int d=1)</argsstring>
+        <name>TimeSigFrac</name>
+        <param>
+          <type>int</type>
+          <declname>n</declname>
+          <defval>0</defval>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>d</declname>
+          <defval>1</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/sig.h" line="47" column="17" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/sig.h" bodystart="47" bodyend="47"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ms_1_1_time_sig_frac_1ad27c3901dd4b9404f63057adddaca077" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>Ms::TimeSigFrac::TimeSigFrac</definition>
+        <argsstring>(const Fraction &amp;f)</argsstring>
+        <name>TimeSigFrac</name>
+        <param>
+          <type>const <ref refid="class_ms_1_1_fraction" kindref="compound">Fraction</ref> &amp;</type>
+          <declname>f</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/sig.h" line="48" column="7" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/sig.h" bodystart="48" bodyend="48"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ms_1_1_time_sig_frac_1a8ff8db7bab791459082e86e8e902156c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>Ms::TimeSigFrac::TimeSigFrac</definition>
+        <argsstring>(const TimeSigFrac &amp;f)</argsstring>
+        <name>TimeSigFrac</name>
+        <param>
+          <type>const <ref refid="class_ms_1_1_time_sig_frac" kindref="compound">TimeSigFrac</ref> &amp;</type>
+          <declname>f</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/sig.h" line="49" column="7" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/sig.h" bodystart="49" bodyend="49"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ms_1_1_time_sig_frac_1ad1311d10e81223bb2664532f1261e1ec" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool Ms::TimeSigFrac::isCompound</definition>
+        <argsstring>() const</argsstring>
+        <name>isCompound</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/sig.h" line="52" column="12" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/sig.h" bodystart="52" bodyend="52"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ms_1_1_time_sig_frac_1afb4c5b24067e7ecd6721aafd951cdbc1" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool Ms::TimeSigFrac::isBeatedCompound</definition>
+        <argsstring>(qreal tempo) const</argsstring>
+        <name>isBeatedCompound</name>
+        <param>
+          <type>qreal</type>
+          <declname>tempo</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/sig.h" line="56" column="12" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/sig.h" bodystart="56" bodyend="56"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ms_1_1_time_sig_frac_1a4c4fb5cda85cf80fc435016d7ff42f12" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int Ms::TimeSigFrac::dUnitTicks</definition>
+        <argsstring>() const</argsstring>
+        <name>dUnitTicks</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/sig.h" line="58" column="11" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/sig.cpp" bodystart="557" bodyend="560"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ms_1_1_time_sig_frac_1ab49caa19b013934f446a6363d5760bad" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>int</type>
+        <definition>int Ms::TimeSigFrac::ticksPerMeasure</definition>
+        <argsstring>() const</argsstring>
+        <name>ticksPerMeasure</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/sig.h" line="59" column="11" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/sig.h" bodystart="59" bodyend="59"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ms_1_1_time_sig_frac_1ad671436198e18646c567ae62a37ce8c1" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>int</type>
+        <definition>int Ms::TimeSigFrac::dUnitsPerBeat</definition>
+        <argsstring>() const</argsstring>
+        <name>dUnitsPerBeat</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/sig.h" line="61" column="11" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/sig.h" bodystart="61" bodyend="61"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ms_1_1_time_sig_frac_1afcd07f0e38b7ba4699c17041c7813387" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>int</type>
+        <definition>int Ms::TimeSigFrac::beatTicks</definition>
+        <argsstring>() const</argsstring>
+        <name>beatTicks</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/sig.h" line="62" column="11" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/sig.h" bodystart="62" bodyend="62"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ms_1_1_time_sig_frac_1a575ef69aaa24ec9531c34d9e416674a5" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>int</type>
+        <definition>int Ms::TimeSigFrac::beatsPerMeasure</definition>
+        <argsstring>() const</argsstring>
+        <name>beatsPerMeasure</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/sig.h" line="63" column="11" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/sig.h" bodystart="63" bodyend="63"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ms_1_1_time_sig_frac_1a95bee3ae6611c2e09242558ef004d198" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int Ms::TimeSigFrac::subbeatTicks</definition>
+        <argsstring>(int level) const</argsstring>
+        <name>subbeatTicks</name>
+        <param>
+          <type>int</type>
+          <declname>level</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/sig.h" line="65" column="11" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/sig.cpp" bodystart="112" bodyend="121"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ms_1_1_time_sig_frac_1ad2e058e50760ad54f558d843228468a8" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int Ms::TimeSigFrac::maxSubbeatLevel</definition>
+        <argsstring>() const</argsstring>
+        <name>maxSubbeatLevel</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/sig.h" line="66" column="11" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/sig.cpp" bodystart="128" bodyend="137"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ms_1_1_time_sig_frac_1a6da0e935eccfb7fc49a4e5331ad6600d" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool Ms::TimeSigFrac::isTriple</definition>
+        <argsstring>() const</argsstring>
+        <name>isTriple</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/sig.h" line="68" column="12" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/sig.h" bodystart="68" bodyend="68"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ms_1_1_time_sig_frac_1ae65331a74a41651a285c873b2a315669" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool Ms::TimeSigFrac::isDuple</definition>
+        <argsstring>() const</argsstring>
+        <name>isDuple</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/sig.h" line="69" column="12" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/sig.h" bodystart="69" bodyend="69"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ms_1_1_time_sig_frac_1acfbecbde3a454df3a672952ca1c1e622" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>qreal</type>
+        <definition>qreal Ms::TimeSigFrac::tempo2beatsPerMinute</definition>
+        <argsstring>(qreal tempo) const</argsstring>
+        <name>tempo2beatsPerMinute</name>
+        <param>
+          <type>qreal</type>
+          <declname>tempo</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/sig.h" line="72" column="13" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/sig.h" bodystart="72" bodyend="72"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ms_1_1_time_sig_frac_1ab28c52140cc9188083c6f7ccb24fe81f" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>qreal</type>
+        <definition>qreal Ms::TimeSigFrac::beatsPerMinute2tempo</definition>
+        <argsstring>(qreal bpm) const</argsstring>
+        <name>beatsPerMinute2tempo</name>
+        <param>
+          <type>qreal</type>
+          <declname>bpm</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/sig.h" line="73" column="13" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/sig.h" bodystart="73" bodyend="73"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ms_1_1_time_sig_frac_1af08c68c5d267082fbbadd339b7904314" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>BeatType</type>
+        <definition>BeatType Ms::TimeSigFrac::rtick2beatType</definition>
+        <argsstring>(int rtick) const</argsstring>
+        <name>rtick2beatType</name>
+        <param>
+          <type>int</type>
+          <declname>rtick</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/sig.h" line="75" column="16" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/sig.cpp" bodystart="46" bodyend="74"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ms_1_1_time_sig_frac_1a45c3f5a98b5f973d99cb2dba5716397a" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int Ms::TimeSigFrac::rtick2subbeatLevel</definition>
+        <argsstring>(int rtick) const</argsstring>
+        <name>rtick2subbeatLevel</name>
+        <param>
+          <type>int</type>
+          <declname>rtick</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/sig.h" line="76" column="11" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/sig.cpp" bodystart="153" bodyend="166"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ms_1_1_time_sig_frac_1a7bd1396fddad56ce2fa18b0314903a87" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>BeatType</type>
+        <definition>BeatType Ms::TimeSigFrac::strongestBeatInRange</definition>
+        <argsstring>(int rtick1, int rtick2, int *dUnitsCrossed=0, int *subbeatTick=0, bool saveLast=false) const</argsstring>
+        <name>strongestBeatInRange</name>
+        <param>
+          <type>int</type>
+          <declname>rtick1</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>rtick2</declname>
+        </param>
+        <param>
+          <type>int *</type>
+          <declname>dUnitsCrossed</declname>
+          <defval>0</defval>
+        </param>
+        <param>
+          <type>int *</type>
+          <declname>subbeatTick</declname>
+          <defval>0</defval>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>saveLast</declname>
+          <defval>false</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/sig.h" line="78" column="16" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/sig.cpp" bodystart="87" bodyend="105"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ms_1_1_time_sig_frac_1a902468235a40137f211987182b97effd" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int Ms::TimeSigFrac::strongestSubbeatLevelInRange</definition>
+        <argsstring>(int rtick1, int rtick2, int *subbeatTick=0) const</argsstring>
+        <name>strongestSubbeatLevelInRange</name>
+        <param>
+          <type>int</type>
+          <declname>rtick1</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>rtick2</declname>
+        </param>
+        <param>
+          <type>int *</type>
+          <declname>subbeatTick</declname>
+          <defval>0</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/sig.h" line="79" column="11" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/sig.cpp" bodystart="176" bodyend="193"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ms_1_1_time_sig_frac_1a036f49420b2ad1cf52cb0ff365d80492" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>int</type>
+        <definition>int Ms::TimeSigFrac::ticksPastDUnit</definition>
+        <argsstring>(int rtick) const</argsstring>
+        <name>ticksPastDUnit</name>
+        <param>
+          <type>int</type>
+          <declname>rtick</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/sig.h" line="81" column="11" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/sig.h" bodystart="81" bodyend="81"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ms_1_1_time_sig_frac_1ac8d7b5977dd02a14d29978e918445341" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>int</type>
+        <definition>int Ms::TimeSigFrac::ticksToNextDUnit</definition>
+        <argsstring>(int rtick) const</argsstring>
+        <name>ticksToNextDUnit</name>
+        <param>
+          <type>int</type>
+          <declname>rtick</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/sig.h" line="82" column="11" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/sig.h" bodystart="82" bodyend="82"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ms_1_1_time_sig_frac_1ae7bbff77a4f3fb941ace5cc1ea3b9a94" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>int</type>
+        <definition>int Ms::TimeSigFrac::ticksPastBeat</definition>
+        <argsstring>(int rtick) const</argsstring>
+        <name>ticksPastBeat</name>
+        <param>
+          <type>int</type>
+          <declname>rtick</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/sig.h" line="84" column="11" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/sig.h" bodystart="84" bodyend="84"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ms_1_1_time_sig_frac_1a856487926fb33dd0b41d1f8c94eb7732" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>int</type>
+        <definition>int Ms::TimeSigFrac::ticksToNextBeat</definition>
+        <argsstring>(int rtick) const</argsstring>
+        <name>ticksToNextBeat</name>
+        <param>
+          <type>int</type>
+          <declname>rtick</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/sig.h" line="85" column="11" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/sig.h" bodystart="85" bodyend="85"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ms_1_1_time_sig_frac_1a4140d6d3cf9784cb157902e23112665f" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>int</type>
+        <definition>int Ms::TimeSigFrac::ticksPastSubbeat</definition>
+        <argsstring>(int rtick, int level) const</argsstring>
+        <name>ticksPastSubbeat</name>
+        <param>
+          <type>int</type>
+          <declname>rtick</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>level</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/sig.h" line="87" column="11" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/sig.h" bodystart="87" bodyend="87"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ms_1_1_time_sig_frac_1a3f4071e0b31debb4d71a0a748b309bcc" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>int</type>
+        <definition>int Ms::TimeSigFrac::ticksToNextSubbeat</definition>
+        <argsstring>(int rtick, int level) const</argsstring>
+        <name>ticksToNextSubbeat</name>
+        <param>
+          <type>int</type>
+          <declname>rtick</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>level</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/sig.h" line="88" column="11" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/sig.h" bodystart="88" bodyend="88"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ms_1_1_time_sig_frac_1a60f8d77cf56e1a39991443ab04188c2e" prot="public" static="no" constexpr="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>constexpr</type>
+        <definition>constexpr Ms::Fraction::Fraction</definition>
+        <argsstring>()</argsstring>
+        <name>Fraction</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/sig.h" line="46" column="7" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/fraction.h" bodystart="59" bodyend="59"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ms_1_1_time_sig_frac_1ab5e17f0cad51963a1267b04029789ea8" prot="public" static="no" constexpr="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>constexpr</type>
+        <definition>constexpr Ms::Fraction::Fraction</definition>
+        <argsstring>(int z, int n)</argsstring>
+        <name>Fraction</name>
+        <param>
+          <type>int</type>
+          <declname>z</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>n</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/sig.h" line="46" column="7" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/fraction.h" bodystart="60" bodyend="60"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>Ms::Fraction</label>
+        <link refid="class_ms_1_1_fraction"/>
+      </node>
+      <node id="1">
+        <label>Ms::TimeSigFrac</label>
+        <link refid="class_ms_1_1_time_sig_frac"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>Ms::Fraction</label>
+        <link refid="class_ms_1_1_fraction"/>
+      </node>
+      <node id="1">
+        <label>Ms::TimeSigFrac</label>
+        <link refid="class_ms_1_1_time_sig_frac"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/sig.h" line="43" column="34" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/sig.h" bodystart="43" bodyend="89"/>
+    <listofallmembers>
+      <member refid="class_ms_1_1_fraction_1a8122ffd412b800b9a6afd6d2722e3f57" prot="public" virt="non-virtual"><scope>Ms::TimeSigFrac</scope><name>absValue</name></member>
+      <member refid="class_ms_1_1_time_sig_frac_1a575ef69aaa24ec9531c34d9e416674a5" prot="public" virt="non-virtual"><scope>Ms::TimeSigFrac</scope><name>beatsPerMeasure</name></member>
+      <member refid="class_ms_1_1_time_sig_frac_1ab28c52140cc9188083c6f7ccb24fe81f" prot="public" virt="non-virtual"><scope>Ms::TimeSigFrac</scope><name>beatsPerMinute2tempo</name></member>
+      <member refid="class_ms_1_1_time_sig_frac_1afcd07f0e38b7ba4699c17041c7813387" prot="public" virt="non-virtual"><scope>Ms::TimeSigFrac</scope><name>beatTicks</name></member>
+      <member refid="class_ms_1_1_fraction_1af1e2d67466171dc13ed60e06f9cc3fc8" prot="public" virt="non-virtual"><scope>Ms::TimeSigFrac</scope><name>denominator</name></member>
+      <member refid="class_ms_1_1_time_sig_frac_1ad671436198e18646c567ae62a37ce8c1" prot="public" virt="non-virtual"><scope>Ms::TimeSigFrac</scope><name>dUnitsPerBeat</name></member>
+      <member refid="class_ms_1_1_time_sig_frac_1a4c4fb5cda85cf80fc435016d7ff42f12" prot="public" virt="non-virtual"><scope>Ms::TimeSigFrac</scope><name>dUnitTicks</name></member>
+      <member refid="class_ms_1_1_fraction_1a2caa5aec03acdab600534725160df7f7" prot="public" virt="non-virtual"><scope>Ms::TimeSigFrac</scope><name>eps</name></member>
+      <member refid="class_ms_1_1_time_sig_frac_1a60f8d77cf56e1a39991443ab04188c2e" prot="public" virt="non-virtual"><scope>Ms::TimeSigFrac</scope><name>Fraction</name></member>
+      <member refid="class_ms_1_1_time_sig_frac_1ab5e17f0cad51963a1267b04029789ea8" prot="public" virt="non-virtual"><scope>Ms::TimeSigFrac</scope><name>Fraction</name></member>
+      <member refid="class_ms_1_1_fraction_1ab5e17f0cad51963a1267b04029789ea8" prot="public" virt="non-virtual" ambiguityscope="Ms::Fraction::"><scope>Ms::TimeSigFrac</scope><name>Fraction</name></member>
+      <member refid="class_ms_1_1_fraction_1abed91002a58e3f44e1429c7fa6fcb0f7" prot="public" virt="non-virtual"><scope>Ms::TimeSigFrac</scope><name>fromString</name></member>
+      <member refid="class_ms_1_1_fraction_1a63e242155373d30a2de43750ea718368" prot="public" virt="non-virtual"><scope>Ms::TimeSigFrac</scope><name>fromTicks</name></member>
+      <member refid="class_ms_1_1_fraction_1ab6792581488c2a958e338f1e32b415fc" prot="public" virt="non-virtual"><scope>Ms::TimeSigFrac</scope><name>identical</name></member>
+      <member refid="class_ms_1_1_time_sig_frac_1afb4c5b24067e7ecd6721aafd951cdbc1" prot="public" virt="non-virtual"><scope>Ms::TimeSigFrac</scope><name>isBeatedCompound</name></member>
+      <member refid="class_ms_1_1_time_sig_frac_1ad1311d10e81223bb2664532f1261e1ec" prot="public" virt="non-virtual"><scope>Ms::TimeSigFrac</scope><name>isCompound</name></member>
+      <member refid="class_ms_1_1_time_sig_frac_1ae65331a74a41651a285c873b2a315669" prot="public" virt="non-virtual"><scope>Ms::TimeSigFrac</scope><name>isDuple</name></member>
+      <member refid="class_ms_1_1_fraction_1ab7f69a821d6b59f4e448eb3e5ecb33fa" prot="public" virt="non-virtual"><scope>Ms::TimeSigFrac</scope><name>isNotZero</name></member>
+      <member refid="class_ms_1_1_time_sig_frac_1a6da0e935eccfb7fc49a4e5331ad6600d" prot="public" virt="non-virtual"><scope>Ms::TimeSigFrac</scope><name>isTriple</name></member>
+      <member refid="class_ms_1_1_fraction_1acc3076889cb6d4019cd1406411c3656c" prot="public" virt="non-virtual"><scope>Ms::TimeSigFrac</scope><name>isValid</name></member>
+      <member refid="class_ms_1_1_fraction_1ac3244c876739eef5fa17e93e053bc599" prot="public" virt="non-virtual"><scope>Ms::TimeSigFrac</scope><name>isZero</name></member>
+      <member refid="class_ms_1_1_time_sig_frac_1ad2e058e50760ad54f558d843228468a8" prot="public" virt="non-virtual"><scope>Ms::TimeSigFrac</scope><name>maxSubbeatLevel</name></member>
+      <member refid="class_ms_1_1_fraction_1ac96ad0e3adbd7cac5e8f7264702178ff" prot="public" virt="non-virtual"><scope>Ms::TimeSigFrac</scope><name>numerator</name></member>
+      <member refid="class_ms_1_1_fraction_1aec63213b9bfb57be20c5659b03c704f4" prot="public" virt="non-virtual"><scope>Ms::TimeSigFrac</scope><name>operator QVariant</name></member>
+      <member refid="class_ms_1_1_fraction_1af74762fb528bf321d031ddc33b474272" prot="public" virt="non-virtual"><scope>Ms::TimeSigFrac</scope><name>operator!=</name></member>
+      <member refid="class_ms_1_1_fraction_1a0d245a442f63b361187b6990ee80d020" prot="public" virt="non-virtual"><scope>Ms::TimeSigFrac</scope><name>operator*</name></member>
+      <member refid="class_ms_1_1_fraction_1ac0fab228824190c55bcea6e786e960ed" prot="public" virt="non-virtual"><scope>Ms::TimeSigFrac</scope><name>operator*=</name></member>
+      <member refid="class_ms_1_1_fraction_1acffd3214b01726c04f2c6f2516d90afe" prot="public" virt="non-virtual"><scope>Ms::TimeSigFrac</scope><name>operator*=</name></member>
+      <member refid="class_ms_1_1_fraction_1add224e90aa28275f9dd8fbf56bbfb9ca" prot="public" virt="non-virtual"><scope>Ms::TimeSigFrac</scope><name>operator+</name></member>
+      <member refid="class_ms_1_1_fraction_1afea66aa51389f1a9ce75afdd82445e22" prot="public" virt="non-virtual"><scope>Ms::TimeSigFrac</scope><name>operator+=</name></member>
+      <member refid="class_ms_1_1_fraction_1af4b6cb13ed1674571827274aec0c97be" prot="public" virt="non-virtual"><scope>Ms::TimeSigFrac</scope><name>operator-</name></member>
+      <member refid="class_ms_1_1_fraction_1aa37a49926db25a4ce933f06fe3fd3725" prot="public" virt="non-virtual"><scope>Ms::TimeSigFrac</scope><name>operator-</name></member>
+      <member refid="class_ms_1_1_fraction_1a8ed615419d1a2736df5a061a63398b6f" prot="public" virt="non-virtual"><scope>Ms::TimeSigFrac</scope><name>operator-=</name></member>
+      <member refid="class_ms_1_1_fraction_1a4828690d4d50f40c5b7d2df8e65d380b" prot="public" virt="non-virtual"><scope>Ms::TimeSigFrac</scope><name>operator/</name></member>
+      <member refid="class_ms_1_1_fraction_1a24df11efa5947d17f4c960024049b47f" prot="public" virt="non-virtual"><scope>Ms::TimeSigFrac</scope><name>operator/=</name></member>
+      <member refid="class_ms_1_1_fraction_1ad265ea2b5a0ffc29c6d0c188db2107d3" prot="public" virt="non-virtual"><scope>Ms::TimeSigFrac</scope><name>operator&lt;</name></member>
+      <member refid="class_ms_1_1_fraction_1a924d690fb4097195750306991c3c87d4" prot="public" virt="non-virtual"><scope>Ms::TimeSigFrac</scope><name>operator&lt;=</name></member>
+      <member refid="class_ms_1_1_fraction_1a4fb2bf1da5c7b7726d0b700d3ab2a75c" prot="public" virt="non-virtual"><scope>Ms::TimeSigFrac</scope><name>operator==</name></member>
+      <member refid="class_ms_1_1_fraction_1a4882a42df2d5d2aa6fb589d5defbe19d" prot="public" virt="non-virtual"><scope>Ms::TimeSigFrac</scope><name>operator&gt;</name></member>
+      <member refid="class_ms_1_1_fraction_1a187a166d1fecc8ca8bc00fb448e20186" prot="public" virt="non-virtual"><scope>Ms::TimeSigFrac</scope><name>operator&gt;=</name></member>
+      <member refid="class_ms_1_1_fraction_1ae6e87a05be6f24d5c4f69b943d49dd88" prot="public" virt="non-virtual"><scope>Ms::TimeSigFrac</scope><name>print</name></member>
+      <member refid="class_ms_1_1_fraction_1ab443b6f4371eb803f5a7076701cfc6c5" prot="public" virt="non-virtual"><scope>Ms::TimeSigFrac</scope><name>rdenominator</name></member>
+      <member refid="class_ms_1_1_fraction_1a65efbab334943fc56b8a7444ea087415" prot="public" virt="non-virtual"><scope>Ms::TimeSigFrac</scope><name>reduce</name></member>
+      <member refid="class_ms_1_1_fraction_1aa5357e00914c3815be2a91a7c2d6ddd2" prot="public" virt="non-virtual"><scope>Ms::TimeSigFrac</scope><name>reduced</name></member>
+      <member refid="class_ms_1_1_fraction_1aecf78924211726292ed941e47f67230a" prot="public" virt="non-virtual"><scope>Ms::TimeSigFrac</scope><name>rnumerator</name></member>
+      <member refid="class_ms_1_1_time_sig_frac_1af08c68c5d267082fbbadd339b7904314" prot="public" virt="non-virtual"><scope>Ms::TimeSigFrac</scope><name>rtick2beatType</name></member>
+      <member refid="class_ms_1_1_time_sig_frac_1a45c3f5a98b5f973d99cb2dba5716397a" prot="public" virt="non-virtual"><scope>Ms::TimeSigFrac</scope><name>rtick2subbeatLevel</name></member>
+      <member refid="class_ms_1_1_fraction_1a699aacd076e6ffb1415298fae0c08a92" prot="public" virt="non-virtual"><scope>Ms::TimeSigFrac</scope><name>set</name></member>
+      <member refid="class_ms_1_1_fraction_1ae671ef315b71166777d5f3feeb3e3e92" prot="public" virt="non-virtual"><scope>Ms::TimeSigFrac</scope><name>setDenominator</name></member>
+      <member refid="class_ms_1_1_fraction_1afbafb8d881c955f439a39dfe9e07ea13" prot="public" virt="non-virtual"><scope>Ms::TimeSigFrac</scope><name>setNumerator</name></member>
+      <member refid="class_ms_1_1_time_sig_frac_1a7bd1396fddad56ce2fa18b0314903a87" prot="public" virt="non-virtual"><scope>Ms::TimeSigFrac</scope><name>strongestBeatInRange</name></member>
+      <member refid="class_ms_1_1_time_sig_frac_1a902468235a40137f211987182b97effd" prot="public" virt="non-virtual"><scope>Ms::TimeSigFrac</scope><name>strongestSubbeatLevelInRange</name></member>
+      <member refid="class_ms_1_1_time_sig_frac_1a95bee3ae6611c2e09242558ef004d198" prot="public" virt="non-virtual"><scope>Ms::TimeSigFrac</scope><name>subbeatTicks</name></member>
+      <member refid="class_ms_1_1_time_sig_frac_1acfbecbde3a454df3a672952ca1c1e622" prot="public" virt="non-virtual"><scope>Ms::TimeSigFrac</scope><name>tempo2beatsPerMinute</name></member>
+      <member refid="class_ms_1_1_fraction_1a1d92a73ce7f9b7f895a9a083f6fe1eb2" prot="public" virt="non-virtual"><scope>Ms::TimeSigFrac</scope><name>ticks</name></member>
+      <member refid="class_ms_1_1_time_sig_frac_1ae7bbff77a4f3fb941ace5cc1ea3b9a94" prot="public" virt="non-virtual"><scope>Ms::TimeSigFrac</scope><name>ticksPastBeat</name></member>
+      <member refid="class_ms_1_1_time_sig_frac_1a036f49420b2ad1cf52cb0ff365d80492" prot="public" virt="non-virtual"><scope>Ms::TimeSigFrac</scope><name>ticksPastDUnit</name></member>
+      <member refid="class_ms_1_1_time_sig_frac_1a4140d6d3cf9784cb157902e23112665f" prot="public" virt="non-virtual"><scope>Ms::TimeSigFrac</scope><name>ticksPastSubbeat</name></member>
+      <member refid="class_ms_1_1_time_sig_frac_1ab49caa19b013934f446a6363d5760bad" prot="public" virt="non-virtual"><scope>Ms::TimeSigFrac</scope><name>ticksPerMeasure</name></member>
+      <member refid="class_ms_1_1_time_sig_frac_1a856487926fb33dd0b41d1f8c94eb7732" prot="public" virt="non-virtual"><scope>Ms::TimeSigFrac</scope><name>ticksToNextBeat</name></member>
+      <member refid="class_ms_1_1_time_sig_frac_1ac8d7b5977dd02a14d29978e918445341" prot="public" virt="non-virtual"><scope>Ms::TimeSigFrac</scope><name>ticksToNextDUnit</name></member>
+      <member refid="class_ms_1_1_time_sig_frac_1a3f4071e0b31debb4d71a0a748b309bcc" prot="public" virt="non-virtual"><scope>Ms::TimeSigFrac</scope><name>ticksToNextSubbeat</name></member>
+      <member refid="class_ms_1_1_time_sig_frac_1abbfd3700ce414cdcd8618627ed2d4f49" prot="public" virt="non-virtual"><scope>Ms::TimeSigFrac</scope><name>TimeSigFrac</name></member>
+      <member refid="class_ms_1_1_time_sig_frac_1ad27c3901dd4b9404f63057adddaca077" prot="public" virt="non-virtual"><scope>Ms::TimeSigFrac</scope><name>TimeSigFrac</name></member>
+      <member refid="class_ms_1_1_time_sig_frac_1a8ff8db7bab791459082e86e8e902156c" prot="public" virt="non-virtual"><scope>Ms::TimeSigFrac</scope><name>TimeSigFrac</name></member>
+      <member refid="class_ms_1_1_fraction_1a758b20ab4ee40dd86e07a83d00a7e0c3" prot="public" virt="non-virtual"><scope>Ms::TimeSigFrac</scope><name>toString</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

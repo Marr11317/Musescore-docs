@@ -1,0 +1,141 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.17">
+  <compounddef id="struct_ms_1_1_note_val" kind="struct" language="C++" prot="public">
+    <compoundname>Ms::NoteVal</compoundname>
+    <includes refid="note_8h" local="yes">note.h</includes>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="struct_ms_1_1_note_val_1a9c60bba3732f3662a4d847970745d06f" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int Ms::NoteVal::pitch</definition>
+        <argsstring></argsstring>
+        <name>pitch</name>
+        <initializer>{ -1 }</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/note.h" line="165" column="11" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/note.h" bodystart="165" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_ms_1_1_note_val_1a179950ddba0d1671b70f629f443c4439" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int Ms::NoteVal::tpc1</definition>
+        <argsstring></argsstring>
+        <name>tpc1</name>
+        <initializer>{ Tpc::TPC_INVALID }</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/note.h" line="166" column="11" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/note.h" bodystart="166" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_ms_1_1_note_val_1a90b20d1d69361fb0b3faf6c075503f10" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int Ms::NoteVal::tpc2</definition>
+        <argsstring></argsstring>
+        <name>tpc2</name>
+        <initializer>{ Tpc::TPC_INVALID }</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/note.h" line="167" column="11" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/note.h" bodystart="167" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_ms_1_1_note_val_1a8270e311f788d10ba134ec92697577ce" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int Ms::NoteVal::fret</definition>
+        <argsstring></argsstring>
+        <name>fret</name>
+        <initializer>{ FRET_NONE }</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/note.h" line="168" column="11" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/note.h" bodystart="168" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_ms_1_1_note_val_1a473152509694563ec04a32ef05df165f" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int Ms::NoteVal::string</definition>
+        <argsstring></argsstring>
+        <name>string</name>
+        <initializer>{ STRING_NONE }</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/note.h" line="169" column="11" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/note.h" bodystart="169" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_ms_1_1_note_val_1a67e86e31154ea0cea7a5d6dca85784d4" prot="public" static="no" mutable="no">
+        <type><ref refid="class_ms_1_1_note_head_1a1d3e8faf3d3bc1d89d9d3485acde69d1" kindref="member">NoteHead::Group</ref></type>
+        <definition>NoteHead::Group Ms::NoteVal::headGroup</definition>
+        <argsstring></argsstring>
+        <name>headGroup</name>
+        <initializer>{ <ref refid="class_ms_1_1_note_head_1a1d3e8faf3d3bc1d89d9d3485acde69d1a6a94b8d56da1b6f881b076e10170e9a2" kindref="member">NoteHead::Group::HEAD_NORMAL</ref> }</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/note.h" line="170" column="23" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/note.h" bodystart="170" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="struct_ms_1_1_note_val_1a26b90f1c70b0cf49d27a63fbfb11dd67" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>Ms::NoteVal::NoteVal</definition>
+        <argsstring>()</argsstring>
+        <name>NoteVal</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/note.h" line="172" column="7" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/note.h" bodystart="172" bodyend="172"/>
+      </memberdef>
+      <memberdef kind="function" id="struct_ms_1_1_note_val_1ace84d82b4d870df423ba388ee99b698a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>Ms::NoteVal::NoteVal</definition>
+        <argsstring>(int p)</argsstring>
+        <name>NoteVal</name>
+        <param>
+          <type>int</type>
+          <declname>p</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/note.h" line="173" column="7" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/note.h" bodystart="173" bodyend="173"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>helper structure </para>
+    </detaileddescription>
+    <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/note.h" line="164" column="14" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/note.h" bodystart="164" bodyend="174"/>
+    <listofallmembers>
+      <member refid="struct_ms_1_1_note_val_1a8270e311f788d10ba134ec92697577ce" prot="public" virt="non-virtual"><scope>Ms::NoteVal</scope><name>fret</name></member>
+      <member refid="struct_ms_1_1_note_val_1a67e86e31154ea0cea7a5d6dca85784d4" prot="public" virt="non-virtual"><scope>Ms::NoteVal</scope><name>headGroup</name></member>
+      <member refid="struct_ms_1_1_note_val_1a26b90f1c70b0cf49d27a63fbfb11dd67" prot="public" virt="non-virtual"><scope>Ms::NoteVal</scope><name>NoteVal</name></member>
+      <member refid="struct_ms_1_1_note_val_1ace84d82b4d870df423ba388ee99b698a" prot="public" virt="non-virtual"><scope>Ms::NoteVal</scope><name>NoteVal</name></member>
+      <member refid="struct_ms_1_1_note_val_1a9c60bba3732f3662a4d847970745d06f" prot="public" virt="non-virtual"><scope>Ms::NoteVal</scope><name>pitch</name></member>
+      <member refid="struct_ms_1_1_note_val_1a473152509694563ec04a32ef05df165f" prot="public" virt="non-virtual"><scope>Ms::NoteVal</scope><name>string</name></member>
+      <member refid="struct_ms_1_1_note_val_1a179950ddba0d1671b70f629f443c4439" prot="public" virt="non-virtual"><scope>Ms::NoteVal</scope><name>tpc1</name></member>
+      <member refid="struct_ms_1_1_note_val_1a90b20d1d69361fb0b3faf6c075503f10" prot="public" virt="non-virtual"><scope>Ms::NoteVal</scope><name>tpc2</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

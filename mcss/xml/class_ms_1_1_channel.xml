@@ -1,0 +1,1235 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.17">
+  <compounddef id="class_ms_1_1_channel" kind="class" language="C++" prot="public">
+    <compoundname>Ms::Channel</compoundname>
+      <sectiondef kind="public-type">
+      <memberdef kind="enum" id="class_ms_1_1_channel_1a514ee076dce4731bf26831a9edd63caf" prot="public" static="no" strong="yes">
+        <type>char</type>
+        <name>A</name>
+        <enumvalue id="class_ms_1_1_channel_1a514ee076dce4731bf26831a9edd63cafa33e100cecb48458cb1863c2ce078e747" prot="public">
+          <name>HBANK</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="class_ms_1_1_channel_1a514ee076dce4731bf26831a9edd63cafaa87681ba9c1e7fbd2b344342bb880c7e" prot="public">
+          <name>LBANK</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="class_ms_1_1_channel_1a514ee076dce4731bf26831a9edd63cafac9c31422636176fa93724df8b6e3ef31" prot="public">
+          <name>PROGRAM</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="class_ms_1_1_channel_1a514ee076dce4731bf26831a9edd63cafa730956af87021c351084317bbc63eea6" prot="public">
+          <name>VOLUME</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="class_ms_1_1_channel_1a514ee076dce4731bf26831a9edd63cafad74461db15255d85a44ffd72419646b3" prot="public">
+          <name>PAN</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="class_ms_1_1_channel_1a514ee076dce4731bf26831a9edd63cafa70c710d2691b2b872827d887599879c5" prot="public">
+          <name>CHORUS</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="class_ms_1_1_channel_1a514ee076dce4731bf26831a9edd63cafa157a7927a0fe060ad862a93e672415e0" prot="public">
+          <name>REVERB</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="class_ms_1_1_channel_1a514ee076dce4731bf26831a9edd63cafab2236fa80b63e2b300454968b1b86cb4" prot="public">
+          <name>INIT_COUNT</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/instrument.h" line="137" column="19" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/instrument.h" bodystart="137" bodyend="140"/>
+      </memberdef>
+      <memberdef kind="enum" id="class_ms_1_1_channel_1afc15270bc2c3de90473f7db58428a5b0" prot="public" static="no" strong="yes">
+        <type>char</type>
+        <name>Prop</name>
+        <enumvalue id="class_ms_1_1_channel_1afc15270bc2c3de90473f7db58428a5b0a730956af87021c351084317bbc63eea6" prot="public">
+          <name>VOLUME</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="class_ms_1_1_channel_1afc15270bc2c3de90473f7db58428a5b0ad74461db15255d85a44ffd72419646b3" prot="public">
+          <name>PAN</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="class_ms_1_1_channel_1afc15270bc2c3de90473f7db58428a5b0a70c710d2691b2b872827d887599879c5" prot="public">
+          <name>CHORUS</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="class_ms_1_1_channel_1afc15270bc2c3de90473f7db58428a5b0a157a7927a0fe060ad862a93e672415e0" prot="public">
+          <name>REVERB</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="class_ms_1_1_channel_1afc15270bc2c3de90473f7db58428a5b0aad32e604e17467fc435538334fbddf3e" prot="public">
+          <name>NAME</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="class_ms_1_1_channel_1afc15270bc2c3de90473f7db58428a5b0a650847dc8d97d4b05653aa3c12d50966" prot="public">
+          <name>DESCR</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="class_ms_1_1_channel_1afc15270bc2c3de90473f7db58428a5b0ac9c31422636176fa93724df8b6e3ef31" prot="public">
+          <name>PROGRAM</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="class_ms_1_1_channel_1afc15270bc2c3de90473f7db58428a5b0a702ccd4c4de96dda2108bed873989158" prot="public">
+          <name>BANK</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="class_ms_1_1_channel_1afc15270bc2c3de90473f7db58428a5b0a04bd834032febb3fda8c6936ee140949" prot="public">
+          <name>COLOR</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="class_ms_1_1_channel_1afc15270bc2c3de90473f7db58428a5b0a2d930b83f313139ca5e96abe7468e39e" prot="public">
+          <name>SOLOMUTE</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="class_ms_1_1_channel_1afc15270bc2c3de90473f7db58428a5b0aca17c443abc74bd2419fbc922fc0c32e" prot="public">
+          <name>SOLO</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="class_ms_1_1_channel_1afc15270bc2c3de90473f7db58428a5b0a5415e9052565ecaf84f33d7f20996fd9" prot="public">
+          <name>MUTE</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="class_ms_1_1_channel_1afc15270bc2c3de90473f7db58428a5b0a87abb5fd3e2e69d7e2853a2c1f04181b" prot="public">
+          <name>SYNTI</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="class_ms_1_1_channel_1afc15270bc2c3de90473f7db58428a5b0af52e9c50a060add65a035429b2a22229" prot="public">
+          <name>CHANNEL</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="class_ms_1_1_channel_1afc15270bc2c3de90473f7db58428a5b0aed73f8a5364d52bc71414a047365b886" prot="public">
+          <name>USER_BANK_CONTROL</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/instrument.h" line="142" column="22" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/instrument.h" bodystart="142" bodyend="145"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_ms_1_1_channel_1a3bc4a7a12753cef7f66421e77d6e98ac" prot="private" static="no" mutable="no">
+        <type>QString</type>
+        <definition>QString Ms::Channel::_name</definition>
+        <argsstring></argsstring>
+        <name>_name</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/instrument.h" line="103" column="15" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/instrument.h" bodystart="103" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_ms_1_1_channel_1ab7277ff33f892283501fed04577a91ac" prot="private" static="no" mutable="no">
+        <type>QString</type>
+        <definition>QString Ms::Channel::_descr</definition>
+        <argsstring></argsstring>
+        <name>_descr</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/instrument.h" line="104" column="15" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/instrument.h" bodystart="104" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_ms_1_1_channel_1a4c447cc725e5102ecf78804cf9f1013a" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int Ms::Channel::_color</definition>
+        <argsstring></argsstring>
+        <name>_color</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/instrument.h" line="107" column="11" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/instrument.h" bodystart="107" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_ms_1_1_channel_1af5b0250508aa1416e6157ce3e164340e" prot="private" static="no" mutable="no">
+        <type>QString</type>
+        <definition>QString Ms::Channel::_synti</definition>
+        <argsstring></argsstring>
+        <name>_synti</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/instrument.h" line="109" column="15" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/instrument.h" bodystart="109" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_ms_1_1_channel_1a8438c3fb09b8175e795ca661e4ab2581" prot="private" static="no" mutable="no">
+        <type>char</type>
+        <definition>char Ms::Channel::_volume</definition>
+        <argsstring></argsstring>
+        <name>_volume</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/instrument.h" line="111" column="12" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/instrument.h" bodystart="111" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_ms_1_1_channel_1a70c2e9cdbe464dd4fb09a851aa63daea" prot="private" static="no" mutable="no">
+        <type>char</type>
+        <definition>char Ms::Channel::_pan</definition>
+        <argsstring></argsstring>
+        <name>_pan</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/instrument.h" line="112" column="12" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/instrument.h" bodystart="112" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_ms_1_1_channel_1a1ee77449a5c6832833fc66702dfd7743" prot="private" static="no" mutable="no">
+        <type>char</type>
+        <definition>char Ms::Channel::_chorus</definition>
+        <argsstring></argsstring>
+        <name>_chorus</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/instrument.h" line="114" column="12" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/instrument.h" bodystart="114" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_ms_1_1_channel_1ab9fb79fa0d2fba36ed96682ad271eb07" prot="private" static="no" mutable="no">
+        <type>char</type>
+        <definition>char Ms::Channel::_reverb</definition>
+        <argsstring></argsstring>
+        <name>_reverb</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/instrument.h" line="115" column="12" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/instrument.h" bodystart="115" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_ms_1_1_channel_1a7acd7cc85aa1d3d0ad6a7559ec259f4f" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int Ms::Channel::_program</definition>
+        <argsstring></argsstring>
+        <name>_program</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/instrument.h" line="117" column="11" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/instrument.h" bodystart="117" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_ms_1_1_channel_1a489167ebda31275e175b6210bc26463f" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int Ms::Channel::_bank</definition>
+        <argsstring></argsstring>
+        <name>_bank</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/instrument.h" line="118" column="11" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/instrument.h" bodystart="118" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_ms_1_1_channel_1a016d2c81e4f3b9c5ab18d2a2681657b6" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int Ms::Channel::_channel</definition>
+        <argsstring></argsstring>
+        <name>_channel</name>
+        <initializer>{ 0 }</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/instrument.h" line="119" column="11" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/instrument.h" bodystart="119" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_ms_1_1_channel_1a965ee38a44c17e980e4bc48a9ec8ea3b" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool Ms::Channel::_soloMute</definition>
+        <argsstring></argsstring>
+        <name>_soloMute</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/instrument.h" line="121" column="12" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/instrument.h" bodystart="121" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_ms_1_1_channel_1a55bba197c485f596b17f8cd7b3901611" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool Ms::Channel::_mute</definition>
+        <argsstring></argsstring>
+        <name>_mute</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/instrument.h" line="122" column="12" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/instrument.h" bodystart="122" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_ms_1_1_channel_1ae6881b1a719a0c77d8763d4a17ddf97d" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool Ms::Channel::_solo</definition>
+        <argsstring></argsstring>
+        <name>_solo</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/instrument.h" line="123" column="12" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/instrument.h" bodystart="123" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_ms_1_1_channel_1aab7d9f91ea83e84dc43a576657d8146b" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool Ms::Channel::_userBankController</definition>
+        <argsstring></argsstring>
+        <name>_userBankController</name>
+        <initializer>= false</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/instrument.h" line="126" column="12" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/instrument.h" bodystart="126" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_ms_1_1_channel_1a608bd15657169f7a0ad116f55fa4c400" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool Ms::Channel::_switchedToExpressive</definition>
+        <argsstring></argsstring>
+        <name>_switchedToExpressive</name>
+        <initializer>= false</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/instrument.h" line="127" column="12" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/instrument.h" bodystart="127" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_ms_1_1_channel_1aa19a00bd4aa7549c58cea67cca98370c" prot="private" static="no" mutable="yes">
+        <type>std::vector&lt; MidiCoreEvent &gt;</type>
+        <definition>std::vector&lt;MidiCoreEvent&gt; Ms::Channel::_init</definition>
+        <argsstring></argsstring>
+        <name>_init</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/instrument.h" line="129" column="27" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/instrument.h" bodystart="129" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_ms_1_1_channel_1a8a764e6e24ffca99aad467b1eab9286f" prot="private" static="no" mutable="yes">
+        <type>bool</type>
+        <definition>bool Ms::Channel::_mustUpdateInit</definition>
+        <argsstring></argsstring>
+        <name>_mustUpdateInit</name>
+        <initializer>= true</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/instrument.h" line="130" column="20" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/instrument.h" bodystart="130" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_ms_1_1_channel_1ad57dc2360584c37bec93fbfca84a28d8" prot="private" static="no" mutable="no">
+        <type><ref refid="class_ms_1_1_notifier" kindref="compound">Notifier</ref>&lt; Channel::Prop &gt;</type>
+        <definition>Notifier&lt;Channel::Prop&gt; Ms::Channel::_notifier</definition>
+        <argsstring></argsstring>
+        <name>_notifier</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/instrument.h" line="148" column="16" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/instrument.h" bodystart="148" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-static-attrib">
+      <memberdef kind="variable" id="class_ms_1_1_channel_1a7abf67c9970dd300ce8c5bf6183dc8ca" prot="private" static="yes" mutable="no">
+        <type>const int</type>
+        <definition>const int Ms::Channel::DEFAULT_COLOR</definition>
+        <argsstring></argsstring>
+        <name>DEFAULT_COLOR</name>
+        <initializer>= 0x3399ff</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/instrument.h" line="106" column="24" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/instrument.h" bodystart="106" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-static-attrib">
+      <memberdef kind="variable" id="class_ms_1_1_channel_1aaf3df936cf030cc362b1f98e47463209" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char * Ms::Channel::DEFAULT_NAME</definition>
+        <argsstring></argsstring>
+        <name>DEFAULT_NAME</name>
+        <initializer>= QT_TRANSLATE_NOOP(&quot;channel&quot;, &quot;Normal&quot;)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/instrument.h" line="133" column="25" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/instrument.h" bodystart="133" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_ms_1_1_channel_1a8280fcdc253f49e5ed08c36bbd237d87" prot="public" static="yes" mutable="no">
+        <type>const char *</type>
+        <definition>const char * Ms::Channel::HARMONY_NAME</definition>
+        <argsstring></argsstring>
+        <name>HARMONY_NAME</name>
+        <initializer>= QT_TRANSLATE_NOOP(&quot;channel&quot;, &quot;<ref refid="class_ms_1_1_chord" kindref="compound">Chord</ref> symbols&quot;)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/instrument.h" line="134" column="25" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/instrument.h" bodystart="134" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_ms_1_1_channel_1a330b565c5604ad2f7991d6864dbe3a42" prot="public" static="yes" constexpr="yes" mutable="no">
+        <type>constexpr char</type>
+        <definition>constexpr char Ms::Channel::defaultVolume</definition>
+        <argsstring></argsstring>
+        <name>defaultVolume</name>
+        <initializer>= 100</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/instrument.h" line="135" column="29" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/instrument.h" bodystart="135" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_ms_1_1_channel_1ac78fca4538426c273532e017227a7acc" prot="public" static="no" mutable="no">
+        <type>QList&lt; <ref refid="struct_ms_1_1_named_event_list" kindref="compound">NamedEventList</ref> &gt;</type>
+        <definition>QList&lt;NamedEventList&gt; Ms::Channel::midiActions</definition>
+        <argsstring></argsstring>
+        <name>midiActions</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/instrument.h" line="190" column="13" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/instrument.h" bodystart="190" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_ms_1_1_channel_1a8bff2cfb48398e1998068714c3084292" prot="public" static="no" mutable="no">
+        <type>QList&lt; <ref refid="struct_ms_1_1_midi_articulation" kindref="compound">MidiArticulation</ref> &gt;</type>
+        <definition>QList&lt;MidiArticulation&gt; Ms::Channel::articulation</definition>
+        <argsstring></argsstring>
+        <name>articulation</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/instrument.h" line="191" column="13" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/instrument.h" bodystart="191" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_ms_1_1_channel_1a50ff8cf194aaa514691046f7683b27aa" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Ms::Channel::firePropertyChanged</definition>
+        <argsstring>(Channel::Prop prop)</argsstring>
+        <name>firePropertyChanged</name>
+        <param>
+          <type>Channel::Prop</type>
+          <declname>prop</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/instrument.h" line="149" column="12" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/instrument.h" bodystart="149" bodyend="149"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_ms_1_1_channel_1a2f7c635b925d0adb07cf2942147ea968" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>std::vector&lt; MidiCoreEvent &gt; &amp;</type>
+        <definition>std::vector&lt; MidiCoreEvent &gt; &amp; Ms::Channel::initList</definition>
+        <argsstring>() const</argsstring>
+        <name>initList</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/instrument.h" line="152" column="19" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/instrument.cpp" bodystart="455" bodyend="462"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ms_1_1_channel_1a17315e3786fe6d3c8e0585601f1219cc" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>QString</type>
+        <definition>QString Ms::Channel::name</definition>
+        <argsstring>() const</argsstring>
+        <name>name</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/instrument.h" line="154" column="15" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/instrument.h" bodystart="154" bodyend="154"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ms_1_1_channel_1a359b19b1355e81018d6539b3dfffdfac" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Ms::Channel::setName</definition>
+        <argsstring>(const QString &amp;value)</argsstring>
+        <name>setName</name>
+        <param>
+          <type>const QString &amp;</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/instrument.h" line="155" column="12" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/instrument.cpp" bodystart="520" bodyend="526"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ms_1_1_channel_1a7ec11fd5ddce5921687b4bd344f13fb3" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>QString</type>
+        <definition>QString Ms::Channel::descr</definition>
+        <argsstring>() const</argsstring>
+        <name>descr</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/instrument.h" line="156" column="15" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/instrument.h" bodystart="156" bodyend="156"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ms_1_1_channel_1a0e662177182b63ba1bafe54f98558edb" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Ms::Channel::setDescr</definition>
+        <argsstring>(const QString &amp;value)</argsstring>
+        <name>setDescr</name>
+        <param>
+          <type>const QString &amp;</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/instrument.h" line="157" column="12" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/instrument.cpp" bodystart="532" bodyend="538"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ms_1_1_channel_1ad790102bb22f60d520c1ee86d5622741" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>QString</type>
+        <definition>QString Ms::Channel::synti</definition>
+        <argsstring>() const</argsstring>
+        <name>synti</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/instrument.h" line="158" column="15" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/instrument.h" bodystart="158" bodyend="158"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ms_1_1_channel_1a0868afaeab99ef99d3d8c133acc6be25" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Ms::Channel::setSynti</definition>
+        <argsstring>(const QString &amp;value)</argsstring>
+        <name>setSynti</name>
+        <param>
+          <type>const QString &amp;</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/instrument.h" line="159" column="12" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/instrument.cpp" bodystart="544" bodyend="550"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ms_1_1_channel_1a38ac7d248b177bcd5f1c3888c5ab528b" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>int</type>
+        <definition>int Ms::Channel::color</definition>
+        <argsstring>() const</argsstring>
+        <name>color</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/instrument.h" line="160" column="11" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/instrument.h" bodystart="160" bodyend="160"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ms_1_1_channel_1a6c462f7ec603696c86eb1deed5298c17" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Ms::Channel::setColor</definition>
+        <argsstring>(int value)</argsstring>
+        <name>setColor</name>
+        <param>
+          <type>int</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/instrument.h" line="161" column="12" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/instrument.cpp" bodystart="556" bodyend="562"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ms_1_1_channel_1a6f78f021f22927ea874d90e91d49cb81" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>char</type>
+        <definition>char Ms::Channel::volume</definition>
+        <argsstring>() const</argsstring>
+        <name>volume</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/instrument.h" line="163" column="12" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/instrument.h" bodystart="163" bodyend="163"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ms_1_1_channel_1a36f9d247d72a2a3de929afd03835056d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Ms::Channel::setVolume</definition>
+        <argsstring>(char value)</argsstring>
+        <name>setVolume</name>
+        <param>
+          <type>char</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/instrument.h" line="164" column="12" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/instrument.cpp" bodystart="468" bodyend="475"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ms_1_1_channel_1a52d702bff3640dff39339fa51c8c786c" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>char</type>
+        <definition>char Ms::Channel::pan</definition>
+        <argsstring>() const</argsstring>
+        <name>pan</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/instrument.h" line="165" column="12" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/instrument.h" bodystart="165" bodyend="165"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ms_1_1_channel_1a0a76b75e6046965bf0fc57b964fa937e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Ms::Channel::setPan</definition>
+        <argsstring>(char value)</argsstring>
+        <name>setPan</name>
+        <param>
+          <type>char</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/instrument.h" line="166" column="12" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/instrument.cpp" bodystart="481" bodyend="488"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ms_1_1_channel_1a858697960d11869d141f2322ba8dceb6" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>char</type>
+        <definition>char Ms::Channel::chorus</definition>
+        <argsstring>() const</argsstring>
+        <name>chorus</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/instrument.h" line="167" column="12" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/instrument.h" bodystart="167" bodyend="167"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ms_1_1_channel_1a8c149252fa0a6be607f12945806eec5c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Ms::Channel::setChorus</definition>
+        <argsstring>(char value)</argsstring>
+        <name>setChorus</name>
+        <param>
+          <type>char</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/instrument.h" line="168" column="12" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/instrument.cpp" bodystart="494" bodyend="501"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ms_1_1_channel_1a1fe2ad9602c14c137fa01d0dbceb236d" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>char</type>
+        <definition>char Ms::Channel::reverb</definition>
+        <argsstring>() const</argsstring>
+        <name>reverb</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/instrument.h" line="169" column="12" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/instrument.h" bodystart="169" bodyend="169"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ms_1_1_channel_1a377e6ed5c29f9c27f28f0a68e25c7323" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Ms::Channel::setReverb</definition>
+        <argsstring>(char value)</argsstring>
+        <name>setReverb</name>
+        <param>
+          <type>char</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/instrument.h" line="170" column="12" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/instrument.cpp" bodystart="507" bodyend="514"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ms_1_1_channel_1a0c91fabbf478b49afc55953db1b9f995" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>int</type>
+        <definition>int Ms::Channel::program</definition>
+        <argsstring>() const</argsstring>
+        <name>program</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/instrument.h" line="172" column="11" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/instrument.h" bodystart="172" bodyend="172"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ms_1_1_channel_1a7ade5a9c89bee0d711d0155d262d0e97" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Ms::Channel::setProgram</definition>
+        <argsstring>(int value)</argsstring>
+        <name>setProgram</name>
+        <param>
+          <type>int</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/instrument.h" line="173" column="12" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/instrument.cpp" bodystart="568" bodyend="575"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ms_1_1_channel_1a034e35d72371a0481e7493856643cd3f" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>int</type>
+        <definition>int Ms::Channel::bank</definition>
+        <argsstring>() const</argsstring>
+        <name>bank</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/instrument.h" line="174" column="11" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/instrument.h" bodystart="174" bodyend="174"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ms_1_1_channel_1a4761c39df45ebeb04ff09463d8a64d22" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Ms::Channel::setBank</definition>
+        <argsstring>(int value)</argsstring>
+        <name>setBank</name>
+        <param>
+          <type>int</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/instrument.h" line="175" column="12" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/instrument.cpp" bodystart="581" bodyend="588"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ms_1_1_channel_1a148c30bb958888003ed999b99f0f1086" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>int</type>
+        <definition>int Ms::Channel::channel</definition>
+        <argsstring>() const</argsstring>
+        <name>channel</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/instrument.h" line="176" column="11" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/instrument.h" bodystart="176" bodyend="176"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ms_1_1_channel_1a892e418a3f4c6c08a09fa7fb89404d8e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Ms::Channel::setChannel</definition>
+        <argsstring>(int value)</argsstring>
+        <name>setChannel</name>
+        <param>
+          <type>int</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/instrument.h" line="177" column="12" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/instrument.cpp" bodystart="594" bodyend="600"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ms_1_1_channel_1a36442b34af76d6fa3dc051b033ecb23f" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool Ms::Channel::soloMute</definition>
+        <argsstring>() const</argsstring>
+        <name>soloMute</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/instrument.h" line="179" column="12" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/instrument.h" bodystart="179" bodyend="179"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ms_1_1_channel_1a72a63b5befe930570d50ce814fc14a45" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Ms::Channel::setSoloMute</definition>
+        <argsstring>(bool value)</argsstring>
+        <name>setSoloMute</name>
+        <param>
+          <type>bool</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/instrument.h" line="180" column="12" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/instrument.cpp" bodystart="606" bodyend="612"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ms_1_1_channel_1a7afcfde62b2e5f3821dc5beea09598e8" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool Ms::Channel::mute</definition>
+        <argsstring>() const</argsstring>
+        <name>mute</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/instrument.h" line="181" column="12" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/instrument.h" bodystart="181" bodyend="181"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ms_1_1_channel_1ab0a791a4db7b390e04becc91618c741c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Ms::Channel::setMute</definition>
+        <argsstring>(bool value)</argsstring>
+        <name>setMute</name>
+        <param>
+          <type>bool</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/instrument.h" line="182" column="12" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/instrument.cpp" bodystart="618" bodyend="624"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ms_1_1_channel_1a5bc04cfeab16c51da8b1e2c49be37675" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool Ms::Channel::solo</definition>
+        <argsstring>() const</argsstring>
+        <name>solo</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/instrument.h" line="183" column="12" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/instrument.h" bodystart="183" bodyend="183"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ms_1_1_channel_1a1de5893f197405837384b2016813b79d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Ms::Channel::setSolo</definition>
+        <argsstring>(bool value)</argsstring>
+        <name>setSolo</name>
+        <param>
+          <type>bool</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/instrument.h" line="184" column="12" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/instrument.cpp" bodystart="630" bodyend="636"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ms_1_1_channel_1a76b6b9588043d26c3e3c37a9ee743ac5" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool Ms::Channel::userBankController</definition>
+        <argsstring>() const</argsstring>
+        <name>userBankController</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/instrument.h" line="187" column="12" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/instrument.h" bodystart="187" bodyend="187"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ms_1_1_channel_1a7185d0951ce042b7b279085d98f4df78" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Ms::Channel::setUserBankController</definition>
+        <argsstring>(bool val)</argsstring>
+        <name>setUserBankController</name>
+        <param>
+          <type>bool</type>
+          <declname>val</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/instrument.h" line="188" column="12" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/instrument.cpp" bodystart="642" bodyend="648"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ms_1_1_channel_1ad555f76a8cdc9cb6ad71ad9ac39f605b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>Ms::Channel::Channel</definition>
+        <argsstring>()</argsstring>
+        <name>Channel</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/instrument.h" line="193" column="7" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/instrument.cpp" bodystart="430" bodyend="449"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ms_1_1_channel_1a9f5bb0503003ff6463321e58a898e314" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Ms::Channel::write</definition>
+        <argsstring>(XmlWriter &amp;, const Part *part) const</argsstring>
+        <name>write</name>
+        <param>
+          <type><ref refid="class_ms_1_1_xml_writer" kindref="compound">XmlWriter</ref> &amp;</type>
+          <defname>xml</defname>
+        </param>
+        <param>
+          <type>const <ref refid="class_ms_1_1_part" kindref="compound">Part</ref> *</type>
+          <declname>part</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/instrument.h" line="194" column="12" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/instrument.cpp" bodystart="654" bodyend="703"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ms_1_1_channel_1a40f21f9fe6d27b3d881c6d5e2f4a9b56" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Ms::Channel::read</definition>
+        <argsstring>(XmlReader &amp;, Part *part)</argsstring>
+        <name>read</name>
+        <param>
+          <type><ref refid="class_ms_1_1_xml_reader" kindref="compound">XmlReader</ref> &amp;</type>
+          <defname>e</defname>
+        </param>
+        <param>
+          <type><ref refid="class_ms_1_1_part" kindref="compound">Part</ref> *</type>
+          <declname>part</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/instrument.h" line="195" column="12" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/instrument.cpp" bodystart="709" bodyend="801"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ms_1_1_channel_1a34b5869e39d874fcd45f372112422505" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Ms::Channel::updateInitList</definition>
+        <argsstring>() const</argsstring>
+        <name>updateInitList</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/instrument.h" line="196" column="12" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/instrument.cpp" bodystart="872" bodyend="900"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ms_1_1_channel_1a9159e0f2c6c7f8aa54a4b51f06e9165b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool Ms::Channel::operator==</definition>
+        <argsstring>(const Channel &amp;c)</argsstring>
+        <name>operator==</name>
+        <param>
+          <type>const <ref refid="class_ms_1_1_channel" kindref="compound">Channel</ref> &amp;</type>
+          <declname>c</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/instrument.h" line="197" column="12" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/instrument.h" bodystart="197" bodyend="197"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ms_1_1_channel_1ac68008458895ec7ae9c2be55f084d796" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Ms::Channel::addListener</definition>
+        <argsstring>(ChannelListener *l)</argsstring>
+        <name>addListener</name>
+        <param>
+          <type><ref refid="class_ms_1_1_channel_listener" kindref="compound">ChannelListener</ref> *</type>
+          <declname>l</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/instrument.h" line="199" column="12" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/instrument.cpp" bodystart="906" bodyend="909"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ms_1_1_channel_1a1849602f2369e4352603442aa6354ec8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Ms::Channel::removeListener</definition>
+        <argsstring>(ChannelListener *l)</argsstring>
+        <name>removeListener</name>
+        <param>
+          <type><ref refid="class_ms_1_1_channel_listener" kindref="compound">ChannelListener</ref> *</type>
+          <declname>l</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/instrument.h" line="200" column="12" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/instrument.cpp" bodystart="915" bodyend="918"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ms_1_1_channel_1a99d065a540326bb017f8c5bd78d6f150" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Ms::Channel::switchExpressive</definition>
+        <argsstring>(Synthesizer *synth, bool expressive, bool force=false)</argsstring>
+        <name>switchExpressive</name>
+        <param>
+          <type>Synthesizer *</type>
+          <declname>synth</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>expressive</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>force</declname>
+          <defval>false</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/instrument.h" line="202" column="12" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/instrument.cpp" bodystart="809" bodyend="866"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/instrument.h" line="100" column="14" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/instrument.h" bodystart="100" bodyend="203"/>
+    <listofallmembers>
+      <member refid="class_ms_1_1_channel_1a489167ebda31275e175b6210bc26463f" prot="private" virt="non-virtual"><scope>Ms::Channel</scope><name>_bank</name></member>
+      <member refid="class_ms_1_1_channel_1a016d2c81e4f3b9c5ab18d2a2681657b6" prot="private" virt="non-virtual"><scope>Ms::Channel</scope><name>_channel</name></member>
+      <member refid="class_ms_1_1_channel_1a1ee77449a5c6832833fc66702dfd7743" prot="private" virt="non-virtual"><scope>Ms::Channel</scope><name>_chorus</name></member>
+      <member refid="class_ms_1_1_channel_1a4c447cc725e5102ecf78804cf9f1013a" prot="private" virt="non-virtual"><scope>Ms::Channel</scope><name>_color</name></member>
+      <member refid="class_ms_1_1_channel_1ab7277ff33f892283501fed04577a91ac" prot="private" virt="non-virtual"><scope>Ms::Channel</scope><name>_descr</name></member>
+      <member refid="class_ms_1_1_channel_1aa19a00bd4aa7549c58cea67cca98370c" prot="private" virt="non-virtual"><scope>Ms::Channel</scope><name>_init</name></member>
+      <member refid="class_ms_1_1_channel_1a8a764e6e24ffca99aad467b1eab9286f" prot="private" virt="non-virtual"><scope>Ms::Channel</scope><name>_mustUpdateInit</name></member>
+      <member refid="class_ms_1_1_channel_1a55bba197c485f596b17f8cd7b3901611" prot="private" virt="non-virtual"><scope>Ms::Channel</scope><name>_mute</name></member>
+      <member refid="class_ms_1_1_channel_1a3bc4a7a12753cef7f66421e77d6e98ac" prot="private" virt="non-virtual"><scope>Ms::Channel</scope><name>_name</name></member>
+      <member refid="class_ms_1_1_channel_1ad57dc2360584c37bec93fbfca84a28d8" prot="private" virt="non-virtual"><scope>Ms::Channel</scope><name>_notifier</name></member>
+      <member refid="class_ms_1_1_channel_1a70c2e9cdbe464dd4fb09a851aa63daea" prot="private" virt="non-virtual"><scope>Ms::Channel</scope><name>_pan</name></member>
+      <member refid="class_ms_1_1_channel_1a7acd7cc85aa1d3d0ad6a7559ec259f4f" prot="private" virt="non-virtual"><scope>Ms::Channel</scope><name>_program</name></member>
+      <member refid="class_ms_1_1_channel_1ab9fb79fa0d2fba36ed96682ad271eb07" prot="private" virt="non-virtual"><scope>Ms::Channel</scope><name>_reverb</name></member>
+      <member refid="class_ms_1_1_channel_1ae6881b1a719a0c77d8763d4a17ddf97d" prot="private" virt="non-virtual"><scope>Ms::Channel</scope><name>_solo</name></member>
+      <member refid="class_ms_1_1_channel_1a965ee38a44c17e980e4bc48a9ec8ea3b" prot="private" virt="non-virtual"><scope>Ms::Channel</scope><name>_soloMute</name></member>
+      <member refid="class_ms_1_1_channel_1a608bd15657169f7a0ad116f55fa4c400" prot="private" virt="non-virtual"><scope>Ms::Channel</scope><name>_switchedToExpressive</name></member>
+      <member refid="class_ms_1_1_channel_1af5b0250508aa1416e6157ce3e164340e" prot="private" virt="non-virtual"><scope>Ms::Channel</scope><name>_synti</name></member>
+      <member refid="class_ms_1_1_channel_1aab7d9f91ea83e84dc43a576657d8146b" prot="private" virt="non-virtual"><scope>Ms::Channel</scope><name>_userBankController</name></member>
+      <member refid="class_ms_1_1_channel_1a8438c3fb09b8175e795ca661e4ab2581" prot="private" virt="non-virtual"><scope>Ms::Channel</scope><name>_volume</name></member>
+      <member refid="class_ms_1_1_channel_1a514ee076dce4731bf26831a9edd63caf" prot="public" virt="non-virtual"><scope>Ms::Channel</scope><name>A</name></member>
+      <member refid="class_ms_1_1_channel_1ac68008458895ec7ae9c2be55f084d796" prot="public" virt="non-virtual"><scope>Ms::Channel</scope><name>addListener</name></member>
+      <member refid="class_ms_1_1_channel_1a8bff2cfb48398e1998068714c3084292" prot="public" virt="non-virtual"><scope>Ms::Channel</scope><name>articulation</name></member>
+      <member refid="class_ms_1_1_channel_1a034e35d72371a0481e7493856643cd3f" prot="public" virt="non-virtual"><scope>Ms::Channel</scope><name>bank</name></member>
+      <member refid="class_ms_1_1_channel_1a148c30bb958888003ed999b99f0f1086" prot="public" virt="non-virtual"><scope>Ms::Channel</scope><name>channel</name></member>
+      <member refid="class_ms_1_1_channel_1ad555f76a8cdc9cb6ad71ad9ac39f605b" prot="public" virt="non-virtual"><scope>Ms::Channel</scope><name>Channel</name></member>
+      <member refid="class_ms_1_1_channel_1a858697960d11869d141f2322ba8dceb6" prot="public" virt="non-virtual"><scope>Ms::Channel</scope><name>chorus</name></member>
+      <member refid="class_ms_1_1_channel_1a38ac7d248b177bcd5f1c3888c5ab528b" prot="public" virt="non-virtual"><scope>Ms::Channel</scope><name>color</name></member>
+      <member refid="class_ms_1_1_channel_1a7abf67c9970dd300ce8c5bf6183dc8ca" prot="private" virt="non-virtual"><scope>Ms::Channel</scope><name>DEFAULT_COLOR</name></member>
+      <member refid="class_ms_1_1_channel_1aaf3df936cf030cc362b1f98e47463209" prot="public" virt="non-virtual"><scope>Ms::Channel</scope><name>DEFAULT_NAME</name></member>
+      <member refid="class_ms_1_1_channel_1a330b565c5604ad2f7991d6864dbe3a42" prot="public" virt="non-virtual"><scope>Ms::Channel</scope><name>defaultVolume</name></member>
+      <member refid="class_ms_1_1_channel_1a7ec11fd5ddce5921687b4bd344f13fb3" prot="public" virt="non-virtual"><scope>Ms::Channel</scope><name>descr</name></member>
+      <member refid="class_ms_1_1_channel_1a50ff8cf194aaa514691046f7683b27aa" prot="private" virt="non-virtual"><scope>Ms::Channel</scope><name>firePropertyChanged</name></member>
+      <member refid="class_ms_1_1_channel_1a8280fcdc253f49e5ed08c36bbd237d87" prot="public" virt="non-virtual"><scope>Ms::Channel</scope><name>HARMONY_NAME</name></member>
+      <member refid="class_ms_1_1_channel_1a2f7c635b925d0adb07cf2942147ea968" prot="public" virt="non-virtual"><scope>Ms::Channel</scope><name>initList</name></member>
+      <member refid="class_ms_1_1_channel_1ac78fca4538426c273532e017227a7acc" prot="public" virt="non-virtual"><scope>Ms::Channel</scope><name>midiActions</name></member>
+      <member refid="class_ms_1_1_channel_1a7afcfde62b2e5f3821dc5beea09598e8" prot="public" virt="non-virtual"><scope>Ms::Channel</scope><name>mute</name></member>
+      <member refid="class_ms_1_1_channel_1a17315e3786fe6d3c8e0585601f1219cc" prot="public" virt="non-virtual"><scope>Ms::Channel</scope><name>name</name></member>
+      <member refid="class_ms_1_1_channel_1a9159e0f2c6c7f8aa54a4b51f06e9165b" prot="public" virt="non-virtual"><scope>Ms::Channel</scope><name>operator==</name></member>
+      <member refid="class_ms_1_1_channel_1a52d702bff3640dff39339fa51c8c786c" prot="public" virt="non-virtual"><scope>Ms::Channel</scope><name>pan</name></member>
+      <member refid="class_ms_1_1_channel_1a0c91fabbf478b49afc55953db1b9f995" prot="public" virt="non-virtual"><scope>Ms::Channel</scope><name>program</name></member>
+      <member refid="class_ms_1_1_channel_1afc15270bc2c3de90473f7db58428a5b0" prot="public" virt="non-virtual"><scope>Ms::Channel</scope><name>Prop</name></member>
+      <member refid="class_ms_1_1_channel_1a40f21f9fe6d27b3d881c6d5e2f4a9b56" prot="public" virt="non-virtual"><scope>Ms::Channel</scope><name>read</name></member>
+      <member refid="class_ms_1_1_channel_1a1849602f2369e4352603442aa6354ec8" prot="public" virt="non-virtual"><scope>Ms::Channel</scope><name>removeListener</name></member>
+      <member refid="class_ms_1_1_channel_1a1fe2ad9602c14c137fa01d0dbceb236d" prot="public" virt="non-virtual"><scope>Ms::Channel</scope><name>reverb</name></member>
+      <member refid="class_ms_1_1_channel_1a4761c39df45ebeb04ff09463d8a64d22" prot="public" virt="non-virtual"><scope>Ms::Channel</scope><name>setBank</name></member>
+      <member refid="class_ms_1_1_channel_1a892e418a3f4c6c08a09fa7fb89404d8e" prot="public" virt="non-virtual"><scope>Ms::Channel</scope><name>setChannel</name></member>
+      <member refid="class_ms_1_1_channel_1a8c149252fa0a6be607f12945806eec5c" prot="public" virt="non-virtual"><scope>Ms::Channel</scope><name>setChorus</name></member>
+      <member refid="class_ms_1_1_channel_1a6c462f7ec603696c86eb1deed5298c17" prot="public" virt="non-virtual"><scope>Ms::Channel</scope><name>setColor</name></member>
+      <member refid="class_ms_1_1_channel_1a0e662177182b63ba1bafe54f98558edb" prot="public" virt="non-virtual"><scope>Ms::Channel</scope><name>setDescr</name></member>
+      <member refid="class_ms_1_1_channel_1ab0a791a4db7b390e04becc91618c741c" prot="public" virt="non-virtual"><scope>Ms::Channel</scope><name>setMute</name></member>
+      <member refid="class_ms_1_1_channel_1a359b19b1355e81018d6539b3dfffdfac" prot="public" virt="non-virtual"><scope>Ms::Channel</scope><name>setName</name></member>
+      <member refid="class_ms_1_1_channel_1a0a76b75e6046965bf0fc57b964fa937e" prot="public" virt="non-virtual"><scope>Ms::Channel</scope><name>setPan</name></member>
+      <member refid="class_ms_1_1_channel_1a7ade5a9c89bee0d711d0155d262d0e97" prot="public" virt="non-virtual"><scope>Ms::Channel</scope><name>setProgram</name></member>
+      <member refid="class_ms_1_1_channel_1a377e6ed5c29f9c27f28f0a68e25c7323" prot="public" virt="non-virtual"><scope>Ms::Channel</scope><name>setReverb</name></member>
+      <member refid="class_ms_1_1_channel_1a1de5893f197405837384b2016813b79d" prot="public" virt="non-virtual"><scope>Ms::Channel</scope><name>setSolo</name></member>
+      <member refid="class_ms_1_1_channel_1a72a63b5befe930570d50ce814fc14a45" prot="public" virt="non-virtual"><scope>Ms::Channel</scope><name>setSoloMute</name></member>
+      <member refid="class_ms_1_1_channel_1a0868afaeab99ef99d3d8c133acc6be25" prot="public" virt="non-virtual"><scope>Ms::Channel</scope><name>setSynti</name></member>
+      <member refid="class_ms_1_1_channel_1a7185d0951ce042b7b279085d98f4df78" prot="public" virt="non-virtual"><scope>Ms::Channel</scope><name>setUserBankController</name></member>
+      <member refid="class_ms_1_1_channel_1a36f9d247d72a2a3de929afd03835056d" prot="public" virt="non-virtual"><scope>Ms::Channel</scope><name>setVolume</name></member>
+      <member refid="class_ms_1_1_channel_1a5bc04cfeab16c51da8b1e2c49be37675" prot="public" virt="non-virtual"><scope>Ms::Channel</scope><name>solo</name></member>
+      <member refid="class_ms_1_1_channel_1a36442b34af76d6fa3dc051b033ecb23f" prot="public" virt="non-virtual"><scope>Ms::Channel</scope><name>soloMute</name></member>
+      <member refid="class_ms_1_1_channel_1a99d065a540326bb017f8c5bd78d6f150" prot="public" virt="non-virtual"><scope>Ms::Channel</scope><name>switchExpressive</name></member>
+      <member refid="class_ms_1_1_channel_1ad790102bb22f60d520c1ee86d5622741" prot="public" virt="non-virtual"><scope>Ms::Channel</scope><name>synti</name></member>
+      <member refid="class_ms_1_1_channel_1a34b5869e39d874fcd45f372112422505" prot="public" virt="non-virtual"><scope>Ms::Channel</scope><name>updateInitList</name></member>
+      <member refid="class_ms_1_1_channel_1a76b6b9588043d26c3e3c37a9ee743ac5" prot="public" virt="non-virtual"><scope>Ms::Channel</scope><name>userBankController</name></member>
+      <member refid="class_ms_1_1_channel_1a6f78f021f22927ea874d90e91d49cb81" prot="public" virt="non-virtual"><scope>Ms::Channel</scope><name>volume</name></member>
+      <member refid="class_ms_1_1_channel_1a9f5bb0503003ff6463321e58a898e314" prot="public" virt="non-virtual"><scope>Ms::Channel</scope><name>write</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

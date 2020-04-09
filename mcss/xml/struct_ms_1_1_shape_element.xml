@@ -1,0 +1,91 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.17">
+  <compounddef id="struct_ms_1_1_shape_element" kind="struct" language="C++" prot="public">
+    <compoundname>Ms::ShapeElement</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">QRectF</basecompoundref>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="struct_ms_1_1_shape_element_1aa37eb5ba05f04a3c41ca6f0be1fd82f0" prot="public" static="no" mutable="no">
+        <type>const char *</type>
+        <definition>const char* Ms::ShapeElement::text</definition>
+        <argsstring></argsstring>
+        <name>text</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/shape.h" line="30" column="18" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/shape.h" bodystart="30" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="struct_ms_1_1_shape_element_1a454a7067602ef61449d6c5a7b1b0e9dc" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Ms::ShapeElement::dump</definition>
+        <argsstring>() const</argsstring>
+        <name>dump</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/shape.h" line="31" column="12" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/shape.cpp" bodystart="301" bodyend="304"/>
+      </memberdef>
+      <memberdef kind="function" id="struct_ms_1_1_shape_element_1a40cf72d980a557f940f20d497c41e547" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>Ms::ShapeElement::ShapeElement</definition>
+        <argsstring>(const QRectF &amp;f, const char *t=0)</argsstring>
+        <name>ShapeElement</name>
+        <param>
+          <type>const QRectF &amp;</type>
+          <declname>f</declname>
+        </param>
+        <param>
+          <type>const char *</type>
+          <declname>t</declname>
+          <defval>0</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/shape.h" line="32" column="7" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/shape.h" bodystart="32" bodyend="32"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>QRectF</label>
+      </node>
+      <node id="1">
+        <label>Ms::ShapeElement</label>
+        <link refid="struct_ms_1_1_shape_element"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>QRectF</label>
+      </node>
+      <node id="1">
+        <label>Ms::ShapeElement</label>
+        <link refid="struct_ms_1_1_shape_element"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/shape.h" line="28" column="33" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/shape.h" bodystart="28" bodyend="36"/>
+    <listofallmembers>
+      <member refid="struct_ms_1_1_shape_element_1a454a7067602ef61449d6c5a7b1b0e9dc" prot="public" virt="non-virtual"><scope>Ms::ShapeElement</scope><name>dump</name></member>
+      <member refid="struct_ms_1_1_shape_element_1a40cf72d980a557f940f20d497c41e547" prot="public" virt="non-virtual"><scope>Ms::ShapeElement</scope><name>ShapeElement</name></member>
+      <member refid="struct_ms_1_1_shape_element_1aa37eb5ba05f04a3c41ca6f0be1fd82f0" prot="public" virt="non-virtual"><scope>Ms::ShapeElement</scope><name>text</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

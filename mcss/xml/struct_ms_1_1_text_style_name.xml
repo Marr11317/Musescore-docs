@@ -1,0 +1,57 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.17">
+  <compounddef id="struct_ms_1_1_text_style_name" kind="struct" language="C++" prot="public">
+    <compoundname>Ms::TextStyleName</compoundname>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="struct_ms_1_1_text_style_name_1a9ec4ab425dc9bb85ee620d3cc519000c" prot="public" static="no" mutable="no">
+        <type>const char *</type>
+        <definition>const char* Ms::TextStyleName::name</definition>
+        <argsstring></argsstring>
+        <name>name</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/style.cpp" line="2224" column="18" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/style.cpp" bodystart="2224" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_ms_1_1_text_style_name_1a6084f2ffea28b720dcc3ece50acf56fd" prot="public" static="no" mutable="no">
+        <type>const TextStyle *</type>
+        <definition>const TextStyle* Ms::TextStyleName::ts</definition>
+        <argsstring></argsstring>
+        <name>ts</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/style.cpp" line="2225" column="23" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/style.cpp" bodystart="2225" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_ms_1_1_text_style_name_1a9215fbe7188594d5cf37310601709a70" prot="public" static="no" mutable="no">
+        <type><ref refid="namespace_ms_1ad1b3e57dfd5b26a280bf2ebde66b9d5a" kindref="member">Tid</ref></type>
+        <definition>Tid Ms::TextStyleName::tid</definition>
+        <argsstring></argsstring>
+        <name>tid</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/style.cpp" line="2226" column="11" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/style.cpp" bodystart="2226" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/style.cpp" line="2223" column="20" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/style.cpp" bodystart="2223" bodyend="2227"/>
+    <listofallmembers>
+      <member refid="struct_ms_1_1_text_style_name_1a9ec4ab425dc9bb85ee620d3cc519000c" prot="public" virt="non-virtual"><scope>Ms::TextStyleName</scope><name>name</name></member>
+      <member refid="struct_ms_1_1_text_style_name_1a9215fbe7188594d5cf37310601709a70" prot="public" virt="non-virtual"><scope>Ms::TextStyleName</scope><name>tid</name></member>
+      <member refid="struct_ms_1_1_text_style_name_1a6084f2ffea28b720dcc3ece50acf56fd" prot="public" virt="non-virtual"><scope>Ms::TextStyleName</scope><name>ts</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,14 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.17">
+  <compounddef id="dsp_8h" kind="file" language="C++">
+    <compoundname>dsp.h</compoundname>
+    <includedby refid="dsp_8cpp" local="yes">C:/Users/main/Documents/GitHub/MuseScore/libmscore/dsp.cpp</includedby>
+    <innerclass refid="class_ms_1_1_dsp" prot="public">Ms::Dsp</innerclass>
+    <innernamespace refid="namespace_ms">Ms</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/dsp.h"/>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,102 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.17">
+  <compounddef id="struct_ms_1_1_snd_config" kind="struct" language="C++" prot="public">
+    <compoundname>Ms::SndConfig</compoundname>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="struct_ms_1_1_snd_config_1a2b251bcf1397da5e05ca778247051a60" prot="public" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool Ms::SndConfig::useSND</definition>
+        <argsstring></argsstring>
+        <name>useSND</name>
+        <initializer>= false</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/rendermidi.cpp" line="79" column="12" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/rendermidi.cpp" bodystart="79" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_ms_1_1_snd_config_1ad65988277b2e31e7890db171bd0a8884" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int Ms::SndConfig::controller</definition>
+        <argsstring></argsstring>
+        <name>controller</name>
+        <initializer>= -1</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/rendermidi.cpp" line="80" column="11" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/rendermidi.cpp" bodystart="80" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_ms_1_1_snd_config_1af735cf8bed53a150d584932cb5e6868b" prot="public" static="no" mutable="no">
+        <type>DynamicsRenderMethod</type>
+        <definition>DynamicsRenderMethod Ms::SndConfig::method</definition>
+        <argsstring></argsstring>
+        <name>method</name>
+        <initializer>= DynamicsRenderMethod::SEG_START</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/rendermidi.cpp" line="81" column="28" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/rendermidi.cpp" bodystart="81" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="struct_ms_1_1_snd_config_1a039082444191d22a2f01c2f4ff68b13e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>Ms::SndConfig::SndConfig</definition>
+        <argsstring>()</argsstring>
+        <name>SndConfig</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/rendermidi.cpp" line="83" column="7" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/rendermidi.cpp" bodystart="83" bodyend="83"/>
+      </memberdef>
+      <memberdef kind="function" id="struct_ms_1_1_snd_config_1a74386cedcd3adb5f65994d044d6b35b0" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>Ms::SndConfig::SndConfig</definition>
+        <argsstring>(bool use, int c, DynamicsRenderMethod me)</argsstring>
+        <name>SndConfig</name>
+        <param>
+          <type>bool</type>
+          <declname>use</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>c</declname>
+        </param>
+        <param>
+          <type>DynamicsRenderMethod</type>
+          <declname>me</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/rendermidi.cpp" line="84" column="7" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/rendermidi.cpp" bodystart="84" bodyend="84"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/rendermidi.cpp" line="78" column="16" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/rendermidi.cpp" bodystart="78" bodyend="85"/>
+    <listofallmembers>
+      <member refid="struct_ms_1_1_snd_config_1ad65988277b2e31e7890db171bd0a8884" prot="public" virt="non-virtual"><scope>Ms::SndConfig</scope><name>controller</name></member>
+      <member refid="struct_ms_1_1_snd_config_1af735cf8bed53a150d584932cb5e6868b" prot="public" virt="non-virtual"><scope>Ms::SndConfig</scope><name>method</name></member>
+      <member refid="struct_ms_1_1_snd_config_1a039082444191d22a2f01c2f4ff68b13e" prot="public" virt="non-virtual"><scope>Ms::SndConfig</scope><name>SndConfig</name></member>
+      <member refid="struct_ms_1_1_snd_config_1a74386cedcd3adb5f65994d044d6b35b0" prot="public" virt="non-virtual"><scope>Ms::SndConfig</scope><name>SndConfig</name></member>
+      <member refid="struct_ms_1_1_snd_config_1a2b251bcf1397da5e05ca778247051a60" prot="public" virt="non-virtual"><scope>Ms::SndConfig</scope><name>useSND</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,457 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.17">
+  <compounddef id="class_ms_1_1_m_style" kind="class" language="C++" prot="public">
+    <compoundname>Ms::MStyle</compoundname>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_ms_1_1_m_style_1a4e43d135a27df9afb1627fbc53d71817" prot="private" static="no" mutable="no">
+        <type>std::array&lt; QVariant, int(Sid::STYLES)&gt;</type>
+        <definition>std::array&lt;QVariant, int(Sid::STYLES)&gt; Ms::MStyle::_values</definition>
+        <argsstring></argsstring>
+        <name>_values</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/style.h" line="1298" column="18" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/style.h" bodystart="1298" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_ms_1_1_m_style_1a770700540d383f25cd475ac63e81dd80" prot="private" static="no" mutable="no">
+        <type>std::array&lt; qreal, int(Sid::STYLES)&gt;</type>
+        <definition>std::array&lt;qreal, int(Sid::STYLES)&gt; Ms::MStyle::_precomputedValues</definition>
+        <argsstring></argsstring>
+        <name>_precomputedValues</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/style.h" line="1299" column="18" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/style.h" bodystart="1299" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_ms_1_1_m_style_1a45c02722309772b794ec8ff7f1901329" prot="private" static="no" mutable="no">
+        <type><ref refid="class_ms_1_1_chord_list" kindref="compound">ChordList</ref></type>
+        <definition>ChordList Ms::MStyle::_chordList</definition>
+        <argsstring></argsstring>
+        <name>_chordList</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/style.h" line="1301" column="17" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/style.h" bodystart="1301" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_ms_1_1_m_style_1ae6dc188010872eff1d80c1affaaf198c" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool Ms::MStyle::_customChordList</definition>
+        <argsstring></argsstring>
+        <name>_customChordList</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/style.h" line="1302" column="12" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/style.h" bodystart="1302" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_ms_1_1_m_style_1acb8c0680b5ebb10fc5e05281fdfd3fa7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>Ms::MStyle::MStyle</definition>
+        <argsstring>()</argsstring>
+        <name>MStyle</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/style.h" line="1305" column="7" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/style.cpp" bodystart="2474" bodyend="2479"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ms_1_1_m_style_1a8c7b81e2a33a641e3caa50b79661ba33" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Ms::MStyle::precomputeValues</definition>
+        <argsstring>()</argsstring>
+        <name>precomputeValues</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/style.h" line="1307" column="12" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/style.cpp" bodystart="2485" bodyend="2492"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ms_1_1_m_style_1abef4246cce5775a71c4775fbcd66b828" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>QVariant</type>
+        <definition>QVariant Ms::MStyle::value</definition>
+        <argsstring>(Sid idx) const</argsstring>
+        <name>value</name>
+        <param>
+          <type>Sid</type>
+          <declname>idx</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/style.h" line="1308" column="16" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/style.cpp" bodystart="2437" bodyend="2444"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ms_1_1_m_style_1a11e78cc23ddf8899d67d8a3acefac328" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>qreal</type>
+        <definition>qreal Ms::MStyle::pvalue</definition>
+        <argsstring>(Sid idx) const</argsstring>
+        <name>pvalue</name>
+        <param>
+          <type>Sid</type>
+          <declname>idx</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/style.h" line="1309" column="13" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/style.h" bodystart="1309" bodyend="1309"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ms_1_1_m_style_1a5d85ca8abebf7123c4d39a3b5b1646a4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Ms::MStyle::set</definition>
+        <argsstring>(Sid idx, const QVariant &amp;v)</argsstring>
+        <name>set</name>
+        <param>
+          <type>Sid</type>
+          <declname>idx</declname>
+        </param>
+        <param>
+          <type>const QVariant &amp;</type>
+          <declname>v</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/style.h" line="1310" column="12" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/style.cpp" bodystart="2549" bodyend="2561"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ms_1_1_m_style_1a9a9dfd5f3c3616f0946a3c094bb80ab1" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool Ms::MStyle::isDefault</definition>
+        <argsstring>(Sid idx) const</argsstring>
+        <name>isDefault</name>
+        <param>
+          <type>Sid</type>
+          <declname>idx</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/style.h" line="1312" column="12" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/style.cpp" bodystart="2500" bodyend="2503"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ms_1_1_m_style_1aef94465bcce4c922f843e6a035749502" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>const <ref refid="struct_ms_1_1_chord_description" kindref="compound">ChordDescription</ref> *</type>
+        <definition>const ChordDescription * Ms::MStyle::chordDescription</definition>
+        <argsstring>(int id) const</argsstring>
+        <name>chordDescription</name>
+        <param>
+          <type>int</type>
+          <declname>id</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/style.h" line="1314" column="30" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/style.cpp" bodystart="2509" bodyend="2514"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ms_1_1_m_style_1a5b4978e1e82d82629e42847aef9159d7" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="class_ms_1_1_chord_list" kindref="compound">ChordList</ref> *</type>
+        <definition>ChordList* Ms::MStyle::chordList</definition>
+        <argsstring>()</argsstring>
+        <name>chordList</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/style.h" line="1315" column="17" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/style.h" bodystart="1315" bodyend="1315"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ms_1_1_m_style_1ab2eb4a85f31f93a984220e30a555a561" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Ms::MStyle::setChordList</definition>
+        <argsstring>(ChordList *, bool custom=true)</argsstring>
+        <name>setChordList</name>
+        <param>
+          <type><ref refid="class_ms_1_1_chord_list" kindref="compound">ChordList</ref> *</type>
+          <defname>cl</defname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>custom</declname>
+          <defval>true</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/style.h" line="1316" column="12" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/style.cpp" bodystart="2539" bodyend="2543"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ms_1_1_m_style_1a8d7aebd5bd379ef2fc5f949448f417f1" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Ms::MStyle::setCustomChordList</definition>
+        <argsstring>(bool t)</argsstring>
+        <name>setCustomChordList</name>
+        <param>
+          <type>bool</type>
+          <declname>t</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/style.h" line="1317" column="12" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/style.h" bodystart="1317" bodyend="1317"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ms_1_1_m_style_1a11e8b9af663f70f4cb4ac52331b144f3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Ms::MStyle::checkChordList</definition>
+        <argsstring>()</argsstring>
+        <name>checkChordList</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/style.h" line="1318" column="12" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/style.cpp" bodystart="2520" bodyend="2533"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ms_1_1_m_style_1ae96934b1163d9c81640dc58ff62b5168" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool Ms::MStyle::load</definition>
+        <argsstring>(QFile *qf, bool ign=false)</argsstring>
+        <name>load</name>
+        <param>
+          <type>QFile *</type>
+          <declname>qf</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>ign</declname>
+          <defval>false</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/style.h" line="1320" column="12" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/style.cpp" bodystart="2724" bodyend="2743"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ms_1_1_m_style_1a04a9dbbf8528694b309516952d3fcb83" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Ms::MStyle::load</definition>
+        <argsstring>(XmlReader &amp;e)</argsstring>
+        <name>load</name>
+        <param>
+          <type><ref refid="class_ms_1_1_xml_reader" kindref="compound">XmlReader</ref> &amp;</type>
+          <declname>e</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/style.h" line="1321" column="12" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/style.cpp" bodystart="2747" bodyend="2801"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ms_1_1_m_style_1a2a2d58a811603b8c38d9ceed2c3086f5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Ms::MStyle::save</definition>
+        <argsstring>(XmlWriter &amp;xml, bool optimize)</argsstring>
+        <name>save</name>
+        <param>
+          <type><ref refid="class_ms_1_1_xml_writer" kindref="compound">XmlWriter</ref> &amp;</type>
+          <declname>xml</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>optimize</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/style.h" line="1322" column="12" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/style.cpp" bodystart="2807" bodyend="2853"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ms_1_1_m_style_1a36407a3599f3171b067a821d30dd0ef9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool Ms::MStyle::readProperties</definition>
+        <argsstring>(XmlReader &amp;)</argsstring>
+        <name>readProperties</name>
+        <param>
+          <type><ref refid="class_ms_1_1_xml_reader" kindref="compound">XmlReader</ref> &amp;</type>
+          <defname>e</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/style.h" line="1323" column="12" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/style.cpp" bodystart="2567" bodyend="2648"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ms_1_1_m_style_1ab07c35a309254f600f0f647e70c84b81" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool Ms::MStyle::readStyleValCompat</definition>
+        <argsstring>(XmlReader &amp;)</argsstring>
+        <name>readStyleValCompat</name>
+        <param>
+          <type><ref refid="class_ms_1_1_xml_reader" kindref="compound">XmlReader</ref> &amp;</type>
+          <defname>e</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/style.h" line="1324" column="12" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/style.cpp" bodystart="2656" bodyend="2671"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ms_1_1_m_style_1a707f63f36011c888891c58e3586d5bde" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool Ms::MStyle::readTextStyleValCompat</definition>
+        <argsstring>(XmlReader &amp;)</argsstring>
+        <name>readTextStyleValCompat</name>
+        <param>
+          <type><ref refid="class_ms_1_1_xml_reader" kindref="compound">XmlReader</ref> &amp;</type>
+          <defname>e</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/style.h" line="1325" column="12" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/style.cpp" bodystart="2680" bodyend="2718"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ms_1_1_m_style_1a29abfcda7d2a56cd37cda4b1d95fe592" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Ms::MStyle::reset</definition>
+        <argsstring>(Score *)</argsstring>
+        <name>reset</name>
+        <param>
+          <type><ref refid="class_ms_1_1_score" kindref="compound">Score</ref> *</type>
+          <defname>score</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/style.h" line="1327" column="12" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/style.cpp" bodystart="2859" bodyend="2863"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="class_ms_1_1_m_style_1a41880bd89af7137019c45fec73b14b8c" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>const char *</type>
+        <definition>const char * Ms::MStyle::valueType</definition>
+        <argsstring>(const Sid)</argsstring>
+        <name>valueType</name>
+        <param>
+          <type>const</type>
+          <declname>Sid</declname>
+          <defname>i</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/style.h" line="1329" column="25" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/style.cpp" bodystart="2428" bodyend="2431"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ms_1_1_m_style_1a361449e66df4698b79765ea95fad2895" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>const char *</type>
+        <definition>const char * Ms::MStyle::valueName</definition>
+        <argsstring>(const Sid)</argsstring>
+        <name>valueName</name>
+        <param>
+          <type>const</type>
+          <declname>Sid</declname>
+          <defname>i</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/style.h" line="1330" column="25" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/style.cpp" bodystart="2450" bodyend="2455"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ms_1_1_m_style_1aaec8b369d5c956cfd1e44072893c1024" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>Sid</type>
+        <definition>Sid Ms::MStyle::styleIdx</definition>
+        <argsstring>(const QString &amp;name)</argsstring>
+        <name>styleIdx</name>
+        <param>
+          <type>const QString &amp;</type>
+          <declname>name</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/style.h" line="1331" column="18" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/style.cpp" bodystart="2461" bodyend="2468"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/style.h" line="1297" column="13" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/style.h" bodystart="1297" bodyend="1332"/>
+    <listofallmembers>
+      <member refid="class_ms_1_1_m_style_1a45c02722309772b794ec8ff7f1901329" prot="private" virt="non-virtual"><scope>Ms::MStyle</scope><name>_chordList</name></member>
+      <member refid="class_ms_1_1_m_style_1ae6dc188010872eff1d80c1affaaf198c" prot="private" virt="non-virtual"><scope>Ms::MStyle</scope><name>_customChordList</name></member>
+      <member refid="class_ms_1_1_m_style_1a770700540d383f25cd475ac63e81dd80" prot="private" virt="non-virtual"><scope>Ms::MStyle</scope><name>_precomputedValues</name></member>
+      <member refid="class_ms_1_1_m_style_1a4e43d135a27df9afb1627fbc53d71817" prot="private" virt="non-virtual"><scope>Ms::MStyle</scope><name>_values</name></member>
+      <member refid="class_ms_1_1_m_style_1a11e8b9af663f70f4cb4ac52331b144f3" prot="public" virt="non-virtual"><scope>Ms::MStyle</scope><name>checkChordList</name></member>
+      <member refid="class_ms_1_1_m_style_1aef94465bcce4c922f843e6a035749502" prot="public" virt="non-virtual"><scope>Ms::MStyle</scope><name>chordDescription</name></member>
+      <member refid="class_ms_1_1_m_style_1a5b4978e1e82d82629e42847aef9159d7" prot="public" virt="non-virtual"><scope>Ms::MStyle</scope><name>chordList</name></member>
+      <member refid="class_ms_1_1_m_style_1a9a9dfd5f3c3616f0946a3c094bb80ab1" prot="public" virt="non-virtual"><scope>Ms::MStyle</scope><name>isDefault</name></member>
+      <member refid="class_ms_1_1_m_style_1ae96934b1163d9c81640dc58ff62b5168" prot="public" virt="non-virtual"><scope>Ms::MStyle</scope><name>load</name></member>
+      <member refid="class_ms_1_1_m_style_1a04a9dbbf8528694b309516952d3fcb83" prot="public" virt="non-virtual"><scope>Ms::MStyle</scope><name>load</name></member>
+      <member refid="class_ms_1_1_m_style_1acb8c0680b5ebb10fc5e05281fdfd3fa7" prot="public" virt="non-virtual"><scope>Ms::MStyle</scope><name>MStyle</name></member>
+      <member refid="class_ms_1_1_m_style_1a8c7b81e2a33a641e3caa50b79661ba33" prot="public" virt="non-virtual"><scope>Ms::MStyle</scope><name>precomputeValues</name></member>
+      <member refid="class_ms_1_1_m_style_1a11e78cc23ddf8899d67d8a3acefac328" prot="public" virt="non-virtual"><scope>Ms::MStyle</scope><name>pvalue</name></member>
+      <member refid="class_ms_1_1_m_style_1a36407a3599f3171b067a821d30dd0ef9" prot="public" virt="non-virtual"><scope>Ms::MStyle</scope><name>readProperties</name></member>
+      <member refid="class_ms_1_1_m_style_1ab07c35a309254f600f0f647e70c84b81" prot="public" virt="non-virtual"><scope>Ms::MStyle</scope><name>readStyleValCompat</name></member>
+      <member refid="class_ms_1_1_m_style_1a707f63f36011c888891c58e3586d5bde" prot="public" virt="non-virtual"><scope>Ms::MStyle</scope><name>readTextStyleValCompat</name></member>
+      <member refid="class_ms_1_1_m_style_1a29abfcda7d2a56cd37cda4b1d95fe592" prot="public" virt="non-virtual"><scope>Ms::MStyle</scope><name>reset</name></member>
+      <member refid="class_ms_1_1_m_style_1a2a2d58a811603b8c38d9ceed2c3086f5" prot="public" virt="non-virtual"><scope>Ms::MStyle</scope><name>save</name></member>
+      <member refid="class_ms_1_1_m_style_1a5d85ca8abebf7123c4d39a3b5b1646a4" prot="public" virt="non-virtual"><scope>Ms::MStyle</scope><name>set</name></member>
+      <member refid="class_ms_1_1_m_style_1ab2eb4a85f31f93a984220e30a555a561" prot="public" virt="non-virtual"><scope>Ms::MStyle</scope><name>setChordList</name></member>
+      <member refid="class_ms_1_1_m_style_1a8d7aebd5bd379ef2fc5f949448f417f1" prot="public" virt="non-virtual"><scope>Ms::MStyle</scope><name>setCustomChordList</name></member>
+      <member refid="class_ms_1_1_m_style_1aaec8b369d5c956cfd1e44072893c1024" prot="public" virt="non-virtual"><scope>Ms::MStyle</scope><name>styleIdx</name></member>
+      <member refid="class_ms_1_1_m_style_1abef4246cce5775a71c4775fbcd66b828" prot="public" virt="non-virtual"><scope>Ms::MStyle</scope><name>value</name></member>
+      <member refid="class_ms_1_1_m_style_1a361449e66df4698b79765ea95fad2895" prot="public" virt="non-virtual"><scope>Ms::MStyle</scope><name>valueName</name></member>
+      <member refid="class_ms_1_1_m_style_1a41880bd89af7137019c45fec73b14b8c" prot="public" virt="non-virtual"><scope>Ms::MStyle</scope><name>valueType</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

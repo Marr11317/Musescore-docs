@@ -1,0 +1,2240 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.17">
+  <compounddef id="class_ms_1_1_harmony" kind="class" language="C++" prot="public" final="yes">
+    <compoundname>Ms::Harmony</compoundname>
+    <basecompoundref refid="class_ms_1_1_text_base" prot="public" virt="non-virtual">Ms::TextBase</basecompoundref>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_ms_1_1_harmony_1a2873ea179b54652e1e073754037e9463" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int Ms::Harmony::_rootTpc</definition>
+        <argsstring></argsstring>
+        <name>_rootTpc</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/harmony.h" line="74" column="11" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/harmony.h" bodystart="74" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_ms_1_1_harmony_1ab5f5c17155a5a8f863297e7d58fe1a85" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int Ms::Harmony::_baseTpc</definition>
+        <argsstring></argsstring>
+        <name>_baseTpc</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/harmony.h" line="75" column="11" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/harmony.h" bodystart="75" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_ms_1_1_harmony_1a7d2370f844d27becfe6037f361525c0c" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int Ms::Harmony::_id</definition>
+        <argsstring></argsstring>
+        <name>_id</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/harmony.h" line="77" column="11" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/harmony.h" bodystart="77" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_ms_1_1_harmony_1a91809dc350caec45445bfbf6de5d2bbd" prot="private" static="no" mutable="no">
+        <type>QString</type>
+        <definition>QString Ms::Harmony::_function</definition>
+        <argsstring></argsstring>
+        <name>_function</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/harmony.h" line="80" column="15" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/harmony.h" bodystart="80" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_ms_1_1_harmony_1aed8f4a73e13cf06982e8c304b6fd1780" prot="private" static="no" mutable="no">
+        <type>QString</type>
+        <definition>QString Ms::Harmony::_userName</definition>
+        <argsstring></argsstring>
+        <name>_userName</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/harmony.h" line="81" column="15" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/harmony.h" bodystart="81" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_ms_1_1_harmony_1ace2ce83e7603290fc4c15e885af1bfcf" prot="private" static="no" mutable="no">
+        <type>QString</type>
+        <definition>QString Ms::Harmony::_textName</definition>
+        <argsstring></argsstring>
+        <name>_textName</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/harmony.h" line="82" column="15" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/harmony.h" bodystart="82" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_ms_1_1_harmony_1ac7a1f68946199a143d964fddd0c42562" prot="private" static="no" mutable="no">
+        <type><ref refid="class_ms_1_1_parsed_chord" kindref="compound">ParsedChord</ref> *</type>
+        <definition>ParsedChord* Ms::Harmony::_parsedForm</definition>
+        <argsstring></argsstring>
+        <name>_parsedForm</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/harmony.h" line="83" column="19" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/harmony.h" bodystart="83" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_ms_1_1_harmony_1af76f1969ff129a3f27140babd050e865" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool Ms::Harmony::showSpell</definition>
+        <argsstring></argsstring>
+        <name>showSpell</name>
+        <initializer>= false</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/harmony.h" line="84" column="12" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/harmony.h" bodystart="84" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_ms_1_1_harmony_1a5ee7a4b09e6639450546eb2dff0ec868" prot="private" static="no" mutable="no">
+        <type>HarmonyType</type>
+        <definition>HarmonyType Ms::Harmony::_harmonyType</definition>
+        <argsstring></argsstring>
+        <name>_harmonyType</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/harmony.h" line="85" column="19" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/harmony.h" bodystart="85" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_ms_1_1_harmony_1a18b32a08621a3032529c9b2910c2e644" prot="private" static="no" mutable="no">
+        <type><ref refid="class_ms_1_1_realized_harmony" kindref="compound">RealizedHarmony</ref></type>
+        <definition>RealizedHarmony Ms::Harmony::_realizedHarmony</definition>
+        <argsstring></argsstring>
+        <name>_realizedHarmony</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/harmony.h" line="87" column="23" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/harmony.h" bodystart="87" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_ms_1_1_harmony_1ad3f3f00befae3aaca12ce4483ab36e29" prot="private" static="no" mutable="no">
+        <type>QList&lt; <ref refid="class_ms_1_1_h_degree" kindref="compound">HDegree</ref> &gt;</type>
+        <definition>QList&lt;HDegree&gt; Ms::Harmony::_degreeList</definition>
+        <argsstring></argsstring>
+        <name>_degreeList</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/harmony.h" line="89" column="13" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/harmony.h" bodystart="89" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_ms_1_1_harmony_1a224d1e713a5149bf1799cfe23c89dd0c" prot="private" static="no" mutable="no">
+        <type>QList&lt; QFont &gt;</type>
+        <definition>QList&lt;QFont&gt; Ms::Harmony::fontList</definition>
+        <argsstring></argsstring>
+        <name>fontList</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/harmony.h" line="90" column="13" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/harmony.h" bodystart="90" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_ms_1_1_harmony_1aee5861e7b1c359c369f87e68efccd628" prot="private" static="no" mutable="no">
+        <type>QList&lt; <ref refid="struct_ms_1_1_text_segment" kindref="compound">TextSegment</ref> * &gt;</type>
+        <definition>QList&lt;TextSegment*&gt; Ms::Harmony::textList</definition>
+        <argsstring></argsstring>
+        <name>textList</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/harmony.h" line="91" column="13" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/harmony.h" bodystart="91" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_ms_1_1_harmony_1a1916a72a18079fae74d1d828a424b3b5" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool Ms::Harmony::_leftParen</definition>
+        <argsstring></argsstring>
+        <name>_leftParen</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/harmony.h" line="93" column="12" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/harmony.h" bodystart="93" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_ms_1_1_harmony_1a14c1ca2f86201551d77edeb8dc15147c" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool Ms::Harmony::_rightParen</definition>
+        <argsstring></argsstring>
+        <name>_rightParen</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/harmony.h" line="93" column="23" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/harmony.h" bodystart="93" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_ms_1_1_harmony_1a480fe923c46e57808a89513c02adc541" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool Ms::Harmony::_play</definition>
+        <argsstring></argsstring>
+        <name>_play</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/harmony.h" line="94" column="12" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/harmony.h" bodystart="94" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_ms_1_1_harmony_1affc940a7df2469763118efbc36b128f4" prot="private" static="no" mutable="yes">
+        <type>QRectF</type>
+        <definition>QRectF Ms::Harmony::_tbbox</definition>
+        <argsstring></argsstring>
+        <name>_tbbox</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/harmony.h" line="96" column="22" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/harmony.h" bodystart="96" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_ms_1_1_harmony_1ab6ef1f035687744716266ab5a8c893ae" prot="private" static="no" mutable="no">
+        <type>NoteSpellingType</type>
+        <definition>NoteSpellingType Ms::Harmony::_rootSpelling</definition>
+        <argsstring></argsstring>
+        <name>_rootSpelling</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/harmony.h" line="98" column="24" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/harmony.h" bodystart="98" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_ms_1_1_harmony_1a2bcc090441c8f6af3649c61440d5436d" prot="private" static="no" mutable="no">
+        <type>NoteSpellingType</type>
+        <definition>NoteSpellingType Ms::Harmony::_baseSpelling</definition>
+        <argsstring></argsstring>
+        <name>_baseSpelling</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/harmony.h" line="98" column="38" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/harmony.h" bodystart="98" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_ms_1_1_harmony_1a51e6879e404fd7bfd29a0d5b62ec5de3" prot="private" static="no" mutable="no">
+        <type>NoteCaseType</type>
+        <definition>NoteCaseType Ms::Harmony::_rootCase</definition>
+        <argsstring></argsstring>
+        <name>_rootCase</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/harmony.h" line="99" column="20" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/harmony.h" bodystart="99" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_ms_1_1_harmony_1a1ced8c7364ffc99239f491e70895e5ac" prot="private" static="no" mutable="no">
+        <type>NoteCaseType</type>
+        <definition>NoteCaseType Ms::Harmony::_baseCase</definition>
+        <argsstring></argsstring>
+        <name>_baseCase</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/harmony.h" line="99" column="30" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/harmony.h" bodystart="99" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_ms_1_1_harmony_1aaa7a6fcb8fd62c6e5a4dccaa43fc0a5a" prot="private" static="no" mutable="no">
+        <type>NoteCaseType</type>
+        <definition>NoteCaseType Ms::Harmony::_rootRenderCase</definition>
+        <argsstring></argsstring>
+        <name>_rootRenderCase</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/harmony.h" line="100" column="20" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/harmony.h" bodystart="100" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_ms_1_1_harmony_1af557082582a4ed986ebffce568f68c52" prot="private" static="no" mutable="no">
+        <type>NoteCaseType</type>
+        <definition>NoteCaseType Ms::Harmony::_baseRenderCase</definition>
+        <argsstring></argsstring>
+        <name>_baseRenderCase</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/harmony.h" line="100" column="36" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/harmony.h" bodystart="100" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_ms_1_1_harmony_1a2ce1075f1a915f125de38db7fe729bb4" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Ms::Harmony::determineRootBaseSpelling</definition>
+        <argsstring>()</argsstring>
+        <name>determineRootBaseSpelling</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/harmony.h" line="102" column="12" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/harmony.cpp" bodystart="500" bodyend="504"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ms_1_1_harmony_1aac5d37fcfd00d4c195526a1581527e4c" prot="private" static="no" const="yes" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void Ms::Harmony::draw</definition>
+        <argsstring>(QPainter *) const override</argsstring>
+        <name>draw</name>
+        <reimplements refid="class_ms_1_1_text_base_1a412041516c20059ed3ef1dc845bdf5f8">draw</reimplements>
+        <param>
+          <type>QPainter *</type>
+          <defname>painter</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/harmony.h" line="103" column="12" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/harmony.cpp" bodystart="1368" bodyend="1404"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ms_1_1_harmony_1a8d55088a19f929721b0c294eb18ad7b7" prot="private" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void Ms::Harmony::drawEditMode</definition>
+        <argsstring>(QPainter *p, EditData &amp;ed) override</argsstring>
+        <name>drawEditMode</name>
+        <reimplements refid="class_ms_1_1_text_base_1a0a1b9db2b0b2fa8d044e218d9e8153e7">drawEditMode</reimplements>
+        <param>
+          <type>QPainter *</type>
+          <declname>p</declname>
+        </param>
+        <param>
+          <type><ref refid="class_ms_1_1_edit_data" kindref="compound">EditData</ref> &amp;</type>
+          <declname>ed</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/harmony.h" line="104" column="12" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/harmony.cpp" bodystart="1410" bodyend="1427"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ms_1_1_harmony_1a40c72ef13f20e3dae549ac0a8c0a3bd6" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Ms::Harmony::render</definition>
+        <argsstring>(const QString &amp;, qreal &amp;, qreal &amp;)</argsstring>
+        <name>render</name>
+        <param>
+          <type>const QString &amp;</type>
+          <defname>s</defname>
+        </param>
+        <param>
+          <type>qreal &amp;</type>
+          <defname>x</defname>
+        </param>
+        <param>
+          <type>qreal &amp;</type>
+          <defname>y</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/harmony.h" line="105" column="12" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/harmony.cpp" bodystart="1496" bodyend="1505"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ms_1_1_harmony_1a19fd947aa4f7859e4b209b00c2740b37" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Ms::Harmony::render</definition>
+        <argsstring>(const QList&lt; RenderAction &gt; &amp;renderList, qreal &amp;, qreal &amp;, int tpc, NoteSpellingType noteSpelling=NoteSpellingType::STANDARD, NoteCaseType noteCase=NoteCaseType::AUTO)</argsstring>
+        <name>render</name>
+        <param>
+          <type>const QList&lt; <ref refid="struct_ms_1_1_render_action" kindref="compound">RenderAction</ref> &gt; &amp;</type>
+          <declname>renderList</declname>
+        </param>
+        <param>
+          <type>qreal &amp;</type>
+          <defname>x</defname>
+        </param>
+        <param>
+          <type>qreal &amp;</type>
+          <defname>y</defname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>tpc</declname>
+        </param>
+        <param>
+          <type>NoteSpellingType</type>
+          <declname>noteSpelling</declname>
+          <defval>NoteSpellingType::STANDARD</defval>
+        </param>
+        <param>
+          <type>NoteCaseType</type>
+          <declname>noteCase</declname>
+          <defval>NoteCaseType::AUTO</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/harmony.h" line="106" column="12" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/harmony.cpp" bodystart="1511" bodyend="1606"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ms_1_1_harmony_1a083ffedacf2f017e2ea9007931dc9eb4" prot="private" static="no" const="yes" explicit="no" inline="no" virt="virtual">
+        <type>Sid</type>
+        <definition>Sid Ms::Harmony::getPropertyStyle</definition>
+        <argsstring>(Pid) const override</argsstring>
+        <name>getPropertyStyle</name>
+        <reimplements refid="class_ms_1_1_text_base_1a6af0bde9c997870b1bee0ef447a61f78">getPropertyStyle</reimplements>
+        <param>
+          <type>Pid</type>
+          <defname>pid</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/harmony.h" line="107" column="11" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/harmony.cpp" bodystart="2123" bodyend="2148"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_ms_1_1_harmony_1aa2345c6f25ff6f141861c5f4250b0a07" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>Ms::Harmony::Harmony</definition>
+        <argsstring>(Score *=0)</argsstring>
+        <name>Harmony</name>
+        <param>
+          <type><ref refid="class_ms_1_1_score" kindref="compound">Score</ref> *</type>
+          <defname>s</defname>
+          <defval>0</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/harmony.h" line="110" column="7" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/harmony.cpp" bodystart="165" bodyend="183"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ms_1_1_harmony_1a8ca43ba663f1f7f725ff14356b4a5273" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>Ms::Harmony::Harmony</definition>
+        <argsstring>(const Harmony &amp;)</argsstring>
+        <name>Harmony</name>
+        <param>
+          <type>const <ref refid="class_ms_1_1_harmony" kindref="compound">Harmony</ref> &amp;</type>
+          <defname>h</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/harmony.h" line="111" column="7" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/harmony.cpp" bodystart="185" bodyend="213"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ms_1_1_harmony_1a222198b171f1e07e6fdcb6cc7fb2eca8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>Ms::Harmony::~Harmony</definition>
+        <argsstring>()</argsstring>
+        <name>~Harmony</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/harmony.h" line="112" column="7" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/harmony.cpp" bodystart="219" bodyend="225"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ms_1_1_harmony_1adefd12e4d36da73b94551a5dd69c9667" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="virtual">
+        <type><ref refid="class_ms_1_1_harmony" kindref="compound">Harmony</ref> *</type>
+        <definition>Harmony* Ms::Harmony::clone</definition>
+        <argsstring>() const override</argsstring>
+        <name>clone</name>
+        <reimplements refid="class_ms_1_1_element_1adcd981af2ae9890f31c993050d5f0f25">clone</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/harmony.h" line="114" column="15" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/harmony.h" bodystart="114" bodyend="114"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ms_1_1_harmony_1a1f0f56616dc49c8b9328cb5c3da14eae" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="virtual">
+        <type><ref refid="namespace_ms_1a2c92ce0204176ede1ab86e2f44ae6b9e" kindref="member">ElementType</ref></type>
+        <definition>ElementType Ms::Harmony::type</definition>
+        <argsstring>() const override</argsstring>
+        <name>type</name>
+        <reimplements refid="class_ms_1_1_score_element_1a3dbb763c3cd4ec05d202d03115abe1d5">type</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/harmony.h" line="115" column="19" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/harmony.h" bodystart="115" bodyend="115"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ms_1_1_harmony_1a6c6f39144bf323afc5e97306bdee5ad9" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Ms::Harmony::setId</definition>
+        <argsstring>(int d)</argsstring>
+        <name>setId</name>
+        <param>
+          <type>int</type>
+          <declname>d</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/harmony.h" line="117" column="12" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/harmony.h" bodystart="117" bodyend="117"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ms_1_1_harmony_1a8c34cad119f33ae68f04e370f0cb38b4" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>int</type>
+        <definition>int Ms::Harmony::id</definition>
+        <argsstring>() const</argsstring>
+        <name>id</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/harmony.h" line="118" column="11" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/harmony.h" bodystart="118" bodyend="118"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ms_1_1_harmony_1a62fcc04722a6c389940599bfa2d68203" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Ms::Harmony::setPlay</definition>
+        <argsstring>(bool p)</argsstring>
+        <name>setPlay</name>
+        <param>
+          <type>bool</type>
+          <declname>p</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/harmony.h" line="120" column="12" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/harmony.h" bodystart="120" bodyend="120"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ms_1_1_harmony_1a16eed7d968d9d6ff91428a621f7ed258" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool Ms::Harmony::play</definition>
+        <argsstring>() const</argsstring>
+        <name>play</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/harmony.h" line="121" column="12" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/harmony.h" bodystart="121" bodyend="121"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ms_1_1_harmony_1ac311b4866caa1c813c229df7f62e7d91" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Ms::Harmony::setBaseCase</definition>
+        <argsstring>(NoteCaseType c)</argsstring>
+        <name>setBaseCase</name>
+        <param>
+          <type>NoteCaseType</type>
+          <declname>c</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/harmony.h" line="123" column="12" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/harmony.h" bodystart="123" bodyend="123"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ms_1_1_harmony_1a3b01266a781fbaed1fe4a1478a1ae5c3" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Ms::Harmony::setRootCase</definition>
+        <argsstring>(NoteCaseType c)</argsstring>
+        <name>setRootCase</name>
+        <param>
+          <type>NoteCaseType</type>
+          <declname>c</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/harmony.h" line="124" column="12" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/harmony.h" bodystart="124" bodyend="124"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ms_1_1_harmony_1ab1db515d36c406d2bb23950936427a36" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool Ms::Harmony::leftParen</definition>
+        <argsstring>() const</argsstring>
+        <name>leftParen</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/harmony.h" line="126" column="12" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/harmony.h" bodystart="126" bodyend="126"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ms_1_1_harmony_1a02a38fccd3c6bf3aa1c1440ededc9d8f" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool Ms::Harmony::rightParen</definition>
+        <argsstring>() const</argsstring>
+        <name>rightParen</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/harmony.h" line="127" column="12" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/harmony.h" bodystart="127" bodyend="127"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ms_1_1_harmony_1aeaee669ded862fe29091e306eb729530" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Ms::Harmony::setLeftParen</definition>
+        <argsstring>(bool leftParen)</argsstring>
+        <name>setLeftParen</name>
+        <param>
+          <type>bool</type>
+          <declname>leftParen</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/harmony.h" line="128" column="12" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/harmony.h" bodystart="128" bodyend="128"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ms_1_1_harmony_1af1aa4c009b87d06fde12a7e87005ee74" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Ms::Harmony::setRightParen</definition>
+        <argsstring>(bool rightParen)</argsstring>
+        <name>setRightParen</name>
+        <param>
+          <type>bool</type>
+          <declname>rightParen</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/harmony.h" line="129" column="12" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/harmony.h" bodystart="129" bodyend="129"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ms_1_1_harmony_1a7e59e093c86c4f47bf6d16be83a0dd11" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="class_ms_1_1_harmony" kindref="compound">Harmony</ref> *</type>
+        <definition>Harmony * Ms::Harmony::findNext</definition>
+        <argsstring>() const</argsstring>
+        <name>findNext</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>find the next <ref refid="class_ms_1_1_harmony" kindref="compound">Harmony</ref> in the score</para>
+<para>returns 0 if there is none </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/harmony.h" line="131" column="15" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/harmony.cpp" bodystart="979" bodyend="994"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ms_1_1_harmony_1afb3ff4b07e40ea110f23ce7d817c0af1" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="class_ms_1_1_harmony" kindref="compound">Harmony</ref> *</type>
+        <definition>Harmony * Ms::Harmony::findPrev</definition>
+        <argsstring>() const</argsstring>
+        <name>findPrev</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>find the previous <ref refid="class_ms_1_1_harmony" kindref="compound">Harmony</ref> in the score</para>
+<para>returns 0 if there is none </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/harmony.h" line="132" column="15" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/harmony.cpp" bodystart="1002" bodyend="1017"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ms_1_1_harmony_1a6a6e950a08f1476b0254f35639e085f8" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="class_ms_1_1_fraction" kindref="compound">Fraction</ref></type>
+        <definition>Fraction Ms::Harmony::ticksTilNext</definition>
+        <argsstring>(bool stopAtMeasureEnd=false) const</argsstring>
+        <name>ticksTilNext</name>
+        <param>
+          <type>bool</type>
+          <declname>stopAtMeasureEnd</declname>
+          <defval>false</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>finds ticks until the next chord symbol or end of score</para>
+<para>stopAtMeasureEnd being set to true will have the loop stop at measure end. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/harmony.h" line="133" column="16" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/harmony.cpp" bodystart="1026" bodyend="1052"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ms_1_1_harmony_1a32884bec863d0d850238f8090c31d319" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>const <ref refid="struct_ms_1_1_chord_description" kindref="compound">ChordDescription</ref> *</type>
+        <definition>const ChordDescription * Ms::Harmony::descr</definition>
+        <argsstring>() const</argsstring>
+        <name>descr</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/harmony.h" line="135" column="30" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/harmony.cpp" bodystart="1120" bodyend="1123"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ms_1_1_harmony_1a33f47123a38937ec90bcc843646b9ff4" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>const <ref refid="struct_ms_1_1_chord_description" kindref="compound">ChordDescription</ref> *</type>
+        <definition>const ChordDescription * Ms::Harmony::descr</definition>
+        <argsstring>(const QString &amp;, const ParsedChord *pc=0) const</argsstring>
+        <name>descr</name>
+        <param>
+          <type>const QString &amp;</type>
+          <defname>name</defname>
+        </param>
+        <param>
+          <type>const <ref refid="class_ms_1_1_parsed_chord" kindref="compound">ParsedChord</ref> *</type>
+          <declname>pc</declname>
+          <defval>0</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/harmony.h" line="136" column="30" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/harmony.cpp" bodystart="1132" bodyend="1152"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ms_1_1_harmony_1a62c58cbb564560f73770416cb9592d55" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>const <ref refid="struct_ms_1_1_chord_description" kindref="compound">ChordDescription</ref> *</type>
+        <definition>const ChordDescription * Ms::Harmony::getDescription</definition>
+        <argsstring>()</argsstring>
+        <name>getDescription</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/harmony.h" line="137" column="30" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/harmony.cpp" bodystart="1163" bodyend="1173"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ms_1_1_harmony_1a3b107c6f71691adaae6b5b266526e168" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>const <ref refid="struct_ms_1_1_chord_description" kindref="compound">ChordDescription</ref> *</type>
+        <definition>const ChordDescription * Ms::Harmony::getDescription</definition>
+        <argsstring>(const QString &amp;, const ParsedChord *pc=0)</argsstring>
+        <name>getDescription</name>
+        <param>
+          <type>const QString &amp;</type>
+          <defname>name</defname>
+        </param>
+        <param>
+          <type>const <ref refid="class_ms_1_1_parsed_chord" kindref="compound">ParsedChord</ref> *</type>
+          <declname>pc</declname>
+          <defval>0</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/harmony.h" line="138" column="30" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/harmony.cpp" bodystart="1180" bodyend="1190"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ms_1_1_harmony_1a2bdb2f2d2a5bb5cfc4d8d3d76aed43c0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>const <ref refid="struct_ms_1_1_chord_description" kindref="compound">ChordDescription</ref> *</type>
+        <definition>const ChordDescription * Ms::Harmony::generateDescription</definition>
+        <argsstring>()</argsstring>
+        <name>generateDescription</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/harmony.h" line="139" column="30" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/harmony.cpp" bodystart="1246" bodyend="1255"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ms_1_1_harmony_1a909b9d1ab1faf4ac0f90c4ef87bf6b09" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="class_ms_1_1_realized_harmony" kindref="compound">RealizedHarmony</ref> &amp;</type>
+        <definition>RealizedHarmony &amp; Ms::Harmony::realizedHarmony</definition>
+        <argsstring>()</argsstring>
+        <name>realizedHarmony</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/harmony.h" line="141" column="23" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/harmony.cpp" bodystart="1235" bodyend="1238"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ms_1_1_harmony_1a60d4ffd232b73b29ed03e768adf3ea25" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>const <ref refid="class_ms_1_1_realized_harmony" kindref="compound">RealizedHarmony</ref> &amp;</type>
+        <definition>const RealizedHarmony &amp; Ms::Harmony::getRealizedHarmony</definition>
+        <argsstring>()</argsstring>
+        <name>getRealizedHarmony</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/harmony.h" line="142" column="29" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/harmony.cpp" bodystart="1201" bodyend="1227"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ms_1_1_harmony_1a37fd1f0bbde10931deea11cbce7d8a88" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Ms::Harmony::determineRootBaseSpelling</definition>
+        <argsstring>(NoteSpellingType &amp;rootSpelling, NoteCaseType &amp;rootCase, NoteSpellingType &amp;baseSpelling, NoteCaseType &amp;baseCase)</argsstring>
+        <name>determineRootBaseSpelling</name>
+        <param>
+          <type>NoteSpellingType &amp;</type>
+          <declname>rootSpelling</declname>
+        </param>
+        <param>
+          <type>NoteCaseType &amp;</type>
+          <declname>rootCase</declname>
+        </param>
+        <param>
+          <type>NoteSpellingType &amp;</type>
+          <declname>baseSpelling</declname>
+        </param>
+        <param>
+          <type>NoteCaseType &amp;</type>
+          <declname>baseCase</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/harmony.h" line="144" column="12" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/harmony.cpp" bodystart="427" bodyend="494"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ms_1_1_harmony_1a3f04b6e83641e5e211152f9f7273fecd" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Ms::Harmony::textChanged</definition>
+        <argsstring>()</argsstring>
+        <name>textChanged</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/harmony.h" line="147" column="12"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ms_1_1_harmony_1af11c09bece9d4ec0420aea90748cacef" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void Ms::Harmony::layout</definition>
+        <argsstring>() override</argsstring>
+        <name>layout</name>
+        <reimplements refid="class_ms_1_1_text_base_1aa369e241fce684416ee33e080fa3300a">layout</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/harmony.h" line="148" column="12" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/harmony.cpp" bodystart="1261" bodyend="1319"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ms_1_1_harmony_1a58f8fb307d33fa2ec841b8f8fd07d2eb" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void Ms::Harmony::layout1</definition>
+        <argsstring>() override</argsstring>
+        <name>layout1</name>
+        <reimplements refid="class_ms_1_1_text_base_1ae734de090269926708818de2a10ce4a3">layout1</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/harmony.h" line="149" column="12" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/harmony.cpp" bodystart="1325" bodyend="1335"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ms_1_1_harmony_1a36e55811ec81443bb77761324a44183e" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="virtual">
+        <type>bool</type>
+        <definition>bool Ms::Harmony::isEditable</definition>
+        <argsstring>() const override</argsstring>
+        <name>isEditable</name>
+        <reimplements refid="class_ms_1_1_element_1accef4917f0fce522b94b90a3ccd0f76b">isEditable</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/harmony.h" line="151" column="12" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/harmony.h" bodystart="151" bodyend="151"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ms_1_1_harmony_1a64bbf29c109c23308a3791db5f8803eb" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void Ms::Harmony::startEdit</definition>
+        <argsstring>(EditData &amp;) override</argsstring>
+        <name>startEdit</name>
+        <reimplements refid="class_ms_1_1_text_base_1a360d2d3ae3363f42f1b88efbe46cfe43">startEdit</reimplements>
+        <param>
+          <type><ref refid="class_ms_1_1_edit_data" kindref="compound">EditData</ref> &amp;</type>
+          <defname>ed</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/harmony.h" line="152" column="12" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/harmony.cpp" bodystart="777" bodyend="793"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ms_1_1_harmony_1a79e910da40ba64c4935296e0f80a0b05" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>bool</type>
+        <definition>bool Ms::Harmony::edit</definition>
+        <argsstring>(EditData &amp;) override</argsstring>
+        <name>edit</name>
+        <reimplements refid="class_ms_1_1_text_base_1a3bf275643e5a5c7b1f848f8d30fc3321">edit</reimplements>
+        <param>
+          <type><ref refid="class_ms_1_1_edit_data" kindref="compound">EditData</ref> &amp;</type>
+          <defname>ed</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/harmony.h" line="153" column="12" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/harmony.cpp" bodystart="799" bodyend="819"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ms_1_1_harmony_1aeb9ae89ad1753dcd17df49be71e73feb" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void Ms::Harmony::endEdit</definition>
+        <argsstring>(EditData &amp;) override</argsstring>
+        <name>endEdit</name>
+        <reimplements refid="class_ms_1_1_text_base_1a65eb54b9fec4f4e155b65a1acf690edf">endEdit</reimplements>
+        <param>
+          <type><ref refid="class_ms_1_1_edit_data" kindref="compound">EditData</ref> &amp;</type>
+          <defname>ed</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/harmony.h" line="154" column="12" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/harmony.cpp" bodystart="825" bodyend="905"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ms_1_1_harmony_1a92d706e65ed026748ba5a0c65d26dd76" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool Ms::Harmony::isRealizable</definition>
+        <argsstring>() const</argsstring>
+        <name>isRealizable</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/harmony.h" line="156" column="12" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/harmony.cpp" bodystart="110" bodyend="114"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ms_1_1_harmony_1a97c5907ec6b5cb232bf05bbcf387b299" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>QString</type>
+        <definition>QString Ms::Harmony::hFunction</definition>
+        <argsstring>() const</argsstring>
+        <name>hFunction</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/harmony.h" line="158" column="15" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/harmony.h" bodystart="158" bodyend="158"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ms_1_1_harmony_1ae906098ae79a90c0f4ba265093a8ade7" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>QString</type>
+        <definition>QString Ms::Harmony::hUserName</definition>
+        <argsstring>() const</argsstring>
+        <name>hUserName</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/harmony.h" line="159" column="15" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/harmony.h" bodystart="159" bodyend="159"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ms_1_1_harmony_1a25de5d51651d37317c35472bf51e828e" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>QString</type>
+        <definition>QString Ms::Harmony::hTextName</definition>
+        <argsstring>() const</argsstring>
+        <name>hTextName</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/harmony.h" line="160" column="15" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/harmony.h" bodystart="160" bodyend="160"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ms_1_1_harmony_1a8bedb3ec7ec0852d1828807342411173" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>int</type>
+        <definition>int Ms::Harmony::baseTpc</definition>
+        <argsstring>() const</argsstring>
+        <name>baseTpc</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/harmony.h" line="161" column="11" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/harmony.h" bodystart="161" bodyend="161"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ms_1_1_harmony_1a9bbdf9f8eab2764f0c2ed307e4f2221a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Ms::Harmony::setBaseTpc</definition>
+        <argsstring>(int val)</argsstring>
+        <name>setBaseTpc</name>
+        <param>
+          <type>int</type>
+          <declname>val</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/harmony.h" line="162" column="12" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/harmony.h" bodystart="162" bodyend="162"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ms_1_1_harmony_1a1a65e679252058d1dacb30e1ec753d5c" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>int</type>
+        <definition>int Ms::Harmony::rootTpc</definition>
+        <argsstring>() const</argsstring>
+        <name>rootTpc</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/harmony.h" line="163" column="11" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/harmony.h" bodystart="163" bodyend="163"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ms_1_1_harmony_1a5c3771c6786020d620fefba97fd72d45" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Ms::Harmony::setRootTpc</definition>
+        <argsstring>(int val)</argsstring>
+        <name>setRootTpc</name>
+        <param>
+          <type>int</type>
+          <declname>val</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/harmony.h" line="164" column="12" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/harmony.h" bodystart="164" bodyend="164"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ms_1_1_harmony_1ae73c8f913aa49b9e9f91d143b5d52136" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Ms::Harmony::setTextName</definition>
+        <argsstring>(const QString &amp;s)</argsstring>
+        <name>setTextName</name>
+        <param>
+          <type>const QString &amp;</type>
+          <declname>s</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/harmony.h" line="165" column="12" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/harmony.h" bodystart="165" bodyend="165"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ms_1_1_harmony_1a8fe1bcd3f586773da18f9fc7188daeff" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Ms::Harmony::setFunction</definition>
+        <argsstring>(const QString &amp;s)</argsstring>
+        <name>setFunction</name>
+        <param>
+          <type>const QString &amp;</type>
+          <declname>s</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/harmony.h" line="166" column="12" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/harmony.h" bodystart="166" bodyend="166"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ms_1_1_harmony_1a703dac198e9e02c00f1db2808be1f049" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>QString</type>
+        <definition>QString Ms::Harmony::rootName</definition>
+        <argsstring>()</argsstring>
+        <name>rootName</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/harmony.h" line="167" column="15" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/harmony.cpp" bodystart="91" bodyend="95"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ms_1_1_harmony_1a127d91cf83439667b70e148c5e91c102" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>QString</type>
+        <definition>QString Ms::Harmony::baseName</definition>
+        <argsstring>()</argsstring>
+        <name>baseName</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/harmony.h" line="168" column="15" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/harmony.cpp" bodystart="101" bodyend="107"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ms_1_1_harmony_1a11d851d0017c6e0648d629522cfabf71" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Ms::Harmony::addDegree</definition>
+        <argsstring>(const HDegree &amp;d)</argsstring>
+        <name>addDegree</name>
+        <param>
+          <type>const <ref refid="class_ms_1_1_h_degree" kindref="compound">HDegree</ref> &amp;</type>
+          <declname>d</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/harmony.h" line="169" column="12" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/harmony.cpp" bodystart="1798" bodyend="1801"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ms_1_1_harmony_1add50b958e25bb3e2d541573c71cea3ca" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int Ms::Harmony::numberOfDegrees</definition>
+        <argsstring>() const</argsstring>
+        <name>numberOfDegrees</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/harmony.h" line="170" column="11" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/harmony.cpp" bodystart="1807" bodyend="1810"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ms_1_1_harmony_1a8701c3620cf5b51333fe7d6b0ef730c2" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="class_ms_1_1_h_degree" kindref="compound">HDegree</ref></type>
+        <definition>HDegree Ms::Harmony::degree</definition>
+        <argsstring>(int i) const</argsstring>
+        <name>degree</name>
+        <param>
+          <type>int</type>
+          <declname>i</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/harmony.h" line="171" column="15" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/harmony.cpp" bodystart="1789" bodyend="1792"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ms_1_1_harmony_1af6af5a5a9c1fee0a2a59ca87ded551ad" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Ms::Harmony::clearDegrees</definition>
+        <argsstring>()</argsstring>
+        <name>clearDegrees</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/harmony.h" line="172" column="12" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/harmony.cpp" bodystart="1816" bodyend="1819"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ms_1_1_harmony_1a1d0fc80c523716264fd0fc7375f0d11f" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>const QList&lt; <ref refid="class_ms_1_1_h_degree" kindref="compound">HDegree</ref> &gt; &amp;</type>
+        <definition>const QList&lt; HDegree &gt; &amp; Ms::Harmony::degreeList</definition>
+        <argsstring>() const</argsstring>
+        <name>degreeList</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/harmony.h" line="173" column="19" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/harmony.cpp" bodystart="1825" bodyend="1828"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ms_1_1_harmony_1ac8c4ea2022b14c592fa6c61788785835" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>const <ref refid="class_ms_1_1_parsed_chord" kindref="compound">ParsedChord</ref> *</type>
+        <definition>const ParsedChord * Ms::Harmony::parsedForm</definition>
+        <argsstring>()</argsstring>
+        <name>parsedForm</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/harmony.h" line="174" column="25" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/harmony.cpp" bodystart="1834" bodyend="1842"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ms_1_1_harmony_1aa78ffc368900aba0c8ef6aff2797f71b" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>HarmonyType</type>
+        <definition>HarmonyType Ms::Harmony::harmonyType</definition>
+        <argsstring>() const</argsstring>
+        <name>harmonyType</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/harmony.h" line="175" column="19" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/harmony.h" bodystart="175" bodyend="175"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ms_1_1_harmony_1a7fa4692b8851bcdd4a45ccc3a62d6e36" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Ms::Harmony::setHarmonyType</definition>
+        <argsstring>(HarmonyType val)</argsstring>
+        <name>setHarmonyType</name>
+        <param>
+          <type>HarmonyType</type>
+          <declname>val</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/harmony.h" line="176" column="12" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/harmony.cpp" bodystart="1848" bodyend="1864"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ms_1_1_harmony_1a90bcf02fdd768b6c5132cd0216c039d0" prot="public" static="no" const="yes" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void Ms::Harmony::write</definition>
+        <argsstring>(XmlWriter &amp;xml) const override</argsstring>
+        <name>write</name>
+        <reimplements refid="class_ms_1_1_text_base_1a180716a093e99c4a378a2d82d30d6323">write</reimplements>
+        <param>
+          <type><ref refid="class_ms_1_1_xml_writer" kindref="compound">XmlWriter</ref> &amp;</type>
+          <declname>xml</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/harmony.h" line="178" column="12" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/harmony.cpp" bodystart="231" bodyend="305"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ms_1_1_harmony_1a5aafd55c30ccc85bec5f9378721f9f09" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void Ms::Harmony::read</definition>
+        <argsstring>(XmlReader &amp;) override</argsstring>
+        <name>read</name>
+        <reimplements refid="class_ms_1_1_text_base_1a8091c3ff0c28215e9df4cd38927977bc">read</reimplements>
+        <param>
+          <type><ref refid="class_ms_1_1_xml_reader" kindref="compound">XmlReader</ref> &amp;</type>
+          <defname>e</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/harmony.h" line="179" column="12" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/harmony.cpp" bodystart="311" bodyend="421"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ms_1_1_harmony_1a765bb29a27d0027515bea6fb79ee2e57" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>QString</type>
+        <definition>QString Ms::Harmony::harmonyName</definition>
+        <argsstring>() const</argsstring>
+        <name>harmonyName</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/harmony.h" line="180" column="15" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/harmony.cpp" bodystart="34" bodyend="85"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ms_1_1_harmony_1af24d956c1ff9c8945867f0f7c0ed0fbc" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Ms::Harmony::render</definition>
+        <argsstring>()</argsstring>
+        <name>render</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/harmony.h" line="181" column="12" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/harmony.cpp" bodystart="1613" bodyend="1704"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ms_1_1_harmony_1a8049e66f9912d843a671d498580cab2f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>const <ref refid="struct_ms_1_1_chord_description" kindref="compound">ChordDescription</ref> *</type>
+        <definition>const ChordDescription * Ms::Harmony::parseHarmony</definition>
+        <argsstring>(const QString &amp;s, int *root, int *base, bool syntaxOnly=false)</argsstring>
+        <name>parseHarmony</name>
+        <param>
+          <type>const QString &amp;</type>
+          <declname>s</declname>
+        </param>
+        <param>
+          <type>int *</type>
+          <declname>root</declname>
+        </param>
+        <param>
+          <type>int *</type>
+          <declname>base</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>syntaxOnly</declname>
+          <defval>false</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/harmony.h" line="183" column="30" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/harmony.cpp" bodystart="661" bodyend="771"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ms_1_1_harmony_1a6f38a0ec9ddca4dee686df60a1e9d63f" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>const QString &amp;</type>
+        <definition>const QString &amp; Ms::Harmony::extensionName</definition>
+        <argsstring>() const</argsstring>
+        <name>extensionName</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/harmony.h" line="185" column="21" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/harmony.cpp" bodystart="1730" bodyend="1733"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ms_1_1_harmony_1a02eb418f41d80763738390e460149f4d" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>QString</type>
+        <definition>QString Ms::Harmony::xmlKind</definition>
+        <argsstring>() const</argsstring>
+        <name>xmlKind</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/harmony.h" line="187" column="15" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/harmony.cpp" bodystart="1739" bodyend="1743"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ms_1_1_harmony_1aa6699207cc06e9ac5441698578ac46ef" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>QString</type>
+        <definition>QString Ms::Harmony::musicXmlText</definition>
+        <argsstring>() const</argsstring>
+        <name>musicXmlText</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/harmony.h" line="188" column="15" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/harmony.cpp" bodystart="1749" bodyend="1753"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ms_1_1_harmony_1a9e948a231128c3023b45593a12a4caf6" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>QString</type>
+        <definition>QString Ms::Harmony::xmlSymbols</definition>
+        <argsstring>() const</argsstring>
+        <name>xmlSymbols</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/harmony.h" line="189" column="15" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/harmony.cpp" bodystart="1759" bodyend="1763"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ms_1_1_harmony_1a3f5f8782791e6241e62bc670c15cfe6e" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>QString</type>
+        <definition>QString Ms::Harmony::xmlParens</definition>
+        <argsstring>() const</argsstring>
+        <name>xmlParens</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/harmony.h" line="190" column="15" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/harmony.cpp" bodystart="1769" bodyend="1773"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ms_1_1_harmony_1a636997d3f62878fd2e88c0bd9d4f0977" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>QStringList</type>
+        <definition>QStringList Ms::Harmony::xmlDegrees</definition>
+        <argsstring>() const</argsstring>
+        <name>xmlDegrees</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/harmony.h" line="191" column="19" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/harmony.cpp" bodystart="1779" bodyend="1783"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ms_1_1_harmony_1a24447627db0c171fcd78093a98c07b69" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Ms::Harmony::resolveDegreeList</definition>
+        <argsstring>()</argsstring>
+        <name>resolveDegreeList</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/harmony.h" line="193" column="12" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/harmony.cpp" bodystart="122" bodyend="146"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ms_1_1_harmony_1a56cda2517f5e2a04909835145c1b3a75" prot="public" static="no" const="yes" explicit="no" inline="no" virt="virtual">
+        <type>qreal</type>
+        <definition>qreal Ms::Harmony::baseLine</definition>
+        <argsstring>() const override</argsstring>
+        <name>baseLine</name>
+        <reimplements refid="class_ms_1_1_text_base_1ad3f37178ac70b57b880f0911556dc5d4">baseLine</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/harmony.h" line="195" column="13" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/harmony.cpp" bodystart="942" bodyend="945"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ms_1_1_harmony_1ab6eed1493b91da8b0907abab85671106" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>const <ref refid="struct_ms_1_1_chord_description" kindref="compound">ChordDescription</ref> *</type>
+        <definition>const ChordDescription * Ms::Harmony::fromXml</definition>
+        <argsstring>(const QString &amp;, const QString &amp;, const QString &amp;, const QString &amp;, const QList&lt; HDegree &gt; &amp;)</argsstring>
+        <name>fromXml</name>
+        <param>
+          <type>const QString &amp;</type>
+          <defname>kind</defname>
+        </param>
+        <param>
+          <type>const QString &amp;</type>
+          <defname>kindText</defname>
+        </param>
+        <param>
+          <type>const QString &amp;</type>
+          <defname>symbols</defname>
+        </param>
+        <param>
+          <type>const QString &amp;</type>
+          <defname>parens</defname>
+        </param>
+        <param>
+          <type>const QList&lt; <ref refid="class_ms_1_1_h_degree" kindref="compound">HDegree</ref> &gt; &amp;</type>
+          <defname>dl</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/harmony.h" line="197" column="30" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/harmony.cpp" bodystart="1105" bodyend="1112"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ms_1_1_harmony_1a34fe9faefb327a8067e3bde11cbca890" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>const <ref refid="struct_ms_1_1_chord_description" kindref="compound">ChordDescription</ref> *</type>
+        <definition>const ChordDescription * Ms::Harmony::fromXml</definition>
+        <argsstring>(const QString &amp;s, const QList&lt; HDegree &gt; &amp;)</argsstring>
+        <name>fromXml</name>
+        <param>
+          <type>const QString &amp;</type>
+          <declname>s</declname>
+        </param>
+        <param>
+          <type>const QList&lt; <ref refid="class_ms_1_1_h_degree" kindref="compound">HDegree</ref> &gt; &amp;</type>
+          <defname>dl</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/harmony.h" line="198" column="30" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/harmony.cpp" bodystart="1060" bodyend="1079"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ms_1_1_harmony_1a39f7be791793227c56a1db3620b52639" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>const <ref refid="struct_ms_1_1_chord_description" kindref="compound">ChordDescription</ref> *</type>
+        <definition>const ChordDescription * Ms::Harmony::fromXml</definition>
+        <argsstring>(const QString &amp;s)</argsstring>
+        <name>fromXml</name>
+        <param>
+          <type>const QString &amp;</type>
+          <declname>s</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/harmony.h" line="199" column="30" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/harmony.cpp" bodystart="1087" bodyend="1096"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ms_1_1_harmony_1a87ad1e39976e88a162fa50adf1abdb8f" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void Ms::Harmony::spatiumChanged</definition>
+        <argsstring>(qreal oldValue, qreal newValue) override</argsstring>
+        <name>spatiumChanged</name>
+        <reimplements refid="class_ms_1_1_element_1a8198d208370c064154b2be113981cbda">spatiumChanged</reimplements>
+        <param>
+          <type>qreal</type>
+          <declname>oldValue</declname>
+        </param>
+        <param>
+          <type>qreal</type>
+          <declname>newValue</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/harmony.h" line="200" column="12" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/harmony.cpp" bodystart="1710" bodyend="1714"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ms_1_1_harmony_1a419433930344798627a40a9cf47430f7" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void Ms::Harmony::localSpatiumChanged</definition>
+        <argsstring>(qreal oldValue, qreal newValue) override</argsstring>
+        <name>localSpatiumChanged</name>
+        <reimplements refid="class_ms_1_1_element_1a904f7cbd2d6c478e10a6e7d7ae9f638d">localSpatiumChanged</reimplements>
+        <param>
+          <type>qreal</type>
+          <declname>oldValue</declname>
+        </param>
+        <param>
+          <type>qreal</type>
+          <declname>newValue</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/harmony.h" line="201" column="12" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/harmony.cpp" bodystart="1720" bodyend="1724"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ms_1_1_harmony_1a295a696a8b750962250bf47b7f1acda5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Ms::Harmony::setHarmony</definition>
+        <argsstring>(const QString &amp;s)</argsstring>
+        <name>setHarmony</name>
+        <param>
+          <type>const QString &amp;</type>
+          <declname>s</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/harmony.h" line="202" column="12" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/harmony.cpp" bodystart="911" bodyend="936"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ms_1_1_harmony_1a3f97cf22c4eaa0bd14251fab1553a48e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Ms::Harmony::calculateBoundingRect</definition>
+        <argsstring>()</argsstring>
+        <name>calculateBoundingRect</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/harmony.h" line="203" column="12" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/harmony.cpp" bodystart="1341" bodyend="1362"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ms_1_1_harmony_1a33c699d9cfa53e5011b6c47fbf0cfefa" prot="public" static="no" const="yes" explicit="no" inline="no" virt="virtual">
+        <type>QString</type>
+        <definition>QString Ms::Harmony::userName</definition>
+        <argsstring>() const override</argsstring>
+        <name>userName</name>
+        <reimplements refid="class_ms_1_1_score_element_1acb1866df2e440923354fa5b1ee9d5f52">userName</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/harmony.h" line="205" column="15" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/harmony.cpp" bodystart="1870" bodyend="1881"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ms_1_1_harmony_1a457f3a9d665a660d85e9c2989832df61" prot="public" static="no" const="yes" explicit="no" inline="no" virt="virtual">
+        <type>QString</type>
+        <definition>QString Ms::Harmony::accessibleInfo</definition>
+        <argsstring>() const override</argsstring>
+        <name>accessibleInfo</name>
+        <reimplements refid="class_ms_1_1_text_base_1a35d1dc5274e79b05e0a4fdc9866fd1e5">accessibleInfo</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/harmony.h" line="206" column="15" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/harmony.cpp" bodystart="1887" bodyend="1890"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ms_1_1_harmony_1ab12269daa685ce8ddfd371c88abeee89" prot="public" static="no" const="yes" explicit="no" inline="no" virt="virtual">
+        <type>QString</type>
+        <definition>QString Ms::Harmony::screenReaderInfo</definition>
+        <argsstring>() const override</argsstring>
+        <name>screenReaderInfo</name>
+        <reimplements refid="class_ms_1_1_text_base_1aefadbf0f21c6abccf21c532d7304187d">screenReaderInfo</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/harmony.h" line="207" column="15" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/harmony.cpp" bodystart="1896" bodyend="1972"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ms_1_1_harmony_1aa1d1f4c87b35fde6b42e5fe2a70ef335" prot="public" static="no" const="yes" explicit="no" inline="no" virt="virtual">
+        <type>bool</type>
+        <definition>bool Ms::Harmony::acceptDrop</definition>
+        <argsstring>(EditData &amp;) const override</argsstring>
+        <name>acceptDrop</name>
+        <reimplements refid="class_ms_1_1_text_base_1a1bafa889a29c59965efffc6c6e4feb52">acceptDrop</reimplements>
+        <param>
+          <type><ref refid="class_ms_1_1_edit_data" kindref="compound">EditData</ref> &amp;</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Return true if this element accepts a drop at canvas relative <emphasis>pos</emphasis> of given element <emphasis>type</emphasis> and <emphasis>subtype</emphasis>.</para>
+<para>Reimplemented by elements that accept drops. Used to change cursor shape while dragging to indicate drop targets. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/harmony.h" line="209" column="12" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/harmony.cpp" bodystart="1978" bodyend="1992"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ms_1_1_harmony_1a8e01879fd8e4acc6bdf12f9b653e49b8" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type><ref refid="class_ms_1_1_element" kindref="compound">Element</ref> *</type>
+        <definition>Element * Ms::Harmony::drop</definition>
+        <argsstring>(EditData &amp;) override</argsstring>
+        <name>drop</name>
+        <reimplements refid="class_ms_1_1_text_base_1a94af90d39448dfd79f0ae61864458cee">drop</reimplements>
+        <param>
+          <type><ref refid="class_ms_1_1_edit_data" kindref="compound">EditData</ref> &amp;</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Handle a dropped element at canvas relative <emphasis>pos</emphasis> of given element <emphasis>type</emphasis> and <emphasis>subtype</emphasis>. Returns dropped element if any. The ownership of element in DropData is transferred to the called element (if not used, element has to be deleted). The returned element will be selected if not in note edit mode.</para>
+<para>Reimplemented by elements that accept drops. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/harmony.h" line="210" column="15" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/harmony.cpp" bodystart="1998" bodyend="2018"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ms_1_1_harmony_1a24c8734dd77c0eac73975e5679b40e21" prot="public" static="no" const="yes" explicit="no" inline="no" virt="virtual">
+        <type>QVariant</type>
+        <definition>QVariant Ms::Harmony::getProperty</definition>
+        <argsstring>(Pid propertyId) const override</argsstring>
+        <name>getProperty</name>
+        <reimplements refid="class_ms_1_1_text_base_1aae365cf1dfd76361cb4293d5ba8a9786">getProperty</reimplements>
+        <param>
+          <type>Pid</type>
+          <declname>propertyId</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/harmony.h" line="212" column="16" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/harmony.cpp" bodystart="2024" bodyend="2045"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ms_1_1_harmony_1a2ce2ff861f1a78e2e21369befed26ab4" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>bool</type>
+        <definition>bool Ms::Harmony::setProperty</definition>
+        <argsstring>(Pid propertyId, const QVariant &amp;v) override</argsstring>
+        <name>setProperty</name>
+        <reimplements refid="class_ms_1_1_text_base_1ab5a2d7010d712f80c0c219d842e79836">setProperty</reimplements>
+        <param>
+          <type>Pid</type>
+          <declname>propertyId</declname>
+        </param>
+        <param>
+          <type>const QVariant &amp;</type>
+          <declname>v</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/harmony.h" line="213" column="12" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/harmony.cpp" bodystart="2051" bodyend="2079"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ms_1_1_harmony_1a34a3dc00e29f2eac96dea93434a10563" prot="public" static="no" const="yes" explicit="no" inline="no" virt="virtual">
+        <type>QVariant</type>
+        <definition>QVariant Ms::Harmony::propertyDefault</definition>
+        <argsstring>(Pid id) const override</argsstring>
+        <name>propertyDefault</name>
+        <reimplements refid="class_ms_1_1_text_base_1ad438fe216fbb719fbec8e44ae7fc6d5a">propertyDefault</reimplements>
+        <param>
+          <type>Pid</type>
+          <declname>id</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/harmony.h" line="214" column="16" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/harmony.cpp" bodystart="2085" bodyend="2117"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>Ms::TextBase</label>
+        <link refid="class_ms_1_1_text_base"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>Ms::Harmony</label>
+        <link refid="class_ms_1_1_harmony"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="4">
+        <label>Ms::ScoreElement</label>
+        <link refid="class_ms_1_1_score_element"/>
+      </node>
+      <node id="3">
+        <label>Ms::Element</label>
+        <link refid="class_ms_1_1_element"/>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>Ms::TextBase</label>
+        <link refid="class_ms_1_1_text_base"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="6">
+        <label>QList&lt; ScoreElement * &gt;</label>
+      </node>
+      <node id="1">
+        <label>Ms::Harmony</label>
+        <link refid="class_ms_1_1_harmony"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="4">
+        <label>Ms::ScoreElement</label>
+        <link refid="class_ms_1_1_score_element"/>
+        <childnode refid="5" relation="usage">
+          <edgelabel>_links</edgelabel>
+        </childnode>
+      </node>
+      <node id="5">
+        <label>Ms::LinkedElements</label>
+        <link refid="class_ms_1_1_linked_elements"/>
+        <childnode refid="6" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>Ms::Element</label>
+        <link refid="class_ms_1_1_element"/>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/harmony.h" line="73" column="30" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/harmony.h" bodystart="73" bodyend="215"/>
+    <listofallmembers>
+      <member refid="class_ms_1_1_harmony_1a1ced8c7364ffc99239f491e70895e5ac" prot="private" virt="non-virtual"><scope>Ms::Harmony</scope><name>_baseCase</name></member>
+      <member refid="class_ms_1_1_harmony_1af557082582a4ed986ebffce568f68c52" prot="private" virt="non-virtual"><scope>Ms::Harmony</scope><name>_baseRenderCase</name></member>
+      <member refid="class_ms_1_1_harmony_1a2bcc090441c8f6af3649c61440d5436d" prot="private" virt="non-virtual"><scope>Ms::Harmony</scope><name>_baseSpelling</name></member>
+      <member refid="class_ms_1_1_harmony_1ab5f5c17155a5a8f863297e7d58fe1a85" prot="private" virt="non-virtual"><scope>Ms::Harmony</scope><name>_baseTpc</name></member>
+      <member refid="class_ms_1_1_element_1a85687d7e7b049c00327023c7306cec14" prot="protected" virt="non-virtual"><scope>Ms::Harmony</scope><name>_color</name></member>
+      <member refid="class_ms_1_1_harmony_1ad3f3f00befae3aaca12ce4483ab36e29" prot="private" virt="non-virtual"><scope>Ms::Harmony</scope><name>_degreeList</name></member>
+      <member refid="class_ms_1_1_score_element_1a648639a58d05aa85412217db5ad40b18" prot="protected" virt="non-virtual"><scope>Ms::Harmony</scope><name>_elementStyle</name></member>
+      <member refid="class_ms_1_1_harmony_1a91809dc350caec45445bfbf6de5d2bbd" prot="private" virt="non-virtual"><scope>Ms::Harmony</scope><name>_function</name></member>
+      <member refid="class_ms_1_1_harmony_1a5ee7a4b09e6639450546eb2dff0ec868" prot="private" virt="non-virtual"><scope>Ms::Harmony</scope><name>_harmonyType</name></member>
+      <member refid="class_ms_1_1_harmony_1a7d2370f844d27becfe6037f361525c0c" prot="private" virt="non-virtual"><scope>Ms::Harmony</scope><name>_id</name></member>
+      <member refid="class_ms_1_1_harmony_1a1916a72a18079fae74d1d828a424b3b5" prot="private" virt="non-virtual"><scope>Ms::Harmony</scope><name>_leftParen</name></member>
+      <member refid="class_ms_1_1_score_element_1a405b151c60a010237414678a0e0952af" prot="protected" virt="non-virtual"><scope>Ms::Harmony</scope><name>_links</name></member>
+      <member refid="class_ms_1_1_element_1a24960cc1b17ecdef26c9e2e51f8778f4" prot="public" virt="virtual"><scope>Ms::Harmony</scope><name>_name</name></member>
+      <member refid="class_ms_1_1_harmony_1ac7a1f68946199a143d964fddd0c42562" prot="private" virt="non-virtual"><scope>Ms::Harmony</scope><name>_parsedForm</name></member>
+      <member refid="class_ms_1_1_harmony_1a480fe923c46e57808a89513c02adc541" prot="private" virt="non-virtual"><scope>Ms::Harmony</scope><name>_play</name></member>
+      <member refid="class_ms_1_1_score_element_1a6d4b99ddb9e217aaa9f9ae67a76861f3" prot="protected" virt="non-virtual"><scope>Ms::Harmony</scope><name>_propertyFlagsList</name></member>
+      <member refid="class_ms_1_1_harmony_1a18b32a08621a3032529c9b2910c2e644" prot="private" virt="non-virtual"><scope>Ms::Harmony</scope><name>_realizedHarmony</name></member>
+      <member refid="class_ms_1_1_harmony_1a14c1ca2f86201551d77edeb8dc15147c" prot="private" virt="non-virtual"><scope>Ms::Harmony</scope><name>_rightParen</name></member>
+      <member refid="class_ms_1_1_harmony_1a51e6879e404fd7bfd29a0d5b62ec5de3" prot="private" virt="non-virtual"><scope>Ms::Harmony</scope><name>_rootCase</name></member>
+      <member refid="class_ms_1_1_harmony_1aaa7a6fcb8fd62c6e5a4dccaa43fc0a5a" prot="private" virt="non-virtual"><scope>Ms::Harmony</scope><name>_rootRenderCase</name></member>
+      <member refid="class_ms_1_1_harmony_1ab6ef1f035687744716266ab5a8c893ae" prot="private" virt="non-virtual"><scope>Ms::Harmony</scope><name>_rootSpelling</name></member>
+      <member refid="class_ms_1_1_harmony_1a2873ea179b54652e1e073754037e9463" prot="private" virt="non-virtual"><scope>Ms::Harmony</scope><name>_rootTpc</name></member>
+      <member refid="class_ms_1_1_harmony_1affc940a7df2469763118efbc36b128f4" prot="private" virt="non-virtual"><scope>Ms::Harmony</scope><name>_tbbox</name></member>
+      <member refid="class_ms_1_1_harmony_1ace2ce83e7603290fc4c15e885af1bfcf" prot="private" virt="non-virtual"><scope>Ms::Harmony</scope><name>_textName</name></member>
+      <member refid="class_ms_1_1_harmony_1aed8f4a73e13cf06982e8c304b6fd1780" prot="private" virt="non-virtual"><scope>Ms::Harmony</scope><name>_userName</name></member>
+      <member refid="class_ms_1_1_element_1a833151435bfcef81ea589f9e8fc3154b" prot="protected" virt="non-virtual"><scope>Ms::Harmony</scope><name>_z</name></member>
+      <member refid="class_ms_1_1_element_1ac64eee038c2d81d1ae934be877d8acc5" prot="public" virt="non-virtual"><scope>Ms::Harmony</scope><name>abbox</name></member>
+      <member refid="class_ms_1_1_harmony_1aa1d1f4c87b35fde6b42e5fe2a70ef335" prot="public" virt="virtual"><scope>Ms::Harmony</scope><name>acceptDrop</name></member>
+      <member refid="class_ms_1_1_element_1ad28416b7cf27aad952ff9e872284ee54" prot="public" virt="virtual"><scope>Ms::Harmony</scope><name>accessibleExtraInfo</name></member>
+      <member refid="class_ms_1_1_harmony_1a457f3a9d665a660d85e9c2989832df61" prot="public" virt="virtual"><scope>Ms::Harmony</scope><name>accessibleInfo</name></member>
+      <member refid="class_ms_1_1_element_1a6466e3a3ada3e0e7add1d1977bbfda96" prot="public" virt="virtual"><scope>Ms::Harmony</scope><name>add</name></member>
+      <member refid="class_ms_1_1_element_1aeda671935e53857c2dee17b03d68b276" prot="public" virt="virtual"><scope>Ms::Harmony</scope><name>addbbox</name></member>
+      <member refid="class_ms_1_1_harmony_1a11d851d0017c6e0648d629522cfabf71" prot="public" virt="non-virtual"><scope>Ms::Harmony</scope><name>addDegree</name></member>
+      <member refid="class_ms_1_1_element_1a6ba0ad4dad0b5de65db725a10fc64278" prot="public" virt="non-virtual"><scope>Ms::Harmony</scope><name>addToSkyline</name></member>
+      <member refid="class_ms_1_1_element_1a36da6a07a74436d96c739f7134873eda" prot="public" virt="non-virtual"><scope>Ms::Harmony</scope><name>autoplace</name></member>
+      <member refid="class_ms_1_1_element_1ab762a021459424295e46ef909a5ab34f" prot="public" virt="non-virtual"><scope>Ms::Harmony</scope><name>autoplaceCalculateOffset</name></member>
+      <member refid="class_ms_1_1_element_1a52c2885c7d4e815d5475b1253cc4142f" prot="public" virt="non-virtual"><scope>Ms::Harmony</scope><name>autoplaceMeasureElement</name></member>
+      <member refid="class_ms_1_1_element_1a59de63838f71ae75bfbbcfd7960b29b5" prot="public" virt="non-virtual"><scope>Ms::Harmony</scope><name>autoplaceMeasureElement</name></member>
+      <member refid="class_ms_1_1_element_1ab5518cc652f95d5d64ddd2bd7bfc6f6b" prot="public" virt="non-virtual"><scope>Ms::Harmony</scope><name>autoplaceSegmentElement</name></member>
+      <member refid="class_ms_1_1_element_1a9446e28a4daa9ab0f785ce06ad0a14ab" prot="public" virt="non-virtual"><scope>Ms::Harmony</scope><name>autoplaceSegmentElement</name></member>
+      <member refid="class_ms_1_1_harmony_1a56cda2517f5e2a04909835145c1b3a75" prot="public" virt="virtual"><scope>Ms::Harmony</scope><name>baseLine</name></member>
+      <member refid="class_ms_1_1_harmony_1a127d91cf83439667b70e148c5e91c102" prot="public" virt="non-virtual"><scope>Ms::Harmony</scope><name>baseName</name></member>
+      <member refid="class_ms_1_1_harmony_1a8bedb3ec7ec0852d1828807342411173" prot="public" virt="non-virtual"><scope>Ms::Harmony</scope><name>baseTpc</name></member>
+      <member refid="class_ms_1_1_element_1adc4d7b66745fbb0335dc73f0c3996994" prot="public" virt="virtual"><scope>Ms::Harmony</scope><name>bbox</name></member>
+      <member refid="class_ms_1_1_element_1a2c5b74dd03d2d523e2318dbb3b15b13e" prot="public" virt="virtual"><scope>Ms::Harmony</scope><name>bbox</name></member>
+      <member refid="class_ms_1_1_text_base_1a01e63118c21aa942c7e61f99fc188a74" prot="public" virt="non-virtual"><scope>Ms::Harmony</scope><name>bold</name></member>
+      <member refid="class_ms_1_1_harmony_1a3f97cf22c4eaa0bd14251fab1553a48e" prot="public" virt="non-virtual"><scope>Ms::Harmony</scope><name>calculateBoundingRect</name></member>
+      <member refid="class_ms_1_1_element_1a6ca9221d8858907d3063fa58255fb804" prot="public" virt="non-virtual"><scope>Ms::Harmony</scope><name>canvasBoundingRect</name></member>
+      <member refid="class_ms_1_1_element_1aafc617f0cd5069a406a83da394b15e53" prot="public" virt="virtual"><scope>Ms::Harmony</scope><name>canvasPos</name></member>
+      <member refid="class_ms_1_1_element_1a60903fed3fd306167c53d86ff3120b3c" prot="public" virt="non-virtual"><scope>Ms::Harmony</scope><name>canvasX</name></member>
+      <member refid="class_ms_1_1_element_1a6b065b12b8c1a8549b2a5f96394059af" prot="public" virt="virtual"><scope>Ms::Harmony</scope><name>change</name></member>
+      <member refid="class_ms_1_1_text_base_1aacc82164f6c325f3f407834e2a344076" prot="public" virt="non-virtual"><scope>Ms::Harmony</scope><name>circle</name></member>
+      <member refid="class_ms_1_1_text_base_1a12e88bd9c1af065fd32f8fb2a3870451" prot="public" virt="non-virtual"><scope>Ms::Harmony</scope><name>clear</name></member>
+      <member refid="class_ms_1_1_harmony_1af6af5a5a9c1fee0a2a59ca87ded551ad" prot="public" virt="non-virtual"><scope>Ms::Harmony</scope><name>clearDegrees</name></member>
+      <member refid="class_ms_1_1_harmony_1adefd12e4d36da73b94551a5dd69c9667" prot="public" virt="virtual"><scope>Ms::Harmony</scope><name>clone</name></member>
+      <member refid="class_ms_1_1_element_1aaf1b495b1a35846de518c268fc856afd" prot="public" virt="virtual"><scope>Ms::Harmony</scope><name>color</name></member>
+      <member refid="class_ms_1_1_element_1af14e8c60099db93425f71d649f064fa7" prot="public" virt="non-virtual"><scope>Ms::Harmony</scope><name>composition</name></member>
+      <member refid="class_ms_1_1_element_1a688112ba0053649f6ec94ed4efa19584" prot="public" virt="non-virtual"><scope>Ms::Harmony</scope><name>concertPitch</name></member>
+      <member refid="class_ms_1_1_element_1a50e66c130bd475554fef1131c68ee4bb" prot="public" virt="non-virtual"><scope>Ms::Harmony</scope><name>contains</name></member>
+      <member refid="class_ms_1_1_text_base_1a8c75f16187f89dfd31bd738775ed1cd7" prot="public" virt="non-virtual"><scope>Ms::Harmony</scope><name>convertFromHtml</name></member>
+      <member refid="class_ms_1_1_text_base_1a3256919ff234c7da4b5e0065c0d291fc" prot="public" virt="non-virtual"><scope>Ms::Harmony</scope><name>convertToHtml</name></member>
+      <member refid="class_ms_1_1_element_1a0e94278fa705e7ee020dd9b652d1bced" prot="public" virt="non-virtual"><scope>Ms::Harmony</scope><name>create</name></member>
+      <member refid="class_ms_1_1_text_base_1a5e355f13305b89146393b6fe54cfc58b" prot="protected" virt="non-virtual"><scope>Ms::Harmony</scope><name>createLayout</name></member>
+      <member refid="class_ms_1_1_element_1a9de808f86f2dac5c4f7c4f9adc4d1d69" prot="public" virt="non-virtual"><scope>Ms::Harmony</scope><name>curColor</name></member>
+      <member refid="class_ms_1_1_element_1a530f7947bf997c03a649c563168dbf12" prot="public" virt="non-virtual"><scope>Ms::Harmony</scope><name>curColor</name></member>
+      <member refid="class_ms_1_1_element_1a052b0228632c1fa016552be2d3da9c3a" prot="public" virt="non-virtual"><scope>Ms::Harmony</scope><name>curColor</name></member>
+      <member refid="class_ms_1_1_text_base_1a523bd153f59fec4d0f45139da3ffa5e7" prot="public" virt="non-virtual"><scope>Ms::Harmony</scope><name>cursor</name></member>
+      <member refid="class_ms_1_1_element_1a3af6a0d223defe966a8d9c3f2b4d531a" prot="public" virt="non-virtual"><scope>Ms::Harmony</scope><name>custom</name></member>
+      <member refid="class_ms_1_1_element_1a1a25d75c3a82ba05999a7443eb40b804" prot="public" virt="virtual"><scope>Ms::Harmony</scope><name>defaultGrip</name></member>
+      <member refid="class_ms_1_1_harmony_1a8701c3620cf5b51333fe7d6b0ef730c2" prot="public" virt="non-virtual"><scope>Ms::Harmony</scope><name>degree</name></member>
+      <member refid="class_ms_1_1_harmony_1a1d0fc80c523716264fd0fc7375f0d11f" prot="public" virt="non-virtual"><scope>Ms::Harmony</scope><name>degreeList</name></member>
+      <member refid="class_ms_1_1_element_1a29d9f58036c4aa2b86033515187bcf8f" prot="public" virt="non-virtual"><scope>Ms::Harmony</scope><name>deleteLater</name></member>
+      <member refid="class_ms_1_1_text_base_1afd11400d179e451b38a149d14ce662d9" prot="public" virt="non-virtual"><scope>Ms::Harmony</scope><name>deleteSelectedText</name></member>
+      <member refid="class_ms_1_1_harmony_1a32884bec863d0d850238f8090c31d319" prot="public" virt="non-virtual"><scope>Ms::Harmony</scope><name>descr</name></member>
+      <member refid="class_ms_1_1_harmony_1a33f47123a38937ec90bcc843646b9ff4" prot="public" virt="non-virtual"><scope>Ms::Harmony</scope><name>descr</name></member>
+      <member refid="class_ms_1_1_harmony_1a2ce1075f1a915f125de38db7fe729bb4" prot="private" virt="non-virtual"><scope>Ms::Harmony</scope><name>determineRootBaseSpelling</name></member>
+      <member refid="class_ms_1_1_harmony_1a37fd1f0bbde10931deea11cbce7d8a88" prot="public" virt="non-virtual"><scope>Ms::Harmony</scope><name>determineRootBaseSpelling</name></member>
+      <member refid="class_ms_1_1_element_1ad4d4351606adf92e9628dd7a85825ecb" prot="public" virt="virtual"><scope>Ms::Harmony</scope><name>drag</name></member>
+      <member refid="class_ms_1_1_text_base_1aec6f21f65103bf03a75ce7b6755c1933" prot="public" virt="virtual"><scope>Ms::Harmony</scope><name>dragAnchor</name></member>
+      <member refid="class_ms_1_1_text_base_1a900aab58e588248be1ebb9bcf9047abb" prot="public" virt="non-virtual"><scope>Ms::Harmony</scope><name>dragTo</name></member>
+      <member refid="class_ms_1_1_harmony_1aac5d37fcfd00d4c195526a1581527e4c" prot="private" virt="virtual"><scope>Ms::Harmony</scope><name>draw</name></member>
+      <member refid="class_ms_1_1_element_1aea1fcde23f210754997babe67e7c32aa" prot="public" virt="non-virtual"><scope>Ms::Harmony</scope><name>drawAt</name></member>
+      <member refid="class_ms_1_1_harmony_1a8d55088a19f929721b0c294eb18ad7b7" prot="private" virt="virtual"><scope>Ms::Harmony</scope><name>drawEditMode</name></member>
+      <member refid="class_ms_1_1_element_1a19be3f786fea6071a0043666dfed093c" prot="public" virt="non-virtual"><scope>Ms::Harmony</scope><name>drawSymbol</name></member>
+      <member refid="class_ms_1_1_element_1ab46d5de09232cb2f8d3e52de5042eff1" prot="public" virt="non-virtual"><scope>Ms::Harmony</scope><name>drawSymbol</name></member>
+      <member refid="class_ms_1_1_element_1a99b748b700ce85d3507a51d5221191f4" prot="public" virt="non-virtual"><scope>Ms::Harmony</scope><name>drawSymbols</name></member>
+      <member refid="class_ms_1_1_element_1aae2c7e7cfc90cf5e4d34573599c4cfe9" prot="public" virt="non-virtual"><scope>Ms::Harmony</scope><name>drawSymbols</name></member>
+      <member refid="class_ms_1_1_harmony_1a8e01879fd8e4acc6bdf12f9b653e49b8" prot="public" virt="virtual"><scope>Ms::Harmony</scope><name>drop</name></member>
+      <member refid="class_ms_1_1_element_1ac8a8ef532022a6618fd7c2827ab9d9e1" prot="public" virt="non-virtual"><scope>Ms::Harmony</scope><name>dropTarget</name></member>
+      <member refid="class_ms_1_1_element_1a6392770f67e4c8dee01c324f63d5fcd7" prot="public" virt="virtual"><scope>Ms::Harmony</scope><name>dump</name></member>
+      <member refid="class_ms_1_1_harmony_1a79e910da40ba64c4935296e0f80a0b05" prot="public" virt="virtual"><scope>Ms::Harmony</scope><name>edit</name></member>
+      <member refid="class_ms_1_1_element_1a81f2c9509ccf414e30594abf843cbde2" prot="public" virt="non-virtual"><scope>Ms::Harmony</scope><name>EditBehavior</name></member>
+      <member refid="class_ms_1_1_text_base_1ab14ebe9d8a10e8e2f6dd571bea81203a" prot="public" virt="virtual"><scope>Ms::Harmony</scope><name>editCopy</name></member>
+      <member refid="class_ms_1_1_text_base_1a6f021969863361d6d180499ee0c153e2" prot="public" virt="virtual"><scope>Ms::Harmony</scope><name>editCut</name></member>
+      <member refid="class_ms_1_1_element_1aebe5668ebea4eb253a203211eb6beb12" prot="public" virt="virtual"><scope>Ms::Harmony</scope><name>editDrag</name></member>
+      <member refid="class_ms_1_1_text_base_1a8be3af8d6d5d2041cc8aa69c3d568ea1" prot="public" virt="non-virtual"><scope>Ms::Harmony</scope><name>editInsertText</name></member>
+      <member refid="class_ms_1_1_element_1a8797b5bb9ed7fd50b89c6ef6b7647d3a" prot="public" virt="non-virtual"><scope>Ms::Harmony</scope><name>Element</name></member>
+      <member refid="class_ms_1_1_element_1acd09fb62181874c199be863980a23328" prot="public" virt="non-virtual"><scope>Ms::Harmony</scope><name>Element</name></member>
+      <member refid="class_ms_1_1_text_base_1a61220ae7bc33be20f146a8ba6a7ffa61" prot="public" virt="non-virtual"><scope>Ms::Harmony</scope><name>empty</name></member>
+      <member refid="class_ms_1_1_element_1adbcd81f12f80859fdaf2ca1bd24d23d1" prot="public" virt="non-virtual"><scope>Ms::Harmony</scope><name>enabled</name></member>
+      <member refid="class_ms_1_1_element_1abf57779ffc58ab9be91ff9376bb4b8c3" prot="public" virt="virtual"><scope>Ms::Harmony</scope><name>endDrag</name></member>
+      <member refid="class_ms_1_1_harmony_1aeb9ae89ad1753dcd17df49be71e73feb" prot="public" virt="virtual"><scope>Ms::Harmony</scope><name>endEdit</name></member>
+      <member refid="class_ms_1_1_element_1a1e189146458d406cd3e7b9d15202a4a1" prot="public" virt="virtual"><scope>Ms::Harmony</scope><name>endEditDrag</name></member>
+      <member refid="class_ms_1_1_text_base_1a8e67a887be9d663b1616dc3b6ea7aac2" prot="public" virt="non-virtual"><scope>Ms::Harmony</scope><name>endHexState</name></member>
+      <member refid="class_ms_1_1_text_base_1ad1422743e337c62fc90f428ceeff8802" prot="public" virt="non-virtual"><scope>Ms::Harmony</scope><name>escape</name></member>
+      <member refid="class_ms_1_1_harmony_1a6f38a0ec9ddca4dee686df60a1e9d63f" prot="public" virt="non-virtual"><scope>Ms::Harmony</scope><name>extensionName</name></member>
+      <member refid="class_ms_1_1_element_1a055b451ded2882a908bf0afe180686e6" prot="public" virt="non-virtual"><scope>Ms::Harmony</scope><name>findMeasure</name></member>
+      <member refid="class_ms_1_1_element_1a7fea3a47fdac9141e2fd743848be28e5" prot="public" virt="non-virtual"><scope>Ms::Harmony</scope><name>findMeasure</name></member>
+      <member refid="class_ms_1_1_element_1a68fbdd43b617c755a867ead5bf49d0bd" prot="public" virt="non-virtual"><scope>Ms::Harmony</scope><name>findMeasureBase</name></member>
+      <member refid="class_ms_1_1_element_1aa842ceef53b3036fa443670fdfd2dc84" prot="public" virt="non-virtual"><scope>Ms::Harmony</scope><name>findMeasureBase</name></member>
+      <member refid="class_ms_1_1_harmony_1a7e59e093c86c4f47bf6d16be83a0dd11" prot="public" virt="non-virtual"><scope>Ms::Harmony</scope><name>findNext</name></member>
+      <member refid="class_ms_1_1_harmony_1afb3ff4b07e40ea110f23ce7d817c0af1" prot="public" virt="non-virtual"><scope>Ms::Harmony</scope><name>findPrev</name></member>
+      <member refid="class_ms_1_1_element_1aedd1f66a4881665f277bc30fefe765b2" prot="public" virt="non-virtual"><scope>Ms::Harmony</scope><name>flag</name></member>
+      <member refid="class_ms_1_1_text_base_1ae99875264e6d771f4ba3762bf1dfde05" prot="public" virt="non-virtual"><scope>Ms::Harmony</scope><name>font</name></member>
+      <member refid="class_ms_1_1_harmony_1a224d1e713a5149bf1799cfe23c89dd0c" prot="private" virt="non-virtual"><scope>Ms::Harmony</scope><name>fontList</name></member>
+      <member refid="class_ms_1_1_text_base_1a334267fa1c9a072dced0b25b7a91fb2d" prot="public" virt="non-virtual"><scope>Ms::Harmony</scope><name>fontMetrics</name></member>
+      <member refid="class_ms_1_1_text_base_1a8c75ce40dd7c24750738694e1f323775" prot="public" virt="non-virtual"><scope>Ms::Harmony</scope><name>fragmentList</name></member>
+      <member refid="class_ms_1_1_text_base_1a6abf916e8a8a1747e512bff14a55a223" prot="protected" virt="non-virtual"><scope>Ms::Harmony</scope><name>frame</name></member>
+      <member refid="class_ms_1_1_harmony_1ab6eed1493b91da8b0907abab85671106" prot="public" virt="non-virtual"><scope>Ms::Harmony</scope><name>fromXml</name></member>
+      <member refid="class_ms_1_1_harmony_1a34fe9faefb327a8067e3bde11cbca890" prot="public" virt="non-virtual"><scope>Ms::Harmony</scope><name>fromXml</name></member>
+      <member refid="class_ms_1_1_harmony_1a39f7be791793227c56a1db3620b52639" prot="public" virt="non-virtual"><scope>Ms::Harmony</scope><name>fromXml</name></member>
+      <member refid="class_ms_1_1_element_1a3679cdb6351e67e9f482fa9a7fb3d466" prot="public" virt="non-virtual"><scope>Ms::Harmony</scope><name>generated</name></member>
+      <member refid="class_ms_1_1_harmony_1a2bdb2f2d2a5bb5cfc4d8d3d76aed43c0" prot="public" virt="non-virtual"><scope>Ms::Harmony</scope><name>generateDescription</name></member>
+      <member refid="class_ms_1_1_harmony_1a62c58cbb564560f73770416cb9592d55" prot="public" virt="non-virtual"><scope>Ms::Harmony</scope><name>getDescription</name></member>
+      <member refid="class_ms_1_1_harmony_1a3b107c6f71691adaae6b5b266526e168" prot="public" virt="non-virtual"><scope>Ms::Harmony</scope><name>getDescription</name></member>
+      <member refid="class_ms_1_1_harmony_1a24c8734dd77c0eac73975e5679b40e21" prot="public" virt="virtual"><scope>Ms::Harmony</scope><name>getProperty</name></member>
+      <member refid="class_ms_1_1_harmony_1a083ffedacf2f017e2ea9007931dc9eb4" prot="private" virt="virtual"><scope>Ms::Harmony</scope><name>getPropertyStyle</name></member>
+      <member refid="class_ms_1_1_harmony_1a60d4ffd232b73b29ed03e768adf3ea25" prot="public" virt="non-virtual"><scope>Ms::Harmony</scope><name>getRealizedHarmony</name></member>
+      <member refid="class_ms_1_1_element_1a03fc88ee19e2958f2443213af6d5e77d" prot="public" virt="virtual"><scope>Ms::Harmony</scope><name>gripAnchor</name></member>
+      <member refid="class_ms_1_1_element_1ae6ac97922eb884d9f3af307ada91f74a" prot="public" virt="virtual"><scope>Ms::Harmony</scope><name>gripsCount</name></member>
+      <member refid="class_ms_1_1_element_1ac4ac75b1d930639f3ed85d618ab38bdf" prot="public" virt="virtual"><scope>Ms::Harmony</scope><name>gripsPositions</name></member>
+      <member refid="class_ms_1_1_harmony_1aa2345c6f25ff6f141861c5f4250b0a07" prot="public" virt="non-virtual"><scope>Ms::Harmony</scope><name>Harmony</name></member>
+      <member refid="class_ms_1_1_harmony_1a8ca43ba663f1f7f725ff14356b4a5273" prot="public" virt="non-virtual"><scope>Ms::Harmony</scope><name>Harmony</name></member>
+      <member refid="class_ms_1_1_harmony_1a765bb29a27d0027515bea6fb79ee2e57" prot="public" virt="non-virtual"><scope>Ms::Harmony</scope><name>harmonyName</name></member>
+      <member refid="class_ms_1_1_harmony_1aa78ffc368900aba0c8ef6aff2797f71b" prot="public" virt="non-virtual"><scope>Ms::Harmony</scope><name>harmonyType</name></member>
+      <member refid="class_ms_1_1_text_base_1a0c68b2baef97292f7e6bf0b55634e2c7" prot="public" virt="non-virtual"><scope>Ms::Harmony</scope><name>hasCustomFormatting</name></member>
+      <member refid="class_ms_1_1_text_base_1a1190b756cb91a4e44ce854b91c1d27fc" prot="public" virt="non-virtual"><scope>Ms::Harmony</scope><name>hasFrame</name></member>
+      <member refid="class_ms_1_1_element_1abb3880878a2f2826b253d5e0e14b32b6" prot="public" virt="non-virtual"><scope>Ms::Harmony</scope><name>header</name></member>
+      <member refid="class_ms_1_1_element_1a2a8ba8af6817e602c27c154e93542028" prot="public" virt="virtual"><scope>Ms::Harmony</scope><name>height</name></member>
+      <member refid="class_ms_1_1_harmony_1a97c5907ec6b5cb232bf05bbcf387b299" prot="public" virt="non-virtual"><scope>Ms::Harmony</scope><name>hFunction</name></member>
+      <member refid="class_ms_1_1_harmony_1a25de5d51651d37317c35472bf51e828e" prot="public" virt="non-virtual"><scope>Ms::Harmony</scope><name>hTextName</name></member>
+      <member refid="class_ms_1_1_harmony_1ae906098ae79a90c0f4ba265093a8ade7" prot="public" virt="non-virtual"><scope>Ms::Harmony</scope><name>hUserName</name></member>
+      <member refid="class_ms_1_1_harmony_1a8c34cad119f33ae68f04e370f0cb38b4" prot="public" virt="non-virtual"><scope>Ms::Harmony</scope><name>id</name></member>
+      <member refid="class_ms_1_1_text_base_1a72fe3d8e9f75be927d0d228677c09d97" prot="public" virt="non-virtual"><scope>Ms::Harmony</scope><name>inHexState</name></member>
+      <member refid="class_ms_1_1_text_base_1a485420b930dce915edb2a25f8e5aeb63" prot="public" virt="virtual"><scope>Ms::Harmony</scope><name>initElementStyle</name></member>
+      <member refid="class_ms_1_1_element_1a0677d13d1c54b74e3b2154169facfc91" prot="public" virt="virtual"><scope>Ms::Harmony</scope><name>initialEditModeGrip</name></member>
+      <member refid="class_ms_1_1_text_base_1a71cffa380431f2f83d4fbecc2f8538b0" prot="public" virt="non-virtual"><scope>Ms::Harmony</scope><name>initTid</name></member>
+      <member refid="class_ms_1_1_text_base_1a74e14c96d739c520b3f44af5de81498e" prot="public" virt="non-virtual"><scope>Ms::Harmony</scope><name>initTid</name></member>
+      <member refid="class_ms_1_1_text_base_1a9dbe9ce672a30a52fe802cf38775d1bf" prot="public" virt="non-virtual"><scope>Ms::Harmony</scope><name>inputTransition</name></member>
+      <member refid="class_ms_1_1_text_base_1ac8b90432188442b3320ccc4d5aba5a25" prot="protected" virt="non-virtual"><scope>Ms::Harmony</scope><name>insertSym</name></member>
+      <member refid="class_ms_1_1_text_base_1a9b192dbeea1ce0a4840d8e348af5324a" prot="public" virt="non-virtual"><scope>Ms::Harmony</scope><name>insertText</name></member>
+      <member refid="class_ms_1_1_element_1a77459c7e2f1077ec3b68b11c26640685" prot="public" virt="non-virtual"><scope>Ms::Harmony</scope><name>intersects</name></member>
+      <member refid="class_ms_1_1_element_1a5f1d010c61f361c3310fd22cd9f65d88" prot="public" virt="non-virtual"><scope>Ms::Harmony</scope><name>ipos</name></member>
+      <member refid="class_ms_1_1_score_element_1a997e1063786d8c705c74b3d66c54f269" prot="public" virt="non-virtual"><scope>Ms::Harmony</scope><name>isBox</name></member>
+      <member refid="class_ms_1_1_score_element_1ad05261e50a084a0c6c42fced1ca78d8f" prot="public" virt="non-virtual"><scope>Ms::Harmony</scope><name>isBSymbol</name></member>
+      <member refid="class_ms_1_1_score_element_1accef1c91df491a43c54e70474deea60c" prot="public" virt="non-virtual"><scope>Ms::Harmony</scope><name>isChordRest</name></member>
+      <member refid="class_ms_1_1_score_element_1a203290a59b13861b957d2943f65a4cf0" prot="public" virt="non-virtual"><scope>Ms::Harmony</scope><name>isDurationElement</name></member>
+      <member refid="class_ms_1_1_harmony_1a36e55811ec81443bb77761324a44183e" prot="public" virt="virtual"><scope>Ms::Harmony</scope><name>isEditable</name></member>
+      <member refid="class_ms_1_1_element_1a52a39d1aee1e730f3cd399a5714b66f0" prot="public" virt="virtual"><scope>Ms::Harmony</scope><name>isElement</name></member>
+      <member refid="class_ms_1_1_text_base_1ac84c152a35d1adbcf5e23a405d5dd6b1" prot="public" virt="non-virtual"><scope>Ms::Harmony</scope><name>isLayoutInvalid</name></member>
+      <member refid="class_ms_1_1_score_element_1a0d5f2d0a979bf52ab2436f6ceb6d9ef6" prot="public" virt="non-virtual"><scope>Ms::Harmony</scope><name>isLineSegment</name></member>
+      <member refid="class_ms_1_1_score_element_1a1d34473f54590e3d8c2a1bc78b560c21" prot="public" virt="non-virtual"><scope>Ms::Harmony</scope><name>isLinked</name></member>
+      <member refid="class_ms_1_1_score_element_1a06e5d7c169bf6eb01f5f723cbdae973f" prot="public" virt="non-virtual"><scope>Ms::Harmony</scope><name>isMeasureBase</name></member>
+      <member refid="class_ms_1_1_element_1aaad0ef7a078cd5d1659ff7ed9f65582c" prot="public" virt="virtual"><scope>Ms::Harmony</scope><name>isMovable</name></member>
+      <member refid="class_ms_1_1_element_1a592da9bef8f5ea3c9840931e8db5f6f6" prot="public" virt="non-virtual"><scope>Ms::Harmony</scope><name>isNudged</name></member>
+      <member refid="class_ms_1_1_text_base_1ad56fe9230b7f602be509662823b02891" prot="public" virt="non-virtual"><scope>Ms::Harmony</scope><name>isPrimed</name></member>
+      <member refid="class_ms_1_1_element_1a8612168f4af9d7a976e1f8c8f6826143" prot="public" virt="non-virtual"><scope>Ms::Harmony</scope><name>isPrintable</name></member>
+      <member refid="class_ms_1_1_harmony_1a92d706e65ed026748ba5a0c65d26dd76" prot="public" virt="non-virtual"><scope>Ms::Harmony</scope><name>isRealizable</name></member>
+      <member refid="class_ms_1_1_score_element_1a4de90a044cdd2a7030d707f2b081c8a4" prot="public" virt="non-virtual"><scope>Ms::Harmony</scope><name>isSLine</name></member>
+      <member refid="class_ms_1_1_score_element_1acf35020b5e670ac13791697e65b679d4" prot="public" virt="non-virtual"><scope>Ms::Harmony</scope><name>isSLineSegment</name></member>
+      <member refid="class_ms_1_1_score_element_1a372dfc0678c5194028e61b6a9a24ab62" prot="public" virt="non-virtual"><scope>Ms::Harmony</scope><name>isSlurTieSegment</name></member>
+      <member refid="class_ms_1_1_score_element_1a98f8c58df0f5baafe63414bedf84514f" prot="public" virt="non-virtual"><scope>Ms::Harmony</scope><name>isSpanner</name></member>
+      <member refid="class_ms_1_1_score_element_1a5aa58f96618edb0e3ff660e1c96c5d4e" prot="public" virt="non-virtual"><scope>Ms::Harmony</scope><name>isSpannerSegment</name></member>
+      <member refid="class_ms_1_1_score_element_1ac009e016c7a3dc148b0aaad50c1c4547" prot="public" virt="non-virtual"><scope>Ms::Harmony</scope><name>isStaffTextBase</name></member>
+      <member refid="class_ms_1_1_score_element_1a4d0de3ac9401da46c32ed8becb9d496b" prot="public" virt="non-virtual"><scope>Ms::Harmony</scope><name>isStyled</name></member>
+      <member refid="class_ms_1_1_score_element_1a979b6e1bc10cf790e755aa8641feb4cf" prot="public" virt="non-virtual"><scope>Ms::Harmony</scope><name>isTextBase</name></member>
+      <member refid="class_ms_1_1_text_base_1a0312e5e7da17fdce8037bc59abbe9ba8" prot="public" virt="non-virtual"><scope>Ms::Harmony</scope><name>isTextInvalid</name></member>
+      <member refid="class_ms_1_1_score_element_1a7151838e2192a30624d6111dd4c87918" prot="public" virt="non-virtual"><scope>Ms::Harmony</scope><name>isTextLineBase</name></member>
+      <member refid="class_ms_1_1_score_element_1ab98a731c7adf65cebc23235f9fe150af" prot="public" virt="non-virtual"><scope>Ms::Harmony</scope><name>isTextLineBaseSegment</name></member>
+      <member refid="class_ms_1_1_element_1aa8c81e3444c2166a739fb31ca1bffe4e" prot="public" virt="virtual"><scope>Ms::Harmony</scope><name>isUserModified</name></member>
+      <member refid="class_ms_1_1_score_element_1aac3320320d350a161ed3f9a601160451" prot="public" virt="non-virtual"><scope>Ms::Harmony</scope><name>isVBoxBase</name></member>
+      <member refid="class_ms_1_1_text_base_1abc5987dc258f20aaaa8e0ce10f61bac8" prot="public" virt="non-virtual"><scope>Ms::Harmony</scope><name>italic</name></member>
+      <member refid="class_ms_1_1_element_1a07c3b2ed980bf10d79c377a68f7c500d" prot="public" virt="non-virtual"><scope>Ms::Harmony</scope><name>itemDiscovered</name></member>
+      <member refid="class_ms_1_1_harmony_1af11c09bece9d4ec0420aea90748cacef" prot="public" virt="virtual"><scope>Ms::Harmony</scope><name>layout</name></member>
+      <member refid="class_ms_1_1_harmony_1a58f8fb307d33fa2ec841b8f8fd07d2eb" prot="public" virt="virtual"><scope>Ms::Harmony</scope><name>layout1</name></member>
+      <member refid="class_ms_1_1_text_base_1a2e9fb237342027c035597dbce7e67878" prot="protected" virt="non-virtual"><scope>Ms::Harmony</scope><name>layoutEdit</name></member>
+      <member refid="class_ms_1_1_text_base_1aae153ca16e9cc74c924dec83ab6a6568" prot="protected" virt="non-virtual"><scope>Ms::Harmony</scope><name>layoutFrame</name></member>
+      <member refid="class_ms_1_1_text_base_1a782a11256438ee55c6fa3db41c9cb1d0" prot="public" virt="non-virtual"><scope>Ms::Harmony</scope><name>layoutToParentWidth</name></member>
+      <member refid="class_ms_1_1_harmony_1ab1db515d36c406d2bb23950936427a36" prot="public" virt="non-virtual"><scope>Ms::Harmony</scope><name>leftParen</name></member>
+      <member refid="class_ms_1_1_score_element_1ad9b69df1d2c04f2b298520bb649a8c55" prot="public" virt="non-virtual"><scope>Ms::Harmony</scope><name>lid</name></member>
+      <member refid="class_ms_1_1_text_base_1a80b1277b80c1d990d3dbeb69665206e9" prot="public" virt="non-virtual"><scope>Ms::Harmony</scope><name>lineHeight</name></member>
+      <member refid="class_ms_1_1_text_base_1ac15d0ba91cd4f4851eb4eca899569765" prot="public" virt="non-virtual"><scope>Ms::Harmony</scope><name>lineSpacing</name></member>
+      <member refid="class_ms_1_1_element_1ab6aade6de785c3ad52c1ed1dadcfcd9f" prot="public" virt="virtual"><scope>Ms::Harmony</scope><name>linkedClone</name></member>
+      <member refid="class_ms_1_1_score_element_1a2f0ed55c566c19cb483d77250cb52450" prot="public" virt="non-virtual"><scope>Ms::Harmony</scope><name>linkList</name></member>
+      <member refid="class_ms_1_1_score_element_1a3d5c97191484848b3f10e754246f8758" prot="public" virt="non-virtual"><scope>Ms::Harmony</scope><name>links</name></member>
+      <member refid="class_ms_1_1_score_element_1a1dad93f0591eb31f69854e8f141b051e" prot="public" virt="non-virtual"><scope>Ms::Harmony</scope><name>linkTo</name></member>
+      <member refid="class_ms_1_1_harmony_1a419433930344798627a40a9cf47430f7" prot="public" virt="virtual"><scope>Ms::Harmony</scope><name>localSpatiumChanged</name></member>
+      <member refid="class_ms_1_1_element_1ad01cda9f6017d09c9fb9305de18e9310" prot="public" virt="virtual"><scope>Ms::Harmony</scope><name>mag</name></member>
+      <member refid="class_ms_1_1_element_1a7d8e2560e3ab7d216656bf79ecff7ae8" prot="public" virt="non-virtual"><scope>Ms::Harmony</scope><name>magS</name></member>
+      <member refid="class_ms_1_1_score_element_1ae4991aaf0d79271cc347530f3d07fcd6" prot="public" virt="non-virtual"><scope>Ms::Harmony</scope><name>masterScore</name></member>
+      <member refid="class_ms_1_1_element_1a90f21ba358732f3c471069758d84a76f" prot="public" virt="virtual"><scope>Ms::Harmony</scope><name>mimeData</name></member>
+      <member refid="class_ms_1_1_element_1a00b370d217141ef8efe9d32b1f737ce8" prot="public" virt="non-virtual"><scope>Ms::Harmony</scope><name>minDistance</name></member>
+      <member refid="class_ms_1_1_text_base_1a1e88947fd658c6b84a45acb565acc20a" prot="public" virt="virtual"><scope>Ms::Harmony</scope><name>mousePress</name></member>
+      <member refid="class_ms_1_1_element_1acee1036e1efc8c4142fdf980d37b5745" prot="public" virt="virtual"><scope>Ms::Harmony</scope><name>move</name></member>
+      <member refid="class_ms_1_1_text_base_1abc35bbd384acee59bc2911fdb6c3581f" prot="public" virt="non-virtual"><scope>Ms::Harmony</scope><name>movePosition</name></member>
+      <member refid="class_ms_1_1_text_base_1a111eaced88cd37091a38e8d821dd0599" prot="public" virt="non-virtual"><scope>Ms::Harmony</scope><name>multiClickSelect</name></member>
+      <member refid="class_ms_1_1_harmony_1aa6699207cc06e9ac5441698578ac46ef" prot="public" virt="non-virtual"><scope>Ms::Harmony</scope><name>musicXmlText</name></member>
+      <member refid="class_ms_1_1_score_element_1ad80dda73306d6b784b0cac4626f797d4" prot="public" virt="non-virtual"><scope>Ms::Harmony</scope><name>name</name></member>
+      <member refid="class_ms_1_1_score_element_1ab6ded8e7ff6dcb45db0036a57f9f9d26" prot="public" virt="non-virtual"><scope>Ms::Harmony</scope><name>name</name></member>
+      <member refid="class_ms_1_1_element_1a3b88a2b00074559aad9b8948eaf07a6f" prot="public" virt="non-virtual"><scope>Ms::Harmony</scope><name>name2Element</name></member>
+      <member refid="class_ms_1_1_score_element_1a971f91737e74571d6e4b6bb78f56e1dc" prot="public" virt="non-virtual"><scope>Ms::Harmony</scope><name>name2type</name></member>
+      <member refid="class_ms_1_1_score_element_1ae41701f68025bc77c26f6db74b452465" prot="public" virt="non-virtual"><scope>Ms::Harmony</scope><name>name2type</name></member>
+      <member refid="class_ms_1_1_element_1a81092ae7891eb2ac2d43d6fe86e1e749" prot="public" virt="virtual"><scope>Ms::Harmony</scope><name>nextElement</name></member>
+      <member refid="class_ms_1_1_element_1ab9a5b8bfe46bc3cf604635a2689bb343" prot="public" virt="virtual"><scope>Ms::Harmony</scope><name>nextGrip</name></member>
+      <member refid="class_ms_1_1_element_1ad5e377ed9b055434956aa3ee92a3b3a9" prot="public" virt="virtual"><scope>Ms::Harmony</scope><name>nextSegmentElement</name></member>
+      <member refid="class_ms_1_1_element_1a8da4cf37b6c3f27351f096ec5847d1b6" prot="public" virt="virtual"><scope>Ms::Harmony</scope><name>normalModeEditBehavior</name></member>
+      <member refid="class_ms_1_1_harmony_1add50b958e25bb3e2d541573c71cea3ca" prot="public" virt="non-virtual"><scope>Ms::Harmony</scope><name>numberOfDegrees</name></member>
+      <member refid="class_ms_1_1_element_1a2ba48a5bec00a30fe829a9e6e477d1d0" prot="public" virt="non-virtual"><scope>Ms::Harmony</scope><name>offset</name></member>
+      <member refid="class_ms_1_1_element_1ad6648a1f597c54d30aa6418dcd4ff64c" prot="public" virt="non-virtual"><scope>Ms::Harmony</scope><name>offsetChanged</name></member>
+      <member refid="class_ms_1_1_text_base_1a2270976339a3f128bf251b20daaf1a3c" prot="public" virt="non-virtual"><scope>Ms::Harmony</scope><name>operator=</name></member>
+      <member refid="class_ms_1_1_element_1a77e9d09289e5df2742e8b80c18e6fe14" prot="public" virt="non-virtual" ambiguityscope="Ms::Element::"><scope>Ms::Harmony</scope><name>operator=</name></member>
+      <member refid="class_ms_1_1_element_1a97c6426acf5bd7303aef532c1d95f105" prot="public" virt="non-virtual"><scope>Ms::Harmony</scope><name>pageBoundingRect</name></member>
+      <member refid="class_ms_1_1_element_1a06cc027fe14db0cf896f02931356ae24" prot="public" virt="virtual"><scope>Ms::Harmony</scope><name>pagePos</name></member>
+      <member refid="class_ms_1_1_text_base_1af6a893ac30f86cf4d82002a3deee1916" prot="public" virt="non-virtual"><scope>Ms::Harmony</scope><name>pageRectangle</name></member>
+      <member refid="class_ms_1_1_element_1afbc508a91ce6aa696f2f6e33bd350bd8" prot="public" virt="non-virtual"><scope>Ms::Harmony</scope><name>pageX</name></member>
+      <member refid="class_ms_1_1_element_1a52b30fdd589beba5b760a561a50ac601" prot="public" virt="non-virtual"><scope>Ms::Harmony</scope><name>parent</name></member>
+      <member refid="class_ms_1_1_harmony_1ac8c4ea2022b14c592fa6c61788785835" prot="public" virt="non-virtual"><scope>Ms::Harmony</scope><name>parsedForm</name></member>
+      <member refid="class_ms_1_1_harmony_1a8049e66f9912d843a671d498580cab2f" prot="public" virt="non-virtual"><scope>Ms::Harmony</scope><name>parseHarmony</name></member>
+      <member refid="class_ms_1_1_element_1a0049832d4191b3ce02446efa09127610" prot="public" virt="non-virtual"><scope>Ms::Harmony</scope><name>part</name></member>
+      <member refid="class_ms_1_1_text_base_1a784b53f52f53f9b17f41bb9ddcf5a2ac" prot="public" virt="virtual"><scope>Ms::Harmony</scope><name>paste</name></member>
+      <member refid="class_ms_1_1_element_1a8ba22391443270db0f91a3164c457d1e" prot="public" virt="non-virtual"><scope>Ms::Harmony</scope><name>placeAbove</name></member>
+      <member refid="class_ms_1_1_element_1a50092b502c319cb696998f24fc038695" prot="public" virt="non-virtual"><scope>Ms::Harmony</scope><name>placeBelow</name></member>
+      <member refid="class_ms_1_1_element_1a951493711a51487f7f3c1786703b1a20" prot="public" virt="non-virtual"><scope>Ms::Harmony</scope><name>placement</name></member>
+      <member refid="class_ms_1_1_element_1a59da7ad9fd3194d87120ecca6e7ebc75" prot="public" virt="virtual"><scope>Ms::Harmony</scope><name>placeMultiple</name></member>
+      <member refid="class_ms_1_1_text_base_1a947b23dce716abd08ef4367b3c7cd363" prot="public" virt="non-virtual"><scope>Ms::Harmony</scope><name>plainText</name></member>
+      <member refid="class_ms_1_1_text_base_1a1f6bc12a4b9da1522dd8db0ba4d5db52" prot="public" virt="non-virtual"><scope>Ms::Harmony</scope><name>plainToXmlText</name></member>
+      <member refid="class_ms_1_1_harmony_1a16eed7d968d9d6ff91428a621f7ed258" prot="public" virt="non-virtual"><scope>Ms::Harmony</scope><name>play</name></member>
+      <member refid="class_ms_1_1_element_1aa1bfaad0745fdce188743b73821e0692" prot="public" virt="non-virtual"><scope>Ms::Harmony</scope><name>point</name></member>
+      <member refid="class_ms_1_1_element_1a19157e811d0d2a0e3c94dc844039ba2f" prot="public" virt="virtual"><scope>Ms::Harmony</scope><name>pos</name></member>
+      <member refid="class_ms_1_1_element_1ad48ce06a988e98b0da7d4cf1e6f56ded" prot="public" virt="virtual"><scope>Ms::Harmony</scope><name>prevElement</name></member>
+      <member refid="class_ms_1_1_element_1ade142ed940c21dfcd893bb8fd42c97ca" prot="public" virt="virtual"><scope>Ms::Harmony</scope><name>prevGrip</name></member>
+      <member refid="class_ms_1_1_element_1a31599e271170912967669cfddd1e49b4" prot="public" virt="virtual"><scope>Ms::Harmony</scope><name>prevSegmentElement</name></member>
+      <member refid="class_ms_1_1_harmony_1a34a3dc00e29f2eac96dea93434a10563" prot="public" virt="virtual"><scope>Ms::Harmony</scope><name>propertyDefault</name></member>
+      <member refid="class_ms_1_1_score_element_1aaae0b7999568ce64245a5cf995af62b5" prot="public" virt="non-virtual" ambiguityscope="Ms::ScoreElement::"><scope>Ms::Harmony</scope><name>propertyDefault</name></member>
+      <member refid="class_ms_1_1_element_1a7450fdfe3875f10243ae5a97883f9d34" prot="public" virt="virtual"><scope>Ms::Harmony</scope><name>propertyDelegate</name></member>
+      <member refid="class_ms_1_1_score_element_1a9b9c00757c23cba103638b4ab63df03e" prot="public" virt="virtual"><scope>Ms::Harmony</scope><name>propertyFlags</name></member>
+      <member refid="class_ms_1_1_score_element_1ab00670f7d8229c14090cc3d7376d2202" prot="public" virt="virtual"><scope>Ms::Harmony</scope><name>propertyFlagsList</name></member>
+      <member refid="class_ms_1_1_text_base_1a35625aaa514b6676c42624c7dc8132cb" prot="public" virt="virtual"><scope>Ms::Harmony</scope><name>propertyId</name></member>
+      <member refid="class_ms_1_1_element_1a01a8b01010e449fb1530dd27805ed042" prot="public" virt="virtual"><scope>Ms::Harmony</scope><name>propertyUserValue</name></member>
+      <member refid="class_ms_1_1_harmony_1a5aafd55c30ccc85bec5f9378721f9f09" prot="public" virt="virtual"><scope>Ms::Harmony</scope><name>read</name></member>
+      <member refid="class_ms_1_1_score_element_1a92ef81d3a9835ec8e78a308229da35f8" prot="public" virt="virtual"><scope>Ms::Harmony</scope><name>readAddConnector</name></member>
+      <member refid="class_ms_1_1_element_1a0d7df07df85c18fd01d52efed33a2034" prot="public" virt="non-virtual"><scope>Ms::Harmony</scope><name>readMimeData</name></member>
+      <member refid="class_ms_1_1_text_base_1a15b0d508345712d31a42aceb76009fde" prot="public" virt="virtual"><scope>Ms::Harmony</scope><name>readProperties</name></member>
+      <member refid="class_ms_1_1_score_element_1a8b3be86196659c2e0fb6ed86256cb0fe" prot="public" virt="non-virtual"><scope>Ms::Harmony</scope><name>readProperty</name></member>
+      <member refid="class_ms_1_1_score_element_1a473e639853dd8adc607a5c2a63c6d4ad" prot="public" virt="non-virtual"><scope>Ms::Harmony</scope><name>readProperty</name></member>
+      <member refid="class_ms_1_1_score_element_1a053d7512b54eaa787bcef0eba427a76f" prot="public" virt="non-virtual"><scope>Ms::Harmony</scope><name>readStyledProperty</name></member>
+      <member refid="class_ms_1_1_element_1a4422ccd59c2a9759591e15e290d3afdb" prot="public" virt="non-virtual"><scope>Ms::Harmony</scope><name>readType</name></member>
+      <member refid="class_ms_1_1_harmony_1a909b9d1ab1faf4ac0f90c4ef87bf6b09" prot="public" virt="non-virtual"><scope>Ms::Harmony</scope><name>realizedHarmony</name></member>
+      <member refid="class_ms_1_1_element_1affddbd300aaeca46a5dc8eaf9ef44849" prot="public" virt="non-virtual"><scope>Ms::Harmony</scope><name>rebaseMinDistance</name></member>
+      <member refid="class_ms_1_1_element_1a0d9b98767134ff6a72d5ad910fd52e7a" prot="public" virt="non-virtual"><scope>Ms::Harmony</scope><name>rebaseOffset</name></member>
+      <member refid="class_ms_1_1_element_1acca1fd58c4df74da5cefc31787a2c715" prot="public" virt="virtual"><scope>Ms::Harmony</scope><name>remove</name></member>
+      <member refid="class_ms_1_1_harmony_1a40c72ef13f20e3dae549ac0a8c0a3bd6" prot="private" virt="non-virtual"><scope>Ms::Harmony</scope><name>render</name></member>
+      <member refid="class_ms_1_1_harmony_1a19fd947aa4f7859e4b209b00c2740b37" prot="private" virt="non-virtual"><scope>Ms::Harmony</scope><name>render</name></member>
+      <member refid="class_ms_1_1_harmony_1af24d956c1ff9c8945867f0f7c0ed0fbc" prot="public" virt="non-virtual"><scope>Ms::Harmony</scope><name>render</name></member>
+      <member refid="class_ms_1_1_element_1aaa90bc751111ad8ec041e2004321fbfe" prot="public" virt="virtual"><scope>Ms::Harmony</scope><name>reset</name></member>
+      <member refid="class_ms_1_1_score_element_1a8f3e233ff30279756578c751c0ea3e17" prot="public" virt="virtual"><scope>Ms::Harmony</scope><name>resetProperty</name></member>
+      <member refid="class_ms_1_1_harmony_1a24447627db0c171fcd78093a98c07b69" prot="public" virt="non-virtual"><scope>Ms::Harmony</scope><name>resolveDegreeList</name></member>
+      <member refid="class_ms_1_1_harmony_1a02a38fccd3c6bf3aa1c1440ededc9d8f" prot="public" virt="non-virtual"><scope>Ms::Harmony</scope><name>rightParen</name></member>
+      <member refid="class_ms_1_1_element_1a7d61fcd7dc55027f4f356101b2c0f3bf" prot="public" virt="non-virtual"><scope>Ms::Harmony</scope><name>roffset</name></member>
+      <member refid="class_ms_1_1_harmony_1a703dac198e9e02c00f1db2808be1f049" prot="public" virt="non-virtual"><scope>Ms::Harmony</scope><name>rootName</name></member>
+      <member refid="class_ms_1_1_harmony_1a1a65e679252058d1dacb30e1ec753d5c" prot="public" virt="non-virtual"><scope>Ms::Harmony</scope><name>rootTpc</name></member>
+      <member refid="class_ms_1_1_text_base_1a500baa285d2695f927b449cfcabd5da8" prot="public" virt="non-virtual"><scope>Ms::Harmony</scope><name>rows</name></member>
+      <member refid="class_ms_1_1_element_1aa637afe72e7a1f186b6e9bcb2b26fa78" prot="public" virt="non-virtual"><scope>Ms::Harmony</scope><name>rpos</name></member>
+      <member refid="class_ms_1_1_element_1ad4608ce52672a6b42930af320d9de2ef" prot="public" virt="virtual"><scope>Ms::Harmony</scope><name>rtick</name></member>
+      <member refid="class_ms_1_1_element_1aa521acf22e0820ab42a7ab43c08fa57f" prot="public" virt="non-virtual"><scope>Ms::Harmony</scope><name>rxoffset</name></member>
+      <member refid="class_ms_1_1_element_1a6a063f005375c9b61c53cf49ebc14623" prot="public" virt="non-virtual"><scope>Ms::Harmony</scope><name>rxpos</name></member>
+      <member refid="class_ms_1_1_element_1a8f60347a3bda60cf2db952b9dc6332ab" prot="public" virt="non-virtual"><scope>Ms::Harmony</scope><name>ryoffset</name></member>
+      <member refid="class_ms_1_1_element_1a1397cfb5140978e6cd9aa294ade7d738" prot="public" virt="non-virtual"><scope>Ms::Harmony</scope><name>rypos</name></member>
+      <member refid="class_ms_1_1_element_1ab4cacda18439ce6c8c615e253c762f12" prot="public" virt="virtual"><scope>Ms::Harmony</scope><name>scanElements</name></member>
+      <member refid="class_ms_1_1_score_element_1a70883d048b0884821ac779d9ab168151" prot="public" virt="non-virtual"><scope>Ms::Harmony</scope><name>score</name></member>
+      <member refid="class_ms_1_1_score_element_1a3fed4ec5f58054eb578ff9c7bb80d72f" prot="public" virt="non-virtual"><scope>Ms::Harmony</scope><name>ScoreElement</name></member>
+      <member refid="class_ms_1_1_score_element_1ac2b2cb70fe954ba2b1cce6d35743edf2" prot="public" virt="non-virtual"><scope>Ms::Harmony</scope><name>ScoreElement</name></member>
+      <member refid="class_ms_1_1_harmony_1ab12269daa685ce8ddfd371c88abeee89" prot="public" virt="virtual"><scope>Ms::Harmony</scope><name>screenReaderInfo</name></member>
+      <member refid="class_ms_1_1_element_1a7b4ff51eff905fed21705445958253c1" prot="public" virt="non-virtual"><scope>Ms::Harmony</scope><name>selectable</name></member>
+      <member refid="class_ms_1_1_text_base_1aeeff8f75da987db9a9ae6b0d7ebf964e" prot="public" virt="non-virtual"><scope>Ms::Harmony</scope><name>selectAll</name></member>
+      <member refid="class_ms_1_1_element_1ae4f2f3a774def87e608afd55ef29b3e9" prot="public" virt="non-virtual"><scope>Ms::Harmony</scope><name>selected</name></member>
+      <member refid="class_ms_1_1_element_1a7b231391a59527cb00b7f08bb5279e58" prot="public" virt="virtual"><scope>Ms::Harmony</scope><name>setAutoplace</name></member>
+      <member refid="class_ms_1_1_harmony_1ac311b4866caa1c813c229df7f62e7d91" prot="public" virt="non-virtual"><scope>Ms::Harmony</scope><name>setBaseCase</name></member>
+      <member refid="class_ms_1_1_harmony_1a9bbdf9f8eab2764f0c2ed307e4f2221a" prot="public" virt="non-virtual"><scope>Ms::Harmony</scope><name>setBaseTpc</name></member>
+      <member refid="class_ms_1_1_element_1abe5c0aa8e74388b2b6b336dfec469a35" prot="public" virt="virtual"><scope>Ms::Harmony</scope><name>setbbox</name></member>
+      <member refid="class_ms_1_1_text_base_1affb14b19254acf4f842559f7fe25cafb" prot="public" virt="non-virtual"><scope>Ms::Harmony</scope><name>setBold</name></member>
+      <member refid="class_ms_1_1_element_1a22907ac84ae65fb5b6c3bc2b14f3b23c" prot="public" virt="virtual"><scope>Ms::Harmony</scope><name>setColor</name></member>
+      <member refid="class_ms_1_1_element_1aad752b8ae0d976379ee918fd50f9bd0e" prot="public" virt="non-virtual"><scope>Ms::Harmony</scope><name>setComposition</name></member>
+      <member refid="class_ms_1_1_element_1a8ca2ec95d1247f2940b1285205b2f633" prot="public" virt="non-virtual"><scope>Ms::Harmony</scope><name>setDropTarget</name></member>
+      <member refid="class_ms_1_1_element_1ab75c49bf26fcb549bd1959ffe7925d8b" prot="public" virt="non-virtual"><scope>Ms::Harmony</scope><name>setEnabled</name></member>
+      <member refid="class_ms_1_1_element_1afbd51224c47d00551983d1b25f3c6f39" prot="public" virt="non-virtual"><scope>Ms::Harmony</scope><name>setFlag</name></member>
+      <member refid="class_ms_1_1_element_1ac28da1fe20339f2277852976ac6d7d8f" prot="public" virt="non-virtual"><scope>Ms::Harmony</scope><name>setFlag</name></member>
+      <member refid="class_ms_1_1_harmony_1a8fe1bcd3f586773da18f9fc7188daeff" prot="public" virt="non-virtual"><scope>Ms::Harmony</scope><name>setFunction</name></member>
+      <member refid="class_ms_1_1_element_1a6f4204d12e78c77052520492ae4416cd" prot="public" virt="non-virtual"><scope>Ms::Harmony</scope><name>setGenerated</name></member>
+      <member refid="class_ms_1_1_harmony_1a295a696a8b750962250bf47b7f1acda5" prot="public" virt="non-virtual"><scope>Ms::Harmony</scope><name>setHarmony</name></member>
+      <member refid="class_ms_1_1_harmony_1a7fa4692b8851bcdd4a45ccc3a62d6e36" prot="public" virt="non-virtual"><scope>Ms::Harmony</scope><name>setHarmonyType</name></member>
+      <member refid="class_ms_1_1_element_1a5033ef29dffbf6e40958e4fdd2802b6d" prot="public" virt="non-virtual"><scope>Ms::Harmony</scope><name>setHeader</name></member>
+      <member refid="class_ms_1_1_element_1a48786d2a55a0857f1685299e97b85b60" prot="public" virt="virtual"><scope>Ms::Harmony</scope><name>setHeight</name></member>
+      <member refid="class_ms_1_1_harmony_1a6c6f39144bf323afc5e97306bdee5ad9" prot="public" virt="non-virtual"><scope>Ms::Harmony</scope><name>setId</name></member>
+      <member refid="class_ms_1_1_text_base_1a3b1f9b4245e05fbbaf2031fe4b198ba4" prot="public" virt="non-virtual"><scope>Ms::Harmony</scope><name>setItalic</name></member>
+      <member refid="class_ms_1_1_text_base_1a0a7fbb23de1db836282e68e3b09c98b1" prot="public" virt="non-virtual"><scope>Ms::Harmony</scope><name>setLayoutInvalid</name></member>
+      <member refid="class_ms_1_1_text_base_1a8486ea089f4724e4cf4b5b13f43ef320" prot="public" virt="non-virtual"><scope>Ms::Harmony</scope><name>setLayoutToParentWidth</name></member>
+      <member refid="class_ms_1_1_harmony_1aeaee669ded862fe29091e306eb729530" prot="public" virt="non-virtual"><scope>Ms::Harmony</scope><name>setLeftParen</name></member>
+      <member refid="class_ms_1_1_score_element_1ae1e16c1a83100a1ea23b05bfb1642283" prot="public" virt="non-virtual"><scope>Ms::Harmony</scope><name>setLinks</name></member>
+      <member refid="class_ms_1_1_element_1a49df2a43ee4c87d33b78c60cce70ff4e" prot="public" virt="non-virtual"><scope>Ms::Harmony</scope><name>setMag</name></member>
+      <member refid="class_ms_1_1_element_1a7b5cd12e550c5be0c4399a55c93d1ea9" prot="public" virt="non-virtual"><scope>Ms::Harmony</scope><name>setMinDistance</name></member>
+      <member refid="class_ms_1_1_element_1a7bb9bbbf1c501bf50adfa4508da42056" prot="public" virt="virtual"><scope>Ms::Harmony</scope><name>setOffset</name></member>
+      <member refid="class_ms_1_1_element_1acdc3b830bf0d9bfe501b182b28200c98" prot="public" virt="non-virtual"><scope>Ms::Harmony</scope><name>setOffset</name></member>
+      <member refid="class_ms_1_1_element_1a432e2033ca1c24ef8179458d1e604509" prot="public" virt="non-virtual"><scope>Ms::Harmony</scope><name>setOffsetChanged</name></member>
+      <member refid="class_ms_1_1_element_1aa7757f6d62dc28447706ee8eb12da5ec" prot="public" virt="non-virtual"><scope>Ms::Harmony</scope><name>setParent</name></member>
+      <member refid="class_ms_1_1_element_1ae13af03f0efac5348d139609cbadc826" prot="public" virt="non-virtual"><scope>Ms::Harmony</scope><name>setPlacement</name></member>
+      <member refid="class_ms_1_1_text_base_1a7bf0f553ed7423c1ca97a9bd43d3c485" prot="public" virt="non-virtual"><scope>Ms::Harmony</scope><name>setPlainText</name></member>
+      <member refid="class_ms_1_1_harmony_1a62fcc04722a6c389940599bfa2d68203" prot="public" virt="non-virtual"><scope>Ms::Harmony</scope><name>setPlay</name></member>
+      <member refid="class_ms_1_1_element_1a2a2ce2358cc23529d8f038a940062e62" prot="public" virt="non-virtual"><scope>Ms::Harmony</scope><name>setPos</name></member>
+      <member refid="class_ms_1_1_element_1ac7fcfee452c4de8e270aa6320365008c" prot="public" virt="non-virtual"><scope>Ms::Harmony</scope><name>setPos</name></member>
+      <member refid="class_ms_1_1_text_base_1a2b55a1f58cb0410a8f900fe0c0a3d0ac" prot="public" virt="non-virtual"><scope>Ms::Harmony</scope><name>setPrimed</name></member>
+      <member refid="class_ms_1_1_harmony_1a2ce2ff861f1a78e2e21369befed26ab4" prot="public" virt="virtual"><scope>Ms::Harmony</scope><name>setProperty</name></member>
+      <member refid="class_ms_1_1_score_element_1aceed92c262270a2a79d3f97d0f018a29" prot="public" virt="non-virtual"><scope>Ms::Harmony</scope><name>setPropertyFlags</name></member>
+      <member refid="class_ms_1_1_harmony_1af1aa4c009b87d06fde12a7e87005ee74" prot="public" virt="non-virtual"><scope>Ms::Harmony</scope><name>setRightParen</name></member>
+      <member refid="class_ms_1_1_harmony_1a3b01266a781fbaed1fe4a1478a1ae5c3" prot="public" virt="non-virtual"><scope>Ms::Harmony</scope><name>setRootCase</name></member>
+      <member refid="class_ms_1_1_harmony_1a5c3771c6786020d620fefba97fd72d45" prot="public" virt="non-virtual"><scope>Ms::Harmony</scope><name>setRootTpc</name></member>
+      <member refid="class_ms_1_1_score_element_1a6a1e59c49777e28459d2270981fc97df" prot="public" virt="virtual"><scope>Ms::Harmony</scope><name>setScore</name></member>
+      <member refid="class_ms_1_1_element_1adfe1acfd98d816c02267b9d26a693618" prot="public" virt="non-virtual"><scope>Ms::Harmony</scope><name>setSelectable</name></member>
+      <member refid="class_ms_1_1_element_1aa7d9ce43d66fd04a403e2242051dd7a8" prot="public" virt="virtual"><scope>Ms::Harmony</scope><name>setSelected</name></member>
+      <member refid="class_ms_1_1_element_1ad76cff3c891435e058cd2ab572bcf9d3" prot="public" virt="non-virtual"><scope>Ms::Harmony</scope><name>setSizeIsSpatiumDependent</name></member>
+      <member refid="class_ms_1_1_element_1a2610a3ae6f4ce80c36a123fa7d1e33f2" prot="public" virt="non-virtual"><scope>Ms::Harmony</scope><name>setSystemFlag</name></member>
+      <member refid="class_ms_1_1_element_1a9b433e4368d19bc18b9d8cb4c41fe1d4" prot="public" virt="non-virtual"><scope>Ms::Harmony</scope><name>setTag</name></member>
+      <member refid="class_ms_1_1_text_base_1a54a74c32571c829ccd59e1f7e875883c" prot="public" virt="non-virtual"><scope>Ms::Harmony</scope><name>setTextInvalid</name></member>
+      <member refid="class_ms_1_1_harmony_1ae73c8f913aa49b9e9f91d143b5d52136" prot="public" virt="non-virtual"><scope>Ms::Harmony</scope><name>setTextName</name></member>
+      <member refid="class_ms_1_1_text_base_1aa3eebfb0d90f577387460b628db0a963" prot="public" virt="non-virtual"><scope>Ms::Harmony</scope><name>setTid</name></member>
+      <member refid="class_ms_1_1_element_1a884bf81982c8c302cbdf79ea567c3ced" prot="public" virt="virtual"><scope>Ms::Harmony</scope><name>setTrack</name></member>
+      <member refid="class_ms_1_1_element_1a304d88a7891a731cbfb8e5b0c2e8a5fc" prot="public" virt="non-virtual"><scope>Ms::Harmony</scope><name>setTrailer</name></member>
+      <member refid="class_ms_1_1_text_base_1ab3de1907df2a2fa15d92785149abaffc" prot="public" virt="non-virtual"><scope>Ms::Harmony</scope><name>setUnderline</name></member>
+      <member refid="class_ms_1_1_element_1a41438f8c28ffb2eb06d55de8360c1969" prot="public" virt="virtual"><scope>Ms::Harmony</scope><name>setVisible</name></member>
+      <member refid="class_ms_1_1_element_1a03037db721d985f097d7ca610f402850" prot="public" virt="non-virtual"><scope>Ms::Harmony</scope><name>setVoice</name></member>
+      <member refid="class_ms_1_1_element_1ae3346b5a7ad5893674afc28c9b0877ec" prot="public" virt="virtual"><scope>Ms::Harmony</scope><name>setWidth</name></member>
+      <member refid="class_ms_1_1_text_base_1a682103a47410d0d2cd4fc016665359fc" prot="public" virt="non-virtual"><scope>Ms::Harmony</scope><name>setXmlText</name></member>
+      <member refid="class_ms_1_1_element_1a1a35bada3f70ea05096258aa18d74b3c" prot="public" virt="non-virtual"><scope>Ms::Harmony</scope><name>setZ</name></member>
+      <member refid="class_ms_1_1_element_1ad46a1fa8985b3d3897101b295a7a5d3e" prot="public" virt="virtual"><scope>Ms::Harmony</scope><name>shape</name></member>
+      <member refid="class_ms_1_1_harmony_1af76f1969ff129a3f27140babd050e865" prot="private" virt="non-virtual"><scope>Ms::Harmony</scope><name>showSpell</name></member>
+      <member refid="class_ms_1_1_element_1a3e3e415df166153ec434b9a143ad7744" prot="public" virt="virtual"><scope>Ms::Harmony</scope><name>sizeIsSpatiumDependent</name></member>
+      <member refid="class_ms_1_1_element_1a9f375d79304c4cec5b45ea883c9efc86" prot="public" virt="non-virtual"><scope>Ms::Harmony</scope><name>spatium</name></member>
+      <member refid="class_ms_1_1_harmony_1a87ad1e39976e88a162fa50adf1abdb8f" prot="public" virt="virtual"><scope>Ms::Harmony</scope><name>spatiumChanged</name></member>
+      <member refid="class_ms_1_1_text_base_1ab743f89168e9985369a62f533421adf0" prot="public" virt="non-virtual"><scope>Ms::Harmony</scope><name>square</name></member>
+      <member refid="class_ms_1_1_element_1a14581354d9bfc2c39c7dafbed79403da" prot="public" virt="non-virtual"><scope>Ms::Harmony</scope><name>staff</name></member>
+      <member refid="class_ms_1_1_element_1a3c37abb86b5dfb5b16fe74155154bab8" prot="public" virt="non-virtual"><scope>Ms::Harmony</scope><name>staffIdx</name></member>
+      <member refid="class_ms_1_1_element_1a3c2f8d8c52d96d1812733ec1669b576c" prot="public" virt="non-virtual"><scope>Ms::Harmony</scope><name>staffType</name></member>
+      <member refid="class_ms_1_1_element_1a7d1a4797b0aba5b63dbf254429d5fc5e" prot="public" virt="virtual"><scope>Ms::Harmony</scope><name>startDrag</name></member>
+      <member refid="class_ms_1_1_harmony_1a64bbf29c109c23308a3791db5f8803eb" prot="public" virt="virtual"><scope>Ms::Harmony</scope><name>startEdit</name></member>
+      <member refid="class_ms_1_1_element_1a0415a5b5710c311e92ba189e201c73c7" prot="public" virt="virtual"><scope>Ms::Harmony</scope><name>startEditDrag</name></member>
+      <member refid="class_ms_1_1_text_base_1a6e115d5a5a25c93b4c890fc07681a10d" prot="public" virt="virtual"><scope>Ms::Harmony</scope><name>styleChanged</name></member>
+      <member refid="class_ms_1_1_score_element_1a08e4c60af2466c57931724393f7bee4f" prot="public" virt="virtual"><scope>Ms::Harmony</scope><name>styledProperties</name></member>
+      <member refid="class_ms_1_1_element_1a31f9e63002b9f16ad6b4f35ba7a85bf4" prot="public" virt="non-virtual"><scope>Ms::Harmony</scope><name>styleP</name></member>
+      <member refid="class_ms_1_1_score_element_1a8a3670f26efa9a07e14695cee4512dc4" prot="public" virt="non-virtual"><scope>Ms::Harmony</scope><name>styleValue</name></member>
+      <member refid="class_ms_1_1_text_base_1a605d7f0bc99e5b082abd9636dd7aecdd" prot="public" virt="virtual"><scope>Ms::Harmony</scope><name>subtype</name></member>
+      <member refid="class_ms_1_1_text_base_1a498b7abe91469e3f0ff622e272fd8e94" prot="public" virt="virtual"><scope>Ms::Harmony</scope><name>subtypeName</name></member>
+      <member refid="class_ms_1_1_element_1a1625813b59654991c24a9a10eb580f07" prot="public" virt="non-virtual"><scope>Ms::Harmony</scope><name>symAdvance</name></member>
+      <member refid="class_ms_1_1_element_1a70a8140969dcd988ed77e91c27b6a84f" prot="public" virt="non-virtual"><scope>Ms::Harmony</scope><name>symBbox</name></member>
+      <member refid="class_ms_1_1_element_1adad5f2c7a943687f0b3de2e896942898" prot="public" virt="non-virtual"><scope>Ms::Harmony</scope><name>symBbox</name></member>
+      <member refid="class_ms_1_1_element_1a984c5f0381896ac71fcf054d056bbe66" prot="public" virt="non-virtual"><scope>Ms::Harmony</scope><name>symCutOutNE</name></member>
+      <member refid="class_ms_1_1_element_1a545d8382d25c1402b0e46974ce84d444" prot="public" virt="non-virtual"><scope>Ms::Harmony</scope><name>symCutOutNW</name></member>
+      <member refid="class_ms_1_1_element_1af0b900ab6bb2674c1dcad1c5100fb4ee" prot="public" virt="non-virtual"><scope>Ms::Harmony</scope><name>symCutOutSE</name></member>
+      <member refid="class_ms_1_1_element_1a0cb9e0cf90c74e5b718e10f8a9a796da" prot="public" virt="non-virtual"><scope>Ms::Harmony</scope><name>symCutOutSW</name></member>
+      <member refid="class_ms_1_1_element_1ab3254b043c87dd338bfa6630c93e8e26" prot="public" virt="non-virtual"><scope>Ms::Harmony</scope><name>symHeight</name></member>
+      <member refid="class_ms_1_1_element_1a95c4ffee60af75b49f6e1c644db44493" prot="public" virt="non-virtual"><scope>Ms::Harmony</scope><name>symIsValid</name></member>
+      <member refid="class_ms_1_1_element_1a7c49ac344dd76c56fd51dad4287b79d5" prot="public" virt="non-virtual"><scope>Ms::Harmony</scope><name>symStemDownNW</name></member>
+      <member refid="class_ms_1_1_element_1a2526cc958a514c74daebfcdcc2dae7dc" prot="public" virt="non-virtual"><scope>Ms::Harmony</scope><name>symStemUpSE</name></member>
+      <member refid="class_ms_1_1_element_1adc45b084165da6ceb3afa7913d6a3feb" prot="public" virt="non-virtual"><scope>Ms::Harmony</scope><name>symWidth</name></member>
+      <member refid="class_ms_1_1_element_1a175d0a2254d83ee5f486123cb3ea2612" prot="public" virt="non-virtual"><scope>Ms::Harmony</scope><name>symWidth</name></member>
+      <member refid="class_ms_1_1_element_1a77c37605cf48595a7e6dc079722839c4" prot="public" virt="non-virtual"><scope>Ms::Harmony</scope><name>systemFlag</name></member>
+      <member refid="class_ms_1_1_element_1a31f5e22d38f84ff52c512857c52dd668" prot="public" virt="non-virtual"><scope>Ms::Harmony</scope><name>tag</name></member>
+      <member refid="class_ms_1_1_text_base_1a3531ca5ddc3e9b37b35f7b4e6e2b6d54" prot="public" virt="non-virtual"><scope>Ms::Harmony</scope><name>tagEscape</name></member>
+      <member refid="class_ms_1_1_text_base_1a1e84721b8978c9de955330f90c939d6b" prot="public" virt="non-virtual"><scope>Ms::Harmony</scope><name>TextBase</name></member>
+      <member refid="class_ms_1_1_text_base_1a20c6fd9909177fdc49fb9a67382e2f72" prot="public" virt="non-virtual"><scope>Ms::Harmony</scope><name>TextBase</name></member>
+      <member refid="class_ms_1_1_text_base_1a0e85edcc394e565a17f8ec6acc4fdcd6" prot="public" virt="non-virtual"><scope>Ms::Harmony</scope><name>TextBase</name></member>
+      <member refid="class_ms_1_1_text_base_1a9eee7f2c234100f7f0ed21a1b9410c83" prot="public" virt="non-virtual"><scope>Ms::Harmony</scope><name>textBlock</name></member>
+      <member refid="class_ms_1_1_text_base_1a02f311f2c88dbcd47fd0bd4cf0c8ebd7" prot="public" virt="non-virtual"><scope>Ms::Harmony</scope><name>textBlock</name></member>
+      <member refid="class_ms_1_1_text_base_1aef80bdcbf74bde8404b0820c483cdb23" prot="public" virt="non-virtual"><scope>Ms::Harmony</scope><name>textBlockList</name></member>
+      <member refid="class_ms_1_1_harmony_1a3f04b6e83641e5e211152f9f7273fecd" prot="public" virt="non-virtual"><scope>Ms::Harmony</scope><name>textChanged</name></member>
+      <member refid="class_ms_1_1_text_base_1aab4db7b32755754076949403e95d4605" prot="protected" virt="non-virtual"><scope>Ms::Harmony</scope><name>textColor</name></member>
+      <member refid="class_ms_1_1_harmony_1aee5861e7b1c359c369f87e68efccd628" prot="private" virt="non-virtual"><scope>Ms::Harmony</scope><name>textList</name></member>
+      <member refid="class_ms_1_1_element_1a4cc362a42bad65483b59d3a8e0df374f" prot="public" virt="virtual"><scope>Ms::Harmony</scope><name>tick</name></member>
+      <member refid="class_ms_1_1_harmony_1a6a6e950a08f1476b0254f35639e085f8" prot="public" virt="non-virtual"><scope>Ms::Harmony</scope><name>ticksTilNext</name></member>
+      <member refid="class_ms_1_1_text_base_1a26aa5eb322375f093ff39146890478d4" prot="public" virt="non-virtual"><scope>Ms::Harmony</scope><name>tid</name></member>
+      <member refid="class_ms_1_1_element_1ab4986d1b4f0d45b8e84cf52c46885c36" prot="public" virt="non-virtual"><scope>Ms::Harmony</scope><name>track</name></member>
+      <member refid="class_ms_1_1_element_1a868f0f5663dd1d7422c19700e070a4a6" prot="public" virt="non-virtual"><scope>Ms::Harmony</scope><name>trailer</name></member>
+      <member refid="class_ms_1_1_element_1ab28ffe83fb1064fb3c2a6fa648bca688" prot="public" virt="virtual"><scope>Ms::Harmony</scope><name>triggerLayout</name></member>
+      <member refid="class_ms_1_1_element_1a5fb627b3ef6f80967a432f86ad028117" prot="public" virt="virtual"><scope>Ms::Harmony</scope><name>triggerLayoutAll</name></member>
+      <member refid="class_ms_1_1_harmony_1a1f0f56616dc49c8b9328cb5c3da14eae" prot="public" virt="virtual"><scope>Ms::Harmony</scope><name>type</name></member>
+      <member refid="class_ms_1_1_text_base_1a4e840b6f7c516a8be29f78f6442038a8" prot="public" virt="non-virtual"><scope>Ms::Harmony</scope><name>underline</name></member>
+      <member refid="class_ms_1_1_text_base_1a7aeb5715834bc73b21923e42db600e55" prot="public" virt="virtual"><scope>Ms::Harmony</scope><name>undoChangeProperty</name></member>
+      <member refid="class_ms_1_1_text_base_1af0505b234ccb7520a7d93ddd09ca4e1f" prot="public" virt="non-virtual"><scope>Ms::Harmony</scope><name>undoChangeProperty</name></member>
+      <member refid="class_ms_1_1_text_base_1a4d0c98408c09304865fc3c9e011a9695" prot="public" virt="non-virtual"><scope>Ms::Harmony</scope><name>undoChangeProperty</name></member>
+      <member refid="class_ms_1_1_score_element_1a4d0c98408c09304865fc3c9e011a9695" prot="public" virt="non-virtual" ambiguityscope="Ms::ScoreElement::"><scope>Ms::Harmony</scope><name>undoChangeProperty</name></member>
+      <member refid="class_ms_1_1_score_element_1ab31ad4878a7d6e5c5acbd88e3232f2fb" prot="public" virt="non-virtual"><scope>Ms::Harmony</scope><name>undoPushProperty</name></member>
+      <member refid="class_ms_1_1_score_element_1a2f2ea7d6e1179cbb00f95689125482d0" prot="public" virt="non-virtual"><scope>Ms::Harmony</scope><name>undoResetProperty</name></member>
+      <member refid="class_ms_1_1_element_1aa9328fefa5648b5bc3f020b6cf481f38" prot="public" virt="non-virtual"><scope>Ms::Harmony</scope><name>undoSetColor</name></member>
+      <member refid="class_ms_1_1_element_1a4033806e37a8a0bd95f75e06fb6d1286" prot="public" virt="non-virtual"><scope>Ms::Harmony</scope><name>undoSetVisible</name></member>
+      <member refid="class_ms_1_1_score_element_1a994f2abd8df02a160c7055b0cae26c87" prot="public" virt="virtual"><scope>Ms::Harmony</scope><name>undoUnlink</name></member>
+      <member refid="class_ms_1_1_text_base_1ad2b77dcd30e5cfa2ba95d41d02e3d0d0" prot="public" virt="non-virtual"><scope>Ms::Harmony</scope><name>unEscape</name></member>
+      <member refid="class_ms_1_1_score_element_1a1d76afaf3ee463445961c3d981901be1" prot="public" virt="non-virtual"><scope>Ms::Harmony</scope><name>unlink</name></member>
+      <member refid="class_ms_1_1_element_1a2cbf6c48adfc2d3856a7670ce1a199da" prot="public" virt="non-virtual"><scope>Ms::Harmony</scope><name>updateGrips</name></member>
+      <member refid="class_ms_1_1_harmony_1a33c699d9cfa53e5011b6c47fbf0cfefa" prot="public" virt="virtual"><scope>Ms::Harmony</scope><name>userName</name></member>
+      <member refid="class_ms_1_1_text_base_1ad775ec621ab8e6f7cf53dda3e2ec1000" prot="public" virt="non-virtual"><scope>Ms::Harmony</scope><name>validateText</name></member>
+      <member refid="class_ms_1_1_element_1a9f91ce44289781c10fbaab9f5867d387" prot="public" virt="non-virtual"><scope>Ms::Harmony</scope><name>visible</name></member>
+      <member refid="class_ms_1_1_element_1a7e7ba0487a1113884ed218ba74c6a7d6" prot="public" virt="non-virtual"><scope>Ms::Harmony</scope><name>voice</name></member>
+      <member refid="class_ms_1_1_element_1ad1e0d3968ecafec4140aac087bd8fd99" prot="public" virt="virtual"><scope>Ms::Harmony</scope><name>vStaffIdx</name></member>
+      <member refid="class_ms_1_1_element_1abd781d11186d1951028a0efaf6d5cf5a" prot="public" virt="virtual"><scope>Ms::Harmony</scope><name>width</name></member>
+      <member refid="class_ms_1_1_harmony_1a90bcf02fdd768b6c5132cd0216c039d0" prot="public" virt="virtual"><scope>Ms::Harmony</scope><name>write</name></member>
+      <member refid="class_ms_1_1_text_base_1ad5e849aedc19f7c611e84e231aeb6921" prot="public" virt="virtual"><scope>Ms::Harmony</scope><name>writeProperties</name></member>
+      <member refid="class_ms_1_1_text_base_1aadd6eb32a1b333105661c04ddc86dd3a" prot="public" virt="non-virtual"><scope>Ms::Harmony</scope><name>writeProperties</name></member>
+      <member refid="class_ms_1_1_text_base_1afae7f995e3687ce2779b67dab311cfe0" prot="public" virt="non-virtual"><scope>Ms::Harmony</scope><name>writeProperties</name></member>
+      <member refid="class_ms_1_1_score_element_1a4ae6e7e095b8f672951ffc30f980c45d" prot="public" virt="non-virtual"><scope>Ms::Harmony</scope><name>writeProperty</name></member>
+      <member refid="class_ms_1_1_score_element_1a7a3de180bd5a72ab3e27b7fbf9213567" prot="public" virt="non-virtual"><scope>Ms::Harmony</scope><name>writeStyledProperties</name></member>
+      <member refid="class_ms_1_1_element_1a6f850cd0581c46bee4661210b7a7777c" prot="public" virt="virtual"><scope>Ms::Harmony</scope><name>x</name></member>
+      <member refid="class_ms_1_1_harmony_1a636997d3f62878fd2e88c0bd9d4f0977" prot="public" virt="non-virtual"><scope>Ms::Harmony</scope><name>xmlDegrees</name></member>
+      <member refid="class_ms_1_1_harmony_1a02eb418f41d80763738390e460149f4d" prot="public" virt="non-virtual"><scope>Ms::Harmony</scope><name>xmlKind</name></member>
+      <member refid="class_ms_1_1_harmony_1a3f5f8782791e6241e62bc670c15cfe6e" prot="public" virt="non-virtual"><scope>Ms::Harmony</scope><name>xmlParens</name></member>
+      <member refid="class_ms_1_1_harmony_1a9e948a231128c3023b45593a12a4caf6" prot="public" virt="non-virtual"><scope>Ms::Harmony</scope><name>xmlSymbols</name></member>
+      <member refid="class_ms_1_1_text_base_1ac950431355f0bc6b27c2fc4f93e1482c" prot="public" virt="non-virtual"><scope>Ms::Harmony</scope><name>xmlText</name></member>
+      <member refid="class_ms_1_1_element_1a30c056051bbce9e867a512b8cbc1f912" prot="public" virt="virtual"><scope>Ms::Harmony</scope><name>y</name></member>
+      <member refid="class_ms_1_1_element_1a0e947d90ca39376fd98b995d34811126" prot="public" virt="non-virtual"><scope>Ms::Harmony</scope><name>z</name></member>
+      <member refid="class_ms_1_1_element_1a1a5eff5e9b3d54d8e8207a7c594a1fc9" prot="public" virt="virtual"><scope>Ms::Harmony</scope><name>~Element</name></member>
+      <member refid="class_ms_1_1_harmony_1a222198b171f1e07e6fdcb6cc7fb2eca8" prot="public" virt="non-virtual"><scope>Ms::Harmony</scope><name>~Harmony</name></member>
+      <member refid="class_ms_1_1_score_element_1abc6cbffe99d185a7262f86be05cf6365" prot="public" virt="virtual"><scope>Ms::Harmony</scope><name>~ScoreElement</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

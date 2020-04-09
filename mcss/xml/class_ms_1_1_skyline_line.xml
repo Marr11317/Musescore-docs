@@ -1,0 +1,415 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.17">
+  <compounddef id="class_ms_1_1_skyline_line" kind="class" language="C++" prot="public">
+    <compoundname>Ms::SkylineLine</compoundname>
+      <sectiondef kind="private-type">
+      <memberdef kind="typedef" id="class_ms_1_1_skyline_line_1a743c8a90881b7271b0ccecdf4c8cfec6" prot="private" static="no">
+        <type>std::vector&lt; <ref refid="struct_ms_1_1_skyline_segment" kindref="compound">SkylineSegment</ref> &gt;::iterator</type>
+        <definition>typedef std::vector&lt;SkylineSegment&gt;::iterator Ms::SkylineLine::SegIter</definition>
+        <argsstring></argsstring>
+        <name>SegIter</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/skyline.h" line="44" column="38" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/skyline.h" bodystart="44" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="class_ms_1_1_skyline_line_1ae7be6f974c5f117091729cb91e4b0153" prot="private" static="no">
+        <type>std::vector&lt; <ref refid="struct_ms_1_1_skyline_segment" kindref="compound">SkylineSegment</ref> &gt;::const_iterator</type>
+        <definition>typedef std::vector&lt;SkylineSegment&gt;::const_iterator Ms::SkylineLine::SegConstIter</definition>
+        <argsstring></argsstring>
+        <name>SegConstIter</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/skyline.h" line="45" column="44" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/skyline.h" bodystart="45" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_ms_1_1_skyline_line_1a488cf109f0431630b8105fdd6fd2cc09" prot="private" static="no" mutable="no">
+        <type>const bool</type>
+        <definition>const bool Ms::SkylineLine::north</definition>
+        <argsstring></argsstring>
+        <name>north</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/skyline.h" line="42" column="18" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/skyline.h" bodystart="42" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_ms_1_1_skyline_line_1a7d51e06a3cea9a1c34cea34dad4a7f8f" prot="private" static="no" mutable="no">
+        <type>std::vector&lt; <ref refid="struct_ms_1_1_skyline_segment" kindref="compound">SkylineSegment</ref> &gt;</type>
+        <definition>std::vector&lt;SkylineSegment&gt; Ms::SkylineLine::seg</definition>
+        <argsstring></argsstring>
+        <name>seg</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/skyline.h" line="43" column="19" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/skyline.h" bodystart="43" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_ms_1_1_skyline_line_1a1c95ed7080f9e5a170cec12314e338b9" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>SegIter</type>
+        <definition>SkylineLine::SegIter Ms::SkylineLine::insert</definition>
+        <argsstring>(SegIter i, qreal x, qreal y, qreal w)</argsstring>
+        <name>insert</name>
+        <param>
+          <type>SegIter</type>
+          <declname>i</declname>
+        </param>
+        <param>
+          <type>qreal</type>
+          <declname>x</declname>
+        </param>
+        <param>
+          <type>qreal</type>
+          <declname>y</declname>
+        </param>
+        <param>
+          <type>qreal</type>
+          <declname>w</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/skyline.h" line="47" column="15" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/skyline.cpp" bodystart="44" bodyend="52"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ms_1_1_skyline_line_1ac718e7483f0122637019a30f36597a46" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Ms::SkylineLine::append</definition>
+        <argsstring>(qreal x, qreal y, qreal w)</argsstring>
+        <name>append</name>
+        <param>
+          <type>qreal</type>
+          <declname>x</declname>
+        </param>
+        <param>
+          <type>qreal</type>
+          <declname>y</declname>
+        </param>
+        <param>
+          <type>qreal</type>
+          <declname>w</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/skyline.h" line="48" column="12" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/skyline.cpp" bodystart="58" bodyend="61"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ms_1_1_skyline_line_1af9444db0b14184a70539d92ac2ae2970" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>SegIter</type>
+        <definition>SkylineLine::SegIter Ms::SkylineLine::find</definition>
+        <argsstring>(qreal x)</argsstring>
+        <name>find</name>
+        <param>
+          <type>qreal</type>
+          <declname>x</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/skyline.h" line="49" column="15" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/skyline.cpp" bodystart="67" bodyend="73"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ms_1_1_skyline_line_1a77ed0ea4253de960100488a2f76e7af7" prot="private" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>SegConstIter</type>
+        <definition>SkylineLine::SegConstIter Ms::SkylineLine::find</definition>
+        <argsstring>(qreal x) const</argsstring>
+        <name>find</name>
+        <param>
+          <type>qreal</type>
+          <declname>x</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/skyline.h" line="50" column="20" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/skyline.cpp" bodystart="75" bodyend="78"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_ms_1_1_skyline_line_1a5c31c14f67a156b109dad9f9b8bc83c5" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>Ms::SkylineLine::SkylineLine</definition>
+        <argsstring>(bool n)</argsstring>
+        <name>SkylineLine</name>
+        <param>
+          <type>bool</type>
+          <declname>n</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/skyline.h" line="53" column="7" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/skyline.h" bodystart="53" bodyend="53"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ms_1_1_skyline_line_1a770f1e2838daffe1f51ecfac9ed938f5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Ms::SkylineLine::add</definition>
+        <argsstring>(const Shape &amp;s)</argsstring>
+        <name>add</name>
+        <param>
+          <type>const <ref refid="class_ms_1_1_shape" kindref="compound">Shape</ref> &amp;</type>
+          <declname>s</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/skyline.h" line="54" column="12" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/skyline.cpp" bodystart="84" bodyend="88"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ms_1_1_skyline_line_1ad46db0a826fda2e06b816c1a150eb1e1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Ms::SkylineLine::add</definition>
+        <argsstring>(const QRectF &amp;r)</argsstring>
+        <name>add</name>
+        <param>
+          <type>const QRectF &amp;</type>
+          <declname>r</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/skyline.h" line="55" column="12" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/skyline.cpp" bodystart="90" bodyend="96"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ms_1_1_skyline_line_1a0496f27cf5d017bbf0b1a4ac5b00ccad" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Ms::SkylineLine::add</definition>
+        <argsstring>(qreal x, qreal y, qreal w)</argsstring>
+        <name>add</name>
+        <param>
+          <type>qreal</type>
+          <declname>x</declname>
+        </param>
+        <param>
+          <type>qreal</type>
+          <declname>y</declname>
+        </param>
+        <param>
+          <type>qreal</type>
+          <declname>w</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/skyline.h" line="56" column="12" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/skyline.cpp" bodystart="104" bodyend="188"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ms_1_1_skyline_line_1a34bcc4e43d69ae4434dac635240d03a3" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Ms::SkylineLine::clear</definition>
+        <argsstring>()</argsstring>
+        <name>clear</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/skyline.h" line="57" column="12" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/skyline.h" bodystart="57" bodyend="57"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ms_1_1_skyline_line_1a82e8bf305aa24bdb2e75a46d2c4d7f07" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Ms::SkylineLine::paint</definition>
+        <argsstring>(QPainter &amp;) const</argsstring>
+        <name>paint</name>
+        <param>
+          <type>QPainter &amp;</type>
+          <defname>p</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/skyline.h" line="58" column="12" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/skyline.cpp" bodystart="261" bodyend="281"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ms_1_1_skyline_line_1a52d57459ec6a01669b069a849be83567" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Ms::SkylineLine::dump</definition>
+        <argsstring>() const</argsstring>
+        <name>dump</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/skyline.h" line="59" column="12" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/skyline.cpp" bodystart="301" bodyend="308"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ms_1_1_skyline_line_1a0c9480d415b3880be30d1efac46c0e04" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>qreal</type>
+        <definition>qreal Ms::SkylineLine::minDistance</definition>
+        <argsstring>(const SkylineLine &amp;) const</argsstring>
+        <name>minDistance</name>
+        <param>
+          <type>const <ref refid="class_ms_1_1_skyline_line" kindref="compound">SkylineLine</ref> &amp;</type>
+          <defname>sl</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/skyline.h" line="60" column="13" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/skyline.cpp" bodystart="211" bodyend="242"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ms_1_1_skyline_line_1a4cb5b100e593c5c2e1e0f3899d4ce52f" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>qreal</type>
+        <definition>qreal Ms::SkylineLine::max</definition>
+        <argsstring>() const</argsstring>
+        <name>max</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/skyline.h" line="61" column="13" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/skyline.cpp" bodystart="314" bodyend="328"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ms_1_1_skyline_line_1a9cbdab446664a5002a5e3061166fa78a" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool Ms::SkylineLine::valid</definition>
+        <argsstring>(const SkylineSegment &amp;s) const</argsstring>
+        <name>valid</name>
+        <param>
+          <type>const <ref refid="struct_ms_1_1_skyline_segment" kindref="compound">SkylineSegment</ref> &amp;</type>
+          <declname>s</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/skyline.h" line="62" column="12" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/skyline.cpp" bodystart="283" bodyend="286"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ms_1_1_skyline_line_1ad3162c9da5bc546913b44bf311624e86" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool Ms::SkylineLine::isNorth</definition>
+        <argsstring>() const</argsstring>
+        <name>isNorth</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/skyline.h" line="63" column="12" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/skyline.h" bodystart="63" bodyend="63"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ms_1_1_skyline_line_1a9173d064cd0c58f689f7926dfe77e4ce" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>SegIter</type>
+        <definition>SegIter Ms::SkylineLine::begin</definition>
+        <argsstring>()</argsstring>
+        <name>begin</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/skyline.h" line="65" column="15" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/skyline.h" bodystart="65" bodyend="65"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ms_1_1_skyline_line_1a1466ec92637bc6fd022c196bc48f9910" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>SegConstIter</type>
+        <definition>SegConstIter Ms::SkylineLine::begin</definition>
+        <argsstring>() const</argsstring>
+        <name>begin</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/skyline.h" line="66" column="20" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/skyline.h" bodystart="66" bodyend="66"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ms_1_1_skyline_line_1a40bc6d77d3de69744c6da821d0dc60d7" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>SegIter</type>
+        <definition>SegIter Ms::SkylineLine::end</definition>
+        <argsstring>()</argsstring>
+        <name>end</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/skyline.h" line="67" column="15" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/skyline.h" bodystart="67" bodyend="67"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ms_1_1_skyline_line_1a299ed554fac707485137aabe3d7189a4" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>SegConstIter</type>
+        <definition>SegConstIter Ms::SkylineLine::end</definition>
+        <argsstring>() const</argsstring>
+        <name>end</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/skyline.h" line="68" column="20" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/skyline.h" bodystart="68" bodyend="68"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/skyline.h" line="41" column="18" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/skyline.h" bodystart="41" bodyend="69"/>
+    <listofallmembers>
+      <member refid="class_ms_1_1_skyline_line_1a770f1e2838daffe1f51ecfac9ed938f5" prot="public" virt="non-virtual"><scope>Ms::SkylineLine</scope><name>add</name></member>
+      <member refid="class_ms_1_1_skyline_line_1ad46db0a826fda2e06b816c1a150eb1e1" prot="public" virt="non-virtual"><scope>Ms::SkylineLine</scope><name>add</name></member>
+      <member refid="class_ms_1_1_skyline_line_1a0496f27cf5d017bbf0b1a4ac5b00ccad" prot="public" virt="non-virtual"><scope>Ms::SkylineLine</scope><name>add</name></member>
+      <member refid="class_ms_1_1_skyline_line_1ac718e7483f0122637019a30f36597a46" prot="private" virt="non-virtual"><scope>Ms::SkylineLine</scope><name>append</name></member>
+      <member refid="class_ms_1_1_skyline_line_1a9173d064cd0c58f689f7926dfe77e4ce" prot="public" virt="non-virtual"><scope>Ms::SkylineLine</scope><name>begin</name></member>
+      <member refid="class_ms_1_1_skyline_line_1a1466ec92637bc6fd022c196bc48f9910" prot="public" virt="non-virtual"><scope>Ms::SkylineLine</scope><name>begin</name></member>
+      <member refid="class_ms_1_1_skyline_line_1a34bcc4e43d69ae4434dac635240d03a3" prot="public" virt="non-virtual"><scope>Ms::SkylineLine</scope><name>clear</name></member>
+      <member refid="class_ms_1_1_skyline_line_1a52d57459ec6a01669b069a849be83567" prot="public" virt="non-virtual"><scope>Ms::SkylineLine</scope><name>dump</name></member>
+      <member refid="class_ms_1_1_skyline_line_1a40bc6d77d3de69744c6da821d0dc60d7" prot="public" virt="non-virtual"><scope>Ms::SkylineLine</scope><name>end</name></member>
+      <member refid="class_ms_1_1_skyline_line_1a299ed554fac707485137aabe3d7189a4" prot="public" virt="non-virtual"><scope>Ms::SkylineLine</scope><name>end</name></member>
+      <member refid="class_ms_1_1_skyline_line_1af9444db0b14184a70539d92ac2ae2970" prot="private" virt="non-virtual"><scope>Ms::SkylineLine</scope><name>find</name></member>
+      <member refid="class_ms_1_1_skyline_line_1a77ed0ea4253de960100488a2f76e7af7" prot="private" virt="non-virtual"><scope>Ms::SkylineLine</scope><name>find</name></member>
+      <member refid="class_ms_1_1_skyline_line_1a1c95ed7080f9e5a170cec12314e338b9" prot="private" virt="non-virtual"><scope>Ms::SkylineLine</scope><name>insert</name></member>
+      <member refid="class_ms_1_1_skyline_line_1ad3162c9da5bc546913b44bf311624e86" prot="public" virt="non-virtual"><scope>Ms::SkylineLine</scope><name>isNorth</name></member>
+      <member refid="class_ms_1_1_skyline_line_1a4cb5b100e593c5c2e1e0f3899d4ce52f" prot="public" virt="non-virtual"><scope>Ms::SkylineLine</scope><name>max</name></member>
+      <member refid="class_ms_1_1_skyline_line_1a0c9480d415b3880be30d1efac46c0e04" prot="public" virt="non-virtual"><scope>Ms::SkylineLine</scope><name>minDistance</name></member>
+      <member refid="class_ms_1_1_skyline_line_1a488cf109f0431630b8105fdd6fd2cc09" prot="private" virt="non-virtual"><scope>Ms::SkylineLine</scope><name>north</name></member>
+      <member refid="class_ms_1_1_skyline_line_1a82e8bf305aa24bdb2e75a46d2c4d7f07" prot="public" virt="non-virtual"><scope>Ms::SkylineLine</scope><name>paint</name></member>
+      <member refid="class_ms_1_1_skyline_line_1a7d51e06a3cea9a1c34cea34dad4a7f8f" prot="private" virt="non-virtual"><scope>Ms::SkylineLine</scope><name>seg</name></member>
+      <member refid="class_ms_1_1_skyline_line_1ae7be6f974c5f117091729cb91e4b0153" prot="private" virt="non-virtual"><scope>Ms::SkylineLine</scope><name>SegConstIter</name></member>
+      <member refid="class_ms_1_1_skyline_line_1a743c8a90881b7271b0ccecdf4c8cfec6" prot="private" virt="non-virtual"><scope>Ms::SkylineLine</scope><name>SegIter</name></member>
+      <member refid="class_ms_1_1_skyline_line_1a5c31c14f67a156b109dad9f9b8bc83c5" prot="public" virt="non-virtual"><scope>Ms::SkylineLine</scope><name>SkylineLine</name></member>
+      <member refid="class_ms_1_1_skyline_line_1a9cbdab446664a5002a5e3061166fa78a" prot="public" virt="non-virtual"><scope>Ms::SkylineLine</scope><name>valid</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

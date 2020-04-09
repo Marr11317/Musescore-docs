@@ -1,0 +1,142 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.17">
+  <compounddef id="class_ms_1_1_change_note_event_list" kind="class" language="C++" prot="public">
+    <compoundname>Ms::ChangeNoteEventList</compoundname>
+    <basecompoundref refid="class_ms_1_1_undo_command" prot="public" virt="non-virtual">Ms::UndoCommand</basecompoundref>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_ms_1_1_change_note_event_list_1a5f439dbbca07cbf377935ae5ab4ab891" prot="private" static="no" mutable="no">
+        <type><ref refid="class_ms_1_1_note" kindref="compound">Ms::Note</ref> *</type>
+        <definition>Ms::Note* Ms::ChangeNoteEventList::note</definition>
+        <argsstring></argsstring>
+        <name>note</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/undo.h" line="913" column="21" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/undo.h" bodystart="913" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_ms_1_1_change_note_event_list_1a9fe2cb16e00108774d0e44cdb65b0fc4" prot="private" static="no" mutable="no">
+        <type><ref refid="class_ms_1_1_note_event_list" kindref="compound">NoteEventList</ref></type>
+        <definition>NoteEventList Ms::ChangeNoteEventList::newEvents</definition>
+        <argsstring></argsstring>
+        <name>newEvents</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/undo.h" line="914" column="22" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/undo.h" bodystart="914" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_ms_1_1_change_note_event_list_1a3a1817669abdce88ec3be0ef4739bfe2" prot="private" static="no" mutable="no">
+        <type><ref refid="namespace_ms_1a3ca11c21f2fe66a8c8efc1bf0d75ccf2" kindref="member">PlayEventType</ref></type>
+        <definition>PlayEventType Ms::ChangeNoteEventList::newPetype</definition>
+        <argsstring></argsstring>
+        <name>newPetype</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/undo.h" line="915" column="22" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/undo.h" bodystart="915" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_ms_1_1_change_note_event_list_1ae0822b862f46f859cafc904b532ba073" prot="private" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void Ms::ChangeNoteEventList::flip</definition>
+        <argsstring>(EditData *) override</argsstring>
+        <name>flip</name>
+        <reimplements refid="class_ms_1_1_undo_command_1a861162fe6c105a00dfec5a5b70a690a5">flip</reimplements>
+        <param>
+          <type><ref refid="class_ms_1_1_edit_data" kindref="compound">EditData</ref> *</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/undo.h" line="917" column="12" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/undo.cpp" bodystart="2055" bodyend="2070"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_ms_1_1_change_note_event_list_1ab09d3c22c4b101ac17e13858a6784d75" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>Ms::ChangeNoteEventList::ChangeNoteEventList</definition>
+        <argsstring>(Ms::Note *n, NoteEventList &amp;ne)</argsstring>
+        <name>ChangeNoteEventList</name>
+        <param>
+          <type><ref refid="class_ms_1_1_note" kindref="compound">Ms::Note</ref> *</type>
+          <declname>n</declname>
+        </param>
+        <param>
+          <type><ref refid="class_ms_1_1_note_event_list" kindref="compound">NoteEventList</ref> &amp;</type>
+          <declname>ne</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/undo.h" line="920" column="7" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/undo.h" bodystart="920" bodyend="921"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>Ms::ChangeNoteEventList</label>
+        <link refid="class_ms_1_1_change_note_event_list"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>Ms::UndoCommand</label>
+        <link refid="class_ms_1_1_undo_command"/>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>Ms::ChangeNoteEventList</label>
+        <link refid="class_ms_1_1_change_note_event_list"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>Ms::UndoCommand</label>
+        <link refid="class_ms_1_1_undo_command"/>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/undo.h" line="912" column="45" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/undo.h" bodystart="912" bodyend="923"/>
+    <listofallmembers>
+      <member refid="class_ms_1_1_undo_command_1a0f5b568325d235501e5cc197b7a4d4c8" prot="public" virt="non-virtual"><scope>Ms::ChangeNoteEventList</scope><name>appendChild</name></member>
+      <member refid="class_ms_1_1_undo_command_1adbc9ce586560a1ca06f83bb38d04c4f0" prot="protected" virt="non-virtual"><scope>Ms::ChangeNoteEventList</scope><name>appendChildren</name></member>
+      <member refid="class_ms_1_1_change_note_event_list_1ab09d3c22c4b101ac17e13858a6784d75" prot="public" virt="non-virtual"><scope>Ms::ChangeNoteEventList</scope><name>ChangeNoteEventList</name></member>
+      <member refid="class_ms_1_1_undo_command_1a701d710e19f4d356f2b12d093729d295" prot="public" virt="non-virtual"><scope>Ms::ChangeNoteEventList</scope><name>childCount</name></member>
+      <member refid="class_ms_1_1_undo_command_1a0bbdf4bc79885d76228b155599fb46ce" prot="public" virt="virtual"><scope>Ms::ChangeNoteEventList</scope><name>cleanup</name></member>
+      <member refid="class_ms_1_1_undo_command_1a4cdbb50e02a38b3c0b259e8bb6b58bca" prot="public" virt="non-virtual"><scope>Ms::ChangeNoteEventList</scope><name>commands</name></member>
+      <member refid="class_ms_1_1_undo_command_1a7c3fae86b0c593d95eb2acf44348b425" prot="public" virt="non-virtual"><scope>Ms::ChangeNoteEventList</scope><name>Filter</name></member>
+      <member refid="class_ms_1_1_undo_command_1a850e4c72c907bce1aed4b7d318ddf626" prot="public" virt="non-virtual"><scope>Ms::ChangeNoteEventList</scope><name>filterChildren</name></member>
+      <member refid="class_ms_1_1_change_note_event_list_1ae0822b862f46f859cafc904b532ba073" prot="private" virt="virtual"><scope>Ms::ChangeNoteEventList</scope><name>flip</name></member>
+      <member refid="class_ms_1_1_undo_command_1a09b5c550fffd0dfe1e38490c7f0de8e4" prot="public" virt="non-virtual"><scope>Ms::ChangeNoteEventList</scope><name>hasFilteredChildren</name></member>
+      <member refid="class_ms_1_1_undo_command_1a7131c9beb9c694ef3f0d8235f4e2892a" prot="public" virt="non-virtual"><scope>Ms::ChangeNoteEventList</scope><name>hasUnfilteredChildren</name></member>
+      <member refid="class_ms_1_1_undo_command_1a7e84d54e5b22eeeb9646c8a86fc2a0cb" prot="public" virt="virtual"><scope>Ms::ChangeNoteEventList</scope><name>isFiltered</name></member>
+      <member refid="class_ms_1_1_undo_command_1acdd15da86ef5878bc98ef2be084cc4be" prot="public" virt="virtual"><scope>Ms::ChangeNoteEventList</scope><name>name</name></member>
+      <member refid="class_ms_1_1_change_note_event_list_1a9fe2cb16e00108774d0e44cdb65b0fc4" prot="private" virt="non-virtual"><scope>Ms::ChangeNoteEventList</scope><name>newEvents</name></member>
+      <member refid="class_ms_1_1_change_note_event_list_1a3a1817669abdce88ec3be0ef4739bfe2" prot="private" virt="non-virtual"><scope>Ms::ChangeNoteEventList</scope><name>newPetype</name></member>
+      <member refid="class_ms_1_1_change_note_event_list_1a5f439dbbca07cbf377935ae5ab4ab891" prot="private" virt="non-virtual"><scope>Ms::ChangeNoteEventList</scope><name>note</name></member>
+      <member refid="class_ms_1_1_undo_command_1a7fccbb0cf027a5e3b43176a5e0213f75" prot="public" virt="virtual"><scope>Ms::ChangeNoteEventList</scope><name>redo</name></member>
+      <member refid="class_ms_1_1_undo_command_1ad645cbed278b04cea2164006b52c4d8f" prot="public" virt="non-virtual"><scope>Ms::ChangeNoteEventList</scope><name>removeChild</name></member>
+      <member refid="class_ms_1_1_undo_command_1a42a2038f903e77e6bb5881209b764186" prot="public" virt="virtual"><scope>Ms::ChangeNoteEventList</scope><name>undo</name></member>
+      <member refid="class_ms_1_1_undo_command_1abc893037b5a33408c25552b8579debe4" prot="public" virt="non-virtual"><scope>Ms::ChangeNoteEventList</scope><name>unwind</name></member>
+      <member refid="class_ms_1_1_undo_command_1ad4aec6e8dbb0e92bd2b8be2ebd79b9df" prot="public" virt="virtual"><scope>Ms::ChangeNoteEventList</scope><name>~UndoCommand</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

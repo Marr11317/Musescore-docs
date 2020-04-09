@@ -1,0 +1,426 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.17">
+  <compounddef id="class_ms_1_1_tempo_map" kind="class" language="C++" prot="public">
+    <compoundname>Ms::TempoMap</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">std::map&lt; int, TEvent &gt;</basecompoundref>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_ms_1_1_tempo_map_1a6e1dd1ed1fa1bc7ae721dd759d56a549" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int Ms::TempoMap::_tempoSN</definition>
+        <argsstring></argsstring>
+        <name>_tempoSN</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/tempo.h" line="46" column="11" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/tempo.h" bodystart="46" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_ms_1_1_tempo_map_1a4122aa260b93ba8b89b9bd53b2e1bc47" prot="private" static="no" mutable="no">
+        <type>qreal</type>
+        <definition>qreal Ms::TempoMap::_tempo</definition>
+        <argsstring></argsstring>
+        <name>_tempo</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/tempo.h" line="47" column="13" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/tempo.h" bodystart="47" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_ms_1_1_tempo_map_1a68a70aaf1048dd74a7a0501addd435f4" prot="private" static="no" mutable="no">
+        <type>qreal</type>
+        <definition>qreal Ms::TempoMap::_relTempo</definition>
+        <argsstring></argsstring>
+        <name>_relTempo</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/tempo.h" line="48" column="13" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/tempo.h" bodystart="48" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_ms_1_1_tempo_map_1a7dcf697acd0ab7f331b04a1a0569dbba" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Ms::TempoMap::normalize</definition>
+        <argsstring>()</argsstring>
+        <name>normalize</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/tempo.h" line="50" column="12" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/tempo.cpp" bodystart="100" bodyend="118"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ms_1_1_tempo_map_1a49344372594ae86a4d28fa714da2f877" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Ms::TempoMap::del</definition>
+        <argsstring>(int tick)</argsstring>
+        <name>del</name>
+        <param>
+          <type>int</type>
+          <declname>tick</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/tempo.h" line="51" column="12" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/tempo.cpp" bodystart="183" bodyend="197"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_ms_1_1_tempo_map_1a7ae42644f6fb6bd05f7c47bcd28f0409" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>Ms::TempoMap::TempoMap</definition>
+        <argsstring>()</argsstring>
+        <name>TempoMap</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/tempo.h" line="54" column="7" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/tempo.cpp" bodystart="55" bodyend="60"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ms_1_1_tempo_map_1ada52338f7db37f86059ecc81e1b35314" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Ms::TempoMap::clear</definition>
+        <argsstring>()</argsstring>
+        <name>clear</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/tempo.h" line="55" column="12" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/tempo.cpp" bodystart="136" bodyend="140"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ms_1_1_tempo_map_1ac6b133e57105fde1e79b24c9c0cffd3d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Ms::TempoMap::clearRange</definition>
+        <argsstring>(int tick1, int tick2)</argsstring>
+        <name>clearRange</name>
+        <param>
+          <type>int</type>
+          <declname>tick1</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>tick2</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/tempo.h" line="56" column="12" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/tempo.cpp" bodystart="148" bodyend="156"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ms_1_1_tempo_map_1a5f514754987c4ea081f1c9621cacfacb" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Ms::TempoMap::dump</definition>
+        <argsstring>() const</argsstring>
+        <name>dump</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/tempo.h" line="58" column="12" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/tempo.cpp" bodystart="124" bodyend="130"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ms_1_1_tempo_map_1ab2db22d1b5ecfba4538b5a668ac37c7b" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>qreal</type>
+        <definition>qreal Ms::TempoMap::tempo</definition>
+        <argsstring>(int tick) const</argsstring>
+        <name>tempo</name>
+        <param>
+          <type>int</type>
+          <declname>tick</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/tempo.h" line="60" column="13" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/tempo.cpp" bodystart="162" bodyend="177"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ms_1_1_tempo_map_1a94ef4484339f169194e8ee17cbe036a8" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>qreal</type>
+        <definition>qreal Ms::TempoMap::tick2time</definition>
+        <argsstring>(int tick, int *sn=0) const</argsstring>
+        <name>tick2time</name>
+        <param>
+          <type>int</type>
+          <declname>tick</declname>
+        </param>
+        <param>
+          <type>int *</type>
+          <declname>sn</declname>
+          <defval>0</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/tempo.h" line="62" column="13" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/tempo.cpp" bodystart="242" bodyend="278"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ms_1_1_tempo_map_1afc79af36c266d27576721265c0a4083b" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>qreal</type>
+        <definition>qreal Ms::TempoMap::tick2timeLC</definition>
+        <argsstring>(int tick, int *sn) const</argsstring>
+        <name>tick2timeLC</name>
+        <param>
+          <type>int</type>
+          <declname>tick</declname>
+        </param>
+        <param>
+          <type>int *</type>
+          <declname>sn</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/tempo.h" line="63" column="13"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ms_1_1_tempo_map_1afac366ba5d6be4a3149bcd3e0f9c2f9c" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>qreal</type>
+        <definition>qreal Ms::TempoMap::tick2time</definition>
+        <argsstring>(int tick, qreal time, int *sn) const</argsstring>
+        <name>tick2time</name>
+        <param>
+          <type>int</type>
+          <declname>tick</declname>
+        </param>
+        <param>
+          <type>qreal</type>
+          <declname>time</declname>
+        </param>
+        <param>
+          <type>int *</type>
+          <declname>sn</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/tempo.h" line="64" column="13" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/tempo.cpp" bodystart="223" bodyend="226"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ms_1_1_tempo_map_1a01317774a53fc1651a557ad89c03e037" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int Ms::TempoMap::time2tick</definition>
+        <argsstring>(qreal time, int *sn=0) const</argsstring>
+        <name>time2tick</name>
+        <param>
+          <type>qreal</type>
+          <declname>time</declname>
+        </param>
+        <param>
+          <type>int *</type>
+          <declname>sn</declname>
+          <defval>0</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/tempo.h" line="65" column="11" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/tempo.cpp" bodystart="284" bodyend="309"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ms_1_1_tempo_map_1a194eef1778d7dce810f74ba9eaedd840" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int Ms::TempoMap::time2tick</definition>
+        <argsstring>(qreal time, int tick, int *sn) const</argsstring>
+        <name>time2tick</name>
+        <param>
+          <type>qreal</type>
+          <declname>time</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>tick</declname>
+        </param>
+        <param>
+          <type>int *</type>
+          <declname>sn</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/tempo.h" line="66" column="11" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/tempo.cpp" bodystart="233" bodyend="236"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ms_1_1_tempo_map_1a8689369ef09a73c46a5c86662ef9314b" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>int</type>
+        <definition>int Ms::TempoMap::tempoSN</definition>
+        <argsstring>() const</argsstring>
+        <name>tempoSN</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/tempo.h" line="67" column="11" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/tempo.h" bodystart="67" bodyend="67"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ms_1_1_tempo_map_1abf5c65730ae531577381260044aebc9f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Ms::TempoMap::setTempo</definition>
+        <argsstring>(int t, qreal)</argsstring>
+        <name>setTempo</name>
+        <param>
+          <type>int</type>
+          <declname>t</declname>
+        </param>
+        <param>
+          <type>qreal</type>
+          <defname>tempo</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/tempo.h" line="69" column="12" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/tempo.cpp" bodystart="84" bodyend="94"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ms_1_1_tempo_map_1a8ecda3dc5844705eb8e8f288fd4fe664" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Ms::TempoMap::setPause</definition>
+        <argsstring>(int t, qreal)</argsstring>
+        <name>setPause</name>
+        <param>
+          <type>int</type>
+          <declname>t</declname>
+        </param>
+        <param>
+          <type>qreal</type>
+          <defname>pause</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/tempo.h" line="70" column="12" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/tempo.cpp" bodystart="66" bodyend="78"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ms_1_1_tempo_map_1a452f223720f5a8412edca8fa4ad6b66a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Ms::TempoMap::delTempo</definition>
+        <argsstring>(int tick)</argsstring>
+        <name>delTempo</name>
+        <param>
+          <type>int</type>
+          <declname>tick</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/tempo.h" line="71" column="12" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/tempo.cpp" bodystart="213" bodyend="217"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ms_1_1_tempo_map_1a952a62c84812adfbfdd3fc1144159b00" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Ms::TempoMap::setRelTempo</definition>
+        <argsstring>(qreal val)</argsstring>
+        <name>setRelTempo</name>
+        <param>
+          <type>qreal</type>
+          <declname>val</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/tempo.h" line="73" column="12" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/tempo.cpp" bodystart="203" bodyend="207"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ms_1_1_tempo_map_1a6a712b7fa2fa54777e1cff05885f799a" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>qreal</type>
+        <definition>qreal Ms::TempoMap::relTempo</definition>
+        <argsstring>() const</argsstring>
+        <name>relTempo</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/tempo.h" line="74" column="13" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/tempo.h" bodystart="74" bodyend="74"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>Ms::TempoMap</label>
+        <link refid="class_ms_1_1_tempo_map"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>std::map&lt; int, TEvent &gt;</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>Ms::TempoMap</label>
+        <link refid="class_ms_1_1_tempo_map"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>std::map&lt; int, TEvent &gt;</label>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/tempo.h" line="45" column="33" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/tempo.h" bodystart="45" bodyend="75"/>
+    <listofallmembers>
+      <member refid="class_ms_1_1_tempo_map_1a68a70aaf1048dd74a7a0501addd435f4" prot="private" virt="non-virtual"><scope>Ms::TempoMap</scope><name>_relTempo</name></member>
+      <member refid="class_ms_1_1_tempo_map_1a4122aa260b93ba8b89b9bd53b2e1bc47" prot="private" virt="non-virtual"><scope>Ms::TempoMap</scope><name>_tempo</name></member>
+      <member refid="class_ms_1_1_tempo_map_1a6e1dd1ed1fa1bc7ae721dd759d56a549" prot="private" virt="non-virtual"><scope>Ms::TempoMap</scope><name>_tempoSN</name></member>
+      <member refid="class_ms_1_1_tempo_map_1ada52338f7db37f86059ecc81e1b35314" prot="public" virt="non-virtual"><scope>Ms::TempoMap</scope><name>clear</name></member>
+      <member refid="class_ms_1_1_tempo_map_1ac6b133e57105fde1e79b24c9c0cffd3d" prot="public" virt="non-virtual"><scope>Ms::TempoMap</scope><name>clearRange</name></member>
+      <member refid="class_ms_1_1_tempo_map_1a49344372594ae86a4d28fa714da2f877" prot="private" virt="non-virtual"><scope>Ms::TempoMap</scope><name>del</name></member>
+      <member refid="class_ms_1_1_tempo_map_1a452f223720f5a8412edca8fa4ad6b66a" prot="public" virt="non-virtual"><scope>Ms::TempoMap</scope><name>delTempo</name></member>
+      <member refid="class_ms_1_1_tempo_map_1a5f514754987c4ea081f1c9621cacfacb" prot="public" virt="non-virtual"><scope>Ms::TempoMap</scope><name>dump</name></member>
+      <member refid="class_ms_1_1_tempo_map_1a7dcf697acd0ab7f331b04a1a0569dbba" prot="private" virt="non-virtual"><scope>Ms::TempoMap</scope><name>normalize</name></member>
+      <member refid="class_ms_1_1_tempo_map_1a6a712b7fa2fa54777e1cff05885f799a" prot="public" virt="non-virtual"><scope>Ms::TempoMap</scope><name>relTempo</name></member>
+      <member refid="class_ms_1_1_tempo_map_1a8ecda3dc5844705eb8e8f288fd4fe664" prot="public" virt="non-virtual"><scope>Ms::TempoMap</scope><name>setPause</name></member>
+      <member refid="class_ms_1_1_tempo_map_1a952a62c84812adfbfdd3fc1144159b00" prot="public" virt="non-virtual"><scope>Ms::TempoMap</scope><name>setRelTempo</name></member>
+      <member refid="class_ms_1_1_tempo_map_1abf5c65730ae531577381260044aebc9f" prot="public" virt="non-virtual"><scope>Ms::TempoMap</scope><name>setTempo</name></member>
+      <member refid="class_ms_1_1_tempo_map_1ab2db22d1b5ecfba4538b5a668ac37c7b" prot="public" virt="non-virtual"><scope>Ms::TempoMap</scope><name>tempo</name></member>
+      <member refid="class_ms_1_1_tempo_map_1a7ae42644f6fb6bd05f7c47bcd28f0409" prot="public" virt="non-virtual"><scope>Ms::TempoMap</scope><name>TempoMap</name></member>
+      <member refid="class_ms_1_1_tempo_map_1a8689369ef09a73c46a5c86662ef9314b" prot="public" virt="non-virtual"><scope>Ms::TempoMap</scope><name>tempoSN</name></member>
+      <member refid="class_ms_1_1_tempo_map_1a94ef4484339f169194e8ee17cbe036a8" prot="public" virt="non-virtual"><scope>Ms::TempoMap</scope><name>tick2time</name></member>
+      <member refid="class_ms_1_1_tempo_map_1afac366ba5d6be4a3149bcd3e0f9c2f9c" prot="public" virt="non-virtual"><scope>Ms::TempoMap</scope><name>tick2time</name></member>
+      <member refid="class_ms_1_1_tempo_map_1afc79af36c266d27576721265c0a4083b" prot="public" virt="non-virtual"><scope>Ms::TempoMap</scope><name>tick2timeLC</name></member>
+      <member refid="class_ms_1_1_tempo_map_1a01317774a53fc1651a557ad89c03e037" prot="public" virt="non-virtual"><scope>Ms::TempoMap</scope><name>time2tick</name></member>
+      <member refid="class_ms_1_1_tempo_map_1a194eef1778d7dce810f74ba9eaedd840" prot="public" virt="non-virtual"><scope>Ms::TempoMap</scope><name>time2tick</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,99 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.17">
+  <compounddef id="struct_ms_1_1_jump_type_table" kind="struct" language="C++" prot="public">
+    <compoundname>Ms::JumpTypeTable</compoundname>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="struct_ms_1_1_jump_type_table_1a4095a58cb0abb2547d21e29c1737ced7" prot="public" static="no" mutable="no">
+        <type>Jump::Type</type>
+        <definition>Jump::Type Ms::JumpTypeTable::type</definition>
+        <argsstring></argsstring>
+        <name>type</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/jump.h" line="91" column="18" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/jump.h" bodystart="91" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_ms_1_1_jump_type_table_1acbc9b98537e994f23cd8cbac9d23f5cb" prot="public" static="no" mutable="no">
+        <type>const char *</type>
+        <definition>const char* Ms::JumpTypeTable::text</definition>
+        <argsstring></argsstring>
+        <name>text</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/jump.h" line="92" column="18" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/jump.h" bodystart="92" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_ms_1_1_jump_type_table_1aaae53fd101df3b38a08611ba6e0c894b" prot="public" static="no" mutable="no">
+        <type>const char *</type>
+        <definition>const char* Ms::JumpTypeTable::jumpTo</definition>
+        <argsstring></argsstring>
+        <name>jumpTo</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/jump.h" line="93" column="18" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/jump.h" bodystart="93" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_ms_1_1_jump_type_table_1afef440d2ef29c1e209ef06500a5d1a4f" prot="public" static="no" mutable="no">
+        <type>const char *</type>
+        <definition>const char* Ms::JumpTypeTable::playUntil</definition>
+        <argsstring></argsstring>
+        <name>playUntil</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/jump.h" line="94" column="18" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/jump.h" bodystart="94" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_ms_1_1_jump_type_table_1aa190baf50dbe0f5abf1aa2cbcc665f8a" prot="public" static="no" mutable="no">
+        <type>const char *</type>
+        <definition>const char* Ms::JumpTypeTable::continueAt</definition>
+        <argsstring></argsstring>
+        <name>continueAt</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/jump.h" line="95" column="18" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/jump.h" bodystart="95" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_ms_1_1_jump_type_table_1a5a2ebaebc85a8b2602c77a0023d2269e" prot="public" static="no" mutable="no">
+        <type>QString</type>
+        <definition>QString Ms::JumpTypeTable::userText</definition>
+        <argsstring></argsstring>
+        <name>userText</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/jump.h" line="96" column="15" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/jump.h" bodystart="96" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/jump.h" line="90" column="20" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/jump.h" bodystart="90" bodyend="97"/>
+    <listofallmembers>
+      <member refid="struct_ms_1_1_jump_type_table_1aa190baf50dbe0f5abf1aa2cbcc665f8a" prot="public" virt="non-virtual"><scope>Ms::JumpTypeTable</scope><name>continueAt</name></member>
+      <member refid="struct_ms_1_1_jump_type_table_1aaae53fd101df3b38a08611ba6e0c894b" prot="public" virt="non-virtual"><scope>Ms::JumpTypeTable</scope><name>jumpTo</name></member>
+      <member refid="struct_ms_1_1_jump_type_table_1afef440d2ef29c1e209ef06500a5d1a4f" prot="public" virt="non-virtual"><scope>Ms::JumpTypeTable</scope><name>playUntil</name></member>
+      <member refid="struct_ms_1_1_jump_type_table_1acbc9b98537e994f23cd8cbac9d23f5cb" prot="public" virt="non-virtual"><scope>Ms::JumpTypeTable</scope><name>text</name></member>
+      <member refid="struct_ms_1_1_jump_type_table_1a4095a58cb0abb2547d21e29c1737ced7" prot="public" virt="non-virtual"><scope>Ms::JumpTypeTable</scope><name>type</name></member>
+      <member refid="struct_ms_1_1_jump_type_table_1a5a2ebaebc85a8b2602c77a0023d2269e" prot="public" virt="non-virtual"><scope>Ms::JumpTypeTable</scope><name>userText</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

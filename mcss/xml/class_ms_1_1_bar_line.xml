@@ -1,0 +1,1658 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.17">
+  <compounddef id="class_ms_1_1_bar_line" kind="class" language="C++" prot="public" final="yes">
+    <compoundname>Ms::BarLine</compoundname>
+    <basecompoundref refid="class_ms_1_1_element" prot="public" virt="non-virtual">Ms::Element</basecompoundref>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_ms_1_1_bar_line_1a1d51813656ac416c71636e505bad0b5b" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int Ms::BarLine::_spanStaff</definition>
+        <argsstring></argsstring>
+        <name>_spanStaff</name>
+        <initializer>{ 0 }</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/barline.h" line="58" column="11" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/barline.h" bodystart="58" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_ms_1_1_bar_line_1ab41ab30154a6980071aad97fd9b80f89" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int Ms::BarLine::_spanFrom</definition>
+        <argsstring></argsstring>
+        <name>_spanFrom</name>
+        <initializer>{ 0 }</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/barline.h" line="59" column="11" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/barline.h" bodystart="59" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_ms_1_1_bar_line_1a21ca4bf44f3d4660b9f7858c7de9f2a5" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int Ms::BarLine::_spanTo</definition>
+        <argsstring></argsstring>
+        <name>_spanTo</name>
+        <initializer>{ 0 }</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/barline.h" line="60" column="11" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/barline.h" bodystart="60" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_ms_1_1_bar_line_1ad0df3a50467e8162036d8e1f99b2b711" prot="private" static="no" mutable="no">
+        <type>BarLineType</type>
+        <definition>BarLineType Ms::BarLine::_barLineType</definition>
+        <argsstring></argsstring>
+        <name>_barLineType</name>
+        <initializer>{ BarLineType::NORMAL }</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/barline.h" line="61" column="19" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/barline.h" bodystart="61" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_ms_1_1_bar_line_1a4e1389f508c73bd59077095967a25e7d" prot="private" static="no" mutable="yes">
+        <type>qreal</type>
+        <definition>qreal Ms::BarLine::y1</definition>
+        <argsstring></argsstring>
+        <name>y1</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/barline.h" line="62" column="21" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/barline.h" bodystart="62" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_ms_1_1_bar_line_1a1621153e3412c51e72bfcc5ec9994b8c" prot="private" static="no" mutable="yes">
+        <type>qreal</type>
+        <definition>qreal Ms::BarLine::y2</definition>
+        <argsstring></argsstring>
+        <name>y2</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/barline.h" line="63" column="21" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/barline.h" bodystart="63" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_ms_1_1_bar_line_1ae61561b37bbbba1c517689bbfc622e4b" prot="private" static="no" mutable="no">
+        <type><ref refid="class_ms_1_1_element_list" kindref="compound">ElementList</ref></type>
+        <definition>ElementList Ms::BarLine::_el</definition>
+        <argsstring></argsstring>
+        <name>_el</name>
+        <briefdescription>
+<para>fermata or other articulations </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/barline.h" line="64" column="19" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/barline.h" bodystart="64" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-static-attrib">
+      <memberdef kind="variable" id="class_ms_1_1_bar_line_1ab5c2d4f158bd50744950a2b4e2aece0f" prot="public" static="yes" mutable="no">
+        <type>const std::vector&lt; <ref refid="struct_ms_1_1_bar_line_table_item" kindref="compound">BarLineTableItem</ref> &gt;</type>
+        <definition>const std::vector&lt; BarLineTableItem &gt; Ms::BarLine::barLineTable</definition>
+        <argsstring></argsstring>
+        <name>barLineTable</name>
+        <initializer>{
+      { BarLineType::NORMAL,           QT_TRANSLATE_NOOP(&quot;Palette&quot;, &quot;Normal barline&quot;),   &quot;normal&quot; },
+      { BarLineType::DOUBLE,           QT_TRANSLATE_NOOP(&quot;Palette&quot;, &quot;Double barline&quot;),   &quot;double&quot; },
+      { BarLineType::START_REPEAT,     QT_TRANSLATE_NOOP(&quot;Palette&quot;, &quot;Start repeat&quot;),     &quot;start-repeat&quot; },
+      { BarLineType::END_REPEAT,       QT_TRANSLATE_NOOP(&quot;Palette&quot;, &quot;End repeat&quot;),       &quot;end-repeat&quot; },
+      { BarLineType::BROKEN,           QT_TRANSLATE_NOOP(&quot;Palette&quot;, &quot;Dashed barline&quot;),   &quot;dashed&quot; },
+      { BarLineType::END,              QT_TRANSLATE_NOOP(&quot;Palette&quot;, &quot;Final barline&quot;),    &quot;end&quot; },
+      { BarLineType::END_START_REPEAT, QT_TRANSLATE_NOOP(&quot;Palette&quot;, &quot;End-start repeat&quot;), &quot;end-start-repeat&quot; },
+      { BarLineType::DOTTED,           QT_TRANSLATE_NOOP(&quot;Palette&quot;, &quot;Dotted barline&quot;),   &quot;dotted&quot; },
+      }</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/barline.h" line="151" column="32" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/barline.h" bodystart="151" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_ms_1_1_bar_line_1ad679b892ce351df695af63f7cbfa56b8" prot="private" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Ms::BarLine::getY</definition>
+        <argsstring>() const</argsstring>
+        <name>getY</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/barline.h" line="66" column="12" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/barline.cpp" bodystart="400" bodyend="451"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ms_1_1_bar_line_1ad7a089ab461fde7057c8ad118bd9edc5" prot="private" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Ms::BarLine::drawDots</definition>
+        <argsstring>(QPainter *painter, qreal x) const</argsstring>
+        <name>drawDots</name>
+        <param>
+          <type>QPainter *</type>
+          <declname>painter</declname>
+        </param>
+        <param>
+          <type>qreal</type>
+          <declname>x</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/barline.h" line="67" column="12" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/barline.cpp" bodystart="457" bodyend="478"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ms_1_1_bar_line_1adc56369294c24a30991a34b870f89f9c" prot="private" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Ms::BarLine::drawTips</definition>
+        <argsstring>(QPainter *painter, bool reversed, qreal x) const</argsstring>
+        <name>drawTips</name>
+        <param>
+          <type>QPainter *</type>
+          <declname>painter</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>reversed</declname>
+        </param>
+        <param>
+          <type>qreal</type>
+          <declname>x</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/barline.h" line="68" column="12" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/barline.cpp" bodystart="484" bodyend="498"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ms_1_1_bar_line_1adb6e9ecc1245ab12ef644d0195957bf6" prot="private" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool Ms::BarLine::isTop</definition>
+        <argsstring>() const</argsstring>
+        <name>isTop</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/barline.h" line="69" column="12" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/barline.cpp" bodystart="504" bodyend="511"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ms_1_1_bar_line_1ace1e96ed5af14111c608c790ab117eaf" prot="private" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool Ms::BarLine::isBottom</definition>
+        <argsstring>() const</argsstring>
+        <name>isBottom</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/barline.h" line="70" column="12" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/barline.cpp" bodystart="517" bodyend="526"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ms_1_1_bar_line_1a8bbb33f31e20936fcff075896297c298" prot="private" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void Ms::BarLine::drawEditMode</definition>
+        <argsstring>(QPainter *, EditData &amp;)</argsstring>
+        <name>drawEditMode</name>
+        <reimplements refid="class_ms_1_1_element_1aeacd589786e73e54e81ba2cc9a812126">drawEditMode</reimplements>
+        <param>
+          <type>QPainter *</type>
+          <defname>p</defname>
+        </param>
+        <param>
+          <type><ref refid="class_ms_1_1_edit_data" kindref="compound">EditData</ref> &amp;</type>
+          <defname>ed</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/barline.h" line="71" column="12" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/barline.cpp" bodystart="673" bodyend="685"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_ms_1_1_bar_line_1afdcbe4cd068d5b1865f2d0aa41a4d12f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>Ms::BarLine::BarLine</definition>
+        <argsstring>(Score *s=0)</argsstring>
+        <name>BarLine</name>
+        <param>
+          <type><ref refid="class_ms_1_1_score" kindref="compound">Score</ref> *</type>
+          <declname>s</declname>
+          <defval>0</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/barline.h" line="74" column="7" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/barline.cpp" bodystart="281" bodyend="285"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ms_1_1_bar_line_1ad73fe9fde8c4bb11f07e5ebaf4ab0276" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type></type>
+        <definition>Ms::BarLine::~BarLine</definition>
+        <argsstring>()</argsstring>
+        <name>~BarLine</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/barline.h" line="75" column="15" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/barline.cpp" bodystart="301" bodyend="304"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ms_1_1_bar_line_1a3e502f6b5521ab7592f711c0de0a25d2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>Ms::BarLine::BarLine</definition>
+        <argsstring>(const BarLine &amp;)</argsstring>
+        <name>BarLine</name>
+        <param>
+          <type>const <ref refid="class_ms_1_1_bar_line" kindref="compound">BarLine</ref> &amp;</type>
+          <defname>bl</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/barline.h" line="76" column="7" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/barline.cpp" bodystart="287" bodyend="299"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ms_1_1_bar_line_1a86e0bcd2d3e39e81dcc7b75ef6472eb9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="class_ms_1_1_bar_line" kindref="compound">BarLine</ref> &amp;</type>
+        <definition>BarLine&amp; Ms::BarLine::operator=</definition>
+        <argsstring>(const BarLine &amp;)=delete</argsstring>
+        <name>operator=</name>
+        <param>
+          <type>const <ref refid="class_ms_1_1_bar_line" kindref="compound">BarLine</ref> &amp;</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/barline.h" line="77" column="15"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ms_1_1_bar_line_1a8cb6bf276d79e94f3176d25f57820ccb" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="virtual">
+        <type><ref refid="class_ms_1_1_bar_line" kindref="compound">BarLine</ref> *</type>
+        <definition>BarLine* Ms::BarLine::clone</definition>
+        <argsstring>() const override</argsstring>
+        <name>clone</name>
+        <reimplements refid="class_ms_1_1_element_1adcd981af2ae9890f31c993050d5f0f25">clone</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/barline.h" line="79" column="15" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/barline.h" bodystart="79" bodyend="79"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ms_1_1_bar_line_1ae2896efb1eb21528f03a3ca18bb991aa" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="virtual">
+        <type><ref refid="namespace_ms_1a2c92ce0204176ede1ab86e2f44ae6b9e" kindref="member">ElementType</ref></type>
+        <definition>ElementType Ms::BarLine::type</definition>
+        <argsstring>() const override</argsstring>
+        <name>type</name>
+        <reimplements refid="class_ms_1_1_score_element_1a3dbb763c3cd4ec05d202d03115abe1d5">type</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/barline.h" line="80" column="19" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/barline.h" bodystart="80" bodyend="80"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ms_1_1_bar_line_1a62f772fbeedb531ea6766b5a47cdc10e" prot="public" static="no" const="yes" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void Ms::BarLine::write</definition>
+        <argsstring>(XmlWriter &amp;xml) const override</argsstring>
+        <name>write</name>
+        <reimplements refid="class_ms_1_1_element_1a7298ea80b152246289da660cca217ad1">write</reimplements>
+        <param>
+          <type><ref refid="class_ms_1_1_xml_writer" kindref="compound">XmlWriter</ref> &amp;</type>
+          <declname>xml</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/barline.h" line="81" column="12" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/barline.cpp" bodystart="691" bodyend="704"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ms_1_1_bar_line_1a1970bfb8297c3eb039b8f169a567609c" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void Ms::BarLine::read</definition>
+        <argsstring>(XmlReader &amp;) override</argsstring>
+        <name>read</name>
+        <reimplements refid="class_ms_1_1_element_1a36da47af8aac2c422a2bc3eb91f8ac4f">read</reimplements>
+        <param>
+          <type><ref refid="class_ms_1_1_xml_reader" kindref="compound">XmlReader</ref> &amp;</type>
+          <defname>e</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/barline.h" line="82" column="12" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/barline.cpp" bodystart="710" bodyend="750"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ms_1_1_bar_line_1a5a0e6d1ac28fce745667793d84cc8289" prot="public" static="no" const="yes" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void Ms::BarLine::draw</definition>
+        <argsstring>(QPainter *) const override</argsstring>
+        <name>draw</name>
+        <reimplements refid="class_ms_1_1_element_1a0e093baaf71efa68b681c69e70a2cb71">draw</reimplements>
+        <param>
+          <type>QPainter *</type>
+          <defname>painter</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/barline.h" line="83" column="12" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/barline.cpp" bodystart="532" bodyend="667"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ms_1_1_bar_line_1a113e22a9218b7898c6a440a96154d674" prot="public" static="no" const="yes" explicit="no" inline="no" virt="virtual">
+        <type>QPointF</type>
+        <definition>QPointF Ms::BarLine::canvasPos</definition>
+        <argsstring>() const override</argsstring>
+        <name>canvasPos</name>
+        <reimplements refid="class_ms_1_1_element_1aafc617f0cd5069a406a83da394b15e53">canvasPos</reimplements>
+        <briefdescription>
+<para>position in canvas coordinates </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/barline.h" line="84" column="15" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/barline.cpp" bodystart="310" bodyend="319"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ms_1_1_bar_line_1ab5d9ab51d253ccfcc5b393ce58fff42b" prot="public" static="no" const="yes" explicit="no" inline="no" virt="virtual">
+        <type>QPointF</type>
+        <definition>QPointF Ms::BarLine::pagePos</definition>
+        <argsstring>() const override</argsstring>
+        <name>pagePos</name>
+        <reimplements refid="class_ms_1_1_element_1a06cc027fe14db0cf896f02931356ae24">pagePos</reimplements>
+        <briefdescription>
+<para>position in page coordinates </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/barline.h" line="85" column="15" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/barline.cpp" bodystart="325" bodyend="352"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ms_1_1_bar_line_1a42d506ca189702e276733a14b70f017e" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void Ms::BarLine::layout</definition>
+        <argsstring>() override</argsstring>
+        <name>layout</name>
+        <reimplements refid="class_ms_1_1_element_1a3ae68f5da280c53fd1d329f20601818b">layout</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/barline.h" line="86" column="12" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/barline.cpp" bodystart="1258" bodyend="1320"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ms_1_1_bar_line_1af2ff4c6050663a2dec87fdab9d5c5708" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Ms::BarLine::layout2</definition>
+        <argsstring>()</argsstring>
+        <name>layout2</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/barline.h" line="87" column="12" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/barline.cpp" bodystart="1327" bodyend="1368"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ms_1_1_bar_line_1afb9731fd5842bac6e08a7ea075dbd9ae" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void Ms::BarLine::scanElements</definition>
+        <argsstring>(void *data, void(*func)(void *, Element *), bool all=true) override</argsstring>
+        <name>scanElements</name>
+        <reimplements refid="class_ms_1_1_element_1ab4cacda18439ce6c8c615e253c762f12">scanElements</reimplements>
+        <param>
+          <type>void *</type>
+          <declname>data</declname>
+        </param>
+        <param>
+          <type>void(*)(void *, <ref refid="class_ms_1_1_element" kindref="compound">Element</ref> *)</type>
+          <declname>func</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>all</declname>
+          <defval>true</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/barline.h" line="88" column="12" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/barline.cpp" bodystart="1389" bodyend="1397"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ms_1_1_bar_line_1a3904eeaa3759323daddb86b4e3e39552" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void Ms::BarLine::setTrack</definition>
+        <argsstring>(int t) override</argsstring>
+        <name>setTrack</name>
+        <reimplements refid="class_ms_1_1_element_1a884bf81982c8c302cbdf79ea567c3ced">setTrack</reimplements>
+        <param>
+          <type>int</type>
+          <declname>t</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/barline.h" line="89" column="12" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/barline.cpp" bodystart="1403" bodyend="1408"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ms_1_1_bar_line_1a857db7497c7b461ab31f26a9da14e43c" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void Ms::BarLine::setScore</definition>
+        <argsstring>(Score *s) override</argsstring>
+        <name>setScore</name>
+        <reimplements refid="class_ms_1_1_score_element_1a6a1e59c49777e28459d2270981fc97df">setScore</reimplements>
+        <param>
+          <type><ref refid="class_ms_1_1_score" kindref="compound">Score</ref> *</type>
+          <declname>s</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/barline.h" line="90" column="12" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/barline.cpp" bodystart="1414" bodyend="1419"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ms_1_1_bar_line_1ad970f2ab88641b41f7c8681fa7fb3685" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void Ms::BarLine::add</definition>
+        <argsstring>(Element *) override</argsstring>
+        <name>add</name>
+        <reimplements refid="class_ms_1_1_element_1a6466e3a3ada3e0e7add1d1977bbfda96">add</reimplements>
+        <param>
+          <type><ref refid="class_ms_1_1_element" kindref="compound">Element</ref> *</type>
+          <defname>e</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/barline.h" line="91" column="12" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/barline.cpp" bodystart="1425" bodyend="1440"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ms_1_1_bar_line_1acd81ddc0ecbf4f775913aad54fe5cb5c" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void Ms::BarLine::remove</definition>
+        <argsstring>(Element *) override</argsstring>
+        <name>remove</name>
+        <reimplements refid="class_ms_1_1_element_1acca1fd58c4df74da5cefc31787a2c715">remove</reimplements>
+        <param>
+          <type><ref refid="class_ms_1_1_element" kindref="compound">Element</ref> *</type>
+          <defname>e</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/barline.h" line="92" column="12" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/barline.cpp" bodystart="1446" bodyend="1459"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ms_1_1_bar_line_1a28c7d6fe82e930ac1015e4a0f74d7cca" prot="public" static="no" const="yes" explicit="no" inline="no" virt="virtual">
+        <type>bool</type>
+        <definition>bool Ms::BarLine::acceptDrop</definition>
+        <argsstring>(EditData &amp;) const override</argsstring>
+        <name>acceptDrop</name>
+        <reimplements refid="class_ms_1_1_element_1a35614445f0bc2212cbcc75c3f5810543">acceptDrop</reimplements>
+        <param>
+          <type><ref refid="class_ms_1_1_edit_data" kindref="compound">EditData</ref> &amp;</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Return true if this element accepts a drop at canvas relative <emphasis>pos</emphasis> of given element <emphasis>type</emphasis> and <emphasis>subtype</emphasis>.</para>
+<para>Reimplemented by elements that accept drops. Used to change cursor shape while dragging to indicate drop targets. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/barline.h" line="93" column="12" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/barline.cpp" bodystart="756" bodyend="769"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ms_1_1_bar_line_1af03756bb0cd6b98d703bcdaa1c161876" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type><ref refid="class_ms_1_1_element" kindref="compound">Element</ref> *</type>
+        <definition>Element * Ms::BarLine::drop</definition>
+        <argsstring>(EditData &amp;) override</argsstring>
+        <name>drop</name>
+        <reimplements refid="class_ms_1_1_element_1a0ca69a9fb48e7b9fb481aacaf3860032">drop</reimplements>
+        <param>
+          <type><ref refid="class_ms_1_1_edit_data" kindref="compound">EditData</ref> &amp;</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Handle a dropped element at canvas relative <emphasis>pos</emphasis> of given element <emphasis>type</emphasis> and <emphasis>subtype</emphasis>. Returns dropped element if any. The ownership of element in DropData is transferred to the called element (if not used, element has to be deleted). The returned element will be selected if not in note edit mode.</para>
+<para>Reimplemented by elements that accept drops. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/barline.h" line="94" column="15" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/barline.cpp" bodystart="775" bodyend="855"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ms_1_1_bar_line_1a1a3d26e09af9397826b6dc4646450e64" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="virtual">
+        <type>bool</type>
+        <definition>bool Ms::BarLine::isEditable</definition>
+        <argsstring>() const override</argsstring>
+        <name>isEditable</name>
+        <reimplements refid="class_ms_1_1_element_1accef4917f0fce522b94b90a3ccd0f76b">isEditable</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/barline.h" line="95" column="12" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/barline.h" bodystart="95" bodyend="95"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ms_1_1_bar_line_1a8e0f50ebcd9993b640c0c3a1e9720ec4" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="class_ms_1_1_segment" kindref="compound">Segment</ref> *</type>
+        <definition>Segment* Ms::BarLine::segment</definition>
+        <argsstring>() const</argsstring>
+        <name>segment</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/barline.h" line="97" column="15" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/barline.h" bodystart="97" bodyend="97"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ms_1_1_bar_line_1a4323a274adbe477e08054e6b09098da4" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="class_ms_1_1_measure" kindref="compound">Measure</ref> *</type>
+        <definition>Measure* Ms::BarLine::measure</definition>
+        <argsstring>() const</argsstring>
+        <name>measure</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/barline.h" line="98" column="15" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/barline.h" bodystart="98" bodyend="98"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ms_1_1_bar_line_1a165a0d0d24fa438f91c412c9af56fdea" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Ms::BarLine::setSpanStaff</definition>
+        <argsstring>(int val)</argsstring>
+        <name>setSpanStaff</name>
+        <param>
+          <type>int</type>
+          <declname>val</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/barline.h" line="100" column="12" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/barline.h" bodystart="100" bodyend="100"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ms_1_1_bar_line_1ace73feaaf9969808f8fb12b4293679c3" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Ms::BarLine::setSpanFrom</definition>
+        <argsstring>(int val)</argsstring>
+        <name>setSpanFrom</name>
+        <param>
+          <type>int</type>
+          <declname>val</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/barline.h" line="101" column="12" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/barline.h" bodystart="101" bodyend="101"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ms_1_1_bar_line_1a5766114f45b5bedfa6a05e4913f04e53" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Ms::BarLine::setSpanTo</definition>
+        <argsstring>(int val)</argsstring>
+        <name>setSpanTo</name>
+        <param>
+          <type>int</type>
+          <declname>val</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/barline.h" line="102" column="12" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/barline.h" bodystart="102" bodyend="102"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ms_1_1_bar_line_1a7332e4d26d16856a6f6b4972e98f3430" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>int</type>
+        <definition>int Ms::BarLine::spanStaff</definition>
+        <argsstring>() const</argsstring>
+        <name>spanStaff</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/barline.h" line="103" column="11" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/barline.h" bodystart="103" bodyend="103"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ms_1_1_bar_line_1ac56dd4816709dd225bdd9acfa13ffd55" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>int</type>
+        <definition>int Ms::BarLine::spanFrom</definition>
+        <argsstring>() const</argsstring>
+        <name>spanFrom</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/barline.h" line="104" column="11" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/barline.h" bodystart="104" bodyend="104"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ms_1_1_bar_line_1aefa9d73d78644a7f4f678e732ba8ec21" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>int</type>
+        <definition>int Ms::BarLine::spanTo</definition>
+        <argsstring>() const</argsstring>
+        <name>spanTo</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/barline.h" line="105" column="11" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/barline.h" bodystart="105" bodyend="105"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ms_1_1_bar_line_1a6abe7049308a4a7cd8d8eb1bf853d5c8" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void Ms::BarLine::startEdit</definition>
+        <argsstring>(EditData &amp;ed) override</argsstring>
+        <name>startEdit</name>
+        <reimplements refid="class_ms_1_1_element_1a44811717889176d96221850366e5f055">startEdit</reimplements>
+        <param>
+          <type><ref refid="class_ms_1_1_edit_data" kindref="compound">EditData</ref> &amp;</type>
+          <declname>ed</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/barline.h" line="107" column="12" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/barline.cpp" bodystart="880" bodyend="887"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ms_1_1_bar_line_1a857f7cc0cff28a4682a072116865bab4" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void Ms::BarLine::endEdit</definition>
+        <argsstring>(EditData &amp;) override</argsstring>
+        <name>endEdit</name>
+        <reimplements refid="class_ms_1_1_element_1a5981873b891a9c965c6fa1714243d7c9">endEdit</reimplements>
+        <param>
+          <type><ref refid="class_ms_1_1_edit_data" kindref="compound">EditData</ref> &amp;</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/barline.h" line="108" column="12" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/barline.cpp" bodystart="893" bodyend="1003"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ms_1_1_bar_line_1a542d4e24238dfff63559944409fa3ef4" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void Ms::BarLine::editDrag</definition>
+        <argsstring>(EditData &amp;) override</argsstring>
+        <name>editDrag</name>
+        <reimplements refid="class_ms_1_1_element_1aebe5668ebea4eb253a203211eb6beb12">editDrag</reimplements>
+        <param>
+          <type><ref refid="class_ms_1_1_edit_data" kindref="compound">EditData</ref> &amp;</type>
+          <defname>ed</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/barline.h" line="109" column="12" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/barline.cpp" bodystart="1009" bodyend="1049"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ms_1_1_bar_line_1a1a6fc3c2bae8f2cb1592ae5018e9ac5e" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void Ms::BarLine::endEditDrag</definition>
+        <argsstring>(EditData &amp;) override</argsstring>
+        <name>endEditDrag</name>
+        <reimplements refid="class_ms_1_1_element_1a1e189146458d406cd3e7b9d15202a4a1">endEditDrag</reimplements>
+        <param>
+          <type><ref refid="class_ms_1_1_edit_data" kindref="compound">EditData</ref> &amp;</type>
+          <defname>ed</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/barline.h" line="110" column="12" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/barline.cpp" bodystart="1056" bodyend="1165"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ms_1_1_bar_line_1a9601b3724d26474c212c203000d78065" prot="public" static="no" const="yes" explicit="no" inline="no" virt="virtual">
+        <type><ref refid="class_ms_1_1_shape" kindref="compound">Shape</ref></type>
+        <definition>Shape Ms::BarLine::shape</definition>
+        <argsstring>() const override</argsstring>
+        <name>shape</name>
+        <reimplements refid="class_ms_1_1_element_1ad46a1fa8985b3d3897101b295a7a5d3e">shape</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/barline.h" line="111" column="13" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/barline.cpp" bodystart="1374" bodyend="1383"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ms_1_1_bar_line_1aeded832f48c1780ecc6766f370567758" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="class_ms_1_1_element_list" kindref="compound">ElementList</ref> *</type>
+        <definition>ElementList* Ms::BarLine::el</definition>
+        <argsstring>()</argsstring>
+        <name>el</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/barline.h" line="113" column="19" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/barline.h" bodystart="113" bodyend="113"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ms_1_1_bar_line_1a08dcba0ffef76efd89064151b9603e69" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>const <ref refid="class_ms_1_1_element_list" kindref="compound">ElementList</ref> *</type>
+        <definition>const ElementList* Ms::BarLine::el</definition>
+        <argsstring>() const</argsstring>
+        <name>el</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/barline.h" line="114" column="25" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/barline.h" bodystart="114" bodyend="114"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ms_1_1_bar_line_1a2faeb0d180c056eaf8e83205ae5bc3dd" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>QString</type>
+        <definition>QString Ms::BarLine::barLineTypeName</definition>
+        <argsstring>() const</argsstring>
+        <name>barLineTypeName</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/barline.h" line="119" column="15" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/barline.cpp" bodystart="238" bodyend="241"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ms_1_1_bar_line_1aa7cce50a8d5f1e25e7a511039e311e3d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Ms::BarLine::setBarLineType</definition>
+        <argsstring>(const QString &amp;s)</argsstring>
+        <name>setBarLineType</name>
+        <param>
+          <type>const QString &amp;</type>
+          <declname>s</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/barline.h" line="121" column="12" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/barline.cpp" bodystart="259" bodyend="262"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ms_1_1_bar_line_1a9d6ed82c3892a5ad1efb2361d1041d97" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Ms::BarLine::setBarLineType</definition>
+        <argsstring>(BarLineType i)</argsstring>
+        <name>setBarLineType</name>
+        <param>
+          <type>BarLineType</type>
+          <declname>i</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/barline.h" line="122" column="12" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/barline.h" bodystart="122" bodyend="122"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ms_1_1_bar_line_1a4a0426d2e0676bda9cca5f61388cbcf6" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>BarLineType</type>
+        <definition>BarLineType Ms::BarLine::barLineType</definition>
+        <argsstring>() const</argsstring>
+        <name>barLineType</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/barline.h" line="123" column="19" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/barline.h" bodystart="123" bodyend="123"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ms_1_1_bar_line_1a4c44a3b2b5fe2b8f0f74cb7a640b76c5" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="virtual">
+        <type>int</type>
+        <definition>int Ms::BarLine::subtype</definition>
+        <argsstring>() const override</argsstring>
+        <name>subtype</name>
+        <reimplements refid="class_ms_1_1_element_1ad38a889b51fa8b8553a15ca29abbc874">subtype</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/barline.h" line="126" column="11" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/barline.h" bodystart="126" bodyend="126"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ms_1_1_bar_line_1a99924a88477430f5ff83b31214b91a50" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="virtual">
+        <type>QString</type>
+        <definition>QString Ms::BarLine::subtypeName</definition>
+        <argsstring>() const override</argsstring>
+        <name>subtypeName</name>
+        <reimplements refid="class_ms_1_1_element_1a861aa05fa45296c04d4309143211a9e6">subtypeName</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/barline.h" line="127" column="15" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/barline.h" bodystart="127" bodyend="127"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ms_1_1_bar_line_1af1f1f77a70a7050cfa14bf43466db981" prot="public" static="no" const="yes" explicit="no" inline="no" virt="virtual">
+        <type>QVariant</type>
+        <definition>QVariant Ms::BarLine::getProperty</definition>
+        <argsstring>(Pid propertyId) const override</argsstring>
+        <name>getProperty</name>
+        <reimplements refid="class_ms_1_1_element_1aceaefa5b47ba457d6f2e69c0ce573105">getProperty</reimplements>
+        <param>
+          <type>Pid</type>
+          <declname>propertyId</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/barline.h" line="129" column="16" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/barline.cpp" bodystart="1465" bodyend="1480"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ms_1_1_bar_line_1a86bdc0a1aa0004e87e4cb21c250a0070" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>bool</type>
+        <definition>bool Ms::BarLine::setProperty</definition>
+        <argsstring>(Pid propertyId, const QVariant &amp;) override</argsstring>
+        <name>setProperty</name>
+        <reimplements refid="class_ms_1_1_element_1af276960f1e28fd18438752eb19895ace">setProperty</reimplements>
+        <param>
+          <type>Pid</type>
+          <declname>propertyId</declname>
+        </param>
+        <param>
+          <type>const QVariant &amp;</type>
+          <defname>v</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/barline.h" line="130" column="12" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/barline.cpp" bodystart="1486" bodyend="1507"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ms_1_1_bar_line_1a24a00767cb1f80a97141528ec20e4b02" prot="public" static="no" const="yes" explicit="no" inline="no" virt="virtual">
+        <type>QVariant</type>
+        <definition>QVariant Ms::BarLine::propertyDefault</definition>
+        <argsstring>(Pid propertyId) const override</argsstring>
+        <name>propertyDefault</name>
+        <reimplements refid="class_ms_1_1_element_1a3662edfaf353472183a54466eb5749ae">propertyDefault</reimplements>
+        <param>
+          <type>Pid</type>
+          <declname>propertyId</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/barline.h" line="131" column="16" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/barline.cpp" bodystart="1535" bodyend="1558"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ms_1_1_bar_line_1acf1441b6974a63cb2c4fad8b160142c6" prot="public" static="no" const="yes" explicit="no" inline="no" virt="virtual">
+        <type>Pid</type>
+        <definition>Pid Ms::BarLine::propertyId</definition>
+        <argsstring>(const QStringRef &amp;xmlName) const override</argsstring>
+        <name>propertyId</name>
+        <reimplements refid="class_ms_1_1_element_1a44c16323c852e23c783b8d7362cc9c6a">propertyId</reimplements>
+        <param>
+          <type>const QStringRef &amp;</type>
+          <declname>xmlName</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/barline.h" line="132" column="11" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/barline.cpp" bodystart="1564" bodyend="1569"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ms_1_1_bar_line_1a023fdaf51e5042c8ebef077c693fc2e5" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void Ms::BarLine::undoChangeProperty</definition>
+        <argsstring>(Pid id, const QVariant &amp;, PropertyFlags ps)</argsstring>
+        <name>undoChangeProperty</name>
+        <reimplements refid="class_ms_1_1_element_1ab3227faba09a745523ba6748d9f94ab5">undoChangeProperty</reimplements>
+        <param>
+          <type>Pid</type>
+          <declname>id</declname>
+        </param>
+        <param>
+          <type>const QVariant &amp;</type>
+          <defname>v</defname>
+        </param>
+        <param>
+          <type>PropertyFlags</type>
+          <declname>ps</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/barline.h" line="133" column="12" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/barline.cpp" bodystart="1513" bodyend="1529"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ms_1_1_bar_line_1a315de2de22b2736e597f2b008619d7cc" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>QRectF</type>
+        <definition>QRectF Ms::BarLine::layoutRect</definition>
+        <argsstring>() const</argsstring>
+        <name>layoutRect</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/barline.h" line="137" column="14" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/barline.cpp" bodystart="1209" bodyend="1252"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ms_1_1_bar_line_1a493264790c6df344d75674c38f6cceb1" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type><ref refid="class_ms_1_1_element" kindref="compound">Element</ref> *</type>
+        <definition>Element * Ms::BarLine::nextSegmentElement</definition>
+        <argsstring>() override</argsstring>
+        <name>nextSegmentElement</name>
+        <reimplements refid="class_ms_1_1_element_1ad5e377ed9b055434956aa3ee92a3b3a9">nextSegmentElement</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/barline.h" line="139" column="15" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/barline.cpp" bodystart="1575" bodyend="1578"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ms_1_1_bar_line_1ab409aa24bdb477a9e988ea2d1291129a" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type><ref refid="class_ms_1_1_element" kindref="compound">Element</ref> *</type>
+        <definition>Element * Ms::BarLine::prevSegmentElement</definition>
+        <argsstring>() override</argsstring>
+        <name>prevSegmentElement</name>
+        <reimplements refid="class_ms_1_1_element_1a31599e271170912967669cfddd1e49b4">prevSegmentElement</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/barline.h" line="140" column="15" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/barline.cpp" bodystart="1584" bodyend="1587"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ms_1_1_bar_line_1a10414d116d257ae4b30d49d238d9bafc" prot="public" static="no" const="yes" explicit="no" inline="no" virt="virtual">
+        <type>QString</type>
+        <definition>QString Ms::BarLine::accessibleInfo</definition>
+        <argsstring>() const override</argsstring>
+        <name>accessibleInfo</name>
+        <reimplements refid="class_ms_1_1_element_1a249d3763ecc760841d71c305004d4c93">accessibleInfo</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/barline.h" line="142" column="15" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/barline.cpp" bodystart="1593" bodyend="1596"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ms_1_1_bar_line_1a4228fd0b05f42fae4a36223293e35f0d" prot="public" static="no" const="yes" explicit="no" inline="no" virt="virtual">
+        <type>QString</type>
+        <definition>QString Ms::BarLine::accessibleExtraInfo</definition>
+        <argsstring>() const override</argsstring>
+        <name>accessibleExtraInfo</name>
+        <reimplements refid="class_ms_1_1_element_1ad28416b7cf27aad952ff9e872284ee54">accessibleExtraInfo</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/barline.h" line="143" column="15" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/barline.cpp" bodystart="1602" bodyend="1664"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ms_1_1_bar_line_1a47e6e48e965cab32d8d3d4b1e970dc4b" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="virtual">
+        <type>EditBehavior</type>
+        <definition>EditBehavior Ms::BarLine::normalModeEditBehavior</definition>
+        <argsstring>() const override</argsstring>
+        <name>normalModeEditBehavior</name>
+        <reimplements refid="class_ms_1_1_element_1a8da4cf37b6c3f27351f096ec5847d1b6">normalModeEditBehavior</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/barline.h" line="145" column="20" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/barline.h" bodystart="145" bodyend="145"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ms_1_1_bar_line_1ae990f327ad54fcf36e76b8b790304d9d" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="virtual">
+        <type>int</type>
+        <definition>int Ms::BarLine::gripsCount</definition>
+        <argsstring>() const override</argsstring>
+        <name>gripsCount</name>
+        <reimplements refid="class_ms_1_1_element_1ae6ac97922eb884d9f3af307ada91f74a">gripsCount</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/barline.h" line="146" column="11" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/barline.h" bodystart="146" bodyend="146"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ms_1_1_bar_line_1aac79a54017d79596b937056785bb12c1" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="virtual">
+        <type>Grip</type>
+        <definition>Grip Ms::BarLine::initialEditModeGrip</definition>
+        <argsstring>() const override</argsstring>
+        <name>initialEditModeGrip</name>
+        <reimplements refid="class_ms_1_1_element_1a0677d13d1c54b74e3b2154169facfc91">initialEditModeGrip</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/barline.h" line="147" column="12" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/barline.h" bodystart="147" bodyend="147"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ms_1_1_bar_line_1a82ded8dcb8fc5339201fa154463fe4bf" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="virtual">
+        <type>Grip</type>
+        <definition>Grip Ms::BarLine::defaultGrip</definition>
+        <argsstring>() const override</argsstring>
+        <name>defaultGrip</name>
+        <reimplements refid="class_ms_1_1_element_1a1a25d75c3a82ba05999a7443eb40b804">defaultGrip</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/barline.h" line="148" column="12" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/barline.h" bodystart="148" bodyend="148"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ms_1_1_bar_line_1a8b01d2303163a623a8a6fc95f39b135f" prot="public" static="no" const="yes" explicit="no" inline="no" virt="virtual">
+        <type>std::vector&lt; QPointF &gt;</type>
+        <definition>std::vector&lt; QPointF &gt; Ms::BarLine::gripsPositions</definition>
+        <argsstring>(const EditData &amp;) const override</argsstring>
+        <name>gripsPositions</name>
+        <reimplements refid="class_ms_1_1_element_1ac4ac75b1d930639f3ed85d618ab38bdf">gripsPositions</reimplements>
+        <param>
+          <type>const <ref refid="class_ms_1_1_edit_data" kindref="compound">EditData</ref> &amp;</type>
+          <defname>ed</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/barline.h" line="149" column="19" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/barline.cpp" bodystart="861" bodyend="874"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ms_1_1_bar_line_1af0505b234ccb7520a7d93ddd09ca4e1f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Ms::ScoreElement::undoChangeProperty</definition>
+        <argsstring>(Pid id, const QVariant &amp;, PropertyFlags ps)</argsstring>
+        <name>undoChangeProperty</name>
+        <param>
+          <type>Pid</type>
+          <declname>id</declname>
+        </param>
+        <param>
+          <type>const QVariant &amp;</type>
+        </param>
+        <param>
+          <type>PropertyFlags</type>
+          <declname>ps</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/barline.h" line="134" column="7" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/scoreElement.cpp" bodystart="291" bodyend="345"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ms_1_1_bar_line_1a4d0c98408c09304865fc3c9e011a9695" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Ms::ScoreElement::undoChangeProperty</definition>
+        <argsstring>(Pid id, const QVariant &amp;)</argsstring>
+        <name>undoChangeProperty</name>
+        <param>
+          <type>Pid</type>
+          <declname>id</declname>
+        </param>
+        <param>
+          <type>const QVariant &amp;</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/barline.h" line="134" column="7" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/scoreElement.cpp" bodystart="286" bodyend="289"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="class_ms_1_1_bar_line_1af6752231f69ebd62d2dd3d776db831ab" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>QString</type>
+        <definition>QString Ms::BarLine::userTypeName</definition>
+        <argsstring>(BarLineType)</argsstring>
+        <name>userTypeName</name>
+        <param>
+          <type>BarLineType</type>
+          <defname>t</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/barline.h" line="116" column="22" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/barline.cpp" bodystart="222" bodyend="229"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ms_1_1_bar_line_1a0bbab2d44d0d1d2db12fc0b6363e84c9" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>const <ref refid="struct_ms_1_1_bar_line_table_item" kindref="compound">BarLineTableItem</ref> *</type>
+        <definition>const BarLineTableItem * Ms::BarLine::barLineTableItem</definition>
+        <argsstring>(unsigned)</argsstring>
+        <name>barLineTableItem</name>
+        <param>
+          <type>unsigned</type>
+          <defname>i</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/barline.h" line="117" column="37" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/barline.cpp" bodystart="211" bodyend="216"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ms_1_1_bar_line_1ae6763369524fa25d169fdf7f762f490b" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>QString</type>
+        <definition>QString Ms::BarLine::barLineTypeName</definition>
+        <argsstring>(BarLineType t)</argsstring>
+        <name>barLineTypeName</name>
+        <param>
+          <type>BarLineType</type>
+          <declname>t</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/barline.h" line="120" column="22" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/barline.cpp" bodystart="243" bodyend="250"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ms_1_1_bar_line_1ac4678e2a2f25095286be031a7ffa6c22" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>BarLineType</type>
+        <definition>BarLineType Ms::BarLine::barLineType</definition>
+        <argsstring>(const QString &amp;)</argsstring>
+        <name>barLineType</name>
+        <param>
+          <type>const QString &amp;</type>
+          <defname>s</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/barline.h" line="124" column="26" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/barline.cpp" bodystart="268" bodyend="275"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ms_1_1_bar_line_1af41f8463728689c31aa1be7bb4a821db" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>qreal</type>
+        <definition>qreal Ms::BarLine::layoutWidth</definition>
+        <argsstring>(Score *, BarLineType)</argsstring>
+        <name>layoutWidth</name>
+        <param>
+          <type><ref refid="class_ms_1_1_score" kindref="compound">Score</ref> *</type>
+          <defname>score</defname>
+        </param>
+        <param>
+          <type>BarLineType</type>
+          <defname>type</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/barline.h" line="136" column="20" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/barline.cpp" bodystart="1171" bodyend="1203"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>Ms::BarLine</label>
+        <link refid="class_ms_1_1_bar_line"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>Ms::ScoreElement</label>
+        <link refid="class_ms_1_1_score_element"/>
+      </node>
+      <node id="2">
+        <label>Ms::Element</label>
+        <link refid="class_ms_1_1_element"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="5">
+        <label>QList&lt; ScoreElement * &gt;</label>
+      </node>
+      <node id="1">
+        <label>Ms::BarLine</label>
+        <link refid="class_ms_1_1_bar_line"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>Ms::ScoreElement</label>
+        <link refid="class_ms_1_1_score_element"/>
+        <childnode refid="4" relation="usage">
+          <edgelabel>_links</edgelabel>
+        </childnode>
+      </node>
+      <node id="4">
+        <label>Ms::LinkedElements</label>
+        <link refid="class_ms_1_1_linked_elements"/>
+        <childnode refid="5" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>Ms::Element</label>
+        <link refid="class_ms_1_1_element"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/barline.h" line="57" column="29" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/barline.h" bodystart="57" bodyend="152"/>
+    <listofallmembers>
+      <member refid="class_ms_1_1_bar_line_1ad0df3a50467e8162036d8e1f99b2b711" prot="private" virt="non-virtual"><scope>Ms::BarLine</scope><name>_barLineType</name></member>
+      <member refid="class_ms_1_1_element_1a85687d7e7b049c00327023c7306cec14" prot="protected" virt="non-virtual"><scope>Ms::BarLine</scope><name>_color</name></member>
+      <member refid="class_ms_1_1_bar_line_1ae61561b37bbbba1c517689bbfc622e4b" prot="private" virt="non-virtual"><scope>Ms::BarLine</scope><name>_el</name></member>
+      <member refid="class_ms_1_1_score_element_1a648639a58d05aa85412217db5ad40b18" prot="protected" virt="non-virtual"><scope>Ms::BarLine</scope><name>_elementStyle</name></member>
+      <member refid="class_ms_1_1_score_element_1a405b151c60a010237414678a0e0952af" prot="protected" virt="non-virtual"><scope>Ms::BarLine</scope><name>_links</name></member>
+      <member refid="class_ms_1_1_element_1a24960cc1b17ecdef26c9e2e51f8778f4" prot="public" virt="virtual"><scope>Ms::BarLine</scope><name>_name</name></member>
+      <member refid="class_ms_1_1_score_element_1a6d4b99ddb9e217aaa9f9ae67a76861f3" prot="protected" virt="non-virtual"><scope>Ms::BarLine</scope><name>_propertyFlagsList</name></member>
+      <member refid="class_ms_1_1_bar_line_1ab41ab30154a6980071aad97fd9b80f89" prot="private" virt="non-virtual"><scope>Ms::BarLine</scope><name>_spanFrom</name></member>
+      <member refid="class_ms_1_1_bar_line_1a1d51813656ac416c71636e505bad0b5b" prot="private" virt="non-virtual"><scope>Ms::BarLine</scope><name>_spanStaff</name></member>
+      <member refid="class_ms_1_1_bar_line_1a21ca4bf44f3d4660b9f7858c7de9f2a5" prot="private" virt="non-virtual"><scope>Ms::BarLine</scope><name>_spanTo</name></member>
+      <member refid="class_ms_1_1_element_1a833151435bfcef81ea589f9e8fc3154b" prot="protected" virt="non-virtual"><scope>Ms::BarLine</scope><name>_z</name></member>
+      <member refid="class_ms_1_1_element_1ac64eee038c2d81d1ae934be877d8acc5" prot="public" virt="non-virtual"><scope>Ms::BarLine</scope><name>abbox</name></member>
+      <member refid="class_ms_1_1_bar_line_1a28c7d6fe82e930ac1015e4a0f74d7cca" prot="public" virt="virtual"><scope>Ms::BarLine</scope><name>acceptDrop</name></member>
+      <member refid="class_ms_1_1_bar_line_1a4228fd0b05f42fae4a36223293e35f0d" prot="public" virt="virtual"><scope>Ms::BarLine</scope><name>accessibleExtraInfo</name></member>
+      <member refid="class_ms_1_1_bar_line_1a10414d116d257ae4b30d49d238d9bafc" prot="public" virt="virtual"><scope>Ms::BarLine</scope><name>accessibleInfo</name></member>
+      <member refid="class_ms_1_1_bar_line_1ad970f2ab88641b41f7c8681fa7fb3685" prot="public" virt="virtual"><scope>Ms::BarLine</scope><name>add</name></member>
+      <member refid="class_ms_1_1_element_1aeda671935e53857c2dee17b03d68b276" prot="public" virt="virtual"><scope>Ms::BarLine</scope><name>addbbox</name></member>
+      <member refid="class_ms_1_1_element_1a6ba0ad4dad0b5de65db725a10fc64278" prot="public" virt="non-virtual"><scope>Ms::BarLine</scope><name>addToSkyline</name></member>
+      <member refid="class_ms_1_1_element_1a36da6a07a74436d96c739f7134873eda" prot="public" virt="non-virtual"><scope>Ms::BarLine</scope><name>autoplace</name></member>
+      <member refid="class_ms_1_1_element_1ab762a021459424295e46ef909a5ab34f" prot="public" virt="non-virtual"><scope>Ms::BarLine</scope><name>autoplaceCalculateOffset</name></member>
+      <member refid="class_ms_1_1_element_1a52c2885c7d4e815d5475b1253cc4142f" prot="public" virt="non-virtual"><scope>Ms::BarLine</scope><name>autoplaceMeasureElement</name></member>
+      <member refid="class_ms_1_1_element_1a59de63838f71ae75bfbbcfd7960b29b5" prot="public" virt="non-virtual"><scope>Ms::BarLine</scope><name>autoplaceMeasureElement</name></member>
+      <member refid="class_ms_1_1_element_1ab5518cc652f95d5d64ddd2bd7bfc6f6b" prot="public" virt="non-virtual"><scope>Ms::BarLine</scope><name>autoplaceSegmentElement</name></member>
+      <member refid="class_ms_1_1_element_1a9446e28a4daa9ab0f785ce06ad0a14ab" prot="public" virt="non-virtual"><scope>Ms::BarLine</scope><name>autoplaceSegmentElement</name></member>
+      <member refid="class_ms_1_1_bar_line_1afdcbe4cd068d5b1865f2d0aa41a4d12f" prot="public" virt="non-virtual"><scope>Ms::BarLine</scope><name>BarLine</name></member>
+      <member refid="class_ms_1_1_bar_line_1a3e502f6b5521ab7592f711c0de0a25d2" prot="public" virt="non-virtual"><scope>Ms::BarLine</scope><name>BarLine</name></member>
+      <member refid="class_ms_1_1_bar_line_1ab5c2d4f158bd50744950a2b4e2aece0f" prot="public" virt="non-virtual"><scope>Ms::BarLine</scope><name>barLineTable</name></member>
+      <member refid="class_ms_1_1_bar_line_1a0bbab2d44d0d1d2db12fc0b6363e84c9" prot="public" virt="non-virtual"><scope>Ms::BarLine</scope><name>barLineTableItem</name></member>
+      <member refid="class_ms_1_1_bar_line_1a4a0426d2e0676bda9cca5f61388cbcf6" prot="public" virt="non-virtual"><scope>Ms::BarLine</scope><name>barLineType</name></member>
+      <member refid="class_ms_1_1_bar_line_1ac4678e2a2f25095286be031a7ffa6c22" prot="public" virt="non-virtual"><scope>Ms::BarLine</scope><name>barLineType</name></member>
+      <member refid="class_ms_1_1_bar_line_1a2faeb0d180c056eaf8e83205ae5bc3dd" prot="public" virt="non-virtual"><scope>Ms::BarLine</scope><name>barLineTypeName</name></member>
+      <member refid="class_ms_1_1_bar_line_1ae6763369524fa25d169fdf7f762f490b" prot="public" virt="non-virtual"><scope>Ms::BarLine</scope><name>barLineTypeName</name></member>
+      <member refid="class_ms_1_1_element_1a977f5fd6785ea8b160d6b1943727ec9e" prot="public" virt="virtual"><scope>Ms::BarLine</scope><name>baseLine</name></member>
+      <member refid="class_ms_1_1_element_1adc4d7b66745fbb0335dc73f0c3996994" prot="public" virt="virtual"><scope>Ms::BarLine</scope><name>bbox</name></member>
+      <member refid="class_ms_1_1_element_1a2c5b74dd03d2d523e2318dbb3b15b13e" prot="public" virt="virtual"><scope>Ms::BarLine</scope><name>bbox</name></member>
+      <member refid="class_ms_1_1_element_1a6ca9221d8858907d3063fa58255fb804" prot="public" virt="non-virtual"><scope>Ms::BarLine</scope><name>canvasBoundingRect</name></member>
+      <member refid="class_ms_1_1_bar_line_1a113e22a9218b7898c6a440a96154d674" prot="public" virt="virtual"><scope>Ms::BarLine</scope><name>canvasPos</name></member>
+      <member refid="class_ms_1_1_element_1a60903fed3fd306167c53d86ff3120b3c" prot="public" virt="non-virtual"><scope>Ms::BarLine</scope><name>canvasX</name></member>
+      <member refid="class_ms_1_1_element_1a6b065b12b8c1a8549b2a5f96394059af" prot="public" virt="virtual"><scope>Ms::BarLine</scope><name>change</name></member>
+      <member refid="class_ms_1_1_bar_line_1a8cb6bf276d79e94f3176d25f57820ccb" prot="public" virt="virtual"><scope>Ms::BarLine</scope><name>clone</name></member>
+      <member refid="class_ms_1_1_element_1aaf1b495b1a35846de518c268fc856afd" prot="public" virt="virtual"><scope>Ms::BarLine</scope><name>color</name></member>
+      <member refid="class_ms_1_1_element_1af14e8c60099db93425f71d649f064fa7" prot="public" virt="non-virtual"><scope>Ms::BarLine</scope><name>composition</name></member>
+      <member refid="class_ms_1_1_element_1a688112ba0053649f6ec94ed4efa19584" prot="public" virt="non-virtual"><scope>Ms::BarLine</scope><name>concertPitch</name></member>
+      <member refid="class_ms_1_1_element_1a50e66c130bd475554fef1131c68ee4bb" prot="public" virt="non-virtual"><scope>Ms::BarLine</scope><name>contains</name></member>
+      <member refid="class_ms_1_1_element_1a0e94278fa705e7ee020dd9b652d1bced" prot="public" virt="non-virtual"><scope>Ms::BarLine</scope><name>create</name></member>
+      <member refid="class_ms_1_1_element_1a9de808f86f2dac5c4f7c4f9adc4d1d69" prot="public" virt="non-virtual"><scope>Ms::BarLine</scope><name>curColor</name></member>
+      <member refid="class_ms_1_1_element_1a530f7947bf997c03a649c563168dbf12" prot="public" virt="non-virtual"><scope>Ms::BarLine</scope><name>curColor</name></member>
+      <member refid="class_ms_1_1_element_1a052b0228632c1fa016552be2d3da9c3a" prot="public" virt="non-virtual"><scope>Ms::BarLine</scope><name>curColor</name></member>
+      <member refid="class_ms_1_1_element_1a3af6a0d223defe966a8d9c3f2b4d531a" prot="public" virt="non-virtual"><scope>Ms::BarLine</scope><name>custom</name></member>
+      <member refid="class_ms_1_1_bar_line_1a82ded8dcb8fc5339201fa154463fe4bf" prot="public" virt="virtual"><scope>Ms::BarLine</scope><name>defaultGrip</name></member>
+      <member refid="class_ms_1_1_element_1a29d9f58036c4aa2b86033515187bcf8f" prot="public" virt="non-virtual"><scope>Ms::BarLine</scope><name>deleteLater</name></member>
+      <member refid="class_ms_1_1_element_1ad4d4351606adf92e9628dd7a85825ecb" prot="public" virt="virtual"><scope>Ms::BarLine</scope><name>drag</name></member>
+      <member refid="class_ms_1_1_element_1a0250d845ffb8a34508b753bf57a7d407" prot="public" virt="virtual"><scope>Ms::BarLine</scope><name>dragAnchor</name></member>
+      <member refid="class_ms_1_1_bar_line_1a5a0e6d1ac28fce745667793d84cc8289" prot="public" virt="virtual"><scope>Ms::BarLine</scope><name>draw</name></member>
+      <member refid="class_ms_1_1_element_1aea1fcde23f210754997babe67e7c32aa" prot="public" virt="non-virtual"><scope>Ms::BarLine</scope><name>drawAt</name></member>
+      <member refid="class_ms_1_1_bar_line_1ad7a089ab461fde7057c8ad118bd9edc5" prot="private" virt="non-virtual"><scope>Ms::BarLine</scope><name>drawDots</name></member>
+      <member refid="class_ms_1_1_bar_line_1a8bbb33f31e20936fcff075896297c298" prot="private" virt="virtual"><scope>Ms::BarLine</scope><name>drawEditMode</name></member>
+      <member refid="class_ms_1_1_element_1a19be3f786fea6071a0043666dfed093c" prot="public" virt="non-virtual"><scope>Ms::BarLine</scope><name>drawSymbol</name></member>
+      <member refid="class_ms_1_1_element_1ab46d5de09232cb2f8d3e52de5042eff1" prot="public" virt="non-virtual"><scope>Ms::BarLine</scope><name>drawSymbol</name></member>
+      <member refid="class_ms_1_1_element_1a99b748b700ce85d3507a51d5221191f4" prot="public" virt="non-virtual"><scope>Ms::BarLine</scope><name>drawSymbols</name></member>
+      <member refid="class_ms_1_1_element_1aae2c7e7cfc90cf5e4d34573599c4cfe9" prot="public" virt="non-virtual"><scope>Ms::BarLine</scope><name>drawSymbols</name></member>
+      <member refid="class_ms_1_1_bar_line_1adc56369294c24a30991a34b870f89f9c" prot="private" virt="non-virtual"><scope>Ms::BarLine</scope><name>drawTips</name></member>
+      <member refid="class_ms_1_1_bar_line_1af03756bb0cd6b98d703bcdaa1c161876" prot="public" virt="virtual"><scope>Ms::BarLine</scope><name>drop</name></member>
+      <member refid="class_ms_1_1_element_1ac8a8ef532022a6618fd7c2827ab9d9e1" prot="public" virt="non-virtual"><scope>Ms::BarLine</scope><name>dropTarget</name></member>
+      <member refid="class_ms_1_1_element_1a6392770f67e4c8dee01c324f63d5fcd7" prot="public" virt="virtual"><scope>Ms::BarLine</scope><name>dump</name></member>
+      <member refid="class_ms_1_1_element_1a63a79b1d3f298a5f06fe0548fc4474fc" prot="public" virt="virtual"><scope>Ms::BarLine</scope><name>edit</name></member>
+      <member refid="class_ms_1_1_element_1a81f2c9509ccf414e30594abf843cbde2" prot="public" virt="non-virtual"><scope>Ms::BarLine</scope><name>EditBehavior</name></member>
+      <member refid="class_ms_1_1_element_1a4de0afcde56da979d060edebd7bfd003" prot="public" virt="virtual"><scope>Ms::BarLine</scope><name>editCopy</name></member>
+      <member refid="class_ms_1_1_element_1a4f5994e224c19a9f0ac2cdba056be706" prot="public" virt="virtual"><scope>Ms::BarLine</scope><name>editCut</name></member>
+      <member refid="class_ms_1_1_bar_line_1a542d4e24238dfff63559944409fa3ef4" prot="public" virt="virtual"><scope>Ms::BarLine</scope><name>editDrag</name></member>
+      <member refid="class_ms_1_1_bar_line_1aeded832f48c1780ecc6766f370567758" prot="public" virt="non-virtual"><scope>Ms::BarLine</scope><name>el</name></member>
+      <member refid="class_ms_1_1_bar_line_1a08dcba0ffef76efd89064151b9603e69" prot="public" virt="non-virtual"><scope>Ms::BarLine</scope><name>el</name></member>
+      <member refid="class_ms_1_1_element_1a8797b5bb9ed7fd50b89c6ef6b7647d3a" prot="public" virt="non-virtual"><scope>Ms::BarLine</scope><name>Element</name></member>
+      <member refid="class_ms_1_1_element_1acd09fb62181874c199be863980a23328" prot="public" virt="non-virtual"><scope>Ms::BarLine</scope><name>Element</name></member>
+      <member refid="class_ms_1_1_element_1adbcd81f12f80859fdaf2ca1bd24d23d1" prot="public" virt="non-virtual"><scope>Ms::BarLine</scope><name>enabled</name></member>
+      <member refid="class_ms_1_1_element_1abf57779ffc58ab9be91ff9376bb4b8c3" prot="public" virt="virtual"><scope>Ms::BarLine</scope><name>endDrag</name></member>
+      <member refid="class_ms_1_1_bar_line_1a857f7cc0cff28a4682a072116865bab4" prot="public" virt="virtual"><scope>Ms::BarLine</scope><name>endEdit</name></member>
+      <member refid="class_ms_1_1_bar_line_1a1a6fc3c2bae8f2cb1592ae5018e9ac5e" prot="public" virt="virtual"><scope>Ms::BarLine</scope><name>endEditDrag</name></member>
+      <member refid="class_ms_1_1_element_1a055b451ded2882a908bf0afe180686e6" prot="public" virt="non-virtual"><scope>Ms::BarLine</scope><name>findMeasure</name></member>
+      <member refid="class_ms_1_1_element_1a7fea3a47fdac9141e2fd743848be28e5" prot="public" virt="non-virtual"><scope>Ms::BarLine</scope><name>findMeasure</name></member>
+      <member refid="class_ms_1_1_element_1a68fbdd43b617c755a867ead5bf49d0bd" prot="public" virt="non-virtual"><scope>Ms::BarLine</scope><name>findMeasureBase</name></member>
+      <member refid="class_ms_1_1_element_1aa842ceef53b3036fa443670fdfd2dc84" prot="public" virt="non-virtual"><scope>Ms::BarLine</scope><name>findMeasureBase</name></member>
+      <member refid="class_ms_1_1_element_1aedd1f66a4881665f277bc30fefe765b2" prot="public" virt="non-virtual"><scope>Ms::BarLine</scope><name>flag</name></member>
+      <member refid="class_ms_1_1_element_1a3679cdb6351e67e9f482fa9a7fb3d466" prot="public" virt="non-virtual"><scope>Ms::BarLine</scope><name>generated</name></member>
+      <member refid="class_ms_1_1_bar_line_1af1f1f77a70a7050cfa14bf43466db981" prot="public" virt="virtual"><scope>Ms::BarLine</scope><name>getProperty</name></member>
+      <member refid="class_ms_1_1_score_element_1a5dd171e2eca7de57f28a9bc4430bb12d" prot="protected" virt="virtual"><scope>Ms::BarLine</scope><name>getPropertyFlagsIdx</name></member>
+      <member refid="class_ms_1_1_score_element_1a36d66100b5c6df17eb37f276aaca0454" prot="public" virt="virtual"><scope>Ms::BarLine</scope><name>getPropertyStyle</name></member>
+      <member refid="class_ms_1_1_bar_line_1ad679b892ce351df695af63f7cbfa56b8" prot="private" virt="non-virtual"><scope>Ms::BarLine</scope><name>getY</name></member>
+      <member refid="class_ms_1_1_element_1a03fc88ee19e2958f2443213af6d5e77d" prot="public" virt="virtual"><scope>Ms::BarLine</scope><name>gripAnchor</name></member>
+      <member refid="class_ms_1_1_bar_line_1ae990f327ad54fcf36e76b8b790304d9d" prot="public" virt="virtual"><scope>Ms::BarLine</scope><name>gripsCount</name></member>
+      <member refid="class_ms_1_1_bar_line_1a8b01d2303163a623a8a6fc95f39b135f" prot="public" virt="virtual"><scope>Ms::BarLine</scope><name>gripsPositions</name></member>
+      <member refid="class_ms_1_1_element_1abb3880878a2f2826b253d5e0e14b32b6" prot="public" virt="non-virtual"><scope>Ms::BarLine</scope><name>header</name></member>
+      <member refid="class_ms_1_1_element_1a2a8ba8af6817e602c27c154e93542028" prot="public" virt="virtual"><scope>Ms::BarLine</scope><name>height</name></member>
+      <member refid="class_ms_1_1_score_element_1a8deeadfce551a58b1078f1af62c2075d" prot="public" virt="virtual"><scope>Ms::BarLine</scope><name>initElementStyle</name></member>
+      <member refid="class_ms_1_1_bar_line_1aac79a54017d79596b937056785bb12c1" prot="public" virt="virtual"><scope>Ms::BarLine</scope><name>initialEditModeGrip</name></member>
+      <member refid="class_ms_1_1_element_1a77459c7e2f1077ec3b68b11c26640685" prot="public" virt="non-virtual"><scope>Ms::BarLine</scope><name>intersects</name></member>
+      <member refid="class_ms_1_1_element_1a5f1d010c61f361c3310fd22cd9f65d88" prot="public" virt="non-virtual"><scope>Ms::BarLine</scope><name>ipos</name></member>
+      <member refid="class_ms_1_1_bar_line_1ace1e96ed5af14111c608c790ab117eaf" prot="private" virt="non-virtual"><scope>Ms::BarLine</scope><name>isBottom</name></member>
+      <member refid="class_ms_1_1_score_element_1a997e1063786d8c705c74b3d66c54f269" prot="public" virt="non-virtual"><scope>Ms::BarLine</scope><name>isBox</name></member>
+      <member refid="class_ms_1_1_score_element_1ad05261e50a084a0c6c42fced1ca78d8f" prot="public" virt="non-virtual"><scope>Ms::BarLine</scope><name>isBSymbol</name></member>
+      <member refid="class_ms_1_1_score_element_1accef1c91df491a43c54e70474deea60c" prot="public" virt="non-virtual"><scope>Ms::BarLine</scope><name>isChordRest</name></member>
+      <member refid="class_ms_1_1_score_element_1a203290a59b13861b957d2943f65a4cf0" prot="public" virt="non-virtual"><scope>Ms::BarLine</scope><name>isDurationElement</name></member>
+      <member refid="class_ms_1_1_bar_line_1a1a3d26e09af9397826b6dc4646450e64" prot="public" virt="virtual"><scope>Ms::BarLine</scope><name>isEditable</name></member>
+      <member refid="class_ms_1_1_element_1a52a39d1aee1e730f3cd399a5714b66f0" prot="public" virt="virtual"><scope>Ms::BarLine</scope><name>isElement</name></member>
+      <member refid="class_ms_1_1_score_element_1a0d5f2d0a979bf52ab2436f6ceb6d9ef6" prot="public" virt="non-virtual"><scope>Ms::BarLine</scope><name>isLineSegment</name></member>
+      <member refid="class_ms_1_1_score_element_1a1d34473f54590e3d8c2a1bc78b560c21" prot="public" virt="non-virtual"><scope>Ms::BarLine</scope><name>isLinked</name></member>
+      <member refid="class_ms_1_1_score_element_1a06e5d7c169bf6eb01f5f723cbdae973f" prot="public" virt="non-virtual"><scope>Ms::BarLine</scope><name>isMeasureBase</name></member>
+      <member refid="class_ms_1_1_element_1aaad0ef7a078cd5d1659ff7ed9f65582c" prot="public" virt="virtual"><scope>Ms::BarLine</scope><name>isMovable</name></member>
+      <member refid="class_ms_1_1_element_1a592da9bef8f5ea3c9840931e8db5f6f6" prot="public" virt="non-virtual"><scope>Ms::BarLine</scope><name>isNudged</name></member>
+      <member refid="class_ms_1_1_element_1a8612168f4af9d7a976e1f8c8f6826143" prot="public" virt="non-virtual"><scope>Ms::BarLine</scope><name>isPrintable</name></member>
+      <member refid="class_ms_1_1_score_element_1a4de90a044cdd2a7030d707f2b081c8a4" prot="public" virt="non-virtual"><scope>Ms::BarLine</scope><name>isSLine</name></member>
+      <member refid="class_ms_1_1_score_element_1acf35020b5e670ac13791697e65b679d4" prot="public" virt="non-virtual"><scope>Ms::BarLine</scope><name>isSLineSegment</name></member>
+      <member refid="class_ms_1_1_score_element_1a372dfc0678c5194028e61b6a9a24ab62" prot="public" virt="non-virtual"><scope>Ms::BarLine</scope><name>isSlurTieSegment</name></member>
+      <member refid="class_ms_1_1_score_element_1a98f8c58df0f5baafe63414bedf84514f" prot="public" virt="non-virtual"><scope>Ms::BarLine</scope><name>isSpanner</name></member>
+      <member refid="class_ms_1_1_score_element_1a5aa58f96618edb0e3ff660e1c96c5d4e" prot="public" virt="non-virtual"><scope>Ms::BarLine</scope><name>isSpannerSegment</name></member>
+      <member refid="class_ms_1_1_score_element_1ac009e016c7a3dc148b0aaad50c1c4547" prot="public" virt="non-virtual"><scope>Ms::BarLine</scope><name>isStaffTextBase</name></member>
+      <member refid="class_ms_1_1_score_element_1a4d0de3ac9401da46c32ed8becb9d496b" prot="public" virt="non-virtual"><scope>Ms::BarLine</scope><name>isStyled</name></member>
+      <member refid="class_ms_1_1_score_element_1a979b6e1bc10cf790e755aa8641feb4cf" prot="public" virt="non-virtual"><scope>Ms::BarLine</scope><name>isTextBase</name></member>
+      <member refid="class_ms_1_1_score_element_1a7151838e2192a30624d6111dd4c87918" prot="public" virt="non-virtual"><scope>Ms::BarLine</scope><name>isTextLineBase</name></member>
+      <member refid="class_ms_1_1_score_element_1ab98a731c7adf65cebc23235f9fe150af" prot="public" virt="non-virtual"><scope>Ms::BarLine</scope><name>isTextLineBaseSegment</name></member>
+      <member refid="class_ms_1_1_bar_line_1adb6e9ecc1245ab12ef644d0195957bf6" prot="private" virt="non-virtual"><scope>Ms::BarLine</scope><name>isTop</name></member>
+      <member refid="class_ms_1_1_element_1aa8c81e3444c2166a739fb31ca1bffe4e" prot="public" virt="virtual"><scope>Ms::BarLine</scope><name>isUserModified</name></member>
+      <member refid="class_ms_1_1_score_element_1aac3320320d350a161ed3f9a601160451" prot="public" virt="non-virtual"><scope>Ms::BarLine</scope><name>isVBoxBase</name></member>
+      <member refid="class_ms_1_1_element_1a07c3b2ed980bf10d79c377a68f7c500d" prot="public" virt="non-virtual"><scope>Ms::BarLine</scope><name>itemDiscovered</name></member>
+      <member refid="class_ms_1_1_bar_line_1a42d506ca189702e276733a14b70f017e" prot="public" virt="virtual"><scope>Ms::BarLine</scope><name>layout</name></member>
+      <member refid="class_ms_1_1_bar_line_1af2ff4c6050663a2dec87fdab9d5c5708" prot="public" virt="non-virtual"><scope>Ms::BarLine</scope><name>layout2</name></member>
+      <member refid="class_ms_1_1_bar_line_1a315de2de22b2736e597f2b008619d7cc" prot="public" virt="non-virtual"><scope>Ms::BarLine</scope><name>layoutRect</name></member>
+      <member refid="class_ms_1_1_bar_line_1af41f8463728689c31aa1be7bb4a821db" prot="public" virt="non-virtual"><scope>Ms::BarLine</scope><name>layoutWidth</name></member>
+      <member refid="class_ms_1_1_score_element_1ad9b69df1d2c04f2b298520bb649a8c55" prot="public" virt="non-virtual"><scope>Ms::BarLine</scope><name>lid</name></member>
+      <member refid="class_ms_1_1_element_1ab6aade6de785c3ad52c1ed1dadcfcd9f" prot="public" virt="virtual"><scope>Ms::BarLine</scope><name>linkedClone</name></member>
+      <member refid="class_ms_1_1_score_element_1a2f0ed55c566c19cb483d77250cb52450" prot="public" virt="non-virtual"><scope>Ms::BarLine</scope><name>linkList</name></member>
+      <member refid="class_ms_1_1_score_element_1a3d5c97191484848b3f10e754246f8758" prot="public" virt="non-virtual"><scope>Ms::BarLine</scope><name>links</name></member>
+      <member refid="class_ms_1_1_score_element_1a1dad93f0591eb31f69854e8f141b051e" prot="public" virt="non-virtual"><scope>Ms::BarLine</scope><name>linkTo</name></member>
+      <member refid="class_ms_1_1_element_1a904f7cbd2d6c478e10a6e7d7ae9f638d" prot="public" virt="virtual"><scope>Ms::BarLine</scope><name>localSpatiumChanged</name></member>
+      <member refid="class_ms_1_1_element_1ad01cda9f6017d09c9fb9305de18e9310" prot="public" virt="virtual"><scope>Ms::BarLine</scope><name>mag</name></member>
+      <member refid="class_ms_1_1_element_1a7d8e2560e3ab7d216656bf79ecff7ae8" prot="public" virt="non-virtual"><scope>Ms::BarLine</scope><name>magS</name></member>
+      <member refid="class_ms_1_1_score_element_1ae4991aaf0d79271cc347530f3d07fcd6" prot="public" virt="non-virtual"><scope>Ms::BarLine</scope><name>masterScore</name></member>
+      <member refid="class_ms_1_1_bar_line_1a4323a274adbe477e08054e6b09098da4" prot="public" virt="non-virtual"><scope>Ms::BarLine</scope><name>measure</name></member>
+      <member refid="class_ms_1_1_element_1a90f21ba358732f3c471069758d84a76f" prot="public" virt="virtual"><scope>Ms::BarLine</scope><name>mimeData</name></member>
+      <member refid="class_ms_1_1_element_1a00b370d217141ef8efe9d32b1f737ce8" prot="public" virt="non-virtual"><scope>Ms::BarLine</scope><name>minDistance</name></member>
+      <member refid="class_ms_1_1_element_1a76367db103b54a315bfcfcbb9e58b3ab" prot="public" virt="virtual"><scope>Ms::BarLine</scope><name>mousePress</name></member>
+      <member refid="class_ms_1_1_element_1acee1036e1efc8c4142fdf980d37b5745" prot="public" virt="virtual"><scope>Ms::BarLine</scope><name>move</name></member>
+      <member refid="class_ms_1_1_score_element_1ad80dda73306d6b784b0cac4626f797d4" prot="public" virt="non-virtual"><scope>Ms::BarLine</scope><name>name</name></member>
+      <member refid="class_ms_1_1_score_element_1ab6ded8e7ff6dcb45db0036a57f9f9d26" prot="public" virt="non-virtual"><scope>Ms::BarLine</scope><name>name</name></member>
+      <member refid="class_ms_1_1_element_1a3b88a2b00074559aad9b8948eaf07a6f" prot="public" virt="non-virtual"><scope>Ms::BarLine</scope><name>name2Element</name></member>
+      <member refid="class_ms_1_1_score_element_1a971f91737e74571d6e4b6bb78f56e1dc" prot="public" virt="non-virtual"><scope>Ms::BarLine</scope><name>name2type</name></member>
+      <member refid="class_ms_1_1_score_element_1ae41701f68025bc77c26f6db74b452465" prot="public" virt="non-virtual"><scope>Ms::BarLine</scope><name>name2type</name></member>
+      <member refid="class_ms_1_1_element_1a81092ae7891eb2ac2d43d6fe86e1e749" prot="public" virt="virtual"><scope>Ms::BarLine</scope><name>nextElement</name></member>
+      <member refid="class_ms_1_1_element_1ab9a5b8bfe46bc3cf604635a2689bb343" prot="public" virt="virtual"><scope>Ms::BarLine</scope><name>nextGrip</name></member>
+      <member refid="class_ms_1_1_bar_line_1a493264790c6df344d75674c38f6cceb1" prot="public" virt="virtual"><scope>Ms::BarLine</scope><name>nextSegmentElement</name></member>
+      <member refid="class_ms_1_1_bar_line_1a47e6e48e965cab32d8d3d4b1e970dc4b" prot="public" virt="virtual"><scope>Ms::BarLine</scope><name>normalModeEditBehavior</name></member>
+      <member refid="class_ms_1_1_element_1a2ba48a5bec00a30fe829a9e6e477d1d0" prot="public" virt="non-virtual"><scope>Ms::BarLine</scope><name>offset</name></member>
+      <member refid="class_ms_1_1_element_1ad6648a1f597c54d30aa6418dcd4ff64c" prot="public" virt="non-virtual"><scope>Ms::BarLine</scope><name>offsetChanged</name></member>
+      <member refid="class_ms_1_1_bar_line_1a86e0bcd2d3e39e81dcc7b75ef6472eb9" prot="public" virt="non-virtual"><scope>Ms::BarLine</scope><name>operator=</name></member>
+      <member refid="class_ms_1_1_element_1a77e9d09289e5df2742e8b80c18e6fe14" prot="public" virt="non-virtual" ambiguityscope="Ms::Element::"><scope>Ms::BarLine</scope><name>operator=</name></member>
+      <member refid="class_ms_1_1_element_1a97c6426acf5bd7303aef532c1d95f105" prot="public" virt="non-virtual"><scope>Ms::BarLine</scope><name>pageBoundingRect</name></member>
+      <member refid="class_ms_1_1_bar_line_1ab5d9ab51d253ccfcc5b393ce58fff42b" prot="public" virt="virtual"><scope>Ms::BarLine</scope><name>pagePos</name></member>
+      <member refid="class_ms_1_1_element_1afbc508a91ce6aa696f2f6e33bd350bd8" prot="public" virt="non-virtual"><scope>Ms::BarLine</scope><name>pageX</name></member>
+      <member refid="class_ms_1_1_element_1a52b30fdd589beba5b760a561a50ac601" prot="public" virt="non-virtual"><scope>Ms::BarLine</scope><name>parent</name></member>
+      <member refid="class_ms_1_1_element_1a0049832d4191b3ce02446efa09127610" prot="public" virt="non-virtual"><scope>Ms::BarLine</scope><name>part</name></member>
+      <member refid="class_ms_1_1_element_1a8ba22391443270db0f91a3164c457d1e" prot="public" virt="non-virtual"><scope>Ms::BarLine</scope><name>placeAbove</name></member>
+      <member refid="class_ms_1_1_element_1a50092b502c319cb696998f24fc038695" prot="public" virt="non-virtual"><scope>Ms::BarLine</scope><name>placeBelow</name></member>
+      <member refid="class_ms_1_1_element_1a951493711a51487f7f3c1786703b1a20" prot="public" virt="non-virtual"><scope>Ms::BarLine</scope><name>placement</name></member>
+      <member refid="class_ms_1_1_element_1a59da7ad9fd3194d87120ecca6e7ebc75" prot="public" virt="virtual"><scope>Ms::BarLine</scope><name>placeMultiple</name></member>
+      <member refid="class_ms_1_1_element_1aa1bfaad0745fdce188743b73821e0692" prot="public" virt="non-virtual"><scope>Ms::BarLine</scope><name>point</name></member>
+      <member refid="class_ms_1_1_element_1a19157e811d0d2a0e3c94dc844039ba2f" prot="public" virt="virtual"><scope>Ms::BarLine</scope><name>pos</name></member>
+      <member refid="class_ms_1_1_element_1ad48ce06a988e98b0da7d4cf1e6f56ded" prot="public" virt="virtual"><scope>Ms::BarLine</scope><name>prevElement</name></member>
+      <member refid="class_ms_1_1_element_1ade142ed940c21dfcd893bb8fd42c97ca" prot="public" virt="virtual"><scope>Ms::BarLine</scope><name>prevGrip</name></member>
+      <member refid="class_ms_1_1_bar_line_1ab409aa24bdb477a9e988ea2d1291129a" prot="public" virt="virtual"><scope>Ms::BarLine</scope><name>prevSegmentElement</name></member>
+      <member refid="class_ms_1_1_bar_line_1a24a00767cb1f80a97141528ec20e4b02" prot="public" virt="virtual"><scope>Ms::BarLine</scope><name>propertyDefault</name></member>
+      <member refid="class_ms_1_1_score_element_1aaae0b7999568ce64245a5cf995af62b5" prot="public" virt="non-virtual" ambiguityscope="Ms::ScoreElement::"><scope>Ms::BarLine</scope><name>propertyDefault</name></member>
+      <member refid="class_ms_1_1_element_1a7450fdfe3875f10243ae5a97883f9d34" prot="public" virt="virtual"><scope>Ms::BarLine</scope><name>propertyDelegate</name></member>
+      <member refid="class_ms_1_1_score_element_1a9b9c00757c23cba103638b4ab63df03e" prot="public" virt="virtual"><scope>Ms::BarLine</scope><name>propertyFlags</name></member>
+      <member refid="class_ms_1_1_score_element_1ab00670f7d8229c14090cc3d7376d2202" prot="public" virt="virtual"><scope>Ms::BarLine</scope><name>propertyFlagsList</name></member>
+      <member refid="class_ms_1_1_bar_line_1acf1441b6974a63cb2c4fad8b160142c6" prot="public" virt="virtual"><scope>Ms::BarLine</scope><name>propertyId</name></member>
+      <member refid="class_ms_1_1_element_1a01a8b01010e449fb1530dd27805ed042" prot="public" virt="virtual"><scope>Ms::BarLine</scope><name>propertyUserValue</name></member>
+      <member refid="class_ms_1_1_bar_line_1a1970bfb8297c3eb039b8f169a567609c" prot="public" virt="virtual"><scope>Ms::BarLine</scope><name>read</name></member>
+      <member refid="class_ms_1_1_score_element_1a92ef81d3a9835ec8e78a308229da35f8" prot="public" virt="virtual"><scope>Ms::BarLine</scope><name>readAddConnector</name></member>
+      <member refid="class_ms_1_1_element_1a0d7df07df85c18fd01d52efed33a2034" prot="public" virt="non-virtual"><scope>Ms::BarLine</scope><name>readMimeData</name></member>
+      <member refid="class_ms_1_1_element_1aabedff22ee4d865dea6442fabb6a53a2" prot="public" virt="virtual"><scope>Ms::BarLine</scope><name>readProperties</name></member>
+      <member refid="class_ms_1_1_score_element_1a8b3be86196659c2e0fb6ed86256cb0fe" prot="public" virt="non-virtual"><scope>Ms::BarLine</scope><name>readProperty</name></member>
+      <member refid="class_ms_1_1_score_element_1a473e639853dd8adc607a5c2a63c6d4ad" prot="public" virt="non-virtual"><scope>Ms::BarLine</scope><name>readProperty</name></member>
+      <member refid="class_ms_1_1_score_element_1a053d7512b54eaa787bcef0eba427a76f" prot="public" virt="non-virtual"><scope>Ms::BarLine</scope><name>readStyledProperty</name></member>
+      <member refid="class_ms_1_1_element_1a4422ccd59c2a9759591e15e290d3afdb" prot="public" virt="non-virtual"><scope>Ms::BarLine</scope><name>readType</name></member>
+      <member refid="class_ms_1_1_element_1affddbd300aaeca46a5dc8eaf9ef44849" prot="public" virt="non-virtual"><scope>Ms::BarLine</scope><name>rebaseMinDistance</name></member>
+      <member refid="class_ms_1_1_element_1a0d9b98767134ff6a72d5ad910fd52e7a" prot="public" virt="non-virtual"><scope>Ms::BarLine</scope><name>rebaseOffset</name></member>
+      <member refid="class_ms_1_1_bar_line_1acd81ddc0ecbf4f775913aad54fe5cb5c" prot="public" virt="virtual"><scope>Ms::BarLine</scope><name>remove</name></member>
+      <member refid="class_ms_1_1_element_1aaa90bc751111ad8ec041e2004321fbfe" prot="public" virt="virtual"><scope>Ms::BarLine</scope><name>reset</name></member>
+      <member refid="class_ms_1_1_score_element_1a8f3e233ff30279756578c751c0ea3e17" prot="public" virt="virtual"><scope>Ms::BarLine</scope><name>resetProperty</name></member>
+      <member refid="class_ms_1_1_element_1a7d61fcd7dc55027f4f356101b2c0f3bf" prot="public" virt="non-virtual"><scope>Ms::BarLine</scope><name>roffset</name></member>
+      <member refid="class_ms_1_1_element_1aa637afe72e7a1f186b6e9bcb2b26fa78" prot="public" virt="non-virtual"><scope>Ms::BarLine</scope><name>rpos</name></member>
+      <member refid="class_ms_1_1_element_1ad4608ce52672a6b42930af320d9de2ef" prot="public" virt="virtual"><scope>Ms::BarLine</scope><name>rtick</name></member>
+      <member refid="class_ms_1_1_element_1aa521acf22e0820ab42a7ab43c08fa57f" prot="public" virt="non-virtual"><scope>Ms::BarLine</scope><name>rxoffset</name></member>
+      <member refid="class_ms_1_1_element_1a6a063f005375c9b61c53cf49ebc14623" prot="public" virt="non-virtual"><scope>Ms::BarLine</scope><name>rxpos</name></member>
+      <member refid="class_ms_1_1_element_1a8f60347a3bda60cf2db952b9dc6332ab" prot="public" virt="non-virtual"><scope>Ms::BarLine</scope><name>ryoffset</name></member>
+      <member refid="class_ms_1_1_element_1a1397cfb5140978e6cd9aa294ade7d738" prot="public" virt="non-virtual"><scope>Ms::BarLine</scope><name>rypos</name></member>
+      <member refid="class_ms_1_1_bar_line_1afb9731fd5842bac6e08a7ea075dbd9ae" prot="public" virt="virtual"><scope>Ms::BarLine</scope><name>scanElements</name></member>
+      <member refid="class_ms_1_1_score_element_1a70883d048b0884821ac779d9ab168151" prot="public" virt="non-virtual"><scope>Ms::BarLine</scope><name>score</name></member>
+      <member refid="class_ms_1_1_score_element_1a3fed4ec5f58054eb578ff9c7bb80d72f" prot="public" virt="non-virtual"><scope>Ms::BarLine</scope><name>ScoreElement</name></member>
+      <member refid="class_ms_1_1_score_element_1ac2b2cb70fe954ba2b1cce6d35743edf2" prot="public" virt="non-virtual"><scope>Ms::BarLine</scope><name>ScoreElement</name></member>
+      <member refid="class_ms_1_1_element_1a965327598f61fdc8b3b8f4160dfa13c8" prot="public" virt="virtual"><scope>Ms::BarLine</scope><name>screenReaderInfo</name></member>
+      <member refid="class_ms_1_1_bar_line_1a8e0f50ebcd9993b640c0c3a1e9720ec4" prot="public" virt="non-virtual"><scope>Ms::BarLine</scope><name>segment</name></member>
+      <member refid="class_ms_1_1_element_1a7b4ff51eff905fed21705445958253c1" prot="public" virt="non-virtual"><scope>Ms::BarLine</scope><name>selectable</name></member>
+      <member refid="class_ms_1_1_element_1ae4f2f3a774def87e608afd55ef29b3e9" prot="public" virt="non-virtual"><scope>Ms::BarLine</scope><name>selected</name></member>
+      <member refid="class_ms_1_1_element_1a7b231391a59527cb00b7f08bb5279e58" prot="public" virt="virtual"><scope>Ms::BarLine</scope><name>setAutoplace</name></member>
+      <member refid="class_ms_1_1_bar_line_1aa7cce50a8d5f1e25e7a511039e311e3d" prot="public" virt="non-virtual"><scope>Ms::BarLine</scope><name>setBarLineType</name></member>
+      <member refid="class_ms_1_1_bar_line_1a9d6ed82c3892a5ad1efb2361d1041d97" prot="public" virt="non-virtual"><scope>Ms::BarLine</scope><name>setBarLineType</name></member>
+      <member refid="class_ms_1_1_element_1abe5c0aa8e74388b2b6b336dfec469a35" prot="public" virt="virtual"><scope>Ms::BarLine</scope><name>setbbox</name></member>
+      <member refid="class_ms_1_1_element_1a22907ac84ae65fb5b6c3bc2b14f3b23c" prot="public" virt="virtual"><scope>Ms::BarLine</scope><name>setColor</name></member>
+      <member refid="class_ms_1_1_element_1aad752b8ae0d976379ee918fd50f9bd0e" prot="public" virt="non-virtual"><scope>Ms::BarLine</scope><name>setComposition</name></member>
+      <member refid="class_ms_1_1_element_1a8ca2ec95d1247f2940b1285205b2f633" prot="public" virt="non-virtual"><scope>Ms::BarLine</scope><name>setDropTarget</name></member>
+      <member refid="class_ms_1_1_element_1ab75c49bf26fcb549bd1959ffe7925d8b" prot="public" virt="non-virtual"><scope>Ms::BarLine</scope><name>setEnabled</name></member>
+      <member refid="class_ms_1_1_element_1afbd51224c47d00551983d1b25f3c6f39" prot="public" virt="non-virtual"><scope>Ms::BarLine</scope><name>setFlag</name></member>
+      <member refid="class_ms_1_1_element_1ac28da1fe20339f2277852976ac6d7d8f" prot="public" virt="non-virtual"><scope>Ms::BarLine</scope><name>setFlag</name></member>
+      <member refid="class_ms_1_1_element_1a6f4204d12e78c77052520492ae4416cd" prot="public" virt="non-virtual"><scope>Ms::BarLine</scope><name>setGenerated</name></member>
+      <member refid="class_ms_1_1_element_1a5033ef29dffbf6e40958e4fdd2802b6d" prot="public" virt="non-virtual"><scope>Ms::BarLine</scope><name>setHeader</name></member>
+      <member refid="class_ms_1_1_element_1a48786d2a55a0857f1685299e97b85b60" prot="public" virt="virtual"><scope>Ms::BarLine</scope><name>setHeight</name></member>
+      <member refid="class_ms_1_1_score_element_1ae1e16c1a83100a1ea23b05bfb1642283" prot="public" virt="non-virtual"><scope>Ms::BarLine</scope><name>setLinks</name></member>
+      <member refid="class_ms_1_1_element_1a49df2a43ee4c87d33b78c60cce70ff4e" prot="public" virt="non-virtual"><scope>Ms::BarLine</scope><name>setMag</name></member>
+      <member refid="class_ms_1_1_element_1a7b5cd12e550c5be0c4399a55c93d1ea9" prot="public" virt="non-virtual"><scope>Ms::BarLine</scope><name>setMinDistance</name></member>
+      <member refid="class_ms_1_1_element_1a7bb9bbbf1c501bf50adfa4508da42056" prot="public" virt="virtual"><scope>Ms::BarLine</scope><name>setOffset</name></member>
+      <member refid="class_ms_1_1_element_1acdc3b830bf0d9bfe501b182b28200c98" prot="public" virt="non-virtual"><scope>Ms::BarLine</scope><name>setOffset</name></member>
+      <member refid="class_ms_1_1_element_1a432e2033ca1c24ef8179458d1e604509" prot="public" virt="non-virtual"><scope>Ms::BarLine</scope><name>setOffsetChanged</name></member>
+      <member refid="class_ms_1_1_element_1aa7757f6d62dc28447706ee8eb12da5ec" prot="public" virt="non-virtual"><scope>Ms::BarLine</scope><name>setParent</name></member>
+      <member refid="class_ms_1_1_element_1ae13af03f0efac5348d139609cbadc826" prot="public" virt="non-virtual"><scope>Ms::BarLine</scope><name>setPlacement</name></member>
+      <member refid="class_ms_1_1_element_1a2a2ce2358cc23529d8f038a940062e62" prot="public" virt="non-virtual"><scope>Ms::BarLine</scope><name>setPos</name></member>
+      <member refid="class_ms_1_1_element_1ac7fcfee452c4de8e270aa6320365008c" prot="public" virt="non-virtual"><scope>Ms::BarLine</scope><name>setPos</name></member>
+      <member refid="class_ms_1_1_bar_line_1a86bdc0a1aa0004e87e4cb21c250a0070" prot="public" virt="virtual"><scope>Ms::BarLine</scope><name>setProperty</name></member>
+      <member refid="class_ms_1_1_score_element_1aceed92c262270a2a79d3f97d0f018a29" prot="public" virt="non-virtual"><scope>Ms::BarLine</scope><name>setPropertyFlags</name></member>
+      <member refid="class_ms_1_1_bar_line_1a857db7497c7b461ab31f26a9da14e43c" prot="public" virt="virtual"><scope>Ms::BarLine</scope><name>setScore</name></member>
+      <member refid="class_ms_1_1_element_1adfe1acfd98d816c02267b9d26a693618" prot="public" virt="non-virtual"><scope>Ms::BarLine</scope><name>setSelectable</name></member>
+      <member refid="class_ms_1_1_element_1aa7d9ce43d66fd04a403e2242051dd7a8" prot="public" virt="virtual"><scope>Ms::BarLine</scope><name>setSelected</name></member>
+      <member refid="class_ms_1_1_element_1ad76cff3c891435e058cd2ab572bcf9d3" prot="public" virt="non-virtual"><scope>Ms::BarLine</scope><name>setSizeIsSpatiumDependent</name></member>
+      <member refid="class_ms_1_1_bar_line_1ace73feaaf9969808f8fb12b4293679c3" prot="public" virt="non-virtual"><scope>Ms::BarLine</scope><name>setSpanFrom</name></member>
+      <member refid="class_ms_1_1_bar_line_1a165a0d0d24fa438f91c412c9af56fdea" prot="public" virt="non-virtual"><scope>Ms::BarLine</scope><name>setSpanStaff</name></member>
+      <member refid="class_ms_1_1_bar_line_1a5766114f45b5bedfa6a05e4913f04e53" prot="public" virt="non-virtual"><scope>Ms::BarLine</scope><name>setSpanTo</name></member>
+      <member refid="class_ms_1_1_element_1a2610a3ae6f4ce80c36a123fa7d1e33f2" prot="public" virt="non-virtual"><scope>Ms::BarLine</scope><name>setSystemFlag</name></member>
+      <member refid="class_ms_1_1_element_1a9b433e4368d19bc18b9d8cb4c41fe1d4" prot="public" virt="non-virtual"><scope>Ms::BarLine</scope><name>setTag</name></member>
+      <member refid="class_ms_1_1_bar_line_1a3904eeaa3759323daddb86b4e3e39552" prot="public" virt="virtual"><scope>Ms::BarLine</scope><name>setTrack</name></member>
+      <member refid="class_ms_1_1_element_1a304d88a7891a731cbfb8e5b0c2e8a5fc" prot="public" virt="non-virtual"><scope>Ms::BarLine</scope><name>setTrailer</name></member>
+      <member refid="class_ms_1_1_element_1a41438f8c28ffb2eb06d55de8360c1969" prot="public" virt="virtual"><scope>Ms::BarLine</scope><name>setVisible</name></member>
+      <member refid="class_ms_1_1_element_1a03037db721d985f097d7ca610f402850" prot="public" virt="non-virtual"><scope>Ms::BarLine</scope><name>setVoice</name></member>
+      <member refid="class_ms_1_1_element_1ae3346b5a7ad5893674afc28c9b0877ec" prot="public" virt="virtual"><scope>Ms::BarLine</scope><name>setWidth</name></member>
+      <member refid="class_ms_1_1_element_1a1a35bada3f70ea05096258aa18d74b3c" prot="public" virt="non-virtual"><scope>Ms::BarLine</scope><name>setZ</name></member>
+      <member refid="class_ms_1_1_bar_line_1a9601b3724d26474c212c203000d78065" prot="public" virt="virtual"><scope>Ms::BarLine</scope><name>shape</name></member>
+      <member refid="class_ms_1_1_element_1a3e3e415df166153ec434b9a143ad7744" prot="public" virt="virtual"><scope>Ms::BarLine</scope><name>sizeIsSpatiumDependent</name></member>
+      <member refid="class_ms_1_1_bar_line_1ac56dd4816709dd225bdd9acfa13ffd55" prot="public" virt="non-virtual"><scope>Ms::BarLine</scope><name>spanFrom</name></member>
+      <member refid="class_ms_1_1_bar_line_1a7332e4d26d16856a6f6b4972e98f3430" prot="public" virt="non-virtual"><scope>Ms::BarLine</scope><name>spanStaff</name></member>
+      <member refid="class_ms_1_1_bar_line_1aefa9d73d78644a7f4f678e732ba8ec21" prot="public" virt="non-virtual"><scope>Ms::BarLine</scope><name>spanTo</name></member>
+      <member refid="class_ms_1_1_element_1a9f375d79304c4cec5b45ea883c9efc86" prot="public" virt="non-virtual"><scope>Ms::BarLine</scope><name>spatium</name></member>
+      <member refid="class_ms_1_1_element_1a8198d208370c064154b2be113981cbda" prot="public" virt="virtual"><scope>Ms::BarLine</scope><name>spatiumChanged</name></member>
+      <member refid="class_ms_1_1_element_1a14581354d9bfc2c39c7dafbed79403da" prot="public" virt="non-virtual"><scope>Ms::BarLine</scope><name>staff</name></member>
+      <member refid="class_ms_1_1_element_1a3c37abb86b5dfb5b16fe74155154bab8" prot="public" virt="non-virtual"><scope>Ms::BarLine</scope><name>staffIdx</name></member>
+      <member refid="class_ms_1_1_element_1a3c2f8d8c52d96d1812733ec1669b576c" prot="public" virt="non-virtual"><scope>Ms::BarLine</scope><name>staffType</name></member>
+      <member refid="class_ms_1_1_element_1a7d1a4797b0aba5b63dbf254429d5fc5e" prot="public" virt="virtual"><scope>Ms::BarLine</scope><name>startDrag</name></member>
+      <member refid="class_ms_1_1_bar_line_1a6abe7049308a4a7cd8d8eb1bf853d5c8" prot="public" virt="virtual"><scope>Ms::BarLine</scope><name>startEdit</name></member>
+      <member refid="class_ms_1_1_element_1a0415a5b5710c311e92ba189e201c73c7" prot="public" virt="virtual"><scope>Ms::BarLine</scope><name>startEditDrag</name></member>
+      <member refid="class_ms_1_1_score_element_1abd7730432b512afc15873362a5414bad" prot="public" virt="virtual"><scope>Ms::BarLine</scope><name>styleChanged</name></member>
+      <member refid="class_ms_1_1_score_element_1a08e4c60af2466c57931724393f7bee4f" prot="public" virt="virtual"><scope>Ms::BarLine</scope><name>styledProperties</name></member>
+      <member refid="class_ms_1_1_element_1a31f9e63002b9f16ad6b4f35ba7a85bf4" prot="public" virt="non-virtual"><scope>Ms::BarLine</scope><name>styleP</name></member>
+      <member refid="class_ms_1_1_score_element_1a8a3670f26efa9a07e14695cee4512dc4" prot="public" virt="non-virtual"><scope>Ms::BarLine</scope><name>styleValue</name></member>
+      <member refid="class_ms_1_1_bar_line_1a4c44a3b2b5fe2b8f0f74cb7a640b76c5" prot="public" virt="virtual"><scope>Ms::BarLine</scope><name>subtype</name></member>
+      <member refid="class_ms_1_1_bar_line_1a99924a88477430f5ff83b31214b91a50" prot="public" virt="virtual"><scope>Ms::BarLine</scope><name>subtypeName</name></member>
+      <member refid="class_ms_1_1_element_1a1625813b59654991c24a9a10eb580f07" prot="public" virt="non-virtual"><scope>Ms::BarLine</scope><name>symAdvance</name></member>
+      <member refid="class_ms_1_1_element_1a70a8140969dcd988ed77e91c27b6a84f" prot="public" virt="non-virtual"><scope>Ms::BarLine</scope><name>symBbox</name></member>
+      <member refid="class_ms_1_1_element_1adad5f2c7a943687f0b3de2e896942898" prot="public" virt="non-virtual"><scope>Ms::BarLine</scope><name>symBbox</name></member>
+      <member refid="class_ms_1_1_element_1a984c5f0381896ac71fcf054d056bbe66" prot="public" virt="non-virtual"><scope>Ms::BarLine</scope><name>symCutOutNE</name></member>
+      <member refid="class_ms_1_1_element_1a545d8382d25c1402b0e46974ce84d444" prot="public" virt="non-virtual"><scope>Ms::BarLine</scope><name>symCutOutNW</name></member>
+      <member refid="class_ms_1_1_element_1af0b900ab6bb2674c1dcad1c5100fb4ee" prot="public" virt="non-virtual"><scope>Ms::BarLine</scope><name>symCutOutSE</name></member>
+      <member refid="class_ms_1_1_element_1a0cb9e0cf90c74e5b718e10f8a9a796da" prot="public" virt="non-virtual"><scope>Ms::BarLine</scope><name>symCutOutSW</name></member>
+      <member refid="class_ms_1_1_element_1ab3254b043c87dd338bfa6630c93e8e26" prot="public" virt="non-virtual"><scope>Ms::BarLine</scope><name>symHeight</name></member>
+      <member refid="class_ms_1_1_element_1a95c4ffee60af75b49f6e1c644db44493" prot="public" virt="non-virtual"><scope>Ms::BarLine</scope><name>symIsValid</name></member>
+      <member refid="class_ms_1_1_element_1a7c49ac344dd76c56fd51dad4287b79d5" prot="public" virt="non-virtual"><scope>Ms::BarLine</scope><name>symStemDownNW</name></member>
+      <member refid="class_ms_1_1_element_1a2526cc958a514c74daebfcdcc2dae7dc" prot="public" virt="non-virtual"><scope>Ms::BarLine</scope><name>symStemUpSE</name></member>
+      <member refid="class_ms_1_1_element_1adc45b084165da6ceb3afa7913d6a3feb" prot="public" virt="non-virtual"><scope>Ms::BarLine</scope><name>symWidth</name></member>
+      <member refid="class_ms_1_1_element_1a175d0a2254d83ee5f486123cb3ea2612" prot="public" virt="non-virtual"><scope>Ms::BarLine</scope><name>symWidth</name></member>
+      <member refid="class_ms_1_1_element_1a77c37605cf48595a7e6dc079722839c4" prot="public" virt="non-virtual"><scope>Ms::BarLine</scope><name>systemFlag</name></member>
+      <member refid="class_ms_1_1_element_1a31f5e22d38f84ff52c512857c52dd668" prot="public" virt="non-virtual"><scope>Ms::BarLine</scope><name>tag</name></member>
+      <member refid="class_ms_1_1_element_1a4cc362a42bad65483b59d3a8e0df374f" prot="public" virt="virtual"><scope>Ms::BarLine</scope><name>tick</name></member>
+      <member refid="class_ms_1_1_element_1ab4986d1b4f0d45b8e84cf52c46885c36" prot="public" virt="non-virtual"><scope>Ms::BarLine</scope><name>track</name></member>
+      <member refid="class_ms_1_1_element_1a868f0f5663dd1d7422c19700e070a4a6" prot="public" virt="non-virtual"><scope>Ms::BarLine</scope><name>trailer</name></member>
+      <member refid="class_ms_1_1_element_1ab28ffe83fb1064fb3c2a6fa648bca688" prot="public" virt="virtual"><scope>Ms::BarLine</scope><name>triggerLayout</name></member>
+      <member refid="class_ms_1_1_element_1a5fb627b3ef6f80967a432f86ad028117" prot="public" virt="virtual"><scope>Ms::BarLine</scope><name>triggerLayoutAll</name></member>
+      <member refid="class_ms_1_1_bar_line_1ae2896efb1eb21528f03a3ca18bb991aa" prot="public" virt="virtual"><scope>Ms::BarLine</scope><name>type</name></member>
+      <member refid="class_ms_1_1_bar_line_1a023fdaf51e5042c8ebef077c693fc2e5" prot="public" virt="virtual"><scope>Ms::BarLine</scope><name>undoChangeProperty</name></member>
+      <member refid="class_ms_1_1_bar_line_1af0505b234ccb7520a7d93ddd09ca4e1f" prot="public" virt="non-virtual"><scope>Ms::BarLine</scope><name>undoChangeProperty</name></member>
+      <member refid="class_ms_1_1_bar_line_1a4d0c98408c09304865fc3c9e011a9695" prot="public" virt="non-virtual"><scope>Ms::BarLine</scope><name>undoChangeProperty</name></member>
+      <member refid="class_ms_1_1_score_element_1a4d0c98408c09304865fc3c9e011a9695" prot="public" virt="non-virtual" ambiguityscope="Ms::ScoreElement::"><scope>Ms::BarLine</scope><name>undoChangeProperty</name></member>
+      <member refid="class_ms_1_1_score_element_1ab31ad4878a7d6e5c5acbd88e3232f2fb" prot="public" virt="non-virtual"><scope>Ms::BarLine</scope><name>undoPushProperty</name></member>
+      <member refid="class_ms_1_1_score_element_1a2f2ea7d6e1179cbb00f95689125482d0" prot="public" virt="non-virtual"><scope>Ms::BarLine</scope><name>undoResetProperty</name></member>
+      <member refid="class_ms_1_1_element_1aa9328fefa5648b5bc3f020b6cf481f38" prot="public" virt="non-virtual"><scope>Ms::BarLine</scope><name>undoSetColor</name></member>
+      <member refid="class_ms_1_1_element_1a4033806e37a8a0bd95f75e06fb6d1286" prot="public" virt="non-virtual"><scope>Ms::BarLine</scope><name>undoSetVisible</name></member>
+      <member refid="class_ms_1_1_score_element_1a994f2abd8df02a160c7055b0cae26c87" prot="public" virt="virtual"><scope>Ms::BarLine</scope><name>undoUnlink</name></member>
+      <member refid="class_ms_1_1_score_element_1a1d76afaf3ee463445961c3d981901be1" prot="public" virt="non-virtual"><scope>Ms::BarLine</scope><name>unlink</name></member>
+      <member refid="class_ms_1_1_element_1a2cbf6c48adfc2d3856a7670ce1a199da" prot="public" virt="non-virtual"><scope>Ms::BarLine</scope><name>updateGrips</name></member>
+      <member refid="class_ms_1_1_score_element_1acb1866df2e440923354fa5b1ee9d5f52" prot="public" virt="virtual"><scope>Ms::BarLine</scope><name>userName</name></member>
+      <member refid="class_ms_1_1_bar_line_1af6752231f69ebd62d2dd3d776db831ab" prot="public" virt="non-virtual"><scope>Ms::BarLine</scope><name>userTypeName</name></member>
+      <member refid="class_ms_1_1_element_1a9f91ce44289781c10fbaab9f5867d387" prot="public" virt="non-virtual"><scope>Ms::BarLine</scope><name>visible</name></member>
+      <member refid="class_ms_1_1_element_1a7e7ba0487a1113884ed218ba74c6a7d6" prot="public" virt="non-virtual"><scope>Ms::BarLine</scope><name>voice</name></member>
+      <member refid="class_ms_1_1_element_1ad1e0d3968ecafec4140aac087bd8fd99" prot="public" virt="virtual"><scope>Ms::BarLine</scope><name>vStaffIdx</name></member>
+      <member refid="class_ms_1_1_element_1abd781d11186d1951028a0efaf6d5cf5a" prot="public" virt="virtual"><scope>Ms::BarLine</scope><name>width</name></member>
+      <member refid="class_ms_1_1_bar_line_1a62f772fbeedb531ea6766b5a47cdc10e" prot="public" virt="virtual"><scope>Ms::BarLine</scope><name>write</name></member>
+      <member refid="class_ms_1_1_element_1a6d2d848ec99034b85e1a4e3b33857840" prot="public" virt="virtual"><scope>Ms::BarLine</scope><name>writeProperties</name></member>
+      <member refid="class_ms_1_1_score_element_1a4ae6e7e095b8f672951ffc30f980c45d" prot="public" virt="non-virtual"><scope>Ms::BarLine</scope><name>writeProperty</name></member>
+      <member refid="class_ms_1_1_score_element_1a7a3de180bd5a72ab3e27b7fbf9213567" prot="public" virt="non-virtual"><scope>Ms::BarLine</scope><name>writeStyledProperties</name></member>
+      <member refid="class_ms_1_1_element_1a6f850cd0581c46bee4661210b7a7777c" prot="public" virt="virtual"><scope>Ms::BarLine</scope><name>x</name></member>
+      <member refid="class_ms_1_1_element_1a30c056051bbce9e867a512b8cbc1f912" prot="public" virt="virtual"><scope>Ms::BarLine</scope><name>y</name></member>
+      <member refid="class_ms_1_1_bar_line_1a4e1389f508c73bd59077095967a25e7d" prot="private" virt="non-virtual"><scope>Ms::BarLine</scope><name>y1</name></member>
+      <member refid="class_ms_1_1_bar_line_1a1621153e3412c51e72bfcc5ec9994b8c" prot="private" virt="non-virtual"><scope>Ms::BarLine</scope><name>y2</name></member>
+      <member refid="class_ms_1_1_element_1a0e947d90ca39376fd98b995d34811126" prot="public" virt="non-virtual"><scope>Ms::BarLine</scope><name>z</name></member>
+      <member refid="class_ms_1_1_bar_line_1ad73fe9fde8c4bb11f07e5ebaf4ab0276" prot="public" virt="virtual"><scope>Ms::BarLine</scope><name>~BarLine</name></member>
+      <member refid="class_ms_1_1_element_1a1a5eff5e9b3d54d8e8207a7c594a1fc9" prot="public" virt="virtual"><scope>Ms::BarLine</scope><name>~Element</name></member>
+      <member refid="class_ms_1_1_score_element_1abc6cbffe99d185a7262f86be05cf6365" prot="public" virt="virtual"><scope>Ms::BarLine</scope><name>~ScoreElement</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

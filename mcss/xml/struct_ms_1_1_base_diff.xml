@@ -1,0 +1,230 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.17">
+  <compounddef id="struct_ms_1_1_base_diff" kind="struct" language="C++" prot="public" abstract="yes">
+    <compoundname>Ms::BaseDiff</compoundname>
+    <derivedcompoundref refid="struct_ms_1_1_context_change" prot="public" virt="non-virtual">Ms::ContextChange</derivedcompoundref>
+    <derivedcompoundref refid="struct_ms_1_1_element_diff" prot="public" virt="non-virtual">Ms::ElementDiff</derivedcompoundref>
+    <derivedcompoundref refid="struct_ms_1_1_markup_diff" prot="public" virt="non-virtual">Ms::MarkupDiff</derivedcompoundref>
+    <derivedcompoundref refid="struct_ms_1_1_property_diff" prot="public" virt="non-virtual">Ms::PropertyDiff</derivedcompoundref>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="struct_ms_1_1_base_diff_1a2ce24516de805c19edea076b9e188576" prot="public" static="no" mutable="no">
+        <type>DiffType</type>
+        <definition>DiffType Ms::BaseDiff::type</definition>
+        <argsstring></argsstring>
+        <name>type</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/scorediff.h" line="69" column="16" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/scorediff.h" bodystart="69" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_ms_1_1_base_diff_1ac6780db78851d6a9cc04d9f90222b291" prot="public" static="no" mutable="no">
+        <type>const <ref refid="struct_ms_1_1_text_diff" kindref="compound">TextDiff</ref> *</type>
+        <definition>const TextDiff* Ms::BaseDiff::textDiff</definition>
+        <argsstring></argsstring>
+        <name>textDiff</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/scorediff.h" line="70" column="22" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/scorediff.h" bodystart="70" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_ms_1_1_base_diff_1a9925548aca343e1574efb00d0e1e49d7" prot="public" static="no" mutable="no">
+        <type>const <ref refid="class_ms_1_1_score_element" kindref="compound">ScoreElement</ref> *</type>
+        <definition>const ScoreElement* Ms::BaseDiff::ctx[2]</definition>
+        <argsstring>[2]</argsstring>
+        <name>ctx</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/scorediff.h" line="71" column="26" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/scorediff.h" bodystart="71" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_ms_1_1_base_diff_1a574c2d2f057389cd3acca9c911b02967" prot="public" static="no" mutable="no">
+        <type>const <ref refid="class_ms_1_1_score_element" kindref="compound">ScoreElement</ref> *</type>
+        <definition>const ScoreElement* Ms::BaseDiff::before[2]</definition>
+        <argsstring>[2]</argsstring>
+        <name>before</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/scorediff.h" line="72" column="26" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/scorediff.h" bodystart="72" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="struct_ms_1_1_base_diff_1a134d71b28015b1b64a6171aad77277b8" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type></type>
+        <definition>virtual Ms::BaseDiff::~BaseDiff</definition>
+        <argsstring>()=default</argsstring>
+        <name>~BaseDiff</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/scorediff.h" line="74" column="15"/>
+      </memberdef>
+      <memberdef kind="function" id="struct_ms_1_1_base_diff_1a0560494e00c9b5c3242810cea0afe061" prot="public" static="no" const="yes" explicit="no" inline="no" virt="pure-virtual">
+        <type>ItemType</type>
+        <definition>virtual ItemType Ms::BaseDiff::itemType</definition>
+        <argsstring>() const =0</argsstring>
+        <name>itemType</name>
+        <reimplementedby refid="struct_ms_1_1_context_change_1a3a179f9ae685772846e92e21be3c1cb7">itemType</reimplementedby>
+        <reimplementedby refid="struct_ms_1_1_element_diff_1a4c874e270f1b41980f37cbd7ef307d63">itemType</reimplementedby>
+        <reimplementedby refid="struct_ms_1_1_property_diff_1a7e8e512b42db6db02e8504c04a317484">itemType</reimplementedby>
+        <reimplementedby refid="struct_ms_1_1_markup_diff_1a5dd1d71292cdefc08ae1ac9db81e8d03">itemType</reimplementedby>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/scorediff.h" line="76" column="24"/>
+      </memberdef>
+      <memberdef kind="function" id="struct_ms_1_1_base_diff_1a464ca5d0fd1aac60fdcabdd71575c6b9" prot="public" static="no" const="yes" explicit="no" inline="no" virt="virtual">
+        <type>bool</type>
+        <definition>bool Ms::BaseDiff::sameItem</definition>
+        <argsstring>(const BaseDiff &amp;) const</argsstring>
+        <name>sameItem</name>
+        <reimplementedby refid="struct_ms_1_1_element_diff_1ac53bee0fda9840afc3f0a0b6d36fec8f">sameItem</reimplementedby>
+        <reimplementedby refid="struct_ms_1_1_property_diff_1ad82dfce0973f732ea514d094bd553538">sameItem</reimplementedby>
+        <reimplementedby refid="struct_ms_1_1_markup_diff_1a7cb59e7afa4058cc5418ed10aa72754e">sameItem</reimplementedby>
+        <param>
+          <type>const <ref refid="struct_ms_1_1_base_diff" kindref="compound">BaseDiff</ref> &amp;</type>
+          <defname>other</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/scorediff.h" line="77" column="20" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/scorediff.cpp" bodystart="1270" bodyend="1282"/>
+      </memberdef>
+      <memberdef kind="function" id="struct_ms_1_1_base_diff_1a6fd563a4fb6b2d0531c9679d2ebf5a4d" prot="public" static="no" const="yes" explicit="no" inline="no" virt="virtual">
+        <type><ref refid="class_ms_1_1_fraction" kindref="compound">Fraction</ref></type>
+        <definition>Fraction Ms::BaseDiff::afrac</definition>
+        <argsstring>(int score) const</argsstring>
+        <name>afrac</name>
+        <reimplementedby refid="struct_ms_1_1_element_diff_1a90b3052f1bbf7095368bc68ad314bff3">afrac</reimplementedby>
+        <param>
+          <type>int</type>
+          <declname>score</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/scorediff.h" line="78" column="24" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/scorediff.cpp" bodystart="1289" bodyend="1304"/>
+      </memberdef>
+      <memberdef kind="function" id="struct_ms_1_1_base_diff_1a60a3283d5ad529033d7e9e833ce741b7" prot="public" static="no" const="yes" explicit="no" inline="no" virt="pure-virtual">
+        <type>QString</type>
+        <definition>virtual QString Ms::BaseDiff::toString</definition>
+        <argsstring>() const =0</argsstring>
+        <name>toString</name>
+        <reimplementedby refid="struct_ms_1_1_context_change_1a536f62cb05af1fb11701164eb63f32b1">toString</reimplementedby>
+        <reimplementedby refid="struct_ms_1_1_element_diff_1a5c5f526da0483f6c3a2d28597510b78a">toString</reimplementedby>
+        <reimplementedby refid="struct_ms_1_1_property_diff_1a42b067c8189b3d9f9855f84c60ae573f">toString</reimplementedby>
+        <reimplementedby refid="struct_ms_1_1_markup_diff_1a604e801d94ff708dfec62f28da55a18c">toString</reimplementedby>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/scorediff.h" line="79" column="23"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="4">
+        <label>Ms::MarkupDiff</label>
+        <link refid="struct_ms_1_1_markup_diff"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>Ms::BaseDiff</label>
+        <link refid="struct_ms_1_1_base_diff"/>
+      </node>
+      <node id="3">
+        <label>Ms::ElementDiff</label>
+        <link refid="struct_ms_1_1_element_diff"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>Ms::ContextChange</label>
+        <link refid="struct_ms_1_1_context_change"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="5">
+        <label>Ms::PropertyDiff</label>
+        <link refid="struct_ms_1_1_property_diff"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="5">
+        <label>QList&lt; ScoreElement * &gt;</label>
+      </node>
+      <node id="1">
+        <label>Ms::BaseDiff</label>
+        <link refid="struct_ms_1_1_base_diff"/>
+        <childnode refid="2" relation="usage">
+          <edgelabel>textDiff</edgelabel>
+        </childnode>
+        <childnode refid="3" relation="usage">
+          <edgelabel>ctx</edgelabel>
+          <edgelabel>before</edgelabel>
+        </childnode>
+      </node>
+      <node id="2">
+        <label>Ms::TextDiff</label>
+        <link refid="struct_ms_1_1_text_diff"/>
+      </node>
+      <node id="3">
+        <label>Ms::ScoreElement</label>
+        <link refid="class_ms_1_1_score_element"/>
+        <childnode refid="4" relation="usage">
+          <edgelabel>_links</edgelabel>
+        </childnode>
+      </node>
+      <node id="4">
+        <label>Ms::LinkedElements</label>
+        <link refid="class_ms_1_1_linked_elements"/>
+        <childnode refid="5" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/scorediff.h" line="68" column="15" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/scorediff.h" bodystart="68" bodyend="80"/>
+    <listofallmembers>
+      <member refid="struct_ms_1_1_base_diff_1a6fd563a4fb6b2d0531c9679d2ebf5a4d" prot="public" virt="virtual"><scope>Ms::BaseDiff</scope><name>afrac</name></member>
+      <member refid="struct_ms_1_1_base_diff_1a574c2d2f057389cd3acca9c911b02967" prot="public" virt="non-virtual"><scope>Ms::BaseDiff</scope><name>before</name></member>
+      <member refid="struct_ms_1_1_base_diff_1a9925548aca343e1574efb00d0e1e49d7" prot="public" virt="non-virtual"><scope>Ms::BaseDiff</scope><name>ctx</name></member>
+      <member refid="struct_ms_1_1_base_diff_1a0560494e00c9b5c3242810cea0afe061" prot="public" virt="pure-virtual"><scope>Ms::BaseDiff</scope><name>itemType</name></member>
+      <member refid="struct_ms_1_1_base_diff_1a464ca5d0fd1aac60fdcabdd71575c6b9" prot="public" virt="virtual"><scope>Ms::BaseDiff</scope><name>sameItem</name></member>
+      <member refid="struct_ms_1_1_base_diff_1ac6780db78851d6a9cc04d9f90222b291" prot="public" virt="non-virtual"><scope>Ms::BaseDiff</scope><name>textDiff</name></member>
+      <member refid="struct_ms_1_1_base_diff_1a60a3283d5ad529033d7e9e833ce741b7" prot="public" virt="pure-virtual"><scope>Ms::BaseDiff</scope><name>toString</name></member>
+      <member refid="struct_ms_1_1_base_diff_1a2ce24516de805c19edea076b9e188576" prot="public" virt="non-virtual"><scope>Ms::BaseDiff</scope><name>type</name></member>
+      <member refid="struct_ms_1_1_base_diff_1a134d71b28015b1b64a6171aad77277b8" prot="public" virt="virtual"><scope>Ms::BaseDiff</scope><name>~BaseDiff</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

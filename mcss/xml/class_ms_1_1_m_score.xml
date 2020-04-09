@@ -1,0 +1,1196 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.17">
+  <compounddef id="class_ms_1_1_m_score" kind="class" language="C++" prot="public">
+    <compoundname>Ms::MScore</compoundname>
+      <sectiondef kind="public-type">
+      <memberdef kind="enum" id="class_ms_1_1_m_score_1ac1a0c95bfede9e37dd3fd910905092b8" prot="public" static="no" strong="yes">
+        <type>char</type>
+        <name>DirectionH</name>
+        <enumvalue id="class_ms_1_1_m_score_1ac1a0c95bfede9e37dd3fd910905092b8ae1f2d5134ed2543d38a0de9751cf75d9" prot="public">
+          <name>AUTO</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="class_ms_1_1_m_score_1ac1a0c95bfede9e37dd3fd910905092b8a684d325a7303f52e64011467ff5c5758" prot="public">
+          <name>LEFT</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="class_ms_1_1_m_score_1ac1a0c95bfede9e37dd3fd910905092b8a21507b40c80068eda19865706fdc2403" prot="public">
+          <name>RIGHT</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/mscore.h" line="297" column="28" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/mscore.h" bodystart="297" bodyend="297"/>
+      </memberdef>
+      <memberdef kind="enum" id="class_ms_1_1_m_score_1a1a82a38a1280478b964ff18ae4a0e03c" prot="public" static="no" strong="yes">
+        <type>char</type>
+        <name>OrnamentStyle</name>
+        <enumvalue id="class_ms_1_1_m_score_1a1a82a38a1280478b964ff18ae4a0e03ca5b39c8b553c821e7cddc6da64b5bd2ee" prot="public">
+          <name>DEFAULT</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="class_ms_1_1_m_score_1a1a82a38a1280478b964ff18ae4a0e03ca2e354f8148d0388201b1af2dee9507e2" prot="public">
+          <name>BAROQUE</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/mscore.h" line="298" column="31" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/mscore.h" bodystart="298" bodyend="298"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-static-attrib">
+      <memberdef kind="variable" id="class_ms_1_1_m_score_1a6501be89e3fec5b20be52158754aeff1" prot="private" static="yes" mutable="no">
+        <type>Q_GADGET <ref refid="class_ms_1_1_m_style" kindref="compound">MStyle</ref></type>
+        <definition>MStyle Ms::MScore::_baseStyle</definition>
+        <argsstring></argsstring>
+        <name>_baseStyle</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/mscore.h" line="286" column="21" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/mscore.h" bodystart="286" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_ms_1_1_m_score_1a4d2456a44f505283d5307f09cdf1d8ff" prot="private" static="yes" mutable="no">
+        <type><ref refid="class_ms_1_1_m_style" kindref="compound">MStyle</ref></type>
+        <definition>MStyle Ms::MScore::_defaultStyle</definition>
+        <argsstring></argsstring>
+        <name>_defaultStyle</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/mscore.h" line="287" column="21" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/mscore.h" bodystart="287" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_ms_1_1_m_score_1a0fa6cdc0d2439f2b40bef39c167b0b30" prot="private" static="yes" mutable="no">
+        <type><ref refid="class_ms_1_1_m_style" kindref="compound">MStyle</ref> *</type>
+        <definition>MStyle * Ms::MScore::_defaultStyleForParts</definition>
+        <argsstring></argsstring>
+        <name>_defaultStyleForParts</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/mscore.h" line="288" column="21" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/mscore.h" bodystart="288" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_ms_1_1_m_score_1ae262561a436b6c076f0f2d989fcaf10a" prot="private" static="yes" mutable="no">
+        <type>QString</type>
+        <definition>QString Ms::MScore::_globalShare</definition>
+        <argsstring></argsstring>
+        <name>_globalShare</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/mscore.h" line="290" column="22" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/mscore.h" bodystart="290" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_ms_1_1_m_score_1a8100f20da29961329ca5a16cca424b14" prot="private" static="yes" mutable="no">
+        <type>int</type>
+        <definition>int Ms::MScore::_hRaster</definition>
+        <argsstring></argsstring>
+        <name>_hRaster</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/mscore.h" line="291" column="18" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/mscore.h" bodystart="291" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_ms_1_1_m_score_1a9059d17d5617838dd22bba662ae12794" prot="private" static="yes" mutable="no">
+        <type>int</type>
+        <definition>int Ms::MScore::_vRaster</definition>
+        <argsstring></argsstring>
+        <name>_vRaster</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/mscore.h" line="291" column="27" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/mscore.h" bodystart="291" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_ms_1_1_m_score_1a0abfdf8062a3eb8aa674c40bfb2168d3" prot="private" static="yes" mutable="no">
+        <type>bool</type>
+        <definition>bool Ms::MScore::_verticalOrientation</definition>
+        <argsstring></argsstring>
+        <name>_verticalOrientation</name>
+        <initializer>= false</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/mscore.h" line="292" column="19" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/mscore.h" bodystart="292" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_ms_1_1_m_score_1a251eb12c6e2786aab402f9041dc8ada3" prot="private" static="yes" mutable="no">
+        <type><ref refid="class_ms_1_1_m_paint_device" kindref="compound">MPaintDevice</ref> *</type>
+        <definition>MPaintDevice * Ms::MScore::_paintDevice</definition>
+        <argsstring></argsstring>
+        <name>_paintDevice</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/mscore.h" line="294" column="27" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/mscore.h" bodystart="294" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-static-attrib">
+      <memberdef kind="variable" id="class_ms_1_1_m_score_1a7490ecd88338d8ff3ffc39f5545171a4" prot="public" static="yes" mutable="no">
+        <type>MsError</type>
+        <definition>MsError Ms::MScore::_error</definition>
+        <argsstring></argsstring>
+        <name>_error</name>
+        <initializer>{ MS_NO_ERROR }</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/mscore.h" line="302" column="22" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/mscore.h" bodystart="302" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_ms_1_1_m_score_1a8ccedbbf51d98edfd8fd4c142716f1d4" prot="public" static="yes" mutable="no">
+        <type>std::vector&lt; <ref refid="struct_ms_1_1_m_score_error" kindref="compound">MScoreError</ref> &gt;</type>
+        <definition>std::vector&lt; MScoreError &gt; Ms::MScore::errorList</definition>
+        <argsstring></argsstring>
+        <name>errorList</name>
+        <initializer>{
+      { MS_NO_ERROR,                     0,    0                                                                           },
+
+      { NO_NOTE_SELECTED,                &quot;s1&quot;, QT_TRANSLATE_NOOP(&quot;error&quot;, &quot;No note selected:\nPlease select a note and retry&quot;)                     },
+      { NO_CHORD_REST_SELECTED,          &quot;s2&quot;, QT_TRANSLATE_NOOP(&quot;error&quot;, &quot;No chord/rest selected:\nPlease select a chord or rest and retry&quot;)      },
+      { NO_LYRICS_SELECTED,              &quot;s3&quot;, QT_TRANSLATE_NOOP(&quot;error&quot;, &quot;No note or lyrics selected:\nPlease select a note or lyrics and retry&quot;) },
+      { NO_NOTE_REST_SELECTED,           &quot;s4&quot;, QT_TRANSLATE_NOOP(&quot;error&quot;, &quot;No note or rest selected:\nPlease select a note or rest and retry&quot;)     },
+      { NO_FLIPPABLE_SELECTED,           &quot;s5&quot;, QT_TRANSLATE_NOOP(&quot;error&quot;, &quot;No flippable element selected:\nPlease select an element that can be flipped and retry&quot;) },
+      { NO_STAFF_SELECTED,               &quot;s6&quot;, QT_TRANSLATE_NOOP(&quot;error&quot;, &quot;No staff selected:\nPlease select one or more staves and retry&quot;)        },
+      { NO_NOTE_FIGUREDBASS_SELECTED,    &quot;s7&quot;, QT_TRANSLATE_NOOP(&quot;error&quot;, &quot;No note or figured bass selected:\nPlease select a note or figured bass and retry&quot;) },
+
+      { CANNOT_INSERT_TUPLET,            &quot;t1&quot;, QT_TRANSLATE_NOOP(&quot;error&quot;, &quot;Cannot insert chord/rest in tuplet&quot;)                                    },
+      { CANNOT_SPLIT_TUPLET,             &quot;t2&quot;, QT_TRANSLATE_NOOP(&quot;error&quot;, &quot;Cannot split tuplet&quot;)                                                   },
+      { CANNOT_SPLIT_MEASURE_FIRST_BEAT, &quot;m1&quot;, QT_TRANSLATE_NOOP(&quot;error&quot;, &quot;Cannot split measure here:\n&quot; &quot;First beat of measure&quot;)                  },
+      { CANNOT_SPLIT_MEASURE_TUPLET,     &quot;m2&quot;, QT_TRANSLATE_NOOP(&quot;error&quot;, &quot;Cannot split measure here:\n&quot; &quot;Cannot split tuplet&quot;)                    },
+
+      { NO_DEST,                         &quot;p1&quot;, QT_TRANSLATE_NOOP(&quot;error&quot;, &quot;No destination to paste&quot;)                                               },
+      { DEST_TUPLET,                     &quot;p2&quot;, QT_TRANSLATE_NOOP(&quot;error&quot;, &quot;Cannot paste into tuplet&quot;)                                              },
+      { TUPLET_CROSSES_BAR,              &quot;p3&quot;, QT_TRANSLATE_NOOP(&quot;error&quot;, &quot;<ref refid="class_ms_1_1_tuplet" kindref="compound">Tuplet</ref> cannot cross barlines&quot;)                                          },
+      { DEST_LOCAL_TIME_SIGNATURE,       &quot;p4&quot;, QT_TRANSLATE_NOOP(&quot;error&quot;, &quot;Cannot paste in local time signature&quot;)                                  },
+      { DEST_TREMOLO,                    &quot;p5&quot;, QT_TRANSLATE_NOOP(&quot;error&quot;, &quot;Cannot paste in tremolo&quot;)                                               },
+      { NO_MIME,                         &quot;p6&quot;, QT_TRANSLATE_NOOP(&quot;error&quot;, &quot;Nothing to paste&quot;)                                                      },
+      { DEST_NO_CR,                      &quot;p7&quot;, QT_TRANSLATE_NOOP(&quot;error&quot;, &quot;Destination is not a chord or rest&quot;)                                    },
+      { CANNOT_CHANGE_LOCAL_TIMESIG,     &quot;l1&quot;, QT_TRANSLATE_NOOP(&quot;error&quot;, &quot;Cannot change local time signature:\nMeasure is not empty&quot;)             },
+      }</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/mscore.h" line="303" column="26" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/mscore.h" bodystart="303" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_ms_1_1_m_score_1a3b562bf538e60923827bd0210a2656dc" prot="public" static="yes" mutable="no">
+        <type>QColor</type>
+        <definition>QColor Ms::MScore::selectColor</definition>
+        <argsstring>[VOICES]</argsstring>
+        <name>selectColor</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/mscore.h" line="327" column="21" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/mscore.h" bodystart="327" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_ms_1_1_m_score_1a6a9e251087207c0dffe19f77b9e8c9aa" prot="public" static="yes" mutable="no">
+        <type>QColor</type>
+        <definition>QColor Ms::MScore::defaultColor</definition>
+        <argsstring></argsstring>
+        <name>defaultColor</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/mscore.h" line="328" column="21" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/mscore.h" bodystart="328" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_ms_1_1_m_score_1a36af57bea24f717d3517a9d7e5d00e85" prot="public" static="yes" mutable="no">
+        <type>QColor</type>
+        <definition>QColor Ms::MScore::dropColor</definition>
+        <argsstring></argsstring>
+        <name>dropColor</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/mscore.h" line="329" column="21" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/mscore.h" bodystart="329" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_ms_1_1_m_score_1ad44cac08537f134bbb16b5a49a190ed9" prot="public" static="yes" mutable="no">
+        <type>QColor</type>
+        <definition>QColor Ms::MScore::layoutBreakColor</definition>
+        <argsstring></argsstring>
+        <name>layoutBreakColor</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/mscore.h" line="330" column="21" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/mscore.h" bodystart="330" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_ms_1_1_m_score_1ab56667808f0d632f2f7d6bfd1093e1f0" prot="public" static="yes" mutable="no">
+        <type>QColor</type>
+        <definition>QColor Ms::MScore::frameMarginColor</definition>
+        <argsstring></argsstring>
+        <name>frameMarginColor</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/mscore.h" line="331" column="21" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/mscore.h" bodystart="331" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_ms_1_1_m_score_1a25a281f50abe7cb55e81182c66c50d56" prot="public" static="yes" mutable="no">
+        <type>QColor</type>
+        <definition>QColor Ms::MScore::bgColor</definition>
+        <argsstring></argsstring>
+        <name>bgColor</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/mscore.h" line="332" column="21" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/mscore.h" bodystart="332" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_ms_1_1_m_score_1a18bcfe839ebcfbf64075ee2c7cf19b07" prot="public" static="yes" mutable="no">
+        <type>bool</type>
+        <definition>bool Ms::MScore::warnPitchRange</definition>
+        <argsstring></argsstring>
+        <name>warnPitchRange</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/mscore.h" line="333" column="19" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/mscore.h" bodystart="333" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_ms_1_1_m_score_1acd59214092212bd9e516b1fc7dcef127" prot="public" static="yes" mutable="no">
+        <type>bool</type>
+        <definition>bool Ms::MScore::playRepeats</definition>
+        <argsstring></argsstring>
+        <name>playRepeats</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/mscore.h" line="335" column="19" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/mscore.h" bodystart="335" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_ms_1_1_m_score_1a91c676bfa105043631b0995190c0449d" prot="public" static="yes" mutable="no">
+        <type>bool</type>
+        <definition>bool Ms::MScore::panPlayback</definition>
+        <argsstring></argsstring>
+        <name>panPlayback</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/mscore.h" line="336" column="19" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/mscore.h" bodystart="336" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_ms_1_1_m_score_1a8df15d21836a82f3655265f5a8b5e2ad" prot="public" static="yes" mutable="no">
+        <type>qreal</type>
+        <definition>qreal Ms::MScore::nudgeStep</definition>
+        <argsstring></argsstring>
+        <name>nudgeStep</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/mscore.h" line="337" column="20" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/mscore.h" bodystart="337" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_ms_1_1_m_score_1a69bdf5fa192ef7ce156a07497e67cda1" prot="public" static="yes" mutable="no">
+        <type>qreal</type>
+        <definition>qreal Ms::MScore::nudgeStep10</definition>
+        <argsstring></argsstring>
+        <name>nudgeStep10</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/mscore.h" line="338" column="20" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/mscore.h" bodystart="338" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_ms_1_1_m_score_1a0f5b69e1b9877413351975f4bef2b02e" prot="public" static="yes" mutable="no">
+        <type>qreal</type>
+        <definition>qreal Ms::MScore::nudgeStep50</definition>
+        <argsstring></argsstring>
+        <name>nudgeStep50</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/mscore.h" line="339" column="20" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/mscore.h" bodystart="339" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_ms_1_1_m_score_1a58ca4d37edf287ef1b41650a3b6fa83d" prot="public" static="yes" mutable="no">
+        <type>int</type>
+        <definition>int Ms::MScore::defaultPlayDuration</definition>
+        <argsstring></argsstring>
+        <name>defaultPlayDuration</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/mscore.h" line="340" column="18" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/mscore.h" bodystart="340" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_ms_1_1_m_score_1a683dccfc76e02ef932843d86f09a260f" prot="public" static="yes" mutable="no">
+        <type>QString</type>
+        <definition>QString Ms::MScore::lastError</definition>
+        <argsstring></argsstring>
+        <name>lastError</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/mscore.h" line="341" column="22" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/mscore.h" bodystart="341" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_ms_1_1_m_score_1a0df5f1a470654ab4cd89e148f2d6f14f" prot="public" static="yes" mutable="no">
+        <type>bool</type>
+        <definition>bool Ms::MScore::noHorizontalStretch</definition>
+        <argsstring></argsstring>
+        <name>noHorizontalStretch</name>
+        <initializer>= false</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/mscore.h" line="344" column="19" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/mscore.h" bodystart="344" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_ms_1_1_m_score_1a4a728f9ca94208b1b67962318eea1317" prot="public" static="yes" mutable="no">
+        <type>bool</type>
+        <definition>bool Ms::MScore::noVerticalStretch</definition>
+        <argsstring></argsstring>
+        <name>noVerticalStretch</name>
+        <initializer>= false</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/mscore.h" line="345" column="19" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/mscore.h" bodystart="345" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_ms_1_1_m_score_1a0a2c87368a022590120e2e25848d4320" prot="public" static="yes" mutable="no">
+        <type>bool</type>
+        <definition>bool Ms::MScore::showSegmentShapes</definition>
+        <argsstring></argsstring>
+        <name>showSegmentShapes</name>
+        <initializer>= false</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/mscore.h" line="346" column="19" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/mscore.h" bodystart="346" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_ms_1_1_m_score_1ae096be4858e62f8e63814d0f364b9180" prot="public" static="yes" mutable="no">
+        <type>bool</type>
+        <definition>bool Ms::MScore::showSkylines</definition>
+        <argsstring></argsstring>
+        <name>showSkylines</name>
+        <initializer>= false</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/mscore.h" line="347" column="19" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/mscore.h" bodystart="347" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_ms_1_1_m_score_1abc0c22a5e0b4f8567a5888ca6a54d9f5" prot="public" static="yes" mutable="no">
+        <type>bool</type>
+        <definition>bool Ms::MScore::showMeasureShapes</definition>
+        <argsstring></argsstring>
+        <name>showMeasureShapes</name>
+        <initializer>= false</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/mscore.h" line="348" column="19" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/mscore.h" bodystart="348" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_ms_1_1_m_score_1a0b36375e5c943b4dca91624f0cdd4c63" prot="public" static="yes" mutable="no">
+        <type>bool</type>
+        <definition>bool Ms::MScore::showBoundingRect</definition>
+        <argsstring></argsstring>
+        <name>showBoundingRect</name>
+        <initializer>= false</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/mscore.h" line="349" column="19" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/mscore.h" bodystart="349" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_ms_1_1_m_score_1adeb6788e9d1fa98ce1e3ebfeb686a72d" prot="public" static="yes" mutable="no">
+        <type>bool</type>
+        <definition>bool Ms::MScore::showSystemBoundingRect</definition>
+        <argsstring></argsstring>
+        <name>showSystemBoundingRect</name>
+        <initializer>= false</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/mscore.h" line="350" column="19" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/mscore.h" bodystart="350" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_ms_1_1_m_score_1a6dad4596647775c77a597679fb98cb45" prot="public" static="yes" mutable="no">
+        <type>bool</type>
+        <definition>bool Ms::MScore::showCorruptedMeasures</definition>
+        <argsstring></argsstring>
+        <name>showCorruptedMeasures</name>
+        <initializer>= true</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/mscore.h" line="351" column="19" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/mscore.h" bodystart="351" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_ms_1_1_m_score_1a8ced5e60a13414aea24dc6d2259c554d" prot="public" static="yes" mutable="no">
+        <type>bool</type>
+        <definition>bool Ms::MScore::useFallbackFont</definition>
+        <argsstring></argsstring>
+        <name>useFallbackFont</name>
+        <initializer>= true</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/mscore.h" line="352" column="19" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/mscore.h" bodystart="352" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_ms_1_1_m_score_1a58e52c0bece662fbd932efcee0ebdb67" prot="public" static="yes" mutable="no">
+        <type>bool</type>
+        <definition>bool Ms::MScore::debugMode</definition>
+        <argsstring></argsstring>
+        <name>debugMode</name>
+        <initializer>= false</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/mscore.h" line="354" column="19" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/mscore.h" bodystart="354" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_ms_1_1_m_score_1ad93fd73fac085b5e2bb5c582ba427e3a" prot="public" static="yes" mutable="no">
+        <type>bool</type>
+        <definition>bool Ms::MScore::testMode</definition>
+        <argsstring></argsstring>
+        <name>testMode</name>
+        <initializer>= false</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/mscore.h" line="355" column="19" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/mscore.h" bodystart="355" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_ms_1_1_m_score_1a11b6172fa0289a8eaad4b8f7b995f817" prot="public" static="yes" mutable="no">
+        <type>int</type>
+        <definition>int Ms::MScore::division</definition>
+        <argsstring></argsstring>
+        <name>division</name>
+        <initializer>= 480</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/mscore.h" line="357" column="18" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/mscore.h" bodystart="357" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_ms_1_1_m_score_1a5393be8c686d1d184a326a1b94ca729a" prot="public" static="yes" mutable="no">
+        <type>int</type>
+        <definition>int Ms::MScore::sampleRate</definition>
+        <argsstring></argsstring>
+        <name>sampleRate</name>
+        <initializer>= 44100</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/mscore.h" line="358" column="18" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/mscore.h" bodystart="358" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_ms_1_1_m_score_1a27cfdaee6ec32989784482cb8c57b542" prot="public" static="yes" mutable="no">
+        <type>int</type>
+        <definition>int Ms::MScore::mtcType</definition>
+        <argsstring></argsstring>
+        <name>mtcType</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/mscore.h" line="359" column="18" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/mscore.h" bodystart="359" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_ms_1_1_m_score_1a9f928e6b1fb12e31476d3803c3266f50" prot="public" static="yes" mutable="no">
+        <type><ref refid="class_ms_1_1_sequencer" kindref="compound">Sequencer</ref> *</type>
+        <definition>Sequencer * Ms::MScore::seq</definition>
+        <argsstring></argsstring>
+        <name>seq</name>
+        <initializer>= 0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/mscore.h" line="360" column="24" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/mscore.h" bodystart="360" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_ms_1_1_m_score_1a45e6ffe46ebc2a1abf6e13dad8e0b6e8" prot="public" static="yes" mutable="no">
+        <type>bool</type>
+        <definition>bool Ms::MScore::saveTemplateMode</definition>
+        <argsstring></argsstring>
+        <name>saveTemplateMode</name>
+        <initializer>= false</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/mscore.h" line="362" column="19" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/mscore.h" bodystart="362" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_ms_1_1_m_score_1a9c950cfa758403f9af31d34c0c9b4365" prot="public" static="yes" mutable="no">
+        <type>bool</type>
+        <definition>bool Ms::MScore::noGui</definition>
+        <argsstring></argsstring>
+        <name>noGui</name>
+        <initializer>= false</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/mscore.h" line="363" column="19" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/mscore.h" bodystart="363" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_ms_1_1_m_score_1a0cb65517ef44d2b90bcefe66547ee16e" prot="public" static="yes" mutable="no">
+        <type>bool</type>
+        <definition>bool Ms::MScore::noExcerpts</definition>
+        <argsstring></argsstring>
+        <name>noExcerpts</name>
+        <initializer>= false</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/mscore.h" line="365" column="19" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/mscore.h" bodystart="365" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_ms_1_1_m_score_1a9a28b716acfe47a8c35b0e961c60d88a" prot="public" static="yes" mutable="no">
+        <type>bool</type>
+        <definition>bool Ms::MScore::noImages</definition>
+        <argsstring></argsstring>
+        <name>noImages</name>
+        <initializer>= false</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/mscore.h" line="366" column="19" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/mscore.h" bodystart="366" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_ms_1_1_m_score_1a3555026e4d8dc5d2fed51058d373c24f" prot="public" static="yes" mutable="no">
+        <type>bool</type>
+        <definition>bool Ms::MScore::pdfPrinting</definition>
+        <argsstring></argsstring>
+        <name>pdfPrinting</name>
+        <initializer>= false</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/mscore.h" line="368" column="19" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/mscore.h" bodystart="368" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_ms_1_1_m_score_1a081bc830656be3f433757f73f11f9928" prot="public" static="yes" mutable="no">
+        <type>bool</type>
+        <definition>bool Ms::MScore::svgPrinting</definition>
+        <argsstring></argsstring>
+        <name>svgPrinting</name>
+        <initializer>= false</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/mscore.h" line="369" column="19" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/mscore.h" bodystart="369" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_ms_1_1_m_score_1ade52f115d27cf5954552facec70c5903" prot="public" static="yes" mutable="no">
+        <type>double</type>
+        <definition>double Ms::MScore::pixelRatio</definition>
+        <argsstring></argsstring>
+        <name>pixelRatio</name>
+        <initializer>= 0.8</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/mscore.h" line="370" column="21" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/mscore.h" bodystart="370" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_ms_1_1_m_score_1a2d1e149be3385c5540ef31af5d4fb20e" prot="public" static="yes" mutable="no">
+        <type>qreal</type>
+        <definition>qreal Ms::MScore::verticalPageGap</definition>
+        <argsstring></argsstring>
+        <name>verticalPageGap</name>
+        <initializer>= 5.0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/mscore.h" line="372" column="20" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/mscore.h" bodystart="372" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_ms_1_1_m_score_1ac9d042a7decd57dbcea04544594b33c1" prot="public" static="yes" mutable="no">
+        <type>qreal</type>
+        <definition>qreal Ms::MScore::horizontalPageGapEven</definition>
+        <argsstring></argsstring>
+        <name>horizontalPageGapEven</name>
+        <initializer>= 1.0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/mscore.h" line="373" column="20" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/mscore.h" bodystart="373" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_ms_1_1_m_score_1a4869cc8207f7c0ad6772120a1ec78c56" prot="public" static="yes" mutable="no">
+        <type>qreal</type>
+        <definition>qreal Ms::MScore::horizontalPageGapOdd</definition>
+        <argsstring></argsstring>
+        <name>horizontalPageGapOdd</name>
+        <initializer>= 50.0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/mscore.h" line="374" column="20" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/mscore.h" bodystart="374" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_ms_1_1_m_score_1ab82414a34ef044f924c4316a64a77f16" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>Ms::MScore::Q_ENUM</definition>
+        <argsstring>(DirectionH)</argsstring>
+        <name>Q_ENUM</name>
+        <param>
+          <type><ref refid="class_ms_1_1_m_score_1ac1a0c95bfede9e37dd3fd910905092b8" kindref="member">DirectionH</ref></type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/mscore.h" line="299" column="7"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ms_1_1_m_score_1a0a051c537e8165bf568023d2ca0d7b26" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>Ms::MScore::Q_ENUM</definition>
+        <argsstring>(OrnamentStyle)</argsstring>
+        <name>Q_ENUM</name>
+        <param>
+          <type><ref refid="class_ms_1_1_m_score_1a1a82a38a1280478b964ff18ae4a0e03c" kindref="member">OrnamentStyle</ref></type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/mscore.h" line="300" column="7"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="class_ms_1_1_m_score_1a5aa8d0420847a57b134f7f80311e2507" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Ms::MScore::init</definition>
+        <argsstring>()</argsstring>
+        <name>init</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/mscore.h" line="305" column="19" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/mscore.cpp" bodystart="235" bodyend="387"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ms_1_1_m_score_1a3763a735d428c8533682842799358238" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>const <ref refid="class_ms_1_1_m_style" kindref="compound">MStyle</ref> &amp;</type>
+        <definition>static const MStyle&amp; Ms::MScore::baseStyle</definition>
+        <argsstring>()</argsstring>
+        <name>baseStyle</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/mscore.h" line="307" column="27" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/mscore.h" bodystart="307" bodyend="307"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ms_1_1_m_score_1a5ab5ca32eec550d612d6459c587a98fe" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="class_ms_1_1_m_style" kindref="compound">MStyle</ref> &amp;</type>
+        <definition>static MStyle&amp; Ms::MScore::defaultStyle</definition>
+        <argsstring>()</argsstring>
+        <name>defaultStyle</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/mscore.h" line="308" column="21" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/mscore.h" bodystart="308" bodyend="308"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ms_1_1_m_score_1a77229f0e2dc2e58780c522b4f6f2dcc5" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>const <ref refid="class_ms_1_1_m_style" kindref="compound">MStyle</ref> *</type>
+        <definition>static const MStyle* Ms::MScore::defaultStyleForParts</definition>
+        <argsstring>()</argsstring>
+        <name>defaultStyleForParts</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/mscore.h" line="309" column="27" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/mscore.h" bodystart="309" bodyend="309"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ms_1_1_m_score_1ae8c3f8c677ea5100cc1db6f527c068d6" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool Ms::MScore::readDefaultStyle</definition>
+        <argsstring>(QString file)</argsstring>
+        <name>readDefaultStyle</name>
+        <param>
+          <type>QString</type>
+          <declname>file</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/mscore.h" line="311" column="19" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/mscore.cpp" bodystart="393" bodyend="406"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ms_1_1_m_score_1a729b06d11a8bd7e7a066b29f9376c59c" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void Ms::MScore::setDefaultStyle</definition>
+        <argsstring>(const MStyle &amp;s)</argsstring>
+        <name>setDefaultStyle</name>
+        <param>
+          <type>const <ref refid="class_ms_1_1_m_style" kindref="compound">MStyle</ref> &amp;</type>
+          <declname>s</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/mscore.h" line="312" column="19" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/mscore.h" bodystart="312" bodyend="312"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ms_1_1_m_score_1a09aa94a406d9a979685766606d937ff0" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Ms::MScore::defaultStyleForPartsHasChanged</definition>
+        <argsstring>()</argsstring>
+        <name>defaultStyleForPartsHasChanged</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/mscore.h" line="313" column="19" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/mscore.cpp" bodystart="412" bodyend="417"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ms_1_1_m_score_1ae940d0d808cb5abca9208f6d94267a6f" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>const QString &amp;</type>
+        <definition>static const QString&amp; Ms::MScore::globalShare</definition>
+        <argsstring>()</argsstring>
+        <name>globalShare</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/mscore.h" line="315" column="28" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/mscore.h" bodystart="315" bodyend="315"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ms_1_1_m_score_1a55f04966db77dd07ef717f6833317796" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>qreal</type>
+        <definition>static qreal Ms::MScore::hRaster</definition>
+        <argsstring>()</argsstring>
+        <name>hRaster</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/mscore.h" line="316" column="20" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/mscore.h" bodystart="316" bodyend="316"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ms_1_1_m_score_1a175bfbdaf46e45ac57c7b246fb91c4e2" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>qreal</type>
+        <definition>static qreal Ms::MScore::vRaster</definition>
+        <argsstring>()</argsstring>
+        <name>vRaster</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/mscore.h" line="317" column="20" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/mscore.h" bodystart="317" bodyend="317"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ms_1_1_m_score_1acfc35176c0f1ccb0446dd4e91eed2b4b" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void Ms::MScore::setHRaster</definition>
+        <argsstring>(int val)</argsstring>
+        <name>setHRaster</name>
+        <param>
+          <type>int</type>
+          <declname>val</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/mscore.h" line="318" column="19" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/mscore.h" bodystart="318" bodyend="318"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ms_1_1_m_score_1a236a0a1ad003ba0ce17a347d7cdeea1b" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void Ms::MScore::setVRaster</definition>
+        <argsstring>(int val)</argsstring>
+        <name>setVRaster</name>
+        <param>
+          <type>int</type>
+          <declname>val</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/mscore.h" line="319" column="19" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/mscore.h" bodystart="319" bodyend="319"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ms_1_1_m_score_1a3ec62d6e8d68d90851b775475cb969f1" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void Ms::MScore::setNudgeStep</definition>
+        <argsstring>(qreal val)</argsstring>
+        <name>setNudgeStep</name>
+        <param>
+          <type>qreal</type>
+          <declname>val</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/mscore.h" line="320" column="19" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/mscore.h" bodystart="320" bodyend="320"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ms_1_1_m_score_1ac6c3ad4f8aa315b2ecfe95b73b15f6b7" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void Ms::MScore::setNudgeStep10</definition>
+        <argsstring>(qreal val)</argsstring>
+        <name>setNudgeStep10</name>
+        <param>
+          <type>qreal</type>
+          <declname>val</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/mscore.h" line="321" column="19" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/mscore.h" bodystart="321" bodyend="321"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ms_1_1_m_score_1a3e4522b25066317e94a1ae6c22bdf2e4" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void Ms::MScore::setNudgeStep50</definition>
+        <argsstring>(qreal val)</argsstring>
+        <name>setNudgeStep50</name>
+        <param>
+          <type>qreal</type>
+          <declname>val</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/mscore.h" line="322" column="19" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/mscore.h" bodystart="322" bodyend="322"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ms_1_1_m_score_1aca131f1f53787e9bfa4fa5e3b564e7de" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>static bool Ms::MScore::verticalOrientation</definition>
+        <argsstring>()</argsstring>
+        <name>verticalOrientation</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/mscore.h" line="324" column="19" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/mscore.h" bodystart="324" bodyend="324"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ms_1_1_m_score_1a5a0d5b7ec683b134571a587b79a842bc" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void Ms::MScore::setVerticalOrientation</definition>
+        <argsstring>(bool val)</argsstring>
+        <name>setVerticalOrientation</name>
+        <param>
+          <type>bool</type>
+          <declname>val</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/mscore.h" line="325" column="19" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/mscore.h" bodystart="325" bodyend="325"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ms_1_1_m_score_1a6b0b97ce381816eb64ef0de55f40f4c3" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="class_ms_1_1_m_paint_device" kindref="compound">MPaintDevice</ref> *</type>
+        <definition>MPaintDevice * Ms::MScore::paintDevice</definition>
+        <argsstring>()</argsstring>
+        <name>paintDevice</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/mscore.h" line="376" column="27" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/mscore.cpp" bodystart="449" bodyend="454"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ms_1_1_m_score_1a5fc44789b80db3de16a23846532181d2" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void Ms::MScore::setError</definition>
+        <argsstring>(MsError e)</argsstring>
+        <name>setError</name>
+        <param>
+          <type>MsError</type>
+          <declname>e</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/mscore.h" line="378" column="19" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/mscore.h" bodystart="378" bodyend="378"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ms_1_1_m_score_1a200403032155d4102c22039c5eb65938" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>const char *</type>
+        <definition>const char * Ms::MScore::errorMessage</definition>
+        <argsstring>()</argsstring>
+        <name>errorMessage</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/mscore.h" line="379" column="25" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/mscore.cpp" bodystart="423" bodyend="430"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ms_1_1_m_score_1aefca0af45fce36236429d72df8fe8f90" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>const char *</type>
+        <definition>const char * Ms::MScore::errorGroup</definition>
+        <argsstring>()</argsstring>
+        <name>errorGroup</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/mscore.h" line="380" column="25" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/mscore.cpp" bodystart="436" bodyend="443"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="2">
+        <label>Ms::Sequencer</label>
+        <link refid="class_ms_1_1_sequencer"/>
+      </node>
+      <node id="1">
+        <label>Ms::MScore</label>
+        <link refid="class_ms_1_1_m_score"/>
+        <childnode refid="2" relation="usage">
+          <edgelabel>seq</edgelabel>
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/mscore.h" line="284" column="13" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/mscore.h" bodystart="284" bodyend="381"/>
+    <listofallmembers>
+      <member refid="class_ms_1_1_m_score_1a6501be89e3fec5b20be52158754aeff1" prot="private" virt="non-virtual"><scope>Ms::MScore</scope><name>_baseStyle</name></member>
+      <member refid="class_ms_1_1_m_score_1a4d2456a44f505283d5307f09cdf1d8ff" prot="private" virt="non-virtual"><scope>Ms::MScore</scope><name>_defaultStyle</name></member>
+      <member refid="class_ms_1_1_m_score_1a0fa6cdc0d2439f2b40bef39c167b0b30" prot="private" virt="non-virtual"><scope>Ms::MScore</scope><name>_defaultStyleForParts</name></member>
+      <member refid="class_ms_1_1_m_score_1a7490ecd88338d8ff3ffc39f5545171a4" prot="public" virt="non-virtual"><scope>Ms::MScore</scope><name>_error</name></member>
+      <member refid="class_ms_1_1_m_score_1ae262561a436b6c076f0f2d989fcaf10a" prot="private" virt="non-virtual"><scope>Ms::MScore</scope><name>_globalShare</name></member>
+      <member refid="class_ms_1_1_m_score_1a8100f20da29961329ca5a16cca424b14" prot="private" virt="non-virtual"><scope>Ms::MScore</scope><name>_hRaster</name></member>
+      <member refid="class_ms_1_1_m_score_1a251eb12c6e2786aab402f9041dc8ada3" prot="private" virt="non-virtual"><scope>Ms::MScore</scope><name>_paintDevice</name></member>
+      <member refid="class_ms_1_1_m_score_1a0abfdf8062a3eb8aa674c40bfb2168d3" prot="private" virt="non-virtual"><scope>Ms::MScore</scope><name>_verticalOrientation</name></member>
+      <member refid="class_ms_1_1_m_score_1a9059d17d5617838dd22bba662ae12794" prot="private" virt="non-virtual"><scope>Ms::MScore</scope><name>_vRaster</name></member>
+      <member refid="class_ms_1_1_m_score_1a3763a735d428c8533682842799358238" prot="public" virt="non-virtual"><scope>Ms::MScore</scope><name>baseStyle</name></member>
+      <member refid="class_ms_1_1_m_score_1a25a281f50abe7cb55e81182c66c50d56" prot="public" virt="non-virtual"><scope>Ms::MScore</scope><name>bgColor</name></member>
+      <member refid="class_ms_1_1_m_score_1a58e52c0bece662fbd932efcee0ebdb67" prot="public" virt="non-virtual"><scope>Ms::MScore</scope><name>debugMode</name></member>
+      <member refid="class_ms_1_1_m_score_1a6a9e251087207c0dffe19f77b9e8c9aa" prot="public" virt="non-virtual"><scope>Ms::MScore</scope><name>defaultColor</name></member>
+      <member refid="class_ms_1_1_m_score_1a58ca4d37edf287ef1b41650a3b6fa83d" prot="public" virt="non-virtual"><scope>Ms::MScore</scope><name>defaultPlayDuration</name></member>
+      <member refid="class_ms_1_1_m_score_1a5ab5ca32eec550d612d6459c587a98fe" prot="public" virt="non-virtual"><scope>Ms::MScore</scope><name>defaultStyle</name></member>
+      <member refid="class_ms_1_1_m_score_1a77229f0e2dc2e58780c522b4f6f2dcc5" prot="public" virt="non-virtual"><scope>Ms::MScore</scope><name>defaultStyleForParts</name></member>
+      <member refid="class_ms_1_1_m_score_1a09aa94a406d9a979685766606d937ff0" prot="public" virt="non-virtual"><scope>Ms::MScore</scope><name>defaultStyleForPartsHasChanged</name></member>
+      <member refid="class_ms_1_1_m_score_1ac1a0c95bfede9e37dd3fd910905092b8" prot="public" virt="non-virtual"><scope>Ms::MScore</scope><name>DirectionH</name></member>
+      <member refid="class_ms_1_1_m_score_1a11b6172fa0289a8eaad4b8f7b995f817" prot="public" virt="non-virtual"><scope>Ms::MScore</scope><name>division</name></member>
+      <member refid="class_ms_1_1_m_score_1a36af57bea24f717d3517a9d7e5d00e85" prot="public" virt="non-virtual"><scope>Ms::MScore</scope><name>dropColor</name></member>
+      <member refid="class_ms_1_1_m_score_1aefca0af45fce36236429d72df8fe8f90" prot="public" virt="non-virtual"><scope>Ms::MScore</scope><name>errorGroup</name></member>
+      <member refid="class_ms_1_1_m_score_1a8ccedbbf51d98edfd8fd4c142716f1d4" prot="public" virt="non-virtual"><scope>Ms::MScore</scope><name>errorList</name></member>
+      <member refid="class_ms_1_1_m_score_1a200403032155d4102c22039c5eb65938" prot="public" virt="non-virtual"><scope>Ms::MScore</scope><name>errorMessage</name></member>
+      <member refid="class_ms_1_1_m_score_1ab56667808f0d632f2f7d6bfd1093e1f0" prot="public" virt="non-virtual"><scope>Ms::MScore</scope><name>frameMarginColor</name></member>
+      <member refid="class_ms_1_1_m_score_1ae940d0d808cb5abca9208f6d94267a6f" prot="public" virt="non-virtual"><scope>Ms::MScore</scope><name>globalShare</name></member>
+      <member refid="class_ms_1_1_m_score_1ac9d042a7decd57dbcea04544594b33c1" prot="public" virt="non-virtual"><scope>Ms::MScore</scope><name>horizontalPageGapEven</name></member>
+      <member refid="class_ms_1_1_m_score_1a4869cc8207f7c0ad6772120a1ec78c56" prot="public" virt="non-virtual"><scope>Ms::MScore</scope><name>horizontalPageGapOdd</name></member>
+      <member refid="class_ms_1_1_m_score_1a55f04966db77dd07ef717f6833317796" prot="public" virt="non-virtual"><scope>Ms::MScore</scope><name>hRaster</name></member>
+      <member refid="class_ms_1_1_m_score_1a5aa8d0420847a57b134f7f80311e2507" prot="public" virt="non-virtual"><scope>Ms::MScore</scope><name>init</name></member>
+      <member refid="class_ms_1_1_m_score_1a683dccfc76e02ef932843d86f09a260f" prot="public" virt="non-virtual"><scope>Ms::MScore</scope><name>lastError</name></member>
+      <member refid="class_ms_1_1_m_score_1ad44cac08537f134bbb16b5a49a190ed9" prot="public" virt="non-virtual"><scope>Ms::MScore</scope><name>layoutBreakColor</name></member>
+      <member refid="class_ms_1_1_m_score_1a27cfdaee6ec32989784482cb8c57b542" prot="public" virt="non-virtual"><scope>Ms::MScore</scope><name>mtcType</name></member>
+      <member refid="class_ms_1_1_m_score_1a0cb65517ef44d2b90bcefe66547ee16e" prot="public" virt="non-virtual"><scope>Ms::MScore</scope><name>noExcerpts</name></member>
+      <member refid="class_ms_1_1_m_score_1a9c950cfa758403f9af31d34c0c9b4365" prot="public" virt="non-virtual"><scope>Ms::MScore</scope><name>noGui</name></member>
+      <member refid="class_ms_1_1_m_score_1a0df5f1a470654ab4cd89e148f2d6f14f" prot="public" virt="non-virtual"><scope>Ms::MScore</scope><name>noHorizontalStretch</name></member>
+      <member refid="class_ms_1_1_m_score_1a9a28b716acfe47a8c35b0e961c60d88a" prot="public" virt="non-virtual"><scope>Ms::MScore</scope><name>noImages</name></member>
+      <member refid="class_ms_1_1_m_score_1a4a728f9ca94208b1b67962318eea1317" prot="public" virt="non-virtual"><scope>Ms::MScore</scope><name>noVerticalStretch</name></member>
+      <member refid="class_ms_1_1_m_score_1a8df15d21836a82f3655265f5a8b5e2ad" prot="public" virt="non-virtual"><scope>Ms::MScore</scope><name>nudgeStep</name></member>
+      <member refid="class_ms_1_1_m_score_1a69bdf5fa192ef7ce156a07497e67cda1" prot="public" virt="non-virtual"><scope>Ms::MScore</scope><name>nudgeStep10</name></member>
+      <member refid="class_ms_1_1_m_score_1a0f5b69e1b9877413351975f4bef2b02e" prot="public" virt="non-virtual"><scope>Ms::MScore</scope><name>nudgeStep50</name></member>
+      <member refid="class_ms_1_1_m_score_1a1a82a38a1280478b964ff18ae4a0e03c" prot="public" virt="non-virtual"><scope>Ms::MScore</scope><name>OrnamentStyle</name></member>
+      <member refid="class_ms_1_1_m_score_1a6b0b97ce381816eb64ef0de55f40f4c3" prot="public" virt="non-virtual"><scope>Ms::MScore</scope><name>paintDevice</name></member>
+      <member refid="class_ms_1_1_m_score_1a91c676bfa105043631b0995190c0449d" prot="public" virt="non-virtual"><scope>Ms::MScore</scope><name>panPlayback</name></member>
+      <member refid="class_ms_1_1_m_score_1a3555026e4d8dc5d2fed51058d373c24f" prot="public" virt="non-virtual"><scope>Ms::MScore</scope><name>pdfPrinting</name></member>
+      <member refid="class_ms_1_1_m_score_1ade52f115d27cf5954552facec70c5903" prot="public" virt="non-virtual"><scope>Ms::MScore</scope><name>pixelRatio</name></member>
+      <member refid="class_ms_1_1_m_score_1acd59214092212bd9e516b1fc7dcef127" prot="public" virt="non-virtual"><scope>Ms::MScore</scope><name>playRepeats</name></member>
+      <member refid="class_ms_1_1_m_score_1ab82414a34ef044f924c4316a64a77f16" prot="public" virt="non-virtual"><scope>Ms::MScore</scope><name>Q_ENUM</name></member>
+      <member refid="class_ms_1_1_m_score_1a0a051c537e8165bf568023d2ca0d7b26" prot="public" virt="non-virtual"><scope>Ms::MScore</scope><name>Q_ENUM</name></member>
+      <member refid="class_ms_1_1_m_score_1ae8c3f8c677ea5100cc1db6f527c068d6" prot="public" virt="non-virtual"><scope>Ms::MScore</scope><name>readDefaultStyle</name></member>
+      <member refid="class_ms_1_1_m_score_1a5393be8c686d1d184a326a1b94ca729a" prot="public" virt="non-virtual"><scope>Ms::MScore</scope><name>sampleRate</name></member>
+      <member refid="class_ms_1_1_m_score_1a45e6ffe46ebc2a1abf6e13dad8e0b6e8" prot="public" virt="non-virtual"><scope>Ms::MScore</scope><name>saveTemplateMode</name></member>
+      <member refid="class_ms_1_1_m_score_1a3b562bf538e60923827bd0210a2656dc" prot="public" virt="non-virtual"><scope>Ms::MScore</scope><name>selectColor</name></member>
+      <member refid="class_ms_1_1_m_score_1a9f928e6b1fb12e31476d3803c3266f50" prot="public" virt="non-virtual"><scope>Ms::MScore</scope><name>seq</name></member>
+      <member refid="class_ms_1_1_m_score_1a729b06d11a8bd7e7a066b29f9376c59c" prot="public" virt="non-virtual"><scope>Ms::MScore</scope><name>setDefaultStyle</name></member>
+      <member refid="class_ms_1_1_m_score_1a5fc44789b80db3de16a23846532181d2" prot="public" virt="non-virtual"><scope>Ms::MScore</scope><name>setError</name></member>
+      <member refid="class_ms_1_1_m_score_1acfc35176c0f1ccb0446dd4e91eed2b4b" prot="public" virt="non-virtual"><scope>Ms::MScore</scope><name>setHRaster</name></member>
+      <member refid="class_ms_1_1_m_score_1a3ec62d6e8d68d90851b775475cb969f1" prot="public" virt="non-virtual"><scope>Ms::MScore</scope><name>setNudgeStep</name></member>
+      <member refid="class_ms_1_1_m_score_1ac6c3ad4f8aa315b2ecfe95b73b15f6b7" prot="public" virt="non-virtual"><scope>Ms::MScore</scope><name>setNudgeStep10</name></member>
+      <member refid="class_ms_1_1_m_score_1a3e4522b25066317e94a1ae6c22bdf2e4" prot="public" virt="non-virtual"><scope>Ms::MScore</scope><name>setNudgeStep50</name></member>
+      <member refid="class_ms_1_1_m_score_1a5a0d5b7ec683b134571a587b79a842bc" prot="public" virt="non-virtual"><scope>Ms::MScore</scope><name>setVerticalOrientation</name></member>
+      <member refid="class_ms_1_1_m_score_1a236a0a1ad003ba0ce17a347d7cdeea1b" prot="public" virt="non-virtual"><scope>Ms::MScore</scope><name>setVRaster</name></member>
+      <member refid="class_ms_1_1_m_score_1a0b36375e5c943b4dca91624f0cdd4c63" prot="public" virt="non-virtual"><scope>Ms::MScore</scope><name>showBoundingRect</name></member>
+      <member refid="class_ms_1_1_m_score_1a6dad4596647775c77a597679fb98cb45" prot="public" virt="non-virtual"><scope>Ms::MScore</scope><name>showCorruptedMeasures</name></member>
+      <member refid="class_ms_1_1_m_score_1abc0c22a5e0b4f8567a5888ca6a54d9f5" prot="public" virt="non-virtual"><scope>Ms::MScore</scope><name>showMeasureShapes</name></member>
+      <member refid="class_ms_1_1_m_score_1a0a2c87368a022590120e2e25848d4320" prot="public" virt="non-virtual"><scope>Ms::MScore</scope><name>showSegmentShapes</name></member>
+      <member refid="class_ms_1_1_m_score_1ae096be4858e62f8e63814d0f364b9180" prot="public" virt="non-virtual"><scope>Ms::MScore</scope><name>showSkylines</name></member>
+      <member refid="class_ms_1_1_m_score_1adeb6788e9d1fa98ce1e3ebfeb686a72d" prot="public" virt="non-virtual"><scope>Ms::MScore</scope><name>showSystemBoundingRect</name></member>
+      <member refid="class_ms_1_1_m_score_1a081bc830656be3f433757f73f11f9928" prot="public" virt="non-virtual"><scope>Ms::MScore</scope><name>svgPrinting</name></member>
+      <member refid="class_ms_1_1_m_score_1ad93fd73fac085b5e2bb5c582ba427e3a" prot="public" virt="non-virtual"><scope>Ms::MScore</scope><name>testMode</name></member>
+      <member refid="class_ms_1_1_m_score_1a8ced5e60a13414aea24dc6d2259c554d" prot="public" virt="non-virtual"><scope>Ms::MScore</scope><name>useFallbackFont</name></member>
+      <member refid="class_ms_1_1_m_score_1aca131f1f53787e9bfa4fa5e3b564e7de" prot="public" virt="non-virtual"><scope>Ms::MScore</scope><name>verticalOrientation</name></member>
+      <member refid="class_ms_1_1_m_score_1a2d1e149be3385c5540ef31af5d4fb20e" prot="public" virt="non-virtual"><scope>Ms::MScore</scope><name>verticalPageGap</name></member>
+      <member refid="class_ms_1_1_m_score_1a175bfbdaf46e45ac57c7b246fb91c4e2" prot="public" virt="non-virtual"><scope>Ms::MScore</scope><name>vRaster</name></member>
+      <member refid="class_ms_1_1_m_score_1a18bcfe839ebcfbf64075ee2c7cf19b07" prot="public" virt="non-virtual"><scope>Ms::MScore</scope><name>warnPitchRange</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

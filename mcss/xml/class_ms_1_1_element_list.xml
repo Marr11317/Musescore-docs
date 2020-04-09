@@ -1,0 +1,132 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.17">
+  <compounddef id="class_ms_1_1_element_list" kind="class" language="C++" prot="public">
+    <compoundname>Ms::ElementList</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">std::vector&lt; Element * &gt;</basecompoundref>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_ms_1_1_element_list_1a1b45139ab50cb116bf310cb517665311" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>Ms::ElementList::ElementList</definition>
+        <argsstring>()</argsstring>
+        <name>ElementList</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/element.h" line="531" column="7" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/element.h" bodystart="531" bodyend="531"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ms_1_1_element_list_1ace6e9dd48aaec6c43014153b4697d9e3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool Ms::ElementList::remove</definition>
+        <argsstring>(Element *)</argsstring>
+        <name>remove</name>
+        <param>
+          <type><ref refid="class_ms_1_1_element" kindref="compound">Element</ref> *</type>
+          <defname>el</defname>
+        </param>
+        <briefdescription>
+<para>Remove <emphasis>el</emphasis> from the list. Return true on success. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/element.h" line="532" column="12" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/element.cpp" bodystart="767" bodyend="774"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ms_1_1_element_list_1a99e20c925f2d459920dbb423b5f34259" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Ms::ElementList::replace</definition>
+        <argsstring>(Element *old, Element *n)</argsstring>
+        <name>replace</name>
+        <param>
+          <type><ref refid="class_ms_1_1_element" kindref="compound">Element</ref> *</type>
+          <declname>old</declname>
+        </param>
+        <param>
+          <type><ref refid="class_ms_1_1_element" kindref="compound">Element</ref> *</type>
+          <declname>n</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/element.h" line="533" column="12" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/element.cpp" bodystart="780" bodyend="788"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ms_1_1_element_list_1ac8e864e4d80cdfe3bbe33bfd7d56e486" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Ms::ElementList::write</definition>
+        <argsstring>(XmlWriter &amp;) const</argsstring>
+        <name>write</name>
+        <param>
+          <type><ref refid="class_ms_1_1_xml_writer" kindref="compound">XmlWriter</ref> &amp;</type>
+          <defname>xml</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/element.h" line="534" column="12" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/element.cpp" bodystart="794" bodyend="798"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ms_1_1_element_list_1a3c44c6c04703e058ef6966e4eb0de05f" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Ms::ElementList::write</definition>
+        <argsstring>(XmlWriter &amp;, const char *name) const</argsstring>
+        <name>write</name>
+        <param>
+          <type><ref refid="class_ms_1_1_xml_writer" kindref="compound">XmlWriter</ref> &amp;</type>
+        </param>
+        <param>
+          <type>const char *</type>
+          <declname>name</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/element.h" line="535" column="12"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>Ms::ElementList</label>
+        <link refid="class_ms_1_1_element_list"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>std::vector&lt; Element * &gt;</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>Ms::ElementList</label>
+        <link refid="class_ms_1_1_element_list"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>std::vector&lt; Element * &gt;</label>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/element.h" line="529" column="38" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/element.h" bodystart="529" bodyend="536"/>
+    <listofallmembers>
+      <member refid="class_ms_1_1_element_list_1a1b45139ab50cb116bf310cb517665311" prot="public" virt="non-virtual"><scope>Ms::ElementList</scope><name>ElementList</name></member>
+      <member refid="class_ms_1_1_element_list_1ace6e9dd48aaec6c43014153b4697d9e3" prot="public" virt="non-virtual"><scope>Ms::ElementList</scope><name>remove</name></member>
+      <member refid="class_ms_1_1_element_list_1a99e20c925f2d459920dbb423b5f34259" prot="public" virt="non-virtual"><scope>Ms::ElementList</scope><name>replace</name></member>
+      <member refid="class_ms_1_1_element_list_1ac8e864e4d80cdfe3bbe33bfd7d56e486" prot="public" virt="non-virtual"><scope>Ms::ElementList</scope><name>write</name></member>
+      <member refid="class_ms_1_1_element_list_1a3c44c6c04703e058ef6966e4eb0de05f" prot="public" virt="non-virtual"><scope>Ms::ElementList</scope><name>write</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

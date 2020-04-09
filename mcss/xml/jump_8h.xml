@@ -1,0 +1,144 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.17">
+  <compounddef id="jump_8h" kind="file" language="C++">
+    <compoundname>jump.h</compoundname>
+    <includes refid="text_8h" local="yes">text.h</includes>
+    <includedby refid="element_8cpp" local="yes">C:/Users/main/Documents/GitHub/MuseScore/libmscore/element.cpp</includedby>
+    <includedby refid="jump_8cpp" local="yes">C:/Users/main/Documents/GitHub/MuseScore/libmscore/jump.cpp</includedby>
+    <includedby refid="mscore_8cpp" local="yes">C:/Users/main/Documents/GitHub/MuseScore/libmscore/mscore.cpp</includedby>
+    <includedby refid="read114_8cpp" local="yes">C:/Users/main/Documents/GitHub/MuseScore/libmscore/read114.cpp</includedby>
+    <includedby refid="repeatlist_8cpp" local="yes">C:/Users/main/Documents/GitHub/MuseScore/libmscore/repeatlist.cpp</includedby>
+    <includedby refid="textbase_8cpp" local="yes">C:/Users/main/Documents/GitHub/MuseScore/libmscore/textbase.cpp</includedby>
+    <incdepgraph>
+      <node id="9">
+        <label>style.h</label>
+        <link refid="style_8h_source"/>
+        <childnode refid="10" relation="include">
+        </childnode>
+        <childnode refid="11" relation="include">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>C:/Users/main/Documents/GitHub/MuseScore/libmscore/jump.h</label>
+        <link refid="jump_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+      </node>
+      <node id="6">
+        <label>fraction.h</label>
+        <link refid="fraction_8h_source"/>
+        <childnode refid="7" relation="include">
+        </childnode>
+        <childnode refid="8" relation="include">
+        </childnode>
+      </node>
+      <node id="10">
+        <label>chordlist.h</label>
+        <link refid="chordlist_8h_source"/>
+      </node>
+      <node id="2">
+        <label>text.h</label>
+        <link refid="text_8h_source"/>
+        <childnode refid="3" relation="include">
+        </childnode>
+      </node>
+      <node id="4">
+        <label>element.h</label>
+        <link refid="element_8h_source"/>
+        <childnode refid="5" relation="include">
+        </childnode>
+        <childnode refid="6" relation="include">
+        </childnode>
+        <childnode refid="12" relation="include">
+        </childnode>
+        <childnode refid="13" relation="include">
+        </childnode>
+      </node>
+      <node id="13">
+        <label>shape.h</label>
+        <link refid="shape_8h_source"/>
+      </node>
+      <node id="5">
+        <label>spatium.h</label>
+        <link refid="spatium_8h_source"/>
+      </node>
+      <node id="3">
+        <label>textbase.h</label>
+        <link refid="textbase_8h_source"/>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="14" relation="include">
+        </childnode>
+        <childnode refid="9" relation="include">
+        </childnode>
+      </node>
+      <node id="11">
+        <label>types.h</label>
+        <link refid="types_8h_source"/>
+        <childnode refid="7" relation="include">
+        </childnode>
+      </node>
+      <node id="8">
+        <label>mscore.h</label>
+        <link refid="mscore_8h_source"/>
+        <childnode refid="7" relation="include">
+        </childnode>
+        <childnode refid="9" relation="include">
+        </childnode>
+      </node>
+      <node id="12">
+        <label>scoreElement.h</label>
+        <link refid="score_element_8h_source"/>
+        <childnode refid="11" relation="include">
+        </childnode>
+        <childnode refid="9" relation="include">
+        </childnode>
+      </node>
+      <node id="14">
+        <label>property.h</label>
+        <link refid="property_8h_source"/>
+      </node>
+      <node id="7">
+        <label>config.h</label>
+      </node>
+    </incdepgraph>
+    <invincdepgraph>
+      <node id="1">
+        <label>C:/Users/main/Documents/GitHub/MuseScore/libmscore/jump.h</label>
+        <link refid="jump_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>C:/Users/main/Documents/GitHub/MuseScore/libmscore/element.cpp</label>
+        <link refid="element_8cpp"/>
+      </node>
+    </invincdepgraph>
+    <innerclass refid="class_ms_1_1_jump" prot="public">Ms::Jump</innerclass>
+    <innerclass refid="struct_ms_1_1_jump_type_table" prot="public">Ms::JumpTypeTable</innerclass>
+    <innernamespace refid="namespace_ms">Ms</innernamespace>
+      <sectiondef kind="func">
+      <memberdef kind="function" id="jump_8h_1a29b25f3cb9013b4072e6229a721c782c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>Q_DECLARE_METATYPE</definition>
+        <argsstring>(Ms::Jump::Type)</argsstring>
+        <name>Q_DECLARE_METATYPE</name>
+        <param>
+          <type>Ms::Jump::Type</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/jump.h" line="104" column="1" declfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/jump.h" declline="104" declcolumn="1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/jump.h"/>
+  </compounddef>
+</doxygen>

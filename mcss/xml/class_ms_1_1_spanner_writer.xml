@@ -1,0 +1,213 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.17">
+  <compounddef id="class_ms_1_1_spanner_writer" kind="class" language="C++" prot="public">
+    <compoundname>Ms::SpannerWriter</compoundname>
+    <basecompoundref refid="class_ms_1_1_connector_info_writer" prot="public" virt="non-virtual">Ms::ConnectorInfoWriter</basecompoundref>
+      <sectiondef kind="protected-func">
+      <memberdef kind="function" id="class_ms_1_1_spanner_writer_1aa84df59f4b4a371bc0c43341a989650b" prot="protected" static="no" const="yes" explicit="no" inline="yes" virt="virtual">
+        <type>const char *</type>
+        <definition>const char* Ms::SpannerWriter::tagName</definition>
+        <argsstring>() const override</argsstring>
+        <name>tagName</name>
+        <reimplements refid="class_ms_1_1_connector_info_writer_1aa68a8993b34d4162ccde1667d5cdb094">tagName</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/spanner.cpp" line="35" column="18" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/spanner.cpp" bodystart="35" bodyend="35"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_ms_1_1_spanner_writer_1a70c14d7e01f2b94b3ff8824f70dcd368" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>Ms::SpannerWriter::SpannerWriter</definition>
+        <argsstring>(XmlWriter &amp;xml, const Element *current, const Spanner *spanner, int track, Fraction frac, bool start)</argsstring>
+        <name>SpannerWriter</name>
+        <param>
+          <type><ref refid="class_ms_1_1_xml_writer" kindref="compound">XmlWriter</ref> &amp;</type>
+          <declname>xml</declname>
+        </param>
+        <param>
+          <type>const <ref refid="class_ms_1_1_element" kindref="compound">Element</ref> *</type>
+          <declname>current</declname>
+        </param>
+        <param>
+          <type>const <ref refid="class_ms_1_1_spanner" kindref="compound">Spanner</ref> *</type>
+          <declname>spanner</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>track</declname>
+        </param>
+        <param>
+          <type><ref refid="class_ms_1_1_fraction" kindref="compound">Fraction</ref></type>
+          <declname>frac</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>start</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/spanner.cpp" line="37" column="7" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/spanner.cpp" bodystart="1370" bodyend="1404"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="class_ms_1_1_spanner_writer_1aa675a05c31d852845e86dd651e1c3c28" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Ms::SpannerWriter::fillSpannerPosition</definition>
+        <argsstring>(Location &amp;l, const MeasureBase *endpoint, const Fraction &amp;tick, bool clipboardmode)</argsstring>
+        <name>fillSpannerPosition</name>
+        <param>
+          <type><ref refid="class_ms_1_1_location" kindref="compound">Location</ref> &amp;</type>
+          <declname>l</declname>
+        </param>
+        <param>
+          <type>const <ref refid="class_ms_1_1_measure_base" kindref="compound">MeasureBase</ref> *</type>
+          <declname>endpoint</declname>
+        </param>
+        <param>
+          <type>const <ref refid="class_ms_1_1_fraction" kindref="compound">Fraction</ref> &amp;</type>
+          <declname>tick</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>clipboardmode</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/spanner.cpp" line="39" column="19" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/spanner.cpp" bodystart="1348" bodyend="1364"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Helper class for writing Spanners. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>Ms::ConnectorInfoWriter</label>
+        <link refid="class_ms_1_1_connector_info_writer"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>Ms::ConnectorInfo</label>
+        <link refid="class_ms_1_1_connector_info"/>
+      </node>
+      <node id="1">
+        <label>Ms::SpannerWriter</label>
+        <link refid="class_ms_1_1_spanner_writer"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>Ms::ConnectorInfoWriter</label>
+        <link refid="class_ms_1_1_connector_info_writer"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="5" relation="usage">
+          <edgelabel>_connector</edgelabel>
+        </childnode>
+      </node>
+      <node id="8">
+        <label>QList&lt; ScoreElement * &gt;</label>
+      </node>
+      <node id="3">
+        <label>Ms::ConnectorInfo</label>
+        <link refid="class_ms_1_1_connector_info"/>
+        <childnode refid="4" relation="usage">
+          <edgelabel>_nextLoc</edgelabel>
+          <edgelabel>_prevLoc</edgelabel>
+          <edgelabel>_currentLoc</edgelabel>
+        </childnode>
+        <childnode refid="3" relation="usage">
+          <edgelabel>_prev</edgelabel>
+          <edgelabel>_next</edgelabel>
+        </childnode>
+      </node>
+      <node id="6">
+        <label>Ms::ScoreElement</label>
+        <link refid="class_ms_1_1_score_element"/>
+        <childnode refid="7" relation="usage">
+          <edgelabel>_links</edgelabel>
+        </childnode>
+      </node>
+      <node id="7">
+        <label>Ms::LinkedElements</label>
+        <link refid="class_ms_1_1_linked_elements"/>
+        <childnode refid="8" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>Ms::SpannerWriter</label>
+        <link refid="class_ms_1_1_spanner_writer"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="5">
+        <label>Ms::Element</label>
+        <link refid="class_ms_1_1_element"/>
+        <childnode refid="6" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="4">
+        <label>Ms::Location</label>
+        <link refid="class_ms_1_1_location"/>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/spanner.cpp" line="33" column="47" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/spanner.cpp" bodystart="33" bodyend="40"/>
+    <listofallmembers>
+      <member refid="class_ms_1_1_connector_info_writer_1a809cc952f60542cc82fdad62137e8c81" prot="protected" virt="non-virtual"><scope>Ms::SpannerWriter</scope><name>_connector</name></member>
+      <member refid="class_ms_1_1_connector_info_1aab0597f472df593d388b70456100e5fd" prot="protected" virt="non-virtual"><scope>Ms::SpannerWriter</scope><name>_currentLoc</name></member>
+      <member refid="class_ms_1_1_connector_info_1a2905228a8a36636c8ef06c7e5fc985a8" prot="protected" virt="non-virtual"><scope>Ms::SpannerWriter</scope><name>_next</name></member>
+      <member refid="class_ms_1_1_connector_info_1a69f5760d0f557c56484f40c0ad3c49a1" prot="protected" virt="non-virtual"><scope>Ms::SpannerWriter</scope><name>_nextLoc</name></member>
+      <member refid="class_ms_1_1_connector_info_1aff17bc100920b8616729358f5bb02379" prot="protected" virt="non-virtual"><scope>Ms::SpannerWriter</scope><name>_prev</name></member>
+      <member refid="class_ms_1_1_connector_info_1a2c99a173d1a0fbc43c687ad726dbbf25" prot="protected" virt="non-virtual"><scope>Ms::SpannerWriter</scope><name>_prevLoc</name></member>
+      <member refid="class_ms_1_1_connector_info_1a8717926a1bd0470587949a1e8c3702d3" prot="protected" virt="non-virtual"><scope>Ms::SpannerWriter</scope><name>_type</name></member>
+      <member refid="class_ms_1_1_connector_info_1a0dd2078b5a9d747815e61be20b8d11ff" prot="public" virt="non-virtual"><scope>Ms::SpannerWriter</scope><name>connect</name></member>
+      <member refid="class_ms_1_1_connector_info_1a6b43bdec59e0fe7369a25e256a750d10" prot="public" virt="non-virtual"><scope>Ms::SpannerWriter</scope><name>connectionDistance</name></member>
+      <member refid="class_ms_1_1_connector_info_writer_1aa17a0e23e91ac305e1d6618843112ff7" prot="public" virt="non-virtual"><scope>Ms::SpannerWriter</scope><name>connector</name></member>
+      <member refid="class_ms_1_1_connector_info_1ac6c91f9fa35643efcd7cd7170a78e57a" prot="public" virt="non-virtual"><scope>Ms::SpannerWriter</scope><name>ConnectorInfo</name></member>
+      <member refid="class_ms_1_1_connector_info_1a2b896505b084deb704711c6d76b7578f" prot="public" virt="non-virtual"><scope>Ms::SpannerWriter</scope><name>ConnectorInfo</name></member>
+      <member refid="class_ms_1_1_connector_info_writer_1a3a93174f47b7153e3be91aa4724b3cae" prot="public" virt="non-virtual"><scope>Ms::SpannerWriter</scope><name>ConnectorInfoWriter</name></member>
+      <member refid="class_ms_1_1_connector_info_1aff4f0bcb93449d8b63c2a91ace0d32d7" prot="protected" virt="non-virtual"><scope>Ms::SpannerWriter</scope><name>currentUpdated</name></member>
+      <member refid="class_ms_1_1_connector_info_1a0e2bedcf1060635cf0d8e4ea6a82666d" prot="public" virt="non-virtual"><scope>Ms::SpannerWriter</scope><name>end</name></member>
+      <member refid="class_ms_1_1_spanner_writer_1aa675a05c31d852845e86dd651e1c3c28" prot="public" virt="non-virtual"><scope>Ms::SpannerWriter</scope><name>fillSpannerPosition</name></member>
+      <member refid="class_ms_1_1_connector_info_1a3c4db4898aec66fda08e298016d4c6c3" prot="protected" virt="non-virtual"><scope>Ms::SpannerWriter</scope><name>findFirst</name></member>
+      <member refid="class_ms_1_1_connector_info_1a67a5edb108a229da29c242de7249454f" prot="protected" virt="non-virtual"><scope>Ms::SpannerWriter</scope><name>findFirst</name></member>
+      <member refid="class_ms_1_1_connector_info_1a89f26c9ed03fae0d53b94c1a3e3978f8" prot="protected" virt="non-virtual"><scope>Ms::SpannerWriter</scope><name>findLast</name></member>
+      <member refid="class_ms_1_1_connector_info_1a4e54867fd7ddaebfec9e34db2bc41f56" prot="protected" virt="non-virtual"><scope>Ms::SpannerWriter</scope><name>findLast</name></member>
+      <member refid="class_ms_1_1_connector_info_1aa17145f5aab3720d88b425c3ac294d2f" prot="public" virt="non-virtual"><scope>Ms::SpannerWriter</scope><name>finished</name></member>
+      <member refid="class_ms_1_1_connector_info_1ab09c14f574ef27a9479a1ebd35fa442d" prot="public" virt="non-virtual"><scope>Ms::SpannerWriter</scope><name>forceConnect</name></member>
+      <member refid="class_ms_1_1_connector_info_1ab037fea7df8a6be9a88118bd2f266317" prot="public" virt="non-virtual"><scope>Ms::SpannerWriter</scope><name>hasNext</name></member>
+      <member refid="class_ms_1_1_connector_info_1a6b5333899fed93f5f2f2920f6fb5ca51" prot="public" virt="non-virtual"><scope>Ms::SpannerWriter</scope><name>hasPrevious</name></member>
+      <member refid="class_ms_1_1_connector_info_1a07346ecc733f815b2e8600224f349321" prot="public" virt="non-virtual"><scope>Ms::SpannerWriter</scope><name>isEnd</name></member>
+      <member refid="class_ms_1_1_connector_info_1a02e65534b7808b08fdc044c38ccf6b25" prot="public" virt="non-virtual"><scope>Ms::SpannerWriter</scope><name>isMiddle</name></member>
+      <member refid="class_ms_1_1_connector_info_1a354ac221a0e69bfc19dae36d20b66085" prot="public" virt="non-virtual"><scope>Ms::SpannerWriter</scope><name>isStart</name></member>
+      <member refid="class_ms_1_1_connector_info_1ab5d7ba02564de631e482aea5a3174a46" prot="public" virt="non-virtual"><scope>Ms::SpannerWriter</scope><name>location</name></member>
+      <member refid="class_ms_1_1_connector_info_writer_1afef4a870b11a0a606f80ee1766e44010" prot="public" virt="non-virtual"><scope>Ms::SpannerWriter</scope><name>next</name></member>
+      <member refid="class_ms_1_1_connector_info_writer_1a16d410d0edd8846fd4072eb9124a79fa" prot="public" virt="non-virtual"><scope>Ms::SpannerWriter</scope><name>prev</name></member>
+      <member refid="class_ms_1_1_connector_info_1aaf7cd6cfbab92d7e6405b0d756085736" prot="protected" virt="non-virtual"><scope>Ms::SpannerWriter</scope><name>setCurrentUpdated</name></member>
+      <member refid="class_ms_1_1_spanner_writer_1a70c14d7e01f2b94b3ff8824f70dcd368" prot="public" virt="non-virtual"><scope>Ms::SpannerWriter</scope><name>SpannerWriter</name></member>
+      <member refid="class_ms_1_1_connector_info_1aa2abe336c58a7047257636dca2091707" prot="public" virt="non-virtual"><scope>Ms::SpannerWriter</scope><name>start</name></member>
+      <member refid="class_ms_1_1_spanner_writer_1aa84df59f4b4a371bc0c43341a989650b" prot="protected" virt="virtual"><scope>Ms::SpannerWriter</scope><name>tagName</name></member>
+      <member refid="class_ms_1_1_connector_info_1a5aab8aa8e6f79162a1db656b559f065c" prot="public" virt="non-virtual"><scope>Ms::SpannerWriter</scope><name>type</name></member>
+      <member refid="class_ms_1_1_connector_info_1a1ae6f85c3f76423708eec4e8b31b6e91" prot="protected" virt="non-virtual"><scope>Ms::SpannerWriter</scope><name>updateCurrentInfo</name></member>
+      <member refid="class_ms_1_1_connector_info_1adf1d4b87bf54e320867dd91c5d682c8f" prot="protected" virt="non-virtual"><scope>Ms::SpannerWriter</scope><name>updateLocation</name></member>
+      <member refid="class_ms_1_1_connector_info_writer_1a8ecb8f1c4e36db6d192d17a5a61e0e47" prot="public" virt="non-virtual"><scope>Ms::SpannerWriter</scope><name>write</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

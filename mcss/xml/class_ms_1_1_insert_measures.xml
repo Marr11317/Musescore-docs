@@ -1,0 +1,128 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.17">
+  <compounddef id="class_ms_1_1_insert_measures" kind="class" language="C++" prot="public">
+    <compoundname>Ms::InsertMeasures</compoundname>
+    <basecompoundref refid="class_ms_1_1_insert_remove_measures" prot="public" virt="non-virtual">Ms::InsertRemoveMeasures</basecompoundref>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_ms_1_1_insert_measures_1a1bd61119f8b196c0b48f2bca725d6423" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>Ms::InsertMeasures::InsertMeasures</definition>
+        <argsstring>(MeasureBase *m1, MeasureBase *m2)</argsstring>
+        <name>InsertMeasures</name>
+        <param>
+          <type><ref refid="class_ms_1_1_measure_base" kindref="compound">MeasureBase</ref> *</type>
+          <declname>m1</declname>
+        </param>
+        <param>
+          <type><ref refid="class_ms_1_1_measure_base" kindref="compound">MeasureBase</ref> *</type>
+          <declname>m2</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/undo.h" line="798" column="7" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/undo.h" bodystart="798" bodyend="798"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ms_1_1_insert_measures_1a45216b6e3c7478f36c5d6b49a3533cb3" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>void</type>
+        <definition>virtual void Ms::InsertMeasures::redo</definition>
+        <argsstring>(EditData *) override</argsstring>
+        <name>redo</name>
+        <reimplements refid="class_ms_1_1_insert_remove_measures_1a3d99a1621960ff25d8219829c9a53aed">redo</reimplements>
+        <param>
+          <type><ref refid="class_ms_1_1_edit_data" kindref="compound">EditData</ref> *</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/undo.h" line="799" column="20" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/undo.h" bodystart="799" bodyend="799"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ms_1_1_insert_measures_1a5af3fa88bd1dba004d98eebb8fe49a0c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>void</type>
+        <definition>virtual void Ms::InsertMeasures::undo</definition>
+        <argsstring>(EditData *) override</argsstring>
+        <name>undo</name>
+        <reimplements refid="class_ms_1_1_insert_remove_measures_1a06c6c5af6a2a5c6486133505aa90cefc">undo</reimplements>
+        <param>
+          <type><ref refid="class_ms_1_1_edit_data" kindref="compound">EditData</ref> *</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/undo.h" line="800" column="20" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/undo.h" bodystart="800" bodyend="800"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>Ms::InsertMeasures</label>
+        <link refid="class_ms_1_1_insert_measures"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>Ms::InsertRemoveMeasures</label>
+        <link refid="class_ms_1_1_insert_remove_measures"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>Ms::UndoCommand</label>
+        <link refid="class_ms_1_1_undo_command"/>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>Ms::InsertMeasures</label>
+        <link refid="class_ms_1_1_insert_measures"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>Ms::InsertRemoveMeasures</label>
+        <link refid="class_ms_1_1_insert_remove_measures"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>Ms::UndoCommand</label>
+        <link refid="class_ms_1_1_undo_command"/>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/undo.h" line="795" column="49" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/undo.h" bodystart="795" bodyend="802"/>
+    <listofallmembers>
+      <member refid="class_ms_1_1_undo_command_1a0f5b568325d235501e5cc197b7a4d4c8" prot="public" virt="non-virtual"><scope>Ms::InsertMeasures</scope><name>appendChild</name></member>
+      <member refid="class_ms_1_1_undo_command_1adbc9ce586560a1ca06f83bb38d04c4f0" prot="protected" virt="non-virtual"><scope>Ms::InsertMeasures</scope><name>appendChildren</name></member>
+      <member refid="class_ms_1_1_undo_command_1a701d710e19f4d356f2b12d093729d295" prot="public" virt="non-virtual"><scope>Ms::InsertMeasures</scope><name>childCount</name></member>
+      <member refid="class_ms_1_1_undo_command_1a0bbdf4bc79885d76228b155599fb46ce" prot="public" virt="virtual"><scope>Ms::InsertMeasures</scope><name>cleanup</name></member>
+      <member refid="class_ms_1_1_undo_command_1a4cdbb50e02a38b3c0b259e8bb6b58bca" prot="public" virt="non-virtual"><scope>Ms::InsertMeasures</scope><name>commands</name></member>
+      <member refid="class_ms_1_1_undo_command_1a7c3fae86b0c593d95eb2acf44348b425" prot="public" virt="non-virtual"><scope>Ms::InsertMeasures</scope><name>Filter</name></member>
+      <member refid="class_ms_1_1_undo_command_1a850e4c72c907bce1aed4b7d318ddf626" prot="public" virt="non-virtual"><scope>Ms::InsertMeasures</scope><name>filterChildren</name></member>
+      <member refid="class_ms_1_1_undo_command_1a861162fe6c105a00dfec5a5b70a690a5" prot="protected" virt="virtual"><scope>Ms::InsertMeasures</scope><name>flip</name></member>
+      <member refid="class_ms_1_1_undo_command_1a09b5c550fffd0dfe1e38490c7f0de8e4" prot="public" virt="non-virtual"><scope>Ms::InsertMeasures</scope><name>hasFilteredChildren</name></member>
+      <member refid="class_ms_1_1_undo_command_1a7131c9beb9c694ef3f0d8235f4e2892a" prot="public" virt="non-virtual"><scope>Ms::InsertMeasures</scope><name>hasUnfilteredChildren</name></member>
+      <member refid="class_ms_1_1_insert_remove_measures_1a74188d4c5e242a0af662962b89a45c98" prot="protected" virt="non-virtual"><scope>Ms::InsertMeasures</scope><name>insertMeasures</name></member>
+      <member refid="class_ms_1_1_insert_measures_1a1bd61119f8b196c0b48f2bca725d6423" prot="public" virt="non-virtual"><scope>Ms::InsertMeasures</scope><name>InsertMeasures</name></member>
+      <member refid="class_ms_1_1_insert_remove_measures_1abb984d3fcc23f0fef294f177157b7b77" prot="public" virt="non-virtual"><scope>Ms::InsertMeasures</scope><name>InsertRemoveMeasures</name></member>
+      <member refid="class_ms_1_1_undo_command_1a7e84d54e5b22eeeb9646c8a86fc2a0cb" prot="public" virt="virtual"><scope>Ms::InsertMeasures</scope><name>isFiltered</name></member>
+      <member refid="class_ms_1_1_undo_command_1acdd15da86ef5878bc98ef2be084cc4be" prot="public" virt="virtual"><scope>Ms::InsertMeasures</scope><name>name</name></member>
+      <member refid="class_ms_1_1_insert_measures_1a45216b6e3c7478f36c5d6b49a3533cb3" prot="public" virt="virtual"><scope>Ms::InsertMeasures</scope><name>redo</name></member>
+      <member refid="class_ms_1_1_undo_command_1ad645cbed278b04cea2164006b52c4d8f" prot="public" virt="non-virtual"><scope>Ms::InsertMeasures</scope><name>removeChild</name></member>
+      <member refid="class_ms_1_1_insert_remove_measures_1a283cd7cd46d0a3694ed199a976f5f3c2" prot="protected" virt="non-virtual"><scope>Ms::InsertMeasures</scope><name>removeMeasures</name></member>
+      <member refid="class_ms_1_1_insert_measures_1a5af3fa88bd1dba004d98eebb8fe49a0c" prot="public" virt="virtual"><scope>Ms::InsertMeasures</scope><name>undo</name></member>
+      <member refid="class_ms_1_1_undo_command_1abc893037b5a33408c25552b8579debe4" prot="public" virt="non-virtual"><scope>Ms::InsertMeasures</scope><name>unwind</name></member>
+      <member refid="class_ms_1_1_undo_command_1ad4aec6e8dbb0e92bd2b8be2ebd79b9df" prot="public" virt="virtual"><scope>Ms::InsertMeasures</scope><name>~UndoCommand</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

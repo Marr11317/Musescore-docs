@@ -1,0 +1,400 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.17">
+  <compounddef id="class_ms_1_1_time_sig_map" kind="class" language="C++" prot="public">
+    <compoundname>Ms::TimeSigMap</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">std::map&lt; int, SigEvent &gt;</basecompoundref>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_ms_1_1_time_sig_map_1afb72148a6a9a4378c0c17e1a0ffd9986" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Ms::TimeSigMap::normalize</definition>
+        <argsstring>()</argsstring>
+        <name>normalize</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/sig.h" line="128" column="12" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/sig.cpp" bodystart="253" bodyend="268"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_ms_1_1_time_sig_map_1abe288e60adbb9242e5ec2a02b578c4bc" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>Ms::TimeSigMap::TimeSigMap</definition>
+        <argsstring>()</argsstring>
+        <name>TimeSigMap</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/sig.h" line="131" column="7" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/sig.h" bodystart="131" bodyend="131"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ms_1_1_time_sig_map_1ab28a244540f71d1d6092610c1e31eb7c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Ms::TimeSigMap::add</definition>
+        <argsstring>(int tick, const Fraction &amp;)</argsstring>
+        <name>add</name>
+        <param>
+          <type>int</type>
+          <declname>tick</declname>
+        </param>
+        <param>
+          <type>const <ref refid="class_ms_1_1_fraction" kindref="compound">Fraction</ref> &amp;</type>
+          <defname>f</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/sig.h" line="133" column="12" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/sig.cpp" bodystart="208" bodyend="215"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ms_1_1_time_sig_map_1a844cab1137a71f0b453acac4580c9ffe" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Ms::TimeSigMap::add</definition>
+        <argsstring>(int tick, const SigEvent &amp;ev)</argsstring>
+        <name>add</name>
+        <param>
+          <type>int</type>
+          <declname>tick</declname>
+        </param>
+        <param>
+          <type>const <ref refid="class_ms_1_1_sig_event" kindref="compound">SigEvent</ref> &amp;</type>
+          <declname>ev</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/sig.h" line="134" column="12" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/sig.cpp" bodystart="217" bodyend="221"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ms_1_1_time_sig_map_1a850ee5a9b794085024e68a0987018da8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Ms::TimeSigMap::del</definition>
+        <argsstring>(int tick)</argsstring>
+        <name>del</name>
+        <param>
+          <type>int</type>
+          <declname>tick</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/sig.h" line="136" column="12" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/sig.cpp" bodystart="227" bodyend="231"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ms_1_1_time_sig_map_1a7e55e9297df1a3580e47b1b60e1242db" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Ms::TimeSigMap::clearRange</definition>
+        <argsstring>(int tick1, int tick2)</argsstring>
+        <name>clearRange</name>
+        <param>
+          <type>int</type>
+          <declname>tick1</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>tick2</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/sig.h" line="138" column="12" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/sig.cpp" bodystart="239" bodyend="247"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ms_1_1_time_sig_map_1a534cf6ca07ccbd19d10b847a4a20703d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Ms::TimeSigMap::read</definition>
+        <argsstring>(XmlReader &amp;, int fileDiv)</argsstring>
+        <name>read</name>
+        <param>
+          <type><ref refid="class_ms_1_1_xml_reader" kindref="compound">XmlReader</ref> &amp;</type>
+          <defname>e</defname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>fileDiv</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/sig.h" line="140" column="12" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/sig.cpp" bodystart="381" bodyend="394"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ms_1_1_time_sig_map_1ad77d806736b7a05d539e902281173b25" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Ms::TimeSigMap::write</definition>
+        <argsstring>(XmlWriter &amp;) const</argsstring>
+        <name>write</name>
+        <param>
+          <type><ref refid="class_ms_1_1_xml_writer" kindref="compound">XmlWriter</ref> &amp;</type>
+          <defname>xml</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/sig.h" line="141" column="12" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/sig.cpp" bodystart="369" bodyend="375"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ms_1_1_time_sig_map_1a4ac3bbf184ebd45a4d4f4a689168a712" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Ms::TimeSigMap::dump</definition>
+        <argsstring>() const</argsstring>
+        <name>dump</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/sig.h" line="142" column="12" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/sig.cpp" bodystart="545" bodyend="551"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ms_1_1_time_sig_map_1a57a4a6113289c91eb38f49e610ceafc0" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>const <ref refid="class_ms_1_1_sig_event" kindref="compound">SigEvent</ref> &amp;</type>
+        <definition>const SigEvent &amp; Ms::TimeSigMap::timesig</definition>
+        <argsstring>(int tick) const</argsstring>
+        <name>timesig</name>
+        <param>
+          <type>int</type>
+          <declname>tick</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/sig.h" line="144" column="22" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/sig.cpp" bodystart="274" bodyend="283"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ms_1_1_time_sig_map_1a183ed74d6d7db1e094c8a23379b90231" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>const <ref refid="class_ms_1_1_sig_event" kindref="compound">SigEvent</ref> &amp;</type>
+        <definition>const SigEvent&amp; Ms::TimeSigMap::timesig</definition>
+        <argsstring>(const Fraction &amp;f) const</argsstring>
+        <name>timesig</name>
+        <param>
+          <type>const <ref refid="class_ms_1_1_fraction" kindref="compound">Fraction</ref> &amp;</type>
+          <declname>f</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/sig.h" line="145" column="22" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/sig.h" bodystart="145" bodyend="145"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ms_1_1_time_sig_map_1a0ca55639ed2a836e4a80cc56cdb323ff" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Ms::TimeSigMap::tickValues</definition>
+        <argsstring>(int t, int *bar, int *beat, int *tick) const</argsstring>
+        <name>tickValues</name>
+        <param>
+          <type>int</type>
+          <declname>t</declname>
+        </param>
+        <param>
+          <type>int *</type>
+          <declname>bar</declname>
+        </param>
+        <param>
+          <type>int *</type>
+          <declname>beat</declname>
+        </param>
+        <param>
+          <type>int *</type>
+          <declname>tick</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/sig.h" line="147" column="12" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/sig.cpp" bodystart="295" bodyend="322"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ms_1_1_time_sig_map_1a4fdf03791075ae49f08e8563be67a4d4" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int Ms::TimeSigMap::bar2tick</definition>
+        <argsstring>(int bar, int beat) const</argsstring>
+        <name>bar2tick</name>
+        <param>
+          <type>int</type>
+          <declname>bar</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>beat</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/sig.h" line="148" column="11" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/sig.cpp" bodystart="343" bodyend="363"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ms_1_1_time_sig_map_1afa51b02d515b7679a8c37cb926a4ca09" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>QString</type>
+        <definition>QString Ms::TimeSigMap::pos</definition>
+        <argsstring>(int t) const</argsstring>
+        <name>pos</name>
+        <param>
+          <type>int</type>
+          <declname>t</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/sig.h" line="149" column="15" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/sig.cpp" bodystart="330" bodyend="335"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ms_1_1_time_sig_map_1af184f83a77254410b4b5b566cb253870" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>unsigned</type>
+        <definition>unsigned Ms::TimeSigMap::raster</definition>
+        <argsstring>(unsigned tick, int raster) const</argsstring>
+        <name>raster</name>
+        <param>
+          <type>unsigned</type>
+          <declname>tick</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>raster</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/sig.h" line="151" column="16" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/sig.cpp" bodystart="484" bodyend="496"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ms_1_1_time_sig_map_1a4d09200de34fd23e9092c56060d0aa19" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>unsigned</type>
+        <definition>unsigned Ms::TimeSigMap::raster1</definition>
+        <argsstring>(unsigned tick, int raster) const</argsstring>
+        <name>raster1</name>
+        <param>
+          <type>unsigned</type>
+          <declname>tick</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>raster</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/sig.h" line="152" column="16" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/sig.cpp" bodystart="503" bodyend="511"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ms_1_1_time_sig_map_1a5bd4cc316ceab956b28a52dcee11bd3b" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>unsigned</type>
+        <definition>unsigned Ms::TimeSigMap::raster2</definition>
+        <argsstring>(unsigned tick, int raster) const</argsstring>
+        <name>raster2</name>
+        <param>
+          <type>unsigned</type>
+          <declname>tick</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>raster</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/sig.h" line="153" column="16" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/sig.cpp" bodystart="518" bodyend="526"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ms_1_1_time_sig_map_1a36246f3aaf77268fd14d33d016cdc43d" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int Ms::TimeSigMap::rasterStep</definition>
+        <argsstring>(unsigned tick, int raster) const</argsstring>
+        <name>rasterStep</name>
+        <param>
+          <type>unsigned</type>
+          <declname>tick</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>raster</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/sig.h" line="154" column="11" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/sig.cpp" bodystart="532" bodyend="539"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>Ms::TimeSigMap</label>
+        <link refid="class_ms_1_1_time_sig_map"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>std::map&lt; int, SigEvent &gt;</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>Ms::TimeSigMap</label>
+        <link refid="class_ms_1_1_time_sig_map"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>std::map&lt; int, SigEvent &gt;</label>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/sig.h" line="127" column="36" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/sig.h" bodystart="127" bodyend="155"/>
+    <listofallmembers>
+      <member refid="class_ms_1_1_time_sig_map_1ab28a244540f71d1d6092610c1e31eb7c" prot="public" virt="non-virtual"><scope>Ms::TimeSigMap</scope><name>add</name></member>
+      <member refid="class_ms_1_1_time_sig_map_1a844cab1137a71f0b453acac4580c9ffe" prot="public" virt="non-virtual"><scope>Ms::TimeSigMap</scope><name>add</name></member>
+      <member refid="class_ms_1_1_time_sig_map_1a4fdf03791075ae49f08e8563be67a4d4" prot="public" virt="non-virtual"><scope>Ms::TimeSigMap</scope><name>bar2tick</name></member>
+      <member refid="class_ms_1_1_time_sig_map_1a7e55e9297df1a3580e47b1b60e1242db" prot="public" virt="non-virtual"><scope>Ms::TimeSigMap</scope><name>clearRange</name></member>
+      <member refid="class_ms_1_1_time_sig_map_1a850ee5a9b794085024e68a0987018da8" prot="public" virt="non-virtual"><scope>Ms::TimeSigMap</scope><name>del</name></member>
+      <member refid="class_ms_1_1_time_sig_map_1a4ac3bbf184ebd45a4d4f4a689168a712" prot="public" virt="non-virtual"><scope>Ms::TimeSigMap</scope><name>dump</name></member>
+      <member refid="class_ms_1_1_time_sig_map_1afb72148a6a9a4378c0c17e1a0ffd9986" prot="private" virt="non-virtual"><scope>Ms::TimeSigMap</scope><name>normalize</name></member>
+      <member refid="class_ms_1_1_time_sig_map_1afa51b02d515b7679a8c37cb926a4ca09" prot="public" virt="non-virtual"><scope>Ms::TimeSigMap</scope><name>pos</name></member>
+      <member refid="class_ms_1_1_time_sig_map_1af184f83a77254410b4b5b566cb253870" prot="public" virt="non-virtual"><scope>Ms::TimeSigMap</scope><name>raster</name></member>
+      <member refid="class_ms_1_1_time_sig_map_1a4d09200de34fd23e9092c56060d0aa19" prot="public" virt="non-virtual"><scope>Ms::TimeSigMap</scope><name>raster1</name></member>
+      <member refid="class_ms_1_1_time_sig_map_1a5bd4cc316ceab956b28a52dcee11bd3b" prot="public" virt="non-virtual"><scope>Ms::TimeSigMap</scope><name>raster2</name></member>
+      <member refid="class_ms_1_1_time_sig_map_1a36246f3aaf77268fd14d33d016cdc43d" prot="public" virt="non-virtual"><scope>Ms::TimeSigMap</scope><name>rasterStep</name></member>
+      <member refid="class_ms_1_1_time_sig_map_1a534cf6ca07ccbd19d10b847a4a20703d" prot="public" virt="non-virtual"><scope>Ms::TimeSigMap</scope><name>read</name></member>
+      <member refid="class_ms_1_1_time_sig_map_1a0ca55639ed2a836e4a80cc56cdb323ff" prot="public" virt="non-virtual"><scope>Ms::TimeSigMap</scope><name>tickValues</name></member>
+      <member refid="class_ms_1_1_time_sig_map_1a57a4a6113289c91eb38f49e610ceafc0" prot="public" virt="non-virtual"><scope>Ms::TimeSigMap</scope><name>timesig</name></member>
+      <member refid="class_ms_1_1_time_sig_map_1a183ed74d6d7db1e094c8a23379b90231" prot="public" virt="non-virtual"><scope>Ms::TimeSigMap</scope><name>timesig</name></member>
+      <member refid="class_ms_1_1_time_sig_map_1abe288e60adbb9242e5ec2a02b578c4bc" prot="public" virt="non-virtual"><scope>Ms::TimeSigMap</scope><name>TimeSigMap</name></member>
+      <member refid="class_ms_1_1_time_sig_map_1ad77d806736b7a05d539e902281173b25" prot="public" virt="non-virtual"><scope>Ms::TimeSigMap</scope><name>write</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

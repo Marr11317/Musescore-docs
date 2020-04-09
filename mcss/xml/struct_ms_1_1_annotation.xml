@@ -1,0 +1,81 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.17">
+  <compounddef id="struct_ms_1_1_annotation" kind="struct" language="C++" prot="public">
+    <compoundname>Ms::Annotation</compoundname>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="struct_ms_1_1_annotation_1ab6e439412a89b888d8002db934ba6e0e" prot="public" static="no" mutable="no">
+        <type><ref refid="class_ms_1_1_fraction" kindref="compound">Fraction</ref></type>
+        <definition>Fraction Ms::Annotation::tick</definition>
+        <argsstring></argsstring>
+        <name>tick</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/range.h" line="67" column="16" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/range.h" bodystart="67" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_ms_1_1_annotation_1ab33967769423285814405299b76b16cb" prot="public" static="no" mutable="no">
+        <type><ref refid="class_ms_1_1_element" kindref="compound">Element</ref> *</type>
+        <definition>Element* Ms::Annotation::e</definition>
+        <argsstring></argsstring>
+        <name>e</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/range.h" line="68" column="15" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/range.h" bodystart="68" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="1">
+        <label>Ms::Annotation</label>
+        <link refid="struct_ms_1_1_annotation"/>
+        <childnode refid="2" relation="usage">
+          <edgelabel>tick</edgelabel>
+        </childnode>
+        <childnode refid="3" relation="usage">
+          <edgelabel>e</edgelabel>
+        </childnode>
+      </node>
+      <node id="6">
+        <label>QList&lt; ScoreElement * &gt;</label>
+      </node>
+      <node id="2">
+        <label>Ms::Fraction</label>
+        <link refid="class_ms_1_1_fraction"/>
+      </node>
+      <node id="4">
+        <label>Ms::ScoreElement</label>
+        <link refid="class_ms_1_1_score_element"/>
+        <childnode refid="5" relation="usage">
+          <edgelabel>_links</edgelabel>
+        </childnode>
+      </node>
+      <node id="5">
+        <label>Ms::LinkedElements</label>
+        <link refid="class_ms_1_1_linked_elements"/>
+        <childnode refid="6" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>Ms::Element</label>
+        <link refid="class_ms_1_1_element"/>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/range.h" line="66" column="17" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/range.h" bodystart="66" bodyend="69"/>
+    <listofallmembers>
+      <member refid="struct_ms_1_1_annotation_1ab33967769423285814405299b76b16cb" prot="public" virt="non-virtual"><scope>Ms::Annotation</scope><name>e</name></member>
+      <member refid="struct_ms_1_1_annotation_1ab6e439412a89b888d8002db934ba6e0e" prot="public" virt="non-virtual"><scope>Ms::Annotation</scope><name>tick</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

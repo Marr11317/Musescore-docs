@@ -1,0 +1,77 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.17">
+  <compounddef id="class_ms_1_1_bsp_tree_visitor" kind="class" language="C++" prot="public" abstract="yes">
+    <compoundname>Ms::BspTreeVisitor</compoundname>
+    <derivedcompoundref refid="class_ms_1_1_find_item_bsp_tree_visitor" prot="public" virt="non-virtual">Ms::FindItemBspTreeVisitor</derivedcompoundref>
+    <derivedcompoundref refid="class_ms_1_1_insert_item_bsp_tree_visitor" prot="public" virt="non-virtual">Ms::InsertItemBspTreeVisitor</derivedcompoundref>
+    <derivedcompoundref refid="class_ms_1_1_remove_item_bsp_tree_visitor" prot="public" virt="non-virtual">Ms::RemoveItemBspTreeVisitor</derivedcompoundref>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_ms_1_1_bsp_tree_visitor_1aa5c12bda96fa4512a4259db0eac79181" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type></type>
+        <definition>virtual Ms::BspTreeVisitor::~BspTreeVisitor</definition>
+        <argsstring>()</argsstring>
+        <name>~BspTreeVisitor</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/bsp.h" line="89" column="15" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/bsp.h" bodystart="89" bodyend="89"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ms_1_1_bsp_tree_visitor_1aa4f4d8fe4d68f19c7f100adbbab88bbf" prot="public" static="no" const="no" explicit="no" inline="no" virt="pure-virtual">
+        <type>void</type>
+        <definition>virtual void Ms::BspTreeVisitor::visit</definition>
+        <argsstring>(QList&lt; Element * &gt; *items)=0</argsstring>
+        <name>visit</name>
+        <reimplementedby refid="class_ms_1_1_insert_item_bsp_tree_visitor_1a8a0ab2f0562132797e4053323609f979">visit</reimplementedby>
+        <reimplementedby refid="class_ms_1_1_remove_item_bsp_tree_visitor_1aaace2746b1eb5f2784fa216c96faca19">visit</reimplementedby>
+        <reimplementedby refid="class_ms_1_1_find_item_bsp_tree_visitor_1a002b6fd60d15beb8d3b9cc6ce469b745">visit</reimplementedby>
+        <param>
+          <type>QList&lt; <ref refid="class_ms_1_1_element" kindref="compound">Element</ref> * &gt; *</type>
+          <declname>items</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/bsp.h" line="90" column="20"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>Ms::FindItemBspTreeVisitor</label>
+        <link refid="class_ms_1_1_find_item_bsp_tree_visitor"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="4">
+        <label>Ms::RemoveItemBspTreeVisitor</label>
+        <link refid="class_ms_1_1_remove_item_bsp_tree_visitor"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>Ms::BspTreeVisitor</label>
+        <link refid="class_ms_1_1_bsp_tree_visitor"/>
+      </node>
+      <node id="3">
+        <label>Ms::InsertItemBspTreeVisitor</label>
+        <link refid="class_ms_1_1_insert_item_bsp_tree_visitor"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/bsp.h" line="87" column="1" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/bsp.h" bodystart="86" bodyend="91"/>
+    <listofallmembers>
+      <member refid="class_ms_1_1_bsp_tree_visitor_1aa4f4d8fe4d68f19c7f100adbbab88bbf" prot="public" virt="pure-virtual"><scope>Ms::BspTreeVisitor</scope><name>visit</name></member>
+      <member refid="class_ms_1_1_bsp_tree_visitor_1aa5c12bda96fa4512a4259db0eac79181" prot="public" virt="virtual"><scope>Ms::BspTreeVisitor</scope><name>~BspTreeVisitor</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

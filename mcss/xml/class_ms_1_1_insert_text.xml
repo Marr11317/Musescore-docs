@@ -1,0 +1,153 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.17">
+  <compounddef id="class_ms_1_1_insert_text" kind="class" language="C++" prot="public">
+    <compoundname>Ms::InsertText</compoundname>
+    <basecompoundref refid="class_ms_1_1_change_text" prot="public" virt="non-virtual">Ms::ChangeText</basecompoundref>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_ms_1_1_insert_text_1a8e86b395f84150fa130014e95f0aacfc" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>Ms::InsertText::InsertText</definition>
+        <argsstring>(const TextCursor *tc, const QString &amp;t)</argsstring>
+        <name>InsertText</name>
+        <param>
+          <type>const <ref refid="class_ms_1_1_text_cursor" kindref="compound">TextCursor</ref> *</type>
+          <declname>tc</declname>
+        </param>
+        <param>
+          <type>const QString &amp;</type>
+          <declname>t</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/textedit.h" line="81" column="7" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/textedit.h" bodystart="81" bodyend="81"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ms_1_1_insert_text_1a1368c1d69c4e47e12f6a783efd0b9bbd" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>void</type>
+        <definition>virtual void Ms::InsertText::redo</definition>
+        <argsstring>(EditData *ed) override</argsstring>
+        <name>redo</name>
+        <reimplements refid="class_ms_1_1_change_text_1ab888d6b0c35f784c450d75e280b5f2e8">redo</reimplements>
+        <param>
+          <type><ref refid="class_ms_1_1_edit_data" kindref="compound">EditData</ref> *</type>
+          <declname>ed</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/textedit.h" line="82" column="20" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/textedit.h" bodystart="82" bodyend="82"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ms_1_1_insert_text_1aa3a0556202ca1992d63937111580cc8c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>void</type>
+        <definition>virtual void Ms::InsertText::undo</definition>
+        <argsstring>(EditData *ed) override</argsstring>
+        <name>undo</name>
+        <reimplements refid="class_ms_1_1_change_text_1a7110420dd389650591f741db904c7255">undo</reimplements>
+        <param>
+          <type><ref refid="class_ms_1_1_edit_data" kindref="compound">EditData</ref> *</type>
+          <declname>ed</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/textedit.h" line="83" column="20" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/textedit.h" bodystart="83" bodyend="83"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>Ms::ChangeText</label>
+        <link refid="class_ms_1_1_change_text"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>Ms::TextEditUndoCommand</label>
+        <link refid="class_ms_1_1_text_edit_undo_command"/>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="4">
+        <label>Ms::UndoCommand</label>
+        <link refid="class_ms_1_1_undo_command"/>
+      </node>
+      <node id="1">
+        <label>Ms::InsertText</label>
+        <link refid="class_ms_1_1_insert_text"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="5">
+        <label>Ms::TextCursor</label>
+        <link refid="class_ms_1_1_text_cursor"/>
+      </node>
+      <node id="2">
+        <label>Ms::ChangeText</label>
+        <link refid="class_ms_1_1_change_text"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>Ms::TextEditUndoCommand</label>
+        <link refid="class_ms_1_1_text_edit_undo_command"/>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+        <childnode refid="5" relation="usage">
+          <edgelabel>c</edgelabel>
+        </childnode>
+      </node>
+      <node id="4">
+        <label>Ms::UndoCommand</label>
+        <link refid="class_ms_1_1_undo_command"/>
+      </node>
+      <node id="1">
+        <label>Ms::InsertText</label>
+        <link refid="class_ms_1_1_insert_text"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/textedit.h" line="78" column="35" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/textedit.h" bodystart="78" bodyend="85"/>
+    <listofallmembers>
+      <member refid="class_ms_1_1_undo_command_1a0f5b568325d235501e5cc197b7a4d4c8" prot="public" virt="non-virtual"><scope>Ms::InsertText</scope><name>appendChild</name></member>
+      <member refid="class_ms_1_1_undo_command_1adbc9ce586560a1ca06f83bb38d04c4f0" prot="protected" virt="non-virtual"><scope>Ms::InsertText</scope><name>appendChildren</name></member>
+      <member refid="class_ms_1_1_text_edit_undo_command_1a3e51c9f165bd8d9cf380de738af87494" prot="protected" virt="non-virtual"><scope>Ms::InsertText</scope><name>c</name></member>
+      <member refid="class_ms_1_1_change_text_1aafe532fb706b559fa8091a7f91bea26a" prot="public" virt="non-virtual"><scope>Ms::InsertText</scope><name>ChangeText</name></member>
+      <member refid="class_ms_1_1_undo_command_1a701d710e19f4d356f2b12d093729d295" prot="public" virt="non-virtual"><scope>Ms::InsertText</scope><name>childCount</name></member>
+      <member refid="class_ms_1_1_undo_command_1a0bbdf4bc79885d76228b155599fb46ce" prot="public" virt="virtual"><scope>Ms::InsertText</scope><name>cleanup</name></member>
+      <member refid="class_ms_1_1_undo_command_1a4cdbb50e02a38b3c0b259e8bb6b58bca" prot="public" virt="non-virtual"><scope>Ms::InsertText</scope><name>commands</name></member>
+      <member refid="class_ms_1_1_change_text_1a23328d292b300661749537136af22f1f" prot="public" virt="non-virtual"><scope>Ms::InsertText</scope><name>cursor</name></member>
+      <member refid="class_ms_1_1_undo_command_1a7c3fae86b0c593d95eb2acf44348b425" prot="public" virt="non-virtual"><scope>Ms::InsertText</scope><name>Filter</name></member>
+      <member refid="class_ms_1_1_undo_command_1a850e4c72c907bce1aed4b7d318ddf626" prot="public" virt="non-virtual"><scope>Ms::InsertText</scope><name>filterChildren</name></member>
+      <member refid="class_ms_1_1_undo_command_1a861162fe6c105a00dfec5a5b70a690a5" prot="protected" virt="virtual"><scope>Ms::InsertText</scope><name>flip</name></member>
+      <member refid="class_ms_1_1_undo_command_1a09b5c550fffd0dfe1e38490c7f0de8e4" prot="public" virt="non-virtual"><scope>Ms::InsertText</scope><name>hasFilteredChildren</name></member>
+      <member refid="class_ms_1_1_undo_command_1a7131c9beb9c694ef3f0d8235f4e2892a" prot="public" virt="non-virtual"><scope>Ms::InsertText</scope><name>hasUnfilteredChildren</name></member>
+      <member refid="class_ms_1_1_change_text_1ad10bf33fd65c11b6c6ae477070cad74f" prot="protected" virt="non-virtual"><scope>Ms::InsertText</scope><name>insertText</name></member>
+      <member refid="class_ms_1_1_insert_text_1a8e86b395f84150fa130014e95f0aacfc" prot="public" virt="non-virtual"><scope>Ms::InsertText</scope><name>InsertText</name></member>
+      <member refid="class_ms_1_1_text_edit_undo_command_1a5f4dbe97f215f792d960059490fed621" prot="public" virt="virtual"><scope>Ms::InsertText</scope><name>isFiltered</name></member>
+      <member refid="class_ms_1_1_undo_command_1acdd15da86ef5878bc98ef2be084cc4be" prot="public" virt="virtual"><scope>Ms::InsertText</scope><name>name</name></member>
+      <member refid="class_ms_1_1_insert_text_1a1368c1d69c4e47e12f6a783efd0b9bbd" prot="public" virt="virtual"><scope>Ms::InsertText</scope><name>redo</name></member>
+      <member refid="class_ms_1_1_undo_command_1ad645cbed278b04cea2164006b52c4d8f" prot="public" virt="non-virtual"><scope>Ms::InsertText</scope><name>removeChild</name></member>
+      <member refid="class_ms_1_1_change_text_1ad84e989ad131a4e377b75a908c2f6e30" prot="protected" virt="non-virtual"><scope>Ms::InsertText</scope><name>removeText</name></member>
+      <member refid="class_ms_1_1_change_text_1a9bd89c436d1b95ec7b7fcfb7beb15ef7" prot="public" virt="non-virtual"><scope>Ms::InsertText</scope><name>string</name></member>
+      <member refid="class_ms_1_1_text_edit_undo_command_1a264c38aef180ebf4439ef271ed095b6c" prot="public" virt="non-virtual"><scope>Ms::InsertText</scope><name>TextEditUndoCommand</name></member>
+      <member refid="class_ms_1_1_insert_text_1aa3a0556202ca1992d63937111580cc8c" prot="public" virt="virtual"><scope>Ms::InsertText</scope><name>undo</name></member>
+      <member refid="class_ms_1_1_undo_command_1abc893037b5a33408c25552b8579debe4" prot="public" virt="non-virtual"><scope>Ms::InsertText</scope><name>unwind</name></member>
+      <member refid="class_ms_1_1_undo_command_1ad4aec6e8dbb0e92bd2b8be2ebd79b9df" prot="public" virt="virtual"><scope>Ms::InsertText</scope><name>~UndoCommand</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

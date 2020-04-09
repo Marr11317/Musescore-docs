@@ -1,0 +1,175 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.17">
+  <compounddef id="class_ms_1_1_link" kind="class" language="C++" prot="public">
+    <compoundname>Ms::Link</compoundname>
+    <basecompoundref refid="class_ms_1_1_link_unlink" prot="public" virt="non-virtual">Ms::LinkUnlink</basecompoundref>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_ms_1_1_link_1ac2463246a7aa22c52b7cbd61bbbe6433" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>Ms::Link::Link</definition>
+        <argsstring>(ScoreElement *, ScoreElement *)</argsstring>
+        <name>Link</name>
+        <param>
+          <type><ref refid="class_ms_1_1_score_element" kindref="compound">ScoreElement</ref> *</type>
+          <defname>e1</defname>
+        </param>
+        <param>
+          <type><ref refid="class_ms_1_1_score_element" kindref="compound">ScoreElement</ref> *</type>
+          <defname>e2</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/undo.h" line="1254" column="7" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/undo.cpp" bodystart="2412" bodyend="2424"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ms_1_1_link_1adb8d9744042481986e53d6b350e0dbcd" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>void</type>
+        <definition>virtual void Ms::Link::undo</definition>
+        <argsstring>(EditData *) override</argsstring>
+        <name>undo</name>
+        <reimplements refid="class_ms_1_1_undo_command_1a42a2038f903e77e6bb5881209b764186">undo</reimplements>
+        <param>
+          <type><ref refid="class_ms_1_1_edit_data" kindref="compound">EditData</ref> *</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/undo.h" line="1255" column="20" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/undo.h" bodystart="1255" bodyend="1255"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ms_1_1_link_1a7b0f049de6c374d5bef2e3eed30c9d86" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>void</type>
+        <definition>virtual void Ms::Link::redo</definition>
+        <argsstring>(EditData *) override</argsstring>
+        <name>redo</name>
+        <reimplements refid="class_ms_1_1_undo_command_1a7fccbb0cf027a5e3b43176a5e0213f75">redo</reimplements>
+        <param>
+          <type><ref refid="class_ms_1_1_edit_data" kindref="compound">EditData</ref> *</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/undo.h" line="1256" column="20" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/undo.h" bodystart="1256" bodyend="1256"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ms_1_1_link_1ac96f4165e43078c6e66f5bf3ece88952" prot="public" static="no" const="yes" explicit="no" inline="no" virt="virtual">
+        <type>bool</type>
+        <definition>bool Ms::Link::isFiltered</definition>
+        <argsstring>(UndoCommand::Filter f, const Element *target) const override</argsstring>
+        <name>isFiltered</name>
+        <reimplements refid="class_ms_1_1_undo_command_1a7e84d54e5b22eeeb9646c8a86fc2a0cb">isFiltered</reimplements>
+        <param>
+          <type>UndoCommand::Filter</type>
+          <declname>f</declname>
+        </param>
+        <param>
+          <type>const <ref refid="class_ms_1_1_element" kindref="compound">Element</ref> *</type>
+          <declname>target</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/undo.h" line="1259" column="12" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/undo.cpp" bodystart="2430" bodyend="2436"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>Ms::Link</label>
+        <link refid="class_ms_1_1_link"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>Ms::LinkUnlink</label>
+        <link refid="class_ms_1_1_link_unlink"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>Ms::UndoCommand</label>
+        <link refid="class_ms_1_1_undo_command"/>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="6">
+        <label>QList&lt; ScoreElement * &gt;</label>
+      </node>
+      <node id="1">
+        <label>Ms::Link</label>
+        <link refid="class_ms_1_1_link"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="4">
+        <label>Ms::ScoreElement</label>
+        <link refid="class_ms_1_1_score_element"/>
+        <childnode refid="5" relation="usage">
+          <edgelabel>_links</edgelabel>
+        </childnode>
+      </node>
+      <node id="5">
+        <label>Ms::LinkedElements</label>
+        <link refid="class_ms_1_1_linked_elements"/>
+        <childnode refid="6" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>Ms::LinkUnlink</label>
+        <link refid="class_ms_1_1_link_unlink"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="usage">
+          <edgelabel>e</edgelabel>
+        </childnode>
+        <childnode refid="5" relation="usage">
+          <edgelabel>le</edgelabel>
+        </childnode>
+      </node>
+      <node id="3">
+        <label>Ms::UndoCommand</label>
+        <link refid="class_ms_1_1_undo_command"/>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/undo.h" line="1252" column="29" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/undo.h" bodystart="1252" bodyend="1260"/>
+    <listofallmembers>
+      <member refid="class_ms_1_1_undo_command_1a0f5b568325d235501e5cc197b7a4d4c8" prot="public" virt="non-virtual"><scope>Ms::Link</scope><name>appendChild</name></member>
+      <member refid="class_ms_1_1_undo_command_1adbc9ce586560a1ca06f83bb38d04c4f0" prot="protected" virt="non-virtual"><scope>Ms::Link</scope><name>appendChildren</name></member>
+      <member refid="class_ms_1_1_undo_command_1a701d710e19f4d356f2b12d093729d295" prot="public" virt="non-virtual"><scope>Ms::Link</scope><name>childCount</name></member>
+      <member refid="class_ms_1_1_undo_command_1a0bbdf4bc79885d76228b155599fb46ce" prot="public" virt="virtual"><scope>Ms::Link</scope><name>cleanup</name></member>
+      <member refid="class_ms_1_1_undo_command_1a4cdbb50e02a38b3c0b259e8bb6b58bca" prot="public" virt="non-virtual"><scope>Ms::Link</scope><name>commands</name></member>
+      <member refid="class_ms_1_1_link_unlink_1a2178d45cd76417c859cd1a0fd4d66c59" prot="protected" virt="non-virtual"><scope>Ms::Link</scope><name>e</name></member>
+      <member refid="class_ms_1_1_undo_command_1a7c3fae86b0c593d95eb2acf44348b425" prot="public" virt="non-virtual"><scope>Ms::Link</scope><name>Filter</name></member>
+      <member refid="class_ms_1_1_undo_command_1a850e4c72c907bce1aed4b7d318ddf626" prot="public" virt="non-virtual"><scope>Ms::Link</scope><name>filterChildren</name></member>
+      <member refid="class_ms_1_1_undo_command_1a861162fe6c105a00dfec5a5b70a690a5" prot="protected" virt="virtual"><scope>Ms::Link</scope><name>flip</name></member>
+      <member refid="class_ms_1_1_undo_command_1a09b5c550fffd0dfe1e38490c7f0de8e4" prot="public" virt="non-virtual"><scope>Ms::Link</scope><name>hasFilteredChildren</name></member>
+      <member refid="class_ms_1_1_undo_command_1a7131c9beb9c694ef3f0d8235f4e2892a" prot="public" virt="non-virtual"><scope>Ms::Link</scope><name>hasUnfilteredChildren</name></member>
+      <member refid="class_ms_1_1_link_1ac96f4165e43078c6e66f5bf3ece88952" prot="public" virt="virtual"><scope>Ms::Link</scope><name>isFiltered</name></member>
+      <member refid="class_ms_1_1_link_unlink_1a1b5796c4c81451ee50ed37df56603609" prot="protected" virt="non-virtual"><scope>Ms::Link</scope><name>le</name></member>
+      <member refid="class_ms_1_1_link_unlink_1ac7dbd960882e02623a9217a6c82597e7" prot="protected" virt="non-virtual"><scope>Ms::Link</scope><name>link</name></member>
+      <member refid="class_ms_1_1_link_1ac2463246a7aa22c52b7cbd61bbbe6433" prot="public" virt="non-virtual"><scope>Ms::Link</scope><name>Link</name></member>
+      <member refid="class_ms_1_1_link_unlink_1a6df64b917605f9f5e3cb5961326ae0e8" prot="public" virt="non-virtual"><scope>Ms::Link</scope><name>LinkUnlink</name></member>
+      <member refid="class_ms_1_1_undo_command_1acdd15da86ef5878bc98ef2be084cc4be" prot="public" virt="virtual"><scope>Ms::Link</scope><name>name</name></member>
+      <member refid="class_ms_1_1_link_1a7b0f049de6c374d5bef2e3eed30c9d86" prot="public" virt="virtual"><scope>Ms::Link</scope><name>redo</name></member>
+      <member refid="class_ms_1_1_undo_command_1ad645cbed278b04cea2164006b52c4d8f" prot="public" virt="non-virtual"><scope>Ms::Link</scope><name>removeChild</name></member>
+      <member refid="class_ms_1_1_link_1adb8d9744042481986e53d6b350e0dbcd" prot="public" virt="virtual"><scope>Ms::Link</scope><name>undo</name></member>
+      <member refid="class_ms_1_1_link_unlink_1a7c59287b867fbed63735f8e0505e4bc1" prot="protected" virt="non-virtual"><scope>Ms::Link</scope><name>unlink</name></member>
+      <member refid="class_ms_1_1_undo_command_1abc893037b5a33408c25552b8579debe4" prot="public" virt="non-virtual"><scope>Ms::Link</scope><name>unwind</name></member>
+      <member refid="class_ms_1_1_link_unlink_1a7611ea0268535d580042bfb9f6395067" prot="public" virt="non-virtual"><scope>Ms::Link</scope><name>~LinkUnlink</name></member>
+      <member refid="class_ms_1_1_undo_command_1ad4aec6e8dbb0e92bd2b8be2ebd79b9df" prot="public" virt="virtual"><scope>Ms::Link</scope><name>~UndoCommand</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,114 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.17">
+  <compounddef id="class_ms_1_1_bar_line_edit_data" kind="class" language="C++" prot="public">
+    <compoundname>Ms::BarLineEditData</compoundname>
+    <basecompoundref refid="class_ms_1_1_element_edit_data" prot="public" virt="non-virtual">Ms::ElementEditData</basecompoundref>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_ms_1_1_bar_line_edit_data_1a6cf1f4d89fd8144043d5f773feb977aa" prot="public" static="no" mutable="no">
+        <type>qreal</type>
+        <definition>qreal Ms::BarLineEditData::yoff1</definition>
+        <argsstring></argsstring>
+        <name>yoff1</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/barline.cpp" line="187" column="13" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/barline.cpp" bodystart="187" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_ms_1_1_bar_line_edit_data_1a554031b2c2c9ec92fc3c1d93a5e40e6a" prot="public" static="no" mutable="no">
+        <type>qreal</type>
+        <definition>qreal Ms::BarLineEditData::yoff2</definition>
+        <argsstring></argsstring>
+        <name>yoff2</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/barline.cpp" line="188" column="13" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/barline.cpp" bodystart="188" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_ms_1_1_bar_line_edit_data_1a64f25d3f8f1ee9f4d6623e522182c855" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>EditDataType</type>
+        <definition>virtual EditDataType Ms::BarLineEditData::type</definition>
+        <argsstring>() override</argsstring>
+        <name>type</name>
+        <reimplements refid="class_ms_1_1_element_edit_data_1ac49812941581aa2c22e10d3e94f67be9">type</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/barline.cpp" line="189" column="28" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/barline.cpp" bodystart="189" bodyend="189"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>Ms::BarLineEditData</label>
+        <link refid="class_ms_1_1_bar_line_edit_data"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>Ms::ElementEditData</label>
+        <link refid="class_ms_1_1_element_edit_data"/>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="6">
+        <label>QList&lt; ScoreElement * &gt;</label>
+      </node>
+      <node id="1">
+        <label>Ms::BarLineEditData</label>
+        <link refid="class_ms_1_1_bar_line_edit_data"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="4">
+        <label>Ms::ScoreElement</label>
+        <link refid="class_ms_1_1_score_element"/>
+        <childnode refid="5" relation="usage">
+          <edgelabel>_links</edgelabel>
+        </childnode>
+      </node>
+      <node id="5">
+        <label>Ms::LinkedElements</label>
+        <link refid="class_ms_1_1_linked_elements"/>
+        <childnode refid="6" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>Ms::Element</label>
+        <link refid="class_ms_1_1_element"/>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>Ms::ElementEditData</label>
+        <link refid="class_ms_1_1_element_edit_data"/>
+        <childnode refid="3" relation="usage">
+          <edgelabel>e</edgelabel>
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/barline.cpp" line="185" column="45" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/barline.cpp" bodystart="185" bodyend="190"/>
+    <listofallmembers>
+      <member refid="class_ms_1_1_element_edit_data_1a4a5b2a5182a4a984de50d65dcd5660f3" prot="public" virt="non-virtual"><scope>Ms::BarLineEditData</scope><name>e</name></member>
+      <member refid="class_ms_1_1_element_edit_data_1aa543bb38e2a53f697dc9973bce7b4a44" prot="public" virt="non-virtual"><scope>Ms::BarLineEditData</scope><name>propertyData</name></member>
+      <member refid="class_ms_1_1_element_edit_data_1abfc969792e8cdce39582711139ef1d97" prot="public" virt="non-virtual"><scope>Ms::BarLineEditData</scope><name>pushProperty</name></member>
+      <member refid="class_ms_1_1_bar_line_edit_data_1a64f25d3f8f1ee9f4d6623e522182c855" prot="public" virt="virtual"><scope>Ms::BarLineEditData</scope><name>type</name></member>
+      <member refid="class_ms_1_1_bar_line_edit_data_1a6cf1f4d89fd8144043d5f773feb977aa" prot="public" virt="non-virtual"><scope>Ms::BarLineEditData</scope><name>yoff1</name></member>
+      <member refid="class_ms_1_1_bar_line_edit_data_1a554031b2c2c9ec92fc3c1d93a5e40e6a" prot="public" virt="non-virtual"><scope>Ms::BarLineEditData</scope><name>yoff2</name></member>
+      <member refid="class_ms_1_1_element_edit_data_1a50686e6b398def7c9b43a03c409bb025" prot="public" virt="virtual"><scope>Ms::BarLineEditData</scope><name>~ElementEditData</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

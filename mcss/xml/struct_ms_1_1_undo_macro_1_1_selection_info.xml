@@ -1,0 +1,116 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.17">
+  <compounddef id="struct_ms_1_1_undo_macro_1_1_selection_info" kind="struct" language="C++" prot="private">
+    <compoundname>Ms::UndoMacro::SelectionInfo</compoundname>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="struct_ms_1_1_undo_macro_1_1_selection_info_1ae4c2cd7e94b48ba8f4354e252a8618ac" prot="public" static="no" mutable="no">
+        <type>std::vector&lt; <ref refid="class_ms_1_1_element" kindref="compound">Element</ref> * &gt;</type>
+        <definition>std::vector&lt;Element*&gt; Ms::UndoMacro::SelectionInfo::elements</definition>
+        <argsstring></argsstring>
+        <name>elements</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/undo.h" line="141" column="25" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/undo.h" bodystart="141" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_ms_1_1_undo_macro_1_1_selection_info_1a34cd5687858c31d0c64be9de28e81bf4" prot="public" static="no" mutable="no">
+        <type><ref refid="class_ms_1_1_fraction" kindref="compound">Fraction</ref></type>
+        <definition>Fraction Ms::UndoMacro::SelectionInfo::tickStart</definition>
+        <argsstring></argsstring>
+        <name>tickStart</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/undo.h" line="142" column="22" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/undo.h" bodystart="142" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_ms_1_1_undo_macro_1_1_selection_info_1a8b357e9ace20518e919d100f93cd4a2d" prot="public" static="no" mutable="no">
+        <type><ref refid="class_ms_1_1_fraction" kindref="compound">Fraction</ref></type>
+        <definition>Fraction Ms::UndoMacro::SelectionInfo::tickEnd</definition>
+        <argsstring></argsstring>
+        <name>tickEnd</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/undo.h" line="143" column="22" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/undo.h" bodystart="143" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_ms_1_1_undo_macro_1_1_selection_info_1add39161aa4b6773b5955d0107af8dfed" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int Ms::UndoMacro::SelectionInfo::staffStart</definition>
+        <argsstring></argsstring>
+        <name>staffStart</name>
+        <initializer>= -1</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/undo.h" line="144" column="17" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/undo.h" bodystart="144" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_ms_1_1_undo_macro_1_1_selection_info_1aaef0e85e3ea853a131c089f70a00a62b" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int Ms::UndoMacro::SelectionInfo::staffEnd</definition>
+        <argsstring></argsstring>
+        <name>staffEnd</name>
+        <initializer>= -1</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/undo.h" line="145" column="17" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/undo.h" bodystart="145" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="struct_ms_1_1_undo_macro_1_1_selection_info_1a6a4e7cbe90ee64773ab9a7d26c69a84d" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool Ms::UndoMacro::SelectionInfo::isValid</definition>
+        <argsstring>() const</argsstring>
+        <name>isValid</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/undo.h" line="147" column="18" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/undo.h" bodystart="147" bodyend="147"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="2">
+        <label>Ms::Fraction</label>
+        <link refid="class_ms_1_1_fraction"/>
+      </node>
+      <node id="1">
+        <label>Ms::UndoMacro::SelectionInfo</label>
+        <childnode refid="2" relation="usage">
+          <edgelabel>tickEnd</edgelabel>
+          <edgelabel>tickStart</edgelabel>
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/undo.h" line="140" column="26" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/undo.h" bodystart="140" bodyend="148"/>
+    <listofallmembers>
+      <member refid="struct_ms_1_1_undo_macro_1_1_selection_info_1ae4c2cd7e94b48ba8f4354e252a8618ac" prot="public" virt="non-virtual"><scope>Ms::UndoMacro::SelectionInfo</scope><name>elements</name></member>
+      <member refid="struct_ms_1_1_undo_macro_1_1_selection_info_1a6a4e7cbe90ee64773ab9a7d26c69a84d" prot="public" virt="non-virtual"><scope>Ms::UndoMacro::SelectionInfo</scope><name>isValid</name></member>
+      <member refid="struct_ms_1_1_undo_macro_1_1_selection_info_1aaef0e85e3ea853a131c089f70a00a62b" prot="public" virt="non-virtual"><scope>Ms::UndoMacro::SelectionInfo</scope><name>staffEnd</name></member>
+      <member refid="struct_ms_1_1_undo_macro_1_1_selection_info_1add39161aa4b6773b5955d0107af8dfed" prot="public" virt="non-virtual"><scope>Ms::UndoMacro::SelectionInfo</scope><name>staffStart</name></member>
+      <member refid="struct_ms_1_1_undo_macro_1_1_selection_info_1a8b357e9ace20518e919d100f93cd4a2d" prot="public" virt="non-virtual"><scope>Ms::UndoMacro::SelectionInfo</scope><name>tickEnd</name></member>
+      <member refid="struct_ms_1_1_undo_macro_1_1_selection_info_1a34cd5687858c31d0c64be9de28e81bf4" prot="public" virt="non-virtual"><scope>Ms::UndoMacro::SelectionInfo</scope><name>tickStart</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

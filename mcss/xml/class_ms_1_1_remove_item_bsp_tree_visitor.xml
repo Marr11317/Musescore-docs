@@ -1,0 +1,101 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.17">
+  <compounddef id="class_ms_1_1_remove_item_bsp_tree_visitor" kind="class" language="C++" prot="public">
+    <compoundname>Ms::RemoveItemBspTreeVisitor</compoundname>
+    <basecompoundref refid="class_ms_1_1_bsp_tree_visitor" prot="public" virt="non-virtual">Ms::BspTreeVisitor</basecompoundref>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_ms_1_1_remove_item_bsp_tree_visitor_1af7791921c768d4313f55e61b751dbf8e" prot="public" static="no" mutable="no">
+        <type><ref refid="class_ms_1_1_element" kindref="compound">Element</ref> *</type>
+        <definition>Element* Ms::RemoveItemBspTreeVisitor::item</definition>
+        <argsstring></argsstring>
+        <name>item</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/bsp.cpp" line="40" column="15" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/bsp.cpp" bodystart="40" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_ms_1_1_remove_item_bsp_tree_visitor_1aaace2746b1eb5f2784fa216c96faca19" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>void</type>
+        <definition>void Ms::RemoveItemBspTreeVisitor::visit</definition>
+        <argsstring>(QList&lt; Element * &gt; *items)</argsstring>
+        <name>visit</name>
+        <reimplements refid="class_ms_1_1_bsp_tree_visitor_1aa4f4d8fe4d68f19c7f100adbbab88bbf">visit</reimplements>
+        <param>
+          <type>QList&lt; <ref refid="class_ms_1_1_element" kindref="compound">Element</ref> * &gt; *</type>
+          <declname>items</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/bsp.cpp" line="42" column="19" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/bsp.cpp" bodystart="42" bodyend="42"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>Ms::RemoveItemBspTreeVisitor</label>
+        <link refid="class_ms_1_1_remove_item_bsp_tree_visitor"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>Ms::BspTreeVisitor</label>
+        <link refid="class_ms_1_1_bsp_tree_visitor"/>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="6">
+        <label>QList&lt; ScoreElement * &gt;</label>
+      </node>
+      <node id="4">
+        <label>Ms::ScoreElement</label>
+        <link refid="class_ms_1_1_score_element"/>
+        <childnode refid="5" relation="usage">
+          <edgelabel>_links</edgelabel>
+        </childnode>
+      </node>
+      <node id="1">
+        <label>Ms::RemoveItemBspTreeVisitor</label>
+        <link refid="class_ms_1_1_remove_item_bsp_tree_visitor"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="3" relation="usage">
+          <edgelabel>item</edgelabel>
+        </childnode>
+      </node>
+      <node id="2">
+        <label>Ms::BspTreeVisitor</label>
+        <link refid="class_ms_1_1_bsp_tree_visitor"/>
+      </node>
+      <node id="5">
+        <label>Ms::LinkedElements</label>
+        <link refid="class_ms_1_1_linked_elements"/>
+        <childnode refid="6" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>Ms::Element</label>
+        <link refid="class_ms_1_1_element"/>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/bsp.cpp" line="38" column="1" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/bsp.cpp" bodystart="37" bodyend="43"/>
+    <listofallmembers>
+      <member refid="class_ms_1_1_remove_item_bsp_tree_visitor_1af7791921c768d4313f55e61b751dbf8e" prot="public" virt="non-virtual"><scope>Ms::RemoveItemBspTreeVisitor</scope><name>item</name></member>
+      <member refid="class_ms_1_1_remove_item_bsp_tree_visitor_1aaace2746b1eb5f2784fa216c96faca19" prot="public" virt="virtual"><scope>Ms::RemoveItemBspTreeVisitor</scope><name>visit</name></member>
+      <member refid="class_ms_1_1_bsp_tree_visitor_1aa5c12bda96fa4512a4259db0eac79181" prot="public" virt="virtual"><scope>Ms::RemoveItemBspTreeVisitor</scope><name>~BspTreeVisitor</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

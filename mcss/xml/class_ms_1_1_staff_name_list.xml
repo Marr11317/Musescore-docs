@@ -1,0 +1,60 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.17">
+  <compounddef id="class_ms_1_1_staff_name_list" kind="class" language="C++" prot="public">
+    <compoundname>Ms::StaffNameList</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">QList&lt; StaffName &gt;</basecompoundref>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_ms_1_1_staff_name_list_1a469a44ef12afe165f80c97ac194150ac" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Ms::StaffNameList::write</definition>
+        <argsstring>(XmlWriter &amp;xml, const char *name) const</argsstring>
+        <name>write</name>
+        <param>
+          <type><ref refid="class_ms_1_1_xml_writer" kindref="compound">XmlWriter</ref> &amp;</type>
+          <declname>xml</declname>
+        </param>
+        <param>
+          <type>const char *</type>
+          <declname>name</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/instrument.h" line="62" column="12" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/instrument.cpp" bodystart="1549" bodyend="1553"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>QList&lt; StaffName &gt;</label>
+      </node>
+      <node id="1">
+        <label>Ms::StaffNameList</label>
+        <link refid="class_ms_1_1_staff_name_list"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>QList&lt; StaffName &gt;</label>
+      </node>
+      <node id="1">
+        <label>Ms::StaffNameList</label>
+        <link refid="class_ms_1_1_staff_name_list"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/instrument.h" line="59" column="34" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/instrument.h" bodystart="59" bodyend="63"/>
+    <listofallmembers>
+      <member refid="class_ms_1_1_staff_name_list_1a469a44ef12afe165f80c97ac194150ac" prot="public" virt="non-virtual"><scope>Ms::StaffNameList</scope><name>write</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

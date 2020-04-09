@@ -1,0 +1,153 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.17">
+  <compounddef id="utils_8h" kind="file" language="C++">
+    <compoundname>utils.h</compoundname>
+    <includes refid="mscore_8h" local="yes">mscore.h</includes>
+    <includes refid="interval_8h" local="yes">interval.h</includes>
+    <includedby refid="ambitus_8cpp" local="yes">C:/Users/main/Documents/GitHub/MuseScore/libmscore/ambitus.cpp</includedby>
+    <includedby refid="bracket_8cpp" local="yes">C:/Users/main/Documents/GitHub/MuseScore/libmscore/bracket.cpp</includedby>
+    <includedby refid="check_8cpp" local="yes">C:/Users/main/Documents/GitHub/MuseScore/libmscore/check.cpp</includedby>
+    <includedby refid="chord_8cpp" local="yes">C:/Users/main/Documents/GitHub/MuseScore/libmscore/chord.cpp</includedby>
+    <includedby refid="chordrest_8cpp" local="yes">C:/Users/main/Documents/GitHub/MuseScore/libmscore/chordrest.cpp</includedby>
+    <includedby refid="cmd_8cpp" local="yes">C:/Users/main/Documents/GitHub/MuseScore/libmscore/cmd.cpp</includedby>
+    <includedby refid="dynamic_8cpp" local="yes">C:/Users/main/Documents/GitHub/MuseScore/libmscore/dynamic.cpp</includedby>
+    <includedby refid="edit_8cpp" local="yes">C:/Users/main/Documents/GitHub/MuseScore/libmscore/edit.cpp</includedby>
+    <includedby refid="element_8cpp" local="yes">C:/Users/main/Documents/GitHub/MuseScore/libmscore/element.cpp</includedby>
+    <includedby refid="excerpt_8cpp" local="yes">C:/Users/main/Documents/GitHub/MuseScore/libmscore/excerpt.cpp</includedby>
+    <includedby refid="hairpin_8cpp" local="yes">C:/Users/main/Documents/GitHub/MuseScore/libmscore/hairpin.cpp</includedby>
+    <includedby refid="harmony_8cpp" local="yes">C:/Users/main/Documents/GitHub/MuseScore/libmscore/harmony.cpp</includedby>
+    <includedby refid="instrtemplate_8cpp" local="yes">C:/Users/main/Documents/GitHub/MuseScore/libmscore/instrtemplate.cpp</includedby>
+    <includedby refid="instrument_8cpp" local="yes">C:/Users/main/Documents/GitHub/MuseScore/libmscore/instrument.cpp</includedby>
+    <includedby refid="interval_8cpp" local="yes">C:/Users/main/Documents/GitHub/MuseScore/libmscore/interval.cpp</includedby>
+    <includedby refid="key_8cpp" local="yes">C:/Users/main/Documents/GitHub/MuseScore/libmscore/key.cpp</includedby>
+    <includedby refid="layout_8cpp" local="yes">C:/Users/main/Documents/GitHub/MuseScore/libmscore/layout.cpp</includedby>
+    <includedby refid="line_8cpp" local="yes">C:/Users/main/Documents/GitHub/MuseScore/libmscore/line.cpp</includedby>
+    <includedby refid="measure_8cpp" local="yes">C:/Users/main/Documents/GitHub/MuseScore/libmscore/measure.cpp</includedby>
+    <includedby refid="navigate_8cpp" local="yes">C:/Users/main/Documents/GitHub/MuseScore/libmscore/navigate.cpp</includedby>
+    <includedby refid="note_8cpp" local="yes">C:/Users/main/Documents/GitHub/MuseScore/libmscore/note.cpp</includedby>
+    <includedby refid="noteentry_8cpp" local="yes">C:/Users/main/Documents/GitHub/MuseScore/libmscore/noteentry.cpp</includedby>
+    <includedby refid="ottava_8cpp" local="yes">C:/Users/main/Documents/GitHub/MuseScore/libmscore/ottava.cpp</includedby>
+    <includedby refid="paste_8cpp" local="yes">C:/Users/main/Documents/GitHub/MuseScore/libmscore/paste.cpp</includedby>
+    <includedby refid="pitchspelling_8cpp" local="yes">C:/Users/main/Documents/GitHub/MuseScore/libmscore/pitchspelling.cpp</includedby>
+    <includedby refid="range_8cpp" local="yes">C:/Users/main/Documents/GitHub/MuseScore/libmscore/range.cpp</includedby>
+    <includedby refid="read114_8cpp" local="yes">C:/Users/main/Documents/GitHub/MuseScore/libmscore/read114.cpp</includedby>
+    <includedby refid="read206_8cpp" local="yes">C:/Users/main/Documents/GitHub/MuseScore/libmscore/read206.cpp</includedby>
+    <includedby refid="rendermidi_8cpp" local="yes">C:/Users/main/Documents/GitHub/MuseScore/libmscore/rendermidi.cpp</includedby>
+    <includedby refid="rest_8cpp" local="yes">C:/Users/main/Documents/GitHub/MuseScore/libmscore/rest.cpp</includedby>
+    <includedby refid="score_8cpp" local="yes">C:/Users/main/Documents/GitHub/MuseScore/libmscore/score.cpp</includedby>
+    <includedby refid="select_8cpp" local="yes">C:/Users/main/Documents/GitHub/MuseScore/libmscore/select.cpp</includedby>
+    <includedby refid="split_measure_8cpp" local="yes">C:/Users/main/Documents/GitHub/MuseScore/libmscore/splitMeasure.cpp</includedby>
+    <includedby refid="sym_8cpp" local="yes">C:/Users/main/Documents/GitHub/MuseScore/libmscore/sym.cpp</includedby>
+    <includedby refid="textlinebase_8cpp" local="yes">C:/Users/main/Documents/GitHub/MuseScore/libmscore/textlinebase.cpp</includedby>
+    <includedby refid="timesig_8cpp" local="yes">C:/Users/main/Documents/GitHub/MuseScore/libmscore/timesig.cpp</includedby>
+    <includedby refid="transpose_8cpp" local="yes">C:/Users/main/Documents/GitHub/MuseScore/libmscore/transpose.cpp</includedby>
+    <includedby refid="trill_8cpp" local="yes">C:/Users/main/Documents/GitHub/MuseScore/libmscore/trill.cpp</includedby>
+    <includedby refid="undo_8cpp" local="yes">C:/Users/main/Documents/GitHub/MuseScore/libmscore/undo.cpp</includedby>
+    <includedby refid="unrollrepeats_8cpp" local="yes">C:/Users/main/Documents/GitHub/MuseScore/libmscore/unrollrepeats.cpp</includedby>
+    <includedby refid="utils_8cpp" local="yes">C:/Users/main/Documents/GitHub/MuseScore/libmscore/utils.cpp</includedby>
+    <includedby refid="vibrato_8cpp" local="yes">C:/Users/main/Documents/GitHub/MuseScore/libmscore/vibrato.cpp</includedby>
+    <incdepgraph>
+      <node id="4">
+        <label>style.h</label>
+        <link refid="style_8h_source"/>
+        <childnode refid="5" relation="include">
+        </childnode>
+        <childnode refid="6" relation="include">
+        </childnode>
+      </node>
+      <node id="5">
+        <label>chordlist.h</label>
+        <link refid="chordlist_8h_source"/>
+      </node>
+      <node id="6">
+        <label>types.h</label>
+        <link refid="types_8h_source"/>
+        <childnode refid="3" relation="include">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>mscore.h</label>
+        <link refid="mscore_8h_source"/>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>config.h</label>
+      </node>
+      <node id="7">
+        <label>interval.h</label>
+        <link refid="interval_8h_source"/>
+      </node>
+      <node id="1">
+        <label>C:/Users/main/Documents/GitHub/MuseScore/libmscore/utils.h</label>
+        <link refid="utils_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="7" relation="include">
+        </childnode>
+      </node>
+    </incdepgraph>
+    <invincdepgraph>
+      <node id="4">
+        <label>C:/Users/main/Documents/GitHub/MuseScore/libmscore/measure.cpp</label>
+        <link refid="measure_8cpp"/>
+      </node>
+      <node id="5">
+        <label>C:/Users/main/Documents/GitHub/MuseScore/libmscore/note.cpp</label>
+        <link refid="note_8cpp"/>
+      </node>
+      <node id="8">
+        <label>C:/Users/main/Documents/GitHub/MuseScore/libmscore/select.cpp</label>
+        <link refid="select_8cpp"/>
+      </node>
+      <node id="9">
+        <label>C:/Users/main/Documents/GitHub/MuseScore/libmscore/undo.cpp</label>
+        <link refid="undo_8cpp"/>
+      </node>
+      <node id="6">
+        <label>C:/Users/main/Documents/GitHub/MuseScore/libmscore/rendermidi.cpp</label>
+        <link refid="rendermidi_8cpp"/>
+      </node>
+      <node id="3">
+        <label>C:/Users/main/Documents/GitHub/MuseScore/libmscore/element.cpp</label>
+        <link refid="element_8cpp"/>
+      </node>
+      <node id="2">
+        <label>C:/Users/main/Documents/GitHub/MuseScore/libmscore/cmd.cpp</label>
+        <link refid="cmd_8cpp"/>
+      </node>
+      <node id="7">
+        <label>C:/Users/main/Documents/GitHub/MuseScore/libmscore/score.cpp</label>
+        <link refid="score_8cpp"/>
+      </node>
+      <node id="1">
+        <label>C:/Users/main/Documents/GitHub/MuseScore/libmscore/utils.h</label>
+        <link refid="utils_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
+        </childnode>
+        <childnode refid="6" relation="include">
+        </childnode>
+        <childnode refid="7" relation="include">
+        </childnode>
+        <childnode refid="8" relation="include">
+        </childnode>
+        <childnode refid="9" relation="include">
+        </childnode>
+      </node>
+    </invincdepgraph>
+    <innernamespace refid="namespace_ms">Ms</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/utils.h"/>
+  </compounddef>
+</doxygen>

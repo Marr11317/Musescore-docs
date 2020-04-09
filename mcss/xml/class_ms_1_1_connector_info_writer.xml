@@ -1,0 +1,257 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.17">
+  <compounddef id="class_ms_1_1_connector_info_writer" kind="class" language="C++" prot="public" abstract="yes">
+    <compoundname>Ms::ConnectorInfoWriter</compoundname>
+    <basecompoundref refid="class_ms_1_1_connector_info" prot="public" virt="non-virtual">Ms::ConnectorInfo</basecompoundref>
+    <derivedcompoundref refid="class_ms_1_1_spanner_writer" prot="public" virt="non-virtual">Ms::SpannerWriter</derivedcompoundref>
+    <includes refid="connector_8h" local="yes">connector.h</includes>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_ms_1_1_connector_info_writer_1a596e00c63c2615d47c6bec5b62f2d674" prot="private" static="no" mutable="no">
+        <type><ref refid="class_ms_1_1_xml_writer" kindref="compound">XmlWriter</ref> *</type>
+        <definition>XmlWriter* Ms::ConnectorInfoWriter::_xml</definition>
+        <argsstring></argsstring>
+        <name>_xml</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/connector.h" line="130" column="17" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/connector.h" bodystart="130" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="protected-attrib">
+      <memberdef kind="variable" id="class_ms_1_1_connector_info_writer_1a809cc952f60542cc82fdad62137e8c81" prot="protected" static="no" mutable="no">
+        <type>const <ref refid="class_ms_1_1_element" kindref="compound">Element</ref> *</type>
+        <definition>const Element* Ms::ConnectorInfoWriter::_connector</definition>
+        <argsstring></argsstring>
+        <name>_connector</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/connector.h" line="133" column="21" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/connector.h" bodystart="133" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="protected-func">
+      <memberdef kind="function" id="class_ms_1_1_connector_info_writer_1aa68a8993b34d4162ccde1667d5cdb094" prot="protected" static="no" const="yes" explicit="no" inline="no" virt="pure-virtual">
+        <type>const char *</type>
+        <definition>virtual const char* Ms::ConnectorInfoWriter::tagName</definition>
+        <argsstring>() const =0</argsstring>
+        <name>tagName</name>
+        <reimplementedby refid="class_ms_1_1_spanner_writer_1aa84df59f4b4a371bc0c43341a989650b">tagName</reimplementedby>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/connector.h" line="135" column="26"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_ms_1_1_connector_info_writer_1a3a93174f47b7153e3be91aa4724b3cae" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>Ms::ConnectorInfoWriter::ConnectorInfoWriter</definition>
+        <argsstring>(XmlWriter &amp;xml, const Element *current, const Element *connector, int track=-1, Fraction={ -1, 1})</argsstring>
+        <name>ConnectorInfoWriter</name>
+        <param>
+          <type><ref refid="class_ms_1_1_xml_writer" kindref="compound">XmlWriter</ref> &amp;</type>
+          <declname>xml</declname>
+        </param>
+        <param>
+          <type>const <ref refid="class_ms_1_1_element" kindref="compound">Element</ref> *</type>
+          <declname>current</declname>
+        </param>
+        <param>
+          <type>const <ref refid="class_ms_1_1_element" kindref="compound">Element</ref> *</type>
+          <declname>connector</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>track</declname>
+          <defval>-1</defval>
+        </param>
+        <param>
+          <type><ref refid="class_ms_1_1_fraction" kindref="compound">Fraction</ref></type>
+          <defname>frac</defname>
+          <defval>{ -1, 1}</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/connector.h" line="138" column="7" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/connector.cpp" bodystart="307" bodyend="316"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ms_1_1_connector_info_writer_1a16d410d0edd8846fd4072eb9124a79fa" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="class_ms_1_1_connector_info_writer" kindref="compound">ConnectorInfoWriter</ref> *</type>
+        <definition>ConnectorInfoWriter* Ms::ConnectorInfoWriter::prev</definition>
+        <argsstring>() const</argsstring>
+        <name>prev</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/connector.h" line="140" column="27" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/connector.h" bodystart="140" bodyend="140"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ms_1_1_connector_info_writer_1afef4a870b11a0a606f80ee1766e44010" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="class_ms_1_1_connector_info_writer" kindref="compound">ConnectorInfoWriter</ref> *</type>
+        <definition>ConnectorInfoWriter* Ms::ConnectorInfoWriter::next</definition>
+        <argsstring>() const</argsstring>
+        <name>next</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/connector.h" line="141" column="27" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/connector.h" bodystart="141" bodyend="141"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ms_1_1_connector_info_writer_1aa17a0e23e91ac305e1d6618843112ff7" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>const <ref refid="class_ms_1_1_element" kindref="compound">Element</ref> *</type>
+        <definition>const Element* Ms::ConnectorInfoWriter::connector</definition>
+        <argsstring>() const</argsstring>
+        <name>connector</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/connector.h" line="143" column="21" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/connector.h" bodystart="143" bodyend="143"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ms_1_1_connector_info_writer_1a8ecb8f1c4e36db6d192d17a5a61e0e47" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Ms::ConnectorInfoWriter::write</definition>
+        <argsstring>()</argsstring>
+        <name>write</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/connector.h" line="145" column="12" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/connector.cpp" bodystart="322" bodyend="343"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>Helper class for writing connecting elements. Subclasses should fill _prevInfo and _nextInfo with the proper information on the connector&apos;s endpoints. </para>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>Ms::ConnectorInfoWriter</label>
+        <link refid="class_ms_1_1_connector_info_writer"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>Ms::ConnectorInfo</label>
+        <link refid="class_ms_1_1_connector_info"/>
+      </node>
+      <node id="3">
+        <label>Ms::SpannerWriter</label>
+        <link refid="class_ms_1_1_spanner_writer"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>Ms::ConnectorInfoWriter</label>
+        <link refid="class_ms_1_1_connector_info_writer"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="usage">
+          <edgelabel>_connector</edgelabel>
+        </childnode>
+      </node>
+      <node id="7">
+        <label>QList&lt; ScoreElement * &gt;</label>
+      </node>
+      <node id="2">
+        <label>Ms::ConnectorInfo</label>
+        <link refid="class_ms_1_1_connector_info"/>
+        <childnode refid="3" relation="usage">
+          <edgelabel>_nextLoc</edgelabel>
+          <edgelabel>_prevLoc</edgelabel>
+          <edgelabel>_currentLoc</edgelabel>
+        </childnode>
+        <childnode refid="2" relation="usage">
+          <edgelabel>_prev</edgelabel>
+          <edgelabel>_next</edgelabel>
+        </childnode>
+      </node>
+      <node id="5">
+        <label>Ms::ScoreElement</label>
+        <link refid="class_ms_1_1_score_element"/>
+        <childnode refid="6" relation="usage">
+          <edgelabel>_links</edgelabel>
+        </childnode>
+      </node>
+      <node id="6">
+        <label>Ms::LinkedElements</label>
+        <link refid="class_ms_1_1_linked_elements"/>
+        <childnode refid="7" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="4">
+        <label>Ms::Element</label>
+        <link refid="class_ms_1_1_element"/>
+        <childnode refid="5" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>Ms::Location</label>
+        <link refid="class_ms_1_1_location"/>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/connector.h" line="129" column="47" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/connector.h" bodystart="129" bodyend="146"/>
+    <listofallmembers>
+      <member refid="class_ms_1_1_connector_info_writer_1a809cc952f60542cc82fdad62137e8c81" prot="protected" virt="non-virtual"><scope>Ms::ConnectorInfoWriter</scope><name>_connector</name></member>
+      <member refid="class_ms_1_1_connector_info_1aab0597f472df593d388b70456100e5fd" prot="protected" virt="non-virtual"><scope>Ms::ConnectorInfoWriter</scope><name>_currentLoc</name></member>
+      <member refid="class_ms_1_1_connector_info_1a2905228a8a36636c8ef06c7e5fc985a8" prot="protected" virt="non-virtual"><scope>Ms::ConnectorInfoWriter</scope><name>_next</name></member>
+      <member refid="class_ms_1_1_connector_info_1a69f5760d0f557c56484f40c0ad3c49a1" prot="protected" virt="non-virtual"><scope>Ms::ConnectorInfoWriter</scope><name>_nextLoc</name></member>
+      <member refid="class_ms_1_1_connector_info_1aff17bc100920b8616729358f5bb02379" prot="protected" virt="non-virtual"><scope>Ms::ConnectorInfoWriter</scope><name>_prev</name></member>
+      <member refid="class_ms_1_1_connector_info_1a2c99a173d1a0fbc43c687ad726dbbf25" prot="protected" virt="non-virtual"><scope>Ms::ConnectorInfoWriter</scope><name>_prevLoc</name></member>
+      <member refid="class_ms_1_1_connector_info_1a8717926a1bd0470587949a1e8c3702d3" prot="protected" virt="non-virtual"><scope>Ms::ConnectorInfoWriter</scope><name>_type</name></member>
+      <member refid="class_ms_1_1_connector_info_writer_1a596e00c63c2615d47c6bec5b62f2d674" prot="private" virt="non-virtual"><scope>Ms::ConnectorInfoWriter</scope><name>_xml</name></member>
+      <member refid="class_ms_1_1_connector_info_1a0dd2078b5a9d747815e61be20b8d11ff" prot="public" virt="non-virtual"><scope>Ms::ConnectorInfoWriter</scope><name>connect</name></member>
+      <member refid="class_ms_1_1_connector_info_1a6b43bdec59e0fe7369a25e256a750d10" prot="public" virt="non-virtual"><scope>Ms::ConnectorInfoWriter</scope><name>connectionDistance</name></member>
+      <member refid="class_ms_1_1_connector_info_writer_1aa17a0e23e91ac305e1d6618843112ff7" prot="public" virt="non-virtual"><scope>Ms::ConnectorInfoWriter</scope><name>connector</name></member>
+      <member refid="class_ms_1_1_connector_info_1ac6c91f9fa35643efcd7cd7170a78e57a" prot="public" virt="non-virtual"><scope>Ms::ConnectorInfoWriter</scope><name>ConnectorInfo</name></member>
+      <member refid="class_ms_1_1_connector_info_1a2b896505b084deb704711c6d76b7578f" prot="public" virt="non-virtual"><scope>Ms::ConnectorInfoWriter</scope><name>ConnectorInfo</name></member>
+      <member refid="class_ms_1_1_connector_info_writer_1a3a93174f47b7153e3be91aa4724b3cae" prot="public" virt="non-virtual"><scope>Ms::ConnectorInfoWriter</scope><name>ConnectorInfoWriter</name></member>
+      <member refid="class_ms_1_1_connector_info_1aff4f0bcb93449d8b63c2a91ace0d32d7" prot="protected" virt="non-virtual"><scope>Ms::ConnectorInfoWriter</scope><name>currentUpdated</name></member>
+      <member refid="class_ms_1_1_connector_info_1a0e2bedcf1060635cf0d8e4ea6a82666d" prot="public" virt="non-virtual"><scope>Ms::ConnectorInfoWriter</scope><name>end</name></member>
+      <member refid="class_ms_1_1_connector_info_1a3c4db4898aec66fda08e298016d4c6c3" prot="protected" virt="non-virtual"><scope>Ms::ConnectorInfoWriter</scope><name>findFirst</name></member>
+      <member refid="class_ms_1_1_connector_info_1a67a5edb108a229da29c242de7249454f" prot="protected" virt="non-virtual"><scope>Ms::ConnectorInfoWriter</scope><name>findFirst</name></member>
+      <member refid="class_ms_1_1_connector_info_1a89f26c9ed03fae0d53b94c1a3e3978f8" prot="protected" virt="non-virtual"><scope>Ms::ConnectorInfoWriter</scope><name>findLast</name></member>
+      <member refid="class_ms_1_1_connector_info_1a4e54867fd7ddaebfec9e34db2bc41f56" prot="protected" virt="non-virtual"><scope>Ms::ConnectorInfoWriter</scope><name>findLast</name></member>
+      <member refid="class_ms_1_1_connector_info_1aa17145f5aab3720d88b425c3ac294d2f" prot="public" virt="non-virtual"><scope>Ms::ConnectorInfoWriter</scope><name>finished</name></member>
+      <member refid="class_ms_1_1_connector_info_1ab09c14f574ef27a9479a1ebd35fa442d" prot="public" virt="non-virtual"><scope>Ms::ConnectorInfoWriter</scope><name>forceConnect</name></member>
+      <member refid="class_ms_1_1_connector_info_1ab037fea7df8a6be9a88118bd2f266317" prot="public" virt="non-virtual"><scope>Ms::ConnectorInfoWriter</scope><name>hasNext</name></member>
+      <member refid="class_ms_1_1_connector_info_1a6b5333899fed93f5f2f2920f6fb5ca51" prot="public" virt="non-virtual"><scope>Ms::ConnectorInfoWriter</scope><name>hasPrevious</name></member>
+      <member refid="class_ms_1_1_connector_info_1a07346ecc733f815b2e8600224f349321" prot="public" virt="non-virtual"><scope>Ms::ConnectorInfoWriter</scope><name>isEnd</name></member>
+      <member refid="class_ms_1_1_connector_info_1a02e65534b7808b08fdc044c38ccf6b25" prot="public" virt="non-virtual"><scope>Ms::ConnectorInfoWriter</scope><name>isMiddle</name></member>
+      <member refid="class_ms_1_1_connector_info_1a354ac221a0e69bfc19dae36d20b66085" prot="public" virt="non-virtual"><scope>Ms::ConnectorInfoWriter</scope><name>isStart</name></member>
+      <member refid="class_ms_1_1_connector_info_1ab5d7ba02564de631e482aea5a3174a46" prot="public" virt="non-virtual"><scope>Ms::ConnectorInfoWriter</scope><name>location</name></member>
+      <member refid="class_ms_1_1_connector_info_writer_1afef4a870b11a0a606f80ee1766e44010" prot="public" virt="non-virtual"><scope>Ms::ConnectorInfoWriter</scope><name>next</name></member>
+      <member refid="class_ms_1_1_connector_info_writer_1a16d410d0edd8846fd4072eb9124a79fa" prot="public" virt="non-virtual"><scope>Ms::ConnectorInfoWriter</scope><name>prev</name></member>
+      <member refid="class_ms_1_1_connector_info_1aaf7cd6cfbab92d7e6405b0d756085736" prot="protected" virt="non-virtual"><scope>Ms::ConnectorInfoWriter</scope><name>setCurrentUpdated</name></member>
+      <member refid="class_ms_1_1_connector_info_1aa2abe336c58a7047257636dca2091707" prot="public" virt="non-virtual"><scope>Ms::ConnectorInfoWriter</scope><name>start</name></member>
+      <member refid="class_ms_1_1_connector_info_writer_1aa68a8993b34d4162ccde1667d5cdb094" prot="protected" virt="pure-virtual"><scope>Ms::ConnectorInfoWriter</scope><name>tagName</name></member>
+      <member refid="class_ms_1_1_connector_info_1a5aab8aa8e6f79162a1db656b559f065c" prot="public" virt="non-virtual"><scope>Ms::ConnectorInfoWriter</scope><name>type</name></member>
+      <member refid="class_ms_1_1_connector_info_1a1ae6f85c3f76423708eec4e8b31b6e91" prot="protected" virt="non-virtual"><scope>Ms::ConnectorInfoWriter</scope><name>updateCurrentInfo</name></member>
+      <member refid="class_ms_1_1_connector_info_1adf1d4b87bf54e320867dd91c5d682c8f" prot="protected" virt="non-virtual"><scope>Ms::ConnectorInfoWriter</scope><name>updateLocation</name></member>
+      <member refid="class_ms_1_1_connector_info_writer_1a8ecb8f1c4e36db6d192d17a5a61e0e47" prot="public" virt="non-virtual"><scope>Ms::ConnectorInfoWriter</scope><name>write</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

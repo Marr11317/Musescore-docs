@@ -1,0 +1,238 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.17">
+  <compounddef id="class_ms_1_1_text_fragment" kind="class" language="C++" prot="public">
+    <compoundname>Ms::TextFragment</compoundname>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_ms_1_1_text_fragment_1a1f4237b1a0bd0b97a0059b5ceb977ce5" prot="public" static="no" mutable="yes">
+        <type><ref refid="class_ms_1_1_char_format" kindref="compound">CharFormat</ref></type>
+        <definition>CharFormat Ms::TextFragment::format</definition>
+        <argsstring></argsstring>
+        <name>format</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/textbase.h" line="154" column="26" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/textbase.h" bodystart="154" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_ms_1_1_text_fragment_1a5c7bff986e0abff0556b4318e495a859" prot="public" static="no" mutable="no">
+        <type>QPointF</type>
+        <definition>QPointF Ms::TextFragment::pos</definition>
+        <argsstring></argsstring>
+        <name>pos</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/textbase.h" line="155" column="15" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/textbase.h" bodystart="155" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_ms_1_1_text_fragment_1a573f59da3ff8104aed05f506209f367d" prot="public" static="no" mutable="yes">
+        <type>QString</type>
+        <definition>QString Ms::TextFragment::text</definition>
+        <argsstring></argsstring>
+        <name>text</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/textbase.h" line="156" column="23" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/textbase.h" bodystart="156" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_ms_1_1_text_fragment_1a066f356124de2a4df0c8f765c2d7e869" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool Ms::TextFragment::operator==</definition>
+        <argsstring>(const TextFragment &amp;f) const</argsstring>
+        <name>operator==</name>
+        <param>
+          <type>const <ref refid="class_ms_1_1_text_fragment" kindref="compound">TextFragment</ref> &amp;</type>
+          <declname>f</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/textbase.h" line="158" column="12" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/textbase.cpp" bodystart="509" bodyend="512"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ms_1_1_text_fragment_1ab77373a37a593c3fb72c1af936d3d7a7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>Ms::TextFragment::TextFragment</definition>
+        <argsstring>()</argsstring>
+        <name>TextFragment</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/textbase.h" line="160" column="7" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/textbase.cpp" bodystart="445" bodyend="447"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ms_1_1_text_fragment_1a785f0417b97931847a505375527aace8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>Ms::TextFragment::TextFragment</definition>
+        <argsstring>(const QString &amp;s)</argsstring>
+        <name>TextFragment</name>
+        <param>
+          <type>const QString &amp;</type>
+          <declname>s</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/textbase.h" line="161" column="7" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/textbase.cpp" bodystart="449" bodyend="452"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ms_1_1_text_fragment_1ab5e01c6d3d7a83ffad7c18a6ccfe19fc" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>Ms::TextFragment::TextFragment</definition>
+        <argsstring>(TextCursor *, const QString &amp;)</argsstring>
+        <name>TextFragment</name>
+        <param>
+          <type><ref refid="class_ms_1_1_text_cursor" kindref="compound">TextCursor</ref> *</type>
+          <defname>cursor</defname>
+        </param>
+        <param>
+          <type>const QString &amp;</type>
+          <defname>s</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/textbase.h" line="162" column="7" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/textbase.cpp" bodystart="454" bodyend="458"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ms_1_1_text_fragment_1aca1fbf287e3ea892b09bbefc26876880" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="class_ms_1_1_text_fragment" kindref="compound">TextFragment</ref></type>
+        <definition>TextFragment Ms::TextFragment::split</definition>
+        <argsstring>(int column)</argsstring>
+        <name>split</name>
+        <param>
+          <type>int</type>
+          <declname>column</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/textbase.h" line="163" column="20" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/textbase.cpp" bodystart="464" bodyend="487"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ms_1_1_text_fragment_1a53412d076b8af3e74c357f517e1ce4c2" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Ms::TextFragment::draw</definition>
+        <argsstring>(QPainter *, const TextBase *) const</argsstring>
+        <name>draw</name>
+        <param>
+          <type>QPainter *</type>
+          <defname>p</defname>
+        </param>
+        <param>
+          <type>const <ref refid="class_ms_1_1_text_base" kindref="compound">TextBase</ref> *</type>
+          <defname>t</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/textbase.h" line="164" column="12" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/textbase.cpp" bodystart="518" bodyend="524"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ms_1_1_text_fragment_1a56adc6ed2a13fc35030ba3b279b1f9eb" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>QFont</type>
+        <definition>QFont Ms::TextFragment::font</definition>
+        <argsstring>(const TextBase *) const</argsstring>
+        <name>font</name>
+        <param>
+          <type>const <ref refid="class_ms_1_1_text_base" kindref="compound">TextBase</ref> *</type>
+          <defname>t</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/textbase.h" line="165" column="13" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/textbase.cpp" bodystart="530" bodyend="584"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ms_1_1_text_fragment_1abd492edb356ec776e81fd6db0bdf9329" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int Ms::TextFragment::columns</definition>
+        <argsstring>() const</argsstring>
+        <name>columns</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/textbase.h" line="166" column="11" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/textbase.cpp" bodystart="494" bodyend="503"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ms_1_1_text_fragment_1a4412cd3e729a247963e8660d340de0e4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Ms::TextFragment::changeFormat</definition>
+        <argsstring>(FormatId id, QVariant data)</argsstring>
+        <name>changeFormat</name>
+        <param>
+          <type>FormatId</type>
+          <declname>id</declname>
+        </param>
+        <param>
+          <type>QVariant</type>
+          <declname>data</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/textbase.h" line="167" column="12" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/textbase.cpp" bodystart="1029" bodyend="1032"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="2">
+        <label>Ms::CharFormat</label>
+        <link refid="class_ms_1_1_char_format"/>
+      </node>
+      <node id="1">
+        <label>Ms::TextFragment</label>
+        <link refid="class_ms_1_1_text_fragment"/>
+        <childnode refid="2" relation="usage">
+          <edgelabel>format</edgelabel>
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/textbase.h" line="151" column="19" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/textbase.h" bodystart="151" bodyend="168"/>
+    <listofallmembers>
+      <member refid="class_ms_1_1_text_fragment_1a4412cd3e729a247963e8660d340de0e4" prot="public" virt="non-virtual"><scope>Ms::TextFragment</scope><name>changeFormat</name></member>
+      <member refid="class_ms_1_1_text_fragment_1abd492edb356ec776e81fd6db0bdf9329" prot="public" virt="non-virtual"><scope>Ms::TextFragment</scope><name>columns</name></member>
+      <member refid="class_ms_1_1_text_fragment_1a53412d076b8af3e74c357f517e1ce4c2" prot="public" virt="non-virtual"><scope>Ms::TextFragment</scope><name>draw</name></member>
+      <member refid="class_ms_1_1_text_fragment_1a56adc6ed2a13fc35030ba3b279b1f9eb" prot="public" virt="non-virtual"><scope>Ms::TextFragment</scope><name>font</name></member>
+      <member refid="class_ms_1_1_text_fragment_1a1f4237b1a0bd0b97a0059b5ceb977ce5" prot="public" virt="non-virtual"><scope>Ms::TextFragment</scope><name>format</name></member>
+      <member refid="class_ms_1_1_text_fragment_1a066f356124de2a4df0c8f765c2d7e869" prot="public" virt="non-virtual"><scope>Ms::TextFragment</scope><name>operator==</name></member>
+      <member refid="class_ms_1_1_text_fragment_1a5c7bff986e0abff0556b4318e495a859" prot="public" virt="non-virtual"><scope>Ms::TextFragment</scope><name>pos</name></member>
+      <member refid="class_ms_1_1_text_fragment_1aca1fbf287e3ea892b09bbefc26876880" prot="public" virt="non-virtual"><scope>Ms::TextFragment</scope><name>split</name></member>
+      <member refid="class_ms_1_1_text_fragment_1a573f59da3ff8104aed05f506209f367d" prot="public" virt="non-virtual"><scope>Ms::TextFragment</scope><name>text</name></member>
+      <member refid="class_ms_1_1_text_fragment_1ab77373a37a593c3fb72c1af936d3d7a7" prot="public" virt="non-virtual"><scope>Ms::TextFragment</scope><name>TextFragment</name></member>
+      <member refid="class_ms_1_1_text_fragment_1a785f0417b97931847a505375527aace8" prot="public" virt="non-virtual"><scope>Ms::TextFragment</scope><name>TextFragment</name></member>
+      <member refid="class_ms_1_1_text_fragment_1ab5e01c6d3d7a83ffad7c18a6ccfe19fc" prot="public" virt="non-virtual"><scope>Ms::TextFragment</scope><name>TextFragment</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

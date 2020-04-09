@@ -1,0 +1,1050 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.17">
+  <compounddef id="class_ms_1_1_undo_command" kind="class" language="C++" prot="public">
+    <compoundname>Ms::UndoCommand</compoundname>
+    <derivedcompoundref refid="class_ms_1_1_add_bracket" prot="public" virt="non-virtual">Ms::AddBracket</derivedcompoundref>
+    <derivedcompoundref refid="class_ms_1_1_add_element" prot="public" virt="non-virtual">Ms::AddElement</derivedcompoundref>
+    <derivedcompoundref refid="class_ms_1_1_add_excerpt" prot="public" virt="non-virtual">Ms::AddExcerpt</derivedcompoundref>
+    <derivedcompoundref refid="class_ms_1_1_change_bend" prot="public" virt="non-virtual">Ms::ChangeBend</derivedcompoundref>
+    <derivedcompoundref refid="class_ms_1_1_change_bracket_type" prot="public" virt="non-virtual">Ms::ChangeBracketType</derivedcompoundref>
+    <derivedcompoundref refid="class_ms_1_1_change_chord_play_event_type" prot="public" virt="non-virtual">Ms::ChangeChordPlayEventType</derivedcompoundref>
+    <derivedcompoundref refid="class_ms_1_1_change_chord_staff_move" prot="public" virt="non-virtual">Ms::ChangeChordStaffMove</derivedcompoundref>
+    <derivedcompoundref refid="class_ms_1_1_change_clef_type" prot="public" virt="non-virtual">Ms::ChangeClefType</derivedcompoundref>
+    <derivedcompoundref refid="class_ms_1_1_change_drumset" prot="public" virt="non-virtual">Ms::ChangeDrumset</derivedcompoundref>
+    <derivedcompoundref refid="class_ms_1_1_change_element" prot="public" virt="non-virtual">Ms::ChangeElement</derivedcompoundref>
+    <derivedcompoundref refid="class_ms_1_1_change_excerpt_title" prot="public" virt="non-virtual">Ms::ChangeExcerptTitle</derivedcompoundref>
+    <derivedcompoundref refid="class_ms_1_1_change_fretting" prot="public" virt="non-virtual">Ms::ChangeFretting</derivedcompoundref>
+    <derivedcompoundref refid="class_ms_1_1_change_instrument" prot="public" virt="non-virtual">Ms::ChangeInstrument</derivedcompoundref>
+    <derivedcompoundref refid="class_ms_1_1_change_instrument_long" prot="public" virt="non-virtual">Ms::ChangeInstrumentLong</derivedcompoundref>
+    <derivedcompoundref refid="class_ms_1_1_change_instrument_short" prot="public" virt="non-virtual">Ms::ChangeInstrumentShort</derivedcompoundref>
+    <derivedcompoundref refid="class_ms_1_1_change_key_sig" prot="public" virt="non-virtual">Ms::ChangeKeySig</derivedcompoundref>
+    <derivedcompoundref refid="class_ms_1_1_change_measure_len" prot="public" virt="non-virtual">Ms::ChangeMeasureLen</derivedcompoundref>
+    <derivedcompoundref refid="class_ms_1_1_change_meta_tags" prot="public" virt="non-virtual">Ms::ChangeMetaTags</derivedcompoundref>
+    <derivedcompoundref refid="class_ms_1_1_change_meta_text" prot="public" virt="non-virtual">Ms::ChangeMetaText</derivedcompoundref>
+    <derivedcompoundref refid="class_ms_1_1_change_m_m_rest" prot="public" virt="non-virtual">Ms::ChangeMMRest</derivedcompoundref>
+    <derivedcompoundref refid="class_ms_1_1_change_m_staff_properties" prot="public" virt="non-virtual">Ms::ChangeMStaffProperties</derivedcompoundref>
+    <derivedcompoundref refid="class_ms_1_1_change_note_event" prot="public" virt="non-virtual">Ms::ChangeNoteEvent</derivedcompoundref>
+    <derivedcompoundref refid="class_ms_1_1_change_note_event_list" prot="public" virt="non-virtual">Ms::ChangeNoteEventList</derivedcompoundref>
+    <derivedcompoundref refid="class_ms_1_1_change_note_events" prot="public" virt="non-virtual">Ms::ChangeNoteEvents</derivedcompoundref>
+    <derivedcompoundref refid="class_ms_1_1_change_page_number_offset" prot="public" virt="non-virtual">Ms::ChangePageNumberOffset</derivedcompoundref>
+    <derivedcompoundref refid="class_ms_1_1_change_parent" prot="public" virt="non-virtual">Ms::ChangeParent</derivedcompoundref>
+    <derivedcompoundref refid="class_ms_1_1_change_part" prot="public" virt="non-virtual">Ms::ChangePart</derivedcompoundref>
+    <derivedcompoundref refid="class_ms_1_1_change_patch" prot="public" virt="non-virtual">Ms::ChangePatch</derivedcompoundref>
+    <derivedcompoundref refid="class_ms_1_1_change_pitch" prot="public" virt="non-virtual">Ms::ChangePitch</derivedcompoundref>
+    <derivedcompoundref refid="class_ms_1_1_change_property" prot="public" virt="non-virtual">Ms::ChangeProperty</derivedcompoundref>
+    <derivedcompoundref refid="class_ms_1_1_change_spanner_elements" prot="public" virt="non-virtual">Ms::ChangeSpannerElements</derivedcompoundref>
+    <derivedcompoundref refid="class_ms_1_1_change_staff" prot="public" virt="non-virtual">Ms::ChangeStaff</derivedcompoundref>
+    <derivedcompoundref refid="class_ms_1_1_change_staff_type" prot="public" virt="non-virtual">Ms::ChangeStaffType</derivedcompoundref>
+    <derivedcompoundref refid="class_ms_1_1_change_start_end_spanner" prot="public" virt="non-virtual">Ms::ChangeStartEndSpanner</derivedcompoundref>
+    <derivedcompoundref refid="class_ms_1_1_change_style" prot="public" virt="non-virtual">Ms::ChangeStyle</derivedcompoundref>
+    <derivedcompoundref refid="class_ms_1_1_change_style_val" prot="public" virt="non-virtual">Ms::ChangeStyleVal</derivedcompoundref>
+    <derivedcompoundref refid="class_ms_1_1_change_synthesizer_state" prot="public" virt="non-virtual">Ms::ChangeSynthesizerState</derivedcompoundref>
+    <derivedcompoundref refid="class_ms_1_1_change_tremolo_bar" prot="public" virt="non-virtual">Ms::ChangeTremoloBar</derivedcompoundref>
+    <derivedcompoundref refid="class_ms_1_1_change_velocity" prot="public" virt="non-virtual">Ms::ChangeVelocity</derivedcompoundref>
+    <derivedcompoundref refid="class_ms_1_1_clone_voice" prot="public" virt="non-virtual">Ms::CloneVoice</derivedcompoundref>
+    <derivedcompoundref refid="class_ms_1_1_edit_text" prot="public" virt="non-virtual">Ms::EditText</derivedcompoundref>
+    <derivedcompoundref refid="class_ms_1_1_exchange_voice" prot="public" virt="non-virtual">Ms::ExchangeVoice</derivedcompoundref>
+    <derivedcompoundref refid="class_ms_1_1_fret_barre" prot="public" virt="non-virtual">Ms::FretBarre</derivedcompoundref>
+    <derivedcompoundref refid="class_ms_1_1_fret_clear" prot="public" virt="non-virtual">Ms::FretClear</derivedcompoundref>
+    <derivedcompoundref refid="class_ms_1_1_fret_dot" prot="public" virt="non-virtual">Ms::FretDot</derivedcompoundref>
+    <derivedcompoundref refid="class_ms_1_1_fret_marker" prot="public" virt="non-virtual">Ms::FretMarker</derivedcompoundref>
+    <derivedcompoundref refid="class_ms_1_1_insert_m_staff" prot="public" virt="non-virtual">Ms::InsertMStaff</derivedcompoundref>
+    <derivedcompoundref refid="class_ms_1_1_insert_part" prot="public" virt="non-virtual">Ms::InsertPart</derivedcompoundref>
+    <derivedcompoundref refid="class_ms_1_1_insert_remove_measures" prot="public" virt="non-virtual">Ms::InsertRemoveMeasures</derivedcompoundref>
+    <derivedcompoundref refid="class_ms_1_1_insert_staff" prot="public" virt="non-virtual">Ms::InsertStaff</derivedcompoundref>
+    <derivedcompoundref refid="class_ms_1_1_insert_staves" prot="public" virt="non-virtual">Ms::InsertStaves</derivedcompoundref>
+    <derivedcompoundref refid="class_ms_1_1_insert_time" prot="public" virt="non-virtual">Ms::InsertTime</derivedcompoundref>
+    <derivedcompoundref refid="class_ms_1_1_insert_time_unmanaged_spanner" prot="public" virt="non-virtual">Ms::InsertTimeUnmanagedSpanner</derivedcompoundref>
+    <derivedcompoundref refid="class_ms_1_1_link_unlink" prot="public" virt="non-virtual">Ms::LinkUnlink</derivedcompoundref>
+    <derivedcompoundref refid="class_ms_1_1_move_tremolo" prot="public" virt="non-virtual">Ms::MoveTremolo</derivedcompoundref>
+    <derivedcompoundref refid="class_ms_1_1_remove_bracket" prot="public" virt="non-virtual">Ms::RemoveBracket</derivedcompoundref>
+    <derivedcompoundref refid="class_ms_1_1_remove_element" prot="public" virt="non-virtual">Ms::RemoveElement</derivedcompoundref>
+    <derivedcompoundref refid="class_ms_1_1_remove_excerpt" prot="public" virt="non-virtual">Ms::RemoveExcerpt</derivedcompoundref>
+    <derivedcompoundref refid="class_ms_1_1_remove_m_staff" prot="public" virt="non-virtual">Ms::RemoveMStaff</derivedcompoundref>
+    <derivedcompoundref refid="class_ms_1_1_remove_part" prot="public" virt="non-virtual">Ms::RemovePart</derivedcompoundref>
+    <derivedcompoundref refid="class_ms_1_1_remove_staff" prot="public" virt="non-virtual">Ms::RemoveStaff</derivedcompoundref>
+    <derivedcompoundref refid="class_ms_1_1_remove_staves" prot="public" virt="non-virtual">Ms::RemoveStaves</derivedcompoundref>
+    <derivedcompoundref refid="class_ms_1_1_set_user_bank_controller" prot="public" virt="non-virtual">Ms::SetUserBankController</derivedcompoundref>
+    <derivedcompoundref refid="class_ms_1_1_sort_staves" prot="public" virt="non-virtual">Ms::SortStaves</derivedcompoundref>
+    <derivedcompoundref refid="class_ms_1_1_swap_c_r" prot="public" virt="non-virtual">Ms::SwapCR</derivedcompoundref>
+    <derivedcompoundref refid="class_ms_1_1_swap_excerpt" prot="public" virt="non-virtual">Ms::SwapExcerpt</derivedcompoundref>
+    <derivedcompoundref refid="class_ms_1_1_text_edit_undo_command" prot="public" virt="non-virtual">Ms::TextEditUndoCommand</derivedcompoundref>
+    <derivedcompoundref refid="class_ms_1_1_transpose_harmony" prot="public" virt="non-virtual">Ms::TransposeHarmony</derivedcompoundref>
+    <derivedcompoundref refid="class_ms_1_1_undo_macro" prot="public" virt="non-virtual">Ms::UndoMacro</derivedcompoundref>
+      <sectiondef kind="public-type">
+      <memberdef kind="enum" id="class_ms_1_1_undo_command_1a7c3fae86b0c593d95eb2acf44348b425" prot="public" static="no" strong="yes">
+        <type></type>
+        <name>Filter</name>
+        <enumvalue id="class_ms_1_1_undo_command_1a7c3fae86b0c593d95eb2acf44348b425a132bb878d722dd2d7934f08c601d201c" prot="public">
+          <name>TextEdit</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="class_ms_1_1_undo_command_1a7c3fae86b0c593d95eb2acf44348b425ac4cdf151d451cf1b8ad1cc2374226720" prot="public">
+          <name>AddElement</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="class_ms_1_1_undo_command_1a7c3fae86b0c593d95eb2acf44348b425adbebebb26c2ba1eba3b58180175bd3e8" prot="public">
+          <name>AddElementLinked</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="class_ms_1_1_undo_command_1a7c3fae86b0c593d95eb2acf44348b425a97e7c9a7d06eac006a28bf05467fcc8b" prot="public">
+          <name>Link</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="class_ms_1_1_undo_command_1a7c3fae86b0c593d95eb2acf44348b425a88bc403c4844cd9977762fcbb42fbd81" prot="public">
+          <name>RemoveElement</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="class_ms_1_1_undo_command_1a7c3fae86b0c593d95eb2acf44348b425a4dfba59eee0c16b80056bbc068a7d849" prot="public">
+          <name>RemoveElementLinked</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="class_ms_1_1_undo_command_1a7c3fae86b0c593d95eb2acf44348b425a849507cd543d40f0453db20a01d5ba05" prot="public">
+          <name>ChangePropertyLinked</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/undo.h" line="104" column="24" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/undo.h" bodystart="104" bodyend="112"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_ms_1_1_undo_command_1aa5e896fda797bdf0d691d5cbd40513b2" prot="private" static="no" mutable="no">
+        <type>QList&lt; <ref refid="class_ms_1_1_undo_command" kindref="compound">UndoCommand</ref> * &gt;</type>
+        <definition>QList&lt;UndoCommand*&gt; Ms::UndoCommand::childList</definition>
+        <argsstring></argsstring>
+        <name>childList</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/undo.h" line="97" column="13" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/undo.h" bodystart="97" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="protected-func">
+      <memberdef kind="function" id="class_ms_1_1_undo_command_1a861162fe6c105a00dfec5a5b70a690a5" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>void</type>
+        <definition>virtual void Ms::UndoCommand::flip</definition>
+        <argsstring>(EditData *)</argsstring>
+        <name>flip</name>
+        <reimplementedby refid="class_ms_1_1_change_pitch_1a75270a105a47aa755b274801672a7ff9">flip</reimplementedby>
+        <reimplementedby refid="class_ms_1_1_change_fretting_1a415dde15ba200f0007d2829d042836fa">flip</reimplementedby>
+        <reimplementedby refid="class_ms_1_1_change_key_sig_1a088664f90c8a03d395f31132e2ea83a4">flip</reimplementedby>
+        <reimplementedby refid="class_ms_1_1_change_measure_len_1a6f3f1b5964802e7cdbd7070a83450ca7">flip</reimplementedby>
+        <reimplementedby refid="class_ms_1_1_change_element_1a86f9561119501023fe23ae743dd7a254">flip</reimplementedby>
+        <reimplementedby refid="class_ms_1_1_transpose_harmony_1a07e2b32abc7299308a454d10ffd882a3">flip</reimplementedby>
+        <reimplementedby refid="class_ms_1_1_change_instrument_short_1a2a2bec90767aeeb96bdbc466139bfb50">flip</reimplementedby>
+        <reimplementedby refid="class_ms_1_1_change_instrument_long_1a7e5c4d0412f683f5d96f55bfc9ab1d80">flip</reimplementedby>
+        <reimplementedby refid="class_ms_1_1_change_bracket_type_1aa8bffda839c7ba062a09902527ffaac8">flip</reimplementedby>
+        <reimplementedby refid="class_ms_1_1_change_patch_1a7821ff28bd2c594408b417597043b7c8">flip</reimplementedby>
+        <reimplementedby refid="class_ms_1_1_set_user_bank_controller_1a1f24fb1c407b0e7c80403a320bb5093b">flip</reimplementedby>
+        <reimplementedby refid="class_ms_1_1_change_staff_1a5f89c563c5b290faed96af8afb9e2e29">flip</reimplementedby>
+        <reimplementedby refid="class_ms_1_1_change_staff_type_1ae18bdc4f5e79230b9c960e3d028f047e">flip</reimplementedby>
+        <reimplementedby refid="class_ms_1_1_change_part_1a96fc0f744806761cea9e235168e694b7">flip</reimplementedby>
+        <reimplementedby refid="class_ms_1_1_change_style_1a96f909bebc884655d1e46d581a983e9a">flip</reimplementedby>
+        <reimplementedby refid="class_ms_1_1_change_style_val_1a73b5d8fab2c291a6ddc1caadd60bedac">flip</reimplementedby>
+        <reimplementedby refid="class_ms_1_1_change_page_number_offset_1add885ff63e818f40f601359e0c3a044a">flip</reimplementedby>
+        <reimplementedby refid="class_ms_1_1_change_chord_staff_move_1a8c8c960e88d3fdcf478bf0215172d4f2">flip</reimplementedby>
+        <reimplementedby refid="class_ms_1_1_change_velocity_1a163799224b8040b86b0dd0db614ffb8c">flip</reimplementedby>
+        <reimplementedby refid="class_ms_1_1_change_m_staff_properties_1a72321f3c905c0ff0fdfa1603e33b42ef">flip</reimplementedby>
+        <reimplementedby refid="class_ms_1_1_swap_excerpt_1a27633ab5f058aa66a3a9ee58f44305d3">flip</reimplementedby>
+        <reimplementedby refid="class_ms_1_1_change_excerpt_title_1a510c1f8afb582bea572d82cbe2be76f1">flip</reimplementedby>
+        <reimplementedby refid="class_ms_1_1_change_bend_1ac0d5c034686ce8465fd2c318d1e880aa">flip</reimplementedby>
+        <reimplementedby refid="class_ms_1_1_change_tremolo_bar_1aa936dc70b32c1d8829721f8b209f20a2">flip</reimplementedby>
+        <reimplementedby refid="class_ms_1_1_change_note_events_1a1fbb656352ab45b34ad2f3210728abab">flip</reimplementedby>
+        <reimplementedby refid="class_ms_1_1_change_note_event_list_1ae0822b862f46f859cafc904b532ba073">flip</reimplementedby>
+        <reimplementedby refid="class_ms_1_1_change_chord_play_event_type_1a692f852269976ce5d3019458fa682b82">flip</reimplementedby>
+        <reimplementedby refid="class_ms_1_1_change_instrument_1a4c8e9c9c23eba5f0ee6f8c511ea1b4ce">flip</reimplementedby>
+        <reimplementedby refid="class_ms_1_1_swap_c_r_1a6623c55c1f9977d2a81f6e3f5f047605">flip</reimplementedby>
+        <reimplementedby refid="class_ms_1_1_change_clef_type_1a67c932be5ec500634dd91541df9fd10d">flip</reimplementedby>
+        <reimplementedby refid="class_ms_1_1_change_property_1a939105fc5e677ba4d82f31f154895c3b">flip</reimplementedby>
+        <reimplementedby refid="class_ms_1_1_change_bracket_property_1abab3363a242552c1072f1e16f135d747">flip</reimplementedby>
+        <reimplementedby refid="class_ms_1_1_change_meta_text_1a0a226afe181406e9a45cf489508f0695">flip</reimplementedby>
+        <reimplementedby refid="class_ms_1_1_change_synthesizer_state_1aaad4a1cd37667b444ea5023693ec81c2">flip</reimplementedby>
+        <reimplementedby refid="class_ms_1_1_change_spanner_elements_1a0db270a16a3c49927bbc1d51c0e62ee8">flip</reimplementedby>
+        <reimplementedby refid="class_ms_1_1_change_parent_1a790b3535068f397a7e5040be77ae1d30">flip</reimplementedby>
+        <reimplementedby refid="class_ms_1_1_change_m_m_rest_1a331f3aedc8a241e5d4c617b66b5e0194">flip</reimplementedby>
+        <reimplementedby refid="class_ms_1_1_insert_time_unmanaged_spanner_1a11901891c00226c8bc3cf34287e3cade">flip</reimplementedby>
+        <reimplementedby refid="class_ms_1_1_change_note_event_1aa8fa16b30b363424facd036a6ef40b4c">flip</reimplementedby>
+        <reimplementedby refid="class_ms_1_1_change_start_end_spanner_1af21d83a57fabe8ac373c8ba01548d2a8">flip</reimplementedby>
+        <reimplementedby refid="class_ms_1_1_change_meta_tags_1ad994e04341f1b8bf5ec66e56e5417f5e">flip</reimplementedby>
+        <reimplementedby refid="class_ms_1_1_change_drumset_1afc248f4c9d91b36503d8129188b03e48">flip</reimplementedby>
+        <param>
+          <type><ref refid="class_ms_1_1_edit_data" kindref="compound">EditData</ref> *</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/undo.h" line="100" column="20" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/undo.h" bodystart="100" bodyend="100"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ms_1_1_undo_command_1adbc9ce586560a1ca06f83bb38d04c4f0" prot="protected" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Ms::UndoCommand::appendChildren</definition>
+        <argsstring>(UndoCommand *)</argsstring>
+        <name>appendChildren</name>
+        <param>
+          <type><ref refid="class_ms_1_1_undo_command" kindref="compound">UndoCommand</ref> *</type>
+          <defname>other</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Append children of <computeroutput>other</computeroutput> into this <ref refid="class_ms_1_1_undo_command" kindref="compound">UndoCommand</ref>. Ownership over child commands of <computeroutput>other</computeroutput> is transferred to this <ref refid="class_ms_1_1_undo_command" kindref="compound">UndoCommand</ref>. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/undo.h" line="101" column="12" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/undo.cpp" bodystart="175" bodyend="179"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_ms_1_1_undo_command_1ad4aec6e8dbb0e92bd2b8be2ebd79b9df" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type></type>
+        <definition>Ms::UndoCommand::~UndoCommand</definition>
+        <argsstring>()</argsstring>
+        <name>~UndoCommand</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/undo.h" line="114" column="15" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/undo.cpp" bodystart="124" bodyend="128"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ms_1_1_undo_command_1a42a2038f903e77e6bb5881209b764186" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void Ms::UndoCommand::undo</definition>
+        <argsstring>(EditData *)</argsstring>
+        <name>undo</name>
+        <reimplementedby refid="class_ms_1_1_undo_macro_1ad380e22ca3b3db66151d94acb1fd2bcb">undo</reimplementedby>
+        <reimplementedby refid="class_ms_1_1_insert_part_1ad7ed6170c9aacab26ac01f612f80dd32">undo</reimplementedby>
+        <reimplementedby refid="class_ms_1_1_remove_part_1ab523c10e85981d9e2a3d0dd71a29d956">undo</reimplementedby>
+        <reimplementedby refid="class_ms_1_1_insert_staff_1a8277b8b44de2d04c6c23676b8e4bc601">undo</reimplementedby>
+        <reimplementedby refid="class_ms_1_1_remove_staff_1a289a8e8724d3abc2fd61716c8cc9a8a5">undo</reimplementedby>
+        <reimplementedby refid="class_ms_1_1_insert_m_staff_1a1bd4d0856025c03bb68239f30cc9bf52">undo</reimplementedby>
+        <reimplementedby refid="class_ms_1_1_remove_m_staff_1a03a40c8b3e37b843290825e1ade5068c">undo</reimplementedby>
+        <reimplementedby refid="class_ms_1_1_insert_staves_1a0ffe96f50437928b17c6d3b2f23c933e">undo</reimplementedby>
+        <reimplementedby refid="class_ms_1_1_remove_staves_1a3375086725bd316d7200c563fcc87387">undo</reimplementedby>
+        <reimplementedby refid="class_ms_1_1_sort_staves_1ac3db0742daccfcef821036876f8e2cb0">undo</reimplementedby>
+        <reimplementedby refid="class_ms_1_1_exchange_voice_1a1923005f409e8b9f6e99324814449b00">undo</reimplementedby>
+        <reimplementedby refid="class_ms_1_1_clone_voice_1a1f987d0f303c266b5f1fcebde0d21af3">undo</reimplementedby>
+        <reimplementedby refid="class_ms_1_1_add_element_1ab566b98941c1a39f956b6eecc51f5bf8">undo</reimplementedby>
+        <reimplementedby refid="class_ms_1_1_remove_element_1a424f53c4df0ac7a004863a7c2947c6f4">undo</reimplementedby>
+        <reimplementedby refid="class_ms_1_1_edit_text_1a5fcaa446957ff3282e992ba6048afd5c">undo</reimplementedby>
+        <reimplementedby refid="class_ms_1_1_remove_measures_1ad516e041598664d6c20812f27804809e">undo</reimplementedby>
+        <reimplementedby refid="class_ms_1_1_insert_measures_1a5af3fa88bd1dba004d98eebb8fe49a0c">undo</reimplementedby>
+        <reimplementedby refid="class_ms_1_1_add_excerpt_1a7c7d3a057f5542d33872d9c54a9350b5">undo</reimplementedby>
+        <reimplementedby refid="class_ms_1_1_remove_excerpt_1ae8a4dee431cd3a55f10b850b36b90333">undo</reimplementedby>
+        <reimplementedby refid="class_ms_1_1_remove_bracket_1a8ab1c56902e2023762431ab9aae454f2">undo</reimplementedby>
+        <reimplementedby refid="class_ms_1_1_add_bracket_1ae6eae3954b5d907c2ff8afd95508c648">undo</reimplementedby>
+        <reimplementedby refid="class_ms_1_1_insert_time_1ab416fab60ed28ac88781c69ae2ef3007">undo</reimplementedby>
+        <reimplementedby refid="class_ms_1_1_unlink_1accf1d462d19bc585d15b233353249b8d">undo</reimplementedby>
+        <reimplementedby refid="class_ms_1_1_link_1adb8d9744042481986e53d6b350e0dbcd">undo</reimplementedby>
+        <reimplementedby refid="class_ms_1_1_fret_dot_1a5e6edb0f8a023d32fbe21d82c8381961">undo</reimplementedby>
+        <reimplementedby refid="class_ms_1_1_fret_marker_1a57fe8319ab13bafb3178c984db62c528">undo</reimplementedby>
+        <reimplementedby refid="class_ms_1_1_fret_barre_1ae51fc945b48a570cf2d3198932b1adff">undo</reimplementedby>
+        <reimplementedby refid="class_ms_1_1_fret_clear_1ab6c18163ea80d6904dc2b3e163e4b97d">undo</reimplementedby>
+        <reimplementedby refid="class_ms_1_1_move_tremolo_1af240604c2e3a348d7fe32c8073f64922">undo</reimplementedby>
+        <reimplementedby refid="class_ms_1_1_change_text_1a7110420dd389650591f741db904c7255">undo</reimplementedby>
+        <reimplementedby refid="class_ms_1_1_insert_remove_measures_1a06c6c5af6a2a5c6486133505aa90cefc">undo</reimplementedby>
+        <reimplementedby refid="class_ms_1_1_split_text_1ae1e6218d9a665e34700df565c6de4aff">undo</reimplementedby>
+        <reimplementedby refid="class_ms_1_1_join_text_1aaf2b899ab4cb30209420c648bb20e078">undo</reimplementedby>
+        <reimplementedby refid="class_ms_1_1_insert_text_1aa3a0556202ca1992d63937111580cc8c">undo</reimplementedby>
+        <reimplementedby refid="class_ms_1_1_remove_text_1a331671e5f575e280993b9a4011b266c6">undo</reimplementedby>
+        <param>
+          <type><ref refid="class_ms_1_1_edit_data" kindref="compound">EditData</ref> *</type>
+          <defname>ed</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/undo.h" line="115" column="20" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/undo.cpp" bodystart="144" bodyend="152"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ms_1_1_undo_command_1a7fccbb0cf027a5e3b43176a5e0213f75" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void Ms::UndoCommand::redo</definition>
+        <argsstring>(EditData *)</argsstring>
+        <name>redo</name>
+        <reimplementedby refid="class_ms_1_1_undo_macro_1a59928192d10105c43042f8150f4a07cb">redo</reimplementedby>
+        <reimplementedby refid="class_ms_1_1_insert_part_1adcbf7e3aa8d3da3c7207bfbfa4bcb2a5">redo</reimplementedby>
+        <reimplementedby refid="class_ms_1_1_remove_part_1a8f374515015f35f4da89d91ab7b5297a">redo</reimplementedby>
+        <reimplementedby refid="class_ms_1_1_insert_staff_1a43c7d604cfba1aefd9a1b02bf0eca847">redo</reimplementedby>
+        <reimplementedby refid="class_ms_1_1_remove_staff_1a5ad5b5e6d89c9a533719bdf02b43a2a2">redo</reimplementedby>
+        <reimplementedby refid="class_ms_1_1_insert_m_staff_1ac4717535584d521881ae99b9e241234f">redo</reimplementedby>
+        <reimplementedby refid="class_ms_1_1_remove_m_staff_1a21a4df819d58ead4a41f0222811116a4">redo</reimplementedby>
+        <reimplementedby refid="class_ms_1_1_insert_staves_1afbd1d3ae44edf1c90f74f5af25d69d7e">redo</reimplementedby>
+        <reimplementedby refid="class_ms_1_1_remove_staves_1a4e2ad5343eb18425065e5edeb6750290">redo</reimplementedby>
+        <reimplementedby refid="class_ms_1_1_sort_staves_1a5241617ea04818921fe0a512d4f5cf01">redo</reimplementedby>
+        <reimplementedby refid="class_ms_1_1_exchange_voice_1a59d468d9c16ec9d1357e41345297dc18">redo</reimplementedby>
+        <reimplementedby refid="class_ms_1_1_clone_voice_1a1fd9ff246f07a434f9b2f143a74d345c">redo</reimplementedby>
+        <reimplementedby refid="class_ms_1_1_add_element_1ac20dd8ed95599b2634a4624ffa5dd385">redo</reimplementedby>
+        <reimplementedby refid="class_ms_1_1_remove_element_1a7141f0c1c4ec888388d0e6326887e687">redo</reimplementedby>
+        <reimplementedby refid="class_ms_1_1_edit_text_1ae995c1d9f1136c2ea6a44c8033be6e23">redo</reimplementedby>
+        <reimplementedby refid="class_ms_1_1_remove_measures_1a576c9917841adc92d655ecfed49da1f9">redo</reimplementedby>
+        <reimplementedby refid="class_ms_1_1_insert_measures_1a45216b6e3c7478f36c5d6b49a3533cb3">redo</reimplementedby>
+        <reimplementedby refid="class_ms_1_1_add_excerpt_1a837ba02525776afd0115e58f2c84c17b">redo</reimplementedby>
+        <reimplementedby refid="class_ms_1_1_remove_excerpt_1ae2cebaf542796930849e880bf7457f18">redo</reimplementedby>
+        <reimplementedby refid="class_ms_1_1_remove_bracket_1a3cdd3dce0665b06a64864d45c55fa908">redo</reimplementedby>
+        <reimplementedby refid="class_ms_1_1_add_bracket_1a3c1ca15daf7eed34bd902a36e6466f6b">redo</reimplementedby>
+        <reimplementedby refid="class_ms_1_1_insert_time_1ad69d3aece87faff9c57481a27b920384">redo</reimplementedby>
+        <reimplementedby refid="class_ms_1_1_unlink_1a45bebf218da55740290c5fea21986bd5">redo</reimplementedby>
+        <reimplementedby refid="class_ms_1_1_link_1a7b0f049de6c374d5bef2e3eed30c9d86">redo</reimplementedby>
+        <reimplementedby refid="class_ms_1_1_fret_dot_1ac93f73d3c4fdcb20b9f94ec3e7d60ddb">redo</reimplementedby>
+        <reimplementedby refid="class_ms_1_1_fret_marker_1a3915e8bf1aa6df779c60ae21c668f927">redo</reimplementedby>
+        <reimplementedby refid="class_ms_1_1_fret_barre_1a12beec896b642679665137c4f2b03aee">redo</reimplementedby>
+        <reimplementedby refid="class_ms_1_1_fret_clear_1a84846d3797adc369b26e56cf61105f25">redo</reimplementedby>
+        <reimplementedby refid="class_ms_1_1_move_tremolo_1a81c246c09d3dcecfba42b5a3471a0157">redo</reimplementedby>
+        <reimplementedby refid="class_ms_1_1_change_text_1ab888d6b0c35f784c450d75e280b5f2e8">redo</reimplementedby>
+        <reimplementedby refid="class_ms_1_1_insert_remove_measures_1a3d99a1621960ff25d8219829c9a53aed">redo</reimplementedby>
+        <reimplementedby refid="class_ms_1_1_split_text_1a0d4ba81e4742a04e6966216bb145c3e5">redo</reimplementedby>
+        <reimplementedby refid="class_ms_1_1_join_text_1a636f8b9843b8140495ca90cdd10223b6">redo</reimplementedby>
+        <reimplementedby refid="class_ms_1_1_insert_text_1a1368c1d69c4e47e12f6a783efd0b9bbd">redo</reimplementedby>
+        <reimplementedby refid="class_ms_1_1_remove_text_1a96bb22c0aff180de8f97d9cd5cb75bbf">redo</reimplementedby>
+        <param>
+          <type><ref refid="class_ms_1_1_edit_data" kindref="compound">EditData</ref> *</type>
+          <defname>ed</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/undo.h" line="116" column="20" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/undo.cpp" bodystart="158" bodyend="166"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ms_1_1_undo_command_1a0f5b568325d235501e5cc197b7a4d4c8" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Ms::UndoCommand::appendChild</definition>
+        <argsstring>(UndoCommand *cmd)</argsstring>
+        <name>appendChild</name>
+        <param>
+          <type><ref refid="class_ms_1_1_undo_command" kindref="compound">UndoCommand</ref> *</type>
+          <declname>cmd</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/undo.h" line="117" column="12" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/undo.h" bodystart="117" bodyend="117"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ms_1_1_undo_command_1ad645cbed278b04cea2164006b52c4d8f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="class_ms_1_1_undo_command" kindref="compound">UndoCommand</ref> *</type>
+        <definition>UndoCommand* Ms::UndoCommand::removeChild</definition>
+        <argsstring>()</argsstring>
+        <name>removeChild</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/undo.h" line="118" column="19" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/undo.h" bodystart="118" bodyend="118"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ms_1_1_undo_command_1a701d710e19f4d356f2b12d093729d295" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>int</type>
+        <definition>int Ms::UndoCommand::childCount</definition>
+        <argsstring>() const</argsstring>
+        <name>childCount</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/undo.h" line="119" column="11" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/undo.h" bodystart="119" bodyend="119"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ms_1_1_undo_command_1abc893037b5a33408c25552b8579debe4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Ms::UndoCommand::unwind</definition>
+        <argsstring>()</argsstring>
+        <name>unwind</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/undo.h" line="120" column="12" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/undo.cpp" bodystart="234" bodyend="242"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ms_1_1_undo_command_1a4cdbb50e02a38b3c0b259e8bb6b58bca" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>const QList&lt; <ref refid="class_ms_1_1_undo_command" kindref="compound">UndoCommand</ref> * &gt; &amp;</type>
+        <definition>const QList&lt;UndoCommand*&gt;&amp; Ms::UndoCommand::commands</definition>
+        <argsstring>() const</argsstring>
+        <name>commands</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/undo.h" line="121" column="19" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/undo.h" bodystart="121" bodyend="121"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ms_1_1_undo_command_1a0bbdf4bc79885d76228b155599fb46ce" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void Ms::UndoCommand::cleanup</definition>
+        <argsstring>(bool undo)</argsstring>
+        <name>cleanup</name>
+        <reimplementedby refid="class_ms_1_1_add_element_1a1e2c10c5bef9616b96d7b1090f727600">cleanup</reimplementedby>
+        <reimplementedby refid="class_ms_1_1_remove_element_1a1b8619e851d6d59e94d967a8bdc0df23">cleanup</reimplementedby>
+        <param>
+          <type>bool</type>
+          <declname>undo</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/undo.h" line="122" column="20" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/undo.cpp" bodystart="134" bodyend="138"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ms_1_1_undo_command_1acdd15da86ef5878bc98ef2be084cc4be" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="virtual">
+        <type>const char *</type>
+        <definition>virtual const char* Ms::UndoCommand::name</definition>
+        <argsstring>() const</argsstring>
+        <name>name</name>
+        <reimplementedby refid="class_ms_1_1_add_element_1a2179741699322a5dec8cc748f8132359">name</reimplementedby>
+        <reimplementedby refid="class_ms_1_1_remove_element_1a45261e472b3646a2b99b1dbade4e0146">name</reimplementedby>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/undo.h" line="124" column="26" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/undo.h" bodystart="124" bodyend="124"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ms_1_1_undo_command_1a7e84d54e5b22eeeb9646c8a86fc2a0cb" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="virtual">
+        <type>bool</type>
+        <definition>virtual bool Ms::UndoCommand::isFiltered</definition>
+        <argsstring>(Filter, const Element *) const</argsstring>
+        <name>isFiltered</name>
+        <reimplementedby refid="class_ms_1_1_text_edit_undo_command_1a5f4dbe97f215f792d960059490fed621">isFiltered</reimplementedby>
+        <reimplementedby refid="class_ms_1_1_add_element_1ae1724f3eff65950dd697cb7efbf1444c">isFiltered</reimplementedby>
+        <reimplementedby refid="class_ms_1_1_remove_element_1abfe7fe22251abe009d6cb9f9b9f38cf3">isFiltered</reimplementedby>
+        <reimplementedby refid="class_ms_1_1_change_property_1a2fd6b20a1eda7cde733ea33046d25439">isFiltered</reimplementedby>
+        <reimplementedby refid="class_ms_1_1_link_1ac96f4165e43078c6e66f5bf3ece88952">isFiltered</reimplementedby>
+        <param>
+          <type>Filter</type>
+        </param>
+        <param>
+          <type>const <ref refid="class_ms_1_1_element" kindref="compound">Element</ref> *</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/undo.h" line="127" column="20" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/undo.h" bodystart="127" bodyend="127"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ms_1_1_undo_command_1a09b5c550fffd0dfe1e38490c7f0de8e4" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool Ms::UndoCommand::hasFilteredChildren</definition>
+        <argsstring>(Filter, const Element *target) const</argsstring>
+        <name>hasFilteredChildren</name>
+        <param>
+          <type>Filter</type>
+          <defname>f</defname>
+        </param>
+        <param>
+          <type>const <ref refid="class_ms_1_1_element" kindref="compound">Element</ref> *</type>
+          <declname>target</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/undo.h" line="128" column="12" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/undo.cpp" bodystart="185" bodyend="192"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ms_1_1_undo_command_1a7131c9beb9c694ef3f0d8235f4e2892a" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool Ms::UndoCommand::hasUnfilteredChildren</definition>
+        <argsstring>(const std::vector&lt; Filter &gt; &amp;filters, const Element *target) const</argsstring>
+        <name>hasUnfilteredChildren</name>
+        <param>
+          <type>const std::vector&lt; Filter &gt; &amp;</type>
+          <declname>filters</declname>
+        </param>
+        <param>
+          <type>const <ref refid="class_ms_1_1_element" kindref="compound">Element</ref> *</type>
+          <declname>target</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/undo.h" line="129" column="12" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/undo.cpp" bodystart="198" bodyend="212"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ms_1_1_undo_command_1a850e4c72c907bce1aed4b7d318ddf626" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Ms::UndoCommand::filterChildren</definition>
+        <argsstring>(UndoCommand::Filter f, Element *target)</argsstring>
+        <name>filterChildren</name>
+        <param>
+          <type>UndoCommand::Filter</type>
+          <declname>f</declname>
+        </param>
+        <param>
+          <type><ref refid="class_ms_1_1_element" kindref="compound">Element</ref> *</type>
+          <declname>target</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/undo.h" line="130" column="12" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/undo.cpp" bodystart="218" bodyend="228"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="61">
+        <label>Ms::MoveTremolo</label>
+        <link refid="class_ms_1_1_move_tremolo"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="6">
+        <label>Ms::ChangeBracketType</label>
+        <link refid="class_ms_1_1_change_bracket_type"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="65">
+        <label>Ms::RemoveMStaff</label>
+        <link refid="class_ms_1_1_remove_m_staff"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="11">
+        <label>Ms::ChangeElement</label>
+        <link refid="class_ms_1_1_change_element"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="74">
+        <label>Ms::ChangeText</label>
+        <link refid="class_ms_1_1_change_text"/>
+        <childnode refid="73" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="29">
+        <label>Ms::ChangePatch</label>
+        <link refid="class_ms_1_1_change_patch"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="52">
+        <label>Ms::InsertMeasures</label>
+        <link refid="class_ms_1_1_insert_measures"/>
+        <childnode refid="51" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="18">
+        <label>Ms::ChangeMeasureLen</label>
+        <link refid="class_ms_1_1_change_measure_len"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="55">
+        <label>Ms::InsertStaves</label>
+        <link refid="class_ms_1_1_insert_staves"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="5">
+        <label>Ms::ChangeBend</label>
+        <link refid="class_ms_1_1_change_bend"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="80">
+        <label>Ms::TransposeHarmony</label>
+        <link refid="class_ms_1_1_transpose_harmony"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="79">
+        <label>Ms::SplitText</label>
+        <link refid="class_ms_1_1_split_text"/>
+        <childnode refid="77" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="35">
+        <label>Ms::ChangeStaffType</label>
+        <link refid="class_ms_1_1_change_staff_type"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="12">
+        <label>Ms::ChangeExcerptTitle</label>
+        <link refid="class_ms_1_1_change_excerpt_title"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="43">
+        <label>Ms::EditText</label>
+        <link refid="class_ms_1_1_edit_text"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="60">
+        <label>Ms::Unlink</label>
+        <link refid="class_ms_1_1_unlink"/>
+        <childnode refid="58" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="62">
+        <label>Ms::RemoveBracket</label>
+        <link refid="class_ms_1_1_remove_bracket"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="56">
+        <label>Ms::InsertTime</label>
+        <link refid="class_ms_1_1_insert_time"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="8">
+        <label>Ms::ChangeChordStaffMove</label>
+        <link refid="class_ms_1_1_change_chord_staff_move"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="25">
+        <label>Ms::ChangeNoteEvents</label>
+        <link refid="class_ms_1_1_change_note_events"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="64">
+        <label>Ms::RemoveExcerpt</label>
+        <link refid="class_ms_1_1_remove_excerpt"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="16">
+        <label>Ms::ChangeInstrumentShort</label>
+        <link refid="class_ms_1_1_change_instrument_short"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="72">
+        <label>Ms::SwapExcerpt</label>
+        <link refid="class_ms_1_1_swap_excerpt"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="68">
+        <label>Ms::RemoveStaves</label>
+        <link refid="class_ms_1_1_remove_staves"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="81">
+        <label>Ms::UndoMacro</label>
+        <link refid="class_ms_1_1_undo_macro"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="49">
+        <label>Ms::InsertMStaff</label>
+        <link refid="class_ms_1_1_insert_m_staff"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="54">
+        <label>Ms::InsertStaff</label>
+        <link refid="class_ms_1_1_insert_staff"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="4">
+        <label>Ms::AddExcerpt</label>
+        <link refid="class_ms_1_1_add_excerpt"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="40">
+        <label>Ms::ChangeTremoloBar</label>
+        <link refid="class_ms_1_1_change_tremolo_bar"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="32">
+        <label>Ms::ChangeBracketProperty</label>
+        <link refid="class_ms_1_1_change_bracket_property"/>
+        <childnode refid="31" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="19">
+        <label>Ms::ChangeMetaTags</label>
+        <link refid="class_ms_1_1_change_meta_tags"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="38">
+        <label>Ms::ChangeStyleVal</label>
+        <link refid="class_ms_1_1_change_style_val"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="33">
+        <label>Ms::ChangeSpannerElements</label>
+        <link refid="class_ms_1_1_change_spanner_elements"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="42">
+        <label>Ms::CloneVoice</label>
+        <link refid="class_ms_1_1_clone_voice"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="14">
+        <label>Ms::ChangeInstrument</label>
+        <link refid="class_ms_1_1_change_instrument"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="53">
+        <label>Ms::RemoveMeasures</label>
+        <link refid="class_ms_1_1_remove_measures"/>
+        <childnode refid="51" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="59">
+        <label>Ms::Link</label>
+        <link refid="class_ms_1_1_link"/>
+        <childnode refid="58" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="30">
+        <label>Ms::ChangePitch</label>
+        <link refid="class_ms_1_1_change_pitch"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="44">
+        <label>Ms::ExchangeVoice</label>
+        <link refid="class_ms_1_1_exchange_voice"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="21">
+        <label>Ms::ChangeMMRest</label>
+        <link refid="class_ms_1_1_change_m_m_rest"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="57">
+        <label>Ms::InsertTimeUnmanagedSpanner</label>
+        <link refid="class_ms_1_1_insert_time_unmanaged_spanner"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="20">
+        <label>Ms::ChangeMetaText</label>
+        <link refid="class_ms_1_1_change_meta_text"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="66">
+        <label>Ms::RemovePart</label>
+        <link refid="class_ms_1_1_remove_part"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="17">
+        <label>Ms::ChangeKeySig</label>
+        <link refid="class_ms_1_1_change_key_sig"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="31">
+        <label>Ms::ChangeProperty</label>
+        <link refid="class_ms_1_1_change_property"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="10">
+        <label>Ms::ChangeDrumset</label>
+        <link refid="class_ms_1_1_change_drumset"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="9">
+        <label>Ms::ChangeClefType</label>
+        <link refid="class_ms_1_1_change_clef_type"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="41">
+        <label>Ms::ChangeVelocity</label>
+        <link refid="class_ms_1_1_change_velocity"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>Ms::AddBracket</label>
+        <link refid="class_ms_1_1_add_bracket"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>Ms::AddElement</label>
+        <link refid="class_ms_1_1_add_element"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="71">
+        <label>Ms::SwapCR</label>
+        <link refid="class_ms_1_1_swap_c_r"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="51">
+        <label>Ms::InsertRemoveMeasures</label>
+        <link refid="class_ms_1_1_insert_remove_measures"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="36">
+        <label>Ms::ChangeStartEndSpanner</label>
+        <link refid="class_ms_1_1_change_start_end_spanner"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="23">
+        <label>Ms::ChangeNoteEvent</label>
+        <link refid="class_ms_1_1_change_note_event"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="24">
+        <label>Ms::ChangeNoteEventList</label>
+        <link refid="class_ms_1_1_change_note_event_list"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="50">
+        <label>Ms::InsertPart</label>
+        <link refid="class_ms_1_1_insert_part"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="46">
+        <label>Ms::FretClear</label>
+        <link refid="class_ms_1_1_fret_clear"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="58">
+        <label>Ms::LinkUnlink</label>
+        <link refid="class_ms_1_1_link_unlink"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="77">
+        <label>Ms::SplitJoinText</label>
+        <link refid="class_ms_1_1_split_join_text"/>
+        <childnode refid="73" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="15">
+        <label>Ms::ChangeInstrumentLong</label>
+        <link refid="class_ms_1_1_change_instrument_long"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="7">
+        <label>Ms::ChangeChordPlayEventType</label>
+        <link refid="class_ms_1_1_change_chord_play_event_type"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="70">
+        <label>Ms::SortStaves</label>
+        <link refid="class_ms_1_1_sort_staves"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="34">
+        <label>Ms::ChangeStaff</label>
+        <link refid="class_ms_1_1_change_staff"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="37">
+        <label>Ms::ChangeStyle</label>
+        <link refid="class_ms_1_1_change_style"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="28">
+        <label>Ms::ChangePart</label>
+        <link refid="class_ms_1_1_change_part"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="27">
+        <label>Ms::ChangeParent</label>
+        <link refid="class_ms_1_1_change_parent"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="73">
+        <label>Ms::TextEditUndoCommand</label>
+        <link refid="class_ms_1_1_text_edit_undo_command"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="48">
+        <label>Ms::FretMarker</label>
+        <link refid="class_ms_1_1_fret_marker"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="78">
+        <label>Ms::JoinText</label>
+        <link refid="class_ms_1_1_join_text"/>
+        <childnode refid="77" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="26">
+        <label>Ms::ChangePageNumberOffset</label>
+        <link refid="class_ms_1_1_change_page_number_offset"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="69">
+        <label>Ms::SetUserBankController</label>
+        <link refid="class_ms_1_1_set_user_bank_controller"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="45">
+        <label>Ms::FretBarre</label>
+        <link refid="class_ms_1_1_fret_barre"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="67">
+        <label>Ms::RemoveStaff</label>
+        <link refid="class_ms_1_1_remove_staff"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="47">
+        <label>Ms::FretDot</label>
+        <link refid="class_ms_1_1_fret_dot"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="22">
+        <label>Ms::ChangeMStaffProperties</label>
+        <link refid="class_ms_1_1_change_m_staff_properties"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="13">
+        <label>Ms::ChangeFretting</label>
+        <link refid="class_ms_1_1_change_fretting"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>Ms::UndoCommand</label>
+        <link refid="class_ms_1_1_undo_command"/>
+      </node>
+      <node id="75">
+        <label>Ms::InsertText</label>
+        <link refid="class_ms_1_1_insert_text"/>
+        <childnode refid="74" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="39">
+        <label>Ms::ChangeSynthesizerState</label>
+        <link refid="class_ms_1_1_change_synthesizer_state"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="76">
+        <label>Ms::RemoveText</label>
+        <link refid="class_ms_1_1_remove_text"/>
+        <childnode refid="74" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="63">
+        <label>Ms::RemoveElement</label>
+        <link refid="class_ms_1_1_remove_element"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/undo.h" line="96" column="18" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/undo.h" bodystart="96" bodyend="131"/>
+    <listofallmembers>
+      <member refid="class_ms_1_1_undo_command_1a0f5b568325d235501e5cc197b7a4d4c8" prot="public" virt="non-virtual"><scope>Ms::UndoCommand</scope><name>appendChild</name></member>
+      <member refid="class_ms_1_1_undo_command_1adbc9ce586560a1ca06f83bb38d04c4f0" prot="protected" virt="non-virtual"><scope>Ms::UndoCommand</scope><name>appendChildren</name></member>
+      <member refid="class_ms_1_1_undo_command_1a701d710e19f4d356f2b12d093729d295" prot="public" virt="non-virtual"><scope>Ms::UndoCommand</scope><name>childCount</name></member>
+      <member refid="class_ms_1_1_undo_command_1aa5e896fda797bdf0d691d5cbd40513b2" prot="private" virt="non-virtual"><scope>Ms::UndoCommand</scope><name>childList</name></member>
+      <member refid="class_ms_1_1_undo_command_1a0bbdf4bc79885d76228b155599fb46ce" prot="public" virt="virtual"><scope>Ms::UndoCommand</scope><name>cleanup</name></member>
+      <member refid="class_ms_1_1_undo_command_1a4cdbb50e02a38b3c0b259e8bb6b58bca" prot="public" virt="non-virtual"><scope>Ms::UndoCommand</scope><name>commands</name></member>
+      <member refid="class_ms_1_1_undo_command_1a7c3fae86b0c593d95eb2acf44348b425" prot="public" virt="non-virtual"><scope>Ms::UndoCommand</scope><name>Filter</name></member>
+      <member refid="class_ms_1_1_undo_command_1a850e4c72c907bce1aed4b7d318ddf626" prot="public" virt="non-virtual"><scope>Ms::UndoCommand</scope><name>filterChildren</name></member>
+      <member refid="class_ms_1_1_undo_command_1a861162fe6c105a00dfec5a5b70a690a5" prot="protected" virt="virtual"><scope>Ms::UndoCommand</scope><name>flip</name></member>
+      <member refid="class_ms_1_1_undo_command_1a09b5c550fffd0dfe1e38490c7f0de8e4" prot="public" virt="non-virtual"><scope>Ms::UndoCommand</scope><name>hasFilteredChildren</name></member>
+      <member refid="class_ms_1_1_undo_command_1a7131c9beb9c694ef3f0d8235f4e2892a" prot="public" virt="non-virtual"><scope>Ms::UndoCommand</scope><name>hasUnfilteredChildren</name></member>
+      <member refid="class_ms_1_1_undo_command_1a7e84d54e5b22eeeb9646c8a86fc2a0cb" prot="public" virt="virtual"><scope>Ms::UndoCommand</scope><name>isFiltered</name></member>
+      <member refid="class_ms_1_1_undo_command_1acdd15da86ef5878bc98ef2be084cc4be" prot="public" virt="virtual"><scope>Ms::UndoCommand</scope><name>name</name></member>
+      <member refid="class_ms_1_1_undo_command_1a7fccbb0cf027a5e3b43176a5e0213f75" prot="public" virt="virtual"><scope>Ms::UndoCommand</scope><name>redo</name></member>
+      <member refid="class_ms_1_1_undo_command_1ad645cbed278b04cea2164006b52c4d8f" prot="public" virt="non-virtual"><scope>Ms::UndoCommand</scope><name>removeChild</name></member>
+      <member refid="class_ms_1_1_undo_command_1a42a2038f903e77e6bb5881209b764186" prot="public" virt="virtual"><scope>Ms::UndoCommand</scope><name>undo</name></member>
+      <member refid="class_ms_1_1_undo_command_1abc893037b5a33408c25552b8579debe4" prot="public" virt="non-virtual"><scope>Ms::UndoCommand</scope><name>unwind</name></member>
+      <member refid="class_ms_1_1_undo_command_1ad4aec6e8dbb0e92bd2b8be2ebd79b9df" prot="public" virt="virtual"><scope>Ms::UndoCommand</scope><name>~UndoCommand</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

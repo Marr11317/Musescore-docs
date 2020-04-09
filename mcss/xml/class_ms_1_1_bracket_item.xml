@@ -1,0 +1,427 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.17">
+  <compounddef id="class_ms_1_1_bracket_item" kind="class" language="C++" prot="public" final="yes">
+    <compoundname>Ms::BracketItem</compoundname>
+    <basecompoundref refid="class_ms_1_1_score_element" prot="public" virt="non-virtual">Ms::ScoreElement</basecompoundref>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_ms_1_1_bracket_item_1a4a174d96de0c6af58ac9cd8bd8f3924e" prot="private" static="no" mutable="no">
+        <type>BracketType</type>
+        <definition>BracketType Ms::BracketItem::_bracketType</definition>
+        <argsstring></argsstring>
+        <name>_bracketType</name>
+        <initializer>{ BracketType::NO_BRACKET }</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/bracketItem.h" line="26" column="19" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/bracketItem.h" bodystart="26" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_ms_1_1_bracket_item_1af699bfff807fab1de756f672a802dbb1" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int Ms::BracketItem::_column</definition>
+        <argsstring></argsstring>
+        <name>_column</name>
+        <initializer>{ 0     }</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/bracketItem.h" line="27" column="11" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/bracketItem.h" bodystart="27" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_ms_1_1_bracket_item_1a774c7388155e485dc1721a9630c23023" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int Ms::BracketItem::_bracketSpan</definition>
+        <argsstring></argsstring>
+        <name>_bracketSpan</name>
+        <initializer>{ 0     }</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/bracketItem.h" line="28" column="12" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/bracketItem.h" bodystart="28" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_ms_1_1_bracket_item_1a92a3389d957a28aa6cd6529090210115" prot="private" static="no" mutable="no">
+        <type><ref refid="class_ms_1_1_staff" kindref="compound">Staff</ref> *</type>
+        <definition>Staff* Ms::BracketItem::_staff</definition>
+        <argsstring></argsstring>
+        <name>_staff</name>
+        <initializer>{ 0     }</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/bracketItem.h" line="29" column="13" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/bracketItem.h" bodystart="29" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_ms_1_1_bracket_item_1a948e0e14ed96484229f4c3ac80508b7d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>Ms::BracketItem::BracketItem</definition>
+        <argsstring>(Score *s)</argsstring>
+        <name>BracketItem</name>
+        <param>
+          <type><ref refid="class_ms_1_1_score" kindref="compound">Score</ref> *</type>
+          <declname>s</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/bracketItem.h" line="32" column="7" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/bracketItem.h" bodystart="32" bodyend="32"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ms_1_1_bracket_item_1afaaf15e9d384344ba0de5f3098223a03" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>Ms::BracketItem::BracketItem</definition>
+        <argsstring>(Score *s, BracketType a, int b)</argsstring>
+        <name>BracketItem</name>
+        <param>
+          <type><ref refid="class_ms_1_1_score" kindref="compound">Score</ref> *</type>
+          <declname>s</declname>
+        </param>
+        <param>
+          <type>BracketType</type>
+          <declname>a</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>b</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/bracketItem.h" line="33" column="7" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/bracketItem.h" bodystart="33" bodyend="33"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ms_1_1_bracket_item_1a88c1749ed0d5edc93f140cd3e2e86890" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="virtual">
+        <type><ref refid="namespace_ms_1a2c92ce0204176ede1ab86e2f44ae6b9e" kindref="member">ElementType</ref></type>
+        <definition>virtual ElementType Ms::BracketItem::type</definition>
+        <argsstring>() const override</argsstring>
+        <name>type</name>
+        <reimplements refid="class_ms_1_1_score_element_1a3dbb763c3cd4ec05d202d03115abe1d5">type</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/bracketItem.h" line="34" column="27" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/bracketItem.h" bodystart="34" bodyend="34"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ms_1_1_bracket_item_1ad904540e375e5281eba639bcc078d5f9" prot="public" static="no" const="yes" explicit="no" inline="no" virt="virtual">
+        <type>QVariant</type>
+        <definition>QVariant Ms::BracketItem::getProperty</definition>
+        <argsstring>(Pid) const override</argsstring>
+        <name>getProperty</name>
+        <reimplements refid="class_ms_1_1_score_element_1aa55b8db6cf96c29d192fbfc9e74110ff">getProperty</reimplements>
+        <param>
+          <type>Pid</type>
+          <defname>id</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/bracketItem.h" line="35" column="24" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/bracketItem.cpp" bodystart="24" bodyend="37"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ms_1_1_bracket_item_1ab370a1f3646eddc8809ba14e0eb1ed19" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>bool</type>
+        <definition>bool Ms::BracketItem::setProperty</definition>
+        <argsstring>(Pid, const QVariant &amp;) override</argsstring>
+        <name>setProperty</name>
+        <reimplements refid="class_ms_1_1_score_element_1a6746334cee7348173d3175c433ed2fab">setProperty</reimplements>
+        <param>
+          <type>Pid</type>
+          <defname>id</defname>
+        </param>
+        <param>
+          <type>const QVariant &amp;</type>
+          <defname>v</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/bracketItem.h" line="36" column="20" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/bracketItem.cpp" bodystart="43" bodyend="61"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ms_1_1_bracket_item_1a418091520b3b6102ecd26c8edc582101" prot="public" static="no" const="yes" explicit="no" inline="no" virt="virtual">
+        <type>QVariant</type>
+        <definition>QVariant Ms::BracketItem::propertyDefault</definition>
+        <argsstring>(Pid id) const override</argsstring>
+        <name>propertyDefault</name>
+        <reimplements refid="class_ms_1_1_score_element_1ab3fcbdb9cd19d04933bd15434138c230">propertyDefault</reimplements>
+        <param>
+          <type>Pid</type>
+          <declname>id</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/bracketItem.h" line="37" column="24" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/bracketItem.cpp" bodystart="67" bodyend="77"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ms_1_1_bracket_item_1a4b32479e4e85cc13461ad0d086fce385" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>int</type>
+        <definition>int Ms::BracketItem::bracketSpan</definition>
+        <argsstring>() const</argsstring>
+        <name>bracketSpan</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/bracketItem.h" line="40" column="11" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/bracketItem.h" bodystart="40" bodyend="40"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ms_1_1_bracket_item_1a2bac44961505757359adf8ddfb5bcd8d" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>BracketType</type>
+        <definition>BracketType Ms::BracketItem::bracketType</definition>
+        <argsstring>() const</argsstring>
+        <name>bracketType</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/bracketItem.h" line="41" column="19" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/bracketItem.h" bodystart="41" bodyend="41"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ms_1_1_bracket_item_1a12e8409100d3937a2d7f69f86910cdbf" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Ms::BracketItem::setBracketSpan</definition>
+        <argsstring>(int v)</argsstring>
+        <name>setBracketSpan</name>
+        <param>
+          <type>int</type>
+          <declname>v</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/bracketItem.h" line="43" column="12" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/bracketItem.h" bodystart="43" bodyend="43"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ms_1_1_bracket_item_1a87669c7c28f830ab5f9cc7be9426d192" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Ms::BracketItem::setBracketType</definition>
+        <argsstring>(BracketType v)</argsstring>
+        <name>setBracketType</name>
+        <param>
+          <type>BracketType</type>
+          <declname>v</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/bracketItem.h" line="44" column="12" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/bracketItem.h" bodystart="44" bodyend="44"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ms_1_1_bracket_item_1a15e0dddd6c299b45b129bb6a5924860b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="class_ms_1_1_staff" kindref="compound">Staff</ref> *</type>
+        <definition>Staff* Ms::BracketItem::staff</definition>
+        <argsstring>()</argsstring>
+        <name>staff</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/bracketItem.h" line="45" column="13" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/bracketItem.h" bodystart="45" bodyend="45"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ms_1_1_bracket_item_1a945a363e9979f291114bfc5cec2e13d6" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Ms::BracketItem::setStaff</definition>
+        <argsstring>(Staff *s)</argsstring>
+        <name>setStaff</name>
+        <param>
+          <type><ref refid="class_ms_1_1_staff" kindref="compound">Staff</ref> *</type>
+          <declname>s</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/bracketItem.h" line="46" column="12" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/bracketItem.h" bodystart="46" bodyend="46"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ms_1_1_bracket_item_1ae4af1c4a1824b967030e9049a602d6f2" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>int</type>
+        <definition>int Ms::BracketItem::column</definition>
+        <argsstring>() const</argsstring>
+        <name>column</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/bracketItem.h" line="47" column="11" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/bracketItem.h" bodystart="47" bodyend="47"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ms_1_1_bracket_item_1aa8f40b3121ef5794c7302c600d8b894e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Ms::BracketItem::setColumn</definition>
+        <argsstring>(int v)</argsstring>
+        <name>setColumn</name>
+        <param>
+          <type>int</type>
+          <declname>v</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/bracketItem.h" line="48" column="12" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/bracketItem.h" bodystart="48" bodyend="48"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>Ms::ScoreElement</label>
+        <link refid="class_ms_1_1_score_element"/>
+      </node>
+      <node id="1">
+        <label>Ms::BracketItem</label>
+        <link refid="class_ms_1_1_bracket_item"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="4">
+        <label>QList&lt; ScoreElement * &gt;</label>
+      </node>
+      <node id="2">
+        <label>Ms::ScoreElement</label>
+        <link refid="class_ms_1_1_score_element"/>
+        <childnode refid="3" relation="usage">
+          <edgelabel>_links</edgelabel>
+        </childnode>
+      </node>
+      <node id="1">
+        <label>Ms::BracketItem</label>
+        <link refid="class_ms_1_1_bracket_item"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>Ms::LinkedElements</label>
+        <link refid="class_ms_1_1_linked_elements"/>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/bracketItem.h" line="25" column="38" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/bracketItem.h" bodystart="25" bodyend="49"/>
+    <listofallmembers>
+      <member refid="class_ms_1_1_bracket_item_1a774c7388155e485dc1721a9630c23023" prot="private" virt="non-virtual"><scope>Ms::BracketItem</scope><name>_bracketSpan</name></member>
+      <member refid="class_ms_1_1_bracket_item_1a4a174d96de0c6af58ac9cd8bd8f3924e" prot="private" virt="non-virtual"><scope>Ms::BracketItem</scope><name>_bracketType</name></member>
+      <member refid="class_ms_1_1_bracket_item_1af699bfff807fab1de756f672a802dbb1" prot="private" virt="non-virtual"><scope>Ms::BracketItem</scope><name>_column</name></member>
+      <member refid="class_ms_1_1_score_element_1a648639a58d05aa85412217db5ad40b18" prot="protected" virt="non-virtual"><scope>Ms::BracketItem</scope><name>_elementStyle</name></member>
+      <member refid="class_ms_1_1_score_element_1a405b151c60a010237414678a0e0952af" prot="protected" virt="non-virtual"><scope>Ms::BracketItem</scope><name>_links</name></member>
+      <member refid="class_ms_1_1_score_element_1a6d4b99ddb9e217aaa9f9ae67a76861f3" prot="protected" virt="non-virtual"><scope>Ms::BracketItem</scope><name>_propertyFlagsList</name></member>
+      <member refid="class_ms_1_1_bracket_item_1a92a3389d957a28aa6cd6529090210115" prot="private" virt="non-virtual"><scope>Ms::BracketItem</scope><name>_staff</name></member>
+      <member refid="class_ms_1_1_bracket_item_1a948e0e14ed96484229f4c3ac80508b7d" prot="public" virt="non-virtual"><scope>Ms::BracketItem</scope><name>BracketItem</name></member>
+      <member refid="class_ms_1_1_bracket_item_1afaaf15e9d384344ba0de5f3098223a03" prot="public" virt="non-virtual"><scope>Ms::BracketItem</scope><name>BracketItem</name></member>
+      <member refid="class_ms_1_1_bracket_item_1a4b32479e4e85cc13461ad0d086fce385" prot="public" virt="non-virtual"><scope>Ms::BracketItem</scope><name>bracketSpan</name></member>
+      <member refid="class_ms_1_1_bracket_item_1a2bac44961505757359adf8ddfb5bcd8d" prot="public" virt="non-virtual"><scope>Ms::BracketItem</scope><name>bracketType</name></member>
+      <member refid="class_ms_1_1_bracket_item_1ae4af1c4a1824b967030e9049a602d6f2" prot="public" virt="non-virtual"><scope>Ms::BracketItem</scope><name>column</name></member>
+      <member refid="class_ms_1_1_bracket_item_1ad904540e375e5281eba639bcc078d5f9" prot="public" virt="virtual"><scope>Ms::BracketItem</scope><name>getProperty</name></member>
+      <member refid="class_ms_1_1_score_element_1a5dd171e2eca7de57f28a9bc4430bb12d" prot="protected" virt="virtual"><scope>Ms::BracketItem</scope><name>getPropertyFlagsIdx</name></member>
+      <member refid="class_ms_1_1_score_element_1a36d66100b5c6df17eb37f276aaca0454" prot="public" virt="virtual"><scope>Ms::BracketItem</scope><name>getPropertyStyle</name></member>
+      <member refid="class_ms_1_1_score_element_1a8deeadfce551a58b1078f1af62c2075d" prot="public" virt="virtual"><scope>Ms::BracketItem</scope><name>initElementStyle</name></member>
+      <member refid="class_ms_1_1_score_element_1a997e1063786d8c705c74b3d66c54f269" prot="public" virt="non-virtual"><scope>Ms::BracketItem</scope><name>isBox</name></member>
+      <member refid="class_ms_1_1_score_element_1ad05261e50a084a0c6c42fced1ca78d8f" prot="public" virt="non-virtual"><scope>Ms::BracketItem</scope><name>isBSymbol</name></member>
+      <member refid="class_ms_1_1_score_element_1accef1c91df491a43c54e70474deea60c" prot="public" virt="non-virtual"><scope>Ms::BracketItem</scope><name>isChordRest</name></member>
+      <member refid="class_ms_1_1_score_element_1a203290a59b13861b957d2943f65a4cf0" prot="public" virt="non-virtual"><scope>Ms::BracketItem</scope><name>isDurationElement</name></member>
+      <member refid="class_ms_1_1_score_element_1ac98792e8d02a53ecabe29cf9cc02e1a1" prot="public" virt="virtual"><scope>Ms::BracketItem</scope><name>isElement</name></member>
+      <member refid="class_ms_1_1_score_element_1a0d5f2d0a979bf52ab2436f6ceb6d9ef6" prot="public" virt="non-virtual"><scope>Ms::BracketItem</scope><name>isLineSegment</name></member>
+      <member refid="class_ms_1_1_score_element_1a1d34473f54590e3d8c2a1bc78b560c21" prot="public" virt="non-virtual"><scope>Ms::BracketItem</scope><name>isLinked</name></member>
+      <member refid="class_ms_1_1_score_element_1a06e5d7c169bf6eb01f5f723cbdae973f" prot="public" virt="non-virtual"><scope>Ms::BracketItem</scope><name>isMeasureBase</name></member>
+      <member refid="class_ms_1_1_score_element_1a4de90a044cdd2a7030d707f2b081c8a4" prot="public" virt="non-virtual"><scope>Ms::BracketItem</scope><name>isSLine</name></member>
+      <member refid="class_ms_1_1_score_element_1acf35020b5e670ac13791697e65b679d4" prot="public" virt="non-virtual"><scope>Ms::BracketItem</scope><name>isSLineSegment</name></member>
+      <member refid="class_ms_1_1_score_element_1a372dfc0678c5194028e61b6a9a24ab62" prot="public" virt="non-virtual"><scope>Ms::BracketItem</scope><name>isSlurTieSegment</name></member>
+      <member refid="class_ms_1_1_score_element_1a98f8c58df0f5baafe63414bedf84514f" prot="public" virt="non-virtual"><scope>Ms::BracketItem</scope><name>isSpanner</name></member>
+      <member refid="class_ms_1_1_score_element_1a5aa58f96618edb0e3ff660e1c96c5d4e" prot="public" virt="non-virtual"><scope>Ms::BracketItem</scope><name>isSpannerSegment</name></member>
+      <member refid="class_ms_1_1_score_element_1ac009e016c7a3dc148b0aaad50c1c4547" prot="public" virt="non-virtual"><scope>Ms::BracketItem</scope><name>isStaffTextBase</name></member>
+      <member refid="class_ms_1_1_score_element_1a4d0de3ac9401da46c32ed8becb9d496b" prot="public" virt="non-virtual"><scope>Ms::BracketItem</scope><name>isStyled</name></member>
+      <member refid="class_ms_1_1_score_element_1a979b6e1bc10cf790e755aa8641feb4cf" prot="public" virt="non-virtual"><scope>Ms::BracketItem</scope><name>isTextBase</name></member>
+      <member refid="class_ms_1_1_score_element_1a7151838e2192a30624d6111dd4c87918" prot="public" virt="non-virtual"><scope>Ms::BracketItem</scope><name>isTextLineBase</name></member>
+      <member refid="class_ms_1_1_score_element_1ab98a731c7adf65cebc23235f9fe150af" prot="public" virt="non-virtual"><scope>Ms::BracketItem</scope><name>isTextLineBaseSegment</name></member>
+      <member refid="class_ms_1_1_score_element_1aac3320320d350a161ed3f9a601160451" prot="public" virt="non-virtual"><scope>Ms::BracketItem</scope><name>isVBoxBase</name></member>
+      <member refid="class_ms_1_1_score_element_1ad9b69df1d2c04f2b298520bb649a8c55" prot="public" virt="non-virtual"><scope>Ms::BracketItem</scope><name>lid</name></member>
+      <member refid="class_ms_1_1_score_element_1a2f0ed55c566c19cb483d77250cb52450" prot="public" virt="non-virtual"><scope>Ms::BracketItem</scope><name>linkList</name></member>
+      <member refid="class_ms_1_1_score_element_1a3d5c97191484848b3f10e754246f8758" prot="public" virt="non-virtual"><scope>Ms::BracketItem</scope><name>links</name></member>
+      <member refid="class_ms_1_1_score_element_1a1dad93f0591eb31f69854e8f141b051e" prot="public" virt="non-virtual"><scope>Ms::BracketItem</scope><name>linkTo</name></member>
+      <member refid="class_ms_1_1_score_element_1ae4991aaf0d79271cc347530f3d07fcd6" prot="public" virt="non-virtual"><scope>Ms::BracketItem</scope><name>masterScore</name></member>
+      <member refid="class_ms_1_1_score_element_1ad80dda73306d6b784b0cac4626f797d4" prot="public" virt="non-virtual"><scope>Ms::BracketItem</scope><name>name</name></member>
+      <member refid="class_ms_1_1_score_element_1ab6ded8e7ff6dcb45db0036a57f9f9d26" prot="public" virt="non-virtual"><scope>Ms::BracketItem</scope><name>name</name></member>
+      <member refid="class_ms_1_1_score_element_1a971f91737e74571d6e4b6bb78f56e1dc" prot="public" virt="non-virtual"><scope>Ms::BracketItem</scope><name>name2type</name></member>
+      <member refid="class_ms_1_1_score_element_1ae41701f68025bc77c26f6db74b452465" prot="public" virt="non-virtual"><scope>Ms::BracketItem</scope><name>name2type</name></member>
+      <member refid="class_ms_1_1_bracket_item_1a418091520b3b6102ecd26c8edc582101" prot="public" virt="virtual"><scope>Ms::BracketItem</scope><name>propertyDefault</name></member>
+      <member refid="class_ms_1_1_score_element_1aaae0b7999568ce64245a5cf995af62b5" prot="public" virt="non-virtual" ambiguityscope="Ms::ScoreElement::"><scope>Ms::BracketItem</scope><name>propertyDefault</name></member>
+      <member refid="class_ms_1_1_score_element_1a9b9c00757c23cba103638b4ab63df03e" prot="public" virt="virtual"><scope>Ms::BracketItem</scope><name>propertyFlags</name></member>
+      <member refid="class_ms_1_1_score_element_1ab00670f7d8229c14090cc3d7376d2202" prot="public" virt="virtual"><scope>Ms::BracketItem</scope><name>propertyFlagsList</name></member>
+      <member refid="class_ms_1_1_score_element_1aca54d0e9003af5f13c7121a192229255" prot="public" virt="virtual"><scope>Ms::BracketItem</scope><name>propertyId</name></member>
+      <member refid="class_ms_1_1_score_element_1a8b64f4c9f3ea93ea6dd3e668bc24eb3e" prot="public" virt="virtual"><scope>Ms::BracketItem</scope><name>propertyUserValue</name></member>
+      <member refid="class_ms_1_1_score_element_1a92ef81d3a9835ec8e78a308229da35f8" prot="public" virt="virtual"><scope>Ms::BracketItem</scope><name>readAddConnector</name></member>
+      <member refid="class_ms_1_1_score_element_1a8b3be86196659c2e0fb6ed86256cb0fe" prot="public" virt="non-virtual"><scope>Ms::BracketItem</scope><name>readProperty</name></member>
+      <member refid="class_ms_1_1_score_element_1a473e639853dd8adc607a5c2a63c6d4ad" prot="public" virt="non-virtual"><scope>Ms::BracketItem</scope><name>readProperty</name></member>
+      <member refid="class_ms_1_1_score_element_1a053d7512b54eaa787bcef0eba427a76f" prot="public" virt="non-virtual"><scope>Ms::BracketItem</scope><name>readStyledProperty</name></member>
+      <member refid="class_ms_1_1_score_element_1a89ab22206aebcf2c3249b5c78b1122e7" prot="public" virt="virtual"><scope>Ms::BracketItem</scope><name>reset</name></member>
+      <member refid="class_ms_1_1_score_element_1a8f3e233ff30279756578c751c0ea3e17" prot="public" virt="virtual"><scope>Ms::BracketItem</scope><name>resetProperty</name></member>
+      <member refid="class_ms_1_1_score_element_1a70883d048b0884821ac779d9ab168151" prot="public" virt="non-virtual"><scope>Ms::BracketItem</scope><name>score</name></member>
+      <member refid="class_ms_1_1_score_element_1a3fed4ec5f58054eb578ff9c7bb80d72f" prot="public" virt="non-virtual"><scope>Ms::BracketItem</scope><name>ScoreElement</name></member>
+      <member refid="class_ms_1_1_score_element_1ac2b2cb70fe954ba2b1cce6d35743edf2" prot="public" virt="non-virtual"><scope>Ms::BracketItem</scope><name>ScoreElement</name></member>
+      <member refid="class_ms_1_1_bracket_item_1a12e8409100d3937a2d7f69f86910cdbf" prot="public" virt="non-virtual"><scope>Ms::BracketItem</scope><name>setBracketSpan</name></member>
+      <member refid="class_ms_1_1_bracket_item_1a87669c7c28f830ab5f9cc7be9426d192" prot="public" virt="non-virtual"><scope>Ms::BracketItem</scope><name>setBracketType</name></member>
+      <member refid="class_ms_1_1_bracket_item_1aa8f40b3121ef5794c7302c600d8b894e" prot="public" virt="non-virtual"><scope>Ms::BracketItem</scope><name>setColumn</name></member>
+      <member refid="class_ms_1_1_score_element_1ae1e16c1a83100a1ea23b05bfb1642283" prot="public" virt="non-virtual"><scope>Ms::BracketItem</scope><name>setLinks</name></member>
+      <member refid="class_ms_1_1_bracket_item_1ab370a1f3646eddc8809ba14e0eb1ed19" prot="public" virt="virtual"><scope>Ms::BracketItem</scope><name>setProperty</name></member>
+      <member refid="class_ms_1_1_score_element_1aceed92c262270a2a79d3f97d0f018a29" prot="public" virt="non-virtual"><scope>Ms::BracketItem</scope><name>setPropertyFlags</name></member>
+      <member refid="class_ms_1_1_score_element_1a6a1e59c49777e28459d2270981fc97df" prot="public" virt="virtual"><scope>Ms::BracketItem</scope><name>setScore</name></member>
+      <member refid="class_ms_1_1_bracket_item_1a945a363e9979f291114bfc5cec2e13d6" prot="public" virt="non-virtual"><scope>Ms::BracketItem</scope><name>setStaff</name></member>
+      <member refid="class_ms_1_1_score_element_1ad9b5a0f3ec11f88a2659416d105ab5b0" prot="public" virt="virtual"><scope>Ms::BracketItem</scope><name>sizeIsSpatiumDependent</name></member>
+      <member refid="class_ms_1_1_bracket_item_1a15e0dddd6c299b45b129bb6a5924860b" prot="public" virt="non-virtual"><scope>Ms::BracketItem</scope><name>staff</name></member>
+      <member refid="class_ms_1_1_score_element_1abd7730432b512afc15873362a5414bad" prot="public" virt="virtual"><scope>Ms::BracketItem</scope><name>styleChanged</name></member>
+      <member refid="class_ms_1_1_score_element_1a08e4c60af2466c57931724393f7bee4f" prot="public" virt="virtual"><scope>Ms::BracketItem</scope><name>styledProperties</name></member>
+      <member refid="class_ms_1_1_score_element_1a8a3670f26efa9a07e14695cee4512dc4" prot="public" virt="non-virtual"><scope>Ms::BracketItem</scope><name>styleValue</name></member>
+      <member refid="class_ms_1_1_bracket_item_1a88c1749ed0d5edc93f140cd3e2e86890" prot="public" virt="virtual"><scope>Ms::BracketItem</scope><name>type</name></member>
+      <member refid="class_ms_1_1_score_element_1af0505b234ccb7520a7d93ddd09ca4e1f" prot="public" virt="virtual"><scope>Ms::BracketItem</scope><name>undoChangeProperty</name></member>
+      <member refid="class_ms_1_1_score_element_1a4d0c98408c09304865fc3c9e011a9695" prot="public" virt="non-virtual"><scope>Ms::BracketItem</scope><name>undoChangeProperty</name></member>
+      <member refid="class_ms_1_1_score_element_1ab31ad4878a7d6e5c5acbd88e3232f2fb" prot="public" virt="non-virtual"><scope>Ms::BracketItem</scope><name>undoPushProperty</name></member>
+      <member refid="class_ms_1_1_score_element_1a2f2ea7d6e1179cbb00f95689125482d0" prot="public" virt="non-virtual"><scope>Ms::BracketItem</scope><name>undoResetProperty</name></member>
+      <member refid="class_ms_1_1_score_element_1a994f2abd8df02a160c7055b0cae26c87" prot="public" virt="virtual"><scope>Ms::BracketItem</scope><name>undoUnlink</name></member>
+      <member refid="class_ms_1_1_score_element_1a1d76afaf3ee463445961c3d981901be1" prot="public" virt="non-virtual"><scope>Ms::BracketItem</scope><name>unlink</name></member>
+      <member refid="class_ms_1_1_score_element_1acb1866df2e440923354fa5b1ee9d5f52" prot="public" virt="virtual"><scope>Ms::BracketItem</scope><name>userName</name></member>
+      <member refid="class_ms_1_1_score_element_1a4ae6e7e095b8f672951ffc30f980c45d" prot="public" virt="non-virtual"><scope>Ms::BracketItem</scope><name>writeProperty</name></member>
+      <member refid="class_ms_1_1_score_element_1a7a3de180bd5a72ab3e27b7fbf9213567" prot="public" virt="non-virtual"><scope>Ms::BracketItem</scope><name>writeStyledProperties</name></member>
+      <member refid="class_ms_1_1_score_element_1abc6cbffe99d185a7262f86be05cf6365" prot="public" virt="virtual"><scope>Ms::BracketItem</scope><name>~ScoreElement</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,76 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.17">
+  <compounddef id="class_ms_1_1_score_load" kind="class" language="C++" prot="public">
+    <compoundname>Ms::ScoreLoad</compoundname>
+      <sectiondef kind="private-static-attrib">
+      <memberdef kind="variable" id="class_ms_1_1_score_load_1a6d3f6775b0a4465d77c199425c36ad40" prot="private" static="yes" mutable="no">
+        <type>int</type>
+        <definition>int Ms::ScoreLoad::_loading</definition>
+        <argsstring></argsstring>
+        <name>_loading</name>
+        <initializer>= 0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/score.h" line="1415" column="18" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/score.h" bodystart="1415" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_ms_1_1_score_load_1a7d29c265f06d7e9f0cf46804d82ade12" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>Ms::ScoreLoad::ScoreLoad</definition>
+        <argsstring>()</argsstring>
+        <name>ScoreLoad</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/score.h" line="1418" column="7" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/score.h" bodystart="1418" bodyend="1418"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ms_1_1_score_load_1ad21f94e6df89f2026d1619a4d0f8fabb" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>Ms::ScoreLoad::~ScoreLoad</definition>
+        <argsstring>()</argsstring>
+        <name>~ScoreLoad</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/score.h" line="1419" column="7" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/score.h" bodystart="1419" bodyend="1419"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="class_ms_1_1_score_load_1a54ee450c96889165b1dc63e4dc1ea84b" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>static bool Ms::ScoreLoad::loading</definition>
+        <argsstring>()</argsstring>
+        <name>loading</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/score.h" line="1420" column="19" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/score.h" bodystart="1420" bodyend="1420"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/score.h" line="1414" column="16" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/score.h" bodystart="1414" bodyend="1421"/>
+    <listofallmembers>
+      <member refid="class_ms_1_1_score_load_1a6d3f6775b0a4465d77c199425c36ad40" prot="private" virt="non-virtual"><scope>Ms::ScoreLoad</scope><name>_loading</name></member>
+      <member refid="class_ms_1_1_score_load_1a54ee450c96889165b1dc63e4dc1ea84b" prot="public" virt="non-virtual"><scope>Ms::ScoreLoad</scope><name>loading</name></member>
+      <member refid="class_ms_1_1_score_load_1a7d29c265f06d7e9f0cf46804d82ade12" prot="public" virt="non-virtual"><scope>Ms::ScoreLoad</scope><name>ScoreLoad</name></member>
+      <member refid="class_ms_1_1_score_load_1ad21f94e6df89f2026d1619a4d0f8fabb" prot="public" virt="non-virtual"><scope>Ms::ScoreLoad</scope><name>~ScoreLoad</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

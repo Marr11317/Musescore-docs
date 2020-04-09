@@ -1,0 +1,2778 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.17">
+  <compounddef id="class_ms_1_1_staff" kind="class" language="C++" prot="public" final="yes">
+    <compoundname>Ms::Staff</compoundname>
+    <basecompoundref refid="class_ms_1_1_score_element" prot="public" virt="non-virtual">Ms::ScoreElement</basecompoundref>
+    <includes refid="staff_8h" local="yes">staff.h</includes>
+      <sectiondef kind="public-type">
+      <memberdef kind="enum" id="class_ms_1_1_staff_1a693ed2bc02f09dc0fff3f6731dfa3e98" prot="public" static="no" strong="yes">
+        <type></type>
+        <name>HideMode</name>
+        <enumvalue id="class_ms_1_1_staff_1a693ed2bc02f09dc0fff3f6731dfa3e98ae1f2d5134ed2543d38a0de9751cf75d9" prot="public">
+          <name>AUTO</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="class_ms_1_1_staff_1a693ed2bc02f09dc0fff3f6731dfa3e98af3fc827ade4b968e50406496907ef962" prot="public">
+          <name>ALWAYS</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="class_ms_1_1_staff_1a693ed2bc02f09dc0fff3f6731dfa3e98a443475558f0168dff92ecde26b98ae5a" prot="public">
+          <name>NEVER</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="class_ms_1_1_staff_1a693ed2bc02f09dc0fff3f6731dfa3e98ae54be9a95671f32cb40effb470d6c188" prot="public">
+          <name>INSTRUMENT</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/staff.h" line="64" column="26" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/staff.h" bodystart="64" bodyend="64"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_ms_1_1_staff_1ac2cdff5d14cd491244bccc86b2864bb4" prot="private" static="no" mutable="no">
+        <type><ref refid="class_ms_1_1_part" kindref="compound">Part</ref> *</type>
+        <definition>Part* Ms::Staff::_part</definition>
+        <argsstring></argsstring>
+        <name>_part</name>
+        <initializer>{ 0 }</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/staff.h" line="67" column="12" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/staff.h" bodystart="67" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_ms_1_1_staff_1a7998bb48926f91af5cdadc8c1f408f9d" prot="private" static="no" mutable="no">
+        <type><ref refid="class_ms_1_1_clef_list" kindref="compound">ClefList</ref></type>
+        <definition>ClefList Ms::Staff::clefs</definition>
+        <argsstring></argsstring>
+        <name>clefs</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/staff.h" line="69" column="16" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/staff.h" bodystart="69" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_ms_1_1_staff_1a8c3c2edc477f23c7b5fb21db1cbd87cd" prot="private" static="no" mutable="no">
+        <type><ref refid="struct_ms_1_1_clef_type_list" kindref="compound">ClefTypeList</ref></type>
+        <definition>ClefTypeList Ms::Staff::_defaultClefType</definition>
+        <argsstring></argsstring>
+        <name>_defaultClefType</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/staff.h" line="70" column="20" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/staff.h" bodystart="70" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_ms_1_1_staff_1a5f50acd7afef2126a504d8549c82fde0" prot="private" static="no" mutable="no">
+        <type><ref refid="class_ms_1_1_key_list" kindref="compound">KeyList</ref></type>
+        <definition>KeyList Ms::Staff::_keys</definition>
+        <argsstring></argsstring>
+        <name>_keys</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/staff.h" line="72" column="15" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/staff.h" bodystart="72" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_ms_1_1_staff_1a168348228c7ac96e1ffa7ca828bade00" prot="private" static="no" mutable="no">
+        <type>std::map&lt; int, <ref refid="class_ms_1_1_time_sig" kindref="compound">TimeSig</ref> * &gt;</type>
+        <definition>std::map&lt;int,TimeSig*&gt; Ms::Staff::timesigs</definition>
+        <argsstring></argsstring>
+        <name>timesigs</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/staff.h" line="73" column="16" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/staff.h" bodystart="73" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_ms_1_1_staff_1a46255409f0d6c913e0c1978c2e641281" prot="private" static="no" mutable="no">
+        <type>QList&lt; <ref refid="class_ms_1_1_bracket_item" kindref="compound">BracketItem</ref> * &gt;</type>
+        <definition>QList&lt;BracketItem*&gt; Ms::Staff::_brackets</definition>
+        <argsstring></argsstring>
+        <name>_brackets</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/staff.h" line="75" column="14" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/staff.h" bodystart="75" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_ms_1_1_staff_1a2dd627401d5e737e1deb4c69879b3c5a" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int Ms::Staff::_barLineSpan</definition>
+        <argsstring></argsstring>
+        <name>_barLineSpan</name>
+        <initializer>{ false }</initializer>
+        <briefdescription>
+<para>true - span barline to next staff </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/staff.h" line="76" column="12" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/staff.h" bodystart="76" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_ms_1_1_staff_1ac7e387fc50fc44a6d5e9a0d89ba9b631" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int Ms::Staff::_barLineFrom</definition>
+        <argsstring></argsstring>
+        <name>_barLineFrom</name>
+        <initializer>{ 0     }</initializer>
+        <briefdescription>
+<para>line of start staff to draw the barline from (0 = staff top line, ...) </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/staff.h" line="77" column="11" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/staff.h" bodystart="77" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_ms_1_1_staff_1ad07cc90e2dc9d14445abcfce7de0cd5b" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int Ms::Staff::_barLineTo</definition>
+        <argsstring></argsstring>
+        <name>_barLineTo</name>
+        <initializer>{ 0     }</initializer>
+        <briefdescription>
+<para>line of end staff to draw the bar line to (0= staff bottom line, ...) </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/staff.h" line="78" column="11" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/staff.h" bodystart="78" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_ms_1_1_staff_1a3564595ccba8f53aaebda357dbb0321c" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool Ms::Staff::_invisible</definition>
+        <argsstring></argsstring>
+        <name>_invisible</name>
+        <initializer>{ false }</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/staff.h" line="80" column="12" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/staff.h" bodystart="80" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_ms_1_1_staff_1a5e1ff2c043fde4874c0d554f28fdedf1" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool Ms::Staff::_cutaway</definition>
+        <argsstring></argsstring>
+        <name>_cutaway</name>
+        <initializer>{ false }</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/staff.h" line="81" column="12" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/staff.h" bodystart="81" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_ms_1_1_staff_1a210f00632a85446d184a4cfe2a04d5e1" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool Ms::Staff::_showIfEmpty</definition>
+        <argsstring></argsstring>
+        <name>_showIfEmpty</name>
+        <initializer>{ false }</initializer>
+        <briefdescription>
+<para>show this staff if system is empty and hideEmptyStaves is true </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/staff.h" line="82" column="12" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/staff.h" bodystart="82" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_ms_1_1_staff_1a58f311858e19ffb52f3aa6025160a688" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool Ms::Staff::_hideSystemBarLine</definition>
+        <argsstring></argsstring>
+        <name>_hideSystemBarLine</name>
+        <initializer>{ false }</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/staff.h" line="83" column="12" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/staff.h" bodystart="83" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_ms_1_1_staff_1ac9955f8fe1fdc6dc00a9cb009467c44e" prot="private" static="no" mutable="no">
+        <type>HideMode</type>
+        <definition>HideMode Ms::Staff::_hideWhenEmpty</definition>
+        <argsstring></argsstring>
+        <name>_hideWhenEmpty</name>
+        <initializer>{ HideMode::AUTO }</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/staff.h" line="84" column="16" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/staff.h" bodystart="84" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_ms_1_1_staff_1a6838fc459c08969cd8994e9f9d00eaf9" prot="private" static="no" mutable="no">
+        <type>QColor</type>
+        <definition>QColor Ms::Staff::_color</definition>
+        <argsstring></argsstring>
+        <name>_color</name>
+        <initializer>{ MScore::defaultColor }</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/staff.h" line="86" column="14" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/staff.h" bodystart="86" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_ms_1_1_staff_1ae39cb5e075c55e14fe121c53111b2e9a" prot="private" static="no" mutable="no">
+        <type>qreal</type>
+        <definition>qreal Ms::Staff::_userDist</definition>
+        <argsstring></argsstring>
+        <name>_userDist</name>
+        <initializer>{ 0.0   }</initializer>
+        <briefdescription>
+<para>user edited extra distance </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/staff.h" line="87" column="13" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/staff.h" bodystart="87" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_ms_1_1_staff_1a8fec1acc6d87bc32307d9303fa8a5ea2" prot="private" static="no" mutable="no">
+        <type><ref refid="class_ms_1_1_staff_type_list" kindref="compound">StaffTypeList</ref></type>
+        <definition>StaffTypeList Ms::Staff::_staffTypeList</definition>
+        <argsstring></argsstring>
+        <name>_staffTypeList</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/staff.h" line="89" column="21" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/staff.h" bodystart="89" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_ms_1_1_staff_1a1065936fb6ba85ed9e1cd32c45b0816b" prot="private" static="no" mutable="no">
+        <type>QMap&lt; int, int &gt;</type>
+        <definition>QMap&lt;int,int&gt; Ms::Staff::_channelList[VOICES]</definition>
+        <argsstring>[VOICES]</argsstring>
+        <name>_channelList</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/staff.h" line="91" column="12" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/staff.h" bodystart="91" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_ms_1_1_staff_1a5a27377b6a7f1cbae157623f964b7901" prot="private" static="no" mutable="no">
+        <type>QMap&lt; int, <ref refid="struct_ms_1_1_swing_parameters" kindref="compound">SwingParameters</ref> &gt;</type>
+        <definition>QMap&lt;int,SwingParameters&gt; Ms::Staff::_swingList</definition>
+        <argsstring></argsstring>
+        <name>_swingList</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/staff.h" line="92" column="12" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/staff.h" bodystart="92" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_ms_1_1_staff_1a5739e5b3d297e70d191f8c4c173aa8c7" prot="private" static="no" mutable="no">
+        <type>QMap&lt; int, int &gt;</type>
+        <definition>QMap&lt;int,int&gt; Ms::Staff::_capoList</definition>
+        <argsstring></argsstring>
+        <name>_capoList</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/staff.h" line="93" column="12" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/staff.h" bodystart="93" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_ms_1_1_staff_1aa0a953ca3d922e4e6f8b99401eddaf76" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool Ms::Staff::_playbackVoice[VOICES]</definition>
+        <argsstring>[VOICES]</argsstring>
+        <name>_playbackVoice</name>
+        <initializer>{ true, true, true, true }</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/staff.h" line="94" column="12" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/staff.h" bodystart="94" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_ms_1_1_staff_1a9fdd42dce1f9c36e9743c15bc0d76337" prot="private" static="no" mutable="no">
+        <type><ref refid="class_ms_1_1_change_map" kindref="compound">ChangeMap</ref></type>
+        <definition>ChangeMap Ms::Staff::_velocities</definition>
+        <argsstring></argsstring>
+        <name>_velocities</name>
+        <briefdescription>
+<para>cached value </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/staff.h" line="96" column="17" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/staff.h" bodystart="96" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_ms_1_1_staff_1a34a3171f97a05e71ac01ffea44ae1ea3" prot="private" static="no" mutable="no">
+        <type><ref refid="class_ms_1_1_pitch_list" kindref="compound">PitchList</ref></type>
+        <definition>PitchList Ms::Staff::_pitchOffsets</definition>
+        <argsstring></argsstring>
+        <name>_pitchOffsets</name>
+        <briefdescription>
+<para>cached value </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/staff.h" line="97" column="17" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/staff.h" bodystart="97" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_ms_1_1_staff_1a2d83b508fce62c25f5a561d39d2381d9" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Ms::Staff::fillBrackets</definition>
+        <argsstring>(int)</argsstring>
+        <name>fillBrackets</name>
+        <param>
+          <type>int</type>
+          <defname>idx</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/staff.h" line="99" column="12" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/staff.cpp" bodystart="83" bodyend="91"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ms_1_1_staff_1a7c3e03b07c748df577dabe327fe3896c" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Ms::Staff::cleanBrackets</definition>
+        <argsstring>()</argsstring>
+        <name>cleanBrackets</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/staff.h" line="100" column="12" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/staff.cpp" bodystart="98" bodyend="104"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_ms_1_1_staff_1ad926ce4018d4a7bfd4ac873be74656bc" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>Ms::Staff::Staff</definition>
+        <argsstring>(Score *score=0)</argsstring>
+        <name>Staff</name>
+        <param>
+          <type><ref refid="class_ms_1_1_score" kindref="compound">Score</ref> *</type>
+          <declname>score</declname>
+          <defval>0</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/staff.h" line="103" column="7" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/staff.cpp" bodystart="49" bodyend="53"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ms_1_1_staff_1ac2fa805de6f61096aa4ade6d04348e6d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Ms::Staff::init</definition>
+        <argsstring>(const InstrumentTemplate *, const StaffType *staffType, int)</argsstring>
+        <name>init</name>
+        <param>
+          <type>const <ref refid="class_ms_1_1_instrument_template" kindref="compound">InstrumentTemplate</ref> *</type>
+          <defname>t</defname>
+        </param>
+        <param>
+          <type>const <ref refid="class_ms_1_1_staff_type" kindref="compound">StaffType</ref> *</type>
+          <declname>staffType</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <defname>cidx</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/staff.h" line="104" column="12" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/staff.cpp" bodystart="1048" bodyend="1066"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ms_1_1_staff_1a8e1d0684f78f3e2c34fbc55272c333ff" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Ms::Staff::initFromStaffType</definition>
+        <argsstring>(const StaffType *staffType)</argsstring>
+        <name>initFromStaffType</name>
+        <param>
+          <type>const <ref refid="class_ms_1_1_staff_type" kindref="compound">StaffType</ref> *</type>
+          <declname>staffType</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/staff.h" line="105" column="12" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/staff.cpp" bodystart="1098" bodyend="1106"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ms_1_1_staff_1a1ae3668199a9ddd7fc1c65c1b75b2ca3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Ms::Staff::init</definition>
+        <argsstring>(const Staff *)</argsstring>
+        <name>init</name>
+        <param>
+          <type>const <ref refid="class_ms_1_1_staff" kindref="compound">Staff</ref> *</type>
+          <defname>s</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/staff.h" line="106" column="12" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/staff.cpp" bodystart="1072" bodyend="1092"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ms_1_1_staff_1a529f768be72d30bcd70cf6f05e01e54f" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="virtual">
+        <type><ref refid="namespace_ms_1a2c92ce0204176ede1ab86e2f44ae6b9e" kindref="member">ElementType</ref></type>
+        <definition>virtual ElementType Ms::Staff::type</definition>
+        <argsstring>() const override</argsstring>
+        <name>type</name>
+        <reimplements refid="class_ms_1_1_score_element_1a3dbb763c3cd4ec05d202d03115abe1d5">type</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/staff.h" line="108" column="27" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/staff.h" bodystart="108" bodyend="108"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ms_1_1_staff_1a844c77bb4dd38e718c5d9a4cf2464d5d" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool Ms::Staff::isTop</definition>
+        <argsstring>() const</argsstring>
+        <name>isTop</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/staff.h" line="110" column="12" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/staff.cpp" bodystart="1267" bodyend="1270"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ms_1_1_staff_1ae77b0bb03a07af61a932c49533456f22" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>QString</type>
+        <definition>QString Ms::Staff::partName</definition>
+        <argsstring>() const</argsstring>
+        <name>partName</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/staff.h" line="111" column="15" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/staff.cpp" bodystart="290" bodyend="293"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ms_1_1_staff_1a19693586b624485ae120b2d644ddbf22" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int Ms::Staff::rstaff</definition>
+        <argsstring>() const</argsstring>
+        <name>rstaff</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/staff.h" line="112" column="11" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/staff.cpp" bodystart="1258" bodyend="1261"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ms_1_1_staff_1aca2b092f2ded9fb7fb4e69c0ac4a054b" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int Ms::Staff::idx</definition>
+        <argsstring>() const</argsstring>
+        <name>idx</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/staff.h" line="113" column="11" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/staff.cpp" bodystart="59" bodyend="62"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ms_1_1_staff_1a0a2c8ab7081cb603f6db6ee2d8febf83" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Ms::Staff::read</definition>
+        <argsstring>(XmlReader &amp;)</argsstring>
+        <name>read</name>
+        <param>
+          <type><ref refid="class_ms_1_1_xml_reader" kindref="compound">XmlReader</ref> &amp;</type>
+          <defname>e</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/staff.h" line="114" column="12" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/staff.cpp" bodystart="687" bodyend="693"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ms_1_1_staff_1a1a9e8e8d629ab754979942aa95645ea9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool Ms::Staff::readProperties</definition>
+        <argsstring>(XmlReader &amp;)</argsstring>
+        <name>readProperties</name>
+        <param>
+          <type><ref refid="class_ms_1_1_xml_reader" kindref="compound">XmlReader</ref> &amp;</type>
+          <defname>e</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/staff.h" line="115" column="12" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/staff.cpp" bodystart="699" bodyend="789"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ms_1_1_staff_1a430b2d551dab1be918fe840ff01e7a61" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Ms::Staff::write</definition>
+        <argsstring>(XmlWriter &amp;xml) const</argsstring>
+        <name>write</name>
+        <param>
+          <type><ref refid="class_ms_1_1_xml_writer" kindref="compound">XmlWriter</ref> &amp;</type>
+          <declname>xml</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/staff.h" line="116" column="12" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/staff.cpp" bodystart="619" bodyend="681"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ms_1_1_staff_1ae31dc0de799c1e206af979e65bf837ab" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="class_ms_1_1_part" kindref="compound">Part</ref> *</type>
+        <definition>Part* Ms::Staff::part</definition>
+        <argsstring>() const</argsstring>
+        <name>part</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/staff.h" line="117" column="12" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/staff.h" bodystart="117" bodyend="117"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ms_1_1_staff_1a76a8b771364e62fee751ea01351719c8" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Ms::Staff::setPart</definition>
+        <argsstring>(Part *p)</argsstring>
+        <name>setPart</name>
+        <param>
+          <type><ref refid="class_ms_1_1_part" kindref="compound">Part</ref> *</type>
+          <declname>p</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/staff.h" line="118" column="12" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/staff.h" bodystart="118" bodyend="118"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ms_1_1_staff_1a53b0a53efec8c1c19a279c1a45714a5e" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>BracketType</type>
+        <definition>BracketType Ms::Staff::bracketType</definition>
+        <argsstring>(int idx) const</argsstring>
+        <name>bracketType</name>
+        <param>
+          <type>int</type>
+          <declname>idx</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/staff.h" line="120" column="19" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/staff.cpp" bodystart="110" bodyend="115"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ms_1_1_staff_1ae98dbc6bdbe12a44d2c943e34d9436e9" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int Ms::Staff::bracketSpan</definition>
+        <argsstring>(int idx) const</argsstring>
+        <name>bracketSpan</name>
+        <param>
+          <type>int</type>
+          <declname>idx</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/staff.h" line="121" column="11" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/staff.cpp" bodystart="121" bodyend="126"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ms_1_1_staff_1a960c94efe212d0da61b1fd433a2e43e2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Ms::Staff::setBracketType</definition>
+        <argsstring>(int idx, BracketType val)</argsstring>
+        <name>setBracketType</name>
+        <param>
+          <type>int</type>
+          <declname>idx</declname>
+        </param>
+        <param>
+          <type>BracketType</type>
+          <declname>val</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/staff.h" line="122" column="12" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/staff.cpp" bodystart="132" bodyend="137"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ms_1_1_staff_1a221b703b3e4310eba08a273cba4c7c5d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Ms::Staff::setBracketSpan</definition>
+        <argsstring>(int idx, int val)</argsstring>
+        <name>setBracketSpan</name>
+        <param>
+          <type>int</type>
+          <declname>idx</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>val</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/staff.h" line="123" column="12" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/staff.cpp" bodystart="176" bodyend="182"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ms_1_1_staff_1a0fbd82b996667409f8c14313843b97d4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Ms::Staff::swapBracket</definition>
+        <argsstring>(int oldIdx, int newIdx)</argsstring>
+        <name>swapBracket</name>
+        <param>
+          <type>int</type>
+          <declname>oldIdx</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>newIdx</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/staff.h" line="124" column="12" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/staff.cpp" bodystart="143" bodyend="151"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ms_1_1_staff_1ab7c29723d058a1424f185f2cf1fac4ff" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Ms::Staff::changeBracketColumn</definition>
+        <argsstring>(int oldColumn, int newColumn)</argsstring>
+        <name>changeBracketColumn</name>
+        <param>
+          <type>int</type>
+          <declname>oldColumn</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>newColumn</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/staff.h" line="125" column="12" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/staff.cpp" bodystart="157" bodyend="170"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ms_1_1_staff_1a06ee48f3920f2f4bdc66b30ac99efb18" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Ms::Staff::addBracket</definition>
+        <argsstring>(BracketItem *)</argsstring>
+        <name>addBracket</name>
+        <param>
+          <type><ref refid="class_ms_1_1_bracket_item" kindref="compound">BracketItem</ref> *</type>
+          <defname>b</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/staff.h" line="126" column="12" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/staff.cpp" bodystart="188" bodyend="207"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ms_1_1_staff_1a0ab58cc207efdeaedf1de006cd22d03d" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>const QList&lt; <ref refid="class_ms_1_1_bracket_item" kindref="compound">BracketItem</ref> * &gt; &amp;</type>
+        <definition>const QList&lt;BracketItem*&gt;&amp; Ms::Staff::brackets</definition>
+        <argsstring>() const</argsstring>
+        <name>brackets</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/staff.h" line="127" column="19" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/staff.h" bodystart="127" bodyend="127"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ms_1_1_staff_1aca7f5c2bd140b459507b384a20fae28a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>QList&lt; <ref refid="class_ms_1_1_bracket_item" kindref="compound">BracketItem</ref> * &gt; &amp;</type>
+        <definition>QList&lt;BracketItem*&gt;&amp; Ms::Staff::brackets</definition>
+        <argsstring>()</argsstring>
+        <name>brackets</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/staff.h" line="128" column="13" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/staff.h" bodystart="128" bodyend="128"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ms_1_1_staff_1a48fdfe978931893fc1f4e730471c9a56" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Ms::Staff::cleanupBrackets</definition>
+        <argsstring>()</argsstring>
+        <name>cleanupBrackets</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/staff.h" line="129" column="12" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/staff.cpp" bodystart="241" bodyend="272"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ms_1_1_staff_1aeb4294a5e1de9d83d1ea27b1b6cd9b74" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int Ms::Staff::bracketLevels</definition>
+        <argsstring>() const</argsstring>
+        <name>bracketLevels</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/staff.h" line="130" column="11" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/staff.cpp" bodystart="278" bodyend="284"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ms_1_1_staff_1a9cf245a00fa95bd8edfdb9e9d8f7f3cc" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="class_ms_1_1_clef_list" kindref="compound">ClefList</ref> &amp;</type>
+        <definition>ClefList&amp; Ms::Staff::clefList</definition>
+        <argsstring>()</argsstring>
+        <name>clefList</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/staff.h" line="132" column="16" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/staff.h" bodystart="132" bodyend="132"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ms_1_1_staff_1adc5f7743eb65807859f636b7cef75e4c" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="struct_ms_1_1_clef_type_list" kindref="compound">ClefTypeList</ref></type>
+        <definition>ClefTypeList Ms::Staff::clefType</definition>
+        <argsstring>(const Fraction &amp;) const</argsstring>
+        <name>clefType</name>
+        <param>
+          <type>const <ref refid="class_ms_1_1_fraction" kindref="compound">Fraction</ref> &amp;</type>
+          <defname>tick</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/staff.h" line="133" column="20" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/staff.cpp" bodystart="299" bodyend="319"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ms_1_1_staff_1a944eccfefdde97d34f36dbb224160ee9" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="struct_ms_1_1_clef_type_list" kindref="compound">ClefTypeList</ref></type>
+        <definition>ClefTypeList Ms::Staff::defaultClefType</definition>
+        <argsstring>() const</argsstring>
+        <name>defaultClefType</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/staff.h" line="134" column="20" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/staff.h" bodystart="134" bodyend="134"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ms_1_1_staff_1ada653fb1907c64b648c4d5104dfc5154" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Ms::Staff::setDefaultClefType</definition>
+        <argsstring>(const ClefTypeList &amp;l)</argsstring>
+        <name>setDefaultClefType</name>
+        <param>
+          <type>const <ref refid="struct_ms_1_1_clef_type_list" kindref="compound">ClefTypeList</ref> &amp;</type>
+          <declname>l</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/staff.h" line="135" column="12" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/staff.h" bodystart="135" bodyend="135"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ms_1_1_staff_1a44fa196161dc82a567582d7acd4f8cca" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>ClefType</type>
+        <definition>ClefType Ms::Staff::clef</definition>
+        <argsstring>(const Fraction &amp;) const</argsstring>
+        <name>clef</name>
+        <param>
+          <type>const <ref refid="class_ms_1_1_fraction" kindref="compound">Fraction</ref> &amp;</type>
+          <defname>tick</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/staff.h" line="136" column="16" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/staff.cpp" bodystart="325" bodyend="329"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ms_1_1_staff_1aaf9505764dd34a7f3fca2b3d604e51b1" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="class_ms_1_1_fraction" kindref="compound">Fraction</ref></type>
+        <definition>Fraction Ms::Staff::nextClefTick</definition>
+        <argsstring>(const Fraction &amp;) const</argsstring>
+        <name>nextClefTick</name>
+        <param>
+          <type>const <ref refid="class_ms_1_1_fraction" kindref="compound">Fraction</ref> &amp;</type>
+          <defname>tick</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/staff.h" line="137" column="16" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/staff.cpp" bodystart="338" bodyend="342"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ms_1_1_staff_1ab4794dc46dda758d0cd8e4c0433d2151" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="class_ms_1_1_fraction" kindref="compound">Fraction</ref></type>
+        <definition>Fraction Ms::Staff::currentClefTick</definition>
+        <argsstring>(const Fraction &amp;) const</argsstring>
+        <name>currentClefTick</name>
+        <param>
+          <type>const <ref refid="class_ms_1_1_fraction" kindref="compound">Fraction</ref> &amp;</type>
+          <defname>tick</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/staff.h" line="138" column="16" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/staff.cpp" bodystart="352" bodyend="355"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ms_1_1_staff_1a1cee4023c04857a5427c9ec874d12ac4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Ms::Staff::setClef</definition>
+        <argsstring>(Clef *)</argsstring>
+        <name>setClef</name>
+        <param>
+          <type><ref refid="class_ms_1_1_clef" kindref="compound">Clef</ref> *</type>
+          <defname>clef</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/staff.h" line="140" column="12" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/staff.cpp" bodystart="400" bodyend="415"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ms_1_1_staff_1aaff23a750c5a503105b731c94d2e4534" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Ms::Staff::removeClef</definition>
+        <argsstring>(const Clef *)</argsstring>
+        <name>removeClef</name>
+        <param>
+          <type>const <ref refid="class_ms_1_1_clef" kindref="compound">Clef</ref> *</type>
+          <defname>clef</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/staff.h" line="141" column="12" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/staff.cpp" bodystart="421" bodyend="445"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ms_1_1_staff_1afd5fcb0df2d7286da0a5a42e506fee38" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Ms::Staff::addTimeSig</definition>
+        <argsstring>(TimeSig *)</argsstring>
+        <name>addTimeSig</name>
+        <param>
+          <type><ref refid="class_ms_1_1_time_sig" kindref="compound">TimeSig</ref> *</type>
+          <defname>timesig</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/staff.h" line="143" column="12" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/staff.cpp" bodystart="524" bodyend="529"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ms_1_1_staff_1a029341ebb5d9a1d0a4c0f1563d212a78" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Ms::Staff::removeTimeSig</definition>
+        <argsstring>(TimeSig *)</argsstring>
+        <name>removeTimeSig</name>
+        <param>
+          <type><ref refid="class_ms_1_1_time_sig" kindref="compound">TimeSig</ref> *</type>
+          <defname>timesig</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/staff.h" line="144" column="12" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/staff.cpp" bodystart="535" bodyend="540"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ms_1_1_staff_1a28b9acc755d56c99fd43ab209be26ca4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Ms::Staff::clearTimeSig</definition>
+        <argsstring>()</argsstring>
+        <name>clearTimeSig</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/staff.h" line="145" column="12" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/staff.cpp" bodystart="546" bodyend="549"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ms_1_1_staff_1a1db312fd663a5bfbf621f58e856a2a81" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="class_ms_1_1_fraction" kindref="compound">Fraction</ref></type>
+        <definition>Fraction Ms::Staff::timeStretch</definition>
+        <argsstring>(const Fraction &amp;) const</argsstring>
+        <name>timeStretch</name>
+        <param>
+          <type>const <ref refid="class_ms_1_1_fraction" kindref="compound">Fraction</ref> &amp;</type>
+          <defname>tick</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/staff.h" line="146" column="16" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/staff.cpp" bodystart="451" bodyend="455"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ms_1_1_staff_1ab6ff6aba127497e2aa116b01ca73b563" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="class_ms_1_1_time_sig" kindref="compound">TimeSig</ref> *</type>
+        <definition>TimeSig * Ms::Staff::timeSig</definition>
+        <argsstring>(const Fraction &amp;) const</argsstring>
+        <name>timeSig</name>
+        <param>
+          <type>const <ref refid="class_ms_1_1_fraction" kindref="compound">Fraction</ref> &amp;</type>
+          <defname>tick</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/staff.h" line="147" column="15" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/staff.cpp" bodystart="462" bodyend="472"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ms_1_1_staff_1ad27a9adee06e4fdbbbe57d8465c31941" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="class_ms_1_1_time_sig" kindref="compound">TimeSig</ref> *</type>
+        <definition>TimeSig * Ms::Staff::nextTimeSig</definition>
+        <argsstring>(const Fraction &amp;) const</argsstring>
+        <name>nextTimeSig</name>
+        <param>
+          <type>const <ref refid="class_ms_1_1_fraction" kindref="compound">Fraction</ref> &amp;</type>
+          <defname>tick</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/staff.h" line="148" column="15" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/staff.cpp" bodystart="479" bodyend="483"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ms_1_1_staff_1a3370e66ffb62c96dac2453df7b33051f" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="class_ms_1_1_fraction" kindref="compound">Fraction</ref></type>
+        <definition>Fraction Ms::Staff::currentTimeSigTick</definition>
+        <argsstring>(const Fraction &amp;) const</argsstring>
+        <name>currentTimeSigTick</name>
+        <param>
+          <type>const <ref refid="class_ms_1_1_fraction" kindref="compound">Fraction</ref> &amp;</type>
+          <defname>tick</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/staff.h" line="149" column="16" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/staff.cpp" bodystart="493" bodyend="502"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ms_1_1_staff_1a7825d97a44a9b482f72887d41becb2cd" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool Ms::Staff::isLocalTimeSignature</definition>
+        <argsstring>(const Fraction &amp;tick)</argsstring>
+        <name>isLocalTimeSignature</name>
+        <param>
+          <type>const <ref refid="class_ms_1_1_fraction" kindref="compound">Fraction</ref> &amp;</type>
+          <declname>tick</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/staff.h" line="151" column="12" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/staff.h" bodystart="151" bodyend="151"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ms_1_1_staff_1a9b6401205d64d4d946c1254ba3e88443" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>const <ref refid="class_ms_1_1_groups" kindref="compound">Groups</ref> &amp;</type>
+        <definition>const Groups &amp; Ms::Staff::group</definition>
+        <argsstring>(const Fraction &amp;) const</argsstring>
+        <name>group</name>
+        <param>
+          <type>const <ref refid="class_ms_1_1_fraction" kindref="compound">Fraction</ref> &amp;</type>
+          <defname>tick</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/staff.h" line="153" column="20" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/staff.cpp" bodystart="508" bodyend="518"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ms_1_1_staff_1a81cb36958532a8b2353dd36c4aa2282e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="class_ms_1_1_key_list" kindref="compound">KeyList</ref> *</type>
+        <definition>KeyList* Ms::Staff::keyList</definition>
+        <argsstring>()</argsstring>
+        <name>keyList</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/staff.h" line="155" column="15" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/staff.h" bodystart="155" bodyend="155"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ms_1_1_staff_1ac2e4bbfbd72894407525ab16744cd0e7" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>Key</type>
+        <definition>Key Ms::Staff::key</definition>
+        <argsstring>(const Fraction &amp;tick) const</argsstring>
+        <name>key</name>
+        <param>
+          <type>const <ref refid="class_ms_1_1_fraction" kindref="compound">Fraction</ref> &amp;</type>
+          <declname>tick</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/staff.h" line="156" column="11" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/staff.h" bodystart="156" bodyend="156"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ms_1_1_staff_1a39233bf07b8a9434df49fd14fa92fb12" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="class_ms_1_1_key_sig_event" kindref="compound">KeySigEvent</ref></type>
+        <definition>KeySigEvent Ms::Staff::keySigEvent</definition>
+        <argsstring>(const Fraction &amp;) const</argsstring>
+        <name>keySigEvent</name>
+        <param>
+          <type>const <ref refid="class_ms_1_1_fraction" kindref="compound">Fraction</ref> &amp;</type>
+          <defname>tick</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/staff.h" line="157" column="19" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/staff.cpp" bodystart="557" bodyend="560"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ms_1_1_staff_1a0d1ae9f37319e1313653c2ece25f094a" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="class_ms_1_1_fraction" kindref="compound">Fraction</ref></type>
+        <definition>Fraction Ms::Staff::nextKeyTick</definition>
+        <argsstring>(const Fraction &amp;) const</argsstring>
+        <name>nextKeyTick</name>
+        <param>
+          <type>const <ref refid="class_ms_1_1_fraction" kindref="compound">Fraction</ref> &amp;</type>
+          <defname>tick</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/staff.h" line="158" column="16" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/staff.cpp" bodystart="596" bodyend="600"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ms_1_1_staff_1ae3a942980e5d2c7bcf1395be2d0f2cf7" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="class_ms_1_1_fraction" kindref="compound">Fraction</ref></type>
+        <definition>Fraction Ms::Staff::currentKeyTick</definition>
+        <argsstring>(const Fraction &amp;) const</argsstring>
+        <name>currentKeyTick</name>
+        <param>
+          <type>const <ref refid="class_ms_1_1_fraction" kindref="compound">Fraction</ref> &amp;</type>
+          <defname>tick</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/staff.h" line="159" column="16" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/staff.cpp" bodystart="610" bodyend="613"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ms_1_1_staff_1a4e1bdd5442b9d7d76a78d43a159333b5" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="class_ms_1_1_key_sig_event" kindref="compound">KeySigEvent</ref></type>
+        <definition>KeySigEvent Ms::Staff::prevKey</definition>
+        <argsstring>(const Fraction &amp;) const</argsstring>
+        <name>prevKey</name>
+        <param>
+          <type>const <ref refid="class_ms_1_1_fraction" kindref="compound">Fraction</ref> &amp;</type>
+          <defname>tick</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/staff.h" line="160" column="19" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/staff.cpp" bodystart="584" bodyend="587"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ms_1_1_staff_1a759d15293c7797565eaee37e61fcfc93" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Ms::Staff::setKey</definition>
+        <argsstring>(const Fraction &amp;, KeySigEvent)</argsstring>
+        <name>setKey</name>
+        <param>
+          <type>const <ref refid="class_ms_1_1_fraction" kindref="compound">Fraction</ref> &amp;</type>
+          <defname>tick</defname>
+        </param>
+        <param>
+          <type><ref refid="class_ms_1_1_key_sig_event" kindref="compound">KeySigEvent</ref></type>
+          <defname>k</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/staff.h" line="161" column="12" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/staff.cpp" bodystart="566" bodyend="569"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ms_1_1_staff_1a53f34460b77bf35d48ef85a7bc99295e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Ms::Staff::removeKey</definition>
+        <argsstring>(const Fraction &amp;)</argsstring>
+        <name>removeKey</name>
+        <param>
+          <type>const <ref refid="class_ms_1_1_fraction" kindref="compound">Fraction</ref> &amp;</type>
+          <defname>tick</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/staff.h" line="162" column="12" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/staff.cpp" bodystart="575" bodyend="578"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ms_1_1_staff_1ac2a6e99264eae0e0fc71e8d97b4ecb06" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool Ms::Staff::show</definition>
+        <argsstring>() const</argsstring>
+        <name>show</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/staff.h" line="164" column="12" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/staff.cpp" bodystart="1121" bodyend="1124"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ms_1_1_staff_1a32e862b1ec4595ddd2ac6bc5c4013405" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool Ms::Staff::stemless</definition>
+        <argsstring>(const Fraction &amp;) const</argsstring>
+        <name>stemless</name>
+        <param>
+          <type>const <ref refid="class_ms_1_1_fraction" kindref="compound">Fraction</ref> &amp;</type>
+          <defname>tick</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/staff.h" line="165" column="12" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/staff.cpp" bodystart="937" bodyend="940"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ms_1_1_staff_1a91c8562220dfd0a71fe9a8ad23ffff43" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool Ms::Staff::invisible</definition>
+        <argsstring>() const</argsstring>
+        <name>invisible</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/staff.h" line="166" column="12" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/staff.h" bodystart="166" bodyend="166"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ms_1_1_staff_1ad485689f4b89095a2e39a291e8e271bc" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Ms::Staff::setInvisible</definition>
+        <argsstring>(bool val)</argsstring>
+        <name>setInvisible</name>
+        <param>
+          <type>bool</type>
+          <declname>val</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/staff.h" line="167" column="12" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/staff.h" bodystart="167" bodyend="167"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ms_1_1_staff_1a841944e6ba46203750e299ceef27ca09" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool Ms::Staff::cutaway</definition>
+        <argsstring>() const</argsstring>
+        <name>cutaway</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/staff.h" line="168" column="12" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/staff.h" bodystart="168" bodyend="168"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ms_1_1_staff_1aee08028d43c263571fa5431b848dc16b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Ms::Staff::setCutaway</definition>
+        <argsstring>(bool val)</argsstring>
+        <name>setCutaway</name>
+        <param>
+          <type>bool</type>
+          <declname>val</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/staff.h" line="169" column="12" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/staff.h" bodystart="169" bodyend="169"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ms_1_1_staff_1acde5406d19a2a8eb5d61d3557f449e58" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool Ms::Staff::showIfEmpty</definition>
+        <argsstring>() const</argsstring>
+        <name>showIfEmpty</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/staff.h" line="170" column="12" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/staff.h" bodystart="170" bodyend="170"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ms_1_1_staff_1a6da56fb2edd34a34fb769a2a092405e0" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Ms::Staff::setShowIfEmpty</definition>
+        <argsstring>(bool val)</argsstring>
+        <name>setShowIfEmpty</name>
+        <param>
+          <type>bool</type>
+          <declname>val</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/staff.h" line="171" column="12" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/staff.h" bodystart="171" bodyend="171"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ms_1_1_staff_1a71f1d3a988269c5d55c79ec361bcfd60" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool Ms::Staff::hideSystemBarLine</definition>
+        <argsstring>() const</argsstring>
+        <name>hideSystemBarLine</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/staff.h" line="173" column="12" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/staff.h" bodystart="173" bodyend="173"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ms_1_1_staff_1af4bb6126929a0da2d9978a71132a3ad4" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Ms::Staff::setHideSystemBarLine</definition>
+        <argsstring>(bool val)</argsstring>
+        <name>setHideSystemBarLine</name>
+        <param>
+          <type>bool</type>
+          <declname>val</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/staff.h" line="174" column="12" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/staff.h" bodystart="174" bodyend="174"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ms_1_1_staff_1a6e52d003f76686f0e20bb7843558cfab" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>HideMode</type>
+        <definition>HideMode Ms::Staff::hideWhenEmpty</definition>
+        <argsstring>() const</argsstring>
+        <name>hideWhenEmpty</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/staff.h" line="175" column="16" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/staff.h" bodystart="175" bodyend="175"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ms_1_1_staff_1a09c55d16ff3859cac0e8666fe1929f67" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Ms::Staff::setHideWhenEmpty</definition>
+        <argsstring>(HideMode v)</argsstring>
+        <name>setHideWhenEmpty</name>
+        <param>
+          <type>HideMode</type>
+          <declname>v</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/staff.h" line="176" column="12" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/staff.h" bodystart="176" bodyend="176"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ms_1_1_staff_1a32dc6248f3e8a96625188f688e7259cb" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>int</type>
+        <definition>int Ms::Staff::barLineSpan</definition>
+        <argsstring>() const</argsstring>
+        <name>barLineSpan</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/staff.h" line="178" column="11" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/staff.h" bodystart="178" bodyend="178"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ms_1_1_staff_1ac67d78134ff78a423e2d79590a336280" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>int</type>
+        <definition>int Ms::Staff::barLineFrom</definition>
+        <argsstring>() const</argsstring>
+        <name>barLineFrom</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/staff.h" line="179" column="11" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/staff.h" bodystart="179" bodyend="179"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ms_1_1_staff_1a853f58cca060e8abccad7c5545d2b702" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>int</type>
+        <definition>int Ms::Staff::barLineTo</definition>
+        <argsstring>() const</argsstring>
+        <name>barLineTo</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/staff.h" line="180" column="11" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/staff.h" bodystart="180" bodyend="180"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ms_1_1_staff_1a575353249073f55244e394f6d73d8660" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Ms::Staff::setBarLineSpan</definition>
+        <argsstring>(int val)</argsstring>
+        <name>setBarLineSpan</name>
+        <param>
+          <type>int</type>
+          <declname>val</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/staff.h" line="181" column="12" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/staff.h" bodystart="181" bodyend="181"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ms_1_1_staff_1ab7794a8adff78e1f11dcb59bf295e0b5" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Ms::Staff::setBarLineFrom</definition>
+        <argsstring>(int val)</argsstring>
+        <name>setBarLineFrom</name>
+        <param>
+          <type>int</type>
+          <declname>val</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/staff.h" line="182" column="12" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/staff.h" bodystart="182" bodyend="182"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ms_1_1_staff_1aa8ccfbc96f984806afd573f4e93b11ff" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Ms::Staff::setBarLineTo</definition>
+        <argsstring>(int val)</argsstring>
+        <name>setBarLineTo</name>
+        <param>
+          <type>int</type>
+          <declname>val</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/staff.h" line="183" column="12" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/staff.h" bodystart="183" bodyend="183"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ms_1_1_staff_1a6d5c3efe74ec1a9be56a1f8e3e88cd4b" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>qreal</type>
+        <definition>qreal Ms::Staff::height</definition>
+        <argsstring>() const</argsstring>
+        <name>height</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/staff.h" line="184" column="13" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/staff.cpp" bodystart="795" bodyend="800"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ms_1_1_staff_1abe59f2f3e8ca7f2a4c5707f3be4aae5e" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int Ms::Staff::channel</definition>
+        <argsstring>(const Fraction &amp;, int voice) const</argsstring>
+        <name>channel</name>
+        <param>
+          <type>const <ref refid="class_ms_1_1_fraction" kindref="compound">Fraction</ref> &amp;</type>
+          <defname>tick</defname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>voice</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/staff.h" line="186" column="11" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/staff.cpp" bodystart="902" bodyend="911"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ms_1_1_staff_1af867b6b517b6fb333c0c6ce16854387a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Ms::Staff::clearChannelList</definition>
+        <argsstring>(int voice)</argsstring>
+        <name>clearChannelList</name>
+        <param>
+          <type>int</type>
+          <declname>voice</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/staff.h" line="187" column="12" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/staff.h" bodystart="187" bodyend="187"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ms_1_1_staff_1aa285e01958662750930b57635b894847" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Ms::Staff::insertIntoChannelList</definition>
+        <argsstring>(int voice, const Fraction &amp;tick, int channelId)</argsstring>
+        <name>insertIntoChannelList</name>
+        <param>
+          <type>int</type>
+          <declname>voice</declname>
+        </param>
+        <param>
+          <type>const <ref refid="class_ms_1_1_fraction" kindref="compound">Fraction</ref> &amp;</type>
+          <declname>tick</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>channelId</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/staff.h" line="188" column="12" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/staff.h" bodystart="188" bodyend="188"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ms_1_1_staff_1a2ebe3da56471a93bfd36f26bac261b61" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="struct_ms_1_1_swing_parameters" kindref="compound">SwingParameters</ref></type>
+        <definition>SwingParameters Ms::Staff::swing</definition>
+        <argsstring>(const Fraction &amp;) const</argsstring>
+        <name>swing</name>
+        <param>
+          <type>const <ref refid="class_ms_1_1_fraction" kindref="compound">Fraction</ref> &amp;</type>
+          <defname>tick</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/staff.h" line="190" column="23" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/staff.cpp" bodystart="860" bodyend="881"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ms_1_1_staff_1ab50c329764dc6368af21376f4e82ab72" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Ms::Staff::clearSwingList</definition>
+        <argsstring>()</argsstring>
+        <name>clearSwingList</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/staff.h" line="191" column="12" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/staff.h" bodystart="191" bodyend="191"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ms_1_1_staff_1a277434885a886ec3338c9881027de66b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Ms::Staff::insertIntoSwingList</definition>
+        <argsstring>(const Fraction &amp;tick, SwingParameters sp)</argsstring>
+        <name>insertIntoSwingList</name>
+        <param>
+          <type>const <ref refid="class_ms_1_1_fraction" kindref="compound">Fraction</ref> &amp;</type>
+          <declname>tick</declname>
+        </param>
+        <param>
+          <type><ref refid="struct_ms_1_1_swing_parameters" kindref="compound">SwingParameters</ref></type>
+          <declname>sp</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/staff.h" line="192" column="12" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/staff.h" bodystart="192" bodyend="192"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ms_1_1_staff_1a194893c4bba6a3c426a19703ce7386b6" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int Ms::Staff::capo</definition>
+        <argsstring>(const Fraction &amp;) const</argsstring>
+        <name>capo</name>
+        <param>
+          <type>const <ref refid="class_ms_1_1_fraction" kindref="compound">Fraction</ref> &amp;</type>
+          <defname>tick</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/staff.h" line="194" column="11" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/staff.cpp" bodystart="887" bodyend="896"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ms_1_1_staff_1a4393d2a700763e063fdd4dd6f1ad8237" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Ms::Staff::clearCapoList</definition>
+        <argsstring>()</argsstring>
+        <name>clearCapoList</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/staff.h" line="195" column="12" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/staff.h" bodystart="195" bodyend="195"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ms_1_1_staff_1a4038e65d280168eb530e29eb46396d33" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Ms::Staff::insertIntoCapoList</definition>
+        <argsstring>(const Fraction &amp;tick, int fretId)</argsstring>
+        <name>insertIntoCapoList</name>
+        <param>
+          <type>const <ref refid="class_ms_1_1_fraction" kindref="compound">Fraction</ref> &amp;</type>
+          <declname>tick</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>fretId</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/staff.h" line="196" column="12" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/staff.h" bodystart="196" bodyend="196"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ms_1_1_staff_1ad248bef7f25a4fe152ce281372a24d3f" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>const <ref refid="class_ms_1_1_staff_type" kindref="compound">StaffType</ref> *</type>
+        <definition>const StaffType * Ms::Staff::staffType</definition>
+        <argsstring>(const Fraction &amp;) const</argsstring>
+        <name>staffType</name>
+        <param>
+          <type>const <ref refid="class_ms_1_1_fraction" kindref="compound">Fraction</ref> &amp;</type>
+          <defname>tick</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/staff.h" line="199" column="23" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/staff.cpp" bodystart="983" bodyend="986"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ms_1_1_staff_1ab9a640f2959f0f8314d97907c3ca74bf" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>const <ref refid="class_ms_1_1_staff_type" kindref="compound">StaffType</ref> *</type>
+        <definition>const StaffType * Ms::Staff::constStaffType</definition>
+        <argsstring>(const Fraction &amp;) const</argsstring>
+        <name>constStaffType</name>
+        <param>
+          <type>const <ref refid="class_ms_1_1_fraction" kindref="compound">Fraction</ref> &amp;</type>
+          <defname>tick</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/staff.h" line="200" column="23" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/staff.cpp" bodystart="988" bodyend="991"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ms_1_1_staff_1a7df31436b3fe8922bd8b2917c7f83d77" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="class_ms_1_1_staff_type" kindref="compound">StaffType</ref> *</type>
+        <definition>StaffType * Ms::Staff::staffType</definition>
+        <argsstring>(const Fraction &amp;)</argsstring>
+        <name>staffType</name>
+        <param>
+          <type>const <ref refid="class_ms_1_1_fraction" kindref="compound">Fraction</ref> &amp;</type>
+          <defname>tick</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/staff.h" line="201" column="17" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/staff.cpp" bodystart="993" bodyend="996"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ms_1_1_staff_1a1926ec7d069eb767fe5701cfa4cf52fc" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="class_ms_1_1_staff_type" kindref="compound">StaffType</ref> *</type>
+        <definition>StaffType * Ms::Staff::setStaffType</definition>
+        <argsstring>(const Fraction &amp;, const StaffType &amp;)</argsstring>
+        <name>setStaffType</name>
+        <param>
+          <type>const <ref refid="class_ms_1_1_fraction" kindref="compound">Fraction</ref> &amp;</type>
+          <defname>tick</defname>
+        </param>
+        <param>
+          <type>const <ref refid="class_ms_1_1_staff_type" kindref="compound">StaffType</ref> &amp;</type>
+          <defname>nst</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/staff.h" line="202" column="17" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/staff.cpp" bodystart="1024" bodyend="1027"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ms_1_1_staff_1a87e4c701fd4a3fb2afb3e51f28830a9c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Ms::Staff::removeStaffType</definition>
+        <argsstring>(const Fraction &amp;)</argsstring>
+        <name>removeStaffType</name>
+        <param>
+          <type>const <ref refid="class_ms_1_1_fraction" kindref="compound">Fraction</ref> &amp;</type>
+          <defname>tick</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/staff.h" line="203" column="12" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/staff.cpp" bodystart="1033" bodyend="1042"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ms_1_1_staff_1aff820df68dc1254fc3b18a853d9f829a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Ms::Staff::staffTypeListChanged</definition>
+        <argsstring>(const Fraction &amp;)</argsstring>
+        <name>staffTypeListChanged</name>
+        <param>
+          <type>const <ref refid="class_ms_1_1_fraction" kindref="compound">Fraction</ref> &amp;</type>
+          <defname>tick</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/staff.h" line="204" column="12" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/staff.cpp" bodystart="1004" bodyend="1018"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ms_1_1_staff_1af0a67cad1bc18709c1ed28afa64c3ece" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool Ms::Staff::isPitchedStaff</definition>
+        <argsstring>(const Fraction &amp;) const</argsstring>
+        <name>isPitchedStaff</name>
+        <param>
+          <type>const <ref refid="class_ms_1_1_fraction" kindref="compound">Fraction</ref> &amp;</type>
+          <defname>tick</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/staff.h" line="206" column="12" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/staff.cpp" bodystart="1451" bodyend="1454"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ms_1_1_staff_1afdd8a358b8e40b9e02bca11e9fbb8829" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool Ms::Staff::isTabStaff</definition>
+        <argsstring>(const Fraction &amp;) const</argsstring>
+        <name>isTabStaff</name>
+        <param>
+          <type>const <ref refid="class_ms_1_1_fraction" kindref="compound">Fraction</ref> &amp;</type>
+          <defname>tick</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/staff.h" line="207" column="12" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/staff.cpp" bodystart="1460" bodyend="1463"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ms_1_1_staff_1a52d10515b122232c1a41e9240dcc4ff7" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool Ms::Staff::isDrumStaff</definition>
+        <argsstring>(const Fraction &amp;) const</argsstring>
+        <name>isDrumStaff</name>
+        <param>
+          <type>const <ref refid="class_ms_1_1_fraction" kindref="compound">Fraction</ref> &amp;</type>
+          <defname>tick</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/staff.h" line="208" column="12" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/staff.cpp" bodystart="1469" bodyend="1472"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ms_1_1_staff_1a1a4d5789b71d29fd2e7c05311638aa7b" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int Ms::Staff::lines</definition>
+        <argsstring>(const Fraction &amp;) const</argsstring>
+        <name>lines</name>
+        <param>
+          <type>const <ref refid="class_ms_1_1_fraction" kindref="compound">Fraction</ref> &amp;</type>
+          <defname>tick</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/staff.h" line="210" column="11" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/staff.cpp" bodystart="1478" bodyend="1481"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ms_1_1_staff_1aa89dafe66354d7e97484503926a183ef" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Ms::Staff::setLines</definition>
+        <argsstring>(const Fraction &amp;, int lines)</argsstring>
+        <name>setLines</name>
+        <param>
+          <type>const <ref refid="class_ms_1_1_fraction" kindref="compound">Fraction</ref> &amp;</type>
+          <defname>tick</defname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>lines</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/staff.h" line="211" column="12" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/staff.cpp" bodystart="1487" bodyend="1490"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ms_1_1_staff_1a74445d56eed54f6c4d22c5ba301a531f" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>qreal</type>
+        <definition>qreal Ms::Staff::lineDistance</definition>
+        <argsstring>(const Fraction &amp;) const</argsstring>
+        <name>lineDistance</name>
+        <param>
+          <type>const <ref refid="class_ms_1_1_fraction" kindref="compound">Fraction</ref> &amp;</type>
+          <defname>tick</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/staff.h" line="212" column="13" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/staff.cpp" bodystart="1497" bodyend="1500"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ms_1_1_staff_1a575dbefd6f7c53ab17adef13b9e22b99" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Ms::Staff::setSlashStyle</definition>
+        <argsstring>(const Fraction &amp;, bool val)</argsstring>
+        <name>setSlashStyle</name>
+        <param>
+          <type>const <ref refid="class_ms_1_1_fraction" kindref="compound">Fraction</ref> &amp;</type>
+          <defname>tick</defname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>val</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/staff.h" line="214" column="12" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/staff.cpp" bodystart="946" bodyend="949"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ms_1_1_staff_1ac277b6d652a8c274e66baf5908ec320c" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int Ms::Staff::middleLine</definition>
+        <argsstring>(const Fraction &amp;) const</argsstring>
+        <name>middleLine</name>
+        <param>
+          <type>const <ref refid="class_ms_1_1_fraction" kindref="compound">Fraction</ref> &amp;</type>
+          <defname>tick</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/staff.h" line="215" column="11" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/staff.cpp" bodystart="918" bodyend="921"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ms_1_1_staff_1a009f2fac102fdf6803cee68ed95d0c4f" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int Ms::Staff::bottomLine</definition>
+        <argsstring>(const Fraction &amp;) const</argsstring>
+        <name>bottomLine</name>
+        <param>
+          <type>const <ref refid="class_ms_1_1_fraction" kindref="compound">Fraction</ref> &amp;</type>
+          <defname>tick</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/staff.h" line="216" column="11" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/staff.cpp" bodystart="928" bodyend="931"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ms_1_1_staff_1a6d163d36514d458bb2fae1758ef3efad" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>qreal</type>
+        <definition>qreal Ms::Staff::userMag</definition>
+        <argsstring>(const Fraction &amp;) const</argsstring>
+        <name>userMag</name>
+        <param>
+          <type>const <ref refid="class_ms_1_1_fraction" kindref="compound">Fraction</ref> &amp;</type>
+          <defname>tick</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/staff.h" line="218" column="13" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/staff.cpp" bodystart="824" bodyend="827"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ms_1_1_staff_1a58ab3e76b1018261e4674e8cac5e86b9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Ms::Staff::setUserMag</definition>
+        <argsstring>(const Fraction &amp;, qreal m)</argsstring>
+        <name>setUserMag</name>
+        <param>
+          <type>const <ref refid="class_ms_1_1_fraction" kindref="compound">Fraction</ref> &amp;</type>
+          <defname>tick</defname>
+        </param>
+        <param>
+          <type>qreal</type>
+          <declname>m</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/staff.h" line="219" column="12" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/staff.cpp" bodystart="833" bodyend="836"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ms_1_1_staff_1aff64e89576277c5ed6af77c2c285f0ac" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>qreal</type>
+        <definition>qreal Ms::Staff::mag</definition>
+        <argsstring>(const Fraction &amp;) const</argsstring>
+        <name>mag</name>
+        <param>
+          <type>const <ref refid="class_ms_1_1_fraction" kindref="compound">Fraction</ref> &amp;</type>
+          <defname>tick</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/staff.h" line="220" column="13" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/staff.cpp" bodystart="815" bodyend="818"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ms_1_1_staff_1a237f4f86e417d844a8d1ab0c0e95c247" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool Ms::Staff::small</definition>
+        <argsstring>(const Fraction &amp;) const</argsstring>
+        <name>small</name>
+        <param>
+          <type>const <ref refid="class_ms_1_1_fraction" kindref="compound">Fraction</ref> &amp;</type>
+          <defname>tick</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/staff.h" line="221" column="12" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/staff.cpp" bodystart="842" bodyend="845"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ms_1_1_staff_1a0e6b13d980fe3a40b0307bd579c21aa2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Ms::Staff::setSmall</definition>
+        <argsstring>(const Fraction &amp;, bool val)</argsstring>
+        <name>setSmall</name>
+        <param>
+          <type>const <ref refid="class_ms_1_1_fraction" kindref="compound">Fraction</ref> &amp;</type>
+          <defname>tick</defname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>val</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/staff.h" line="222" column="12" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/staff.cpp" bodystart="851" bodyend="854"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ms_1_1_staff_1a828f022bce378eb3bdf609c32c44f24d" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>qreal</type>
+        <definition>qreal Ms::Staff::spatium</definition>
+        <argsstring>(const Fraction &amp;) const</argsstring>
+        <name>spatium</name>
+        <param>
+          <type>const <ref refid="class_ms_1_1_fraction" kindref="compound">Fraction</ref> &amp;</type>
+          <defname>tick</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/staff.h" line="223" column="13" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/staff.cpp" bodystart="806" bodyend="809"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ms_1_1_staff_1a01b990d8f877661803268b9303b22d91" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="class_ms_1_1_change_map" kindref="compound">ChangeMap</ref> &amp;</type>
+        <definition>ChangeMap&amp; Ms::Staff::velocities</definition>
+        <argsstring>()</argsstring>
+        <name>velocities</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/staff.h" line="226" column="17" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/staff.h" bodystart="226" bodyend="226"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ms_1_1_staff_1aaf818f4ef92b3d732e83dcad5309d73e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="class_ms_1_1_pitch_list" kindref="compound">PitchList</ref> &amp;</type>
+        <definition>PitchList&amp; Ms::Staff::pitchOffsets</definition>
+        <argsstring>()</argsstring>
+        <name>pitchOffsets</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/staff.h" line="227" column="17" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/staff.h" bodystart="227" bodyend="227"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ms_1_1_staff_1a0e7b46725fbc7818819c2c8efcb62875" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>int</type>
+        <definition>int Ms::Staff::pitchOffset</definition>
+        <argsstring>(const Fraction &amp;tick)</argsstring>
+        <name>pitchOffset</name>
+        <param>
+          <type>const <ref refid="class_ms_1_1_fraction" kindref="compound">Fraction</ref> &amp;</type>
+          <declname>tick</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/staff.h" line="229" column="11" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/staff.h" bodystart="229" bodyend="229"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ms_1_1_staff_1a1518605e8e22af8019a93b9fd56fd716" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Ms::Staff::updateOttava</definition>
+        <argsstring>()</argsstring>
+        <name>updateOttava</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/staff.h" line="230" column="12" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/staff.cpp" bodystart="1151" bodyend="1163"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ms_1_1_staff_1aead7f5aba3d8ef15a25909639b7d3646" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>QList&lt; <ref refid="class_ms_1_1_staff" kindref="compound">Staff</ref> * &gt;</type>
+        <definition>QList&lt; Staff * &gt; Ms::Staff::staffList</definition>
+        <argsstring>() const</argsstring>
+        <name>staffList</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/staff.h" line="232" column="13" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/staff.cpp" bodystart="1241" bodyend="1252"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ms_1_1_staff_1ab2b239f1f1d6f3498015a21270cc2d92" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool Ms::Staff::primaryStaff</definition>
+        <argsstring>() const</argsstring>
+        <name>primaryStaff</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>if there are linked staves, the primary staff is the one who is played back and it&apos;s not a tab staff because we don&apos;t have enough information to play e.g ornaments. NOTE: it&apos;s not necessarily the top staff! </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/staff.h" line="233" column="12" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/staff.cpp" bodystart="959" bodyend="977"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ms_1_1_staff_1a26169d6fb7842f43590c53d3dd58fc66" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>qreal</type>
+        <definition>qreal Ms::Staff::userDist</definition>
+        <argsstring>() const</argsstring>
+        <name>userDist</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/staff.h" line="235" column="13" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/staff.h" bodystart="235" bodyend="235"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ms_1_1_staff_1a8b47da469b306ae9676c965c5b899a95" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Ms::Staff::setUserDist</definition>
+        <argsstring>(qreal val)</argsstring>
+        <name>setUserDist</name>
+        <param>
+          <type>qreal</type>
+          <declname>val</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/staff.h" line="236" column="12" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/staff.h" bodystart="236" bodyend="236"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ms_1_1_staff_1aeaf0e2f45bfa1b5ed3e67b3b514ef387" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Ms::Staff::spatiumChanged</definition>
+        <argsstring>(qreal, qreal)</argsstring>
+        <name>spatiumChanged</name>
+        <param>
+          <type>qreal</type>
+          <defname>oldValue</defname>
+        </param>
+        <param>
+          <type>qreal</type>
+          <defname>newValue</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/staff.h" line="238" column="12" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/staff.cpp" bodystart="1112" bodyend="1115"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ms_1_1_staff_1a2febdf13716203871f9bbcabe1867c24" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Ms::Staff::localSpatiumChanged</definition>
+        <argsstring>(double oldVal, double newVal, Fraction tick)</argsstring>
+        <name>localSpatiumChanged</name>
+        <param>
+          <type>double</type>
+          <declname>oldVal</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>newVal</declname>
+        </param>
+        <param>
+          <type><ref refid="class_ms_1_1_fraction" kindref="compound">Fraction</ref></type>
+          <declname>tick</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/staff.h" line="239" column="12" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/staff.cpp" bodystart="1416" bodyend="1445"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ms_1_1_staff_1a446c9f20bdfeb1a147be6868e33a7864" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool Ms::Staff::genKeySig</definition>
+        <argsstring>()</argsstring>
+        <name>genKeySig</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/staff.h" line="240" column="12" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/staff.cpp" bodystart="1130" bodyend="1136"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ms_1_1_staff_1a25ce8bb520ebfc30dabda01530a61d89" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool Ms::Staff::showLedgerLines</definition>
+        <argsstring>(const Fraction &amp;) const</argsstring>
+        <name>showLedgerLines</name>
+        <param>
+          <type>const <ref refid="class_ms_1_1_fraction" kindref="compound">Fraction</ref> &amp;</type>
+          <defname>tick</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/staff.h" line="241" column="12" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/staff.cpp" bodystart="1142" bodyend="1145"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ms_1_1_staff_1af3f054bc7cf548e33ca05cc5338d3bc3" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>QColor</type>
+        <definition>QColor Ms::Staff::color</definition>
+        <argsstring>() const</argsstring>
+        <name>color</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/staff.h" line="243" column="14" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/staff.h" bodystart="243" bodyend="243"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ms_1_1_staff_1a8268036e3b57aaa5f1859c6e6f190459" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Ms::Staff::setColor</definition>
+        <argsstring>(const QColor &amp;val)</argsstring>
+        <name>setColor</name>
+        <param>
+          <type>const QColor &amp;</type>
+          <declname>val</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/staff.h" line="244" column="12" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/staff.h" bodystart="244" bodyend="244"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ms_1_1_staff_1afdbc4f399c97c061f4eb3396493dca13" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Ms::Staff::undoSetColor</definition>
+        <argsstring>(const QColor &amp;val)</argsstring>
+        <name>undoSetColor</name>
+        <param>
+          <type>const QColor &amp;</type>
+          <declname>val</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/staff.h" line="245" column="12" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/staff.cpp" bodystart="1169" bodyend="1172"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ms_1_1_staff_1a5f11ab6d41651a9da8fbd5ac0f0b45e1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Ms::Staff::insertTime</definition>
+        <argsstring>(const Fraction &amp;, const Fraction &amp;len)</argsstring>
+        <name>insertTime</name>
+        <param>
+          <type>const <ref refid="class_ms_1_1_fraction" kindref="compound">Fraction</ref> &amp;</type>
+          <defname>tick</defname>
+        </param>
+        <param>
+          <type>const <ref refid="class_ms_1_1_fraction" kindref="compound">Fraction</ref> &amp;</type>
+          <declname>len</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/staff.h" line="246" column="12" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/staff.cpp" bodystart="1178" bodyend="1234"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ms_1_1_staff_1a34a85fdfcdfb804f3fd310ea01d3fc64" prot="public" static="no" const="yes" explicit="no" inline="no" virt="virtual">
+        <type>QVariant</type>
+        <definition>QVariant Ms::Staff::getProperty</definition>
+        <argsstring>(Pid) const override</argsstring>
+        <name>getProperty</name>
+        <reimplements refid="class_ms_1_1_score_element_1aa55b8db6cf96c29d192fbfc9e74110ff">getProperty</reimplements>
+        <param>
+          <type>Pid</type>
+          <defname>id</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/staff.h" line="248" column="24" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/staff.cpp" bodystart="1276" bodyend="1307"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ms_1_1_staff_1acce2892a66214eca6eba92ccf9e2a838" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>bool</type>
+        <definition>bool Ms::Staff::setProperty</definition>
+        <argsstring>(Pid, const QVariant &amp;) override</argsstring>
+        <name>setProperty</name>
+        <reimplements refid="class_ms_1_1_score_element_1a6746334cee7348173d3175c433ed2fab">setProperty</reimplements>
+        <param>
+          <type>Pid</type>
+          <defname>id</defname>
+        </param>
+        <param>
+          <type>const QVariant &amp;</type>
+          <defname>v</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/staff.h" line="249" column="20" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/staff.cpp" bodystart="1313" bodyend="1379"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ms_1_1_staff_1a14f0972d179c37317a4ccd53a6f897ce" prot="public" static="no" const="yes" explicit="no" inline="no" virt="virtual">
+        <type>QVariant</type>
+        <definition>QVariant Ms::Staff::propertyDefault</definition>
+        <argsstring>(Pid) const override</argsstring>
+        <name>propertyDefault</name>
+        <reimplements refid="class_ms_1_1_score_element_1ab3fcbdb9cd19d04933bd15434138c230">propertyDefault</reimplements>
+        <param>
+          <type>Pid</type>
+          <defname>id</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/staff.h" line="250" column="24" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/staff.cpp" bodystart="1385" bodyend="1410"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ms_1_1_staff_1a4ae9a4a0efe6c9286972137af3a0b224" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>BracketType</type>
+        <definition>BracketType Ms::Staff::innerBracket</definition>
+        <argsstring>() const</argsstring>
+        <name>innerBracket</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/staff.h" line="252" column="19" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/staff.cpp" bodystart="215" bodyend="235"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ms_1_1_staff_1aed2c148aaac859010af2ab624e818a26" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool Ms::Staff::playbackVoice</definition>
+        <argsstring>(int voice) const</argsstring>
+        <name>playbackVoice</name>
+        <param>
+          <type>int</type>
+          <declname>voice</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/staff.h" line="254" column="12" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/staff.h" bodystart="254" bodyend="254"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ms_1_1_staff_1ad8fdbdbb9d3dc4baddebe27e7e80a766" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Ms::Staff::setPlaybackVoice</definition>
+        <argsstring>(int voice, bool val)</argsstring>
+        <name>setPlaybackVoice</name>
+        <param>
+          <type>int</type>
+          <declname>voice</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>val</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/staff.h" line="255" column="12" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/staff.h" bodystart="255" bodyend="255"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ms_1_1_staff_1a7197902f57ca8d2a6ed5c12edc1a653b" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Ms::Staff::dumpClefs</definition>
+        <argsstring>(const char *title) const</argsstring>
+        <name>dumpClefs</name>
+        <param>
+          <type>const char *</type>
+          <declname>title</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/staff.h" line="258" column="12" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/staff.cpp" bodystart="363" bodyend="369"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ms_1_1_staff_1a5b07586f6b7d8571e6b452065ad70a24" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Ms::Staff::dumpKeys</definition>
+        <argsstring>(const char *title) const</argsstring>
+        <name>dumpKeys</name>
+        <param>
+          <type>const char *</type>
+          <declname>title</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/staff.h" line="259" column="12" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/staff.cpp" bodystart="375" bodyend="381"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ms_1_1_staff_1ae9df4b12046a14de840b517746655bec" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Ms::Staff::dumpTimeSigs</definition>
+        <argsstring>(const char *) const</argsstring>
+        <name>dumpTimeSigs</name>
+        <param>
+          <type>const char *</type>
+          <defname>title</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/staff.h" line="260" column="12" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/staff.cpp" bodystart="387" bodyend="393"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ms_1_1_staff_1a908e9692d876b6ef0cebd99eb453a67b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Ms::Staff::triggerLayout</definition>
+        <argsstring>()</argsstring>
+        <name>triggerLayout</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/staff.h" line="267" column="12" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/staff.cpp" bodystart="68" bodyend="71"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ms_1_1_staff_1add4265e6814632413437d341bc8019b1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Ms::Staff::triggerLayout</definition>
+        <argsstring>(const Fraction &amp;tick)</argsstring>
+        <name>triggerLayout</name>
+        <param>
+          <type>const <ref refid="class_ms_1_1_fraction" kindref="compound">Fraction</ref> &amp;</type>
+          <declname>tick</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/staff.h" line="268" column="12" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/staff.cpp" bodystart="73" bodyend="76"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Global staff data not directly related to drawing. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>Ms::Staff</label>
+        <link refid="class_ms_1_1_staff"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>Ms::ScoreElement</label>
+        <link refid="class_ms_1_1_score_element"/>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="4">
+        <label>QList&lt; ScoreElement * &gt;</label>
+      </node>
+      <node id="1">
+        <label>Ms::Staff</label>
+        <link refid="class_ms_1_1_staff"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>Ms::ScoreElement</label>
+        <link refid="class_ms_1_1_score_element"/>
+        <childnode refid="3" relation="usage">
+          <edgelabel>_links</edgelabel>
+        </childnode>
+      </node>
+      <node id="3">
+        <label>Ms::LinkedElements</label>
+        <link refid="class_ms_1_1_linked_elements"/>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/staff.h" line="62" column="32" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/staff.h" bodystart="62" bodyend="269"/>
+    <listofallmembers>
+      <member refid="class_ms_1_1_staff_1ac7e387fc50fc44a6d5e9a0d89ba9b631" prot="private" virt="non-virtual"><scope>Ms::Staff</scope><name>_barLineFrom</name></member>
+      <member refid="class_ms_1_1_staff_1a2dd627401d5e737e1deb4c69879b3c5a" prot="private" virt="non-virtual"><scope>Ms::Staff</scope><name>_barLineSpan</name></member>
+      <member refid="class_ms_1_1_staff_1ad07cc90e2dc9d14445abcfce7de0cd5b" prot="private" virt="non-virtual"><scope>Ms::Staff</scope><name>_barLineTo</name></member>
+      <member refid="class_ms_1_1_staff_1a46255409f0d6c913e0c1978c2e641281" prot="private" virt="non-virtual"><scope>Ms::Staff</scope><name>_brackets</name></member>
+      <member refid="class_ms_1_1_staff_1a5739e5b3d297e70d191f8c4c173aa8c7" prot="private" virt="non-virtual"><scope>Ms::Staff</scope><name>_capoList</name></member>
+      <member refid="class_ms_1_1_staff_1a1065936fb6ba85ed9e1cd32c45b0816b" prot="private" virt="non-virtual"><scope>Ms::Staff</scope><name>_channelList</name></member>
+      <member refid="class_ms_1_1_staff_1a6838fc459c08969cd8994e9f9d00eaf9" prot="private" virt="non-virtual"><scope>Ms::Staff</scope><name>_color</name></member>
+      <member refid="class_ms_1_1_staff_1a5e1ff2c043fde4874c0d554f28fdedf1" prot="private" virt="non-virtual"><scope>Ms::Staff</scope><name>_cutaway</name></member>
+      <member refid="class_ms_1_1_staff_1a8c3c2edc477f23c7b5fb21db1cbd87cd" prot="private" virt="non-virtual"><scope>Ms::Staff</scope><name>_defaultClefType</name></member>
+      <member refid="class_ms_1_1_score_element_1a648639a58d05aa85412217db5ad40b18" prot="protected" virt="non-virtual"><scope>Ms::Staff</scope><name>_elementStyle</name></member>
+      <member refid="class_ms_1_1_staff_1a58f311858e19ffb52f3aa6025160a688" prot="private" virt="non-virtual"><scope>Ms::Staff</scope><name>_hideSystemBarLine</name></member>
+      <member refid="class_ms_1_1_staff_1ac9955f8fe1fdc6dc00a9cb009467c44e" prot="private" virt="non-virtual"><scope>Ms::Staff</scope><name>_hideWhenEmpty</name></member>
+      <member refid="class_ms_1_1_staff_1a3564595ccba8f53aaebda357dbb0321c" prot="private" virt="non-virtual"><scope>Ms::Staff</scope><name>_invisible</name></member>
+      <member refid="class_ms_1_1_staff_1a5f50acd7afef2126a504d8549c82fde0" prot="private" virt="non-virtual"><scope>Ms::Staff</scope><name>_keys</name></member>
+      <member refid="class_ms_1_1_score_element_1a405b151c60a010237414678a0e0952af" prot="protected" virt="non-virtual"><scope>Ms::Staff</scope><name>_links</name></member>
+      <member refid="class_ms_1_1_staff_1ac2cdff5d14cd491244bccc86b2864bb4" prot="private" virt="non-virtual"><scope>Ms::Staff</scope><name>_part</name></member>
+      <member refid="class_ms_1_1_staff_1a34a3171f97a05e71ac01ffea44ae1ea3" prot="private" virt="non-virtual"><scope>Ms::Staff</scope><name>_pitchOffsets</name></member>
+      <member refid="class_ms_1_1_staff_1aa0a953ca3d922e4e6f8b99401eddaf76" prot="private" virt="non-virtual"><scope>Ms::Staff</scope><name>_playbackVoice</name></member>
+      <member refid="class_ms_1_1_score_element_1a6d4b99ddb9e217aaa9f9ae67a76861f3" prot="protected" virt="non-virtual"><scope>Ms::Staff</scope><name>_propertyFlagsList</name></member>
+      <member refid="class_ms_1_1_staff_1a210f00632a85446d184a4cfe2a04d5e1" prot="private" virt="non-virtual"><scope>Ms::Staff</scope><name>_showIfEmpty</name></member>
+      <member refid="class_ms_1_1_staff_1a8fec1acc6d87bc32307d9303fa8a5ea2" prot="private" virt="non-virtual"><scope>Ms::Staff</scope><name>_staffTypeList</name></member>
+      <member refid="class_ms_1_1_staff_1a5a27377b6a7f1cbae157623f964b7901" prot="private" virt="non-virtual"><scope>Ms::Staff</scope><name>_swingList</name></member>
+      <member refid="class_ms_1_1_staff_1ae39cb5e075c55e14fe121c53111b2e9a" prot="private" virt="non-virtual"><scope>Ms::Staff</scope><name>_userDist</name></member>
+      <member refid="class_ms_1_1_staff_1a9fdd42dce1f9c36e9743c15bc0d76337" prot="private" virt="non-virtual"><scope>Ms::Staff</scope><name>_velocities</name></member>
+      <member refid="class_ms_1_1_staff_1a06ee48f3920f2f4bdc66b30ac99efb18" prot="public" virt="non-virtual"><scope>Ms::Staff</scope><name>addBracket</name></member>
+      <member refid="class_ms_1_1_staff_1afd5fcb0df2d7286da0a5a42e506fee38" prot="public" virt="non-virtual"><scope>Ms::Staff</scope><name>addTimeSig</name></member>
+      <member refid="class_ms_1_1_staff_1ac67d78134ff78a423e2d79590a336280" prot="public" virt="non-virtual"><scope>Ms::Staff</scope><name>barLineFrom</name></member>
+      <member refid="class_ms_1_1_staff_1a32dc6248f3e8a96625188f688e7259cb" prot="public" virt="non-virtual"><scope>Ms::Staff</scope><name>barLineSpan</name></member>
+      <member refid="class_ms_1_1_staff_1a853f58cca060e8abccad7c5545d2b702" prot="public" virt="non-virtual"><scope>Ms::Staff</scope><name>barLineTo</name></member>
+      <member refid="class_ms_1_1_staff_1a009f2fac102fdf6803cee68ed95d0c4f" prot="public" virt="non-virtual"><scope>Ms::Staff</scope><name>bottomLine</name></member>
+      <member refid="class_ms_1_1_staff_1aeb4294a5e1de9d83d1ea27b1b6cd9b74" prot="public" virt="non-virtual"><scope>Ms::Staff</scope><name>bracketLevels</name></member>
+      <member refid="class_ms_1_1_staff_1a0ab58cc207efdeaedf1de006cd22d03d" prot="public" virt="non-virtual"><scope>Ms::Staff</scope><name>brackets</name></member>
+      <member refid="class_ms_1_1_staff_1aca7f5c2bd140b459507b384a20fae28a" prot="public" virt="non-virtual"><scope>Ms::Staff</scope><name>brackets</name></member>
+      <member refid="class_ms_1_1_staff_1ae98dbc6bdbe12a44d2c943e34d9436e9" prot="public" virt="non-virtual"><scope>Ms::Staff</scope><name>bracketSpan</name></member>
+      <member refid="class_ms_1_1_staff_1a53b0a53efec8c1c19a279c1a45714a5e" prot="public" virt="non-virtual"><scope>Ms::Staff</scope><name>bracketType</name></member>
+      <member refid="class_ms_1_1_staff_1a194893c4bba6a3c426a19703ce7386b6" prot="public" virt="non-virtual"><scope>Ms::Staff</scope><name>capo</name></member>
+      <member refid="class_ms_1_1_staff_1ab7c29723d058a1424f185f2cf1fac4ff" prot="public" virt="non-virtual"><scope>Ms::Staff</scope><name>changeBracketColumn</name></member>
+      <member refid="class_ms_1_1_staff_1abe59f2f3e8ca7f2a4c5707f3be4aae5e" prot="public" virt="non-virtual"><scope>Ms::Staff</scope><name>channel</name></member>
+      <member refid="class_ms_1_1_staff_1a7c3e03b07c748df577dabe327fe3896c" prot="private" virt="non-virtual"><scope>Ms::Staff</scope><name>cleanBrackets</name></member>
+      <member refid="class_ms_1_1_staff_1a48fdfe978931893fc1f4e730471c9a56" prot="public" virt="non-virtual"><scope>Ms::Staff</scope><name>cleanupBrackets</name></member>
+      <member refid="class_ms_1_1_staff_1a4393d2a700763e063fdd4dd6f1ad8237" prot="public" virt="non-virtual"><scope>Ms::Staff</scope><name>clearCapoList</name></member>
+      <member refid="class_ms_1_1_staff_1af867b6b517b6fb333c0c6ce16854387a" prot="public" virt="non-virtual"><scope>Ms::Staff</scope><name>clearChannelList</name></member>
+      <member refid="class_ms_1_1_staff_1ab50c329764dc6368af21376f4e82ab72" prot="public" virt="non-virtual"><scope>Ms::Staff</scope><name>clearSwingList</name></member>
+      <member refid="class_ms_1_1_staff_1a28b9acc755d56c99fd43ab209be26ca4" prot="public" virt="non-virtual"><scope>Ms::Staff</scope><name>clearTimeSig</name></member>
+      <member refid="class_ms_1_1_staff_1a44fa196161dc82a567582d7acd4f8cca" prot="public" virt="non-virtual"><scope>Ms::Staff</scope><name>clef</name></member>
+      <member refid="class_ms_1_1_staff_1a9cf245a00fa95bd8edfdb9e9d8f7f3cc" prot="public" virt="non-virtual"><scope>Ms::Staff</scope><name>clefList</name></member>
+      <member refid="class_ms_1_1_staff_1a7998bb48926f91af5cdadc8c1f408f9d" prot="private" virt="non-virtual"><scope>Ms::Staff</scope><name>clefs</name></member>
+      <member refid="class_ms_1_1_staff_1adc5f7743eb65807859f636b7cef75e4c" prot="public" virt="non-virtual"><scope>Ms::Staff</scope><name>clefType</name></member>
+      <member refid="class_ms_1_1_staff_1af3f054bc7cf548e33ca05cc5338d3bc3" prot="public" virt="non-virtual"><scope>Ms::Staff</scope><name>color</name></member>
+      <member refid="class_ms_1_1_staff_1ab9a640f2959f0f8314d97907c3ca74bf" prot="public" virt="non-virtual"><scope>Ms::Staff</scope><name>constStaffType</name></member>
+      <member refid="class_ms_1_1_staff_1ab4794dc46dda758d0cd8e4c0433d2151" prot="public" virt="non-virtual"><scope>Ms::Staff</scope><name>currentClefTick</name></member>
+      <member refid="class_ms_1_1_staff_1ae3a942980e5d2c7bcf1395be2d0f2cf7" prot="public" virt="non-virtual"><scope>Ms::Staff</scope><name>currentKeyTick</name></member>
+      <member refid="class_ms_1_1_staff_1a3370e66ffb62c96dac2453df7b33051f" prot="public" virt="non-virtual"><scope>Ms::Staff</scope><name>currentTimeSigTick</name></member>
+      <member refid="class_ms_1_1_staff_1a841944e6ba46203750e299ceef27ca09" prot="public" virt="non-virtual"><scope>Ms::Staff</scope><name>cutaway</name></member>
+      <member refid="class_ms_1_1_staff_1a944eccfefdde97d34f36dbb224160ee9" prot="public" virt="non-virtual"><scope>Ms::Staff</scope><name>defaultClefType</name></member>
+      <member refid="class_ms_1_1_staff_1a7197902f57ca8d2a6ed5c12edc1a653b" prot="public" virt="non-virtual"><scope>Ms::Staff</scope><name>dumpClefs</name></member>
+      <member refid="class_ms_1_1_staff_1a5b07586f6b7d8571e6b452065ad70a24" prot="public" virt="non-virtual"><scope>Ms::Staff</scope><name>dumpKeys</name></member>
+      <member refid="class_ms_1_1_staff_1ae9df4b12046a14de840b517746655bec" prot="public" virt="non-virtual"><scope>Ms::Staff</scope><name>dumpTimeSigs</name></member>
+      <member refid="class_ms_1_1_staff_1a2d83b508fce62c25f5a561d39d2381d9" prot="private" virt="non-virtual"><scope>Ms::Staff</scope><name>fillBrackets</name></member>
+      <member refid="class_ms_1_1_staff_1a446c9f20bdfeb1a147be6868e33a7864" prot="public" virt="non-virtual"><scope>Ms::Staff</scope><name>genKeySig</name></member>
+      <member refid="class_ms_1_1_staff_1a34a85fdfcdfb804f3fd310ea01d3fc64" prot="public" virt="virtual"><scope>Ms::Staff</scope><name>getProperty</name></member>
+      <member refid="class_ms_1_1_score_element_1a5dd171e2eca7de57f28a9bc4430bb12d" prot="protected" virt="virtual"><scope>Ms::Staff</scope><name>getPropertyFlagsIdx</name></member>
+      <member refid="class_ms_1_1_score_element_1a36d66100b5c6df17eb37f276aaca0454" prot="public" virt="virtual"><scope>Ms::Staff</scope><name>getPropertyStyle</name></member>
+      <member refid="class_ms_1_1_staff_1a9b6401205d64d4d946c1254ba3e88443" prot="public" virt="non-virtual"><scope>Ms::Staff</scope><name>group</name></member>
+      <member refid="class_ms_1_1_staff_1a6d5c3efe74ec1a9be56a1f8e3e88cd4b" prot="public" virt="non-virtual"><scope>Ms::Staff</scope><name>height</name></member>
+      <member refid="class_ms_1_1_staff_1a693ed2bc02f09dc0fff3f6731dfa3e98" prot="public" virt="non-virtual"><scope>Ms::Staff</scope><name>HideMode</name></member>
+      <member refid="class_ms_1_1_staff_1a71f1d3a988269c5d55c79ec361bcfd60" prot="public" virt="non-virtual"><scope>Ms::Staff</scope><name>hideSystemBarLine</name></member>
+      <member refid="class_ms_1_1_staff_1a6e52d003f76686f0e20bb7843558cfab" prot="public" virt="non-virtual"><scope>Ms::Staff</scope><name>hideWhenEmpty</name></member>
+      <member refid="class_ms_1_1_staff_1aca2b092f2ded9fb7fb4e69c0ac4a054b" prot="public" virt="non-virtual"><scope>Ms::Staff</scope><name>idx</name></member>
+      <member refid="class_ms_1_1_staff_1ac2fa805de6f61096aa4ade6d04348e6d" prot="public" virt="non-virtual"><scope>Ms::Staff</scope><name>init</name></member>
+      <member refid="class_ms_1_1_staff_1a1ae3668199a9ddd7fc1c65c1b75b2ca3" prot="public" virt="non-virtual"><scope>Ms::Staff</scope><name>init</name></member>
+      <member refid="class_ms_1_1_score_element_1a8deeadfce551a58b1078f1af62c2075d" prot="public" virt="virtual"><scope>Ms::Staff</scope><name>initElementStyle</name></member>
+      <member refid="class_ms_1_1_staff_1a8e1d0684f78f3e2c34fbc55272c333ff" prot="public" virt="non-virtual"><scope>Ms::Staff</scope><name>initFromStaffType</name></member>
+      <member refid="class_ms_1_1_staff_1a4ae9a4a0efe6c9286972137af3a0b224" prot="public" virt="non-virtual"><scope>Ms::Staff</scope><name>innerBracket</name></member>
+      <member refid="class_ms_1_1_staff_1a4038e65d280168eb530e29eb46396d33" prot="public" virt="non-virtual"><scope>Ms::Staff</scope><name>insertIntoCapoList</name></member>
+      <member refid="class_ms_1_1_staff_1aa285e01958662750930b57635b894847" prot="public" virt="non-virtual"><scope>Ms::Staff</scope><name>insertIntoChannelList</name></member>
+      <member refid="class_ms_1_1_staff_1a277434885a886ec3338c9881027de66b" prot="public" virt="non-virtual"><scope>Ms::Staff</scope><name>insertIntoSwingList</name></member>
+      <member refid="class_ms_1_1_staff_1a5f11ab6d41651a9da8fbd5ac0f0b45e1" prot="public" virt="non-virtual"><scope>Ms::Staff</scope><name>insertTime</name></member>
+      <member refid="class_ms_1_1_staff_1a91c8562220dfd0a71fe9a8ad23ffff43" prot="public" virt="non-virtual"><scope>Ms::Staff</scope><name>invisible</name></member>
+      <member refid="class_ms_1_1_score_element_1a997e1063786d8c705c74b3d66c54f269" prot="public" virt="non-virtual"><scope>Ms::Staff</scope><name>isBox</name></member>
+      <member refid="class_ms_1_1_score_element_1ad05261e50a084a0c6c42fced1ca78d8f" prot="public" virt="non-virtual"><scope>Ms::Staff</scope><name>isBSymbol</name></member>
+      <member refid="class_ms_1_1_score_element_1accef1c91df491a43c54e70474deea60c" prot="public" virt="non-virtual"><scope>Ms::Staff</scope><name>isChordRest</name></member>
+      <member refid="class_ms_1_1_staff_1a52d10515b122232c1a41e9240dcc4ff7" prot="public" virt="non-virtual"><scope>Ms::Staff</scope><name>isDrumStaff</name></member>
+      <member refid="class_ms_1_1_score_element_1a203290a59b13861b957d2943f65a4cf0" prot="public" virt="non-virtual"><scope>Ms::Staff</scope><name>isDurationElement</name></member>
+      <member refid="class_ms_1_1_score_element_1ac98792e8d02a53ecabe29cf9cc02e1a1" prot="public" virt="virtual"><scope>Ms::Staff</scope><name>isElement</name></member>
+      <member refid="class_ms_1_1_score_element_1a0d5f2d0a979bf52ab2436f6ceb6d9ef6" prot="public" virt="non-virtual"><scope>Ms::Staff</scope><name>isLineSegment</name></member>
+      <member refid="class_ms_1_1_score_element_1a1d34473f54590e3d8c2a1bc78b560c21" prot="public" virt="non-virtual"><scope>Ms::Staff</scope><name>isLinked</name></member>
+      <member refid="class_ms_1_1_staff_1a7825d97a44a9b482f72887d41becb2cd" prot="public" virt="non-virtual"><scope>Ms::Staff</scope><name>isLocalTimeSignature</name></member>
+      <member refid="class_ms_1_1_score_element_1a06e5d7c169bf6eb01f5f723cbdae973f" prot="public" virt="non-virtual"><scope>Ms::Staff</scope><name>isMeasureBase</name></member>
+      <member refid="class_ms_1_1_staff_1af0a67cad1bc18709c1ed28afa64c3ece" prot="public" virt="non-virtual"><scope>Ms::Staff</scope><name>isPitchedStaff</name></member>
+      <member refid="class_ms_1_1_score_element_1a4de90a044cdd2a7030d707f2b081c8a4" prot="public" virt="non-virtual"><scope>Ms::Staff</scope><name>isSLine</name></member>
+      <member refid="class_ms_1_1_score_element_1acf35020b5e670ac13791697e65b679d4" prot="public" virt="non-virtual"><scope>Ms::Staff</scope><name>isSLineSegment</name></member>
+      <member refid="class_ms_1_1_score_element_1a372dfc0678c5194028e61b6a9a24ab62" prot="public" virt="non-virtual"><scope>Ms::Staff</scope><name>isSlurTieSegment</name></member>
+      <member refid="class_ms_1_1_score_element_1a98f8c58df0f5baafe63414bedf84514f" prot="public" virt="non-virtual"><scope>Ms::Staff</scope><name>isSpanner</name></member>
+      <member refid="class_ms_1_1_score_element_1a5aa58f96618edb0e3ff660e1c96c5d4e" prot="public" virt="non-virtual"><scope>Ms::Staff</scope><name>isSpannerSegment</name></member>
+      <member refid="class_ms_1_1_score_element_1ac009e016c7a3dc148b0aaad50c1c4547" prot="public" virt="non-virtual"><scope>Ms::Staff</scope><name>isStaffTextBase</name></member>
+      <member refid="class_ms_1_1_score_element_1a4d0de3ac9401da46c32ed8becb9d496b" prot="public" virt="non-virtual"><scope>Ms::Staff</scope><name>isStyled</name></member>
+      <member refid="class_ms_1_1_staff_1afdd8a358b8e40b9e02bca11e9fbb8829" prot="public" virt="non-virtual"><scope>Ms::Staff</scope><name>isTabStaff</name></member>
+      <member refid="class_ms_1_1_score_element_1a979b6e1bc10cf790e755aa8641feb4cf" prot="public" virt="non-virtual"><scope>Ms::Staff</scope><name>isTextBase</name></member>
+      <member refid="class_ms_1_1_score_element_1a7151838e2192a30624d6111dd4c87918" prot="public" virt="non-virtual"><scope>Ms::Staff</scope><name>isTextLineBase</name></member>
+      <member refid="class_ms_1_1_score_element_1ab98a731c7adf65cebc23235f9fe150af" prot="public" virt="non-virtual"><scope>Ms::Staff</scope><name>isTextLineBaseSegment</name></member>
+      <member refid="class_ms_1_1_staff_1a844c77bb4dd38e718c5d9a4cf2464d5d" prot="public" virt="non-virtual"><scope>Ms::Staff</scope><name>isTop</name></member>
+      <member refid="class_ms_1_1_score_element_1aac3320320d350a161ed3f9a601160451" prot="public" virt="non-virtual"><scope>Ms::Staff</scope><name>isVBoxBase</name></member>
+      <member refid="class_ms_1_1_staff_1ac2e4bbfbd72894407525ab16744cd0e7" prot="public" virt="non-virtual"><scope>Ms::Staff</scope><name>key</name></member>
+      <member refid="class_ms_1_1_staff_1a81cb36958532a8b2353dd36c4aa2282e" prot="public" virt="non-virtual"><scope>Ms::Staff</scope><name>keyList</name></member>
+      <member refid="class_ms_1_1_staff_1a39233bf07b8a9434df49fd14fa92fb12" prot="public" virt="non-virtual"><scope>Ms::Staff</scope><name>keySigEvent</name></member>
+      <member refid="class_ms_1_1_score_element_1ad9b69df1d2c04f2b298520bb649a8c55" prot="public" virt="non-virtual"><scope>Ms::Staff</scope><name>lid</name></member>
+      <member refid="class_ms_1_1_staff_1a74445d56eed54f6c4d22c5ba301a531f" prot="public" virt="non-virtual"><scope>Ms::Staff</scope><name>lineDistance</name></member>
+      <member refid="class_ms_1_1_staff_1a1a4d5789b71d29fd2e7c05311638aa7b" prot="public" virt="non-virtual"><scope>Ms::Staff</scope><name>lines</name></member>
+      <member refid="class_ms_1_1_score_element_1a2f0ed55c566c19cb483d77250cb52450" prot="public" virt="non-virtual"><scope>Ms::Staff</scope><name>linkList</name></member>
+      <member refid="class_ms_1_1_score_element_1a3d5c97191484848b3f10e754246f8758" prot="public" virt="non-virtual"><scope>Ms::Staff</scope><name>links</name></member>
+      <member refid="class_ms_1_1_score_element_1a1dad93f0591eb31f69854e8f141b051e" prot="public" virt="non-virtual"><scope>Ms::Staff</scope><name>linkTo</name></member>
+      <member refid="class_ms_1_1_staff_1a2febdf13716203871f9bbcabe1867c24" prot="public" virt="non-virtual"><scope>Ms::Staff</scope><name>localSpatiumChanged</name></member>
+      <member refid="class_ms_1_1_staff_1aff64e89576277c5ed6af77c2c285f0ac" prot="public" virt="non-virtual"><scope>Ms::Staff</scope><name>mag</name></member>
+      <member refid="class_ms_1_1_score_element_1ae4991aaf0d79271cc347530f3d07fcd6" prot="public" virt="non-virtual"><scope>Ms::Staff</scope><name>masterScore</name></member>
+      <member refid="class_ms_1_1_staff_1ac277b6d652a8c274e66baf5908ec320c" prot="public" virt="non-virtual"><scope>Ms::Staff</scope><name>middleLine</name></member>
+      <member refid="class_ms_1_1_score_element_1ad80dda73306d6b784b0cac4626f797d4" prot="public" virt="non-virtual"><scope>Ms::Staff</scope><name>name</name></member>
+      <member refid="class_ms_1_1_score_element_1ab6ded8e7ff6dcb45db0036a57f9f9d26" prot="public" virt="non-virtual"><scope>Ms::Staff</scope><name>name</name></member>
+      <member refid="class_ms_1_1_score_element_1a971f91737e74571d6e4b6bb78f56e1dc" prot="public" virt="non-virtual"><scope>Ms::Staff</scope><name>name2type</name></member>
+      <member refid="class_ms_1_1_score_element_1ae41701f68025bc77c26f6db74b452465" prot="public" virt="non-virtual"><scope>Ms::Staff</scope><name>name2type</name></member>
+      <member refid="class_ms_1_1_staff_1aaf9505764dd34a7f3fca2b3d604e51b1" prot="public" virt="non-virtual"><scope>Ms::Staff</scope><name>nextClefTick</name></member>
+      <member refid="class_ms_1_1_staff_1a0d1ae9f37319e1313653c2ece25f094a" prot="public" virt="non-virtual"><scope>Ms::Staff</scope><name>nextKeyTick</name></member>
+      <member refid="class_ms_1_1_staff_1ad27a9adee06e4fdbbbe57d8465c31941" prot="public" virt="non-virtual"><scope>Ms::Staff</scope><name>nextTimeSig</name></member>
+      <member refid="class_ms_1_1_staff_1ae31dc0de799c1e206af979e65bf837ab" prot="public" virt="non-virtual"><scope>Ms::Staff</scope><name>part</name></member>
+      <member refid="class_ms_1_1_staff_1ae77b0bb03a07af61a932c49533456f22" prot="public" virt="non-virtual"><scope>Ms::Staff</scope><name>partName</name></member>
+      <member refid="class_ms_1_1_staff_1a0e7b46725fbc7818819c2c8efcb62875" prot="public" virt="non-virtual"><scope>Ms::Staff</scope><name>pitchOffset</name></member>
+      <member refid="class_ms_1_1_staff_1aaf818f4ef92b3d732e83dcad5309d73e" prot="public" virt="non-virtual"><scope>Ms::Staff</scope><name>pitchOffsets</name></member>
+      <member refid="class_ms_1_1_staff_1aed2c148aaac859010af2ab624e818a26" prot="public" virt="non-virtual"><scope>Ms::Staff</scope><name>playbackVoice</name></member>
+      <member refid="class_ms_1_1_staff_1a4e1bdd5442b9d7d76a78d43a159333b5" prot="public" virt="non-virtual"><scope>Ms::Staff</scope><name>prevKey</name></member>
+      <member refid="class_ms_1_1_staff_1ab2b239f1f1d6f3498015a21270cc2d92" prot="public" virt="non-virtual"><scope>Ms::Staff</scope><name>primaryStaff</name></member>
+      <member refid="class_ms_1_1_staff_1a14f0972d179c37317a4ccd53a6f897ce" prot="public" virt="virtual"><scope>Ms::Staff</scope><name>propertyDefault</name></member>
+      <member refid="class_ms_1_1_score_element_1aaae0b7999568ce64245a5cf995af62b5" prot="public" virt="non-virtual" ambiguityscope="Ms::ScoreElement::"><scope>Ms::Staff</scope><name>propertyDefault</name></member>
+      <member refid="class_ms_1_1_score_element_1a9b9c00757c23cba103638b4ab63df03e" prot="public" virt="virtual"><scope>Ms::Staff</scope><name>propertyFlags</name></member>
+      <member refid="class_ms_1_1_score_element_1ab00670f7d8229c14090cc3d7376d2202" prot="public" virt="virtual"><scope>Ms::Staff</scope><name>propertyFlagsList</name></member>
+      <member refid="class_ms_1_1_score_element_1aca54d0e9003af5f13c7121a192229255" prot="public" virt="virtual"><scope>Ms::Staff</scope><name>propertyId</name></member>
+      <member refid="class_ms_1_1_score_element_1a8b64f4c9f3ea93ea6dd3e668bc24eb3e" prot="public" virt="virtual"><scope>Ms::Staff</scope><name>propertyUserValue</name></member>
+      <member refid="class_ms_1_1_staff_1a0a2c8ab7081cb603f6db6ee2d8febf83" prot="public" virt="non-virtual"><scope>Ms::Staff</scope><name>read</name></member>
+      <member refid="class_ms_1_1_score_element_1a92ef81d3a9835ec8e78a308229da35f8" prot="public" virt="virtual"><scope>Ms::Staff</scope><name>readAddConnector</name></member>
+      <member refid="class_ms_1_1_staff_1a1a9e8e8d629ab754979942aa95645ea9" prot="public" virt="non-virtual"><scope>Ms::Staff</scope><name>readProperties</name></member>
+      <member refid="class_ms_1_1_score_element_1a8b3be86196659c2e0fb6ed86256cb0fe" prot="public" virt="non-virtual"><scope>Ms::Staff</scope><name>readProperty</name></member>
+      <member refid="class_ms_1_1_score_element_1a473e639853dd8adc607a5c2a63c6d4ad" prot="public" virt="non-virtual"><scope>Ms::Staff</scope><name>readProperty</name></member>
+      <member refid="class_ms_1_1_score_element_1a053d7512b54eaa787bcef0eba427a76f" prot="public" virt="non-virtual"><scope>Ms::Staff</scope><name>readStyledProperty</name></member>
+      <member refid="class_ms_1_1_staff_1aaff23a750c5a503105b731c94d2e4534" prot="public" virt="non-virtual"><scope>Ms::Staff</scope><name>removeClef</name></member>
+      <member refid="class_ms_1_1_staff_1a53f34460b77bf35d48ef85a7bc99295e" prot="public" virt="non-virtual"><scope>Ms::Staff</scope><name>removeKey</name></member>
+      <member refid="class_ms_1_1_staff_1a87e4c701fd4a3fb2afb3e51f28830a9c" prot="public" virt="non-virtual"><scope>Ms::Staff</scope><name>removeStaffType</name></member>
+      <member refid="class_ms_1_1_staff_1a029341ebb5d9a1d0a4c0f1563d212a78" prot="public" virt="non-virtual"><scope>Ms::Staff</scope><name>removeTimeSig</name></member>
+      <member refid="class_ms_1_1_score_element_1a89ab22206aebcf2c3249b5c78b1122e7" prot="public" virt="virtual"><scope>Ms::Staff</scope><name>reset</name></member>
+      <member refid="class_ms_1_1_score_element_1a8f3e233ff30279756578c751c0ea3e17" prot="public" virt="virtual"><scope>Ms::Staff</scope><name>resetProperty</name></member>
+      <member refid="class_ms_1_1_staff_1a19693586b624485ae120b2d644ddbf22" prot="public" virt="non-virtual"><scope>Ms::Staff</scope><name>rstaff</name></member>
+      <member refid="class_ms_1_1_score_element_1a70883d048b0884821ac779d9ab168151" prot="public" virt="non-virtual"><scope>Ms::Staff</scope><name>score</name></member>
+      <member refid="class_ms_1_1_score_element_1a3fed4ec5f58054eb578ff9c7bb80d72f" prot="public" virt="non-virtual"><scope>Ms::Staff</scope><name>ScoreElement</name></member>
+      <member refid="class_ms_1_1_score_element_1ac2b2cb70fe954ba2b1cce6d35743edf2" prot="public" virt="non-virtual"><scope>Ms::Staff</scope><name>ScoreElement</name></member>
+      <member refid="class_ms_1_1_staff_1ab7794a8adff78e1f11dcb59bf295e0b5" prot="public" virt="non-virtual"><scope>Ms::Staff</scope><name>setBarLineFrom</name></member>
+      <member refid="class_ms_1_1_staff_1a575353249073f55244e394f6d73d8660" prot="public" virt="non-virtual"><scope>Ms::Staff</scope><name>setBarLineSpan</name></member>
+      <member refid="class_ms_1_1_staff_1aa8ccfbc96f984806afd573f4e93b11ff" prot="public" virt="non-virtual"><scope>Ms::Staff</scope><name>setBarLineTo</name></member>
+      <member refid="class_ms_1_1_staff_1a221b703b3e4310eba08a273cba4c7c5d" prot="public" virt="non-virtual"><scope>Ms::Staff</scope><name>setBracketSpan</name></member>
+      <member refid="class_ms_1_1_staff_1a960c94efe212d0da61b1fd433a2e43e2" prot="public" virt="non-virtual"><scope>Ms::Staff</scope><name>setBracketType</name></member>
+      <member refid="class_ms_1_1_staff_1a1cee4023c04857a5427c9ec874d12ac4" prot="public" virt="non-virtual"><scope>Ms::Staff</scope><name>setClef</name></member>
+      <member refid="class_ms_1_1_staff_1a8268036e3b57aaa5f1859c6e6f190459" prot="public" virt="non-virtual"><scope>Ms::Staff</scope><name>setColor</name></member>
+      <member refid="class_ms_1_1_staff_1aee08028d43c263571fa5431b848dc16b" prot="public" virt="non-virtual"><scope>Ms::Staff</scope><name>setCutaway</name></member>
+      <member refid="class_ms_1_1_staff_1ada653fb1907c64b648c4d5104dfc5154" prot="public" virt="non-virtual"><scope>Ms::Staff</scope><name>setDefaultClefType</name></member>
+      <member refid="class_ms_1_1_staff_1af4bb6126929a0da2d9978a71132a3ad4" prot="public" virt="non-virtual"><scope>Ms::Staff</scope><name>setHideSystemBarLine</name></member>
+      <member refid="class_ms_1_1_staff_1a09c55d16ff3859cac0e8666fe1929f67" prot="public" virt="non-virtual"><scope>Ms::Staff</scope><name>setHideWhenEmpty</name></member>
+      <member refid="class_ms_1_1_staff_1ad485689f4b89095a2e39a291e8e271bc" prot="public" virt="non-virtual"><scope>Ms::Staff</scope><name>setInvisible</name></member>
+      <member refid="class_ms_1_1_staff_1a759d15293c7797565eaee37e61fcfc93" prot="public" virt="non-virtual"><scope>Ms::Staff</scope><name>setKey</name></member>
+      <member refid="class_ms_1_1_staff_1aa89dafe66354d7e97484503926a183ef" prot="public" virt="non-virtual"><scope>Ms::Staff</scope><name>setLines</name></member>
+      <member refid="class_ms_1_1_score_element_1ae1e16c1a83100a1ea23b05bfb1642283" prot="public" virt="non-virtual"><scope>Ms::Staff</scope><name>setLinks</name></member>
+      <member refid="class_ms_1_1_staff_1a76a8b771364e62fee751ea01351719c8" prot="public" virt="non-virtual"><scope>Ms::Staff</scope><name>setPart</name></member>
+      <member refid="class_ms_1_1_staff_1ad8fdbdbb9d3dc4baddebe27e7e80a766" prot="public" virt="non-virtual"><scope>Ms::Staff</scope><name>setPlaybackVoice</name></member>
+      <member refid="class_ms_1_1_staff_1acce2892a66214eca6eba92ccf9e2a838" prot="public" virt="virtual"><scope>Ms::Staff</scope><name>setProperty</name></member>
+      <member refid="class_ms_1_1_score_element_1aceed92c262270a2a79d3f97d0f018a29" prot="public" virt="non-virtual"><scope>Ms::Staff</scope><name>setPropertyFlags</name></member>
+      <member refid="class_ms_1_1_score_element_1a6a1e59c49777e28459d2270981fc97df" prot="public" virt="virtual"><scope>Ms::Staff</scope><name>setScore</name></member>
+      <member refid="class_ms_1_1_staff_1a6da56fb2edd34a34fb769a2a092405e0" prot="public" virt="non-virtual"><scope>Ms::Staff</scope><name>setShowIfEmpty</name></member>
+      <member refid="class_ms_1_1_staff_1a575dbefd6f7c53ab17adef13b9e22b99" prot="public" virt="non-virtual"><scope>Ms::Staff</scope><name>setSlashStyle</name></member>
+      <member refid="class_ms_1_1_staff_1a0e6b13d980fe3a40b0307bd579c21aa2" prot="public" virt="non-virtual"><scope>Ms::Staff</scope><name>setSmall</name></member>
+      <member refid="class_ms_1_1_staff_1a1926ec7d069eb767fe5701cfa4cf52fc" prot="public" virt="non-virtual"><scope>Ms::Staff</scope><name>setStaffType</name></member>
+      <member refid="class_ms_1_1_staff_1a8b47da469b306ae9676c965c5b899a95" prot="public" virt="non-virtual"><scope>Ms::Staff</scope><name>setUserDist</name></member>
+      <member refid="class_ms_1_1_staff_1a58ab3e76b1018261e4674e8cac5e86b9" prot="public" virt="non-virtual"><scope>Ms::Staff</scope><name>setUserMag</name></member>
+      <member refid="class_ms_1_1_staff_1ac2a6e99264eae0e0fc71e8d97b4ecb06" prot="public" virt="non-virtual"><scope>Ms::Staff</scope><name>show</name></member>
+      <member refid="class_ms_1_1_staff_1acde5406d19a2a8eb5d61d3557f449e58" prot="public" virt="non-virtual"><scope>Ms::Staff</scope><name>showIfEmpty</name></member>
+      <member refid="class_ms_1_1_staff_1a25ce8bb520ebfc30dabda01530a61d89" prot="public" virt="non-virtual"><scope>Ms::Staff</scope><name>showLedgerLines</name></member>
+      <member refid="class_ms_1_1_score_element_1ad9b5a0f3ec11f88a2659416d105ab5b0" prot="public" virt="virtual"><scope>Ms::Staff</scope><name>sizeIsSpatiumDependent</name></member>
+      <member refid="class_ms_1_1_staff_1a237f4f86e417d844a8d1ab0c0e95c247" prot="public" virt="non-virtual"><scope>Ms::Staff</scope><name>small</name></member>
+      <member refid="class_ms_1_1_staff_1a828f022bce378eb3bdf609c32c44f24d" prot="public" virt="non-virtual"><scope>Ms::Staff</scope><name>spatium</name></member>
+      <member refid="class_ms_1_1_staff_1aeaf0e2f45bfa1b5ed3e67b3b514ef387" prot="public" virt="non-virtual"><scope>Ms::Staff</scope><name>spatiumChanged</name></member>
+      <member refid="class_ms_1_1_staff_1ad926ce4018d4a7bfd4ac873be74656bc" prot="public" virt="non-virtual"><scope>Ms::Staff</scope><name>Staff</name></member>
+      <member refid="class_ms_1_1_staff_1aead7f5aba3d8ef15a25909639b7d3646" prot="public" virt="non-virtual"><scope>Ms::Staff</scope><name>staffList</name></member>
+      <member refid="class_ms_1_1_staff_1ad248bef7f25a4fe152ce281372a24d3f" prot="public" virt="non-virtual"><scope>Ms::Staff</scope><name>staffType</name></member>
+      <member refid="class_ms_1_1_staff_1a7df31436b3fe8922bd8b2917c7f83d77" prot="public" virt="non-virtual"><scope>Ms::Staff</scope><name>staffType</name></member>
+      <member refid="class_ms_1_1_staff_1aff820df68dc1254fc3b18a853d9f829a" prot="public" virt="non-virtual"><scope>Ms::Staff</scope><name>staffTypeListChanged</name></member>
+      <member refid="class_ms_1_1_staff_1a32e862b1ec4595ddd2ac6bc5c4013405" prot="public" virt="non-virtual"><scope>Ms::Staff</scope><name>stemless</name></member>
+      <member refid="class_ms_1_1_score_element_1abd7730432b512afc15873362a5414bad" prot="public" virt="virtual"><scope>Ms::Staff</scope><name>styleChanged</name></member>
+      <member refid="class_ms_1_1_score_element_1a08e4c60af2466c57931724393f7bee4f" prot="public" virt="virtual"><scope>Ms::Staff</scope><name>styledProperties</name></member>
+      <member refid="class_ms_1_1_score_element_1a8a3670f26efa9a07e14695cee4512dc4" prot="public" virt="non-virtual"><scope>Ms::Staff</scope><name>styleValue</name></member>
+      <member refid="class_ms_1_1_staff_1a0fbd82b996667409f8c14313843b97d4" prot="public" virt="non-virtual"><scope>Ms::Staff</scope><name>swapBracket</name></member>
+      <member refid="class_ms_1_1_staff_1a2ebe3da56471a93bfd36f26bac261b61" prot="public" virt="non-virtual"><scope>Ms::Staff</scope><name>swing</name></member>
+      <member refid="class_ms_1_1_staff_1ab6ff6aba127497e2aa116b01ca73b563" prot="public" virt="non-virtual"><scope>Ms::Staff</scope><name>timeSig</name></member>
+      <member refid="class_ms_1_1_staff_1a168348228c7ac96e1ffa7ca828bade00" prot="private" virt="non-virtual"><scope>Ms::Staff</scope><name>timesigs</name></member>
+      <member refid="class_ms_1_1_staff_1a1db312fd663a5bfbf621f58e856a2a81" prot="public" virt="non-virtual"><scope>Ms::Staff</scope><name>timeStretch</name></member>
+      <member refid="class_ms_1_1_staff_1a908e9692d876b6ef0cebd99eb453a67b" prot="public" virt="non-virtual"><scope>Ms::Staff</scope><name>triggerLayout</name></member>
+      <member refid="class_ms_1_1_staff_1add4265e6814632413437d341bc8019b1" prot="public" virt="non-virtual"><scope>Ms::Staff</scope><name>triggerLayout</name></member>
+      <member refid="class_ms_1_1_staff_1a529f768be72d30bcd70cf6f05e01e54f" prot="public" virt="virtual"><scope>Ms::Staff</scope><name>type</name></member>
+      <member refid="class_ms_1_1_score_element_1af0505b234ccb7520a7d93ddd09ca4e1f" prot="public" virt="virtual"><scope>Ms::Staff</scope><name>undoChangeProperty</name></member>
+      <member refid="class_ms_1_1_score_element_1a4d0c98408c09304865fc3c9e011a9695" prot="public" virt="non-virtual"><scope>Ms::Staff</scope><name>undoChangeProperty</name></member>
+      <member refid="class_ms_1_1_score_element_1ab31ad4878a7d6e5c5acbd88e3232f2fb" prot="public" virt="non-virtual"><scope>Ms::Staff</scope><name>undoPushProperty</name></member>
+      <member refid="class_ms_1_1_score_element_1a2f2ea7d6e1179cbb00f95689125482d0" prot="public" virt="non-virtual"><scope>Ms::Staff</scope><name>undoResetProperty</name></member>
+      <member refid="class_ms_1_1_staff_1afdbc4f399c97c061f4eb3396493dca13" prot="public" virt="non-virtual"><scope>Ms::Staff</scope><name>undoSetColor</name></member>
+      <member refid="class_ms_1_1_score_element_1a994f2abd8df02a160c7055b0cae26c87" prot="public" virt="virtual"><scope>Ms::Staff</scope><name>undoUnlink</name></member>
+      <member refid="class_ms_1_1_score_element_1a1d76afaf3ee463445961c3d981901be1" prot="public" virt="non-virtual"><scope>Ms::Staff</scope><name>unlink</name></member>
+      <member refid="class_ms_1_1_staff_1a1518605e8e22af8019a93b9fd56fd716" prot="public" virt="non-virtual"><scope>Ms::Staff</scope><name>updateOttava</name></member>
+      <member refid="class_ms_1_1_staff_1a26169d6fb7842f43590c53d3dd58fc66" prot="public" virt="non-virtual"><scope>Ms::Staff</scope><name>userDist</name></member>
+      <member refid="class_ms_1_1_staff_1a6d163d36514d458bb2fae1758ef3efad" prot="public" virt="non-virtual"><scope>Ms::Staff</scope><name>userMag</name></member>
+      <member refid="class_ms_1_1_score_element_1acb1866df2e440923354fa5b1ee9d5f52" prot="public" virt="virtual"><scope>Ms::Staff</scope><name>userName</name></member>
+      <member refid="class_ms_1_1_staff_1a01b990d8f877661803268b9303b22d91" prot="public" virt="non-virtual"><scope>Ms::Staff</scope><name>velocities</name></member>
+      <member refid="class_ms_1_1_staff_1a430b2d551dab1be918fe840ff01e7a61" prot="public" virt="non-virtual"><scope>Ms::Staff</scope><name>write</name></member>
+      <member refid="class_ms_1_1_score_element_1a4ae6e7e095b8f672951ffc30f980c45d" prot="public" virt="non-virtual"><scope>Ms::Staff</scope><name>writeProperty</name></member>
+      <member refid="class_ms_1_1_score_element_1a7a3de180bd5a72ab3e27b7fbf9213567" prot="public" virt="non-virtual"><scope>Ms::Staff</scope><name>writeStyledProperties</name></member>
+      <member refid="class_ms_1_1_score_element_1abc6cbffe99d185a7262f86be05cf6365" prot="public" virt="virtual"><scope>Ms::Staff</scope><name>~ScoreElement</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

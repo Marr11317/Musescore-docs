@@ -1,0 +1,128 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.17">
+  <compounddef id="class_ms_1_1_clef_list" kind="class" language="C++" prot="public">
+    <compoundname>Ms::ClefList</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">std::map&lt; int, ClefTypeList &gt;</basecompoundref>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_ms_1_1_clef_list_1a333188340f07715a3f216a179f751b50" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>Ms::ClefList::ClefList</definition>
+        <argsstring>()</argsstring>
+        <name>ClefList</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/cleflist.h" line="29" column="7" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/cleflist.h" bodystart="29" bodyend="29"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ms_1_1_clef_list_1a5081a97f1fbb496f83cc6fa30071927d" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="struct_ms_1_1_clef_type_list" kindref="compound">ClefTypeList</ref></type>
+        <definition>ClefTypeList Ms::ClefList::clef</definition>
+        <argsstring>(int tick) const</argsstring>
+        <name>clef</name>
+        <param>
+          <type>int</type>
+          <declname>tick</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/cleflist.h" line="30" column="20" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/cleflist.cpp" bodystart="42" bodyend="50"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ms_1_1_clef_list_1a2c3a09abcd302547ceca3ca3729bc92b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Ms::ClefList::setClef</definition>
+        <argsstring>(int tick, ClefTypeList)</argsstring>
+        <name>setClef</name>
+        <param>
+          <type>int</type>
+          <declname>tick</declname>
+        </param>
+        <param>
+          <type><ref refid="struct_ms_1_1_clef_type_list" kindref="compound">ClefTypeList</ref></type>
+          <defname>ctl</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/cleflist.h" line="31" column="12" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/cleflist.cpp" bodystart="56" bodyend="63"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ms_1_1_clef_list_1a883c91be786e335b23e4e2d883294dba" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int Ms::ClefList::nextClefTick</definition>
+        <argsstring>(int tick) const</argsstring>
+        <name>nextClefTick</name>
+        <param>
+          <type>int</type>
+          <declname>tick</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/cleflist.h" line="32" column="11" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/cleflist.cpp" bodystart="72" bodyend="80"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ms_1_1_clef_list_1afcd7b07e93f9e44271ace1ccdff5fa34" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int Ms::ClefList::currentClefTick</definition>
+        <argsstring>(int tick) const</argsstring>
+        <name>currentClefTick</name>
+        <param>
+          <type>int</type>
+          <declname>tick</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/cleflist.h" line="33" column="11" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/cleflist.cpp" bodystart="89" bodyend="98"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>Ms::ClefList</label>
+        <link refid="class_ms_1_1_clef_list"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>std::map&lt; int, ClefTypeList &gt;</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>Ms::ClefList</label>
+        <link refid="class_ms_1_1_clef_list"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>std::map&lt; int, ClefTypeList &gt;</label>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/cleflist.h" line="27" column="33" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/cleflist.h" bodystart="27" bodyend="34"/>
+    <listofallmembers>
+      <member refid="class_ms_1_1_clef_list_1a5081a97f1fbb496f83cc6fa30071927d" prot="public" virt="non-virtual"><scope>Ms::ClefList</scope><name>clef</name></member>
+      <member refid="class_ms_1_1_clef_list_1a333188340f07715a3f216a179f751b50" prot="public" virt="non-virtual"><scope>Ms::ClefList</scope><name>ClefList</name></member>
+      <member refid="class_ms_1_1_clef_list_1afcd7b07e93f9e44271ace1ccdff5fa34" prot="public" virt="non-virtual"><scope>Ms::ClefList</scope><name>currentClefTick</name></member>
+      <member refid="class_ms_1_1_clef_list_1a883c91be786e335b23e4e2d883294dba" prot="public" virt="non-virtual"><scope>Ms::ClefList</scope><name>nextClefTick</name></member>
+      <member refid="class_ms_1_1_clef_list_1a2c3a09abcd302547ceca3ca3729bc92b" prot="public" virt="non-virtual"><scope>Ms::ClefList</scope><name>setClef</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,32 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.17">
+  <compounddef id="musescore_core_8h" kind="file" language="C++">
+    <compoundname>musescoreCore.h</compoundname>
+    <includedby refid="cmd_8cpp" local="yes">C:/Users/main/Documents/GitHub/MuseScore/libmscore/cmd.cpp</includedby>
+    <includedby refid="dynamic_8cpp" local="yes">C:/Users/main/Documents/GitHub/MuseScore/libmscore/dynamic.cpp</includedby>
+    <includedby refid="mscore_8cpp" local="yes">C:/Users/main/Documents/GitHub/MuseScore/libmscore/mscore.cpp</includedby>
+    <includedby refid="ottava_8cpp" local="yes">C:/Users/main/Documents/GitHub/MuseScore/libmscore/ottava.cpp</includedby>
+    <includedby refid="score_element_8cpp" local="yes">C:/Users/main/Documents/GitHub/MuseScore/libmscore/scoreElement.cpp</includedby>
+    <includedby refid="spanner_8cpp" local="yes">C:/Users/main/Documents/GitHub/MuseScore/libmscore/spanner.cpp</includedby>
+    <includedby refid="tempotext_8cpp" local="yes">C:/Users/main/Documents/GitHub/MuseScore/libmscore/tempotext.cpp</includedby>
+    <invincdepgraph>
+      <node id="1">
+        <label>C:/Users/main/Documents/GitHub/MuseScore/libmscore/musescoreCore.h</label>
+        <link refid="musescore_core_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>C:/Users/main/Documents/GitHub/MuseScore/libmscore/cmd.cpp</label>
+        <link refid="cmd_8cpp"/>
+      </node>
+    </invincdepgraph>
+    <innerclass refid="class_ms_1_1_muse_score_core" prot="public">Ms::MuseScoreCore</innerclass>
+    <innernamespace refid="namespace_ms">Ms</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/musescoreCore.h"/>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,368 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.17">
+  <compounddef id="class_ms_1_1_drumset" kind="class" language="C++" prot="public">
+    <compoundname>Ms::Drumset</compoundname>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_ms_1_1_drumset_1a19e00590fd33c3b8c95b1bc863e627bf" prot="private" static="no" mutable="no">
+        <type><ref refid="struct_ms_1_1_drum_instrument" kindref="compound">DrumInstrument</ref></type>
+        <definition>DrumInstrument Ms::Drumset::_drum[DRUM_INSTRUMENTS]</definition>
+        <argsstring>[DRUM_INSTRUMENTS]</argsstring>
+        <name>_drum</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/drumset.h" line="69" column="22" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/drumset.h" bodystart="69" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_ms_1_1_drumset_1a0c116c7a1faa14e7d3f5b583561f5245" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool Ms::Drumset::isValid</definition>
+        <argsstring>(int pitch) const</argsstring>
+        <name>isValid</name>
+        <param>
+          <type>int</type>
+          <declname>pitch</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/drumset.h" line="72" column="12" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/drumset.h" bodystart="72" bodyend="72"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ms_1_1_drumset_1a57e943db32934a5f5b85f56d6cc5dc47" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="class_ms_1_1_note_head_1a1d3e8faf3d3bc1d89d9d3485acde69d1" kindref="member">NoteHead::Group</ref></type>
+        <definition>NoteHead::Group Ms::Drumset::noteHead</definition>
+        <argsstring>(int pitch) const</argsstring>
+        <name>noteHead</name>
+        <param>
+          <type>int</type>
+          <declname>pitch</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/drumset.h" line="73" column="23" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/drumset.h" bodystart="73" bodyend="73"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ms_1_1_drumset_1aeb1d9b027161ed4f4c08f5c2abd2a642" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>SymId</type>
+        <definition>SymId Ms::Drumset::noteHeads</definition>
+        <argsstring>(int pitch, NoteHead::Type t) const</argsstring>
+        <name>noteHeads</name>
+        <param>
+          <type>int</type>
+          <declname>pitch</declname>
+        </param>
+        <param>
+          <type><ref refid="class_ms_1_1_note_head_1a31c343e7e7f09fee0246ef6a1d7a4e87" kindref="member">NoteHead::Type</ref></type>
+          <declname>t</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/drumset.h" line="74" column="13" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/drumset.h" bodystart="74" bodyend="74"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ms_1_1_drumset_1a19e7739fa57e35a79928fa58766d9c5a" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>int</type>
+        <definition>int Ms::Drumset::line</definition>
+        <argsstring>(int pitch) const</argsstring>
+        <name>line</name>
+        <param>
+          <type>int</type>
+          <declname>pitch</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/drumset.h" line="75" column="11" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/drumset.h" bodystart="75" bodyend="75"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ms_1_1_drumset_1a86efad5c5a2ed1b101524bed56206348" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>int</type>
+        <definition>int Ms::Drumset::voice</definition>
+        <argsstring>(int pitch) const</argsstring>
+        <name>voice</name>
+        <param>
+          <type>int</type>
+          <declname>pitch</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/drumset.h" line="76" column="11" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/drumset.h" bodystart="76" bodyend="76"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ms_1_1_drumset_1aba68558b6c961c97ae76fa3e05598c2b" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="namespace_ms_1a4ddd02afd2f797a6a269ddce7466a4d6" kindref="member">Direction</ref></type>
+        <definition>Direction Ms::Drumset::stemDirection</definition>
+        <argsstring>(int pitch) const</argsstring>
+        <name>stemDirection</name>
+        <param>
+          <type>int</type>
+          <declname>pitch</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/drumset.h" line="77" column="17" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/drumset.h" bodystart="77" bodyend="77"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ms_1_1_drumset_1a9ed7969405d138e3c73e900e625d6616" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>const QString &amp;</type>
+        <definition>const QString&amp; Ms::Drumset::name</definition>
+        <argsstring>(int pitch) const</argsstring>
+        <name>name</name>
+        <param>
+          <type>int</type>
+          <declname>pitch</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/drumset.h" line="78" column="21" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/drumset.h" bodystart="78" bodyend="78"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ms_1_1_drumset_1ad6a3f431032f633c89f985a6fe4b2f9e" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>int</type>
+        <definition>int Ms::Drumset::shortcut</definition>
+        <argsstring>(int pitch) const</argsstring>
+        <name>shortcut</name>
+        <param>
+          <type>int</type>
+          <declname>pitch</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/drumset.h" line="79" column="11" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/drumset.h" bodystart="79" bodyend="79"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ms_1_1_drumset_1a504b8f098cbe0b97c66e48a068f0f998" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>QList&lt; <ref refid="struct_ms_1_1_drum_instrument_variant" kindref="compound">DrumInstrumentVariant</ref> &gt;</type>
+        <definition>QList&lt;DrumInstrumentVariant&gt; Ms::Drumset::variants</definition>
+        <argsstring>(int pitch) const</argsstring>
+        <name>variants</name>
+        <param>
+          <type>int</type>
+          <declname>pitch</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/drumset.h" line="80" column="13" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/drumset.h" bodystart="80" bodyend="80"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ms_1_1_drumset_1a7c2612db79f51125ec40b8aad3615fa6" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Ms::Drumset::save</definition>
+        <argsstring>(XmlWriter &amp;) const</argsstring>
+        <name>save</name>
+        <param>
+          <type><ref refid="class_ms_1_1_xml_writer" kindref="compound">XmlWriter</ref> &amp;</type>
+          <defname>xml</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/drumset.h" line="82" column="12" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/drumset.cpp" bodystart="27" bodyend="84"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ms_1_1_drumset_1a316ec25b9cc704812e31c3b57e3645bf" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Ms::Drumset::load</definition>
+        <argsstring>(XmlReader &amp;)</argsstring>
+        <name>load</name>
+        <param>
+          <type><ref refid="class_ms_1_1_xml_reader" kindref="compound">XmlReader</ref> &amp;</type>
+          <defname>e</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/drumset.h" line="83" column="12" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/drumset.cpp" bodystart="147" bodyend="160"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ms_1_1_drumset_1ac0b10d79b243f217e792e985b74ec369" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool Ms::Drumset::readProperties</definition>
+        <argsstring>(XmlReader &amp;, int)</argsstring>
+        <name>readProperties</name>
+        <param>
+          <type><ref refid="class_ms_1_1_xml_reader" kindref="compound">XmlReader</ref> &amp;</type>
+          <defname>e</defname>
+        </param>
+        <param>
+          <type>int</type>
+          <defname>pitch</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/drumset.h" line="84" column="12" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/drumset.cpp" bodystart="86" bodyend="141"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ms_1_1_drumset_1a55a8c19f2c0e7903220050d1f781323e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Ms::Drumset::clear</definition>
+        <argsstring>()</argsstring>
+        <name>clear</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/drumset.h" line="85" column="12" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/drumset.cpp" bodystart="166" bodyend="174"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ms_1_1_drumset_1a135f92747ccc762fdb445b42bcfa2257" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int Ms::Drumset::nextPitch</definition>
+        <argsstring>(int) const</argsstring>
+        <name>nextPitch</name>
+        <param>
+          <type>int</type>
+          <defname>ii</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/drumset.h" line="86" column="11" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/drumset.cpp" bodystart="180" bodyend="191"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ms_1_1_drumset_1adb9ab2cf6f04d72290f32b1f4ba0a91b" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int Ms::Drumset::prevPitch</definition>
+        <argsstring>(int) const</argsstring>
+        <name>prevPitch</name>
+        <param>
+          <type>int</type>
+          <defname>ii</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/drumset.h" line="87" column="11" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/drumset.cpp" bodystart="197" bodyend="208"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ms_1_1_drumset_1a88a25740ddb6687aba3878db67346ed6" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="struct_ms_1_1_drum_instrument" kindref="compound">DrumInstrument</ref> &amp;</type>
+        <definition>DrumInstrument&amp; Ms::Drumset::drum</definition>
+        <argsstring>(int i)</argsstring>
+        <name>drum</name>
+        <param>
+          <type>int</type>
+          <declname>i</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/drumset.h" line="88" column="22" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/drumset.h" bodystart="88" bodyend="88"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ms_1_1_drumset_1adbe7e00fabc139b7090956935ae62f4b" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>const <ref refid="struct_ms_1_1_drum_instrument" kindref="compound">DrumInstrument</ref> &amp;</type>
+        <definition>const DrumInstrument&amp; Ms::Drumset::drum</definition>
+        <argsstring>(int i) const</argsstring>
+        <name>drum</name>
+        <param>
+          <type>int</type>
+          <declname>i</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/drumset.h" line="89" column="28" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/drumset.h" bodystart="89" bodyend="89"/>
+      </memberdef>
+      <memberdef kind="function" id="class_ms_1_1_drumset_1ab1af27355bc1df429be13f28ebf717b4" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="struct_ms_1_1_drum_instrument_variant" kindref="compound">DrumInstrumentVariant</ref></type>
+        <definition>DrumInstrumentVariant Ms::Drumset::findVariant</definition>
+        <argsstring>(int pitch, const QVector&lt; Articulation * &gt; articulations, Tremolo *tremolo) const</argsstring>
+        <name>findVariant</name>
+        <param>
+          <type>int</type>
+          <declname>pitch</declname>
+        </param>
+        <param>
+          <type>const QVector&lt; <ref refid="class_ms_1_1_articulation" kindref="compound">Articulation</ref> * &gt;</type>
+          <declname>articulations</declname>
+        </param>
+        <param>
+          <type><ref refid="class_ms_1_1_tremolo" kindref="compound">Tremolo</ref> *</type>
+          <declname>tremolo</declname>
+        </param>
+        <briefdescription>
+<para>find a variant for the given pitch with matching chord articulation and tremolo </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/drumset.h" line="90" column="29" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/drumset.cpp" bodystart="215" bodyend="233"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/drumset.h" line="68" column="14" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/drumset.h" bodystart="68" bodyend="91"/>
+    <listofallmembers>
+      <member refid="class_ms_1_1_drumset_1a19e00590fd33c3b8c95b1bc863e627bf" prot="private" virt="non-virtual"><scope>Ms::Drumset</scope><name>_drum</name></member>
+      <member refid="class_ms_1_1_drumset_1a55a8c19f2c0e7903220050d1f781323e" prot="public" virt="non-virtual"><scope>Ms::Drumset</scope><name>clear</name></member>
+      <member refid="class_ms_1_1_drumset_1a88a25740ddb6687aba3878db67346ed6" prot="public" virt="non-virtual"><scope>Ms::Drumset</scope><name>drum</name></member>
+      <member refid="class_ms_1_1_drumset_1adbe7e00fabc139b7090956935ae62f4b" prot="public" virt="non-virtual"><scope>Ms::Drumset</scope><name>drum</name></member>
+      <member refid="class_ms_1_1_drumset_1ab1af27355bc1df429be13f28ebf717b4" prot="public" virt="non-virtual"><scope>Ms::Drumset</scope><name>findVariant</name></member>
+      <member refid="class_ms_1_1_drumset_1a0c116c7a1faa14e7d3f5b583561f5245" prot="public" virt="non-virtual"><scope>Ms::Drumset</scope><name>isValid</name></member>
+      <member refid="class_ms_1_1_drumset_1a19e7739fa57e35a79928fa58766d9c5a" prot="public" virt="non-virtual"><scope>Ms::Drumset</scope><name>line</name></member>
+      <member refid="class_ms_1_1_drumset_1a316ec25b9cc704812e31c3b57e3645bf" prot="public" virt="non-virtual"><scope>Ms::Drumset</scope><name>load</name></member>
+      <member refid="class_ms_1_1_drumset_1a9ed7969405d138e3c73e900e625d6616" prot="public" virt="non-virtual"><scope>Ms::Drumset</scope><name>name</name></member>
+      <member refid="class_ms_1_1_drumset_1a135f92747ccc762fdb445b42bcfa2257" prot="public" virt="non-virtual"><scope>Ms::Drumset</scope><name>nextPitch</name></member>
+      <member refid="class_ms_1_1_drumset_1a57e943db32934a5f5b85f56d6cc5dc47" prot="public" virt="non-virtual"><scope>Ms::Drumset</scope><name>noteHead</name></member>
+      <member refid="class_ms_1_1_drumset_1aeb1d9b027161ed4f4c08f5c2abd2a642" prot="public" virt="non-virtual"><scope>Ms::Drumset</scope><name>noteHeads</name></member>
+      <member refid="class_ms_1_1_drumset_1adb9ab2cf6f04d72290f32b1f4ba0a91b" prot="public" virt="non-virtual"><scope>Ms::Drumset</scope><name>prevPitch</name></member>
+      <member refid="class_ms_1_1_drumset_1ac0b10d79b243f217e792e985b74ec369" prot="public" virt="non-virtual"><scope>Ms::Drumset</scope><name>readProperties</name></member>
+      <member refid="class_ms_1_1_drumset_1a7c2612db79f51125ec40b8aad3615fa6" prot="public" virt="non-virtual"><scope>Ms::Drumset</scope><name>save</name></member>
+      <member refid="class_ms_1_1_drumset_1ad6a3f431032f633c89f985a6fe4b2f9e" prot="public" virt="non-virtual"><scope>Ms::Drumset</scope><name>shortcut</name></member>
+      <member refid="class_ms_1_1_drumset_1aba68558b6c961c97ae76fa3e05598c2b" prot="public" virt="non-virtual"><scope>Ms::Drumset</scope><name>stemDirection</name></member>
+      <member refid="class_ms_1_1_drumset_1a504b8f098cbe0b97c66e48a068f0f998" prot="public" virt="non-virtual"><scope>Ms::Drumset</scope><name>variants</name></member>
+      <member refid="class_ms_1_1_drumset_1a86efad5c5a2ed1b101524bed56206348" prot="public" virt="non-virtual"><scope>Ms::Drumset</scope><name>voice</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

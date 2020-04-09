@@ -1,0 +1,236 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.17">
+  <compounddef id="class_ms_1_1_change_staff" kind="class" language="C++" prot="public">
+    <compoundname>Ms::ChangeStaff</compoundname>
+    <basecompoundref refid="class_ms_1_1_undo_command" prot="public" virt="non-virtual">Ms::UndoCommand</basecompoundref>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_ms_1_1_change_staff_1a442f0a055231f44545ad8ba2eb83fe35" prot="private" static="no" mutable="no">
+        <type><ref refid="class_ms_1_1_staff" kindref="compound">Staff</ref> *</type>
+        <definition>Staff* Ms::ChangeStaff::staff</definition>
+        <argsstring></argsstring>
+        <name>staff</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/undo.h" line="620" column="15" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/undo.h" bodystart="620" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_ms_1_1_change_staff_1ac272bc2ab616714ae87c30eb15de2897" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool Ms::ChangeStaff::invisible</definition>
+        <argsstring></argsstring>
+        <name>invisible</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/undo.h" line="621" column="16" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/undo.h" bodystart="621" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_ms_1_1_change_staff_1a985accbed187fec618a5856befd989e9" prot="private" static="no" mutable="no">
+        <type><ref refid="struct_ms_1_1_clef_type_list" kindref="compound">ClefTypeList</ref></type>
+        <definition>ClefTypeList Ms::ChangeStaff::clefType</definition>
+        <argsstring></argsstring>
+        <name>clefType</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/undo.h" line="622" column="20" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/undo.h" bodystart="622" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_ms_1_1_change_staff_1adc86312f897450a81375519c35a3d86f" prot="private" static="no" mutable="no">
+        <type>qreal</type>
+        <definition>qreal Ms::ChangeStaff::userDist</definition>
+        <argsstring></argsstring>
+        <name>userDist</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/undo.h" line="623" column="16" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/undo.h" bodystart="623" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_ms_1_1_change_staff_1af4b1b7967a4edaca1371eb1a803d3859" prot="private" static="no" mutable="no">
+        <type>Staff::HideMode</type>
+        <definition>Staff::HideMode Ms::ChangeStaff::hideMode</definition>
+        <argsstring></argsstring>
+        <name>hideMode</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/undo.h" line="624" column="23" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/undo.h" bodystart="624" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_ms_1_1_change_staff_1ad7e6c0638a8b81739411af2f0fcbbc8d" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool Ms::ChangeStaff::showIfEmpty</definition>
+        <argsstring></argsstring>
+        <name>showIfEmpty</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/undo.h" line="625" column="16" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/undo.h" bodystart="625" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_ms_1_1_change_staff_1a4e5c00c43496defbb07c9099d38680ec" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool Ms::ChangeStaff::cutaway</definition>
+        <argsstring></argsstring>
+        <name>cutaway</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/undo.h" line="626" column="16" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/undo.h" bodystart="626" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_ms_1_1_change_staff_1acfa6f2cba8d8744f5d80b3342f3a3256" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool Ms::ChangeStaff::hideSystemBarLine</definition>
+        <argsstring></argsstring>
+        <name>hideSystemBarLine</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/undo.h" line="627" column="16" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/undo.h" bodystart="627" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_ms_1_1_change_staff_1a5f89c563c5b290faed96af8afb9e2e29" prot="private" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void Ms::ChangeStaff::flip</definition>
+        <argsstring>(EditData *) override</argsstring>
+        <name>flip</name>
+        <reimplements refid="class_ms_1_1_undo_command_1a861162fe6c105a00dfec5a5b70a690a5">flip</reimplements>
+        <param>
+          <type><ref refid="class_ms_1_1_edit_data" kindref="compound">EditData</ref> *</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/undo.h" line="629" column="12" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/undo.cpp" bodystart="1535" bodyend="1571"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_ms_1_1_change_staff_1a16412c97633b0e5c8e7273b6ecbf1161" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>Ms::ChangeStaff::ChangeStaff</definition>
+        <argsstring>(Staff *, bool invisible, ClefTypeList _clefType, qreal userDist, Staff::HideMode _hideMode, bool _showIfEmpty, bool _cutaway, bool hide)</argsstring>
+        <name>ChangeStaff</name>
+        <param>
+          <type><ref refid="class_ms_1_1_staff" kindref="compound">Staff</ref> *</type>
+          <defname>_staff</defname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>invisible</declname>
+        </param>
+        <param>
+          <type><ref refid="struct_ms_1_1_clef_type_list" kindref="compound">ClefTypeList</ref></type>
+          <declname>_clefType</declname>
+        </param>
+        <param>
+          <type>qreal</type>
+          <declname>userDist</declname>
+        </param>
+        <param>
+          <type>Staff::HideMode</type>
+          <declname>_hideMode</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>_showIfEmpty</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>_cutaway</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>hide</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/undo.h" line="632" column="7" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/undo.cpp" bodystart="1518" bodyend="1529"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>Ms::ChangeStaff</label>
+        <link refid="class_ms_1_1_change_staff"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>Ms::UndoCommand</label>
+        <link refid="class_ms_1_1_undo_command"/>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>Ms::ChangeStaff</label>
+        <link refid="class_ms_1_1_change_staff"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>Ms::UndoCommand</label>
+        <link refid="class_ms_1_1_undo_command"/>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/main/Documents/GitHub/MuseScore/libmscore/undo.h" line="619" column="37" bodyfile="C:/Users/main/Documents/GitHub/MuseScore/libmscore/undo.h" bodystart="619" bodyend="635"/>
+    <listofallmembers>
+      <member refid="class_ms_1_1_undo_command_1a0f5b568325d235501e5cc197b7a4d4c8" prot="public" virt="non-virtual"><scope>Ms::ChangeStaff</scope><name>appendChild</name></member>
+      <member refid="class_ms_1_1_undo_command_1adbc9ce586560a1ca06f83bb38d04c4f0" prot="protected" virt="non-virtual"><scope>Ms::ChangeStaff</scope><name>appendChildren</name></member>
+      <member refid="class_ms_1_1_change_staff_1a16412c97633b0e5c8e7273b6ecbf1161" prot="public" virt="non-virtual"><scope>Ms::ChangeStaff</scope><name>ChangeStaff</name></member>
+      <member refid="class_ms_1_1_undo_command_1a701d710e19f4d356f2b12d093729d295" prot="public" virt="non-virtual"><scope>Ms::ChangeStaff</scope><name>childCount</name></member>
+      <member refid="class_ms_1_1_undo_command_1a0bbdf4bc79885d76228b155599fb46ce" prot="public" virt="virtual"><scope>Ms::ChangeStaff</scope><name>cleanup</name></member>
+      <member refid="class_ms_1_1_change_staff_1a985accbed187fec618a5856befd989e9" prot="private" virt="non-virtual"><scope>Ms::ChangeStaff</scope><name>clefType</name></member>
+      <member refid="class_ms_1_1_undo_command_1a4cdbb50e02a38b3c0b259e8bb6b58bca" prot="public" virt="non-virtual"><scope>Ms::ChangeStaff</scope><name>commands</name></member>
+      <member refid="class_ms_1_1_change_staff_1a4e5c00c43496defbb07c9099d38680ec" prot="private" virt="non-virtual"><scope>Ms::ChangeStaff</scope><name>cutaway</name></member>
+      <member refid="class_ms_1_1_undo_command_1a7c3fae86b0c593d95eb2acf44348b425" prot="public" virt="non-virtual"><scope>Ms::ChangeStaff</scope><name>Filter</name></member>
+      <member refid="class_ms_1_1_undo_command_1a850e4c72c907bce1aed4b7d318ddf626" prot="public" virt="non-virtual"><scope>Ms::ChangeStaff</scope><name>filterChildren</name></member>
+      <member refid="class_ms_1_1_change_staff_1a5f89c563c5b290faed96af8afb9e2e29" prot="private" virt="virtual"><scope>Ms::ChangeStaff</scope><name>flip</name></member>
+      <member refid="class_ms_1_1_undo_command_1a09b5c550fffd0dfe1e38490c7f0de8e4" prot="public" virt="non-virtual"><scope>Ms::ChangeStaff</scope><name>hasFilteredChildren</name></member>
+      <member refid="class_ms_1_1_undo_command_1a7131c9beb9c694ef3f0d8235f4e2892a" prot="public" virt="non-virtual"><scope>Ms::ChangeStaff</scope><name>hasUnfilteredChildren</name></member>
+      <member refid="class_ms_1_1_change_staff_1af4b1b7967a4edaca1371eb1a803d3859" prot="private" virt="non-virtual"><scope>Ms::ChangeStaff</scope><name>hideMode</name></member>
+      <member refid="class_ms_1_1_change_staff_1acfa6f2cba8d8744f5d80b3342f3a3256" prot="private" virt="non-virtual"><scope>Ms::ChangeStaff</scope><name>hideSystemBarLine</name></member>
+      <member refid="class_ms_1_1_change_staff_1ac272bc2ab616714ae87c30eb15de2897" prot="private" virt="non-virtual"><scope>Ms::ChangeStaff</scope><name>invisible</name></member>
+      <member refid="class_ms_1_1_undo_command_1a7e84d54e5b22eeeb9646c8a86fc2a0cb" prot="public" virt="virtual"><scope>Ms::ChangeStaff</scope><name>isFiltered</name></member>
+      <member refid="class_ms_1_1_undo_command_1acdd15da86ef5878bc98ef2be084cc4be" prot="public" virt="virtual"><scope>Ms::ChangeStaff</scope><name>name</name></member>
+      <member refid="class_ms_1_1_undo_command_1a7fccbb0cf027a5e3b43176a5e0213f75" prot="public" virt="virtual"><scope>Ms::ChangeStaff</scope><name>redo</name></member>
+      <member refid="class_ms_1_1_undo_command_1ad645cbed278b04cea2164006b52c4d8f" prot="public" virt="non-virtual"><scope>Ms::ChangeStaff</scope><name>removeChild</name></member>
+      <member refid="class_ms_1_1_change_staff_1ad7e6c0638a8b81739411af2f0fcbbc8d" prot="private" virt="non-virtual"><scope>Ms::ChangeStaff</scope><name>showIfEmpty</name></member>
+      <member refid="class_ms_1_1_change_staff_1a442f0a055231f44545ad8ba2eb83fe35" prot="private" virt="non-virtual"><scope>Ms::ChangeStaff</scope><name>staff</name></member>
+      <member refid="class_ms_1_1_undo_command_1a42a2038f903e77e6bb5881209b764186" prot="public" virt="virtual"><scope>Ms::ChangeStaff</scope><name>undo</name></member>
+      <member refid="class_ms_1_1_undo_command_1abc893037b5a33408c25552b8579debe4" prot="public" virt="non-virtual"><scope>Ms::ChangeStaff</scope><name>unwind</name></member>
+      <member refid="class_ms_1_1_change_staff_1adc86312f897450a81375519c35a3d86f" prot="private" virt="non-virtual"><scope>Ms::ChangeStaff</scope><name>userDist</name></member>
+      <member refid="class_ms_1_1_undo_command_1ad4aec6e8dbb0e92bd2b8be2ebd79b9df" prot="public" virt="virtual"><scope>Ms::ChangeStaff</scope><name>~UndoCommand</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>
