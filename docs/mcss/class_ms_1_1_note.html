@@ -5,7 +5,7 @@
   <title>Ms::Note class | Musescore</title>
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,400i,600,600i%7CSource+Code+Pro:400,400i,600" />
   <link rel="stylesheet" href="m-dark+documentation.compiled.css" />
-  <link rel="icon" href="musescore-icon-round-24.png" type="image/png" />
+  <link rel="icon" href="musescore-icon-round-48.png" type="image/png" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <meta name="theme-color" content="#22272e" />
 </head>
@@ -13,7 +13,7 @@
 <header><nav id="navigation">
   <div class="m-container">
     <div class="m-row">
-      <a href="index.html" id="m-navbar-brand" class="m-col-t-8 m-col-m-none m-left-m"><img src="musescore-icon-round-24.png" />Musescore</a>
+      <a href="index.html" id="m-navbar-brand" class="m-col-t-8 m-col-m-none m-left-m"><img src="musescore-icon-round-48.png" />Musescore</a>
       <div class="m-col-t-4 m-hide-m m-text-right m-nopadr">
         <a href="#search" class="m-doc-search-icon" title="Search" onclick="return showSearch()"><svg style="height: 0.9rem;" viewBox="0 0 16 16">
           <path id="m-doc-search-icon-path" d="m6 0c-3.31 0-6 2.69-6 6 0 3.31 2.69 6 6 6 1.49 0 2.85-0.541 3.89-1.44-0.0164 0.338 0.147 0.759 0.5 1.15l3.22 3.79c0.552 0.614 1.45 0.665 2 0.115 0.55-0.55 0.499-1.45-0.115-2l-3.79-3.22c-0.392-0.353-0.812-0.515-1.15-0.5 0.895-1.05 1.44-2.41 1.44-3.89 0-3.31-2.69-6-6-6zm0 1.56a4.44 4.44 0 0 1 4.44 4.44 4.44 4.44 0 0 1-4.44 4.44 4.44 4.44 0 0 1-4.44-4.44 4.44 4.44 0 0 1 4.44-4.44z"/>
@@ -57,6 +57,7 @@
                 <li><a href="#base-classes">Base classes</a></li>
                 <li><a href="#pub-methods">Public functions</a></li>
                 <li><a href="#pri-methods">Private functions</a></li>
+                <li><a href="#pri-attribs">Private variables</a></li>
               </ul>
             </li>
           </ul>
@@ -104,6 +105,71 @@
             <dd>Return update <a href="class_ms_1_1_rect.html" class="m-doc">Rect</a> relative to canvas.</dd>
           </dl>
         </section>
+        <section id="pri-attribs">
+          <h2><a href="#pri-attribs">Private variables</a></h2>
+          <dl class="m-doc">
+            <dt id="a82f89769c154f7c0402f4d4c9b269d1e">
+              bool <a href="#a82f89769c154f7c0402f4d4c9b269d1e" class="m-doc-self">_ghost</a>
+            </dt>
+            <dd>ghost note (guitar: death note)</dd>
+            <dt>
+              bool <a href="#a838190bc6bf3491829701b5bdb7f0088" class="m-doc">_hidden</a>
+            </dt>
+            <dd></dd>
+            <dt>
+              bool <a href="#a17fc157c47cfe59de8d7f1e97f329a07" class="m-doc">_dotsHidden</a>
+            </dt>
+            <dd></dd>
+            <dt>
+              bool <a href="#a7d8cb073406dbebf247cfb719d894ad5" class="m-doc">_fretConflict</a>
+            </dt>
+            <dd></dd>
+            <dt id="aef7648ca764fb321324ad95ccc16ad5a">
+              bool <a href="#aef7648ca764fb321324ad95ccc16ad5a" class="m-doc-self">_mirror</a>
+            </dt>
+            <dd>True if note is mirrored at stem.</dd>
+            <dt id="ac1d1c05d4511c61a3f172f44d928e4bf">
+              <a href="class_ms_1_1_m_score.html#ac1a0c95bfede9e37dd3fd910905092b8" class="m-doc">MScore::<wbr />DirectionH</a> <a href="#ac1d1c05d4511c61a3f172f44d928e4bf" class="m-doc-self">_userMirror</a>
+            </dt>
+            <dd>user override of mirror</dd>
+            <dt id="a9bd59650e101cb8ad4249d2841322386">
+              <a href="namespace_ms.html#a4ddd02afd2f797a6a269ddce7466a4d6" class="m-doc">Direction</a> <a href="#a9bd59650e101cb8ad4249d2841322386" class="m-doc-self">_userDotPosition</a>
+            </dt>
+            <dd>user override of dot position</dd>
+            <dt id="acb2e0ed7f471e1243485bb66a9596e5a">
+              int <a href="#acb2e0ed7f471e1243485bb66a9596e5a" class="m-doc-self">_subchannel</a>
+            </dt>
+            <dd>articulation</dd>
+            <dt id="ab406438ffdcc3ad93a3128accffb7204">
+              int <a href="#ab406438ffdcc3ad93a3128accffb7204" class="m-doc-self">_line</a>
+            </dt>
+            <dd>y-Position; 0 - top line.</dd>
+            <dt id="ada115f349c9b2a257d3e2b2a12c728b1">
+              int <a href="#ada115f349c9b2a257d3e2b2a12c728b1" class="m-doc-self">_fret</a>
+            </dt>
+            <dd>for tablature view</dd>
+            <dt id="a3f76ec52c413e52e650d7c2b9c669903">
+              int <a href="#a3f76ec52c413e52e650d7c2b9c669903" class="m-doc-self">_tpc</a>
+            </dt>
+            <dd>tonal pitch class (concert/transposing)</dd>
+            <dt id="a7ef842fb7bb6b58a00f840e9c05d6232">
+              int <a href="#a7ef842fb7bb6b58a00f840e9c05d6232" class="m-doc-self">_pitch</a>
+            </dt>
+            <dd><a href="class_ms_1_1_note.html" class="m-doc">Note</a> pitch as midi value (0 - 127).</dd>
+            <dt id="a7c7786e2364892ac38620ca2475a71f9">
+              int <a href="#a7c7786e2364892ac38620ca2475a71f9" class="m-doc-self">_veloOffset</a>
+            </dt>
+            <dd>velocity user offset in percent, or absolute velocity for this note</dd>
+            <dt id="ae9b4f2292c0d4618bff0cf433da7fabc">
+              qreal <a href="#ae9b4f2292c0d4618bff0cf433da7fabc" class="m-doc-self">_tuning</a>
+            </dt>
+            <dd>pitch offset in cent, playable only by internal synthesizer</dd>
+            <dt id="ac44ce739c66738ccf39400b3bcec1779">
+              <a href="class_ms_1_1_element_list.html" class="m-doc">ElementList</a> <a href="#ac44ce739c66738ccf39400b3bcec1779" class="m-doc-self">_el</a>
+            </dt>
+            <dd>fingering, other text, symbols or images</dd>
+          </dl>
+        </section>
         <section>
           <h2>Function documentation</h2>
           <section class="m-doc-details" id="abaffbc8698b96263bb1d9b3f4b69c63e"><div>
@@ -117,6 +183,27 @@
               <span class="m-doc-wrap-bumper"><a href="class_ms_1_1_element.html" class="m-doc">Element</a>* Ms::<wbr />Note::<wbr /></span><span class="m-doc-wrap"><span class="m-doc-wrap-bumper"><a href="#a2a3d7532f4f1e494c854a30933b223a5" class="m-doc-self">drop</a>(</span><span class="m-doc-wrap"><a href="class_ms_1_1_edit_data.html" class="m-doc">EditData</a>&amp;) <span class="m-label m-warning">override</span></span></span>
             </h3>
 <p>Handle a dropped element at canvas relative <em>pos</em> of given element <em>type</em> and <em>subtype</em>. Returns dropped element if any. The ownership of element in DropData is transferred to the called element (if not used, element has to be deleted). The returned element will be selected if not in note edit mode.</p><p>Reimplemented by elements that accept drops.</p>
+          </div></section>
+        </section>
+        <section>
+          <h2>Variable documentation</h2>
+          <section class="m-doc-details" id="a838190bc6bf3491829701b5bdb7f0088"><div>
+            <h3>
+              bool Ms::<wbr />Note::<wbr /><a href="#a838190bc6bf3491829701b5bdb7f0088" class="m-doc-self">_hidden</a>
+            </h3>
+<p>marks this note as the hidden one if there are overlapping notes; hidden notes are not played and heads + accidentals are not shown</p>
+          </div></section>
+          <section class="m-doc-details" id="a17fc157c47cfe59de8d7f1e97f329a07"><div>
+            <h3>
+              bool Ms::<wbr />Note::<wbr /><a href="#a17fc157c47cfe59de8d7f1e97f329a07" class="m-doc-self">_dotsHidden</a>
+            </h3>
+<p>dots of hidden notes are hidden too except if only one note is dotted</p>
+          </div></section>
+          <section class="m-doc-details" id="a7d8cb073406dbebf247cfb719d894ad5"><div>
+            <h3>
+              bool Ms::<wbr />Note::<wbr /><a href="#a7d8cb073406dbebf247cfb719d894ad5" class="m-doc-self">_fretConflict</a>
+            </h3>
+<p>used by TAB staves to mark a fretting conflict: two or more notes on the same string</p>
           </div></section>
         </section>
       </div>

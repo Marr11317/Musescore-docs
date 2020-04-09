@@ -5,7 +5,7 @@
   <title>Ms::Element class | Musescore</title>
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,400i,600,600i%7CSource+Code+Pro:400,400i,600" />
   <link rel="stylesheet" href="m-dark+documentation.compiled.css" />
-  <link rel="icon" href="musescore-icon-round-24.png" type="image/png" />
+  <link rel="icon" href="musescore-icon-round-48.png" type="image/png" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <meta name="theme-color" content="#22272e" />
 </head>
@@ -13,7 +13,7 @@
 <header><nav id="navigation">
   <div class="m-container">
     <div class="m-row">
-      <a href="index.html" id="m-navbar-brand" class="m-col-t-8 m-col-m-none m-left-m"><img src="musescore-icon-round-24.png" />Musescore</a>
+      <a href="index.html" id="m-navbar-brand" class="m-col-t-8 m-col-m-none m-left-m"><img src="musescore-icon-round-48.png" />Musescore</a>
       <div class="m-col-t-4 m-hide-m m-text-right m-nopadr">
         <a href="#search" class="m-doc-search-icon" title="Search" onclick="return showSearch()"><svg style="height: 0.9rem;" viewBox="0 0 16 16">
           <path id="m-doc-search-icon-path" d="m6 0c-3.31 0-6 2.69-6 6 0 3.31 2.69 6 6 6 1.49 0 2.85-0.541 3.89-1.44-0.0164 0.338 0.147 0.759 0.5 1.15l3.22 3.79c0.552 0.614 1.45 0.665 2 0.115 0.55-0.55 0.499-1.45-0.115-2l-3.79-3.22c-0.392-0.353-0.812-0.515-1.15-0.5 0.895-1.05 1.44-2.41 1.44-3.89 0-3.31-2.69-6-6-6zm0 1.56a4.44 4.44 0 0 1 4.44 4.44 4.44 4.44 0 0 1-4.44 4.44 4.44 4.44 0 0 1-4.44-4.44 4.44 4.44 0 0 1 4.44-4.44z"/>
@@ -57,6 +57,7 @@
                 <li><a href="#pub-methods">Public functions</a></li>
                 <li><a href="#pub-attribs">Public variables</a></li>
                 <li><a href="#pro-attribs">Protected variables</a></li>
+                <li><a href="#pri-attribs">Private variables</a></li>
               </ul>
             </li>
           </ul>
@@ -200,6 +201,51 @@
               QColor <a href="#a85687d7e7b049c00327023c7306cec14" class="m-doc-self">_color</a>
             </dt>
             <dd>element color attribute</dd>
+          </dl>
+        </section>
+        <section id="pri-attribs">
+          <h2><a href="#pri-attribs">Private variables</a></h2>
+          <dl class="m-doc">
+            <dt id="a0ea4f496e842d1c2a781834a477e35b4">
+              QRectF <a href="#a0ea4f496e842d1c2a781834a477e35b4" class="m-doc-self">_bbox</a>
+            </dt>
+            <dd>Bounding box relative to _pos + _offset.</dd>
+            <dt id="aaf7f5a15f211612873e7afb099270d9f">
+              qreal <a href="#aaf7f5a15f211612873e7afb099270d9f" class="m-doc-self">_mag</a>
+            </dt>
+            <dd>standard magnification (derived value)</dd>
+            <dt id="a2c0a60e95af1f82ef86b1371eb5f5928">
+              QPointF <a href="#a2c0a60e95af1f82ef86b1371eb5f5928" class="m-doc-self">_pos</a>
+            </dt>
+            <dd>Reference position, relative to _parent, set by autoplace.</dd>
+            <dt id="ac458bdcf91f9ca755eafc47516f9834d">
+              QPointF <a href="#ac458bdcf91f9ca755eafc47516f9834d" class="m-doc-self">_offset</a>
+            </dt>
+            <dd>offset from reference position, set by autoplace or user</dd>
+            <dt id="ab01937b692989c9bdd380ef7257d6ea9">
+              OffsetChange <a href="#ab01937b692989c9bdd380ef7257d6ea9" class="m-doc-self">_offsetChanged</a>
+            </dt>
+            <dd>set by user actions that change offset, used by autoplace</dd>
+            <dt id="a6981731ab7b151c0340b28db1ce1dbfb">
+              QPointF <a href="#a6981731ab7b151c0340b28db1ce1dbfb" class="m-doc-self">_changedPos</a>
+            </dt>
+            <dd>position set when changing offset</dd>
+            <dt id="ae047493de79395ea7f7ad0223f16737b">
+              <a href="class_ms_1_1_spatium.html" class="m-doc">Spatium</a> <a href="#ae047493de79395ea7f7ad0223f16737b" class="m-doc-self">_minDistance</a>
+            </dt>
+            <dd>autoplace min distance</dd>
+            <dt id="aa68d232a17f437f54a9851295aa87563">
+              int <a href="#aa68d232a17f437f54a9851295aa87563" class="m-doc-self">_track</a>
+            </dt>
+            <dd>staffIdx * VOICES + voice</dd>
+            <dt id="a9a4144d61922d36d3ca86999df012f3d">
+              ElementFlags <a href="#a9a4144d61922d36d3ca86999df012f3d" class="m-doc-self">_flags</a>
+            </dt>
+            <dd>valid after call to layout()</dd>
+            <dt id="a9ec4a251dbcbd9f7d00999a9621b1109">
+              uint <a href="#a9ec4a251dbcbd9f7d00999a9621b1109" class="m-doc-self">_tag</a>
+            </dt>
+            <dd>tag bitmask</dd>
           </dl>
         </section>
         <section>
